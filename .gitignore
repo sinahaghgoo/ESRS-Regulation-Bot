@@ -1,0 +1,79 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Virtual environments
+venv_rag/
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Environment variables
+.env
+.env.local
+
+# Index and cache files
+index/
+*.faiss
+*.pkl
+*.npy
+embeddings_cache.pkl
+
+# ChromaDB files
+chromadb/
+data/artifacts/chromadb/
+*.sqlite3
+*.bin
+*.pickle
+
+# Evaluation results
+evaluation_results.json
+evaluation_metrics.csv
+qualitative_analysis.csv
+summary_statistics.csv
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Qdrant
+qdrant_storage/
+data/artifacts/qdrant/
+
+# chunks
+data/artifacts/chunks/
+
+# embeddings
+data/artifacts/embeddings/
+
+# testing
+testing/
+
