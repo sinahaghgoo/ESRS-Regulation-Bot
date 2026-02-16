@@ -2,10 +2,10 @@
   "standard": "ESRS S4",
   "title": "CONSUMERS AND END-USERS",
   "objective": {
-    "1": "The objective of this Standard is to specify disclosure requirements which will enable users of the sustainability statement to understand material impacts on consumers and end-users connected with the undertaking's own operations and value chain, including through its products or services, as well as through its business relationships, and its related material risks and opportunities, including: (a) how the undertaking affects the consumers and/or end-users of its products and/or services (referred to in this Standard as \"consumers and end-users\"), in terms of material positive and negative actual or potential impacts; (b) any actions taken, and the result of such actions, to prevent, mitigate or remediate actual or potential negative impacts, and to address risks and opportunities; (c) the nature, type and extent of the undertaking's material risks and opportunities related to its impacts and dependencies on consumers and end-users, and how the undertaking manages such risks and opportunities; and (d) the financial effects on the undertaking over the short-, medium- and long-term of material risks and opportunities arising from the undertaking's impacts and dependencies on consumers and/or end-users.",
+    "1": "The objective of this Standard is to specify disclosure requirements which will enable users of the sustainability statement to understand material impacts on consumers and end-users connected with the undertaking’s own operations and value chain, including through its products or services, as well as through its business relationships, and its related material risks and opportunities, including: (a) how the undertaking affects the consumers and/or end-users of its products and/or services (referred to in this Standard as “consumers and end-users”), in terms of material positive and negative actual or potential impacts; (b) any actions taken, and the result of such actions, to prevent, mitigate or remediate actual or potential negative impacts, and to address risks and opportunities; (c) the nature, type and extent of the undertaking’s material risks and opportunities related to its impacts and dependencies on consumers and end-users, and how the undertaking manages such risks and opportunities; and (d) the financial effects on the undertaking over the short-, medium- and long-term of material risks and opportunities arising from the undertaking’s impacts and dependencies on consumers and/or end-users.",
     "2": "In order to meet the objective, this Standard requires an explanation of the general approach the undertaking takes to identify and manage any material actual and potential impacts on the consumers and/or end-users related to its products and/or services in relation to: (a) information-related impacts on consumers and/or end-users (for example, privacy, freedom of expression and access to (quality) information; (b) personal safety of consumers and/or end-users (for example, health and safety, security of a person and protection of children); (c) social inclusion of consumers and/or end-users (for example, non-discrimination, access to products and services and responsible marketing practices).",
-    "3": "This Standard also requires an explanation of how such impacts, as well as the undertaking's dependencies on consumers and/or end-users, can create material risks or opportunities for the undertaking. For example, negative impacts on the reputation of the undertaking's products and/or services can be detrimental to its business performance, while trust in products and/or services can bring business benefits, such as increased sales or widening of the future consumer base.",
-    "4": "The unlawful use or misuse of the undertaking's products and services by consumers and end-users fall outside the scope of this standard."
+    "3": "This Standard also requires an explanation of how such impacts, as well as the undertaking’s dependencies on consumers and/or end-users, can create material risks or opportunities for the undertaking. For example, negative impacts on the reputation of the undertaking’s products and/or services can be detrimental to its business performance, while trust in products and/or services can bring business benefits, such as increased sales or widening of the future consumer base.",
+    "4": "The unlawful use or misuse of the undertaking’s products and services by consumers and end-users fall outside the scope of this standard."
   },
   "content": [
     {
@@ -27,9 +27,6 @@
         }
       ],
       "subsections": [
-        {
-          "title": "ESRS 2 General Disclosures"
-        },
         {
           "title": "Strategy",
           "subsections": [
@@ -61,7 +58,7 @@
           ]
         },
         {
-          "title": "Impacts, risks and opportunities management",
+          "title": "Impact, risk and opportunity management",
           "subsections": [
             {
               "title": "Disclosure Requirement S4-1 – Policies related to consumers and end-users",
@@ -76,10 +73,10 @@
                   "15": "The disclosure required by paragraph 13 shall contain the information on the undertaking’s policies to manage its material impacts, risks and opportunities related to consumers and/or end-users in accordance with ESRS 2 MDR-P Policies adopted to manage material sustainability matters. In addition, the undertaking shall specify if such policies cover specific groups or all consumers and/or end-users."
                 },
                 {
-                  "16": "The undertaking shall describe its human rights policy commitmentsthat are relevant to consumers and/or end- users, including those processes and mechanisms to monitor compliance with the UN Guiding Principles on Business and Human Rights, ILO Declaration on Fundamental Principles and Rights at Work or OECD Guidelines for Multinational Enterprises. In its disclosure it shall focus on those matters that are material, as well as the general approach in relation to: (a) respect for the human rights of consumers and/or end-users; (b) engagement with consumers and/or end-users; and (c) measures to provide and/or enable remedy for human rights impacts."
+                  "16": "The undertaking shall describe its human rights policy commitments(116)that are relevant to consumers and/or end- users, including those processes and mechanisms to monitor compliance with the UN Guiding Principles on Business and Human Rights, ILO Declaration on Fundamental Principles and Rights at Work or OECD Guidelines for Multinational Enterprises. In its disclosure it shall focus on those matters that are material, as well as the general approach in relation to(117): (a) respect for the human rights of consumers and/or end-users; (b) engagement with consumers and/or end-users; and (c) measures to provide and/or enable remedy for human rights impacts."
                 },
                 {
-                  "17": "The undertaking shall disclose whether and how its policies with regard to consumers and/or end-users are aligned with internationally recognised instruments relevant to consumers and/or end-users, including United Nations (UN) Guiding Principles on Business and Human Rights. The undertaking shall also disclose the extent to which cases of non-respect of the UN Guiding Principles on Business and Human Rights, ILO Declaration on Fundamental Principles and Rights at Work or OECD Guidelines for Multinational Enterprises that involve consumers and/or end- users have been reported in its downstream value chain and, if applicable, an indication of the nature of such cases."
+                  "17": "The undertaking shall disclose whether and how its policies with regard to consumers and/or end-users are aligned with internationally recognised instruments relevant to consumers and/or end-users, including United Nations (UN) Guiding Principles on Business and Human Rights. The undertaking shall also disclose the extent to which cases of non-respect of the UN Guiding Principles on Business and Human Rights, ILO Declaration on Fundamental (116) This information supports the information needs of financial market participants subject to Regulation (EU) 2019/2088 because it is derived from an additional indicator related to principal adverse impacts as set out by indicator #9 in Table III of Annex I of Commission Delegated Regulation (EU) 2022/1288 with regard to disclosure rules on sustainable investments (“Lack of a human rights policy”). (117) This information supports the information needs of financial market participants subject to Regulation (EU) 2019/2088 because it is derived from a mandatory indicator related to principal adverse impacts as set out by indicator #11 in Table I of Annex I of Commission Delegated Regulation (EU) 2022/1288 with regard to disclosure rules on sustainable investments. Principles and Rights at Work or OECD Guidelines for Multinational Enterprises that involve consumers and/or end- users have been reported in its downstream value chain and, if applicable, an indication of the nature of such cases(118)."
                 }
               ]
             },
@@ -107,7 +104,7 @@
               "title": "Disclosure Requirement S4-3 – Processes to remediate negative impacts and channels for consumers and end-users to raise concerns",
               "paragraphs": [
                 {
-                  "23": "The undertaking shall describe the processes it has in place to provide for or cooperate in the remediation of negative impacts on consumers and end-users that the undertaking is connected with, as well as channels available to consumers and end-users to raise concerns and have them addressed."
+                  "23": "The undertaking shall describe the processes it has in place to provide for or cooperate in the remediation of negative impacts on consumers and end-users that the undertaking is connected with, as well as channels available to consumers and end-users to raise concerns and have them addressed. (118) This information supports the information needs of: financial market participants subject to Regulation (EU) 2019/2088 because it is derived from a mandatory indicator related to principal adverse impacts as set out by indicator #10 in Table I of Annex I of Commission Delegated Regulation (EU) 2022/1288 with regard to disclosure rules on sustainable investments (“Violations of UN Global Compact principles and Organisation for Economic Cooperation and Development (OECD) Guidelines for Multinational Enterprises”); and benchmark administrators to disclose ESG factors subject to Regulation (EU) 2020/1816 as set out by indicator “Number of benchmark constituents subject to social violations (absolute number and relative divided by all benchmark constituents), as referred to in international treaties and conventions, United Nations principles and, where applicable, national law” in section 1 and 2 of Annex II."
                 },
                 {
                   "24": "The objective of this Disclosure Requirement is to enable an understanding of the formal means by which consumers and/or end-users can make their concerns and needs known directly to the undertaking, and/or through which the undertaking supports the availability of such channels (for example, grievance mechanisms) by its business relationships, how follow up is performed with these consumers and/or end-users regarding the issues raised, and the effectiveness of these channels."
@@ -124,7 +121,7 @@
               ]
             },
             {
-              "title": "Disclosure Requirement S4-4 – Taking action on material impacts on consumers and end-users, and approaches to mitigating material risks and pursuing material opportunities related to consumers and end-users, and effectiveness of those actions",
+              "title": "Disclosure Requirement S4-4 – Taking action on material impacts on consumers and end- users, and approaches to managing material risks and pursuing material opportunities related to consumers and end-users, and effectiveness of those actions",
               "paragraphs": [
                 {
                   "28": "The undertaking shall disclose how it takes action to address material impacts on consumers and end-users, and to manage material risks and pursue material opportunities related to consumers and end-users, and effectiveness of those actions."
@@ -148,7 +145,7 @@
                   "34": "The undertaking shall disclose whether and how it takes action to avoid causing or contributing to material negative impacts on consumers and/or end-users through its own practices, including, where relevant, in relation to marketing, sales and data use. This may include disclosing what approach is taken when tensions arise between the prevention or mitigation of material negative impacts and other business pressures."
                 },
                 {
-                  "35": "When preparing this disclosure, the undertaking shall consider whether severe human rights issues and incidents connected to its consumers and/or end-users have been reported and, if applicable, disclose these."
+                  "35": "When preparing this disclosure, the undertaking shall consider whether severe human rights issues and incidents connected to its consumers and/or end-users have been reported and, if applicable, disclose these(119)."
                 },
                 {
                   "36": "Where the undertaking evaluates the effectiveness of an action by setting a target, in disclosing the information required under paragraph 32 (c), the undertaking shall consider ESRS 2 MDR-T Tracking effectiveness of policies and actions through targets."
@@ -167,10 +164,10 @@
               "title": "Disclosure Requirement S4-5 – Targets related to managing material negative impacts, advancing positive impacts, and managing material risks and opportunities",
               "paragraphs": [
                 {
-                  "38": "The undertaking shall disclose the time-bound and outcome-oriented targets it may have set related to: (a) reducing negative impacts on consumers and/or end-users; and/or (b) advancing positive impacts on consumers and/or end-users; and/or (c) managing material risks and opportunities related to consumers and/or end-users."
+                  "38": "The undertaking shall disclose the time-bound and outcome-oriented targets it may have set related to: (a) reducing negative impacts on consumers and/or end-users; and/or (b) advancing positive impacts on consumers and/or end-users; and/or (c) managing material risks and opportunities related to consumers and/or end-users. (119) This information supports the information needs of financial market participants subject to Regulation (EU) 2019/2088 because it is derived from an additional indicator related to principal adverse impacts as set out by indicator #14 in Table III of Annex I of Commission Delegated Regulation (EU) 2022/1288 with regard to disclosure rules on sustainable investments (“Number of identified cases of severe human rights issues and incidents”)."
                 },
                 {
-                  "39": "The objective of this Disclosure Requirement is to enable an understanding of the extent to which the undertaking is using time-bound and outcome-oriented targets to drive and measure progress in addressing material negative impacts, and/or advancing positive impacts on consumers and/or end-users, and/or in managing material risks and opportunities related to consumers and/or end-users."
+                  "39": "The objective of this Disclosure Requirement is to enable an understanding of the extent to which the undertaking is using time-bound and outcome-oriented targets to drive and measure progress in addressing material negative impacts, and/or advancing positive impacts on consumers and/or end-users, and/or in managing material risks and opportunities related to consumers and/or end-users ."
                 },
                 {
                   "40": "The summarised description of the targets to manage its material impacts, risks and opportunities related to consumers and/or end-users shall contain the information requirements defined in ESRS 2 MDR-T."
@@ -188,45 +185,47 @@
   "appendix": [
     {
       "title": "Appendix A: Application Requirements",
-      "description": "This appendix is an integral part of the ESRS S4 Consumers and end-users. It supports the application of the requirements set out in this standard and has the same authority as the other parts of the standard.",
-      "objective": {
-        "AR 1": "The overview of social and human rights matters provided in paragraph 2 is not meant to imply that all of these issues should be disclosed in each Disclosure Requirement in this Standard. Rather, it provides a list of matters that the undertaking shall consider in its materiality assessment (ref. to ESRS 1 chapter 3 Double materiality as the basis for sustainability disclosures and ESRS 2 IRO-1) related to consumers and/or end-users and, as appropriate, disclose as material impacts, risks and opportunities within the scope of this Standard.",
-        "AR 2": "In addition to the issues listed in paragraph 2, the undertaking may also consider disclosing information about other issues relevant to a material impact for a shorter period of time, for instance initiatives regarding the impacts on consumers and/or end-users related to the undertaking's operations due to extreme and sudden weather conditions."
-      },
+      "description": "This appendix is an integral part of the ESRS S4 Consumers and end-users. It supports the application of the requirements set out in this standard and has the same authority as the other parts of the standard. Objective",
+      "paragraphs": [
+        {
+          "AR 1": "The undertaking may highlight special issues relevant to a material impact for a shorter period of time, for instance initiatives regarding the health and safety of consumers and/or end-users in relation to contamination of a product or severe breach of privacy due to a massive data leak."
+        },
+        {
+          "AR 2": "The overview of social and human rights matters provided in paragraph 2 is not meant to imply that all of these issues should be disclosed in each Disclosure Requirement in this Standard. Rather, it provides a list of matters that the undertaking shall consider in its materiality assessment (ref. to ESRS 1 chapter 3 Double materiality as the basis for sustainability disclosures and ESRS 2 IRO-1) related to consumers and/or end-users and, subsequently, disclose as material impacts, risks and opportunities within the scope of this Standard."
+        }
+      ],
       "subsections": [
         {
-          "title": "ESRS 2 General Disclosures",
+          "title": "ESRS 2 General disclosures"
+        },
+        {
+          "title": "Strategy",
           "subsections": [
             {
-              "title": "Strategy",
-              "subsections": [
+              "title": "Disclosure Requirement related to ESRS 2 SBM-2 – Interests and views of stakeholders",
+              "paragraphs": [
                 {
-                  "title": "Disclosure Requirement related to ESRS 2 SBM-2 – Interests and views of stakeholders",
-                  "paragraphs": [
-                    {
-                      "AR 3": "ESRS 2 SBM-2 requires the undertaking to provide an understanding of if and how it considers whether its strategy and business model play a role in creating, exacerbating or (conversely) mitigating significant material impacts on consumers and/or end-users, and whether and how the business model and strategy are adapted to address such material impacts."
-                    },
-                    {
-                      "AR 4": "While consumers and/or end-users may not be engaging with the undertaking at the level of its strategy or business model, their views can inform the undertaking’s assessment of its strategy and business model. The undertaking may disclose the views of the (actual or potential) materially affected consumers and/or end-users’ legitimate representatives or those of credible proxies that have insight into their situation."
-                    }
-                  ]
+                  "AR 3": "ESRS 2 SBM-2 requires the undertaking to provide an understanding of if and how it considers whether its strategy and business model play a role in creating, exacerbating or (conversely) mitigating significant material impacts on consumers and/or end-users, and whether and how the business model and strategy are adapted to address such material impacts."
                 },
                 {
-                  "title": "Disclosure Requirement related to ESRS 2 SBM-3 – Material impacts, risks and opportunities and their interaction with strategy and business model",
-                  "paragraphs": [
-                    {
-                      "AR 5": "Impacts on consumers and/or end-users can originate in the undertaking’s business model or strategy in a number of different ways. For example, impacts may relate to the undertaking’s value proposition (for example, providing online platforms with potential for online and offline harm), its value chain (for example, speed in developing products or services, or delivering projects, with risks to health and safety), or its cost structure and the revenue model (for example, sales-maximising incentives that put consumers at risk)."
-                    },
-                    {
-                      "AR 6": "Impacts on consumers and/or end-users that originate in the strategy or business model can also bring material risks to the undertaking. For example, if the undertaking’s business model is premised on incentivising its sales force to sell high volumes of a product or service (for example, credit cards or pain medicine) at speed, and this results in large- scale harm to consumers, the undertaking may face lawsuits and reputational damage affecting its future business and credibility."
-                    },
-                    {
-                      "AR 7": "Examples of particular characteristics of consumers and/or end-users that may be considered by the undertaking when responding to paragraph 11 include young consumers and/or end-users who may be more susceptible to impacts on their physical and mental development, or who lack financial literacy and may be more susceptible to exploitative sales or marketing practices. They may also include women in a context where women are routinely discriminated against in their access to particular services or in the marketing of particular products."
-                    },
-                    {
-                      "AR 8": "With regard to paragraph 12, the risks could arise because of the undertaking’s dependency on consumers and/or end-users where low likelihood but high impact events may trigger financial effects, for example, where a global pandemic leads to severe impacts on certain consumers’ livelihoods resulting in major changes in patterns of consumption."
-                    }
-                  ]
+                  "AR 4": "While consumers and/or end-users may not be engaging with the undertaking at the level of its strategy or business model, their views can inform the undertaking’s assessment of its strategy and business model. The undertaking may disclose the views of the (actual or potential) materially affected consumers and/or end-users’ legitimate representatives or those of credible proxies that have insight into their situation."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement related to ESRS 2 SBM-3 – Material impacts, risks and opportunities and their interaction with strategy and business model",
+              "paragraphs": [
+                {
+                  "AR 5": "Impacts on consumers and/or end-users can originate in the undertaking’s business model or strategy in a number of different ways. For example, impacts may relate to the undertaking’s value proposition (for example, providing online platforms with potential for online and offline harm), its value chain (for example, speed in developing products or services, or delivering projects, with risks to health and safety), or its cost structure and the revenue model (for example, sales-maximising incentives that put consumers at risk)."
+                },
+                {
+                  "AR 6": "Impacts on consumers and/or end-users that originate in the strategy or business model can also bring material risks to the undertaking. For example, if the undertaking’s business model is premised on incentivising its sales force to sell high volumes of a product or service (for example, credit cards or pain medicine) at speed, and this results in large- scale harm to consumers, the undertaking may face lawsuits and reputational damage affecting its future business and credibility."
+                },
+                {
+                  "AR 7": "Examples of particular characteristics of consumers and/or end-users that may be considered by the undertaking when responding to paragraph 11 include young consumers and/or end-users who may be more susceptible to impacts on their physical and mental development, or who lack financial literacy and may be more susceptible to exploitative sales or marketing practices. They may also include women in a context where women are routinely discriminated against in their access to particular services or in the marketing of particular products."
+                },
+                {
+                  "AR 8": "With regard to paragraph 12, the risks could arise because of the undertaking’s dependency on consumers and/or end-users where low likelihood but high impact events may trigger financial effects, for example, where a global pandemic leads to severe impacts on certain consumers’ livelihoods resulting in major changes in patterns of consumption."
                 }
               ]
             }
@@ -299,7 +298,7 @@
               ]
             },
             {
-              "title": "Disclosure Requirement S4-4 – Taking action on material impacts on consumers and end-users, and approaches to mitigating material risks and pursuing material opportunities related to consumers and end-users, and effectiveness of those actions",
+              "title": "Disclosure Requirement S4-4 – Taking action on material impacts on consumers and end- users, and approaches to managing material risks and pursuing material opportunities related to consumers and end-users, and effectiveness of those actions",
               "paragraphs": [
                 {
                   "AR 25": "It may take time to understand negative impacts and how the undertaking may be involved with them through its downstream value chain, as well as to identify appropriate responses and put them into practice). Therefore, the undertaking shall consider: (a) Its general and specific approaches to addressing material negative impacts; (b) its initiatives aimed at contributing to additional material positive impacts; (c) how far it has progressed in its efforts during the reporting period; and (d) its aims for continued improvement."

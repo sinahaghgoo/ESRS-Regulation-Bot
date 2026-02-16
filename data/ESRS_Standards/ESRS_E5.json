@@ -1,12 +1,12 @@
 {
   "standard": "ESRS E5",
-  "title": "RESOURCE USE AND CIRCULAR ECONOMY",
+  "title": "RESOUCE USE AND CIRCULAR ECONOMY",
   "objective": {
-    "1": "The objective of this Standard is to specify Disclosure Requirements which will enable users of the sustainability statement to understand: (a) how the undertaking affects resource use, including resource efficiency, avoiding the depletion of resources and the sustainable sourcing and use of renewable resources (referred to in this Standard as \\\"resource use and circular economy\\\") in terms of material positive and negative actual or potential impacts; (b) any actions taken, and the result of such actions, to prevent or mitigate actual or potential negative impacts arising from resource use, including its measures to help decoupling its economic growth from the use of materials, and to address risks and opportunities; (c) the plans and capacity of the undertaking to adapt its strategy and business model in line with the principles of circular economy and with the elimination of waste, the effective and sustainable management of resource use across its own operations and its upstream and downstream value chain, and with the more efficient use of natural resources through improvement of the overall environmental and economic performance of resource use along the life cycle of materials and products; (d) the nature, type and extent of the undertaking's material risks and opportunities related to the undertaking's impacts and dependencies arising from resource use and circular economy, and how the undertaking manages them; and (e) the financial effects on the undertaking over the short-, medium- and long-term of material risks and opportunities arising from the undertaking's impacts and dependencies on resource use and circular economy.",
-    "2": "This Standard sets out Disclosure Requirements related to \\\"resource use\\\" and \\\"circular economy\\\" and in particular on: (a) resource inflows including the circularity of material resource inflows, considering renewable and non-renewable resources; and (b) resource outflows including information on products and materials; and (c) waste.",
+    "1": "The objective of this Standard is to specify Disclosure Requirements which will enable users of the sustainability statement to understand: (a) how the undertaking affects resource use, including resource efficiency, avoiding the depletion of resources and the sustainable sourcing and use of renewable resources (referred to in this Standard as “resource use and circular economy”) in terms of material positive and negative actual or potential impacts; (b) any actions taken, and the result of such actions, to prevent or mitigate actual or potential negative impacts arising from resource use, including its measures to help decoupling its economic growth from the use of materials, and to address risks and opportunities; (c) the plans and capacity of the undertaking to adapt its strategy and business model in line with circular economy principles including but not limited to minimising waste, maintaining the value of products, materials and other resources at their highest value and enhancing their efficient use in production and consumption; (d) the nature, type and extent of the undertaking’s material risks and opportunities related to the undertaking’s impacts and dependencies, arising from resource use and circular economy, and how the undertaking manages them; and (e) the financial effects on the undertaking over the short-, medium- and long-term of material risks and opportunities arising from the undertaking’s impacts and dependencies on resource use and circular economy.",
+    "2": "This Standard sets out Disclosure Requirements related to “resource use” and “circular economy” and in particular on: (a) resource inflows including the circularity of material resource inflows, considering renewable and non- renewable resources; and (b) resource outflows including information on products and materials; and (c) waste.",
     "3": "Circular economy means an economic system in which the value of products, materials and other resources in the economy is maintained for as long as possible, enhancing their efficient use in production and consumption, thereby reducing the environmental impact of their use, minimising waste and the release of hazardous substances at all stages of their life cycle, including through the application of the waste hierarchy. The goal is to maximise and maintain the value of the technical and biological resources, products and materials by creating a system that allows for durability, optimal use or re-use, refurbishment, remanufacturing, recycling and nutrient cycling.",
-    "4": "This Standard builds on relevant EU legislative frameworks and policies including the EU Circular Economy Action Plan, Directive 2008/98/EC of the European Parliament and of the Council (Waste Framework Directive) and the EU industrial strategy.",
-    "5": "To evaluate the transition from business as usual, meaning an economy in which finite resources are extracted to make products that are used and then thrown away (\\\"take-make-waste\\\"), to a circular economic system, this Standard relies on the identification of the physical flows of resources, materials and products used and generated by the undertaking through Disclosure Requirement E5-4 Resource inflows and Disclosure Requirement E5-5 Resource outflows."
+    "4": "This Standard builds on relevant EU legislative frameworks and policies including the EU Circular Economy Action Plan, Directive 2008/98/EC of the European Parliament and of the Council(83)(Waste Framework Directive) and the EU industrial strategy.",
+    "5": "To evaluate the transition from business as usual, meaning an economy in which finite resources are extracted to make products that are used and then thrown away (“take-make-waste”), to a circular economic system, this Standard relies on the identification of the physical flows of resources, materials and products used and generated by the undertaking through Disclosure Requirement E5-4 Resource inflows and Disclosure Requirement E5-5 Resource outflows."
   },
   "content": [
     {
@@ -16,10 +16,10 @@
           "6": "Resource use is a major driver of other environmental impacts such as climate change, pollution, water and marine resources and biodiversity. A circular economy is a system that tends towards sustainable use of resources in extraction, processing, production, consumption and management of waste. Such system brings multiple environmental benefits, in particular, the reduction of material and energy consumption and emissions into the air (greenhouse gas emissions or other pollution), the limitation of water withdrawals and discharges and the regeneration of nature limiting the impact on biodiversity."
         },
         {
-          "7": "The following disclosure requirements from other environmental ESRS are particularly relevant to the disclosure requirements of this Standard: (a) ESRS E1 Climate change, which addresses, in particular, GHG emissions and energy resources (energy consumption); (b) ESRS E2 Pollution, which addresses, in particular, emissions and pollution to soil and substances of concern; (c) ESRS E3 Water and marine resources, which addresses, in particular, water resource (water consumption) and marine resources; and (d) ESRS E4 Biodiversity and ecosystems, which addresses, in particular, ecosystems, species and raw materials."
+          "7": "To provide a comprehensive overview of which other environmental matters could be material to resource use and circular economy, relevant disclosure requirements are covered in other environmental ESRS as follows: (a) ESRS E1 Climate change, which addresses, in particular, GHG emissions and energy resources (energy consumption); (b) ESRS E2 Pollution, which addresses, in particular, emissions to water, air and soil as well as substances of concern; (83) Directive 2008/98/EC of the European Parliament and of the Council of 19 November 2008 on waste and repealing certain Directives (OJ L 312, 22.11.2008, p. 3). (c) ESRS E3 Water and marine resources, which addresses, in particular, water resource (water consumption) and marine resources; and (d) ESRS E4 Biodiversity and ecosystems, which addresses, in particular, ecosystems, species and raw materials."
         },
         {
-          "8": "The undertaking's impacts related to resource use and circular economy, in particular impacts related to waste, can affect people and communities. Material negative impacts on affected communities from resource use and circular economy attributable to the undertaking are covered in ESRS S3 Affected communities. The efficient and circular use of resources also benefits competitiveness and economic wellbeing."
+          "8": "The undertaking’s impacts related to resource use and circular economy, in particular impacts related to waste, can affect people and communities. Material negative impacts on affected communities from resource use and circular economy attributable to the undertaking are covered in ESRS S3 Affected communities. The efficient and circular use of resources also benefits competitiveness and economic wellbeing"
         },
         {
           "9": "This Standard should be read in conjunction with ESRS 1 General requirements and ESRS 2 General disclosures."
@@ -81,7 +81,7 @@
                   "19": "The description of the resource use and circular economy-related actions and resources allocated shall follow the principles defined in ESRS 2 MDR-A Actions and resources in relation to material sustainability matters."
                 },
                 {
-                  "20": "In addition to ESRS 2 MDR-A, the undertaking may specify whether and how an action and resources cover: (a) higher levels of resource efficiency in use of technical and biological materials and water, particularly in relation to critical raw materials and rare earths as listed in the Raw Materials Information System; (b) higher rates of use of secondary raw materials (recyclates); (c) application of circular design, leading to increased product durability and optimisation of use, and higher rates of: Reuse, Repair, Refurbishing, Remanufacture, Repurposing and Recycling. (d) application of circular business practices such as (i) value retention actions (maintenance, repair, refurbishing, remanufacturing, component harvesting, upgrading and reverse logistics, closed loop systems, second-hand retailing), (ii) value maximisation actions (product-service systems, collaborative and sharing economy business models), (iii) end-of-life actions (recycling, upcycling, extended producer responsibility), and (iv) systems efficiency actions (industrial symbiosis); (e) actions taken to prevent waste generation in the undertaking's upstream and downstream value chain; and (f) optimisation of waste management in line with the waste hierarchy."
+                  "20": "In addition to ESRS 2 MDR-A, the undertaking may specify whether and how an action and resources cover: (a) higher levels of resource efficiency in use of technical and biological materials and water, particularly in relation to critical raw materials and rare earths as listed in the Raw Materials Information System; (b) higher rates of use of secondary raw materials (recyclates); (c) application of circular design, leading to increased product durability and optimisation of use, and higher rates of: Reuse, Repair, Refurbishing, Remanufacture, Repurposing and Recycling. (d) application of circular business practices such as (i) value retention actions (maintenance, repair, refurbishing, remanufacturing, component harvesting, upgrading and reverse logistics, closed loop systems, second-hand retailing), (ii) value maximisation actions (product-service systems, collaborative and sharing economy business models), (iii) end-of-life actions (recycling, upcycling, extended producer responsibility), and (iv) systems efficiency actions (industrial symbiosis); (e) actions taken to prevent waste generation in the undertaking’s upstream and downstream value chain; and (f) optimistation of waste management in line with the waste hierarchy."
                 }
               ]
             }
@@ -103,7 +103,7 @@
                   "23": "The description of the targets shall contain the information requirements defined in ESRS 2 MDR-T Tracking effectiveness of policies and actions through targets."
                 },
                 {
-                  "24": "The disclosure required by paragraph 21 shall indicate whether and how the undertaking's targets relate to resource inflows and resource outflows, including waste and products and materials, and, more specifically to: (a) the increase of circular product design (including for instance design for durability, dismantling, reparability, recyclability etc); (b) the increase of circular material use rate; (c) the minimisation of primary raw material; (d) sustainable sourcing and use (in line with the cascading principle) of renewable resources; (e) the waste management, including preparation for proper treatment; and (f) other matters related to resource use or circular economy."
+                  "24": "The disclosure required by paragraph 21 shall indicate whether and how the undertaking’s targets relate to resource inflows and resource outflows, including waste and products and materials, and, more specifically to: (a) the increase of circular product design (including for instance design for durability, dismantling, reparability, recyclability etc); (b) the increase of circular material use rate; (c) the minimisation of primary raw material; (d) sustainable sourcing and use (in line with the cascading principle) of renewable resources; (e) the waste management, including preparation for proper treatment; and (f) other matters related to resource use or circular economy."
                 },
                 {
                   "25": "The undertaking shall specify to which layer of the waste hierarchy the target relates."
@@ -123,13 +123,13 @@
                   "28": "The undertaking shall disclose information on its resource inflows related to its material impacts, risks and opportunities."
                 },
                 {
-                  "29": "The objective of this Disclosure Requirement is to enable an understanding of the resource use in the undertaking's own operations and its upstream value chain."
+                  "29": "The objective of this Disclosure Requirement is to enable an understanding of the resource use in the undertaking’s own operations and its upstream value chain."
                 },
                 {
-                  "30": "The disclosure required by paragraph 28 shall include a description of its resource inflows where material: products (including packaging) and materials (specifying critical raw materials and rare earths), water and property, plant and equipment used in the undertaking's own operations and along its upstream value chain."
+                  "30": "The disclosure required by paragraph 28 shall include a description of its resource inflows where material: products (including packaging) and materials (specifying critical raw materials and rare earths), water and property, plant and equipment used in the undertaking’s own operations and along its upstream value chain."
                 },
                 {
-                  "31": "When an undertaking assesses that resource inflows is a material sustainability matter, it shall disclose the following information about the materials used to manufacture the undertaking's products and services during the reporting period, in tonnes or kilogrammes: (a) the overall total weight of products and technical and biological materials used during the reporting period; (b) the percentage of biological materials (and biofuels used for non-energy purposes) used to manufacture the undertaking's products and services (including packaging) that is sustainably sourced, with the information on the certification scheme used and on the application of the cascading principle; and (c) the weight in both absolute value and percentage, of secondary reused or recycled components, secondary intermediary products and secondary materials used to manufacture the undertaking's products and services (including packaging)."
+                  "31": "When an undertaking assesses that resource inflows is a material sustainability matter, it shall disclose the following information about the materials used to manufacture the undertaking’s products and services during the reporting period, in tonnes or kilogrammes: (a) the overall total weight of products and technical and biological materials used during the reporting period; (b) the percentage of biological materials (and biofuels used for non-energy purposes) used to manufacture the undertaking’s products and services (including packaging) that is sustainably sourced, with the information on the certification scheme used and on the application of the cascading principle; and (c) the weight in both absolute value and percentage, of secondary reused or recycled components, secondary intermediary products and secondary materials used to manufacture the undertaking’s products and services (including packaging)."
                 },
                 {
                   "32": "The undertaking shall provide information on the methodologies used to calculate the data. It shall specify whether the data is sourced from direct measurement or estimations, and disclose the key assumptions used."
@@ -138,40 +138,30 @@
             },
             {
               "title": "Disclosure Requirement E5-5 – Resource outflows",
-              "subsections": [
+              "paragraphs": [
                 {
-                  "title": "Products and materials",
-                  "paragraphs": [
-                    {
-                      "33": "The undertaking shall disclose information on its resource outflows, including waste, related to its material impacts, risks and opportunities."
-                    },
-                    {
-                      "34": "The objective of this Disclosure Requirement is to provide an understanding of: (a) how the undertaking contributes to the circular economy by i) designing products and materials in line with circular economy principles and ii) increasing or maximising the extent to which products, materials and waste processing are recirculated in practice after first use; and (b) the undertaking's waste reduction and waste management strategy, the extent to which the undertaking knows how its pre-consumer waste is managed in its own activities."
-                    },
-                    {
-                      "35": "The undertaking shall provide a description of the key products and materials that come out of the undertaking's production process and that are designed along circular principles, including durability, reusability, repairability, disassembly, remanufacturing, refurbishment, recycling, recirculation by the biological cycle, or optimisation of the use of the product or material through other circular business models."
-                    },
-                    {
-                      "36": "Undertakings for which outflows are material shall disclose: (a) The expected durability of the products placed on the market by the undertaking, in relation to the industry average for each product group; (b) The reparability products, using an established rating system, where possible; (c) The rates of recyclable content in products and their packaging."
-                    }
-                  ]
+                  "33": "The undertaking shall disclose information on its resource outflows, including waste, related to its material impacts, risks and opportunities."
                 },
                 {
-                  "title": "Waste",
-                  "paragraphs": [
-                    {
-                      "37": "The undertaking shall disclose the following information on its total amount of waste from its own operations, in tonnes or kilogrammes: (a) the total amount of waste generated; (b) the total amount by weight diverted from disposal, with a breakdown between hazardous waste and non-hazardous waste and a breakdown by the following recovery operation types: i. preparation for reuse; ii. recycling; and iii. other recovery operations. (c) the amount by weight directed to disposal by waste treatment type and the total amount summing all three types, with a breakdown between hazardous waste and non-hazardous waste. The waste treatment types to be disclosed are: i. incineration; ii. landfill; and iii. other disposal operations; (d) the total amount and percentage of non-recycled waste."
-                    },
-                    {
-                      "38": "When disclosing the composition of the waste, the undertaking shall specify: (a) the waste streams relevant to its sector or activities (e.g. tailings for the undertaking in the mining sector, electronic waste for the undertaking in the consumer electronics sector, or food waste for the undertaking in the agriculture or in the hospitality sector); and (b) the materials that are present in the waste (e.g. biomass, metals, non-metallic minerals, plastics, textiles, critical raw materials and rare earths)."
-                    },
-                    {
-                      "39": "The undertaking shall also disclose the total amount of hazardous waste and radioactive waste generated by the undertaking, where radioactive waste is defined in Article 3 of Council Directive 2011/70/Euratom."
-                    },
-                    {
-                      "40": "The undertaking shall provide contextual information on the methodologies used to calculate the data and in particular the criteria and assumptions used to determine and classify products designed along circular principles under paragraph 35. It shall specify whether the data is sourced from direct measurement or estimations; and disclose the key assumptions used."
-                    }
-                  ]
+                  "34": "The objective of this Disclosure Requirement is to provide an understanding of: (a) how the undertaking contributes to the circular economy by i) designing products and materials in line with circular economy principles and ii) increasing or maximising the extent to which products, materials and waste processing are recirculated in practice after first use; and (b) the undertaking’s waste reduction and waste management strategy, the extent to which the undertaking knows how its pre-consumer waste is managed in its own activities. Products and materials"
+                },
+                {
+                  "35": "The undertaking shall provide a description of the key products and materials that come out of the undertaking’s production process and that are designed along circular principles, including durability, reusability, repairability, disassembly, remanufacturing, refurbishment, recycling, recirculation by the biological cycle, or optimisation of the use of the product or material through other circular business models."
+                },
+                {
+                  "36": "Undertakings for which outflows are material shall disclose: (a) The expected durability of the products placed on the market by the undertaking, in relation to the industry average for each product group; (b) The reparability products, using an established rating system, where possible; (c) The rates of recyclable content in products and their packaging. Waste"
+                },
+                {
+                  "37": "The undertaking shall disclose the following information on its total amount of waste from its own operations, in tonnes or kilogrammes: (a) the total amount of waste generated ; (b) the total amount by weight diverted from disposal, with a breakdown between hazardous waste and non- hazardous waste and a breakdown by the following recovery operation types: i. preparation for reuse; ii. recycling; and iii. other recovery operations. (c) the amount by weight directed to disposal by waste treatment type and the total amount summing all three types, with a breakdown between hazardous waste and non-hazardous waste. The waste treatment types to be disclosed are: i. incineration; ii. landfill; and iii. other disposal operations; (d) the total amount and percentage of non-recycled waste(84)."
+                },
+                {
+                  "38": "When disclosing the composition of the waste, the undertaking shall specify: (a) the waste streams relevant to its sector or activities (e.g. tailings for the undertaking in the mining sector, electronic waste for the undertaking in the consumer electronics sector, or food waste for the undertaking in the agriculture or in the hospitality sector); and; (b) the materials that are present in the waste (e.g. biomass, metals, non-metallic minerals, plastics, textiles, critical raw materials and rare earths)."
+                },
+                {
+                  "39": "The undertaking shall also disclose the total amount of hazardous waste and radioactive waste generated by the undertaking, where radioactive waste is defined in Article 3(7) of Council Directive 2011/70/Euratom(85). (84) This information supports the information needs of financial market participants subject to Regulation (EU) 2019/2088 because it is derived from an additional indicator related to principal adverse impacts as set out by indicator #13 in Table II of Annex I of Commission Delegated Regulation (EU) 2022/1288 with regard to disclosure rules on sustainable investments (“Non-recycled waste ratio”). (85) Council Directive 2011/70/Euratom of 19 July 2011 establishing a Community framework for the responsible and safe management of spent fuel and radioactive waste (OJ L 199, 2.8.2011, p. 48). This information supports the information needs of financial market participants subject to Regulation (EU) 2019/2088 because it is derived from a mandatory indicator related to principal adverse impacts as set out by indicator #9 in Table I of Annex I of Commission Delegated Regulation (EU) 2022/1288 with regard to disclosure rules on sustainable investments (“Hazardous waste and radioactive waste ratio”)."
+                },
+                {
+                  "40": "The undertaking shall provide contextual information on the methodologies used to calculate the data and in particular the criteria and assumptions used to determine and classify products designed along circular principles under paragraph 35. It shall specify whether the data is sourced from direct measurement or estimations; and disclose the key assumptions used."
                 }
               ]
             },
@@ -182,7 +172,7 @@
                   "41": "The undertaking shall disclose the anticipated financial effects of material risks and opportunities arising from resource use and circular economy-related impacts."
                 },
                 {
-                  "42": "The information required by paragraph 41 is in addition to the information on current financial effects on the entity's financial position, financial performance and cash flows for the reporting period required under ESRS 2 SBM-3 para 48 (d). The objective of this Disclosure Requirement is to provide an understanding of: (a) anticipated financial effects due to material risks arising from material resource use and circular economy-related impacts and dependencies and how these risks have (or could reasonably be expected to have) a material influence on the undertaking's financial position, financial performance, and cash flows over the short-, medium- and long-term; and (b) anticipated financial effects due to material opportunities related to resource use and circular economy."
+                  "42": "The information required by paragraph 41 is in addition the information on current financial effects on the entity’s financial position, financial performance and cash flows for the reporting period required under ESRS 2 SBM-3 para 48 (d). The objective of this Disclosure Requirement is to provide an understanding of: (a) anticipated financial effects due to material risks arising from material resource use and circular economy- related impacts and dependencies and how these risks have or could reasonably be expected to have) a material influence on the undertaking’s financial position, financial performance performance, and cash flows over the short-, medium- and long-term; and (b) anticipated financial effects due to material opportunities related to resource use and circular economy."
                 },
                 {
                   "43": "The disclosure shall include: (a) a quantification of the anticipated financial effects in monetary terms before considering resource use and circular economy-related actions, or where not possible without undue cost or effort, qualitative information. For financial effects arising from material opportunities, a quantification is not required if it would result in disclosure that does not meet the qualitative characteristics of information (see ESRS 1 Appendix B Qualitative characteristics of information); (b) a description of the effects considered, the impacts and dependencies to which they relate and the time horizons in which they are likely to materialise; (c) the critical assumptions used to quantify the anticipated financial effects, as well as the sources and level of uncertainty of those assumptions."
@@ -197,7 +187,7 @@
   "appendix": [
     {
       "title": "Appendix A: Application Requirements",
-      "description": "This appendix is an integral part of ESRS E5 and has the same authority as the other parts of the standard.",
+      "description": "This appendix is an integral part of the ESRS E5. It supports the application of the disclosure requirements set out in this standard and has the same authority as the other parts of the standard. ESRS 2 GENERAL DISCLOSURES",
       "subsections": [
         {
           "title": "Impact, risk and opportunity management",
@@ -206,19 +196,19 @@
               "title": "Disclosure requirement related to ESRS 2 IRO-1 – Description of the processes to identify and assess material resource use and circular economy-related impacts, risks and opportunities",
               "paragraphs": [
                 {
-                  "AR 1": "When conducting a materiality assessment on environmental subtopics, the undertaking shall assess the materiality of resource use and circular economy in its own operations and its upstream and downstream value chain, and may consider the four phases below, also known as the LEAP approach: (a) Phase 1: locate where in the undertaking's own operations and along its upstream and downstream value chain the interface with nature takes place; (b) Phase 2: evaluate the dependencies and impacts; (c) Phase 3: assess the material risks and opportunities; (d) Phase 4: prepare and report the results of the materiality assessment."
+                  "AR 1": "When conducting a materiality assessment on environmental subtopics, the undertaking shall assess the materiality of resource use and circular economy in its own operations and its upstream and downstream value chain, and may consider the four phases below, also known as the LEAP approach: (a) Phase 1: locate where in the undertaking’s own operations and along its upstream and downstream value chain the interface with nature takes place; (b) Phase 2: evaluate the dependencies and impacts; (c) Phase 3: assess the material risks and opportunities; (d) Phase 4: prepare and report the results of the materiality assessment."
                 },
                 {
                   "AR 2": "With regard to ESRS E5, phases 1 and 2 rely mainly on the materiality assessments conducted under ESRS E1 (including energy consumption), ESRS E2 (pollution), ESRS E3 (marine resources, water consumption) and ESRS E4 (biodiversity, ecosystems, raw materials). Indeed, circular economy eventually aims at reducing the environmental impact of the use of products, materials and other resources, minimizing waste and the release of hazardous substances and hence at reducing impacts on nature. This application requirement focuses mainly on the third phase of this LEAP approach, while the fourth phase addresses the outcome of the process."
                 },
                 {
-                  "AR 3": "The process to assess the materiality of impacts, dependencies, risks and opportunities shall consider the provisions in ESRS 2 IRO-1 Description of the processes to identify and assess material impacts, risks and opportunities and IRO-2 Disclosure Requirements in ESRS covered by the undertaking's sustainability statement."
+                  "AR 3": "The process to assess the materiality of impacts, dependencies, risks and opportunities shall consider the provisions in ESRS 2 IRO-1 Description of the processes to identify and assess material impacts, risks and opportunities and IRO-2 Disclosure Requirements in ESRS covered by the undertaking’s sustainability statement."
                 },
                 {
                   "AR 4": "The sub-topics related to resource use and circular economy covered by the materiality assessment include: (a) resource inflows including the circularity of material resource inflows, considering resource use optimisation, intensity of materials and products and renewable and non-renewable resources; (b) resource outflows related to products and services; and (c) waste, including hazardous waste and non-hazardous waste management."
                 },
                 {
-                  "AR 5": "In Phase 3, to assess its material risks and opportunities based on the results of Phases 1 and 2, the undertaking may: (a) identify transition risks and opportunities in its own operations and its upstream and downstream value chain, including the risk of staying in a business-as-usual scenario: i. policy and legal, e.g., bans on the extraction and use of non-renewable resources, regulations on waste treatment; ii. technology, e.g., introduction on the market of new technologies to replace existing use of products and materials; iii. market, e.g., shifting supply, demand and financing; iv. reputation, e.g. changing societal, customer or community perceptions. (b) identify physical risks including depletion of stock and use of virgin and non-virgin renewable resources, and of non-renewable resources; (c) identify opportunities categorised by: i. resource efficiency: e.g., transition to more efficient services and processes requiring less resources, eco-design for longevity, repair, reuse, recycle, by-products, take-back systems, decoupling activity from extraction of materials, intensifying circular material use, creation of a system that allows for dematerialization (e.g., digitisation, improving utilisation rates, weight reduction); practices to ensure products and materials are collected, sorted, and reused, repaired, refurbished, remanufactured; ii. markets: e.g., demand for less resource-intense products and services, and new consumption models such as product-as-a-service, pay-per-use, sharing, leasing; iii. financing: e.g., access to green funds, bonds or loans; iv. resilience: e.g., diversification of resources and business activities (e.g., start a new business unit to recycle new materials), investing in green infrastructures, adopting recycling and circularity mechanisms that reduce the dependencies, capability of the undertaking to safeguard future stocks and flows of resources; and v. reputation."
+                  "AR 5": "In Phase 3, to assess its material risks and opportunities based on the results of Phases 1 and 2, the undertaking may: (a) identify transition risks and opportunities in its own operations and its upstream and downstream value chain, including the risk of staying in a business-as-usual scenario: i. policy and legal, e.g., bans on the extraction and use of non-renewable resources, regulations on waste treatment; ii. technology, e.g., introduction on the market of new technologies to replace existing use of products and materials; iii. market, e.g., shifting supply, demand and financing; iv. reputation, e.g. changing societal, customer or community perceptions. (b) identify physical risks including depletion of stock and use of virgin and non-virgin renewable resources, and of non-renewable resources; (c) identify opportunities categorised by: i. resource efficiency: e.g., transition to more efficient services and processes requiring less resources, eco- design for longevity, repair, reuse, recycle, by- products, take-back systems, decoupling activity from extraction of materials, intensifying circular material use, creation of a system that allows for demateria­ lization (e.g., digitisation, improving utilisation rates, weight reduction); practices to ensure products and materials are collected, sorted, and reused, repaired, refurbished, remanufactured; ii. markets: e.g., demand for less resource-intense products and services, and new consumption models such as product-as- a-service, pay-per-use, sharing, leasing; iii. financing: e.g., access to green funds, bonds or loans; iv. resilience: e.g., diversification of resources and business activities (e.g., start a new business unit to recycle new materials), investing in green infrastructures, adopting recycling and circularity mechanisms that reduce the dependencies, capability of the undertaking to safeguard future stocks and flows of resources; and v. reputation."
                 },
                 {
                   "AR 6": "The undertaking may consider the following methodologies to assess its impacts, risks and opportunities in its own operations and along its upstream and downstream value chain: (a) Commission Recommendation 2021/2279 on the use of the Environmental Footprint methods to measure and communicate the life cycle environmental performance of products and organizations (Annex I – Product Environmental Footprint; Annex III – Organisation Environmental Footprint); and (b) Material Flow Analysis (MFA) from the European Environment Agency."
@@ -235,10 +225,10 @@
                   "AR 8": "The policies described under this Disclosure Requirement may be integrated in broader environmental or sustainability policies covering different subtopics."
                 },
                 {
-                  "AR 9": "When providing information on its policies, the undertaking shall consider whether and how its policies address: (a) the waste hierarchy: (a) prevention; (b) preparing for re-use; (c) recycling; (d) other recovery, e.g., energy recovery; and (e) disposal. In this context, the waste treatment cannot be considered as a recovery; (b) the prioritisation of the avoidance or minimisation waste (Re-use, Repair, Refurbish, Remanufacture and Repurpose) over waste treatment (Recycling). The concepts of eco-design, waste as a resource or post-consumer waste (at the end of a consumer-product lifecycle), should also be taken into consideration."
+                  "AR 9": "When providing information on its policies, the undertaking shall consider whether and how its policies address: (a) the waste hierarchy: (a) prevention; (b) preparing for re-use; (c) recycling; (d) other recovery, e.g., energy recovery; and (e) disposal. In this context, the waste treatment cannot be considered as a recovery; (b) the prioritisation of the avoidance or minimisation waste (Re-use, Repair, Refurbish, Remanufacture and Repurpose) over waste treatment (Recycling). The concepts of eco-design(86), waste as a resource or post- consumer waste (at the end of a consumer-product lifecycle), should also be taken into consideration."
                 },
                 {
-                  "AR 10": "When defining its policies, the undertaking may consider the Paper on \\\"Categorisation system for the circular economy\\\", which describes circular design and production models, circular use models, circular value recovery models and circular support along the principles of the nine circular economy \\\"R\\\" strategies or principles: refuse, rethink, reduce, re-use, repair, refurbish, remanufacture, repurpose and recycle."
+                  "AR 10": "When defining its policies, the undertaking may consider the Paper on “Categorisation system for the circular economy”, which describes circular design and production models, circular use models, circular value recovery models and circular support along the principles of the nine circular economy “R” strategies or principles: refuse, rethink, reduce, re-use, repair, refurbish, remanufacture, repurpose and recycle."
                 }
               ]
             },
@@ -252,7 +242,7 @@
                   "AR 12": "In particular, the undertaking may specify the following: (a) how it contributes to circular economy, including for instance smart waste collection systems; (b) the other stakeholders involved in the collective actions: competitors, suppliers, retailers, customers, other business partners, local communities and authorities, government agencies; (c) a description of the organisation of the collaboration or initiative, including the specific contribution of the undertaking and the roles of the different stakeholders in the project."
                 },
                 {
-                  "AR 13": "The actions may cover the undertaking's own operations and/or its upstream and downstream value chain."
+                  "AR 13": "The actions may cover the undertaking’s own operations and/or its upstream and downstream value chain."
                 }
               ]
             }
@@ -274,16 +264,16 @@
                   "AR 16": "When providing information targets according to paragraph 24, the undertaking shall consider the production phase, the use phase, and the end of functional life of products and materials."
                 },
                 {
-                  "AR 17": "When providing information on targets related to virgin renewable raw material under paragraph 24(c), the undertaking shall consider how those targets may impact biodiversity loss, also in light of ESRS E4."
+                  "AR 17": "When providing information on targets related to virgin renewable raw material under paragraph 24(c), the undertaking shall consider how those targets may impact biodiversity loss, also in light of ESRS E4. (86) As established by Directive 2009/125/EC.Directive 2009/125/EC of the European Parliament and of the Council of 21 October 2009 establishing a framework for the setting of ecodesign requirements for energy-related products (OJ L 285, 31.10.2009, p. 10)."
                 },
                 {
                   "AR 18": "The undertaking may disclose other targets under paragraph 24(f) including in relation to sustainable sourcing. If so, the undertaking shall explain the definition of sustainable sourcing it has adopted and how it relates to the objective set out in paragraph 22."
                 },
                 {
-                  "AR 19": "The targets may cover the undertaking's own operations and/or its upstream and downstream value chain."
+                  "AR 19": "The targets may cover the undertaking’s own operations and/or its upstream and downstream value chain."
                 },
                 {
-                  "AR 20": "The undertaking may specify whether the target addresses shortcomings related to the Substantial Contribution criteria for Circular Economy as defined in the delegated acts adopted pursuant to Article 13 of Regulation (EU) 2020/852. Where the Do No Significant Harm (DNSH) criteria for Circular Economy as defined in delegated acts adopted pursuant to Article 10, Article 11, Article 12, Article 14, and Article 15 of Regulation (EU) 2020/852 are not met, the undertaking may specify whether the target addresses shortcomings related those DNSH criteria."
+                  "AR 20": "The undertaking may specify whether the target addresses shortcomings related to the Substantial Contribution criteria for Circular Economy as defined in the delegated acts adopted pursuant to Article 13(2) of Regulation (EU) 2020/852. Where the Do No Significant Harm (DNSH) criteria for Circular Economy as defined in delegated acts adopted pursuant to Article 10(3), Article 11(3), Article 12(2), Article 14(2), and Article 15(2) of Regulation (EU) 2020/852 are not met, the undertaking may specify whether the target addresses shortcomings related those DNSH criteria."
                 }
               ]
             },
@@ -300,7 +290,7 @@
                   "AR 23": "The denominator of the percentage indicator required under paragraphs 31(b) and 31(c) is the overall total weight of materials used during the reporting period."
                 },
                 {
-                  "AR 24": "The reported usage data are to reflect the material in its original state, and not to be presented with further data manipulation, such as reporting it as \\\"dry weight\\\"."
+                  "AR 24": "The reported usage data are to reflect the material in its original state, and not to be presented with further data manipulation, such as reporting it as “dry weight”."
                 },
                 {
                   "AR 25": "In cases where there is an overlap between categories of reused, recycled, the undertaking shall specify how double counting was avoided and the choices that were made."
@@ -311,7 +301,7 @@
               "title": "Disclosure Requirement E5-5 - Resource outflows",
               "paragraphs": [
                 {
-                  "AR 26": "Products and materials information to be provided under paragraph 35 refers to all materials and products that come out of the undertaking's production process and that a company puts on the market (including packaging)."
+                  "AR 26": "Products and materials information to be provided under paragraph 35 refers to all materials and products that come out of the undertaking’s production process and that a company puts on the market (including packaging)."
                 },
                 {
                   "AR 27": "When compiling the rate, the undertaking shall use as denominator the overall total weight of materials used during the reporting period."
@@ -326,10 +316,10 @@
                   "AR 30": "When considering the waste streams relevant to its sectors or activities, the undertaking may consider the list of waste descriptions from the European Waste Catalogue."
                 },
                 {
-                  "AR 31": "Examples of other types of recovery operations under paragraph 37(b)iii may be found in Annex II of Directive 2008/98/EC."
+                  "AR 31": "Examples of other types of recovery operations under paragraph 37(b)iii may be found in Annex II of Directive 2008/98/EC (Waste Framework Directive)."
                 },
                 {
-                  "AR 32": "Examples of other types of disposal operations under paragraph 37(c)iii may be found in Annex I of Directive 2008/98/EC."
+                  "AR 32": "Examples of other types of disposal operations under paragraph 37(c)iii may be found in Annex I of Directive 2008/98/EC (Waste Framework Directive)."
                 },
                 {
                   "AR 33": "When providing contextual information under paragraph 40 the undertaking may: (a) explain the reasons for high weights of waste directed to disposal (e.g., local regulations that prohibit landfill of specific types of waste); (b) describe sector practices, sector standards, or external regulations that mandate a specific disposal operation; and (c) specify whether the data has been modelled or sourced from direct measurements, such as waste transfer notes from contracted waste collectors."
@@ -346,7 +336,7 @@
                   "AR 35": "The undertaking may include an assessment of its related products and services at risk over the short-, medium- and long-term, explaining how these are defined, how financial amounts are estimated, and which critical assumptions are made."
                 },
                 {
-                  "AR 36": "The quantification of the anticipated financial effects in monetary terms under paragraph 43(a) may be a single amount or a range."
+                  "AR 36": "The quantification of the anticipated financial effects in monetary terms under paragraph 43(a) may be a range."
                 }
               ]
             }
