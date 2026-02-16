@@ -1,0 +1,618 @@
+{
+  "standard": "ESRS E1",
+  "title": "CLIMATE CHANGE",
+  "objective": {
+    "1": "The objective of this Standard is to specify Disclosure Requirements which will enable users of sustainability statements to understand: (a) how the undertaking affects climate change, in terms of material positive and negative actual and potential impacts; (b) the undertaking's past, current, and future mitigation efforts in line with the Paris Agreement (or an updated international agreement on climate change) and compatible with limiting global warming to 1.5 deg C; (c) the plans and capacity of the undertaking to adapt its strategy and business model, in line with the transition to a sustainable economy and to contribute to limiting global warming to 1.5 deg C; (d)any other actions taken by the undertaking, and the result of such actions to prevent, mitigate or remediate actual or potential negative impacts, and to address risks and opportunities;(e)the nature, type and extent of the undertaking's material risks and opportunities arising from the undertaking's impacts and dependencies on climate change, and how the undertaking manages them; and(f)the financial effects on the undertaking over the short-, medium- and long-term of risks and opportunities arising from the undertaking's impacts and dependencies on climate change.",
+    "2": "The Disclosure Requirements of this Standard take into account the requirements of related EU legislation and regulation (i.e., EU Climate Law, Climate Benchmark Standards Regulation, Sustainable Finance Disclosure Regulation (SFDR), EU Taxonomy, and EBA Pillar 3 disclosure requirements).",
+    "3": "This Standard covers Disclosure Requirements related to the following sustainability matters: \"Climate change mitigation\" and \"Climate change adaptation\". It also covers energy-related matters, to the extent that they are relevant to climate change.",
+    "4": "Climate change mitigation relates to the undertaking's endeavours to the general process of limiting the increase in the global average temperature to 1,5 deg C above pre-industrial levels in line with the Paris Agreement. This Standard covers disclosure requirements related but not limited to the seven Greenhouse gases (GHG) carbon dioxide (CO2), methane (CH4), nitrous oxide (N2O), hydrofluorocarbons (HFCs), perfluorocarbons (PFCs), sulphur hexafluoride (SF6) and nitrogen trifluoride (NF3). It also covers Disclosure Requirements on how the undertaking addresses its GHG emissions as well as the associated transition risks.",
+    "5": "Climate change adaptation relates to the undertaking's process of adjustment to actual and expected climate change.",
+    "6": "This Standard covers Disclosure Requirements regarding climate-related hazards that can lead to physical climate risks for the undertaking and its adaptation solutions to reduce these risks. It also covers transition risks arising from the needed adaptation to climate- related hazards.",
+    "7": "The Disclosure Requirements related to \"Energy\" cover all types of energy production and consumption."
+  },
+  "content": [
+    {
+      "title": "Interactions with other ESRS",
+      "paragraphs": [
+        {
+          "8": "Ozone-depleting substances (ODS), nitrogen oxides (NOX) and sulphur oxides (SOX), among other air emissions, are connected to climate change but are covered under the reporting requirements in ESRS E2."
+        },
+        {
+          "9": "Impacts on people that may arise from the transition to a climate-neutral economy are covered under the ESRS S1 Own workforce, ESRS S2 Workers in the value chain, ESRS S3 Affected communities and ESRS S4 Consumers and end-users."
+        },
+        {
+          "10": "Climate change mitigation and adaptation are closely related to topics addressed in particular in ESRS E3 Water and marine resources and ESRS E4 Biodiversity and ecosystems. With regard to water and as illustrated in the table of climate- related hazards in AR 11, this standard addresses acute and chronic physical risks which arise from the water and ocean-related hazards. Biodiversity loss and ecosystem degradation that may be caused by climate change are addressed in ESRS E4 Biodiversity and ecosystems."
+        },
+        {
+          "11": "This Standard should be read and applied in conjunction with ESRS 1 General requirements and ESRS 2 General disclosures."
+        }
+      ]
+    },
+    {
+      "title": "Disclosure Requirements",
+      "subsections": [
+        {
+          "title": "ESRS 2 General disclosures",
+          "paragraphs": [
+            {
+              "12": "The requirements of this section should be read and applied in conjunction with the disclosures required by ESRS 2 on Chapter 2 Governance, Chapter 3 Strategy and Chapter 4 Impact, risk and opportunity management. The resulting disclosures shall be presented in the sustainability statement alongside the disclosures required by ESRS 2, except for ESRS 2 SBM-3 Material impacts, risks and opportunities and their interaction with strategy and business model, for which the undertaking may, in accordance with ESRS2 paragraph 46, present the disclosures alongside the other disclosures required in this topical standard."
+            }
+          ]
+        },
+        {
+          "title": "Governance",
+          "subsections": [
+            {
+              "title": "Disclosure requirement related to ESRS 2 GOV-3 Integration of sustainability-related performance in incentive schemes",
+              "paragraphs": [
+                {
+                  "13": "The undertaking shall disclose whether and how climate-related considerations are factored into the remuneration of members of the administrative, management and supervisory bodies, including if their performance has been assessed against the GHG emission reduction targets reported under Disclosure Requirement E1-4 and the percentage of the remuneration recognised in the current period that is linked to climate related considerations, with an explanation of what the climate considerations are."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Strategy",
+          "subsections": [
+            {
+              "title": "Disclosure Requirement E1-1 - Transition plan for climate change mitigation",
+              "paragraphs": [
+                {
+                  "14": "The undertaking shall disclose its transition plan for climate change mitigation."
+                },
+                {
+                  "15": "The objective of this Disclosure Requirement is to enable an understanding of the undertaking's past, current, and future mitigation efforts to ensure that its strategy and business model are compatible with the transition to a sustainable economy, and with the limiting of global warming to 1.5 deg C in line with the Paris Agreement and with the objective of achieving climate neutrality by 2050 and, where relevant, the undertaking's exposure to coal, oil and gas-related activities."
+                },
+                {
+                  "16": "The information required by paragraph 14 shall include:(a) by reference to GHG emission reduction targets (as required by Disclosure Requirement E1-4), an explanation of how the undertaking's targets are compatible with the limiting of global warming to 1.5 deg C in line with the Paris Agreement;(b) by reference to GHG emission reduction targets (as required by Disclosure Requirement E1-4) and the climate change mitigation actions (as required by Disclosure Requirement E1-3), an explanation of the decarbonisation levers identified, and key actions planned, including changes in the undertaking's product and service portfolio and the adoption of new technologies in its own operations, or the upstream and/or downstream value chain;(c) by reference to the climate change mitigation actions (as required by Disclosure Requirement E1-3), an explanation and quantification of the undertaking's investments and funding supporting the implementation of its transition plan, with a reference to the key performance indicators of taxonomy-aligned CapEx, and where relevant the CapEx plans, that the undertaking discloses in accordance with Commission Delegated Regulation (EU) 2021/2178; (d) a qualitative assessment of the potential locked-in GHG emissions from the undertaking's key assets and products. This shall include an explanation of if and how these emissions may jeopardise the achievement of the undertaking's GHG emission reduction targets and drive transition risk, and if applicable, an explanation of the undertaking's plans to manage its GHG-intensive and energy-intensive assets and products; (e) for undertakings with economic activities that are covered by delegated regulations on climate adaptation or mitigation under the Taxonomy Regulation, an explanation of any objective or plans (CapEX, CapEx plans, OpEX) that the undertaking has for aligning its economic activities (revenues, CapEx, OpEx) with the criteria established in Commission Delegated Regulation 2021/2139; (f) if applicable, a disclosure of significant CapEx amounts invested during the reporting period related to coal, oil and gas-related economic activities; (g) a disclosure on whether or not the undertaking is excluded from the EU Paris-aligned Benchmarks;(31)(h)an explanation of how the transition plan is embedded in and aligned with the undertaking's overall business strategy and financial planning;(i)whether the transition plan is approved by the administrative, management and supervisory bodies; and (j) an explanation of the undertaking's progress in implementing the transition plan."
+                },
+                {
+                  "17": "In case the undertaking does not have a transition plan in place, it shall indicate whether and, if so, when it will adopt a transition plan."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement related to ESRS 2 SBM-3 - Material impacts, risks and opportunities and their interaction with strategy and business model",
+              "paragraphs": [
+                {
+                  "18": "The undertaking shall explain for each material climate-related risk it has identified, whether the entity considers the risk to be a climate-related physical risk or climate-related transition risk."
+                },
+                {
+                  "19": "The undertaking shall describe the resilience of its strategy and business model in relation to climate change. This description shall include:(a)the scope of the resilience analysis;(b)how and when the resilience analysis has been conducted, including the use of climate scenario analysis as referenced in the Disclosure Requirement related to ESRS 2 IRO-1 and the related application requirement paragraphs; and(c)the results of the resilience analysis including the results from the use of scenario analysis.Impact, risk and opportunity managementDisclosure requirement related to ESRS 2 IRO-1 - Description of the processes to identify and assess material climate- related impacts, risks and opportunities"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Impact, risk and opportunity management",
+          "subsections": [
+            {
+              "title": "Disclosure requirement related to ESRS 2 IRO-1 - Description of the processes to identify and assess material climate-related impacts, risks and opportunities",
+              "paragraphs": [
+                {
+                  "20": "The undertaking shall describe the process to identify and assess climate-related impacts, risks and opportunities. This description shall include its process in relation to:(a) impacts on climate change, in particular, the undertaking's GHG emissions (as required by Disclosure Requirement ESRS E1-6);(b) climate-related physical risks in own operations and along the upstream and downstream value chain, in particular: i. the identification of climate-related hazards, considering at least high emission climate scenarios; and ii. the assessment of how its assets and business activities may be exposed and are sensitive to these climate- related hazards, creating gross physical risks for the undertaking.(c) climate-related transition risks and opportunities in own operations and along the upstream and downstream value chain, in particular:i. the identification of climate-related transition events, considering at least a climate scenario in line with limiting global warming to 1.5 deg C with no or limited overshoot; andii.the assessment of how its assets and business activities may be exposed to these climate-related transition events, creating gross transition risks or opportunities for the undertaking."
+                },
+                {
+                  "21": "When disclosing the information required under paragraphs 20 (b)and 20 (c) the undertaking shall explain how it has used climate-related scenario analysis, including a range of climate scenarios, to inform the identification and assessment of physical risks and transition risks and opportunities over the short-, medium- and long-term."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement E1-2 - Policies related to climate change mitigation and adaptation",
+              "paragraphs": [
+                {
+                  "22": "The undertaking shall describe its policies adopted to manage its material impacts, risks and opportunities related to climate change mitigation and adaptation."
+                },
+                {
+                  "23": "The objective of this Disclosure Requirement is to enable an understanding of the extent to which the undertaking has policies that address the identification, assessment, management and/or remediation of its material climate change mitigation and adaptation impacts, risks and opportunities."
+                },
+                {
+                  "24": "The disclosure required by paragraph 22 shall contain the information on the policies the undertaking has in place to manage its material impacts, risks and opportunities related to climate change mitigation and adaptation in accordance with ESRS 2 MDR-P Policies adopted to manage material sustainability matters."
+                },
+                {
+                  "25": "The undertaking shall indicate whether and how its policies address the following areas:(a) climate change mitigation;(b) climate change adaptation;(c) energy efficiency;(d) renewable energy deployment; and (e) other"
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement E1-3 - Actions and resources in relation to climate change policies",
+              "paragraphs": [
+                {
+                  "26": "The undertaking shall disclose its climate change mitigation and adaptation actions and the resources allocated for their implementation."
+                },
+                {
+                  "27": "The objective of this Disclosure Requirement is to provide an understanding of the key actions taken and planned to achieve climate-related policy objectives and targets."
+                },
+                {
+                  "28": "The description of the actions and resources related to climate change mitigation and adaptation shall follow the principles stated in ESRS 2 MDR-A Actions and resources in relation to material sustainability matters."
+                },
+                {
+                  "29": "In addition to ESRS 2 MDR-A, the undertaking shall:(a) when listing key actions taken in the reporting year and planned for the future, present the climate change mitigation actions by decarbonisation lever including the nature- based solutions;(b) when describing the outcome of the actions for climate change mitigation, include the achieved and expected GHG emission reductions; and(c) relate significant monetary amounts of CapEx and OpEx required to implement the actions taken or planned to: i.the relevant line items or notes in the financial statements; ii.the key performance indicators required under Commission Delegated Regulation (EU) 2021/2178; and iii. if applicable, the CapEx plan required by Commission Delegated Regulation (EU) 2021/2178"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Metrics and targets",
+          "subsections": [
+            {
+              "title": "Disclosure Requirement E1-4 - Targets related to climate change mitigation and adaptation",
+              "paragraphs": [
+                {
+                  "30": "The undertaking shall disclose the climate-related targets it has set."
+                },
+                {
+                  "31": "The objective of this Disclosure Requirement is to enable an understanding of the targets the undertaking has set to support its climate change mitigation and adaptation policies and address its material climate-related impacts, risks and opportunities."
+                },
+                {
+                  "32": "The disclosure of the targets required in paragraph 30 shall contain the information required in ESRS 2 MDR-T Tracking effectiveness of policies and actions through targets."
+                },
+                {
+                  "33": "For the disclosure required by paragraph 30, the undertaking shall disclose whether and how it has set GHG emissions reduction targets and/or any other targets to manage material climate-related impacts, risks and opportunities, for example, renewable energy deployment, energy efficiency, climate change adaptation, and physical or transition risk mitigation."
+                },
+                {
+                  "34": "If the undertaking has set GHG emission reduction targets, ESRS 2 MDR-T and the following requirements shall apply:(a) GHG emission reduction targets shall be disclosed in absolute value (either in tonnes of CO2eq or as a percentage of the emissions of a base year) and, where relevant, in intensity value;(b) GHG emission reduction targets shall be disclosed for Scope 1, 2, and 3 GHG emissions, either separately or combined. The undertaking shall specify, in case of combined GHG emission reduction targets, which GHG emission Scopes (1, 2 and/or 3) are covered by the target, the share related to each respective GHG emission Scope and which GHGs are covered. The undertaking shall explain how the consistency of these targets with its GHG inventory boundaries is ensured (as required by Disclosure Requirement E1-6). The GHG emission reduction targets shall be gross targets, meaning that the undertaking shall not include GHG removals, carbon credits or avoided emissions as a means of achieving the GHG emission reduction targets;(c)the undertaking shall disclose its current base year and baseline value, and from 2030 onwards, update the base year for its GHG emission reduction targets after every five-year period thereafter. The undertaking may disclose the past progress made in meeting its targets before its current base year provided that this information is consistent with the requirements of this Standard;(d) GHG emission reduction targets shall at least include target values for the year 2030 and, if available, for the year 2050. From 2030, target values shall be set after every 5-year period thereafter;(e) the undertaking shall state whether the GHG emission reduction targets are science- based and compatible with limiting global warming to 1.5 deg C. The undertaking shall state which framework and methodology has been used to determine these targets including whether they are derived using a sectoral decarbonisation pathway and what the underlying climate and policy scenarios are and whether the targets have been externally assured. As part of the critical assumptions for setting GHG emission reduction targets, the undertaking shall briefly explain how it has considered future developments (e.g., changes in sales volumes, shifts in customer preferences and demand, regulatory factors, and new technologies) and how these will potentially impact both its GHG emissions and emissions reductions; and (f) the undertaking shall describe the expected decarbonisation levers and their overall quantitative contributions to achieve the GHG emission reduction targets (e.g., energy or material efficiency and consumption reduction, fuel switching, use of renewable energy, phase out or substitution of product and process)."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement E1-5 - Energy consumption and mix",
+              "paragraphs": [
+                {
+                  "35": "The undertaking shall provide information on its energy consumption and mix."
+                },
+                {
+                  "36": "The objective of this Disclosure Requirement is to provide an understanding of the undertaking's total energy consumption in absolute value, improvement in energy efficiency, exposure to coal, oil and gas-related activities, and the share of renewable energy in its overall energy mix."
+                },
+                {
+                  "37": "The disclosure required by paragraph 35 shall include the total energy consumption in MWh related to own operations disaggregated by:(a)total energy consumption from fossil sources(33);(b)total energy consumption from nuclear sources;(c)total energy consumption from renewable sources disaggregated by:i.fuel consumption for renewable sources including biomass (also comprising industrial and municipal waste of biologic origin), biofuels, biogas, hydrogen from renewable sources(34), etc.;ii.consumption of purchased or acquired electricity, heat, steam, and cooling from renewable sources; andiii.consumption of self-generated non-fuel renewable energy."
+                },
+                {
+                  "38": "The undertaking with operations in high climate impact sectors shall further disaggregate their total energy consumption from fossil sources by:(a) fuel consumption from coal and coal products;(b) fuel consumption from crude oil and petroleum products;(c) fuel consumption from natural gas;(d) fuel consumption from other fossil sources;(e) consumption of purchased or acquired electricity, heat, steam, or cooling from fossil sources;"
+                },
+                {
+                  "39": "In addition, where applicable, the undertaking shall disaggregate and disclose separately its non-renewable energy production and renewable energy production in MWh."
+                },
+                {
+                  "40": "The undertaking shall provide information on the energy intensity (total energy consumption per net revenue) associated with activities in high climate impact sectors."
+                },
+                {
+                  "41": "The disclosure on energy intensity required by paragraph 40 shall only be derived from the total energy consumption and net revenue from activities in high climate impact sectors."
+                },
+                {
+                  "42": "The undertaking shall specify the high climate impact sectors that are used to determine the energy intensity required by paragraph 40."
+                },
+                {
+                  "43": "The undertaking shall disclose the reconciliation to the relevant line item or notes in the financial statements of the net revenue amount from activities in high climate impact sectors (the denominator in the calculation of the energy intensity required by paragraph 40)."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement E1-6 - Gross Scopes 1, 2, 3 and Total GHG emissions (incl. GHG intensity based on net revenue)",
+              "paragraphs": [
+                {
+                  "44": "The undertaking shall disclose in metric tonnes of CO2eq its(38):(a)gross Scope 1 GHG emissions;(b)gross Scope 2 GHG emissions;(c)gross Scope 3 GHG emissions; and(d)total GHG emissions."
+                },
+                {
+                  "45": "The objective of the Disclosure Requirement in paragraph 44 in respect of:(a) gross Scope 1 GHG emissions as required by paragraph 44 (a) is to provide an understanding of the direct impacts of the undertaking on climate change and the proportion of its total GHG emissions that are regulated under emission trading schemes.(b) gross Scope 2 GHG emissions as required by paragraph 44 (b) is to provide an understanding of the indirect impacts on climate change caused by the undertaking's consumed energy whether externally purchased or acquired.(c)gross Scope 3 GHG emissions as required by paragraph 44 (c) is to provide an understanding of the GHG emissions that occur in the undertaking's upstream and downstream value chain beyond its Scope 1 and 2 GHG emissions. For many undertakings, Scope 3 GHG emissions may be the main component of their GHG inventory and are an important driver of the undertaking's transition risks.(d) total GHG emissions as required by paragraph 44 (d) is to provide an overall understanding of the undertaking's GHG emissions and whether they occur from its own operations or the usptream and donwstream value chain. This disclosure is a prerequisite for measuring progress towards reducing GHG emissions in accordance with the undertaking's climate-related targets and EU policy goals. The information from this Disclosure Requirement is also needed to understand the undertaking's climate-related transition risks."
+                },
+                {
+                  "46": "When disclosing the information on GHG emissions required under paragraph 44, the undertaking shall refer to ESRS 1 paragraphs from 62 to 67. In principle, the data on GHG emissions of its associates or joint ventures that are part of the undertaking's upstream and downstream value chain (ESRS 1 Paragraph 67) are not limited to the share of equity held. For its associates, joint ventures, unconsolidated subsidiaries (investment entities) and contractual arrangements that are joint arrangements not structured through an entity (i.e., jointly controlled operations and assets), the undertaking shall include the GHG emissions in accordance with the extent of the undertaking's operational control over them."
+                },
+                {
+                  "47": "In case of significant changes in the definition of what constitutes the reporting undertaking and its upstream and downstream value chain, the undertaking shall disclose these changes and explain their effect on the year-to-year comparability of its reported GHG emissions (i.e., the effect on the comparability of current versus previous reporting period GHG emissions)."
+                },
+                {
+                  "48": "The disclosure on gross Scope 1 GHG emissions required by paragraph 44 (a) shall include:(a)the gross Scope 1 GHG emissions in metric tonnes of CO2eq; and(b)the percentage of Scope 1 GHG emissions from regulated emission trading schemes."
+                },
+                {
+                  "49": "The disclosure on gross Scope 2 GHG emissions required by paragraph 44 (b) shall include:(a)the gross location-based Scope 2 GHG emissions in metric tonnes of CO2eq; and(b)the gross market-based Scope 2 GHG emissions in metric tonnes of CO2eq."
+                },
+                {
+                  "50": "For Scope 1 and Scope 2 emissions disclosed as required by paragraphs 44 (a) and (b) the undertaking shall disaggregate the information, separately disclosing emissions from:(a)the consolidated accounting group (the parent and subsidiaries); and(b)investees such as associates, joint ventures, or unconsolidated subsidiaries that are not fully consolidated in the financial statements of the consolidated accounting group, as well as contractual arrangements that are joint arrangements not structured through an entity (i.e., jointly controlled operations and assets), for which it has operational control."
+                },
+                {
+                  "51": "The disclosure of gross Scope 3 GHG emissions required by paragraph 44 (c) shall include GHG emissions in metric tonnes of CO2eq from each significant Scope 3 category (i.e. each Scope 3 category that is a priority for the undertaking) ."
+                },
+                {
+                  "52": "The disclosure of total GHG emissions required by paragraph 44 (d) shall be the sum of Scope 1, 2 and 3 GHG emissions required by paragraphs 44 (a) to (c). The total GHG emissions shall be disclosed with a disaggregation that makes a distinction of:(a)the total GHG emissions derived from the underlying Scope 2 GHG emissions being measured using the location-based method; and(b)the total GHG emissions derived from the underlying Scope 2 GHG emissions being measured using the market- based method.GHG Intensity based on net revenue."
+                },
+                {
+                  "53": "The undertaking shall disclose its GHG emissions intensity (total GHG emissions per net revenue)."
+                },
+                {
+                  "54": "The disclosure on GHG intensity required by paragraph 53 shall provide the total GHG emissions in metric tonnes of CO2eq (required by paragraph 44 (d)) per net revenue."
+                },
+                {
+                  "55": "The undertaking shall disclose the reconciliation to the relevant line item or notes in the financial statements of the net revenue amounts (the denominator in the calculation of the GHG emissions intensity required by paragraph 53)."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement E1-7 - GHG removals and GHG mitigation projects financed through carbon credits",
+              "paragraphs": [
+                {
+                  "56": "The undertaking shall disclose:(a)GHG removals and storage in metric tonnes of CO2eq resulting from projects it may have developed in its own operations, or contributed to in its upstream and downstream value chain; and(b)the amount of GHG emission reductions or removals from climate change mitigation projects outside its value chain it has financed or intends to finance through any purchase of carbon credits."
+                },
+                {
+                  "57": "The objective of this Disclosure Requirement is:(a)to provide an understanding of the undertaking's actions to permanently remove or actively support the removal of GHG from the atmosphere, potentially for achieving net-zero targets (as stated in paragraph 60).(b)to provide an understanding of the extent and quality of carbon credits the undertaking has purchased or intends to purchase from the voluntary market, potentially for supporting its GHG neutrality claims (as stated in paragraph 61)."
+                },
+                {
+                  "58": "The disclosure on GHG removals and storage required by paragraph 56 (a) shall include, if applicable:(a)the total amount of GHG removals and storage in metric tonnes of CO2eq disaggregated and separately disclosed for the amount related to the undertaking's own operations and its upstream and donwstream value chain, and broken down by removal activity; and(b)the calculation assumptions, methodologies and frameworks applied by the undertaking."
+                },
+                {
+                  "59": "The disclosure on carbon credits required by paragraph 56 (b) shall include, if applicable:(a)the total amount of carbon credits outside the undertaking's value chain in metric tonnes of CO2eq that are verified against recognised quality standards and cancelled in the reporting period; and(b)the total amount of carbon credits outside the undertaking's value chain in metric tonnes of CO2eq planned to be cancelled in the future and whether they are based on existing contractual agreements or not."
+                },
+                {
+                  "60": "In the case where the undertaking discloses a net-zero target in addition to the gross GHG emission reduction targets in accordance with Disclosure Requirement E1-4, paragraph 30, it shall explain the scope, methodologies and frameworks applied and how the residual GHG emissions (after approximately 90-95% of GHG emission reduction with the possibility for justified sectoral variations in line with a recognised sectoral decarbonisation pathway) are intended to be neutralised by, for example, GHG removals in its own operations and upstream and donwstream value chain."
+                },
+                {
+                  "61": "In the case where the undertaking may have made public claims of GHG neutrality that involve the use of carbon credits, it shall explain:(a)whether and how these claims are accompanied by GHG emission reduction targets as required by Disclosure requirement ESRS E1-4;(b) whether and how these claims and the reliance on carbon credits neither impede nor reduce the achievement of its GHG emission reduction targets(40), or, if applicable, its net zero target; and(c)the credibility and integrity of the carbon credits used, including by reference to recognised quality standards."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement E1-8 - Internal carbon pricing",
+              "paragraphs": [
+                {
+                  "62": "The undertaking shall disclose whether it applies internal carbon pricing schemes, and if so, how they support its decision making and incentivise the implementation of climate-related policies and targets."
+                },
+                {
+                  "63": "The information required in paragraph 62 shall include:(a) the type of internal carbon pricing scheme, for example, the shadow prices applied for CapEX or research and development (R&D) investment decision making, internal carbon fees or internal carbon funds;(b)the specific scope of application of the carbon pricing schemes (activities, geographies, entities, etc.);(c)the carbon prices applied according to the type of scheme and critical assumptions made to determine the prices, including the source of the applied carbon prices and why these are deemed relevant for their chosen application. The undertaking may disclose the calculation methodology of the carbon prices including the extent to which these have been set using scientific guidance and how their future development is related to science-based carbon pricing trajectories; and(d)the current year approximate gross GHG emission volumes by Scopes 1, 2 and, where applicable, Scope 3 in metric tonnes of CO2eq covered by these schemes, as well as their share of the undertaking's overall GHG emissions for each respective Scope."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement E1-9 - Anticipated financial effects from material physical and transition risks and potential climate-related opportunities",
+              "paragraphs": [
+                {
+                  "64": "The undertaking shall disclose its:(a) anticipated financial effects from material physical risks;(b) anticipated financial effects from material transition risks; and(c) potential to benefit from material climate-related opportunities."
+                },
+                {
+                  "65": "The information required by paragraph 64 is in addition to the information on current financial effects required under ESRS 2 SBM-3 para 48 (d). The objective of this Disclosure Requirement related to:(a)anticipated financial effects due to material physical risks and transition risks is to provide an understanding of how these risks have (or could reasonably be expected to have) a material influence on the undertaking's financial position, financial performance and cash flows, over the short-, medium- and long- term. The results of scenario analysis used to conduct resilience analysis as required under paragraphs AR 10 to AR 13 should inform the assessment of anticipated financial effects from material physical and transition risks.(b) potential to pursue material climate-related opportunities is to enable an understanding of how the undertaking may financially benefit from material climate- related opportunities. This disclosure is complementary to the key performance indicators to be disclosed in accordance with Commission Delegated Regulation (EU) 2021/2178."
+                },
+                {
+                  "66": "The disclosure of anticipated financial effects from material physical risks required by paragraph 64 (a) shall include(41):(a)the monetary amount and proportion (percentage) of assets at material physical risk over the short-, medium- and long-term before considering climate change adaptation actions; with the monetary amounts of these assets disaggregated by acute and chronic physical risk(42);(b)the proportion of assets at material physical risk addressed by the climate change adaptation actions;(c)the location of significant assets at material physical risk(43); and(d)the monetary amount and proportion (percentage) of net revenue from its business activities at material physical risk over the short-, medium- and long-term."
+                },
+                {
+                  "67": "The disclosure of anticipated financial effects from material transition risks required by paragraph 64 (b) shall include:(a)the monetary amount and proportion (percentage) of assets at material transition risk over the short-, medium- and long-term before considering climate mitigation actions;(b)the proportion of assets at material transition risk addressed by the climate change mitigation actions;(c)a breakdown of the carrying value of the undertaking's real estate assets by energy-efficiency classes(44);(d)liabilities that may have to be recognised in financial statements over the short-, medium- and long-term; and(e)the monetary amount and proportion (percentage) of net revenue from its business activities at material transition risk over the short-, medium- and long-term including, where relevant, the net revenue from the undertaking's customers operating in coal, oil and gas-related activities."
+                },
+                {
+                  "68": "The undertaking shall disclose reconciliations to the relevant line items or notes in the financial statements of the following:(a)significant amounts of the assets and net revenue at material physical risk (as required by paragraph 66);(b)significant amounts of the assets, liabilities, and net revenue at material transition risk (as required by paragraph 67)."
+                },
+                {
+                  "69": "For the disclosure of the potential to pursue climate-related opportunities required by paragraph 64 (c) the undertaking shall consider(45):(a) its expected cost savings from climate change mitigation and adaptation actions; and(b)the potential market size or expected changes to net revenue from low-carbon products and services or adaptation solutions to which the undertaking has or may have access."
+                },
+                {
+                  "70": "A quantification of the financial effects that arise from opportunities is not required if such a disclosure does not meet the qualitative characteristics of useful information included under ESRS 1 Appendix B Qualitative characteristics of information."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Appendix A: Application Requirements",
+      "description": "This Appendix is an integral part of the ESRS E1. It supports the application of the disclosure requirements set out in this standard and has the same authority as the other parts of the Standard.",
+      "subsections": [
+        {
+          "title": "Strategy",
+          "subsections": [
+            {
+              "title": "Disclosure Requirement E1-1 - Transition plan for climate change mitigation",
+              "paragraphs": [
+                {
+                  "AR 1": "A transition plan relates to the undertaking's efforts in climate change mitigation. When disclosing its transition plan, the undertaking is expected to provide a high-level explanation of how it will adjust its strategy and business model to ensure compatibility with the transition to a sustainable economy and with the limiting of global warming to 1.5 deg C in line with the Paris Agreement (or an updated inter national agreement on climate change) and the objective of achieving climate neutrality by 2050 with no or limited overshoot as established in Regulation (EU) 2021/1119 (European Climate Law), and where applicable, how it will adjust its exposure to coal, and oil and gas-related activities."
+                },
+                {
+                  "AR 2": "Sectoral pathways have not yet been defined by the public policies for all sectors. Hence, the disclosure under paragraph 16 (a) on the compatibility of the transition plan with the objective of limiting global warming to 1.5 deg C should be understood as the disclosure of the undertaking's GHG emissions reduction target. The disclosure under paragraph 16 (a) shall be benchmarked in relation to a pathway to 1.5 deg C. This benchmark should be based on either a sectoral decarbonisation pathway if available for the undertaking's sector or an economy-wide scenario bearing in mind its limitations (i.e., it is a simple translation of emission reduction objectives from the state to undertaking level). This AR should be read also in conjunction with AR 26 and AR 27 and the sectoral decarbonisation pathways they refer to."
+                },
+                {
+                  "AR 3": "When disclosing the information required under paragraph 16(d) the undertaking may consider:(a)the cumulative locked-in GHG emissions associated with key assets from the reporting year until 2030 and 2050 in tCO2eq. This will be assessed as the sum of the estimated Scopes 1 and 2 GHG emissions over the operating lifetime of the active and firmly planned key assets. Key assets are those owned or controlled by the undertaking, and they consist of existing or planned assets (such as stationary or mobile installations, facilities, and equipment) that are sources of either significant direct or energy-indirect GHG emissions. Firmly planned key assets are those that the undertaking will most likely deploy within the next 5 years.(b)the cumulative locked-in GHG emissions associated with the direct use-phase GHG emissions of sold products in tCO2eq, assessed as the sales volume of products in the reporting year multiplied by the sum of estimated direct use-phase GHG emissions over their expected lifetime. This requirement only applies if the undertaking has identified the Scope 3 category \"use of sold products\" as significant under Disclosure Requirement E1-6 paragraph 51; and(c)an explanation of the plans to manage, i.e., to transform, decommission or phase out its GHG-intensive and energy-intensive assets and products."
+                },
+                {
+                  "AR 4": "When disclosing the information required under paragraph 16 (e), the undertaking shall explain how the alignment of its economic activities with the provisions of Commission Delegated Regulation (EU) 2021/2139 is expected to evolve over time to support its transition to a sustainable economy. In doing so, the undertaking shall take account of the key performance indicators required to be disclosed under Article 8 of Regulation (EU) 2020/852 (in particular taxonomy-aligned revenue and CapEx and, if applicable, CapEx plans)."
+                },
+                {
+                  "AR 5": "When disclosing the information required under paragraph 16 (f), the undertaking shall state whether or not it is excluded from the EU Paris-aligned Benchmarks in accordance with the exclusion criteria stated in Articles 12.1 (d) to (g)(46)and 12.2 of Commission Delegated Regulation (EU) 2020/1818 (Climate Benchmark Standards Regulation)"
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement related to ESRS 2 SBM-3 - Material impacts, risks and opportunities and their interaction with strategy and business model",
+              "paragraphs": [
+                {
+                  "AR 6": "When disclosing the information on the scope of the resilience analysis as required under paragraph 19 (a), the undertaking shall explain which part of its own operations and upstream and downstream value chain as well as which material physical risks and transition risks may have been excluded from the analysis."
+                },
+                {
+                  "AR 7": "When disclosing the information on how the resilience analysis has been conducted as required under paragraph 19 (b), the undertaking shall explain:(a)the critical assumptions about how the transition to a lower-carbon and resilient economy will affect its surrounding macroeconomic trends, energy consumption and mix, and technology deployment assumptions;(b)the time horizons applied and their alignment with the climate and business scenarios considered for determining material physical and transition risks (paragraphs AR 11to AR 12) and setting GHG emissions reduction targets (reported under Disclosure Requirement E1-4); and(c)how the estimated anticipated financial effects from material physical and transition risks (as required by Disclosure Requirement E1-9) as well as the mitigation actions and resources (disclosed under Disclosure Requirement E1-3) were considered."
+                },
+                {
+                  "AR 8": "When disclosing the information on the results of the resilience analysis as required under paragraph 19 (c), the undertaking shall explain:(a)the areas of uncertainties of the resilience analysis and to what extent the assets and business activities at risk are considered within the definition of the undertaking's strategy, investment decisions, and current and planned mitigation actions;(b) the ability of the undertaking to adjust or adapt its strategy and business model to climate change over the short-, medium- and long-term, including securing ongoing access to finance at an affordable cost of capital, the ability to redeploy, upgrade or decommission existing assets, shifting its products and services portfolio, or reskilling its workforce."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Impact, risk and opportunity management",
+          "subsections": [
+            {
+              "title": "Disclosure requirement related to ESRS 2 IRO-1 - Description of the processes to identify and assess material climate-related impacts, risks and opportunities",
+              "paragraphs": [
+                {
+                  "AR 9": "When disclosing the information on the processes to identify and assess climate impacts as required under paragraph 20 (a), the undertaking shall explain how it has:(a)screened its activities and plans in order to identify actual and potential future GHG emission sources and, if applicable, drivers for other climate-related impacts (e.g., emissions of black carbon or tropospheric ozone or land-use change) in own operations and along the value chain; and(b)assessed its actual and potential impacts on climate change (i.e., its total GHG emissions)."
+                },
+                {
+                  "AR 10": "The undertaking may link the information disclosed under paragraphs 20 (a) and AR 9 to the information disclosed under the following Disclosure Requirements: Disclosure Requirement E1-1, paragraph 16 (d) on locked-in GHG emissions; Disclosure Requirement E1-4 and Disclosure Requirement E1-6."
+                },
+                {
+                  "AR 11": "When disclosing the information on the processes to identify and assess physical risks as required under paragraph 20 (b), the undertaking shall explain whether and how: (a)it has identified climate-related hazards over the short-, medium- and long-term and screened whether its assets and business activities may be exposed to these hazards;(b) it has defined short-, medium- and long-term time horizons and how these definitions are linked to the expected lifetime of its assets, strategic planning horizons and capital allocation plans;(c) it has assessed the extent to which its assets and business activities may be exposed and are sensitive to the identified climate-related hazards, taking into consideration the likelihood, magnitude and duration of the hazards as well as the geospatial coordinates (such as Nomenclature of Territorial Units of Statistics- NUTS for the EU territory) specific to the undertaking's locations and supply chains; and(d)the identification of climate-related hazards and the assessment of exposure and sensitivity are informed by high emissions climate scenarios, which may, for example, be based on IPCC SSP5-8.5, relevant regional climate projections based on these emission scenarios, or NGFS (Network for Greening the Financial System) climate scenarios with high physical risk such as \"Hot house world\" or \"Too little, too late\". For general requirements regarding climate-related scenario analysis see paragraphs 18, 19, AR 13 to AR 15. Classification of climate-related hazards (Source: Commission Delegated Regulation (EU) 2021/2139)."
+                },
+                {
+                  "AR 12": "When disclosing the information on the processes to identify transition risks and opportunities as required under paragraph 20 (c), the undertaking shall explain whether and how it has:(a)identified transition events over the short-, medium- and long-term and screened whether its assets and business activities may be exposed to these events. In case of transition risks and opportunities, what is considered long-term may cover more than 10 years and may be aligned with climate-related public policy goals;(b)assessed the extent to which its assets and business activities may be exposed and are sensitive to the identified transition events, taking into consideration the likelihood, magnitude and duration of the transition events;(c)informed the identification of transition events and the assessment of exposure by climate-related scenario analysis, considering at least a scenario consistent with the Paris Agreement and limiting climate change to 1.5 deg C, for example, based on scenarios of the International Energy Agency (Net zero Emissions by 2050, Sustainable Development Scenario, etc), or NGFS (Network for Greening the Financial System) climate scenarios. For the general requirements related to climate-related scenario analysis see paragraphs 18, 19, AR 13 to AR 15; and (d) identified assets and business activities that are incompatible with or need significant efforts to be compatible with a transition to a climate-neutral economy (for example, due to significant locked-in GHG emissions or incompatibility with the requirements for Taxonomy-alignment under Commission Delegated Regulation (EU) 2021/2139)."
+                },
+                {
+                  "AR 13": "When disclosing the information required under paragraphs 19, 20, 21, AR 10 and AR 11, the undertaking shall explain how it has used climate-related scenario analysis that is commensurate to its circumstances to inform the identification and assessment of physical and transition risks and opportunities over the short-, medium- and long-term, including:(a)which scenarios were used, their sources and alignment with state-of-the-art science;(b)narratives, time horizons, and endpoints used with a discussion of why it believes the range of scenarios used covers its plausible risks and uncertainties;(c)the key forces and drivers taken into consideration in each scenario and why these are relevant to the undertaking, for example, policy assumptions, macroeconomic trends, energy usage and mix, and technology assumptions; and(d)key inputs and constraints of the scenarios, including their level of detail (e.g., whether the analysis of physical climate-related risks is based on geospatial coordinates specific to the undertaking's locations or national- or regional-level broad data)."
+                },
+                {
+                  "AR 14": "When conducting scenario analysis, the undertaking may consider the following guidance: TCFD Technical Supplement on \"The Use of Scenario Analysis in Disclosure of Climate-Related Risks and Opportunities\" (2017); TCFD \"Guidance on Scenario Analysis for Non-Financial Companies\" (2020); ISO 14091:2021 \"Adaptation to climate change - Guidelines on vulnerability, impacts and risk assessment\"; any other recognised industry standards such as NGFS (Network for Greening the Financial System); and EU, national, regional and local regulations."
+                },
+                {
+                  "AR 15": "The undertaking shall briefly explain how the climate scenarios used are compatible with the critical climate- related assumptions made in the financial statements."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement E1-2 - Policies related to climate change mitigation and adaptation",
+              "paragraphs": [
+                {
+                  "AR 16": "Policies related to either climate change mitigation or climate adaptation may be disclosed separately as their objectives, people involved, actions and resources needed to implement them are different."
+                },
+                {
+                  "AR 17": "Policies related to climate change mitigation address the management of the undertaking's GHG emissions, GHG removals and transition risks over different time horizons, in its own operations and/or in the upstream and downstream value chain. The requirement under paragraph 14 may relate to stand-alone climate change mitigation policies as well as relevant policies on other matters that indirectly support climate change mitigation including training policies, procurement or supply chain policies, investment policies or product development policies."
+                },
+                {
+                  "AR 18": "Policies related to climate change adaptation address the management of the undertaking's physical climate risks and of its transition risks related to climate change adaptation. The requirement under paragraphs 22 and 25 may relate to stand-alone climate change adaptation policies as well as relevant policies on other matters that indirectly support climate change adaptation including training policies, and emergency or health and safety policies."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirements E1-3 - Actions and resources in relation to climate change policies",
+              "paragraphs": [
+                {
+                  "AR 19": "When disclosing the information on actions as required under paragraphs 29 (a) and 29 (b), the undertaking may:(a)disclose its key actions taken and/or plans to implement climate change mitigation and adaptation policies in its single or separate actions;(b)aggregate types of mitigation actions (decarbonisation levers) such as energy efficiency, electrification, fuel switching, use of renewable energy, products change, and supply-chain decarbonisation that fit the undertakings' specific actions;(c)disclose the list of key mitigation actions alongside the measurable targets (as required by Disclosure Requirement E1-4) with disaggregation by decarbonisation levers; and(d)disclose the climate change adaptation actions by type of adaptation solution such as nature-based adaptation, engineering, or technological solutions."
+                },
+                {
+                  "AR 20": "When disclosing the information on resources as required under paragraph 29 (c), the undertaking shall only disclose the significant OpEx and CapEx amounts required for the implementation of the actions as the purpose of this information is to demonstrate the credibility of its actions rather than to reconcile the disclosed amounts to the financial statements. The disclosed CapEx and OpEx amounts shall be the additions made to both tangible and intangible assets during the current financial year as well as the planned additions for future periods of implementing the actions. The disclosed amounts shall only be the incremental financial investments directly contributing to the achievement of the undertaking's targets."
+                },
+                {
+                  "AR 21": "In line with the requirements of ESRS 2 MDR-A, the undertaking shall explain if and to what extent its ability to implement the actions depends on the availability and allocation of resources. Ongoing access to finance at an affordable cost of capital can be critical for the implementation of the undertaking's actions, which include its adjustments to supply/demand changes or its related acquisitions and significant research and development (R&D) investments."
+                },
+                {
+                  "AR 22": "The amounts of OpEx and CapEx required for the implementation of the actions disclosed under paragraph 29 (c) shall be consistent with the key performance indicators (CapEx and OpEx key performance indicators) and, if applicable, the CapEx plan required by Commission Delegated Regulation (EU) 2021/2178. The undertaking shall explain any potential differences between the significant OpEx and CapEx amounts disclosed under this Standard and the key performance indicators disclosed under Commission Delegated Regulation (EU) 2021/2178 due to, for instance, the disclosure of non-eligible economic activities as defined in that delegated regulation. The undertaking may structure its actions by economic activity to compare its OpEx and CapEx, and if applicable its OpEx and/or CapEx plans to its Taxonomy-aligned key performance indicators.Metrics and targetsDisclosure Requirement E1-4 - Targets related to climate change mitigation and adaptation"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Metrics and targets",
+          "subsections": [
+            {
+              "title": "Disclosure Requirement E1-4 - Targets related to climate change mitigation and adaptation",
+              "paragraphs": [
+                {
+                  "AR 23": "Under paragraph 34 (a), the undertaking may disclose GHG emission reduction targets in intensity value. Intensity targets are formulated as ratios of GHG emissions relative to a unit of physical activity or economic output. Relevant units of activity or output are referred to in ESRS sector-specific standards. In cases where the undertaking has only set a GHG intensity reduction target, it shall nevertheless disclose the associated absolute values for the target year and interim target year(s). This may result in a situation where an undertaking is required to disclose an increase of absolute GHG emissions for the target year and interim target year(s), for example because it anticipates organic growth of its business."
+                },
+                {
+                  "AR 24": "When disclosing the information required under paragraph 34 (b), the undertaking shall specify the share of the target related to each respective GHG emission Scope (1, 2 or 3). The undertaking shall state the method used to calculate Scope 2 GHG emissions included in the target (i.e., either the location-based or market-based method). If the boundary of the GHG emission reduction target diverges from that of the GHG emissions reported under Disclosure Requirement E1-6, the undertaking shall disclose which gases are covered, the respective percentage of Scope 1, 2, 3 and total GHG emissions covered by the target. For the GHG emission reduction targets of its subsidiaries, the undertaking shall analogously apply these requirements at the level of the subsidiary."
+                },
+                {
+                  "AR 25": "When disclosing the information required under paragraph 34(c) on base year and baseline value:(a)the undertaking shall briefly explain how it has ensured that the baseline value against which the progress towards the target is measured is representative in terms of the activities covered and the influences from external factors (e.g., temperature anomalies in a certain year influencing the amount of energy consumption and related GHG emissions). This can be done by the normalisation of the baseline value, or, by using a baseline value that is derived from a 3-year average if this increases the representativeness and allows a more faithful representation;(b)the baseline value and base year shall not be changed unless significant changes in either the target or reporting boundary occur. In such a case, the undertaking shall explain how the new baseline value affects the new target, its achievement and presentation of progress over time. To foster comparability, when setting new targets, the undertaking shall select a recent base year that does not precede the first reporting year of the new target period by longer than 3 years. For example, for 2030 as the target year and a target period between 2025 and 2030, the base year shall be selected from the period between 2022 and 2025;(c)the undertaking shall update its base year from 2030 and after every 5-year period thereafter. This means that before 2030, the base years chosen by undertakings' may be either the currently applied base year for existing targets or the first year of application of the sustainability reporting requirements as set out in Article 5(2) of Directive (EU) 2022/2464 (2024, 2025 or 2026) and, after 2030, every 5 years (2030, 2035, etc); and(d)when presenting climate-related targets, the undertaking may disclose the progress in meeting these targets made before its current base year. In doing so, the undertaking shall, to the greatest extent possible, ensure that the information on past progress is consistent with the requirements of this Standard. In the case of methodological differences, for example, regarding target boundaries, the undertaking shall provide a brief explanation for these differences."
+                },
+                {
+                  "AR 26": "When disclosing the information required under paragraphs 34 (d) and 34 (e), the undertaking shall present the information over the target period with reference to a sector- specific, if available, or a cross-sector emission pathway compatible with limiting global warming to 1.5 deg C. For this purpose, the undertaking shall calculate a 1.5 deg C aligned reference target value for Scope 1 and 2 (and, if applicable, a separate one for Scope 3) against which its own GHG emission reduction targets or interim targets in the respective Scopes can be compared."
+                },
+                {
+                  "AR 27": "The reference target value may be calculated by multiplying the GHG emissions in the base year with either a sector-specific (sectoral decarbonisation methodology) or cross-sector (contraction methodology) emission reduction factor. These emission reduction factors can be derived from different sources. The undertaking should ensure that the source used is based on an emission reduction pathway compatible with limiting global warming to 1.5 deg C."
+                },
+                {
+                  "AR 28": "The emission reduction factors are subject to further development. Consequently, undertakings are encouraged to only use updated publicly available information."
+                },
+                {
+                  "AR 29": "The reference target value is dependent on the base year and baseline emissions of the undertaking's GHG emission reduction target. As a result, the reference target value for undertakings with a recent base year or from higher baseline emissions may be less challenging to achieve than it will be for undertakings that have already taken ambitious past actions to reduce GHG emissions. Therefore, undertakings that have in the past achieved GHG emissions reductions compatible with either a 1.5 deg C-aligned cross-sector or sector-specific pathway, may adjust their baseline emissions accordingly to determine the reference target value. Accordingly, if the undertaking is adjusting the baseline emissions to determine the reference target value, it shall not consider GHG emission reductions that precede the year 2020 and it shall provide appropriate evidence of its past achieved GHG emission reduction."
+                },
+                {
+                  "AR 30": "When disclosing the information required under paragraph 34 (f), the undertaking shall explain:(a)by reference to its climate change mitigation actions, the decarbonisation levers and their estimated quantitative contributions to the achievement of its GHG emission reduction targets broken down by each Scope (1, 2 and 3);(b)whether it plans to adopt new technologies and the role of these to achieve its GHG emission reduction targets; and(c)whether and how it has considered a diverse range of climate scenarios, at least including a climate scenario compatible with limiting global warming to 1.5 deg C, to detect relevant environmental-, societal-, technology-, market- and policy-related developments and determine its decarbonisation levers."
+                },
+                {
+                  "AR 31": "The undertaking may present its GHG emission reduction targets together with its climate change mitigation actions (see paragraph AR 19) as a table or graphical pathway showing developments over time. Illustrative pathway: base year 2025 at 100 ktCO2eq, 2030 target 60 ktCO2eq, 2035 target 40 ktCO2eq, with decarbonisation levers such as energy efficiency (-10), material efficiency (-5), electrification (-10), renewable energy (-10/-3), and product or process substitutions (-8/-5/-3).)."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement E1-5 - Energy consumption and mix",
+              "paragraphs": [
+                {
+                  "AR 32": "When preparing the information on energy consumption required under paragraph 35, the undertaking shall:(a) only report energy consumed from processes owned or controlled by the undertaking applying the same perimeter applied for reporting GHG Scopes 1 and 2 emissions;(b)exclude feedstocks and fuels that are not combusted for energy purposes. The undertaking that consumes fuel as feedstocks can disclose information on this consumption separately from the required disclosures;(c) ensure all quantitative energy-related information is reported in either Mega-Watt- hours (MWh) in Lower Heating Value or net calorific value. If raw data of energy- related information is only available in energy units other than MWh (such as Giga-Joules (GJ) or British Thermal Units (Btu)), in volume units (such as cubic feet or gallons) or in mass units (such as kilograms or pounds), they shall be converted to MWh using suitable conversion factors (see for example Annex II of the Fifth Assessment IPCC report). Conversion factors for fuels shall be made transparent and applied in a consistent manner;(d)ensure all quantitative energy-related information is reported as final energy consumption, referring to the amount of energy the undertaking actually consumes using for example the table in Annex IV of Directive 2012/27 of the European Parliament and of the Council(48)on energy efficiency;(e)avoid double counting fuel consumption when disclosing self-generated energy consumption. If the undertaking generates electricity from either a non-renewable or renewable fuel source and then consumes the generated electricity, the energy consumption shall be counted only once under fuel consumption;(f) not offset energy consumption even if onsite generated energy is sold to and used by a third party;(g) not count energy that is sourced from within the organisational boundary under \"purchased or acquired\" energy; (h) account for steam, heat or cooling received as \"waste energy\" from a third party's industrial processes under \"purchased or acquired\" energy;(i)account for renewable hydrogen(49)as a renewable fuel. Hydrogen that is not completely derived from renewable sources shall be included under \"fuel consumption from other non-renewable sources\"; and(j)adopt a conservative approach when splitting the electricity, steam, heat or cooling between renewable and non-renewable sources based on the approach applied to calculate market-based Scope 2 GHG emissions. The undertaking shall only consider these energy consumptions as deriving from renewable sources if the origin of the purchased energy is clearly defined in the contractual arrangements with its suppliers (renewable power purchasing agreement, standardised green electricity tariff, market instruments like Guarantee of Origin from renewable sources in Europe(50)or similar instruments like Renewable Energy Certificates in the US and Canada, etc.)."
+                },
+                {
+                  "AR 33": "The information required under paragraph 37 (a) is applicable if the undertaking is operating in at least one high climate impact sector. The information required under paragraph 38 (a) to (e). shall also include energy from fossil sources consumed in operations that are not in high climate impact sectors."
+                },
+                {
+                  "AR 34": "The information on Energy consumption and mix may be presented using the following tabular format for high climate impact sectors and for all other sector by omitting rows (1) to (5). Columns: (1) Energy consumption and mix (2) Comparative (3) Year N, Rows: (1)Fuel consumption from coal and coal products (MWh)(2)Fuel consumption from crude oil and petroleum products (MWh)(3)Fuel consumption from natural gas (MWh)(4)Fuel consumption from other fossil sources (MWh)(5)Consumption of purchased or acquired electricity, heat, steam, and cooling from fossil sources (MWh)(6)Total fossil energy consumption (MWh) (calculated as the sum of lines 1 to 5)Share of fossil sources in total energy consumption (%)(7)Consumption from nuclear sources (MWh)Share of consumption from nuclear sources in total energy consumption (%) (8)Fuel consumption for renewable sources, including biomass (also comprising industrial and municipal waste of biologic origin, biogas, renewable hydrogen, etc.) (MWh)(9)Consumption of purchased or acquired electricity, heat, steam, and cooling from renewable sources (MWh)(10)The consumption of self-generated non-fuel renewable energy (MWh)(11)Total renewable energy consumption (MWh) (calculated as the sum of lines 8 to 10)Share of renewable sources in total energy consumption (%)Total energy consumption (MWh) (calculated as the sum of lines 6, and 11)"
+                },
+                {
+                  "AR 35": "The total energy consumption with a distinction between fossil, nuclear and renewable energy consumption may be presented graphically in the sustainability statement showing developments over time (e.g., through a pie or bar chart)."
+                },
+                {
+                  "AR 36": "When preparing the information on energy intensity required under paragraph 40, the undertaking shall: (a) calculate the energy intensity ratio using the following formula:(Total energy consumption in high climate impact sectors(MWh)/Net revenue from activities in high climate impact sectors (Monetary Unit) / (Total energy consumption/Net revenue from activities in high climate impact sectors) \n(b) express the total energy consumption in MWh and the net revenue in monetary units (e.g., Euros);(c)the numerator and denominator shall only consist of the proportion of the total final energy consumption (in the numerator) and net revenue (in the denominator) that are attributable to activities in high climate impact sectors. In effect, there should be consistency in the scope of both the numerator and denominator; (d)calculate the total energy consumption in line with the requirement in paragraph 37; (e) calculate the net revenue in line with the accounting standards requirements applicable for the financial statements, i.e., IFRS 15 Revenue from Contracts with Customers or local GAAP requirements."
+                },
+                {
+                  "AR 37": "The quantitative information may be presented in the following table: Columns 'Energy intensity per net revenue';'Comparative'; 'N'; '%N/N-1';"
+                },
+                {
+                  "AR 38": "The reconciliation of net revenue from activities in high climate impact sectors to the relevant financial statements line item or disclosure (as required by paragraph 43) may be presented either:(a) by a cross-reference to the related line item or disclosure in the financial statements"
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirements E1-6 - Gross Scopes 1, 2, 3 and Total GHG emissions",
+              "paragraphs": [
+                {
+                  "AR 39": "When preparing the information for reporting GHG emissions as required by paragraph 44, the undertaking shall:(a)consider the principles, requirements and guidance provided by the GHG Protocol Corporate Standard (version 2004). The undertaking may consider Commission Recommendation (EU) 2021/2279(51)or the requirements stipulated by EN ISO 14064-1:2018. If the undertaking already applies the GHG accounting methodology of ISO 14064- 1: 2018, it shall nevertheless comply with the requirements of this standard (e.g., regarding reporting boundaries and the disclosure of market-based Scope 2 GHG emissions);(b)disclose the methodologies, significant assumptions and emissions factors used to calculate or measure GHG emissions accompanied by the reasons why they were chosen, and provide a reference or link to any calculation tools used;(c)include emissions of CO2, CH4, N2O, HFCs, PFCs, SF6, and NF3. Additional GHG may be considered when significant; and(d)use the most recent Global Warming Potential (GWP) values published by the IPCC based on a 100-year time horizon to calculate CO2eq emissions of non-CO2 gases."
+                },
+                {
+                  "AR 40": "When preparing the information for reporting GHG emissions from its associates, joint ventures, unconsolidated subsidiaries (investment entities) and contractual arrangements as required by paragraph 50, the undertaking shall consolidate 100% of the GHG emissions of the entities it operationally controls. In practice, this happens when the undertakings holds the license - or permit - to operate the assets from these associates, joint ventures, unconsolidated subsidiaries (investment entities) and contractual arrangements. When the undertaking has a contractually defined part-time operational control, it shall consolidate 100% the GHG emitted during the time of its operational control."
+                },
+                {
+                  "AR 41": "In line with ESRS 1 chapter 3.7, the undertaking shall disaggregate information on its GHG emissions as appropriate. For example, the undertaking may disaggregate its Scope 1, 2, 3, or total GHG emissions by country, operating segments, economic activity, subsidiary, GHG category (CO2, CH4, N2O, HFCs, PFCs, SF6, NF3, and other GHG considered by the undertaking) or source type (stationary combustion, mobile combustion, process emissions and fugitive emissions)."
+                },
+                {
+                  "AR 42": "An undertaking might have a different reporting period from some or all of the entities in its value chain. In such circumstances, the undertaking is permitted to measure its GHG emissions in accordance with paragraph 44 using information for reporting periods that are different from its own reporting period if that information is obtained from entities in its value chain with reporting periods that are different from the undertaking's reporting period, on the condition that:(a)the undertaking uses the most recent data available from those entities in its value chain to measure and disclose its greenhouse gas emissions;(b)the length of the reporting periods is the same; and(c)the undertaking discloses the effects of significant events and changes in circumstances (relevant to its GHG emissions) that occur between the reporting dates of the entities in its value chain and the date of the undertaking's general purpose financial statements."
+                },
+                {
+                  "AR 43": "When preparing the information on gross Scope 1 GHG emissions required under paragraph 48 (a), the undertaking shall:(a)calculate or measure GHG emissions from stationary combustion, mobile combustion, process emissions and fugitive emissions; and use suitable activity data that include the non-renewable fuel consumption;(b)use suitable and consistent emission factors;(c)disclose biogenic emissions of CO2 from the combustion or bio-degradation of biomass separately from the Scope 1 GHG emissions, but include emissions of other types of GHG (in particular CH4 and N2O);(d)not include any removals, or any purchased, sold or transferred carbon credits or GHG allowances in the calculation of Scope 1 GHG emissions; and(e)for activities reporting under the EU ETS, report on Scope 1 emissions following the EU ETS methodology. The EU ETS methodology may also be applied to activities in geographies and sectors that are not covered by the EU ETS."
+                },
+                {
+                  "AR 44": "When preparing the information on the percentage of Scope 1 GHG emissions from regulated emission trading schemes required under paragraph 48 (b), the undertaking shall:(a)consider GHG emissions from the installations it operates that are subject to regulated Emission Trading Schemes (ETS), including the EU-ETS, national ETS and non-EU ETS, if applicable;(b)only include emissions of CO2, CH4, N2O, HFCs, PFCs, SF6, and NF3;(c)ensure the same accounting period for gross Scope 1 GHG emissions and GHG emissions regulated under the ETS; and(d)calculate the share by using the following formula:GHG Emissions in (t CO2eq) from EU ETS installations + national ETS installations + nonEU ETS installationsScope 1 GHG emissions (t CO2eq)"
+                },
+                {
+                  "AR 45": "When preparing the information on gross Scope 2 GHG emissions required under paragraph 49, the undertaking shall:(a)consider the principles and requirements of the GHG Protocol Scope 2 Guidance (version 2015, in particular the Scope 2 quality criteria in chapter 7.1 relating to contractual instruments); it may also consider Commission Recommendation (EU) 2021/2279 or the relevant requirements for the quantification of indirect GHG emissions from imported energy in EN ISO 14064-1:2018; (b)include purchased or acquired electricity, steam, heat, and cooling consumed by the undertaking;(c)avoid double counting of GHG emissions reported under Scope 1 or 3;(d)apply the location-based and market-based methods to calculate Scope 2 GHG emissions and provide information on the share and types of contractual instruments. Location-based method quantifies Scope 2 GHG emissions based on average energy generation emission factors for defined locations, including local, subnational, or national boundaries (GHG Protocol, \"Scope 2 Guidance\", Glossary, 2015). Market-based method quantifies Scope 2 GHG emissions based on GHG emissions emitted by the generators from which the reporting entity contractually purchases electricity bundled with instruments, or unbundled instruments on their own (GHG Protocol, \"Scope 2 Guidance\", Glossary, 2015); in this case, the undertaking may disclose the share of market-based scope 2 GHG emissions linked to purchased electricity bundled with instruments such as Guarantee of Origins or Renewable Energy Certificates. The undertaking shall provide information about the share and types of contractual instruments used for the sale and purchase of energy bundled with attributes about the energy generation or for unbundled energy attribute claims.(e)disclose biogenic emissions of CO2 carbon from the combustion or biodegradation of biomass separately from the Scope 2 GHG emissions but include emissions of other types of GHG (in particular CH4 and N2O). In case the emission factors applied do not separate the percentage of biomass or biogenic CO2, the undertaking shall disclose this. In case GHG emissions other than CO2 (particularly CH4 and N2O) are not available for, or excluded from, location-based grid average emissions factors or with the market-based method information, the undertaking shall disclose this.(f)not include any removals, or any purchased, sold or transferred carbon credits or GHG allowances in the calculation of Scope 2 GHG emissions."
+                },
+                {
+                  "AR 46": "When preparing the information on gross Scope 3 GHG emissions required under paragraph 51, the undertaking shall:(a)consider the principles and provisions of the GHG Protocol Corporate Value Chain (Scope 3) Accounting and Reporting Standard (Version 2011); and it may consider Commission Recommendation (EU) 2021/2279 or the relevant requirements for the quantification of indirect GHG emissions from EN ISO 14064-1:2018;(b)if it is a financial institution, consider the GHG Accounting and Reporting Standard for the Financial Industry from the Partnership for Carbon Accounting Financial (PCAF), specifically part A \"Financed Emissions\" (version December 2022);(c)screen its total Scope 3 GHG emissions based on the 15 Scope 3 categories identified by the GHG Protocol Corporate Standard and GHG Protocol Corporate Value Chain (Scope 3) Accounting and Reporting Standard (Version 2011) using appropriate estimates. Alternatively, it may screen its indirect GHG emissions based on the categories provided by EN ISO 14064-1:2018 clause 5.2.4 (excluding indirect GHG emissions from imported energy);(d)identify and disclose its significant Scope 3 categories based on the magnitude of their estimated GHG emissions and other criteria provided by GHG Protocol Corporate Value Chain (Scope 3) Accounting and Reporting Standard (Version 2011, p. 61 and 65-68) or EN ISO 14064-1:2018 Annex H.3.2, such as financial spend, influence, related transition risks and opportunities or stakeholder views;(e)calculate or estimate GHG emissions in significant Scope 3 categories using suitable emissions factors;(f)update Scope 3 GHG emissions in each significant category every year on the basis of current activity data; update the full Scope 3 GHG inventory at least every 3 years or on the occurrence of a significant event or a significant change in circumstances (a significant event or significant change in circumstances can, for example, relate to changes in the undertaking's activities or structure, changes in the activities or structure of its upstream and downstream value chain(s), a change in calculation methodology or in the discovery of errors);\"); (g)disclose the extent to which the undertaking's Scope 3 GHG emissions are measured using inputs from specific activities within the entity's upstream and downstream value chain, and disclose the percentage of emissions calculated using primary data obtained from suppliers or other value chain partners.(h)for each significant Scope 3 GHG category, disclose the reporting boundaries considered, the calculation methods for estimating the GHG emissions as well as if and which calculation tools were applied. The Scope 3 categories should be consistent with the GHGP and include:i.indirect Scope 3 GHG emissions from the consolidated accounting group (the parent and its subsidiaries),ii.indirect Scope 3 GHG emissions from associates, joint ventures, and unconsolidated subsidiaries for which the undertaking has the ability to control the operational activities and relationships (i.e., operational control),iii.Scope 1, 2 and 3 GHG emissions from associates, joint ventures, unconsolidated subsidiaries (investment entities) and joint arrangements for which the undertaking does not have operational control and when these entities are part of the undertaking's upstream and dopwnstream value chain.(i)disclose a list of Scope 3 GHG emissions categories included in and excluded from the inventory with a justification for excluded Scope 3 categories;(j)disclose biogenic emissions of CO2 from the combustion or biodegradation of biomass that occur in its upstream and downstream value chain separately from the gross Scope 3 GHG emissions, and include emissions of other types of GHG (such as CH4 and N2O), and emissions of CO2 that occur in the life cycle of biomass other than from combustion or biodegradation (such as GHG emissions from processing or transporting biomass) in the calculation of Scope 3 GHG emissions; (k)not include any removals, or any purchased, sold or transferred carbon credits or GHG allowances in the calculation of Scope 3 GHG emissions;"
+                },
+                {
+                  "AR 47": "When preparing the information on the total GHG emissions required under paragraph 52, the undertaking shall: (a) apply the following formulas to calculate the total GHG emissions: Total GHG emissions (location-based, t CO2eq) = Gross Scope 1 + Gross Scope 2_location-based + Gross Scope 3 Total; Total GHG emissions (market-based, t CO2eq) = Gross Scope 1 + Gross Scope 2_market-based + Gross Scope 3 Total. (b) Disclose total GHG emissions with a distinction between emissions derived from the location-based and market-based methods applied while measuring the underlying Scope 2 GHG emissions."
+                },
+                {
+                  "AR 48": "The undertaking shall disclose total GHG emissions disaggregated into Scope 1, Scope 2 (location-based and market-based), and significant Scope 3 categories, reported across retrospective years (Base year, Comparative, N, %N/N-1) and future milestones/targets (2025, 2030, 2050, Annual % target vs Base year). Scope 3 categories include: Purchased goods and services; Cloud and data centre services (optional); Capital goods; Fuel- and energy-related activities; Upstream transportation and distribution; Waste generated; Business travel; Employee commuting; Upstream leased assets; Downstream transportation; Processing of sold products; Use of sold products; End-of-life treatment of sold products; Downstream leased assets; Franchises; Investments. The table also requires totals for: Total Gross Scope 3 emissions, Total GHG emissions (location-based), and Total GHG emissions (market-based). Columns: 'Scope 1'; 'Scope 2 location-based'; 'Scope 2 market-based'; 'Scope 3'; 'Total GHG emissions (location-based)'; 'Total GHG emissions (market-based)'; 'Comparative'; 'N'; '%N/N-1'; '2025'; '2030'; '2050'; 'Annual % target vs Base year'; 'Total Gross Scope 3 emissions'; 'Total GHG emissions (location-based)'; 'Total GHG emissions (market-based)';"
+                },
+                {
+                  "AR 49": "To highlight potential transition risks, the undertaking may disclose its total GHG emissions disaggregated by major countries and, if applicable, by operating segments (applying the same segments for the financial statements as required by the accounting standards, i.e., IFRS 8 Operating Segments or local GAAP). Scope 3 GHG emissions may be excluded from these breakdowns by country if the related data is not readily available."
+                },
+                {
+                  "AR 50": "The Scope 3 GHG emissions may also be presented by according to the indirect emission categories defined in EN ISO 14064-1:2018."
+                },
+                {
+                  "AR 51": "If it is material for the undertaking's Scope 3 emissions, it shall disclose the GHG emissions from purchased cloud computing and data centre services as a subset of the overarching Scope 3 category \"upstream purchased goods and services\"."
+                },
+                {
+                  "AR 52": "The total GHG emissions disaggregated by Scope 1, 2 and 3 GHG emissions may be graphically presented in the sustainability statement (e.g., as a bar or pie chart) showing the split of GHG emissions across the value chain (Upstream, Own operations, Transport, Downstream)."
+                },
+                {
+                  "AR 53": "When disclosing the information on GHG intensity based on net revenue required under paragraph 53, the undertaking shall:(a) calculate the GHG intensity ratio by the following formula: 'Total GHG emissions (location-based, t CO2eq) / Net revenue (Monetary unit)';. (b)express the total GHG emissions in metric tonnes of CO2eq and the net revenue in monetary units (e.g., Euros) and present the results for the market-based and location-based method;(c)include the total GHG emissions in the numerator and overall net revenue in the denominator;(d)calculate the total GHG emissions as required by paragraphs 44 (d) and 52; and(e)calculate the net revenue in line with the requirements in accounting standards applied for financial statements, i.e., IFRS 15 or local GAAP."
+                },
+                {
+                  "AR 54": "The undertaking may present quantitative GHG intensity information in a table showing: Total GHG emissions (location-based) per net revenue and Total GHG emissions (market-based) per net revenue (tCO2eq/monetary unit), along with Comparative, N, and %N/N-1 columns to track changes year over year."
+                },
+                {
+                  "AR 55": "The undertaking shall reconcile the net revenue used to calculate GHG intensity to the corresponding financial statement line item either by cross-reference or, if not directly traceable, through a quantitative reconciliation table showing: 'Net revenue used to calculate GHG intensity'; 'Net revenue (other)'; 'Total net revenue as reported in the financial statements'."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement E1-7 - GHG removals and GHG mitigation projects financed through carbon credits",
+              "paragraphs": [
+                {
+                  "AR 56": "In addition to their GHG emission inventories, undertakings shall provide transparency on how and to what extent they either enhance natural sinks or apply technical solutions to remove GHGs from the atmosphere in their own operations and upstream and downstream value chain. While there are no generally accepted concepts and methodologies for accounting for GHG removals, this Standard aims to increase transparency on the undertaking's efforts to remove GHGs from the atmosphere (paragraphs 56 (a) and 58). The GHG removals outside the value chain that the undertaking supports through the purchase of carbon credits are to be disclosed separately as required by paragraphs 56 (b) and 59."
+                },
+                {
+                  "AR 57": "When disclosing the information on GHG removals and storage from the undertaking's own operations and its upstream and donwstream value chain required under paragraphs 56 (a) and 58, for each removal and storage activity, the undertaking shall describe:(a)the GHGs concerned;(b)whether removal and storage are biogenic or from land-use change (e.g., afforestation, reforestation, forest restoration, urban tree planting, agroforestry, building soil carbon, etc.), technological (e.g., direct air capture), or hybrid (e.g., bioenergy with CO2 capture and storage), and technological details about the removal, the type of storage and, if applicable, the transport of removed GHGs;(c)if applicable, a brief explanation of whether the activity qualifies as a nature-based solution; and(d)how the risk of non-permanence is managed, including determining and monitoring leakage and reversal events, as appropriate."
+                },
+                {
+                  "AR 58": "When preparing the information on GHG removals and storage from the undertaking's own operations and its upstream and donwstream value chain required under paragraphs 56 (a) and 58, the undertaking shall:(a) consider, as far as applicable, the GHG Protocol Corporate Standard (version 2004), Product Standard (version 2011), Agriculture Guidance (version 2014), Land use, land-use change, and forestry Guidance for GHG project accounting (version 2006); (b)apply consensus methods on accounting for GHG removals as soon as they are available, notably the EU regulatory framework for the certification of CO2 removals;(c) if applicable, explain the role of removals for its climate change mitigation policy;(d) include removals from operations that it owns, controls, or contributes to and that have not been sold to another party through carbon credits;(e) if applicable, mark those GHG removal activities in own operations or the value chain that have been converted into carbon credits and sold on to other parties on the voluntary market;(f)account for the GHG emissions associated with a removal activity, including transport and storage, under Disclosure Requirement E1-6 (Scopes 1, 2 or 3). To increase transparency on the efficiency of a removal activity, including transport and storage, the undertaking may disclose the GHG emissions associated with this activity (e.g., GHG emissions from electricity consumption of direct air capture technologies) alongside, but separately from, the amount of removed GHG emissions;(g)in case of a reversal, account for the respective GHG emissions as an offset for the removals in the reporting period;(h)use the most recent GWP values published by the IPCC based on a 100-year time horizon to calculate CO2eq emissions of non-CO2 gases and describe the assumptions made, methodologies and frameworks applied for calculation of the amount of GHG removals; and(i)consider nature-based solutions."
+                },
+                {
+                  "AR 59": "The undertaking shall disaggregate and separately disclose the GHG removals that occur in its own operations and those that occur in its upstream and downstream value chain. GHG removal activities in the upstream and downstream value chain shall include those that the undertaking is actively supporting, for example, through a cooperation project with a supplier. The undertaking is not expected to include any GHG removals that may occur in its upstream and downstream value chain that it is not aware of."
+                },
+                {
+                  "AR 60": "The undertaking may present quantitative GHG removal information in a table listing individual removal activities (e.g., forest restoration, direct air capture), with columns for Comparative, N, and %N/N-1, and totals for: Total GHG removals from own operations (tCO2eq), Total GHG removals in the upstream and downstream value chain (tCO2eq), and Reversals (tCO2eq)."
+                },
+                {
+                  "AR 61": "Financing GHG emission reduction projects outside the undertaking's value chain through purchasing carbon credits that fulfil high-quality standards can be a useful contribution towards mitigating climate change. This Standard requires the undertaking to disclose whether it uses carbon credits separately from the GHG emissions (paragraphs 56 (b) and 59) and GHG emission reduction targets (Disclosure Requirement E1-4). It also requires the undertaking to show the extent of use and which quality criteria it uses for those carbon credits."
+                },
+                {
+                  "AR 62": "When disclosing the information on carbon credits required under paragraphs 56 (b) and 59, the undertaking shall disclose the following disaggregation as applicable:(a)the share (percentage of volume) of reduction projects and removal projects;(b)for carbon credits from removal projects, an explanation whether they are from biogenic or technological sinks;(c)the share (percentage of volume) for each recognised quality standard;(d)the share (percentage of volume) issued from projects in the EU; and(e)the share (percentage of volume) that qualifies as a corresponding adjustment under Article. 6 of the Paris Agreement."
+                },
+                {
+                  "AR 63": "When preparing the information on carbon credits required under paragraphs 56 (b) and 59, the undertaking shall:(a)Consider recognised quality standards;.(b)if applicable, explain the role of carbon credits in its climate change mitigation policy;(c)not include carbon credits issued from GHG emission reduction projects within its value chain as the respective GHG emission reductions shall already be disclosed under Disclosure Requirement E1-6 (Scope 2 or Scope 3) at the time they occur (i.e., double counting is avoided);(d)not include carbon credits from GHG removal projects within its value chain as the respective GHG removals may already be accounted for under Disclosure Requirement E1-7 at the time they occur (i.e., double counting is avoided);(e)not disclose carbon credits as an offset for its GHG emissions under Disclosure Requirement E1-6 on GHG emissions;(f)not disclose carbon credits as a means to reach the GHG emission reduction targets disclosed under Disclosure Requirement E1-4; and(g)calculate the amount of carbon credits to be cancelled in the future, as the sum of carbon credits in metric tonnes of CO2eq over the duration of existing contractual agreements."
+                },
+                {
+                  "AR 64": "The undertaking may present information on carbon credits cancelled in the reporting year and those planned for future cancellation using tables that show: Total carbon credits cancelled (tCO2eq); shares from removal and reduction projects; shares meeting recognised quality standards; shares from EU projects; and the share qualifying as corresponding adjustments. A second table shows carbon credits planned to be cancelled in the future, with amounts by period and a total (tCO2eq)."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement E1-8 - Internal carbon pricing",
+              "paragraphs": [
+                {
+                  "AR 65": "When disclosing the information required under paragraphs 62 and 63, if applicable, the undertaking shall briefly explain whether and how the carbon prices used in internal carbon pricing schemes are consistent with those used in financial statements. This shall be done in respect of the internal carbon prices used for,(a)the assessment of the useful life and residual value of its assets (intangibles, property, plant and equipment);(b)the impairment of assets; and(c)the fair value measurement of assets acquired through business acquisitions."
+                },
+                {
+                  "AR 66": "The information may be presented by using a table that lists internal carbon price types, volumes at stake, prices applied, and perimeter descriptions (e.g., CapEx or R&D shadow prices, internal carbon fees)."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement E1-9 - Anticipated financial effects from material physical and transition risks and potential climate-related opportunities",
+              "paragraphs": [
+                {
+                  "AR 67": "Material climate-related physical risks and transition risks may affect the undertaking's financial position (e.g., owned assets, financially-controlled leased assets, and liabilities), performance (e.g., potential future increase/decrease in net revenue and costs due to business interruptions, increased supply prices resulting in potential margin erosions), and cash flows. The low probability, high severity and long-term time horizons of some climate- related physical risk exposures and the uncertainty arising from the transition to a sustainable economy mean that there will be associated material anticipated financial effects that are outside the scope of the requirements of applicable accounting standards."
+                },
+                {
+                  "AR 68": "Currently, there is no commonly accepted methodology to assess or measure how material physical risks and transition risks may affect the undertaking's future financial position, financial, performance and cash flows. Therefore, the disclosure of the financial effects (as required by paragraphs 64, 66 and 67) will depend on the undertaking's internal methodology and the exercise of significant judgement in determining the inputs, and assumptions needed to quantify their anticipated financial effects."
+                },
+                {
+                  "AR 69": "When disclosing the information required under paragraphs 64 (a) and 66, the undertaking shall explain whether and how:(a)it assessed the anticipated financial effects for assets and business activities at material physical risk, including the scope of application, time horizons, calculation methodology, critical assumptions and parameters and limitations of the assessment; and (b)the assessment of assets and business activities considered to be at material physical risk relies on or is part of the process to determine material physical risk as required under paragraphs 20 (b) and AR 11 and to determine climate scenarios as required under paragraphs 19 and AR 13 to AR 14. In particular, it shall explain how it has defined medium- and long-term time horizons and how these definitions are linked to the expected lifetime of the undertaking's assets, strategic planning horizons and capital allocation plans."
+                },
+                {
+                  "AR 70": "When preparing the information on assets at material physical risk that is required to be disclosed under paragraph 66 (a), the undertaking shall:(a)Calculate the assets at material physical risk in terms of monetary amount and as a proportion (percentage) of total assets at the reporting date (i.e., the proportion is an estimate of the carrying value of assets at material physical risk divided by total carrying value as stated in the statement of financial position or balance sheet). The estimate of assets at material physical risk shall be derived starting from the assets recognised in the financial statements. The estimate of monetary amounts and proportion of assets at physical risk may be presented as either a single amount or range.(b)All types of assets including finance-lease / right-of-use assets shall be considered when determining the assets at material physical risk.(c)To contextualise this information, the undertaking shall:i.disclose the location of its significant assets at material physical risk. Significant assets located in the EU territory shall be aggregated by NUTS codes 3 level digits (Nomenclature of Territorial Units for Statistics). For significant assets located outside EU territory, the breakdown by NUTS code will only be provided where applicable.ii.disaggregate the monetary amounts of assets at risk by acute and chronic physical risk(53).(d)calculate the share of assets at material physical risk resulting from paragraph 66 (a) that is addressed by the climate change adaptation actions based on the information disclosed under Disclosure Requirement E1-3. This aims at approximating net risks."
+                },
+                {
+                  "AR 71": "When preparing the information required under paragraph 64 (a) and 66 (d), the undertaking may assess and disclose the share of net revenue from business activities at physical risk. This disclosure(a)shall be based on the net revenue in line with the requirements in accounting standards applied for financial statements, i.e., IFRS 15 or local GAAP; (b) may include a breakdown of the undertaking’s business activities with the corresponding details of the associated percentage of total net revenue, the risk factors (hazards, exposure and sensitivity) and, if possible, the magnitude of the anticipated financial effects in terms of margin erosion over the short-, medium- and long-term time horizons. The nature of business activities may also be disaggregated by operating segments if the undertaking has disclosed the contribution of margins by operational segments in its segment reporting in the financial statements."
+                },
+                {
+                  "AR 72": "When disclosing the information required under paragraphs 64 (b) and 67 (a), the undertaking shall explain whether and how:(a)it has assessed the potential effects on future financial performance and position for assets and business activities at material transition risk, including the scope of application, calculation methodology, critical assumptions and parameters, and limitations of the assessment; and(b)the assessment of assets and business activities considered to be at material transition risk relies on or is part of the process to determine material transition risks as described under paragraphs 20 (c) and AR 11 and to determine scenarios as required under paragraphs AR 12 to AR 13. In particular, it shall explain how it has defined medium- and long-term time horizons and how these definitions are linked to the expected lifetime of the undertaking's assets, strategic planning horizons and capital allocation plans."
+                },
+                {
+                  "AR 73": "When disclosing the information on assets at material transition risk as required under paragraphs 67 (a) and (b):(a)the undertaking shall at the very least include an estimate of the amount of potentially stranded assets (in monetary amounts and as a proportion/percentage) from the reporting year until 2030 and from 2030 to 2050. Stranded assets are understood as the active or firmly planned key assets of the undertaking with significant locked-in GHG emissions over their operating lifetime. Firmly planned key assets are those that the undertaking will most likely deploy within the next 5 years. The amount may be expressed as a range of asset values based on different climate and policy scenarios, including a scenario aligned with limiting climate change to 1.5 deg C.(b)the undertaking shall disclose a breakdown of the carrying value of its real estate assets, including rights-of-use assets, by energy efficiency classes. The energy efficiency shall be represented in terms of either the ranges of energy consumption in kWh/m2 or the EPC(54)(Energy Performance Certificate)(55)label class. If the undertaking cannot obtain this information on a best-effort basis, it shall disclose the total carrying amount of the real estate assets for which the energy consumption is based on internal estimates.(c)the undertaking shall calculate the proportion (percentage) of total assets (including finance lease/right-of-use assets) at material transition risk addressed by the climate change mitigation actions based on the information disclosed under Disclosure Requirement E1-3. The total assets amount is the carrying amount on the balance sheet at the reporting date."
+                },
+                {
+                  "AR 74": "When disclosing potential liabilities from material transition risks, undertakings may report future liabilities arising from emission trading schemes, including EU ETS allocation plans up to 2030, based on: allowances held at period start, allowances to be purchased, gaps between projected emissions and free allocations, and estimated CO2 cost; may disclose stored emission allowances and liabilities linked to planned carbon credit cancellations; and may include monetised Scope 1, 2 and total GHG emissions using formulas: (Scope 1 + Scope 2) × emission cost rate and Total GHG emissions × emission cost rate, applying lower/middle/upper cost rates with justification."
+                },
+                {
+                  "AR 75": "Other approaches and methodologies may be applied to assess how transition risks may affect the future financial position of the undertaking. In any case, the disclosure of anticipated financial effects shall include a description of the methodologies and definitions used by the undertaking."
+                },
+                {
+                  "AR 76": "When preparing the information required under paragraph 67 (e), the undertaking may assess and disclose the share of net revenue from business activities at transition risks. This disclosure:(a)shall be based on the net revenue in line with the requirements in accounting standards applied for financial statements, i.e., IFRS 15 or local GAAP.(b)may include a breakdown of the undertaking's business activities with the corresponding details of the associated percentage of current net revenue, risk factors (events and exposure), and when possible, the anticipated financial effects related to margin erosion over the short-, medium- and long-term. The nature of business activities may also be disaggregated by operating segments if the undertaking has disclosed the contribution of margins by operational segments in its segment reporting in the financial statements."
+                },
+                {
+                  "AR 77": "The undertaking shall reconcile significant assets, liabilities, or net revenue exposed to material physical or transition risks to the corresponding financial statement line item either by cross-reference or, if not directly traceable, through a quantitative table showing: (1) carrying amount vulnerable to physical or transition risks, (2) adjusting items, and (3) the related amount in the financial statements."
+                },
+                {
+                  "AR 78": "The undertaking shall ensure the consistency of data and assumptions to assess and report the anticipated financial effects from material physical risks and transition risks in the sustainability statement with the corresponding data and assumptions used for the financial statements (e.g., carbon prices used for assessing impairment of assets, the useful life of assets, estimates and provisions). The undertaking shall explain the reasons for any inconsistencies (e.g., if the full financial implications of climate-related risks are still under assessment or are not deemed material in the financial statements)."
+                },
+                {
+                  "AR 79": "For potential future effects on liabilities (as required by paragraph 67 (d)), if applicable, the undertaking shall cross- reference the description of the emission trading schemes in the financial statements."
+                },
+                {
+                  "AR 80": "When disclosing the information under paragraph 69 (a), the undertaking shall explain the nature of the cost savings (e.g., from reduced energy consumption), the time horizons and the methodology used, including the scope of the assessment, critical assumptions, and limitations, and whether and how scenario analysis was applied."
+                },
+                {
+                  "AR 81": "When disclosing the information required under paragraph 69 (b), the undertaking shall explain how it has assessed the market size or any expected changes to net revenue from low-carbon products and services or adaptation solutions including the scope of the assessment, the time horizon, critical assumptions, and limitations and to what extent this market is accessible to the undertaking. The information on the market size may be put in perspective to the current taxonomy-aligned revenue disclosed under the provisions of Regulation (EU) 2020/852. The entity may also explain how it will pursue its climate-related opportunities and, where possible, this should be linked to the disclosures on policies, targets and actions under Disclosure Requirements E1-2, E1-3 and E1-4.OJ L, 22.12.2023 EN"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

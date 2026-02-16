@@ -1,0 +1,868 @@
+{
+  "standard": "ESRS S1",
+  "title": "OWN WORKFORCE",
+  "objective": {
+    "1": "The objective of this Standard is to specify disclosure requirements which will enable users of the sustainability statement to understand the undertaking's material impacts on its own workforce, as well as related material risks and opportunities, including: (a) how the undertaking affects its own workforce, in terms of material positive and negative actual or potential impacts; (b) any actions taken, and the result of such actions, to prevent, mitigate or remediate actual or potential negative impacts, and to address risks and opportunities; (c) the nature, type and extent of the undertaking's material risks and opportunities related to its impacts and dependencies on its own workforce, and how the undertaking manages them; and (d) the financial effects on the undertaking over the short-, medium- and long-term of material risks and opportunities arising from the undertaking's impacts and dependencies on its own workforce.",
+    "2": "In order to meet the objective, this Standard also requires an explanation of the general approach the undertaking takes to identify and manage any material actual and potential impacts on its own workforce in relation to the following social, including human rights, factors or matters: (a) working conditions, including: i. secure employment; ii. working time; iii. adequate wages; iv. social dialogue; v. freedom of association, the existence of works councils and the information, consultation and participation rights of workers; vi. collective bargaining, including the rate of the undertaking's workforce covered by collective agreements; vii. work-life balance; and viii. health and safety. (b) equal treatment and opportunities for all, including: i. gender equality and equal pay for work of equal value; ii. training and skills development; iii. employment and inclusion of persons with disabilities; iv. measures against violence and harassment in the workplace; and v. diversity. (c) other work-related rights, including those that relate to: i. child labour; ii. forced labour; iii. adequate housing; and iv. privacy.",
+    "3": "This Standard also requires an explanation of how such impacts, as well as the undertaking's dependencies on its own workforce, can create material risks or opportunities for the undertaking. For example, on the matter of equal opportunities, discrimination in hiring and promotion against women can reduce the undertaking's access to qualified labour and harm its reputation. Conversely, policies to increase the representation of women in the workforce and in upper levels of management can have positive effects, such as increasing the pool of qualified labour and improving the undertaking's reputation.",
+    "4": "This Standard covers an undertaking's own workforce, which is understood to include both people who are in an employment relationship with the undertaking (\"employees\") and non-employees who are either people with contracts with the undertaking to supply labour (\"self-employed people\") or people provided by undertakings primarily engaged in \"employment activities\" (NACE Code N78). See Application Requirement 3 for examples of who falls under own workforce. The information required to be disclosed with regard to non-employees shall not affect their status pursuant to applicable labour law.",
+    "5": "This Standard does not cover workers in the undertaking's upstream or downstream value chain; these categories of workers are covered in ESRS S2 Workers in the value chain.",
+    "6": "The Standard requires undertakings to describe their own workforce, including key characteristics of the employees and non-employees that are part of it. This description provides users with an understanding of the structure of the undertaking's own workforce and helps to contextualise information provided through other disclosures.",
+    "7": "The objective of the Standard is also to enable users to understand the extent to which the undertaking aligns or complies with international and European human rights instruments and conventions, including the International Bill of Human Rights, the UN Guiding Principles on Business and Human Rights and the OECD Guidelines for Multinational Enterprises, the International Labour Organization's Declaration on Fundamental Principles and Rights at Work and ILO fundamental conventions, the UN Convention on Persons with Disabilities, the European Convention of Human Rights, the revised European Social Charter, the Charter of Fundamental Rights of the European Union, the EU policy priorities as set out by the European Pillar of Social Rights, and Union legislation, including the EU labour law acquis."
+  },
+  "content": [
+    {
+      "title": "Interaction with other ESRS",
+      "paragraphs": [
+        {
+          "8": "This Standard shall be read in conjunction with ESRS 1 General principles and ESRS 2 General requirements."
+        },
+        {
+          "9": "This Standard shall be read in conjunction with ESRS S2 Workers in the value chain, ESRS S3 Affected communities and ESRS S4 Consumers and end-users."
+        },
+        {
+          "10": "The reporting under this Standard shall be consistent, coherent and where relevant clearly linked with reporting on the undertaking’s own workforce under ESRS S2, in order to ensure effective reporting."
+        }
+      ]
+    },
+    {
+      "title": "Disclosure requirements",
+      "paragraphs": [
+        {
+          "11": "The requirements of this section should be read in conjunction with the disclosures required by ESRS 2 on Strategy (SBM). The resulting disclosures shall be presented alongside the disclosures required by ESRS 2, except for ESRS 2 SBM-3, for which the undertaking has an option to present the disclosures alongside the topical disclosure."
+        }
+      ],
+      "subsections": [
+        {
+          "title": "ESRS 2 General disclosures"
+        },
+        {
+          "title": "Strategy",
+          "subsections": [
+            {
+              "title": "Disclosure Requirement related to ESRS 2 SBM-2 – Interests and views of stakeholders",
+              "paragraphs": [
+                {
+                  "12": "When responding to ESRS 2 SBM-2, the undertaking shall disclose how the interests, views, and rights of people in its own workforce, including respect for their human rights, inform its strategy and business model. The undertaking’s own workforce is a key group of affected stakeholders."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement related to ESRS 2 SBM-3 – Material impacts, risks and opportunities and their interaction with strategy and business model",
+              "paragraphs": [
+                {
+                  "13": "When responding to ESRS 2 SBM-3 paragraph 48, the undertaking shall disclose: (a) whether and how actual and potential impacts on its own workforce as identified in ESRS 2 IRO-1 Description of the processes to identify and assess material impacts, risks and opportunities: (i) originate from or are connected to the undertaking’s strategy and business models, and (ii) inform and contribute to adapting the undertaking’s strategy and business model; and (b) the relationship between its material risks and opportunities arising from impacts and dependencies on own workforce and its strategy and business model."
+                },
+                {
+                  "14": "When fulfilling the requirements of paragraph 48, the undertaking shall disclose whether all people in its own workforce who could be materially impacted by the undertaking are included in the scope of its disclosure under ESRS 2. These material impacts shall include impacts that are connected with the undertaking’s own operations and its value chain, including through its products or services, as well as through its business relationships. In addition, the undertaking shall provide the following information: (a) a brief description of the types of employees and non-employees in its own workforce subject to material impacts by its operations, and specify whether they are employees, self- employed people, or people provided by third party undertakings primarily engaged in employment activities; (b) in the case of material negative impacts, whether they are either (i) widespread or systemic in contexts where the undertaking operates (for example, child labour or forced labour or compulsory labour in specific countries or regions outside the EU), or (ii) related to individual incidents (for example, an industrial accident or an oil spill); (c) in the case of material positive impacts, a brief description of the activities that result in the positive impacts, the types of employees and non-employees in its own workforce that are positively affected or could be positively affected; the undertaking may also disclose whether the positive impacts occur in specific countries or regions; (d) any material risks and opportunities for the undertaking arising from impacts and dependencies on its own workforce; (e) any material impacts on its own workforce that may arise from transition plans for reducing negative impacts on the environment and achieving greener and climate- neutral operations, including information on the impacts on own workforce caused by the undertaking’s plans and actions to reduce carbon emissions in line with international agreements. Impacts, risks and opportunities include restructuring and employment loss as well as opportunities arising from job creation and reskilling or upskilling; (f) operations at significant risk of incidents of forced labour or compulsory laboureither in terms of: i. type of operation (such as manufacturing plant); or ii. countries or geographic areas with operations considered at risk; (g) operations at significant risk of incidents of child laboureither in terms of: i. type of operation (such as manufacturing plant); or ii. countries or geographic areas with operations considered at risk."
+                },
+                {
+                  "15": "In describing the main types of people in its own workforce who are or could be negatively affected, based on the materiality assessment set out in ESRS 2 IRO 1, the undertaking shall disclose whether and how it has developed an understanding of how people with particular characteristics, those working in particular contexts, or those undertaking particular activities may be at greater risk of harm."
+                },
+                {
+                  "16": "The undertaking shall disclose which, if any, of its material risks and opportunities arising from impacts and dependencies on people in its own workforce relate to specific groups of people (for example, particular age groups, or people working in a particular factory or country) rather than to all of its own workforce (for example, a general pay cut, or training offered to all people in its own workforce). Impacts, risks and opportunities management."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Impacts, risks and opportunities management",
+          "subsections": [
+            {
+              "title": "Disclosure Requirement S1-1 – Policies related to own workforce",
+              "paragraphs": [
+                {
+                  "17": "The undertaking shall describe its policies adopted to manage its material impacts on its own workforce, as well as associated material risks and opportunities."
+                },
+                {
+                  "18": "The objective of this Disclosure Requirement is to enable an understanding of the extent to which the undertaking has policies that address the identification, assessment, management and/or remediation of material impacts on the undertaking’s own workforce specifically, as well as policies that cover material impacts, risks and opportunities related to its own workforce."
+                },
+                {
+                  "19": "The disclosure required by paragraph 17 shall contain the information on the undertaking’s policies to manage its material impacts, risks and opportunities related to its own workforce in accordance with ESRS 2 MDR-P Policies adopted to manage material sustainability matters. In addition, the undertaking shall specify if such policies cover specific groups within its own workforce or all of its own workforce."
+                },
+                {
+                  "20": "The undertaking shall describe its human rights policy commitments that are relevant to its own workforce, including those processes and mechanisms to monitor compliance with the UN Guiding Principles on Business and Human Rights, ILO Declaration on Fundamental Principles and Rights at Work and the OECD Guidelines for Multinational Enterprises. In its disclosure it shall focus on those matters that are material in relation to, as well as its general approach to: (a) respect for the human rights, including labour rights, of people in its own workforce; (b) engagement with people in its own workforce; and (c) measures to provide and/or enable remedy for human rights impacts."
+                },
+                {
+                  "21": "The undertaking shall disclose whether and how its policies with regard to its own workforce are aligned with relevant internationally recognised instruments, including the UN Guiding Principles on Business and Human Rights."
+                },
+                {
+                  "22": "The undertaking shall state whether its policies in relation to its own workforce explicitly address trafficking in human beings, forced labour or compulsory labour and child labour."
+                },
+                {
+                  "23": "The undertaking shall state whether it has a workplace accident prevention policy or management system."
+                },
+                {
+                  "24": "The undertaking shall disclose: (a) whether it has specific policies aimed at the elimination of discrimination, including harassment, promoting equal opportunities and other ways to advance diversity and inclusion; (b) whether the following grounds for discrimination are specifically covered in the policy: racial and ethnic origin, colour, sex, sexual orientation, gender identity, disability, age, religion, political opinion, national extraction or social origin, or other forms of discrimination covered by Union regulation and national law; (c) whether the undertaking has specific policy commitments related to inclusion or positive action for people from groups at particular risk of vulnerability in its own workforce and, if so, what these commitments are; and (d) whether and how these policies are implemented through specific procedures to ensure discrimination is prevented, mitigated and acted upon once detected, as well as to advance diversity and inclusion in general."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement S1-2 – Processes for engaging with own workers and workers' representatives about impacts",
+              "paragraphs": [
+                {
+                  "25": "The undertaking shall disclose its general processes for engaging with people in its own workforce and workers' representatives about actual and potential impacts on its own workforce."
+                },
+                {
+                  "26": "The objective of this Disclosure Requirement is to enable an understanding of how the undertaking engages, as part of its ongoing due diligence process, with people in its own workforce and workers' representatives about material, actual and potential, positive and/or negative impacts that do or are likely to affect them, and whether and how perspectives of its own workforces are taken into account in the decision-making processes of the undertaking."
+                },
+                {
+                  "27": "The undertaking shall disclose whether and how the perspectives of its own workforce inform its decisions or activities aimed at managing the actual and potential impacts on its own workforce. This shall include, where relevant, an explanation of: (a) whether engagement occurs directly with the undertaking’s own workforce or workers' representatives; (b) the stage(s) at which engagement occurs, the type of engagement and frequency of the engagement; (c) the function and the most senior role within the undertaking that has operational responsibility for ensuring that this engagement happens and that the results inform the undertaking’s approach; (d) where applicable, a Global Framework Agreement or other agreements that the undertaking has with workers' representatives related to the respect of human rights of its own workforce, including an explanation of how the agreement enables the undertaking to gain insight into the perspectives of its own workforce; and (e) where applicable, how the undertaking assesses the effectiveness of its engagement with its own workforce, including, where relevant, any agreements or outcomes that result."
+                },
+                {
+                  "28": "Where applicable, the undertaking shall disclose the steps it takes to gain insight into the perspectives of people in its own workforce who may be particularly vulnerable to impacts and/or marginalised (for example, women, migrants, people with disabilities)."
+                },
+                {
+                  "29": "If the undertaking cannot disclose the above required information because it has not adopted a general process to engage with its own workforce, it shall disclose this to be the case. It may disclose a timeframe in which it aims to have such a process in place."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement S1-3 – Processes to remediate negative impacts and channels for own workforce to raise concerns",
+              "paragraphs": [
+                {
+                  "30": "The undertaking shall describe the processes it has in place to provide for or cooperate in the remediation of negative impacts on people in its own workforce that the undertaking is connected with, as well as channels available to its own workforce to raise concerns and have them addressed."
+                },
+                {
+                  "31": "The objective of this Disclosure Requirement is to enable an understanding of the formal means by which the undertaking’s own workforce can make their concerns and needs known directly to the undertaking and/or through which the undertaking supports the availability of such channels (for example, grievance mechanisms) in the workplace, and how follow up is carried out with the people concerned regarding the issues raised and the effectiveness of these channels."
+                },
+                {
+                  "32": "The undertaking shall describe the processes in place to cover the matters defined within paragraph 2 of the Objective section by disclosing the following information: (a) its general approach to and processes for providing or contributing to remedy where it has caused or contributed to a material negative impact on people in its own workforce, including whether and how the undertaking assesses that the remedy provided is effective; (b) any specific channels it has in place for its own workforce to raise their concerns or needs directly with the undertaking and have them addressed, including whether these are established by the undertaking itself and/or through participation in third-party mechanisms; (c) whether or not the undertaking has a grievance/complaints handling mechanism related to employee matters; and (d) the processes through which the undertaking supports the availability of such channels in the workplace of its own workforce; and (e) how it tracks and monitors issues raised and addressed, and, how it ensures the effectiveness of the channels, including through the involvement of stakeholders who are intended users."
+                },
+                {
+                  "33": "The undertaking shall disclose whether and how it assesses that people in its own workforce are aware of, and trust, these structures or processes as a way to raise their concerns or needs and have them addressed. In addition, the undertaking shall disclose whether it has policies in place regarding the protection of individuals that use them, including workers’ representatives, against retaliation. If such information has been disclosed in accordance with ESRS G1-1, the undertaking may refer to that information."
+                },
+                {
+                  "34": "If the undertaking cannot disclose the above required information because it has not adopted a channel for raising concerns and/or does not support the availability of such a channel in the workplace for its own workforce, it shall disclose this to be the case. It may disclose a timeframe in which it aims to have such a channel in place."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement S1-4 – Taking action on material impacts on own workforce, and approaches to mitigating material risks and pursuing material opportunities related to own workforce, and effectiveness of those actions",
+              "paragraphs": [
+                {
+                  "35": "The undertaking shall disclose how it takes action to address material negative and positive impacts, and to manage material risks and pursue material opportunities related to its own workforce, and the effectiveness of those actions."
+                },
+                {
+                  "36": "The objective of this Disclosure Requirement is twofold. Firstly, it is to enable an understanding of any actions and initiatives through which the undertaking seeks to: (a) to prevent, mitigate and remediate negative material impacts on its own workforce; and/or (b) to achieve positive material impacts for its own workforce. Secondly, it is to enable an understanding of the ways in which the undertaking is addressing the material risks and pursuing the material opportunities related to its own workforce."
+                },
+                {
+                  "37": "The undertaking shall provide a summarised description of the action plans and resources to manage its material impacts, risks, and opportunities related to its own workforce in accordance with ESRS 2 MDR-A Actions and resources in relation to material sustainability matters."
+                },
+                {
+                  "38": "In relation to the material impacts related to its own workforce, the undertaking shall describe: (a) actions taken, planned or underway to prevent or mitigate material negative impacts on its own workforce; (b) whether and how it has taken action to provide or enable remedy in relation to an actual material impact; (c) any additional actions or initiatives it has in place with the primary purpose of delivering positive impacts for its own workforce; and."
+                },
+                {
+                  "39": "In relation to paragraph 36, the undertaking shall describe the processes through which it identifies what action is needed and appropriate in response to a particular actual or potential negative impact on its own workforce."
+                },
+                {
+                  "40": "In relation to material risks and opportunities, the undertaking shall describe: (a) what action is planned or underway to mitigate material risks for the undertaking arising from its impacts and dependencies on its own workforce and how it tracks effectiveness in practice; and (b) what action is planned or underway to pursue material opportunities for the undertaking in relation to its own workforce."
+                },
+                {
+                  "41": "The undertaking shall disclose whether and how it ensures that its own practices do not cause or contribute to material negative impacts on own workforce, including, where relevant, its practices in relation to procurement, sales and data use. This may include disclosing what approach is taken when tensions arise between the prevention or mitigation of material negative impacts and other business pressures."
+                },
+                {
+                  "42": "When disclosing the information required under paragraph 40, the undertaking shall consider ESRS 2 MDR-T Tracking effectiveness of policies and actions through targets if it evaluates the effectiveness of an action by setting a target."
+                },
+                {
+                  "43": "The undertaking shall disclose what resources are allocated to the management of its material impacts, with information that allows users to gain an understanding of how the material impacts are managed."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Metrics and targets",
+          "subsections": [
+            {
+              "title": "Disclosure Requirement S1-5 – Targets related to managing material negative impacts, advancing positive impacts, and managing material risks and opportunities",
+              "paragraphs": [
+                {
+                  "44": "The undertaking shall disclose the time-bound and outcome-oriented targets it may have set related to: (a) reducing negative impacts on its own workforce; and/or (b) advancing positive impacts on its own workforce; and/or (c) managing material risks and opportunities related to its own workforce."
+                },
+                {
+                  "45": "The objective of this Disclosure Requirement is to enable an understanding of the extent to which the undertaking is using outcome-oriented targets to drive and measure its progress in addressing its material negative impacts and/or advancing positive impacts on its own workforce, and/or in managing material risks and opportunities related to its own workforce."
+                },
+                {
+                  "46": "The summarised description of the targets set to manage its material impacts, risks and opportunities related to the undertaking’s own workforce shall contain the information requirements defined in ESRS 2 MDR-T."
+                },
+                {
+                  "47": "The undertaking shall disclose the process for setting the targets, including whether and how the undertaking engaged directly with its own workforce or workers’ representatives in: (a) setting any such targets; (b) tracking the undertaking’s performance against them; and (c) identifying any lessons or improvements as a result of the undertaking’s performance."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement S1-6 – Characteristics of the undertaking's employees",
+              "paragraphs": [
+                {
+                  "48": "The undertaking shall describe key characteristics of employees in its own workforce."
+                },
+                {
+                  "49": "The objective of this Disclosure Requirement is to provide insight into the undertaking’s approach to employment, including the scope and nature of impacts arising from its employment practices, to provide contextual information that aids an understanding of the information reported in other disclosures, and to serve as the basis for calculation for quantitative metrics to be disclosed under other disclosure requirements in this Standard."
+                },
+                {
+                  "50": "In addition to the information required by paragraph 40(a)iii of ESRS 2 General Disclosures, the undertaking shall disclose: (a) the total number of employees by head count, and breakdowns by gender and by country for countries in which the undertaking has 50 or more employees representing at least 10% of its total number of employees; (b) the total number by head count or full time equivalent (FTE) of: i. permanent employees, and breakdown by gender; ii. temporary employees, and breakdown by gender; and iii. non-guaranteed hours employees, and breakdown by gender. (c) the total number of employees who have left the undertaking during the reporting period and the rate of employee turnover in the reporting period. (d) a description of the methodologies and assumptions used to compile the data, including whether the numbers are reported: i. in head count or full-time equivalent (FTE) (including an explanation of how FTE is defined); and ii. at the end of the reporting period, as an average across the reporting period, or using another methodology. (e) where applicable, a provision of contextual information necessary to understand the data (for example, to understand fluctuations in number of employees during the reporting period); and (f) a cross-reference of the information reported under (a) above to the most representative number in the financial statements."
+                },
+                {
+                  "51": "For the information specified in point (b) of paragraph 50, the undertaking may in addition disclose the breakdown by region."
+                },
+                {
+                  "52": "The undertaking may disclose by head count or full time equivalent (FTE) the following information: (a) full-time employees, and breakdowns by gender and by region; and (b) part-time employees, and breakdowns by gender and by region."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement S1-7 – Characteristics of non-employee workers in the undertaking's own workforce",
+              "paragraphs": [
+                {
+                  "53": "The undertaking shall describe key characteristics of non-employees in its own workforce."
+                },
+                {
+                  "54": "The objective of this Disclosure Requirement is to provide insight into the undertaking’s approach to employment, including the scope and nature of impacts arising from its employment practices, to provide contextual information that aids the understanding of the information reported in other disclosures, and to serve as the basis for calculation for quantitative metrics to be disclosed under other disclosure requirements in this Standard. It also allows an understanding of how much the undertaking relies on non-employees as part of its workforce."
+                },
+                {
+                  "55": "The disclosure required by paragraph 53 shall include: (a) a disclosure of the total number of non-employees in the undertaking’s own workforce, i.e., either people with contracts with the undertaking to supply labour (“self-employed people”) or people provided by undertakings primarily engaged in “employment activities” (NACE Code N78). (b) an explanation of the methodologies and assumptions used to compile the data, including whether the number of non-employees is reported: i. in headcount or full-time equivalent (FTE) (including a definition of how FTE is defined); and ii. at the end of the reporting period, as an average across the reporting period, or using another methodology. (c) where applicable, a provision of contextual information necessary to understand the data (for example, significant fluctuations in the number of non-employees in the undertaking’s own workforce during the reporting period and between the current and the previous reporting period)."
+                },
+                {
+                  "56": "For the information specified in point (a) of paragraph 55, the undertaking may disclose the most common types of non-employees (for example, self-employed people, people provided by undertakings primarily engaged in employment activities, and other types relevant to the undertaking), their relationship with the undertaking, and the type of work that they perform."
+                },
+                {
+                  "57": "Where data is not available, the undertaking shall estimate the number and state that it has done so. When the undertaking performs estimates, it shall describe the basis of preparation of this estimation."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement S1-8 – Collective bargaining coverage and social dialogue",
+              "paragraphs": [
+                {
+                  "58": "The undertaking shall disclose information on the extent to which the working conditions and terms of employment of its employees are determined or influenced by collective bargaining agreements and on the extent to which its employees are represented in social dialogue in the European Economic Area (EEA) at the establishment and European level."
+                },
+                {
+                  "59": "The objective of this Disclosure Requirement is to enable an understanding of the coverage of collective bargaining agreements and social dialogue for the undertaking’s own employees."
+                },
+                {
+                  "60": "The undertaking shall disclose: (a) the percentage of its total employees covered by collective bargaining agreements; (b) in the EEA, whether it has one or more collective bargaining agreements and, if so, the overall percentage of its employees covered by such agreement(s) for each country in which it has significant employment, defined as at least 50 employees by head count representing at least 10% of its total number of employees; and (c) outside the EEA, the percentage of its own employees covered by collective bargaining agreements by region."
+                },
+                {
+                  "61": "For employees not covered by collective bargaining agreements, the undertaking may disclose whether it determines their working conditions and terms of employment based on collective bargaining agreements that cover its other employees or based on collective bargaining agreements from other undertakings."
+                },
+                {
+                  "62": "The undertaking may disclose the extent to which the working conditions and terms of employment of non- employees in its own workforce are determined or influenced by collective bargaining agreements, including an estimate of the coverage rate."
+                },
+                {
+                  "63": "The undertaking shall disclose the following information in relation to social dialogue: (a) the global percentage of employees covered by workers’ representatives, reported at the country level for each EEA country in which the undertaking has significant employment; and (b) the existence of any agreement with its employees for representation by a European Works Council (EWC), a Societas Europaea (SE) Works Council, or a Societas Cooperativa Europaea (SCE) Works Council."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement S1-9 – Diversity metrics",
+              "paragraphs": [
+                {
+                  "64": "The undertaking shall disclose the gender distribution at top management and the age distribution amongst its employees."
+                },
+                {
+                  "65": "The objective of this Disclosure Requirement is to enable an understanding of gender diversity at top management level and the age distribution of its employees."
+                },
+                {
+                  "66": "The undertaking shall disclose: (a) the gender distribution in number and percentage at top management level; and (b) the distribution of employees by age group: under 30 years old; 30-50 years old; over 50 years old."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement S1-10 – Adequate wages",
+              "paragraphs": [
+                {
+                  "67": "The undertaking shall disclose whether or not its employees are paid an adequate wage, and if they are not all paid an adequate wage, the countries and percentage of employees concerned."
+                },
+                {
+                  "68": "The objective of this Disclosure Requirement is to enable an understanding of whether or not all the undertaking’s employees are paid an adequate wage, in line with applicable benchmarks."
+                },
+                {
+                  "69": "The undertaking shall disclose whether all its employees are paid an adequate wage, in line with applicable benchmarks. If so, stating this will be sufficient to fulfil this disclosure requirement and no further information is needed."
+                },
+                {
+                  "70": "If not all its employees are paid an adequate wage in line with applicable benchmarks, the undertaking shall disclose the countries where employees earn below the applicable adequate wage benchmark and the percentage of employees that earn below the applicable adequate wage benchmark for each of these countries."
+                },
+                {
+                  "71": "The undertaking may also disclose the information specified in this disclosure requirement with regard to non- employees in its workforce."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement S1-11 – Social protection",
+              "paragraphs": [
+                {
+                  "72": "The undertaking shall disclose whether its employees are covered by social protection against loss of income due to major life events, and, if not, the countries where this is not the case."
+                },
+                {
+                  "73": "The objective of this Disclosure Requirement is to enable an understanding of whether the undertaking’s employees are covered by social protection against loss of income due to major life events, and, if not, the countries where this is not the case."
+                },
+                {
+                  "74": "The undertaking shall disclose whether all its employees are covered by social protection, through public programs or through benefits offered by the undertaking, against loss of income due to any of the following major life events: (a) sickness; (b) unemployment starting from when the own worker is working for the undertaking; (c) employment injury and acquired disability; (d) parental leave; and (e) retirement. If so, stating this is sufficient to fulfil this disclosure requirement and no further information is needed."
+                },
+                {
+                  "75": "If not all of its employees are covered by social protection in accordance with paragraph 72, the undertaking shall in addition disclose the countries where employees do not have social protection with regard to one or more of the types of events listed in paragraph 72 and for each of those countries the types of employees who do not have social protection with regard to each applicable major life event."
+                },
+                {
+                  "76": "The undertaking may also disclose the information specified in this disclosure requirement with regard to non- employees in its workforce."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement S1-12 – Persons with disabilities",
+              "paragraphs": [
+                {
+                  "77": "The undertaking shall disclose the percentage of its own employees with disabilities."
+                },
+                {
+                  "78": "The objective of this Disclosure Requirement is to enable an understanding of the extent to which persons with disabilities are included among the undertaking’s employees."
+                },
+                {
+                  "79": "The undertaking shall disclose the percentage of persons with disabilities amongst its employees subject to legal restrictions on the collection of data."
+                },
+                {
+                  "80": "The undertaking may disclose the percentage of employees with disabilities with a breakdown by gender."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement S1-13 – Training and skills development metrics",
+              "paragraphs": [
+                {
+                  "81": "The undertaking shall disclose the extent to which training and skills development is provided to its employees."
+                },
+                {
+                  "82": "The objective of this Disclosure Requirement is to enable an understanding of the training and skills development -related activities that have been offered to employees, within the context of continuous professional growth, to upgrade employees’ skills and facilitate continued employability."
+                },
+                {
+                  "83": "The disclosure required by paragraph 81 shall include: (a) the percentage of employees that participated in regular performance and career development reviews; such information shall be broken down by gender; (b) the average number of training hours per employee and by gender."
+                },
+                {
+                  "84": "The undertaking may disclose breakdowns by employee category for the percentage of employees that participated in regular performance and career development and for the average number of training hours per employee."
+                },
+                {
+                  "85": "The undertaking may also disclose the information specified in this disclosure requirement with regard to non- employees in its workforce."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement S1-14 – Health and safety metrics",
+              "paragraphs": [
+                {
+                  "86": "The undertaking shall disclose information on the extent to which its own workforce is covered by its health and safety management system and the number of incidents associated with work-related injuries, ill health and fatalities of its own workforce. In addition, it shall disclose the number of fatalities as a result of work-related injuries and work-related ill health of other workers working on the undertaking’s sites."
+                },
+                {
+                  "87": "The objective of this Disclosure Requirement is to allow an understanding of the coverage, quality and performance of the health and safety management system established to prevent work-related injuries."
+                },
+                {
+                  "88": "The disclosure required by paragraph 86 shall include the following information, where applicable broken down between employees and non-employees in the undertaking’s own workforce: (a) the percentage of people in its own workforce who are covered by the undertaking’s health and safety management system based on legal requirements and/or recognised standards or guidelines; (b) the number of fatalitiesas a result of work-related injuries and work-related ill health; (c) the number and rate of recordable work-related accidents; (d) with regard to the undertaking’s employees, the number of cases of recordable work-related ill health, subject to legal restrictions on the collection of data; and (e) with regard to the undertaking’s employees, the number of days lost to work-related injuries and fatalities from work-related accidents, work-related ill health and fatalities from ill health. The information for (b) shall also be reported for other workers working on the undertaking’s sites, such as value chain workers if they are working on the undertaking’s sites."
+                },
+                {
+                  "89": "The undertaking may also disclose the information specified in points (d) and (e) of paragraph 88 with regard to non- employees."
+                },
+                {
+                  "90": "In addition, the undertaking may include the following additional information on the health and safety coverage: the percentage of its own workers covered by a health and safety management system which is based on legal requirements and/or recognised standards or guidelines and which has been internally audited and/or audited or certified by an external party."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement S1-15 – Work-life balance metrics",
+              "paragraphs": [
+                {
+                  "91": "The undertaking shall disclose the extent to which employees are entitled to and make use of family-related leave."
+                },
+                {
+                  "92": "The objective of this Disclosure Requirement is to provide an understanding of the entitlement and actual practices amongst the employees to take family-related leave in a gender equitable manner, as it is one of the dimensions of work-life balance."
+                },
+                {
+                  "93": "The disclosure required by paragraph 91 shall include: (a) the percentage of employees entitled to take family-related leave; and (b) the percentage of entitled employees that took family-related leave, and a breakdown by gender."
+                },
+                {
+                  "94": "If all of the undertaking’s employees are entitled to family-related leave through social policy and/or collective bargaining agreements, it is sufficient to disclose this in order to meet the requirement of paragraph 93a."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement S1-16 – Compensation metrics (pay gap and total compensation)",
+              "paragraphs": [
+                {
+                  "95": "The undertaking shall disclose the percentage gap in pay between its female and male employees and the ratio between the remuneration of its highest paid individual and the median remuneration for its employees."
+                },
+                {
+                  "96": "The objective of this Disclosure Requirement is twofold: to allow an understanding of the extent of any gap in the pay between women and men amongst the undertaking’s employees; and to provide insight into the level of remuneration inequality inside the undertaking and whether wide pay disparities exist."
+                },
+                {
+                  "97": "The disclosure required by paragraph 95 shall include: (a) the gender pay gap, defined as the difference of average pay levels between female and male employees, expressed as percentage of the average pay level of male employees; (b) the annual total remuneration ratio of the highest paid individual to the median annual total remuneration for all employees (excluding the highest-paid individual); and (c) where applicable, any contextual information necessary to understand the data and how the data has been compiled and other changes to the underlying data that are to be considered."
+                },
+                {
+                  "98": "The undertaking may disclose a breakdown of the gender pay gap as defined in paragraph 97(a) by employee category and/or by country/segment. The undertaking may also disclose the gender pay gap between employees by categories of employees broken down by ordinary basic salary and complementary or variable components."
+                },
+                {
+                  "99": "In relation to paragraph 97 (b), the undertaking may report this figure adjusted for purchasing power differences between countries, in which case it shall report the methodology used for the calculation."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement S1-17 – Incidents, complaints and severe human rights impacts",
+              "paragraphs": [
+                {
+                  "100": "The undertaking shall disclose the number of work-related incidents and/or complaints and severe human rights impacts within its own workforce, and any related material fines, sanctions or compensation for the reporting period."
+                },
+                {
+                  "101": "The objective of this Disclosure Requirement is to allow an understanding of the extent to which work-related incidents and severe cases of human rights impacts are affecting its own workforce."
+                },
+                {
+                  "102": "The disclosure required by paragraph 100 shall include, subject to the relevant privacy regulations, work-related incidents of discrimination on the grounds of gender, racial or ethnic origin, nationality, religion or belief, disability, age, sexual orientation, or other relevant forms of discrimination involving internal and/or external stakeholders across operations in the reporting period. This includes incidents of harassment as a specific form of discrimination."
+                },
+                {
+                  "103": "The undertaking shall disclose: (a) the total number of incidents of discrimination, including harassment, reported in the reporting period; (b) the number of complaints filed through channels for people in the undertaking’s own workforce to raise concerns (including grievance mechanisms) and, where applicable, to the National Contact Points for OECD Multinational Enterprises related to the matters defined in paragraph 2 of this Standard, excluding those already reported in (a) above;."
+                },
+                {
+                  "104": "The undertaking shall disclose the following information regarding identified cases of severe human rights incidents (e.g., forced labour, human trafficking or child labour): (a) the number of severe human rights incidents connected to the undertaking’s workforce in the reporting period, including an indication of how many of these are cases of non-respect of the UN Guiding Principles on Business and Human Rights, ILO Declaration on Fundamental Principles and Rights at Work or OECD Guidelines for Multinational Enterprises. If no such incidents have occurred, the undertaking shall state this; and (b) the total amount of fines, penalties and compensation for damages for the incidents described in (a) above, and a reconciliation of the monetary amounts disclosed in the most relevant amount in the financial statements. ."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "appendix": [
+    {
+      "title": "Appendix A: Application Requirements",
+      "description": "This appendix is an integral part of the ESRS S1 Own workforce. It supports the application of the disclosure requirements set out in this standard and has the same authority as the other parts of this Standard.",
+      "objective": {
+        "AR 1": "This appendix is an integral part of the ESRS S1 Own workforce. It supports the application of the disclosure requirements set out in this standard and has the same authority as the other parts of this Standard.",
+        "AR 2": "The undertaking may disclose information about own workforce in relation to the following matters as defined by ESRS 2 Impact Materiality Assessment:.",
+        "AR 3": "The undertaking shall consider the specific characteristics of people in its own workforce when assessing the material impacts of the undertaking and the undertaking's material dependencies on its own workforce."
+      },
+      "subsections": [
+        {
+          "title": "ESRS 2 General disclosures",
+          "subsections": [
+            {
+              "title": "Strategy",
+              "subsections": [
+                {
+                  "title": "Disclosure Requirement related to ESRS 2 SBM-2 – Interests and views of stakeholders",
+                  "paragraphs": [
+                    {
+                      "AR 4": "ESRS 2 SBM-2 requires the undertaking to provide an understanding of whether and how it considers the role that its strategy and business model may play in creating, exacerbating or mitigating significant material impacts on its own workforce, and whether and how the business model and strategy are adapted to address such material impacts."
+                    },
+                    {
+                      "AR 5": "While the undertaking’s own workforce may not be engaging with the undertaking at the level of its strategy or business model, their views can inform the undertaking’s assessment of its strategy and business model. The undertaking shall consider the views of workers’ representatives when applicable to fulfil this disclosure."
+                    }
+                  ]
+                },
+                {
+                  "title": "Disclosure Requirement related to ESRS 2 SBM-3 – Material impacts, risks and opportunities and their interaction with strategy and business model",
+                  "paragraphs": [
+                    {
+                      "AR 6": "Impacts on the undertaking’s own workforce can originate in its strategy or business model in a number of different ways. For example, impacts may relate to the undertaking’s value proposition (such as providing lowest cost products or services, or high-speed delivery, in ways that put pressure on labour rights in its own operations), or its cost structure and the revenue model (such as shifting inventory risk to suppliers, with knock-on effects on the labour rights of people who work for them)."
+                    },
+                    {
+                      "AR 7": "Impacts on the undertaking’s own workforce that originate in the strategy or business model can also bring material risks to the undertaking. For example, risks arise if some people in the workforce are at risk of forced labour, and the undertaking is importing products into countries where the law allows for the confiscation of imported goods that are suspected of being made with forced labour. An example of opportunities for the undertaking may result from providing opportunities for the workforce such as job creation and upskilling in the context of a “just transition”. Another example, in the context of a pandemic or other severe health crisis, relates to the undertaking potentially relying on contingent labour with little to no access to sick care and health benefits that may face severe operational and business continuity risks as workers have no choice but to keep working while sick, further exacerbating the spread of the disease and causing major supply chain breakdowns. Reputational and business opportunity risks linked to the exploitation of low-skilled, low-paid workers in sourcing geographies with minimal protections for them are also increasing with media backlash and consumer preferences moving to more ethically sourced or sustainable goods."
+                    },
+                    {
+                      "AR 8": "Examples of particular characteristics of people in the undertaking’s own workforce that may be considered by the undertaking when responding to paragraph 15 relate to young people that may be more susceptible to impacts on their physical and mental development, or women in a context where women are routinely discriminated against in the terms and conditions of work, or migrants in a context where the market for the supply of labour is poorly regulated and workers are routinely charged recruitment fees. For some people in the workforce, the inherent nature of the activity that they are required to undertake may put them at risk (for example, people required to handle chemicals or operate certain equipment or low paid employees who are on “zero hours” contracts)."
+                    },
+                    {
+                      "AR 9": "With regard to paragraph 16, material risks could also arise because of the undertaking’s dependency on its own workforce where low-likelihood but high-impact events may trigger financial effects; for example, where a global pandemic leads to severe health impacts on the undertaking’s workforce resulting in major disruptions to production and distribution. Other examples of risk related to the undertaking’s dependency on its workforce include a shortage in skilled workers or political decisions or legislation affecting its own operations and own workforce. Impacts, risks and opportunities management."
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Impacts, risks and opportunities management",
+          "subsections": [
+            {
+              "title": "Disclosure Requirement S1-1 – Policies related to own workforce",
+              "paragraphs": [
+                {
+                  "AR 10": "The undertaking shall consider whether explanations of significant changes to the policies adopted during the reporting year (for example, new expectations for foreign subsidiaries, new or additional approaches to due diligence and remedy) provide contextual information for users and may disclose such explanations. This includes policies and commitments of the undertaking to prevent or mitigate the risks and negative impacts on people in its own workforce of reducing carbon emissions and transitioning to greener and climate-neutral operations as well as to provide opportunities for the workforce such as job creation and upskilling, including explicit commitments to a ‘just transition’."
+                },
+                {
+                  "AR 11": "The policy may take the form of a stand-alone policy regarding the undertaking’s own workforce or be included in a broader document such as a code of ethics or a general sustainability policy that has already been disclosed by the undertaking as part of another ESRS. In those cases, the undertaking shall provide an accurate cross- reference to identify the aspects of the policy that satisfy the requirements of this Disclosure Requirement."
+                },
+                {
+                  "AR 12": "When disclosing the alignment of its policies with the UN Guiding Principles on Business and Human Rights, the undertaking shall consider that the Guiding Principles refer to the International Bill of Human Rights, which consist of the Universal Declaration of Human Rights and the two Covenants that implement it, as well as the International Labour Organisation’s Declaration on Fundamental Rights and Principles at Work and the core conventions that underpin it, and may report on alignment with these instruments."
+                },
+                {
+                  "AR 13": "When explaining how external-facing policies are embedded, the undertaking may, for example, consider internal policies of responsible sourcing, and alignment with other policies relevant to own workers, for example, regarding forced labour. With regard to supplier codes of conduct that the undertaking may have, it shall indicate whether they include provisions addressing the safety of workers, precarious work (i.e., use of workers on short-term or limited hours contracts, workers employed via third parties, sub-contracting to third parties or use of informal workers), human trafficking, the use of forced labour or child labour, and whether such provisions are fully in line with applicable ILO standards."
+                },
+                {
+                  "AR 14": "The undertaking may provide an illustration of the types of communication of its policies to those individuals, group of individuals or entities for whom they are relevant, either because they are expected to implement them (for example, the undertaking’s employees, contractors and suppliers), or because they have a direct interest in their implementation (for example, people in its own workforce, investors). It may disclose communication tools and channels (for example, flyers, newsletters, dedicated websites, social media, face to face interactions, workers’ representatives), aimed at ensuring that the policy is accessible and that different audiences understand its implications. The undertaking may also explain how it identifies and removes potential barriers for dissemination, such as through translation into relevant languages or the use of graphic depictions."
+                },
+                {
+                  "AR 15": "Discrimination in employment and occupation occurs when someone is treated differently or less favourably because of characteristics that are not related to merit or the inherent requirements of the job. These characteristics are commonly defined in national laws. Besides the grounds mentioned in the Disclosure Requirement, the undertaking shall consider other grounds for discrimination prohibited under national legislation."
+                },
+                {
+                  "AR 16": "Discrimination can arise in a variety of work-related activities. These include access to employment, particular occupations, training and vocational guidance and social security. Moreover, it can occur with respect to the terms and conditions of employment, such as: recruitment, remuneration, hours of work and rest, paid holidays, maternity protection, security of tenure, job assignments, performance assessment and advancement, training opportunities, promotion prospects, occupational safety and health, termination of employment. The undertaking may address these areas specifically when disclosing its policies and underlying procedures to fulfil the disclosure requirement."
+                },
+                {
+                  "AR 17": "The undertaking may disclose whether it: (a) has policies and procedures which make qualifications, skills and experience the basis for the recruitment, placement, training and advancement at all levels, while accounting for the fact that some individuals may have more difficulty than others to acquire such qualifications, skills and experience; (b) assigns responsibility at top management level for equal treatment and opportunities in employment, issue clear company-wide policies and procedures to guide equal employment practices, and link advancement to desired performance in this area; (c) provides staff training on non-discrimination policies and practices, with a particular focus on middle and upper management to raise awareness and address resolution strategies for preventing and addressing systemic and incidental discrimination; (d) makes adjustments to the physical environment to ensure health and safety for workers, customers and other visitors with disabilities; (e) evaluates whether job requirements have been defined in a way that could systematically disadvantage certain groups; (f) keeps up-to-date records on recruitment, training and promotion that provide a transparent view of opportunities for employees and their progression within the undertaking; (g) puts in place grievance procedures to address complaints, handle appeals and provide recourse for employees (especially in the context of negotiations and collective agreements) when discrimination is identified, and is alert to formal structures and informal cultural issues that can prevent employees from raising concerns and grievances; and (h) has programs to promote access to skills development."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement S1-2 – Processes for engaging with own workforce and workers' representatives about impacts",
+              "paragraphs": [
+                {
+                  "AR 18": "When describing what function or role has operational responsibility for such engagement and/or ultimate accountability, the undertaking may disclose whether this is a dedicated role or function or part of a broader role or function, and whether any capacity building activities have been offered to support the staff to undertake engagement. If it cannot identify such a position or function, it may state that this is the case. This disclosure could also be fulfilled by making reference to information disclosed according to ESRS 2 GOV-1 The role of the administrative, management and supervisory bodies."
+                },
+                {
+                  "AR 19": "When preparing the disclosures described in paragraph 27 b) and c), the following illustrations may be considered: (a) examples of stages at which engagement occurs are i) determining the approach to mitigation and ii) evaluating the effectiveness of mitigation; (b) for type of engagement, these could be participation, consultation and/or information; (c) for the frequency of the engagement, information may be provided on whether engagement occurs on a regular basis, at certain points in a project or business process, (for example, when a new harvest season begins or a new production line is opened), as well as whether it occurs in response to legal requirements and/or in response to stakeholder requests and whether the result of the engagement is being integrated into the undertaking's decision-making processes; and (d) for the role with operational responsibility, whether the undertaking requires relevant staff to have certain skills, or whether it provides training or capacity building to relevant staff to undertake engagement."
+                },
+                {
+                  "AR 20": "Global Framework Agreements (GFA) serve to establish an ongoing relationship between a multinational enterprise and a Global Union Federation to ensure that the undertaking adheres to the same standards in every country in which it operates."
+                },
+                {
+                  "AR 21": "To illustrate how the perspectives of its own workforce have informed specific decisions or activities, the undertaking may provide examples from the current reporting period."
+                },
+                {
+                  "AR 22": "Where the undertaking has agreements with national, European or international trade unions or works councils related to the rights of people its own workforce, this can be disclosed to illustrate how the agreement enables the undertaking to gain insight into the perspectives of such people."
+                },
+                {
+                  "AR 23": "Where possible, the undertaking may disclose examples from the reporting period to illustrate how the perspectives of its own workforce and workers' representatives have informed specific decisions or activities of the undertaking."
+                },
+                {
+                  "AR 24": "The undertaking shall consider the following aspects when fulfilling this Disclosure Requirement: (a) The type of engagement (for example, information, consultation or participation) and its frequency (for example, ongoing, quarterly, annually); (b) how feedback is recorded and integrated into decision-making, and how people in the workforce are informed about the way in which their feedback has influenced decisions; (c) whether engagement activities take place at the organisational level or at a lower level, such as at the site or project level, and in the latter case, how information from engagement activities is centralised; (d) the resources (for example, financial or human resources) allocated to engagement; and (e) how it engages with people in its workforce and workers’ representatives on the impacts on its own workforce that may arise from reducing carbon emissions and transitioning to greener and climate-neutral operations, in particular restructuring, employment loss or creation, training and up/reskilling, gender and social equity, and health and safety."
+                },
+                {
+                  "AR 25": "The undertaking may also disclose the following information in relation to paragraph 24 on diversity: (a) how it engages with at-risk or persons in vulnerable situations (for example whether it takes specific approaches and gives special attention to potential barriers); (b) how it takes into account potential barriers to engagement with people in its workforce (for example, language and cultural differences, gender and power imbalances, divisions within a community or group); (c) how it provides people in its workforce with information that is understandable and accessible through appropriate communication channels; (d) any conflicting interests that have arisen among its workforce and how the undertaking has resolved these conflicting interests; and (e) how it seeks to respect the human rights of all stakeholders engaged, for example, their rights to privacy, freedom of expression, and peaceful assembly and protest."
+                },
+                {
+                  "AR 26": "The undertaking may also report information about the effectiveness of processes for engaging with its own workforce from previous reporting periods. This applies in cases where the undertaking has assessed the effectiveness of these processes or derived lessons during the current reporting period. Processes used to track effectiveness can include internal or external auditing or verification, impact assessments, measurement systems, stakeholder feedback, grievance mechanisms, external performance ratings, and benchmarking."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement S1-3 – Processes to remediate negative impacts and channels for own workers to raise concerns",
+              "paragraphs": [
+                {
+                  "AR 27": "In fulfilling the requirements set out by the disclosure criteria of Disclosure Requirement ESRS S1-3, the undertaking may be guided by the content of the UN Guiding Principles on Business and Human Rights and the OECD Due Diligence Guidance for Responsible Business Conduct focused on remediation and grievance mechanisms."
+                },
+                {
+                  "AR 28": "Channels for raising concerns or needs include grievance mechanisms, hotlines, trade unions (where people in the workforce are unionised), works councils, dialogue processes or other means through which the undertaking’s own workforce or workers’ representatives can raise concerns about impacts or explain needs that they would like the undertaking to address. This could include both channels provided by the undertaking directly and channels provided by the entities where their own workforce is working, in addition to any other mechanisms an undertaking may use to gain insight into the management of impacts on its own workforce, such as compliance audits. Where the undertaking is relying solely on information about the existence of such channels provided by its business relationships to answer this requirement, it may state that."
+                },
+                {
+                  "AR 29": "Third party mechanisms could include those operated by the government, NGOs, industry associations and other collaborative initiatives. The undertaking may disclose whether these are accessible to all of its own workforce (or workers’ representatives or, in their absence, individuals or organisations acting on their behalf or who are otherwise in a position to be aware of negative impacts)."
+                },
+                {
+                  "AR 30": "The undertaking shall consider whether and how people in its own workforce that may be affected and their workers' representatives are able to access channels at the level of the undertaking they are employed by, or contracted to work for, in relation to each material impact. Relevant channels may include hotlines, trade unions (where people in the workforce are unionised) or works councils, or other grievance mechanisms operated by the relevant undertaking or by a third party."
+                },
+                {
+                  "AR 31": "In explaining whether and how the undertaking knows that people in its own workforce are aware of and trust any of these channels, the undertaking may provide relevant and reliable data about the effectiveness of these channels from the perspective of the people concerned. Examples of sources of information are surveys of people in the undertaking’s workforce that have used such channels and their levels of satisfaction with the process and outcomes."
+                },
+                {
+                  "AR 32": "In describing the effectiveness of channels for its own workforce and workers’ representatives to raise concerns, the undertaking may be guided by the following questions, based on the “effectiveness criteria for non-judicial grievance mechanisms”, as laid out in the UN Guiding Principles on Business and Human Rights, in particular principle 31. The considerations below may be applied to individual channels or to a collective system of channels: (a) do the channels have legitimacy by providing appropriate accountability for their fair conduct and building stakeholder trust? (b) are the channels known and accessible to stakeholders? (c) do the channels have clear and known procedures, with indicative timeframes? (d) do the channels ensure reasonable access for stakeholders to sources of information, advice and expertise? (e) do the channels offer transparency by providing sufficient information both to complainants and, where applicable, to meet any public interest? (f) do outcomes achieved through the channels accord with internationally recognised human rights? (g) does the undertaking identify insights from the channels that support continuous learning in both improving the channels and preventing future impacts? (h) does the undertaking focus on dialogue with complainants as the means to reach agreed solutions, rather than seeking to unilaterally determine the outcome? Disclosure Requirement S1-4 – Taking action on material impacts and approaches to mitigating material risks and pursuing material opportunities related to own workforce, and effectiveness of those actions and approaches."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement S1-4 – Taking action on material impacts and approaches to mitigating material risks and pursuing material opportunities related to own workforce, and effectiveness of those actions and approaches",
+              "paragraphs": [
+                {
+                  "AR 33": "It may take time to understand negative impacts and how the undertaking may be involved with them through its own workforce, as well as to identify appropriate responses and put them into practice). Therefore, the undertaking may disclose: (a) its general and specific approaches to addressing material negative impacts; (b) its initiatives aimed at contributing to additional material positive impacts; (c) how far it has progressed in its efforts during the reporting period; and (d) its aims for continued improvement."
+                },
+                {
+                  "AR 34": "Appropriate action can vary according to whether the undertaking causes or contributes to a material impact, or whether it is involved because the impact is directly linked to its operations, products or services by a business relationship."
+                },
+                {
+                  "AR 35": "Given that material negative impacts affecting its own workforce that have occurred during the reporting period may also be connected with other entities or operations outside its direct control, the undertaking may disclose whether and how it seeks to use its leverage in its business relationships to manage those impacts. This may include using commercial leverage (for example, enforcing contractual requirements with business relationships or implementing incentives), other forms of leverage within the relationship (such as providing training or capacity-building on workers’ rights to entities with which the undertaking has a business relationship) or collaborative leverage with peers or other actors (such as initiatives aimed at responsible recruitment or ensuring workers receive an adequate wage)."
+                },
+                {
+                  "AR 36": "When the undertaking discloses its participation in an industry or multi-stakeholder initiative as part of its actions to address material negative impacts, the undertaking may disclose how the initiative, and its own involvement, is aiming to address the material impact concerned. It may report under ESRS S1-5 the relevant targets set by the initiative and progress towards them."
+                },
+                {
+                  "AR 37": "When disclosing whether and how the undertaking considers actual and potential impacts on its own workforce in decisions to terminate business relationships and whether and how it seeks to address any negative impacts that may result from termination, the undertaking may include examples."
+                },
+                {
+                  "AR 38": "Processes used to track the effectiveness of actions can include internal or external auditing or verification, court proceedings and/or related court decisions, impact assessments, measurement systems, stakeholder feedback, grievance mechanisms, external performance ratings, and benchmarking."
+                },
+                {
+                  "AR 39": "Reporting on effectiveness is aimed at enabling the understanding of the links between actions taken by an undertaking and the effective management of impacts. Additional information that the undertaking may provide includes data showing a decrease in the number of incidents identified."
+                },
+                {
+                  "AR 40": "With regard to initiatives or processes whose primary aim is to deliver positive impacts for people in the undertaking’s own workforce that are based on their needs, and with regard to progress in the implementation of such initiatives or processes, the undertaking may disclose: (a) information about whether and how people in its own workforce and workers’ representatives play a role in decisions regarding the design and implementation of these programmes or processes; and (b) information about the intended or achieved positive outcomes for the undertaking’s own workforce of these programmes or processes."
+                },
+                {
+                  "AR 41": "The undertaking may explain whether any such initiatives are designed also to support the achievement of one or more Sustainable Development Goals. For example, an undertaking committing to SDG 8 to “promote sustained, inclusive and sustainable economic growth, full and productive employment and decent work for all” may be actively working towards eliminating forced labour or compulsory labour or supporting higher levels of productivity on activities in developing countries through technological upgrades and training of local labour, which can benefit both the specific people in its own workforce targeted by the actions, and also their local communities."
+                },
+                {
+                  "AR 42": "When disclosing the intended or achieved positive outcomes of its actions for the undertaking’s own workforce, a distinction is to be made between evidence of certain activities having occurred (for example, that x number of people have received financial literacy training) from evidence of actual outcomes for the people concerned (for example, that x people report that they are able to better manage their pay and their household budgets)."
+                },
+                {
+                  "AR 43": "If the undertaking has taken measures to mitigate negative impacts on its own workforce that arise from the transition to a greener, climate-neutral economy, such as training and reskilling, employment guarantees, and in the case of downscaling or mass dismissal, measures such as job counselling, coaching, intra-company placements and early retirement plans, the undertaking shall disclose those measures. This includes measures to comply with prevailing regulation. The undertaking may highlight present and/or expected external developments that influence whether dependencies turn into risks. This includes consideration of impacts that may arise from the transition to greener and climate-neutral operations."
+                },
+                {
+                  "AR 44": "When disclosing the material risks and opportunities related to its impacts or dependencies on its own workforce, the undertaking may consider the following: (a) risks related to the undertaking’s impacts on its own workforce may include the reputational or legal exposure where people in the undertaking’s workforce are found to be subject to forced labour or child labour; (b) risks related to the undertaking’s dependencies on its own workforce may include disruption of business operations where significant employee turnover or lack of skills/training development threaten the undertaking’s business; and (c) opportunities related to the undertaking’s impacts on its own workforce may include market differentiation and greater customer appeal from guaranteeing decent pay and conditions for non-employees."
+                },
+                {
+                  "AR 45": "When explaining whether dependencies turn into risks, the undertaking shall consider external developments."
+                },
+                {
+                  "AR 46": "When disclosing policies, actions and resources and targets related to the management of material risks and opportunities, in cases where risks and opportunities arise from a material impact, the undertaking may cross- reference its disclosures on policies, actions and resources and targets in relation to that impact."
+                },
+                {
+                  "AR 47": "The undertaking shall consider whether and how its process(es) to manage material risks related to own workforce are integrated into its existing risk management process(es)."
+                },
+                {
+                  "AR 48": "When disclosing the resources allocated to the management of material impacts, the undertaking may explain which internal functions are involved in managing the impacts and what types of action they take to address negative and advance positive impacts."
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "title": "Metrics and targets",
+          "subsections": [
+            {
+              "title": "Disclosure Requirement S1-5 – Targets related to managing material impacts, advancing positive impacts, as well as to risks and opportunities",
+              "paragraphs": [
+                {
+                  "AR 49": "When disclosing information about targets in accordance with paragraph 46, the undertaking may disclose: (a) the intended outcomes to be achieved in the lives of a certain number of people in its own workforce; (b) the stability of the targets over time in terms of definitions and methodologies to enable comparability over time; and/or (c) the standards or commitments which the targets are based on (for instance codes of conduct, sourcing policies, global frameworks, or industry codes)."
+                },
+                {
+                  "AR 50": "Targets related to risks and opportunities may be the same as or distinct from targets related to impacts. For example, a target to reach adequate wages for non-employees could both reduce impacts on those people and reduce associated risks in terms of the quality and reliability of their output."
+                },
+                {
+                  "AR 51": "The undertaking may also distinguish between short-, medium- and long-term targets covering the same policy commitment. For example, the undertaking may have a long-term target to achieve an 80% reduction in health and safety incidents affecting its delivery drivers by 2030 and a near-term target to reduce the overtime hours of delivery drivers by x% while maintaining their income by 2024."
+                },
+                {
+                  "AR 52": "When modifying or replacing a target in the reporting period, the undertaking may explain the change by cross- referencing it to significant changes in the business model or to broader changes in the accepted standard or legislation from which the target is derived to provide contextual information as per ESRS 2 BP-2 Disclosures in relation to specific circumstances."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement S1-6 – Characteristics of the Undertaking's Employees",
+              "paragraphs": [
+                {
+                  "AR 53": "This Disclosure Requirement covers all employees who perform work for any of the undertaking’s entities included in its sustainability reporting."
+                },
+                {
+                  "AR 54": "Providing a breakdown of employees by country gives insight into the distribution of activity across countries. The number of employees in each country is also a key trigger for many information, consultation and participation rights for workers and workers' representatives, both in the Union labour law acquis (for example, Providing a breakdown of employees by gender and type of employment relationship gives insight into gender representation across the undertaking. Additionally, providing a breakdown of employees by region gives insight into regional variations. A region can refer to a country or other geographic locations, such as a region within a country or a world region."
+                },
+                {
+                  "AR 55": "The undertaking shall disclose the requested disclosures in the following tabular formats: Table 1 Template for presenting information on employee head count by gender Gender Number of employees (head count) Male Female Other Not reported Total Employees In some Member States it is possible for persons to legally register themselves as having a third, often neutral, gender, which is categorised as “other” in the table above. However, if the undertaking is disclosing data about employees where this is not possible, it may explain this and indicate that the “other” category is not applicable. Table 2 Template for presenting employee head count in countries where the undertaking has at least 50 employees representing at least 10% of its total number of employees. Country C Country D Table 3 Template for presenting information on employees by contract type, broken down by gender (head count or FTE) (reporting on full-time and part-time employees is voluntary) [Reporting period] FEMALE MALE OTHER(*) NOT DISCLOSED TOTAL Number of employees (head count / FTE) Number of permanent employees (head count / FTE) Number of temporary employees (head count / FTE) Number of non-guaranteed hours employees (head count / FTE) Number of full-time employees (head count / FTE) Number of part-time employees (head count / FTE) (*) Gender as specified by the employees themselves. Table 4 Template for presenting information on employees by contract type, broken down by region (head count or FTE) (reporting on full-time and part-time employees is voluntary) [Reporting period] REGION A REGION B TOTAL Number of employees (head count / FTE) Number of permanent employees (head count / FTE) Number of temporary employees (head count / FTE) Number of non-guaranteed hours employees (head count / FTE) Number of full-time employees (head count / FTE) Number of part-time employees (head count / FTE) | MALE | OTHER(*) | NOT DISCLOSED | | --- | --- | --- | | | | | | --- | --- | --- | | | | | | --- | --- | --- | | | | | | --- | --- | --- | | | | | | --- | --- | --- | | | | | | --- | --- | --- | | | | | | --- | --- | --- |."
+                },
+                {
+                  "AR 56": "The definitions of permanent, temporary, non-guaranteed hours, full-time, and part-time employees differ between countries. If the undertaking has employees in more than one country, it shall use the definitions as per the national laws of the countries where the employees are based to calculate country-level data. The country- level data shall then be added up to calculate total numbers, disregarding differences in national legal definitions. Non-guaranteed hours employees are employed by the undertaking without a guarantee of a minimum or fixed number of working hours. The employee may need to make themselves available for work as required, but the undertaking is not contractually obliged to offer the employee a minimum or fixed number of working hours per day, week, or month. Casual employees, employees with zero-hour contracts, and on-call employees are examples that fall under this category."
+                },
+                {
+                  "AR 57": "Disclosing the number of employees at the end of the reporting period provides information for that point in time, without capturing fluctuations during the reporting period. Disclosing these numbers in averages across the reporting period takes into account fluctuations during the reporting period."
+                },
+                {
+                  "AR 58": "Quantitative data, such as the number of temporary or part-time employees, is unlikely to be sufficient on its own. For example, a high proportion of temporary or part-time employees could indicate a lack of employment security for employees, but it could equally signal workplace flexibility when offered as a voluntary choice. For this reason, the undertaking is required to disclose contextual information to help information users interpret the data. The undertaking can explain the reasons for temporary employment. An example of such a reason is the recruitment of employees to undertake work on a temporary or seasonal project or event. Another example is the standard practice of offering a temporary contract (for example, six months) to new employees before an offer of permanent employment is made. The undertaking may also explain the reasons for non-guaranteed hours employment."
+                },
+                {
+                  "AR 59": "For the own employee turnover calculation, the undertaking shall calculate the aggregate of the number of employees who leave voluntarily or due to dismissal, retirement, or death in service. The undertaking shall use this number for the numerator of the employee turnover rate and may determine the denominator used to calculate this rate and describe its methodology."
+                },
+                {
+                  "AR 60": "Where data is not available for detailed information, the undertaking shall use an estimation of the employee number or ratios, in accordance with ESRS 1, and clearly identify where the use of estimates has taken place."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement S1-7 – Characteristics of non-employees in the undertaking's own workforce",
+              "paragraphs": [
+                {
+                  "AR 61": "This Disclosure Requirement provides insight into the undertaking’s approach to employment, as well as the scope and nature of impacts arising from its employment practices. It also provides contextual information that aids an understanding of the information reported in other disclosures. This disclosure covers both individual contractors supplying labour to the undertaking (“self-employed people”) and workers provided by undertakings primarily engaged in “employment activities” (NACE Code N78). If all the people performing work for the undertaking are employees and the undertaking does not have any people in its workforce who are not employees, this Disclosure Requirement is not material for the undertaking; notwithstanding, the undertaking may state this fact when disclosing the information required by Disclosure Requirement S1-6 as contextual information as this information can be relevant for the users of the Sustainability Statement."
+                },
+                {
+                  "AR 62": "Examples of contractors (self-employed people) in the undertaking’s own workforce include: contractors hired by the undertaking to perform work that would otherwise be carried out by an employee; contractors hired by the undertaking to perform work in a public area (for example, on a road, on the street); and contractors hired by the undertaking to deliver the work/service directly at the workplace of a client of the organization. Examples of people employed by a third party engaged in ‘employment activities’ whose work is under the direction of the undertaking include: people who perform the same work that employees carry out, such as people who fill in for employees who are temporarily absent (due to illness, holiday, parental leave, etc.); people performing regular work at the same site as employees; and workers who are dispatched temporarily from another EU member state to work for the undertaking (‘posted workers’). Examples of value chain workers (and thus of workers not in the undertaking’s own workforce and reported under the scope of ESRS S2) include: workers for a supplier contracted by the undertaking who work on the supplier’s premises using the supplier’s work methods; workers for a ‘downstream’ entity which purchases goods or services from the undertaking; and workers of an equipment supplier to the undertaking who, at one or more of the undertaking’s workplaces, perform regular maintenance on the supplier’s equipment (for example, photocopier) as stipulated in the contract between the equipment supplier and the undertaking."
+                },
+                {
+                  "AR 63": "If the undertaking cannot report exact figures, it shall use estimates according to the provisions in ESRS 1 to disclose the number of people in its own workforce who are not employees to the nearest ten or, where the number of people in its own workforce who are not employees is greater than 1 000, to the nearest 100, and explain this. In addition, it shall clearly identify the information that derives from actual data and estimates."
+                },
+                {
+                  "AR 64": "Disclosing the number of people in the undertaking’s own workforce who are not employees at the end of the reporting period provides information for that point in time without capturing fluctuations during the reporting period. Disclosing this number as an average across the reporting period considers fluctuations during the reporting period and can provide more insightful and relevant information for users."
+                },
+                {
+                  "AR 65": "The information disclosed by the undertaking allows users to understand how the number of non-employees in the undertaking’s own workforce varies during the reporting period or compared to the previous reporting period (i.e., whether the numbers have increased or decreased). The undertaking may also disclose the reasons for the fluctuations. For example, an increase in the number of non-employees during the reporting period could be due to a seasonal event. Conversely, a decrease in the number of non-employees compared to the previous reporting period could be due to the completion of a temporary project. If the undertaking discloses fluctuations, it shall also explain the criteria used to determine which fluctuations it discloses. If there are no significant fluctuations in the number of non-employees during the reporting period or between the current and previous reporting period, the undertaking may disclose this information."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement S1-8 – Collective bargaining coverage and social dialogue",
+              "paragraphs": [
+                {
+                  "AR 66": "The percentage of employees covered by collective bargaining agreements is calculated using the following formula: (Number of employees covered by collective bargaining agreements/Number of employees)*100"
+                },
+                {
+                  "AR 67": "The employees in the undertaking’s own workforce covered by collective bargaining agreements are those individuals to whom the undertaking is obliged to apply the agreement. This means that if none of the employees are covered by a collective bargaining agreement, the percentage reported is zero. An employee in the undertaking’s own workforce covered by more than one collective bargaining agreement only needs to be counted once."
+                },
+                {
+                  "AR 68": "This requirement is not aimed at obtaining the percentage of employees represented by a works council or belonging to trade unions, which can be different. The percentage of employees covered by collective bargaining agreements can be higher than the percentage of unionised employees when the collective bargaining agreements apply to both union and non-union members. Alternatively, the percentage of employees covered by collective bargaining agreements can be lower than the percentage of unionised employees. This may be the case when there are no collective bargaining agreements available or when the collective bargaining agreements do not cover all unionised employees."
+                },
+                {
+                  "AR 69": "For calculating the information required by paragraph 63(a), the undertaking shall identify in which European Economic Area (EEA) countries it has significant employment (i.e., at least 50 employees representing at least 10% of its total employees). For these countries it shall report the percentage of employees in that country which are employed in establishments in which employees are represented by workers’ representatives. Establishment is defined as any place of operations where the undertaking carries out a non-transitory economic activity with human means and goods. Examples include: a factory, a branch of a retail chain, or an undertaking’s headquarters. For countries in which there is only one establishment the percentage reported shall be either 100% or 0%."
+                },
+                {
+                  "AR 70": "The information required by this Disclosure Requirement shall be reported as follows Table 1 Reporting template for collective bargaining coverage and social dialogue Collective Bargaining Coverage Social dialogue Employees – Non-EEA Workplace representation (EEA Employees – EEA (estimate for regions with >50 only) Coverage Rate (for countries with >50 empl. empl. representing >10% total (for countries with >50 empl. representing >10% total empl.) empl) representing >10% total empl) 0-19% Region A 20-39% Country A Region B 40-59% Country B Country A 60-79% Country B 80-100%."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement S1-9 – Diversity metrics",
+              "paragraphs": [
+                {
+                  "AR 71": "In preparing the disclosure on gender at top management, the undertaking shall use the definition of top management as one and two levels below the administrative and supervisory bodies unless this concept has already been defined with the undertaking’s operations and differs from the previous description. If this is the case, the undertaking can use its own definition for top management and disclose that fact and its own definition."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement S1-10 – Adequate Wages",
+              "paragraphs": [
+                {
+                  "AR 72": "The lowest wage shall be calculated for the lowest pay category, excluding interns and apprentices. This is to be based on the basic wage plus any fixed additional payments that are guaranteed to all employees. The lowest wage shall be considered separately for each country in which the undertaking has operations, except outside the EEA when the relevant adequate or minimum wage is defined at a sub national level."
+                },
+                {
+                  "AR 73": "The adequate wage benchmark used for comparison with the lowest wage shall not be lower than: (a) in the EEA: the minimum wage set in accordance with benchmark that is either not lower than the minimum wage in a neighboring country with a similar socio- economic status or not lower than a commonly-referenced international norm such as 60% of the country's median wage and 50% of the gross average wage. (b) outside of the EEA: i. the wage level established in any existing international, national or sub-national legislation, official norms or collective agreements, based on an assessment of a wage level needed for a decent standard of living; ii. if none of the instruments identified in (i) exist, any national or sub-national minimum wage established by legislation or collective bargaining; or iii. if none of the instruments identified in (i) or (ii) exist, any benchmark that meets the criteria set out by the Sustainable Trade Initiative (IDH) (‘Roadmap on Living Wages - A Platform to Secure Living Wages in Supply Chains’), including applicable benchmarks aligned with the Anker methodology, or provided by the Wage Indicator Foundation or Fair Wage Network, provided the primacy of collective bargaining for the establishment of terms and conditions of employment is ensured. | Collective Bargaining Coverage | | | --- | --- | | Employees – EEA (for countries with >50 empl. representing >10% total empl.) | Employees – Non-EEA (estimate for regions with >50 empl. representing >10% total empl) | | | Region A | | Country A | Region B | | Country B | | | | | | | |."
+                },
+                {
+                  "AR 74": "Directive (EU) 2022/2041 on adequate minimum wages in the European Union references both indicative reference values commonly used at international level such as 60 % of the gross median wage and 50 % of the gross average wage, and/or indicative reference values used at national level. Data for the indicative values of 60% of the national median gross wage or 50% of the national average gross wage can be obtained from the European Labour Force Survey."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement S1-11 – Social protection",
+              "paragraphs": [
+                {
+                  "AR 75": "Social protection refers to all the measures that provide access to health care and income support in cases of challenging life events such as the loss of a job, being sick and in need of medical care, giving birth and raising a child, or retiring and in need of a pension."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement S1-12 – Persons with disabilities",
+              "paragraphs": [
+                {
+                  "AR 76": "When disclosing the information required in paragraph 77 regarding persons with disabilities, the undertaking shall provide any contextual information necessary to understand the data and how the data has been compiled (methodology). For example, information about the impact of different legal definitions of persons with disabilities in the different countries in which the undertaking has operations."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement S1-13 – Training and Skills Development metrics",
+              "paragraphs": [
+                {
+                  "AR 77": "A regular performance review is defined as a review based on criteria known to the employee and his or her superior undertaken with the knowledge of the employee at least once per year. The review can include an evaluation by the worker’s direct superior, peers, or a wider range of employees. The review can also involve the human resources department. In order to disclose the information required by paragraph 83 (a), the undertaking shall use the employee headcount figures provided in Disclosure Requirement ESRS S1-6 in the denominator to calculate the: (a) number/proportion of performance reviews per employee; and (b) number of reviews in proportion to the agreed number of reviews by the management."
+                },
+                {
+                  "AR 78": "To disclose the average required per paragraph 83 (b), the undertaking shall perform the following calculation: total number of training hours offered to and completed by employees per gender category divided by the total number of employees per gender category. For the total training average and the average by gender, the head count figures for total employment and employment by gender reported in Disclosure Requirement ESRS S1-6 shall be used."
+                },
+                {
+                  "AR 79": "Employee categories are a breakdown of employees by level (such as senior management, middle management) or function (such as technical, administrative, production). This information is derived from the undertaking’s own human resources system. In categorising the workforce, the undertaking shall define reasonable and meaningful employee categories which enable users of the information to understand different performance measures between the categories. The undertaking may present a category for executive and non- executive employees."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement S1-14 – Health and safety metrics",
+              "paragraphs": [
+                {
+                  "AR 80": "In relation to paragraph 88 (a), the percentage of its own workforce who are covered by the undertaking’s health and safety management system shall be disclosed on a head count basis rather than a full-time equivalent basis."
+                },
+                {
+                  "AR 81": "With regard to paragraph 90, when the undertaking’s health and safety management system, or certain parts thereof, has been subject to an internal audit or external certification, the undertaking may state this fact, or absence thereof, and the underlying standards for such audits/certifications, as applicable."
+                },
+                {
+                  "AR 82": "Fatalities may be reported separately for those resulting from work-related injuries and those resulting from work-related ill health. Guidance on “work-related”."
+                },
+                {
+                  "AR 83": "Work-related injuries and work-related ill health arise from exposure to hazards at work. Notwithstanding, other types of incidents can occur that are not connected with the work itself. For example, the following incidents are generally not considered to be work-related, unless otherwise specified in applicable national legislation: (a) a person in the workforce suffers a heart attack while at work that it is not connected with work; (b) a person in the workforce driving to or from work is injured in a car accident (when driving is not part of the work and where the transport has not been organised by the undertaking); and (c) a person in the workforce with epilepsy has a seizure at work that is not connected with work."
+                },
+                {
+                  "AR 84": "With regard to travelling for work purposes, injuries and ill health that occur while a person is travelling are work-related if, at the time of the injury or ill health, the person was engaged in work activities “in the interest of the employer”. Examples of such activities include travelling to and from customer contacts; conducting job tasks; and entertaining or being entertained to transact, discuss, or promote business (at the direction of the employer). If the undertaking is responsible for the transport commuting, incidents occurred while commuting are considered to be work-related. Nonetheless, incidents which arise during travel, outside of the undertaking’s responsibility (i.e., regular commuting to and from work), may be reported separately provided that the undertaking has such data available across the undertaking."
+                },
+                {
+                  "AR 85": "With regard to working from home, injuries and ill health that occur when working from home are work-related, if the injury or ill health occurs while the person is performing work from home; and the injury or ill health is directly related to the performance of work rather than the general home environment or setting."
+                },
+                {
+                  "AR 86": "With regard to mental illness, it is considered to be work-related, if it has been notified voluntarily by the person concerned and it is supported by an opinion from a licensed healthcare professional with appropriate training and experience; and if such opinion states that the illness is work-related."
+                },
+                {
+                  "AR 87": "Health issues resulting, for example, from smoking, drug and alcohol abuse, physical inactivity, unhealthy diets, and psychosocial factors unrelated to work are not considered work-related."
+                },
+                {
+                  "AR 88": "Occupational diseases are not considered work-related injuries but are covered under work-related ill health. Guidance on computing the rate of work-related injuries."
+                },
+                {
+                  "AR 89": "In computing the rate of work-related injuries, the undertaking shall divide the respective number of cases by the number of total hours worked by people in its own workforce and multiplied by 1 000 000. Thereby, these rates represent the number of respective cases per one million hours worked. A rate based on 1 000 000hours worked indicates the number of work-related injuries per 500 full time people in the workforce over a 1-year timeframe. For comparability purposes a rate based on 1 000 000hours worked shall be used also for undertakings with less than 500 people in the workforce."
+                },
+                {
+                  "AR 90": "If the undertaking cannot directly calculate the number of hours worked, it may estimate this on the basis of normal or standard hours of work, taking into account entitlements to periods of paid leave of absence from work (for example, paid vacations, paid sick leave, public holidays) and explain this in its disclosures."
+                },
+                {
+                  "AR 91": "An undertaking shall include fatalities as a result of work-related injury in the calculation of the number and rate of recordable work-related injuries. Guidance on recordable work-related ill health."
+                },
+                {
+                  "AR 92": "Work-related ill health can include acute, recurring, and chronic health problems caused or aggravated by work conditions or practices. These include musculoskeletal disorders, skin and respiratory diseases, malignant cancers, diseases caused by physical agents (for example, noise-induced hearing loss, vibration-caused diseases), and mental illnesses (for example, anxiety, post-traumatic stress disorder). For the purpose of the required disclosures, the undertaking shall, at a minimum, include in its disclosure those cases outlined in the ILO List of Occupational Diseases."
+                },
+                {
+                  "AR 93": "In the context of this Standard, work-related musculoskeletal disorders are covered under work-related ill health (and not injuries)."
+                },
+                {
+                  "AR 94": "The cases to be disclosed in paragraph 88(d) relate to cases of work-related ill health notified to the undertaking or identified by the undertaking through medical surveillance, during the reporting period. The undertaking might be notified of cases of work-related ill health through reports by affected people, compensation agencies, or healthcare professionals. The disclosure may include cases of work-related ill health that were detected during the reporting period among people who were formerly in the undertaking’s workforce. Guidance on the number of days lost."
+                },
+                {
+                  "AR 95": "The undertaking shall count the number of days lost such that the first full day and last day of absence shall be included. Calendar days should be considered for the calculation, thus days on which the affected individual is not scheduled for work (for example, weekends, public holidays) will count as lost days."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement S1-15 – Work-life balance",
+              "paragraphs": [
+                {
+                  "AR 96": "Family-related leave include maternity leave, paternity leave, parental leave, and carers’ leave that is available under national law or collective agreements. For the purpose of this Standard, these concepts are defined as: (a) maternity leave (also called pregnancy leave): employment-protected leave of absence for employed women directly around the time of childbirth (or, in some countries, adoption); (b) paternity leave: leave from work for fathers or, where and in so far as recognised by national law, for equivalent second parents, on the occasion of the birth or adoption of a child for the purposes of providing care; (c) parental leave: leave from work for parents on the grounds of the birth or adoption of a child to take care of that child, as defined by each Member State; (d) carers’ leave from work: leave for workers to provide personal care or support to a relative, or a person who lives in the same household, in need of significant care or support for a serious medical reason, as defined by each Member State."
+                },
+                {
+                  "AR 97": "With regard to paragraph 93 (a), employees entitled to family-related leave are those who are covered by regulations, organisational policies, agreements, contracts or collective bargaining agreements that contain family-related leave entitlements and have reported their entitlement to the undertaking or the undertaking is aware of the entitlement."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement S1-16 – Remuneration metrics (pay gap and total remuneration)",
+              "paragraphs": [
+                {
+                  "AR 98": "When compiling the information required under paragraph 97 (a) for the gap in pay between its female and male employees (also known as the “gender pay gap”) the undertaking shall use the following methodology: (a) include all employees’ gross hourly pay level; and (b) apply the following formula to calculate the gender pay gap:."
+                },
+                {
+                  "AR 99": "When disclosing the information required under paragraph 97 (a), the undertaking shall provide any contextual information necessary to understand the data and how the data has been compiled (methodology). Information regarding how objective factors such as type of work and country of employment influence the gender pay gap may be reported."
+                },
+                {
+                  "AR 100": "The measure of the undertaking’s gender pay gap shall be reported for the current reporting period and, if reported in previous sustainability reports, for the previous two reporting periods. Total remuneration Ratio."
+                },
+                {
+                  "AR 101": "When compiling the information required by paragraph 97 (b), the undertaking shall: (a) include all employees; (b) consider, depending on the undertaking’s remuneration policies, all of the following: i. base salary, which is the sum of guaranteed, short-term, and non-variable cash compensation; ii. benefits in cash, which is the sum of the base salary and cash allowances, bonuses, commissions, cash profit-sharing, and other forms of variable cash payments; iii. benefits in kind, such as cars, private health insurance, life insurance, wellness programs; and iv. direct remuneration, which is the sum of benefits in cash, benefits in kind and total fair value of all annual long-term incentives (for example, stock option awards, restricted stock shares or units, performance stock shares or units, phantom stock shares, stock appreciation rights, and long-term cash awards). (c) apply the following formula for the annual total remuneration ratio:."
+                },
+                {
+                  "AR 102": "To illustrate the contextual information, the undertaking may provide an explanation to understand the data and how the data has been compiled (methodology). Quantitative data, such as the annual total remuneration ratio, may not be sufficient on its own to understand pay disparity and its drivers. For example, pay ratios can be influenced by the size of the undertaking (for example, revenue, number of employees), its sector, its employment strategy (for example, reliance on outsourced workers or part-time employees, a high degree of automation), or currency volatility."
+                }
+              ]
+            },
+            {
+              "title": "Disclosure Requirement S1-17 – Incidents, complaints and severe human rights impacts",
+              "paragraphs": [
+                {
+                  "AR 103": "In addition to the information required by paragraphs 103 and 104, the undertaking may disclose the status of incidents and/or complaints and actions taken with reference to the following: (a) incidents reviewed by the undertaking; (b) remediation plans being implemented; (c) remediation plans that have been implemented, with results reviewed through routine internal management review processes; and (d) incidents no longer subject to action."
+                },
+                {
+                  "AR 104": "If the undertaking compiles the information described in AR 105, it shall consider the following: (a) an incident is no longer subject to action if it is resolved, the case is completed, or no further action is required by the undertaking. For example, an incident for which no further action is required can include cases that are withdrawn or where the underlying circumstances that led to the incident no longer exist; (b) remedial action is directed toward the alleged harasser and the alleged victim. Remedial action toward the victim may include offering to pay his/her expenses for counselling sessions, offering the victim some paid time off, offering to reinstate sick/vacation days if the victim has incurred any expenses due to the harassment (such as having used sick or vacation days); and (c) remedial action toward the harasser may include giving the harasser a verbal and/or written warning, mandating anti-harassment counselling or sending the harasser to an appropriate seminar, harassment awareness and prevention training. A suspension without pay may also be an option. If the harasser has been disciplined earlier but his/her harassment does not cease, then more serious discipline may be required."
+                },
+                {
+                  "AR 105": "Severe human rights incidents include instances of lawsuits, formal complaints through the undertaking or third- party complaint mechanisms, serious allegations in public reports or the media, where these are connected to the undertaking’s own workforce, and the fact of the incidents is not disputed by the undertaking, as well as any other severe impacts of which the undertaking is aware."
+                },
+                {
+                  "AR 106": "In addition to the information required by paragraph 104 above, the undertaking may disclose the number of severe human rights incidents where the undertaking played a role securing remedy for those affected during the reporting period. Appendix A.1 Application Requirements for ESRS 2 related disclosures This appendix is an integral part of ESRS S1 Own workforce. It supports the application of the disclosure requirements from ESRS 2 set out in this standard and has the same authority as the other parts of this Standard. It provides a non-exhaustive list of the factors to be considered by the undertaking when complying with ESRS 2 SBM-2 and ESRS 2 SBM-3. This appendix does not provide definitions of the terms mentioned below. All defined terms can be found in Annex II: Acronyms and Glossary of Terms. Social and human rights matters Non-exhaustive list of factors to consider in Materiality Assessment Secure employment % of employees with temporary contracts, ratio of non-employees to employees, social protection Working time % of employees with part time or zero-hour contracts, employee satisfaction with working time Adequate wages EU, national or local legal definitions of adequate wages, fair wages, and minimum wages Social dialogue / existence of work Extent of workplace, cross-border and board-level representation through councils / information, consultation and trade unions and/or works councils participation rights of workers Freedom of association/Collective bargaining including the rate of % of own workforce covered by collective bargaining agreements, work workforce covered by collective stoppages agreements Work-life balance Family-related leave, flexible working hours, access to childcare Health and safety Coverage by H&S system, rate of fatalities, non-fatal accidents, work-related ill health, work days lost Gender equality and equal pay for work of % of women in top management and workforce, male-female wage gap equal value Training and skills development Amount and distribution of training, % of employees with regular performance and development reviews The employment and inclusion of people % employment and accessibility measures for employees with disabilities with disabilities Measures against violence and harassment Prevalence of violence and harassment in the workplace Diversity Representation of women and /or ethnic groups or minorities in own workforce. Age distribution in own workforce. Percentage of persons with disabilities within the own workforce. Child labour Type of operations and geographical areas at risk of child labour Forced labour Type of operations and geographical areas at risk of forced labour Appendix A.2 Application Requirements for ESRS S1-1 Policies related to own workforce This appendix is an integral part of the ESRS S1 Own workforce and has the same authority as the other parts of this Standard. It supports the application of the requirements for Disclosure Requirement ESRS S1-1 for social and human rights matters with examples of disclosures. Social and human rights matters Examples of policies: Secure employment No-layoff policy, limits on renewing temporary contracts, employer provision of social protection where state provision is lacking Working time Limitations on overtime, long and split shifts, and night and weekend work, adequate scheduling of lead times Adequate wages Policy to ensure all people in own workforce receive an adequate wage Social dialogue / existence of work Policy to encourage institutions for social dialogue, regular information and councils / information, consultation and consultation with worker representatives, consultation before final decisions participation rights of workers on employment-related issues are reached Freedom of association/Collective Non-interference in trade union formation and recruitment (including trade bargaining including the rate of workers union access to undertakings), bargaining in good faith, adequate time off covered by collective agreements for workers’ representatives to carry out their duties, facilities and dismissal protection for workers' representatives, no discrimination of trade union members and workers' representatives Work-life balance Provision of family leave, flexible working time, access to day care facilities for all employees Health and safety Coverage of all own workforce in H&S management system Gender equality and equal work for equal Policy for gender equality and equal pay for equal work pay Training and skills development Policy for enhancing skills and career prospects for employees The employment and inclusion of people Policy for making workplaces accessible to persons with disabilities with disabilities Measures against violence and harassment Zero tolerance policy for violence and harassment at workplace in the workplace Diversity Policy for inclusiveness (i.e., ethnic diversity or minority groups) and positive action. Child labour Policy for identifying where child labour occurs, identifying where exposure of young workers to hazardous work occurs and preventing risk of exposure Forced labour Policy for identifying where forced labour occurs and reducing risk of forced labour Appendix A.3 Application Requirements for ESRS S1–4 Taking action on material impacts on own workforce, and approaches to mitigating material risks and pursuing material opportunities related to own workforce, and effectiveness of those actions This appendix is an integral part of the ESRS S1 Own workforce and has the same authority as the other parts of this Standard. It supports the application of the requirements for Disclosure Requirement ESRS S1-4 for social and human rights matters with examples of disclosures: Social and human rights matters Examples of actions: Secure employment Offer permanent contracts to employees with temporary contracts, implement plans for social protection where state provision is lacking Working time Shift work rotation, extend advance notice of scheduling, reduction of excessive overtime Adequate wages Negotiation of fair wages in collective bargaining agreements, verification that employment agencies pay a fair wage Social dialogue / existence of work Expansion of sustainability issues dealt with in social dialogue, increase in councils / information, consultation and number of meetings, increase in resources for works councils participation rights of workers Freedom of association/Collective Expansion of sustainability issues dealt with in collective bargaining, bargaining including the rate of workers increase in resources for workers’ representatives covered by collective agreements Work-life balance Expand family leave eligibility and flexible working time arrangements, increasing provision of day care Health and safety Increase health & safety training, investment in safer equipment Gender equality and equal work for equal Targeted recruitment and promotion of women, reduction in pay gap pay through negotiation of collective bargaining agreements Training and skills development Skills audits, training to fill skills gaps The employment and inclusion of people Increasing accessibility measures with disabilities Measures against violence and harassment Improving complaint mechanisms, increasing sanctions against violence in the workplace and harassment, providing training for prevention to management Diversity Training on diversity and inclusion (including ethnicity considerations), targeted recruitment of underrepresented groups Child labour Age verification measures, partnerships with organizations to eliminate child labour, measures against worst forms of child labour Forced labour Measures ensuring free consent to employment without threat of penalty, contracts in understandable language, freedom to terminate employment without penalty, disciplinary measures should not obligate labour, free consent to overtime, freedom of movement (including to exit workplace), fair treatment for migrant workers, monitoring employment agencies. Appendix A.4 Application Requirements for ESRS S1–5 Targets related to managing material negative impacts, advancing positive impacts, and managing material risks and opportunities This appendix is an integral part of the ESRS S1 Own workforce and has the same authority as the other parts of this Standard. It supports the application of the requirements for Disclosure Requirement ESRS S1-5 for social and human rights matters with examples of disclosures: Social and human rights matters Examples of targets: Secure employment Increasing the % of workforce with employment contracts (especially permanent contracts) and social protection Working time Increasing the % of workforce with flexible working time arrangements Adequate wages Ensuring that all people in own workforce receive an adequate wage Social dialogue / existence of work councils / information, consultation and Extending social dialogue to more establishments and/or countries participation rights of workers Freedom of association/Collective Increasing the % of own workforce covered by collective bargaining, bargaining including the rate of workers negotiating collective bargaining agreements over sustainability issues covered by collective agreements Work-life balance Extending work-life measures to a greater % of own workforce Health and safety Reducing the rate of injuries and worktime lost due to injuries Gender equality and equal work for equal Increasing the % of women in the workforce and top management, reducing pay the male-female wage gap Training and skills development Increasing the % of employees receiving training and regular skills development reviews The employment and inclusion of people Increasing the % of persons with disabilities in own workforce with disabilities Measures against violence and harassment Extending measures to all workplaces in the workplace Diversity Increasing the % of underrepresented groups in own workforce and top management Child labour Extending measures for preventing exposure of young persons to hazardous work to a greater % of operations Forced labour Extending measures for preventing forced labour to a greater number of operations."
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
