@@ -75,48 +75,25 @@
 </tr>
 </table>
 
-
 ## General disclosures (ESRS 2)
-
 
 ### General basis for preparation of Sustainability Statements (BP-1)
 
-In anticipation of the transposition by the Netherlands of the EU
-Corporate Sustainability Reporting Directive (CSRD) into national law,
-Shell's Sustainability Statements for the year ended December 31,
-2024, are presented on a voluntary basis. The Sustainability
-Statements have been prepared in accordance with the requirements of the CSRD and the European Sustainability Reporting Standards
-(ESRS).
+In anticipation of the transposition by the Netherlands of the EU Corporate Sustainability Reporting Directive (CSRD) into national law, Shell's Sustainability Statements for the year ended December 31, 2024, are presented on a voluntary basis. The Sustainability Statements have been prepared in accordance with the requirements of the CSRD and the European Sustainability Reporting Standards (ESRS).
 
-Owing to differences in the timing and nature of the transposition of the CSRD into national law across European Economic Area
-(EEA) members, there is an absence of uniform practice upon which regulators, professional bodies, preparers and auditors can draw.
-Differences in the timing of transposition by different jurisdictions, coupled with the lack of a standardised approach to evaluating the
-Sustainability Statements, may impact comparability between entities.
+Owing to differences in the timing and nature of the transposition of the CSRD into national law across European Economic Area (EEA) members, there is an absence of uniform practice upon which regulators, professional bodies, preparers and auditors can draw. Differences in the timing of transposition by different jurisdictions, coupled with the lack of a standardised approach to evaluating the Sustainability Statements, may impact comparability between entities.
 
-Section headers in the Sustainability Statements follow the structure of the ESRS. Terms and definitions used in the text are defined by Shell
-unless explicitly stated otherwise.
+Section headers in the Sustainability Statements follow the structure of the ESRS. Terms and definitions used in the text are defined by Shell unless explicitly stated otherwise.
 
-The Sustainability Statements are prepared on a consolidated basis. The scope of assets subject to consolidation is consistent with that of
-the "Consolidated Financial Statements" on pages 241-312. The basis of consolidation specified by the ESRS varies per topic and is not
-consistent with Shell's historical reporting, which is informed by industry standards and the Greenhouse Gas Protocol Corporate Accounting
-and Reporting Standard.
+The Sustainability Statements are prepared on a consolidated basis. The scope of assets subject to consolidation is consistent with that of the "Consolidated Financial Statements" on pages 241-312. The basis of consolidation specified by the ESRS varies per topic and is not consistent with Shell's historical reporting, which is informed by industry standards and the Greenhouse Gas Protocol Corporate Accounting and Reporting Standard.
 
-In line with industry practice, Shell has historically reported sustainability data using the operational control boundary, whereby data are reported
-on a 100% basis for assets under operational control. This approach reflects the prevalence of joint operations in the oil and gas sector and
-the common industry practice of designating an operating partner to create and apply operating policies and standards.
+In line with industry practice, Shell has historically reported sustainability data using the operational control boundary, whereby data are reported on a 100% basis for assets under operational control. This approach reflects the prevalence of joint operations in the oil and gas sector and the common industry practice of designating an operating partner to create and apply operating policies and standards.
 
-For individual environmental and social topics, the ESRS specify an applicable reporting boundary. This includes reporting on a financial
-control basis (for water and resource use and circular economy), reporting based on relationships (for own workforce, workers in the
-value chain and affected communities) and reporting based on a combination of operational and financial control in a new "ESRS
-boundary" (for greenhouse gas emissions, pollution and biodiversity).
-Many of these boundaries differ from Shell's historical reporting.
+For individual environmental and social topics, the ESRS specify an applicable reporting boundary. This includes reporting on a financial control basis (for water and resource use and circular economy), reporting based on relationships (for own workforce, workers in the value chain and affected communities) and reporting based on a combination of operational and financial control in a new "ESRS boundary" (for greenhouse gas emissions, pollution and biodiversity). Many of these boundaries differ from Shell's historical reporting.
 
-The table below illustrates the key differences between reporting on an operational control or financial control basis and the "ESRS boundary"
-that applies to the environmental topics mentioned above.
-
+The table below illustrates the key differences between reporting on an operational control or financial control basis and the "ESRS boundary" that applies to the environmental topics mentioned above.
 
 ### Understanding differences in reporting boundaries [A]
-
 
 <table>
 <tr>
@@ -175,80 +152,37 @@ that applies to the environmental topics mentioned above.
 </tr>
 </table>
 
-[A] Shell reports Scope 3 emissions using an equity boundary. Under this approach, we report the Shell share of emissions from energy products sold, including those sourced from third
-parties.
+[A] Shell reports Scope 3 emissions using an equity boundary. Under this approach, we report the Shell share of emissions from energy products sold, including those sourced from third parties.
 
-
-For the El Climate change standard, we report in 2024 against all required boundaries, as shown in the table "Scope of Consolidation"
-below. This includes the new ESRS boundary applied to greenhouse gas emissions that differs from the financial statements, industry
-standards and the Greenhouse Gas Protocol. For the remaining environmental standards, we report data against an operational
-control boundary as well as the boundaries required by the ESRS, making use of estimates where actual data from non-operated ventures
-is unavailable. For social and governance topics we report data in line with the ESRS. Further details are provided below.
-
+For the El Climate change standard, we report in 2024 against all required boundaries, as shown in the table "Scope of Consolidation" below. This includes the new ESRS boundary applied to greenhouse gas emissions that differs from the financial statements, industry standards and the Greenhouse Gas Protocol. For the remaining environmental standards, we report data against an operational control boundary as well as the boundaries required by the ESRS, making use of estimates where actual data from non-operated ventures is unavailable. For social and governance topics we report data in line with the ESRS. Further details are provided below.
 
 ### Greenhouse gas (GHG) emissions
 
-The GHG Protocol Corporate Accounting and Reporting Standard, published in 2004, provides global requirements and guidance on how
-to report emissions through standardised approaches and principles.
-ESRS El Climate change requires consideration of the GHG Protocol when preparing information for reporting GHG emissions. For Scope 1
-and 2 emissions, the Greenhouse Gas Protocol recognises three reporting boundaries: operational control (reporting on a 100% basis
-for assets under operational control), financial control (reporting on a
-100% basis for fully consolidated subsidiaries and percentage interest for joint operations) and equity share (reporting according to the
-ownership share).
+The GHG Protocol Corporate Accounting and Reporting Standard, published in 2004, provides global requirements and guidance on how to report emissions through standardised approaches and principles. ESRS El Climate change requires consideration of the GHG Protocol when preparing information for reporting GHG emissions. For Scope 1 and 2 emissions, the Greenhouse Gas Protocol recognises three reporting boundaries: operational control (reporting on a 100% basis for assets under operational control), financial control (reporting on a 100% basis for fully consolidated subsidiaries and percentage interest for joint operations) and equity share (reporting according to the ownership share).
 
-The GHG Protocol recognises that in many industries, operational and financial control are the same with the "notable exception being the oil
-and gas industry". As a result, when oil and gas companies choose to report against a control boundary, the GHG Protocol requires that they
-make a choice between reporting on the basis of operational control or financial control. Shell has reported GHG emissions against an
-operational control boundary in prior periods, and again in 2024, because this best reflects our ability to directly control operations by
-applying our own policies and standards.
+The GHG Protocol recognises that in many industries, operational and financial control are the same with the "notable exception being the oil and gas industry". As a result, when oil and gas companies choose to report against a control boundary, the GHG Protocol requires that they make a choice between reporting on the basis of operational control or financial control. Shell has reported GHG emissions against an operational control boundary in prior periods, and again in 2024, because this best reflects our ability to directly control operations by applying our own policies and standards.
 
-The ESRS E1 Climate change standard establishes a fourth boundary that combines the operational control and financial control boundaries.
-This "ESRS boundary" is intended to present a full span of control from both a financial and operational perspective. In doing so, however, it
-results in a divergence from the three consolidation methods provided by the GHG Protocol. The ESRS boundary also results in partial double
-counting of emissions across the industry, as the operator will report
-100% of the emissions and partners may report their share of the same emissions.
+The ESRS E1 Climate change standard establishes a fourth boundary that combines the operational control and financial control boundaries. This "ESRS boundary" is intended to present a full span of control from both a financial and operational perspective. In doing so, however, it results in a divergence from the three consolidation methods provided by the GHG Protocol. The ESRS boundary also results in partial double counting of emissions across the industry, as the operator will report 100% of the emissions and partners may report their share of the same emissions.
 
 For GHG emissions, Shell reports against an operational control, equity and ESRS boundary for operated and non-operated ventures.
 
-
 ### Other environmental, social and governance data
 
-To report environmental, social and governance data against either a financial control or ESRS boundary requires access to data from non-operated ventures. More than half of the ventures in which Shell is a
-partner are non-operated, with partners comprising both state-owned and international companies. Shell has more than 50 joint operations
-not under operational control that fall within the ESRS boundary, of which 85% operate outside the European Economic Area. These
-ventures are not subject to the CSRD, nor are they contractually obliged under the operator agreement to provide the volume and
-granularity of data required by the ESRS.
+To report environmental, social and governance data against either a financial control or ESRS boundary requires access to data from non-operated ventures. More than half of the ventures in which Shell is a partner are non-operated, with partners comprising both state-owned and international companies. Shell has more than 50 joint operations not under operational control that fall within the ESRS boundary, of which 85% operate outside the European Economic Area. These ventures are not subject to the CSRD, nor are they contractually obliged under the operator agreement to provide the volume and granularity of data required by the ESRS.
 
-The feasibility of obtaining information from non-operated ventures has been additionally impacted by the short adoption period, with
-publication of the final ESRS occurring in the second half of 2023 for first reporting on January 1, 2024, and guidance on reporting
-boundaries being published several months subsequent to that date.
+The feasibility of obtaining information from non-operated ventures has been additionally impacted by the short adoption period, with publication of the final ESRS occurring in the second half of 2023 for first reporting on January 1, 2024, and guidance on reporting boundaries being published several months subsequent to that date.
 
-For environmental metrics other than greenhouse gas contained in the E2-E5 standards, Shell sample-tested data availability from non-operated ventures and observed gaps in availability, quality and
-completeness. We have therefore, in accordance with the ESRS, estimated the data for non-operated ventures, covering approximately
-60 metrics across more than 50 non-operated ventures. See
-"Supplementary data for pollution, water, biodiversity and waste, including estimates for non-operated assets" on pages 434-437 for a
-presentation of this information along with details of the estimation methodologies, limitations and uncertainties.
+For environmental metrics other than greenhouse gas contained in the E2-E5 standards, Shell sample-tested data availability from non-operated ventures and observed gaps in availability, quality and completeness. We have therefore, in accordance with the ESRS, estimated the data for non-operated ventures, covering approximately 60 metrics across more than 50 non-operated ventures. See "Supplementary data for pollution, water, biodiversity and waste, including estimates for non-operated assets" on pages 434-437 for a presentation of this information along with details of the estimation methodologies, limitations and uncertainties.
 
-Shell does not have operational control over how non-operated ventures embed sustainability in their operations. This risk of having
-less control while still being exposed to risks associated with these operations, including environmental risks, is described in our Risk
-factors. See "Portfolio risks" on pages 135-137 for more information. The risk associated with non-operated ventures is managed by appointing
-Shell representatives whose responsibility is to manage performance, and create and protect value for Shell. These representatives seek to
-influence operators and other partners to adopt appropriate practices to drive value and to mitigate risk. This includes regular assessments of
-how the non-operated venture's standards align with Shell's and seek to influence closure of any identified gaps.
+Shell does not have operational control over how non-operated ventures embed sustainability in their operations. This risk of having less control while still being exposed to risks associated with these operations, including environmental risks, is described in our Risk factors. See "Portfolio risks" on pages 135-137 for more information. The risk associated with non-operated ventures is managed by appointing Shell representatives whose responsibility is to manage performance, and create and protect value for Shell. These representatives seek to influence operators and other partners to adopt appropriate practices to drive value and to mitigate risk. This includes regular assessments of how the non-operated venture's standards align with Shell's and seek to influence closure of any identified gaps.
 
-We continue to engage with peers, joint venture partners, standard setters and others on the topic of reporting boundaries. We advocate
-a common approach through global and interoperable reporting standards, combined with adequate multi-year transition timelines, to
-access non-operated venture data through industry-wide collaboration.
-
+We continue to engage with peers, joint venture partners, standard setters and others on the topic of reporting boundaries. We advocate a common approach through global and interoperable reporting standards, combined with adequate multi-year transition timelines, to access non-operated venture data through industry-wide collaboration.
 
 ### Boundaries applied in 2024
 
-For the 2024 Sustainability Statements, Shell applies the consolidation scopes set out below. Further details of how these boundaries are
-applied and any exceptions for individual topics or subtopics are explained in the topical ESRS.
-
+For the 2024 Sustainability Statements, Shell applies the consolidation scopes set out below. Further details of how these boundaries are applied and any exceptions for individual topics or subtopics are explained in the topical ESRS.
 
 ### Scope of consolidation
-
 
 <table>
 <tr>
@@ -318,9 +252,7 @@ applied and any exceptions for individual topics or subtopics are explained in t
 </tr>
 </table>
 
-[A]
-New ESRS boundary that combines operational and financial control. Data are provided for the consolidated accounting group (the parent and subsidiaries) and jointly controlled
-operations, plus investees such as associates or joint ventures for which Shell has operational control.
+[A] New ESRS boundary that combines operational and financial control. Data are provided for the consolidated accounting group (the parent and subsidiaries) and jointly controlled operations, plus investees such as associates or joint ventures for which Shell has operational control.
 
 [B] Data are provided in accordance with Shell's share of ownership in the asset or activity.
 
@@ -328,137 +260,74 @@ operations, plus investees such as associates or joint ventures for which Shell 
 
 [D] Data for non-operated ventures in scope of this boundary are estimated.
 
-[E]
-Sites impacting biodiversity sensitive areas only.
+[E] Sites impacting biodiversity sensitive areas only.
 
-[F]
-Based on the contractual relationship between Shell as the reporting entity and the workers within the scope of these standards.
+[F] Based on the contractual relationship between Shell as the reporting entity and the workers within the scope of these standards.
 
+Assets and activities that we acquired or divested during 2024 are included only for the period in which we operated or owned them, unless otherwise stated.
 
-Assets and activities that we acquired or divested during 2024 are included only for the period in which we operated or owned them,
-unless otherwise stated.
-
-Some EU member states have not yet transposed the CSRD into national law. As of December 31, 2024, none of Shell's subsidiaries
-included in the scope of consolidation had an individual or consolidated reporting obligation in 2024 pursuant to Articles 19a(9)
-or 29a(8) of the EU Accounting Directive. One Shell subsidiary in
-Spain, Shell España, S.A., would be exempted from the obligation to report individually in the event that Spain, which has not yet adopted
-the CSRD, were to do so and require retroactive application for 2024.
-
+Some EU member states have not yet transposed the CSRD into national law. As of December 31, 2024, none of Shell's subsidiaries included in the scope of consolidation had an individual or consolidated reporting obligation in 2024 pursuant to Articles 19a(9) or 29a(8) of the EU Accounting Directive. One Shell subsidiary in Spain, Shell España, S.A., would be exempted from the obligation to report individually in the event that Spain, which has not yet adopted the CSRD, were to do so and require retroactive application for 2024.
 
 ### Value chain
 
-For the purposes of our 2024 Sustainability Statements, a simplified version of Shell's value chain is shown below. This classification is used
-to guide our assessment of material topics and decisions about the content of our disclosures under the ESRS.
+For the purposes of our 2024 Sustainability Statements, a simplified version of Shell's value chain is shown below. This classification is used to guide our assessment of material topics and decisions about the content of our disclosures under the ESRS.
 
-We follow the general classification of value chain provided in ESRS, which distinguishes between own operations, upstream value chain
-and downstream value chain.
-
+We follow the general classification of value chain provided in ESRS, which distinguishes between own operations, upstream value chain and downstream value chain.
 
 <figure>
 <figcaption>The value chain is structured into three interconnected segments. The upstream value chain covers the supply chain and includes activities and inputs that occur before internal processes. Own operations represent the organization’s internal activities where core processes and value creation take place. The downstream value chain relates to customers and includes activities after internal operations, such as distribution, delivery, and use of products or services. The directional links between the segments highlight a continuous flow of value from suppliers through internal operations to customers, reflecting an end-to-end value chain perspective.</figcaption>
 </figure>
 
+Shell's own operations comprise companies, joint operations, joint ventures and associates where we are the operator and exercise operational control and/or where the activities are reported under financial control. Our own operations span activities related to the production of hydrocarbons and power, processing, trading, sales and distribution. Our upstream value chain consists of direct and indirect suppliers of hydrocarbons, power, biomass, and other goods and services that we transform into energy and non-energy products that benefit our customers. Our downstream value chain consists of customers and their use of our sold products. References to "upstream value chain" and "downstream value chain" in the Sustainability Statements have the meaning given above and do not refer to our Upstream business segment or to our Downstream, Renewables and Energy Solutions directorate.
 
-Shell's own operations comprise companies, joint operations, joint ventures and associates where we are the operator and exercise
-operational control and/or where the activities are reported under financial control. Our own operations span activities related to the
-production of hydrocarbons and power, processing, trading, sales and distribution. Our upstream value chain consists of direct and indirect
-suppliers of hydrocarbons, power, biomass, and other goods and services that we transform into energy and non-energy products that
-benefit our customers. Our downstream value chain consists of customers and their use of our sold products. References to "upstream
-value chain" and "downstream value chain" in the Sustainability
-Statements have the meaning given above and do not refer to our
-Upstream business segment or to our Downstream, Renewables and Energy Solutions directorate.
+Actors in our value chain are individuals or entities in our upstream or downstream value chain. An actor is considered upstream from Shell when it provides goods or services used in the production of our own products or services. An actor is considered downstream from Shell when it receives products or services from us.
 
-Actors in our value chain are individuals or entities in our upstream or downstream value chain. An actor is considered upstream from Shell
-when it provides goods or services used in the production of our own products or services. An actor is considered downstream from Shell
-when it receives products or services from us.
+Actors in our upstream value chain include direct and indirect suppliers, strategic partners and non-operated ventures, among others. Actors in our downstream value chain include retail consumers, business customers, non-operated ventures and business partners who distribute or market our products.
 
-Actors in our upstream value chain include direct and indirect suppliers, strategic partners and non-operated ventures, among others. Actors
-in our downstream value chain include retail consumers, business customers, non-operated ventures and business partners who
-distribute or market our products.
+We extend the scope of the Sustainability Statements on a topic-by-topic basis to cover material impacts in Shell's value chain where we have existing data, policies or actions.
 
-We extend the scope of the Sustainability Statements on a topic-by-topic basis to cover material impacts in Shell's value chain where we
-have existing data, policies or actions.
+The most significant value chain topic for Shell is Scope 3 emissions. More than 90% of the total emissions we include within our net carbon intensity (NCI) boundary are indirect emissions associated with thirdparty products and end-use emissions of energy products we sell.
 
-The most significant value chain topic for Shell is Scope 3 emissions.
-More than 90% of the total emissions we include within our net carbon intensity (NCI) boundary are indirect emissions associated with thirdparty products and end-use emissions of energy products we sell.
+Within the 15 categories of Scope 3 emissions, we assess four categories as significant: Category 1 Purchased goods and services, Category 3 Fuel and energy-related activities, Category 9 Downstream transport and distribution and Category 11 Emissions from the use of sold products. These categories cover value chain emission impacts for the purchase, transport and use of energy products by the customer.
 
-Within the 15 categories of Scope 3 emissions, we assess four categories as significant: Category 1 Purchased goods and services,
-Category 3 Fuel and energy-related activities, Category 9 Downstream transport and distribution and Category 11 Emissions from the use of
-sold products. These categories cover value chain emission impacts for the purchase, transport and use of energy products by the customer.
+Our policies often have direct or indirect application for actors in our value chain, such as suppliers and non-operated ventures. Our qualitative disclosures indicate how our policies are applied in Shell companies and operated joint ventures, as well as our expectation that non-operated ventures adopt appropriate and acceptable policies to manage their risks. Our qualitative disclosures also cover policies covering actors in our upstream value chain, such as the Shell Supplier Principles, our standards for worker welfare, and our approach to enhanced value chain due diligence.
 
-Our policies often have direct or indirect application for actors in our value chain, such as suppliers and non-operated ventures. Our
-qualitative disclosures indicate how our policies are applied in Shell companies and operated joint ventures, as well as our expectation that
-non-operated ventures adopt appropriate and acceptable policies to manage their risks. Our qualitative disclosures also cover policies
-covering actors in our upstream value chain, such as the Shell Supplier
-Principles, our standards for worker welfare, and our approach to enhanced value chain due diligence.
-
-In 2024, we made efforts to obtain additional value chain information for selected topics, such as seeking deeper insight from suppliers into
-potential human rights impacts in our upstream value chain. We use provisions in the ESRS to phase in certain value chain related
-disclosures during this transitional period. We generally use this phase-in provision when we are still assessing the nature of potential value
-chain impacts and the associated data needed for reporting, where regulatory requirements are uncertain, or where it is not yet possible to
-obtain reliable information owing to contractual restrictions or other factors. We aim to deepen our understanding and enhance our
-reporting on the value chain.
-
+In 2024, we made efforts to obtain additional value chain information for selected topics, such as seeking deeper insight from suppliers into potential human rights impacts in our upstream value chain. We use provisions in the ESRS to phase in certain value chain related disclosures during this transitional period. We generally use this phase-in provision when we are still assessing the nature of potential value chain impacts and the associated data needed for reporting, where regulatory requirements are uncertain, or where it is not yet possible to obtain reliable information owing to contractual restrictions or other factors. We aim to deepen our understanding and enhance our reporting on the value chain.
 
 ### Use of other exemptions
 
-We have not used the option to omit information corresponding to intellectual property, know-how or the results of innovation. We have
-not used the exemption from disclosure of impending developments or matters in the course of negotiation, as provided for in articles 19a(3)
-and 29a(3) of the EU Accounting Directive.
-
+We have not used the option to omit information corresponding to intellectual property, know-how or the results of innovation. We have not used the exemption from disclosure of impending developments or matters in the course of negotiation, as provided for in articles 19a(3) and 29a(3) of the EU Accounting Directive.
 
 ### Disclosures in relation to specific circumstances (BP-2) Time horizons
 
-The time horizons prescribed by the ESRS for reporting on the short, medium and long term differ from those used in Shell for strategy,
-business planning and risk management purposes.
+The time horizons prescribed by the ESRS for reporting on the short, medium and long term differ from those used in Shell for strategy, business planning and risk management purposes.
 
-Because of the inherent uncertainty and pervasive risks across our strategy and business model, we monitor sustainability-related impacts,
-risks and opportunities across the following time horizons:
+Because of the inherent uncertainty and pervasive risks across our strategy and business model, we monitor sustainability-related impacts, risks and opportunities across the following time horizons:
 
 - Short term (up to three years): we develop detailed financial
-projections and use them to manage performance and expectations on a three-year cycle. These projections incorporate decarbonisation
-measures required to meet our short-term targets.
+projections and use them to manage performance and expectations on a three-year cycle. These projections incorporate decarbonisation measures required to meet our short-term targets.
 
 - Medium term (generally 3-10 years): these are embedded within
-our business plan, with our continued focus on the customer, the investments and portfolio shifts required in the medium term that
-will reshape Shell's portfolio.
+our business plan, with our continued focus on the customer, the investments and portfolio shifts required in the medium term that will reshape Shell's portfolio.
 
 - Long term (generally beyond 10 years): our portfolio and product mix
 is expected to evolve over time with changing customer demand.
 
-For the purposes of our disclosures in the Sustainability Statements, we adjust the time horizons described above to follow the ESRS definition
-of "short term" as referring to one year from the end of the current reporting period. Owing to the long-term nature of capital investment
-in our industry, we use the option afforded by the ESRS to specify different periods for the medium and long term. For the purposes of
-our disclosures in the Sustainability Statements, we therefore define
-"medium term" as generally between 2 and 10 years and "long term" as generally beyond 10 years. Many of our impacts, risks and
-opportunities are long term in nature, and therefore we consider the differences between the time horizons for reporting under the ESRS
-and those used internally for strategy, business planning and risk management to be of limited practical significance.
-
+For the purposes of our disclosures in the Sustainability Statements, we adjust the time horizons described above to follow the ESRS definition of "short term" as referring to one year from the end of the current reporting period. Owing to the long-term nature of capital investment in our industry, we use the option afforded by the ESRS to specify different periods for the medium and long term. For the purposes of our disclosures in the Sustainability Statements, we therefore define "medium term" as generally between 2 and 10 years and "long term" as generally beyond 10 years. Many of our impacts, risks and opportunities are long term in nature, and therefore we consider the differences between the time horizons for reporting under the ESRS and those used internally for strategy, business planning and risk management to be of limited practical significance.
 
 ### Value chain estimation
 
-We may use estimates based on indirect sources for reporting certain quantitative metrics. Where applicable, further information is provided
-in the notes accompanying the presentation of metrics.
-
+We may use estimates based on indirect sources for reporting certain quantitative metrics. Where applicable, further information is provided in the notes accompanying the presentation of metrics.
 
 ### Sources of estimation and outcome uncertainty
 
-Certain quantitative metrics disclosed in the Sustainability Statements may be subject to measurement uncertainty. Preparation of environmental,
-social and governance data requires us to apply judgement or make use of estimates. We make these judgements or estimates based on industry
-standards, applicable regulatory requirements, established operating practices, subject matter expertise and other information believed to be
-reasonable under the circumstances. Consequently, there is an inherent uncertainty in our calculations.
+Certain quantitative metrics disclosed in the Sustainability Statements may be subject to measurement uncertainty. Preparation of environmental, social and governance data requires us to apply judgement or make use of estimates. We make these judgements or estimates based on industry standards, applicable regulatory requirements, established operating practices, subject matter expertise and other information believed to be reasonable under the circumstances. Consequently, there is an inherent uncertainty in our calculations.
 
+Estimates and underlying assumptions are reviewed on an ongoing basis to improve accuracy, with any revisions potentially impacting the reported amounts. Where applicable, information about estimates, judgements and assumptions is provided in the notes accompanying the presentation of metrics.
 
-Estimates and underlying assumptions are reviewed on an ongoing basis to improve accuracy, with any revisions potentially impacting
-the reported amounts. Where applicable, information about estimates, judgements and assumptions is provided in the notes accompanying
-the presentation of metrics.
-
-Topics involving a level of measurement uncertainty where we apply either key estimates or judgements are indicated below, together with
-the level of potential impact on the reported data.
-
+Topics involving a level of measurement uncertainty where we apply either key estimates or judgements are indicated below, together with the level of potential impact on the reported data.
 
 ### Estimates and judgements
-
 
 <table>
 <tr>
@@ -507,163 +376,91 @@ the level of potential impact on the reported data.
 
 - o c= Low impact . . C= Medium impact . . .= High impact
 
-
-Shell has established a system of risk management and internal control over sustainability reporting to minimise the risk of reporting errors,
-including in areas requiring the application of judgement or estimates.
-See "Risk management and internal controls over sustainability reporting (GOV-5)" on page 347 for information.
-
+Shell has established a system of risk management and internal control over sustainability reporting to minimise the risk of reporting errors, including in areas requiring the application of judgement or estimates. See "Risk management and internal controls over sustainability reporting (GOV-5)" on page 347 for information.
 
 #### Disclosures stemming from other legislation or generally accepted sustainability reporting pronouncements
 
-Shell is subject to sustainability disclosure requirements in multiple jurisdictions, including the European Union and the United Kingdom. In
-some cases, these requirements may overlap with one another, fully or in part. To avoid unnecessary duplication, our disclosures are designed
-to address these requirements in an integrated manner where possible.
+Shell is subject to sustainability disclosure requirements in multiple jurisdictions, including the European Union and the United Kingdom. In some cases, these requirements may overlap with one another, fully or in part. To avoid unnecessary duplication, our disclosures are designed to address these requirements in an integrated manner where possible.
 
-Our disclosures in the Sustainability Statements do not include information stemming from other legislation that is additional to the
-requirements prescribed by the ESRS. Our disclosures incorporate by reference information from outside the Sustainability Statements which
-address an ESRS requirement while also satisfying a similar requirement under the regulations of other jurisdictions.
-
+Our disclosures in the Sustainability Statements do not include information stemming from other legislation that is additional to the requirements prescribed by the ESRS. Our disclosures incorporate by reference information from outside the Sustainability Statements which address an ESRS requirement while also satisfying a similar requirement under the regulations of other jurisdictions.
 
 #### Incorporation by reference
 
-We have chosen to incorporate some of the disclosures required by the
-ESRS by reference to other parts of the Annual Report and Accounts.
-We generally do this to avoid duplication or when the required disclosure is best read in conjunction with these sections.
+We have chosen to incorporate some of the disclosures required by the ESRS by reference to other parts of the Annual Report and Accounts. We generally do this to avoid duplication or when the required disclosure is best read in conjunction with these sections.
 
-For details of information incorporated in the Sustainability Statements by reference to other parts of the Annual Report and Accounts, see
-"Disclosure requirements covered by the Sustainability Statements" on pages 358-364.
-
+For details of information incorporated in the Sustainability Statements by reference to other parts of the Annual Report and Accounts, see "Disclosure requirements covered by the Sustainability Statements" on pages 358-364.
 
 ## The role of the administrative, management and supervisory bodies (GOV-1)
 
-Members of the administrative, management and supervisory bodies consist of the Board of Directors and the Executive Committee (EC) of
-Shell plc.
+Members of the administrative, management and supervisory bodies consist of the Board of Directors and the Executive Committee (EC) of Shell plc.
 
-The Board consists of 12 members, including two executive members and 10 non-executive members. No members of the Board or EC are
-representatives of employees or other workers. See "The Board of
-Shell plc" on pages 152-156 and "Executive Committee" on pages
-157-158 for information about the skills and experience of members of the Board and EC.
+The Board consists of 12 members, including two executive members and 10 non-executive members. No members of the Board or EC are representatives of employees or other workers. See "The Board of Shell plc" on pages 152-156 and "Executive Committee" on pages 157-158 for information about the skills and experience of members of the Board and EC.
 
-The Board's gender diversity, calculated as an average ratio of female to male Board members as at December 31, 2024, is 0.7. Women
-made up 42% of the Board as at December 31, 2024. See "Board diversity" on page 156 and "Executive Committee diversity" on page
-157 for other aspects of diversity relevant to the Board and EC.
+The Board's gender diversity, calculated as an average ratio of female to male Board members as at December 31, 2024, is 0.7. Women made up 42% of the Board as at December 31, 2024. See "Board diversity" on page 156 and "Executive Committee diversity" on page 157 for other aspects of diversity relevant to the Board and EC.
 
-All non-executive Directors are considered by the Board to be independent in character and judgement, and the percentage of
-independent Board members is 83% as at December 31, 2024.
+All non-executive Directors are considered by the Board to be independent in character and judgement, and the percentage of independent Board members is 83% as at December 31, 2024.
 
-Our governance framework is designed to effectively deliver our strategy, which seeks to deliver more value with less emissions. The
-Board is supported by four standing committees: the Sustainability
-Committee (SUSCO), the Remuneration Committee (REMCO), the
-Audit and Risk Committee (ARC) and the Nomination and Succession
-Committee (NOMCO). Sustainability-related matters are considered as appropriate by the Board or the relevant committee.
+Our governance framework is designed to effectively deliver our strategy, which seeks to deliver more value with less emissions. The Board is supported by four standing committees: the Sustainability Committee (SUSCO), the Remuneration Committee (REMCO), the Audit and Risk Committee (ARC) and the Nomination and Succession Committee (NOMCO). Sustainability-related matters are considered as appropriate by the Board or the relevant committee.
 
-Three management-level committees with representatives from across
-Shell also play a critical role in driving sustainability-related elements of our strategy. These include the Capital Investment Committee (CIC),
-the Carbon Reporting Committee (CRC) and the Sustainability
-Management Committee (SMC).
+Three management-level committees with representatives from across Shell also play a critical role in driving sustainability-related elements of our strategy. These include the Capital Investment Committee (CIC), the Carbon Reporting Committee (CRC) and the Sustainability Management Committee (SMC).
 
-See "Our approach to sustainability" on page 127 for a description of governance bodies responsible for sustainability, the role of
-management, procedures for managing sustainability-related impacts, risks and opportunities, and reporting lines and controls.
+See "Our approach to sustainability" on page 127 for a description of governance bodies responsible for sustainability, the role of management, procedures for managing sustainability-related impacts, risks and opportunities, and reporting lines and controls.
 
-At Group level, the potential impacts of the energy transition on our business model and strategy are discussed and assessed by the Board
-and the Executive Committee as part of the annual strategic and business planning cycle. This assessment allows us to challenge
-accepted ways of thinking, identify material risks and opportunities, and identify key tensions and trade-offs.
+At Group level, the potential impacts of the energy transition on our business model and strategy are discussed and assessed by the Board and the Executive Committee as part of the annual strategic and business planning cycle. This assessment allows us to challenge accepted ways of thinking, identify material risks and opportunities, and identify key tensions and trade-offs.
 
-See "Our approach to sustainability" on pages 127-133 for information about how the Board oversees the delivery of Shell's strategy and
-monitors performance against longer-term targets.
+See "Our approach to sustainability" on pages 127-133 for information about how the Board oversees the delivery of Shell's strategy and monitors performance against longer-term targets.
 
-The NOMCO leads the process for appointments to the Board and
-Senior Management positions (defined as the Executive Committee and the Company Secretary), ensures plans are in place for orderly,
-well-planned succession, and oversees the development of a diverse succession pipeline of candidates. Consideration of skills and
-experience relevant to sustainability matters is integrated into this process. Members of the Board and EC have access to internal and
-external expertise on environmental, social and governance matters.
+The NOMCO leads the process for appointments to the Board and Senior Management positions (defined as the Executive Committee and the Company Secretary), ensures plans are in place for orderly, well-planned succession, and oversees the development of a diverse succession pipeline of candidates. Consideration of skills and experience relevant to sustainability matters is integrated into this process. Members of the Board and EC have access to internal and external expertise on environmental, social and governance matters.
 
+Leaders at all levels play an essential role with respect to safety, ethics and compliance, making it clear through their actions and expectations that all business plans and activities must be undertaken in a responsible, safe, ethical and compliant manner.
 
-Leaders at all levels play an essential role with respect to safety, ethics and compliance, making it clear through their actions and expectations
-that all business plans and activities must be undertaken in a responsible, safe, ethical and compliant manner.
+Accountability for ethics and compliance in Shell lies with the Chief Executive Officer and the Executive Committee. The Audit and Risk Committee assists the Board in fulfilling its responsibilities in relation to risk management and internal control, including with respect to ethics and compliance-related matters.
 
-Accountability for ethics and compliance in Shell lies with the Chief
-Executive Officer and the Executive Committee. The Audit and Risk
-Committee assists the Board in fulfilling its responsibilities in relation to risk management and internal control, including with respect to ethics
-and compliance-related matters.
+We have a Group-wide ethics and compliance programme that focuses on embedding our core values and business principles into Shell's culture. The programme is directed by Shell's Chief Ethics and Compliance Officer (CECO). The CECO heads Shell's Ethics and Compliance Office and reports to the Legal Director. The CECO also provides regular updates to the EC and the ARC.
 
-We have a Group-wide ethics and compliance programme that focuses on embedding our core values and business principles into Shell's
-culture. The programme is directed by Shell's Chief Ethics and
-Compliance Officer (CECO). The CECO heads Shell's Ethics and
-Compliance Office and reports to the Legal Director. The CECO also provides regular updates to the EC and the ARC.
-
-See "The Board of Shell plc" on pages 152-156 and "Executive
-Committee" on pages 157-158 for information on the expertise of management and the Board.
-
+See "The Board of Shell plc" on pages 152-156 and "Executive Committee" on pages 157-158 for information on the expertise of management and the Board.
 
 ## Information provided to and sustainability matters addressed by the undertaking's administrative, management and supervisory bodies (GOV-2)
 
-The Board and EC are informed of and address sustainability matters throughout the year. Sustainability matters are reviewed and
-considered on an integrated basis alongside other business issues.
+The Board and EC are informed of and address sustainability matters throughout the year. Sustainability matters are reviewed and considered on an integrated basis alongside other business issues.
 
-See "Board oversight of sustainability including climate-related impacts, risks and opportunities" on page 127 and "Processes by which
-management is informed about sustainability-related issues" on page
-130 for information.
+See "Board oversight of sustainability including climate-related impacts, risks and opportunities" on page 127 and "Processes by which management is informed about sustainability-related issues" on page 130 for information.
 
-The Board has primary oversight of the delivery of Shell's strategy, including the management of sustainability-related impacts, risks and
-opportunities. The Board oversaw the setting of our longer-term targets announced at Capital Markets Day in June 2023 and our Energy
-Transition Strategy 2024.
+The Board has primary oversight of the delivery of Shell's strategy, including the management of sustainability-related impacts, risks and opportunities. The Board oversaw the setting of our longer-term targets announced at Capital Markets Day in June 2023 and our Energy Transition Strategy 2024.
 
 There is no fixed number of times that the Board may meet in one year. During 2024, the Board met nine times.
 
-The Sustainability Committee (SUSCO) met four times in 2024, with sustainability-related matters discussed at each meeting. The
-Remuneration Committee (REMCO) met five times during 2024, with sustainability-related matters relevant to remuneration being regularly
-addressed. The ARC met six times with sustainability-related matters regularly addressed. After each meeting, committee chairs provide
-updates to the Board.
+The Sustainability Committee (SUSCO) met four times in 2024, with sustainability-related matters discussed at each meeting. The Remuneration Committee (REMCO) met five times during 2024, with sustainability-related matters relevant to remuneration being regularly addressed. The ARC met six times with sustainability-related matters regularly addressed. After each meeting, committee chairs provide updates to the Board.
 
 The Board and EC consider sustainability matters on an integrated basis when overseeing strategy, decisions on major investments and risk management. Trade-offs and stakeholder interests are considered as part of this process.
 
-See "Supporting governance committees" on page 128 and "Principal decisions and stakeholders" on pages 145-148 for examples of how
-sustainability matters are integrated into decision-making and risk management processes.
+See "Supporting governance committees" on page 128 and "Principal decisions and stakeholders" on pages 145-148 for examples of how sustainability matters are integrated into decision-making and risk management processes.
 
 See "Board activities" on page 161-164 for information about the nature of the sustainability matters addressed by the Board in 2024.
 
-As part of the annual planning cycle, the Board and EC assess how climate change and GHG emissions may affect the pace of the energy
-transition, business emission reduction plans and the implications for
-Shell's portfolio.
-
+As part of the annual planning cycle, the Board and EC assess how climate change and GHG emissions may affect the pace of the energy transition, business emission reduction plans and the implications for Shell's portfolio.
 
 ## Integration of sustainability-related performance in incentive schemes (GOV-3)
 
-Our remuneration schemes are designed to support Shell in achieving its corporate strategy. We have established remuneration structures to
-support us in reducing our operational emissions and to support customers in reducing their emissions.
+Our remuneration schemes are designed to support Shell in achieving its corporate strategy. We have established remuneration structures to support us in reducing our operational emissions and to support customers in reducing their emissions.
 
-The majority of employees participate in the annual bonus scheme.
-Executive Directors and other nominated employees receive long-term share awards, which aim to support employee retention and provide a
-stake in Shell's future.
+The majority of employees participate in the annual bonus scheme. Executive Directors and other nominated employees receive long-term share awards, which aim to support employee retention and provide a stake in Shell's future.
 
 See "Directors' Remuneration Report" on pages 188-190 for information about remuneration schemes linked to sustainability.
 
-This section includes details of the schemes, including the sustainabilitylinked measures and targets and metrics used in the performance
-assessment, the proportion of variable remuneration dependent on sustainability-related performance and the role of the Remuneration
-Committee in approving and updating the Directors' Remuneration
-Policy.
+This section includes details of the schemes, including the sustainabilitylinked measures and targets and metrics used in the performance assessment, the proportion of variable remuneration dependent on sustainability-related performance and the role of the Remuneration Committee in approving and updating the Directors' Remuneration Policy.
 
-See "Linking Shell's emissions targets to remuneration" on page 104 for information about how climate-related considerations are factored into
-remuneration for the Executive Directors.
-
+See "Linking Shell's emissions targets to remuneration" on page 104 for information about how climate-related considerations are factored into remuneration for the Executive Directors.
 
 ## Statement on due diligence (GOV-4)
 
-Due diligence is the process by which companies identify, prevent, mitigate and account for how they address the actual and potential
-negative impacts on the environment and people connected with their business.
+Due diligence is the process by which companies identify, prevent, mitigate and account for how they address the actual and potential negative impacts on the environment and people connected with their business.
 
-This process is described in the international instruments of the UN
-Guiding Principles on Business and Human Rights and the OECD
-Guidelines for Multinational Enterprises.
+This process is described in the international instruments of the UN Guiding Principles on Business and Human Rights and the OECD Guidelines for Multinational Enterprises.
 
-
-For a mapping of the content of the Sustainability Statements to the main aspects and steps of the due diligence process, see the table "Mapping of the
-main aspects and steps of the due diligence process the Sustainability Statements" below.
-
+For a mapping of the content of the Sustainability Statements to the main aspects and steps of the due diligence process, see the table "Mapping of the main aspects and steps of the due diligence process the Sustainability Statements" below.
 
 ## Mapping of main aspects and steps of the due diligence process to the Sustainability Statements
-
 
 <table>
 <tr>
@@ -692,29 +489,19 @@ main aspects and steps of the due diligence process the Sustainability Statement
 </tr>
 </table>
 
-
 ## Risk management and internal controls over sustainability reporting (GOV-5)
 
-Shell has established a system of risk management and internal control over sustainability reporting in line with the risk management processes
-set out in the Shell Performance Framework, which provides the overall framework we use to deliver our strategy and sets out how we manage
-risks in Shell. See "Risk management and risk factors" on pages 134-144 for more information.
+Shell has established a system of risk management and internal control over sustainability reporting in line with the risk management processes set out in the Shell Performance Framework, which provides the overall framework we use to deliver our strategy and sets out how we manage risks in Shell. See "Risk management and risk factors" on pages 134-144 for more information.
 
-The scope of these internal controls covers preparation of the
-Sustainability Statements as well as the underlying data gathering and reporting processes for our environmental, social and
-governance metrics.
+The scope of these internal controls covers preparation of the Sustainability Statements as well as the underlying data gathering and reporting processes for our environmental, social and governance metrics.
 
-Responsibility for these processes is distributed across several internal functions, including Finance, Human Resources, and Safety,
-Environment and Asset Management (SEAM).
+Responsibility for these processes is distributed across several internal functions, including Finance, Human Resources, and Safety, Environment and Asset Management (SEAM).
 
-We assess the risk of material misstatements based on factors such as the maturity and complexity of the reporting process, the potential for
-error, the use of judgements and estimates, and the effectiveness of existing controls. Our approach focuses on strengthening data
-gathering and reporting processes, implementing controls and assessing effectiveness as part of a continuous improvement cycle.
+We assess the risk of material misstatements based on factors such as the maturity and complexity of the reporting process, the potential for error, the use of judgements and estimates, and the effectiveness of existing controls. Our approach focuses on strengthening data gathering and reporting processes, implementing controls and assessing effectiveness as part of a continuous improvement cycle.
 
 The main risks identified and their mitigation strategy and controls are shown below.
 
-
 ## Sustainability reporting risks, mitigation strategies and controls
-
 
 <table>
 <tr>
@@ -739,103 +526,57 @@ The main risks identified and their mitigation strategy and controls are shown b
 </tr>
 </table>
 
+To ensure our system of risk management and internal control is integrated into relevant internal processes, management committees have been established with representatives of our Finance function and other functional process owners to oversee implementation of the reporting control framework.
 
-To ensure our system of risk management and internal control is integrated into relevant internal processes, management committees
-have been established with representatives of our Finance function and other functional process owners to oversee implementation of the
-reporting control framework.
+The Audit and Risk Committee (ARC) reviews and monitors the effectiveness of Shell's system of risk management and internal control. The ARC receives regular reports from management and the external auditor on sustainability reporting, accounting and reporting policies, use of judgements and estimates, and other reporting matters. Internal control practices related to sustainability reporting are being strengthened further. The "Plan-Do-Check-Adjust" approach set out in the Shell Performance Framework has been, and will continue to be, used as our reporting control framework develops.
 
-The Audit and Risk Committee (ARC) reviews and monitors the effectiveness of Shell's system of risk management and internal control.
-The ARC receives regular reports from management and the external auditor on sustainability reporting, accounting and reporting policies,
-use of judgements and estimates, and other reporting matters. Internal control practices related to sustainability reporting are being
-strengthened further. The "Plan-Do-Check-Adjust" approach set out in the Shell Performance Framework has been, and will continue to be,
-used as our reporting control framework develops.
+Control incidents and audit findings, both internal and external, are subject to a monitoring and remediation process overseen by senior management and supported by functional experts as required.
 
-Control incidents and audit findings, both internal and external, are subject to a monitoring and remediation process overseen by senior
-management and supported by functional experts as required.
+The findings of sustainability reporting risk assessments and internal controls, including internal and external assurance reviews, are communicated to the ARC and members of the Executive Committee as required.
 
-The findings of sustainability reporting risk assessments and internal controls, including internal and external assurance reviews, are
-communicated to the ARC and members of the Executive Committee as required.
-
-The External Reporting Control Committee assists the Executive
-Committee and the Audit and Risk Committee in fulfilling their responsibilities in relation to internal control over external reporting
-as it pertains to financial reporting and environmental, social and governance reporting in the Annual Report and Accounts and
-quarterly results announcements.
-
+The External Reporting Control Committee assists the Executive Committee and the Audit and Risk Committee in fulfilling their responsibilities in relation to internal control over external reporting as it pertains to financial reporting and environmental, social and governance reporting in the Annual Report and Accounts and quarterly results announcements.
 
 ### External assurance of sustainability information
 
-In addition to the statutory audit of the financial statements, limited assurance is performed for the Sustainability Statements by Shell's
-independent auditor. See "The Independent Auditor's Report related to the Sustainability Statements" on page 438.
+In addition to the statutory audit of the financial statements, limited assurance is performed for the Sustainability Statements by Shell's independent auditor. See "The Independent Auditor's Report related to the Sustainability Statements" on page 438.
 
 Our sustainability performance data are not subject to additional validation at a Group level by an external body.
 
-
 ### Strategy, business model and value chain (SBM-1)
 
-Shell is a global group of energy and petrochemical companies that aims to meet the world's growing need for more and sustainable
-energy solutions in ways that are economically, environmentally and socially responsible.
-
+Shell is a global group of energy and petrochemical companies that aims to meet the world's growing need for more and sustainable energy solutions in ways that are economically, environmentally and socially responsible.
 
 ### Our products and customers
 
-Shell's product offerings comprise energy and non-energy products.
-Energy products include crude oil, natural gas, natural gas liquids, oil products, gas-to-liquids (GTL) products, biofuels and electricity. Nonenergy products include chemicals, lubricants, bitumen, sulphur and
-convenience retail items. We serve more than 1 million business customers across the industrial, commercial road transport, mobility,
-marine, aviation and commercial sectors. We also serve around
-33 million retail customers a day at more than 44,000 Shell-branded mobility sites, including service stations.
-
+Shell's product offerings comprise energy and non-energy products. Energy products include crude oil, natural gas, natural gas liquids, oil products, gas-to-liquids (GTL) products, biofuels and electricity. Nonenergy products include chemicals, lubricants, bitumen, sulphur and convenience retail items. We serve more than 1 million business customers across the industrial, commercial road transport, mobility, marine, aviation and commercial sectors. We also serve around 33 million retail customers a day at more than 44,000 Shell-branded mobility sites, including service stations.
 
 ### Our business
 
-Our business directorates in 2024 comprise Integrated Gas and
-Upstream, and Downstream, Renewables and Energy Solutions.
-
+Our business directorates in 2024 comprise Integrated Gas and Upstream, and Downstream, Renewables and Energy Solutions.
 
 ### Integrated Gas and Upstream
 
-Integrated Gas includes liquefied natural gas (LNG) and the conversion of natural gas into gas-to-liquids (GTL) fuels and other
-products. It includes natural gas and liquids exploration and extraction, and the operation of the upstream and midstream infrastructure
-necessary to deliver these to market. Integrated Gas also includes the marketing, trading and optimisation of LNG.
+Integrated Gas includes liquefied natural gas (LNG) and the conversion of natural gas into gas-to-liquids (GTL) fuels and other products. It includes natural gas and liquids exploration and extraction, and the operation of the upstream and midstream infrastructure necessary to deliver these to market. Integrated Gas also includes the marketing, trading and optimisation of LNG.
 
-The Upstream segment includes exploration and extraction of crude oil, natural gas and natural gas liquids. It also markets and transports oil
-and gas, and operates the infrastructure necessary to deliver them to the market. Shell has activities in deep water and conventional oil
-and gas.
-
+The Upstream segment includes exploration and extraction of crude oil, natural gas and natural gas liquids. It also markets and transports oil and gas, and operates the infrastructure necessary to deliver them to the market. Shell has activities in deep water and conventional oil and gas.
 
 ### Downstream, Renewables and Energy Solutions
 
-Marketing comprises the Mobility, Lubricants, and Sectors and
-Decarbonisation businesses. Mobility operates Shell's retail network, including electric vehicle charging services and the wholesale
-commercial fuels business, which provides fuels for transport, industry and heating. The Lubricants business produces, markets and sells
-lubricants for road transport, and machinery used in manufacturing, mining, power generation, agriculture and construction. The Sectors
-and Decarbonisation business sells fuels, speciality products and services including low-carbon energy solutions to commercial customers
-including the aviation, marine, and agricultural sectors.
+Marketing comprises the Mobility, Lubricants, and Sectors and Decarbonisation businesses. Mobility operates Shell's retail network, including electric vehicle charging services and the wholesale commercial fuels business, which provides fuels for transport, industry and heating. The Lubricants business produces, markets and sells lubricants for road transport, and machinery used in manufacturing, mining, power generation, agriculture and construction. The Sectors and Decarbonisation business sells fuels, speciality products and services including low-carbon energy solutions to commercial customers including the aviation, marine, and agricultural sectors.
 
-Chemicals and Products includes chemical manufacturing plants with their own marketing network, and refineries which turn crude oil and
-other feedstocks into a range of oil products which are moved and marketed around the world for domestic, industrial and transport use.
-The segment also includes the pipeline business, trading and optimisation of crude oil, oil products and petrochemicals, and the
-extraction of bitumen from mined oil sands and its conversion into synthetic crude oil.
+Chemicals and Products includes chemical manufacturing plants with their own marketing network, and refineries which turn crude oil and other feedstocks into a range of oil products which are moved and marketed around the world for domestic, industrial and transport use. The segment also includes the pipeline business, trading and optimisation of crude oil, oil products and petrochemicals, and the extraction of bitumen from mined oil sands and its conversion into synthetic crude oil.
 
-Renewables and Energy Solutions (R&ES) includes activities such as renewable power generation, the marketing and trading and
-optimisation of power and pipeline gas, as well as carbon credits and digitally enabled customer solutions. It also includes the production and
-marketing of hydrogen, development of commercial carbon capture and storage hubs, investment in nature-based projects that avoid or reduce
-carbon emissions, and Shell Ventures, which invests in companies that work to accelerate the energy and mobility transformation.
-
+Renewables and Energy Solutions (R&ES) includes activities such as renewable power generation, the marketing and trading and optimisation of power and pipeline gas, as well as carbon credits and digitally enabled customer solutions. It also includes the production and marketing of hydrogen, development of commercial carbon capture and storage hubs, investment in nature-based projects that avoid or reduce carbon emissions, and Shell Ventures, which invests in companies that work to accelerate the energy and mobility transformation.
 
 ### Employees and revenues
 
-Shell employed around 96,000 people as of December 31, 2024, including portfolio companies. We have operations in more than 70
-countries. See "Our people" on page 115 for a headcount of employees by geographical area.
+Shell employed around 96,000 people as of December 31, 2024, including portfolio companies. We have operations in more than 70 countries. See "Our people" on page 115 for a headcount of employees by geographical area.
 
-Shell is active in the fossil fuel sector and in chemical production.
-We seek to comply with applicable laws and regulations governing our products and services offered, including products and services
-banned in certain markets, such as end-use restrictions on chemicals.
+Shell is active in the fossil fuel sector and in chemical production. We seek to comply with applicable laws and regulations governing our products and services offered, including products and services banned in certain markets, such as end-use restrictions on chemicals.
 
 Revenues derived from these activities are shown below.
 
-
 ## Revenue from fossil fuels and chemicals [A]
-
 
 <table>
 <tr>
@@ -885,41 +626,25 @@ Revenues derived from these activities are shown below.
 
 [E] Revenue from chemical production comprises revenue from chemicals and plastics.
 
-
-Our vision [A] is to be the world's leading integrated energy company and our strategy is to deliver more value with less emissions. We are
-positioning Shell to become the investment case and partner of choice through the energy transition.
+Our vision [A] is to be the world's leading integrated energy company and our strategy is to deliver more value with less emissions. We are positioning Shell to become the investment case and partner of choice through the energy transition.
 
 [A] A vision statement defines the desired future state of a company rather than a series of firm, binding commitments.
 
-
 ## More value
 
-We are committed to enhancing value for our investors through disciplined investments, enhanced shareholder distributions and
-maintaining a strong balance sheet. Our focus remains on providing secure and reliable products, both now and throughout the energy
-transition, to meet the evolving needs of our customers. At Capital
-Markets Day 2023 (CMD23), we outlined our specific targets, and the progress we have made against these targets is presented on page 14.
-
+We are committed to enhancing value for our investors through disciplined investments, enhanced shareholder distributions and maintaining a strong balance sheet. Our focus remains on providing secure and reliable products, both now and throughout the energy transition, to meet the evolving needs of our customers. At Capital Markets Day 2023 (CMD23), we outlined our specific targets, and the progress we have made against these targets is presented on page 14.
 
 ## Less emissions
 
-We are committed to becoming a net-zero emissions energy business by 2050. We have set climate targets and an ambition, outlined in our
-Energy Transition Strategy 2024 (ETS24), to help us reach net zero.
-ETS24 was approved by 78% of shareholders who voted at our Annual
-General Meeting (AGM) in May. Progress against our climate targets and ambition is presented on page 93.
+We are committed to becoming a net-zero emissions energy business by 2050. We have set climate targets and an ambition, outlined in our Energy Transition Strategy 2024 (ETS24), to help us reach net zero. ETS24 was approved by 78% of shareholders who voted at our Annual General Meeting (AGM) in May. Progress against our climate targets and ambition is presented on page 93.
 
-
-Shell aims to lead in the energy transition where we have competitive strengths, see strong customer demand, and identify clear regulatory
-support from governments. We will continue to provide our customers with the energy and other products they need, and we will provide this
-affordably and reliably, while also increasingly offering them lowcarbon energy solutions to help them decarbonise their activities.
-
+Shell aims to lead in the energy transition where we have competitive strengths, see strong customer demand, and identify clear regulatory support from governments. We will continue to provide our customers with the energy and other products they need, and we will provide this affordably and reliably, while also increasingly offering them lowcarbon energy solutions to help them decarbonise their activities.
 
 ### Moving forward
 
-In 2024, we delivered our strategy against the four themes of generating shareholder value, achieving net-zero emissions, respecting
-nature and powering lives. These themes are presented on pages 12-13.
+In 2024, we delivered our strategy against the four themes of generating shareholder value, achieving net-zero emissions, respecting nature and powering lives. These themes are presented on pages 12-13.
 
-Like all businesses, we will continue to adapt how we implement our strategy as the world evolves. This adaptability is crucial for navigating
-the dynamic energy landscape enabling long-term success.
+Like all businesses, we will continue to adapt how we implement our strategy as the world evolves. This adaptability is crucial for navigating the dynamic energy landscape enabling long-term success.
 
 Capital Markets Day on March 25, 2025, presents an update to our financial targets for investors. See pages 16-17.
 
@@ -931,27 +656,19 @@ We will deliver more value with less emissions by:
 
 - Focusing Downstream, Renewables and Energy Solutions.
 
-
 #### Growing our integrated gas and LNG business
 
-We are investing in our gas production and growing our LNG business to deliver the secure energy the world needs. LNG is a critical fuel for
-the energy transition because it is a lower-carbon alternative to coal in power generation and can be easily transported to where it is needed.
-
+We are investing in our gas production and growing our LNG business to deliver the secure energy the world needs. LNG is a critical fuel for the energy transition because it is a lower-carbon alternative to coal in power generation and can be easily transported to where it is needed.
 
 #### Sustaining liquids production
 
-We aim to sustain liquids production of at least 1.4 million barrels a day through to 2030 with increasingly lower carbon intensity. We are
-focusing our exploration activities in locations where hydrocarbons have already been discovered.
-
+We aim to sustain liquids production of at least 1.4 million barrels a day through to 2030 with increasingly lower carbon intensity. We are focusing our exploration activities in locations where hydrocarbons have already been discovered.
 
 #### Focusing Downstream, Renewables and Energy Solutions
 
-We are expanding our premium marketing businesses while streamlining our portfolio with a focus on value over volume. We will
-build on the options we have invested in for low-carbon growth through the energy transition. Our global customer reach and our supply and
-trading capabilities position us well to deliver the low-carbon solutions people and businesses need.
+We are expanding our premium marketing businesses while streamlining our portfolio with a focus on value over volume. We will build on the options we have invested in for low-carbon growth through the energy transition. Our global customer reach and our supply and trading capabilities position us well to deliver the low-carbon solutions people and businesses need.
 
-We are seeking to change the mix of energy products we sell to our customers as their needs for energy change. We believe we can make
-the greatest contribution to the energy transition by helping to enable our customers to switch to low-carbon energy products and services.
+We are seeking to change the mix of energy products we sell to our customers as their needs for energy change. We believe we can make the greatest contribution to the energy transition by helping to enable our customers to switch to low-carbon energy products and services.
 
 This is reflected in Shell's strategy to build a portfolio that seeks to:
 
@@ -967,91 +684,56 @@ decarbonise their use of energy, for example by substituting the use of coal wit
 - address any remaining emissions from conventional fuels with
 solutions such as CCS and high-quality carbon credits.
 
-As we implement our strategy, we will continue to focus on performance, discipline and simplification. This applies not only to our financial and
-operational outcomes, but also to safety and sustainability. Our Goal
-Zero ambition is fundamental to the success of our company.
+As we implement our strategy, we will continue to focus on performance, discipline and simplification. This applies not only to our financial and operational outcomes, but also to safety and sustainability. Our Goal Zero ambition is fundamental to the success of our company.
 
-We believe that no business can succeed without an unwavering commitment to respecting the environment and the communities within which it works. At Shell, we seek to protect the environment, increase our reuse and recycling, make a positive contribution to biodiversity
-and use water and other resources efficiently. We also work to make a positive impact on people around the world, and power lives through
-our products and activities, and by supporting an inclusive society.
+We believe that no business can succeed without an unwavering commitment to respecting the environment and the communities within which it works. At Shell, we seek to protect the environment, increase our reuse and recycling, make a positive contribution to biodiversity and use water and other resources efficiently. We also work to make a positive impact on people around the world, and power lives through our products and activities, and by supporting an inclusive society.
 
 See "Our strategy" on pages 10-13 for more information.
 
-
 ##### Sustainability in our strategy
 
-We believe that no business can succeed without an unwavering commitment to respecting the environment and the communities within
-which it works. In addition to generating shareholder value, our strategy is built on achieving net-zero emissions, powering lives and
-respecting nature. For each, we discuss key challenges and how we are responding in the relevant topical ESRS.
+We believe that no business can succeed without an unwavering commitment to respecting the environment and the communities within which it works. In addition to generating shareholder value, our strategy is built on achieving net-zero emissions, powering lives and respecting nature. For each, we discuss key challenges and how we are responding in the relevant topical ESRS.
 
 - Achieving net-zero emissions: We have a target to become a net-zero
 emissions energy business by 2050 and will work with customers to help them decarbonise. See "Climate change (El)" on page 364.
 
 - Powering lives: We power lives through our products and activities,
-and by supporting an inclusive society. See "Own workforce (S1)" on page 409, "Workers in the value chain (S2)" on page 414 and
-"Affected communities (S3)" on page 419.
+and by supporting an inclusive society. See "Own workforce (S1)" on page 409, "Workers in the value chain (S2)" on page 414 and "Affected communities (S3)" on page 419.
 
 - Respecting nature: We seek to protect the environment, increase our
-reuse and recycling, make a positive contribution to biodiversity and use water and other resources efficiently.See "Pollution (E2)" on
-page 391, "Water and marine resources (E3)" on page 395,
-"Biodiversity and ecosystems (E4)" on page 397 and "Resource use and circular economy (E5)" on page 404.
+reuse and recycling, make a positive contribution to biodiversity and use water and other resources efficiently.See "Pollution (E2)" on page 391, "Water and marine resources (E3)" on page 395, "Biodiversity and ecosystems (E4)" on page 397 and "Resource use and circular economy (E5)" on page 404.
 
-Our strategy is underpinned by our core values of honesty, integrity and respect for people; our culture of performance, discipline and
-simplification; and our Goal Zero ambition to do no harm to people and to have no leaks across our operations.
+Our strategy is underpinned by our core values of honesty, integrity and respect for people; our culture of performance, discipline and simplification; and our Goal Zero ambition to do no harm to people and to have no leaks across our operations.
 
 See "Business conduct (G1)" on page 425 and "Safety" on page 429 for more information.
 
-
 ##### How we create value
 
-For more than a century, Shell has connected people and energy. We provide the energy people need to fuel their homes, hospitals, schools,
-vehicles, machinery and factories. Our purpose is to power progress together, by working with each other, our customers and our partners.
-Our vision [B] is to be the world's leading integrated energy company delivering impact at scale, connecting energy and people, matching
-supply to demand.
+For more than a century, Shell has connected people and energy. We provide the energy people need to fuel their homes, hospitals, schools, vehicles, machinery and factories. Our purpose is to power progress together, by working with each other, our customers and our partners. Our vision [B] is to be the world's leading integrated energy company delivering impact at scale, connecting energy and people, matching supply to demand.
 
 [B] A vision statement defines the desired future state of a company rather than a series of firm, binding commitments.
 
-Our value creation process shows how we link our inputs to our strategic objectives. Our inputs include financial capital, operations, human capital,
-relationships, intellectual capital and natural resources. We gather, develop and secure these inputs through our business relationships with
-investors, strategic partners and suppliers, and governments.
+Our value creation process shows how we link our inputs to our strategic objectives. Our inputs include financial capital, operations, human capital, relationships, intellectual capital and natural resources. We gather, develop and secure these inputs through our business relationships with investors, strategic partners and suppliers, and governments.
 
-Through our production, processing, trading, sales and distribution activities, we transform our inputs into energy and non-energy products
-that benefit our customers by offering more low-carbon solutions to meet their needs in a world on its way to net zero. These activities
-depend on employees, suppliers, value chain workers and communities, as well as other stakeholders.
+Through our production, processing, trading, sales and distribution activities, we transform our inputs into energy and non-energy products that benefit our customers by offering more low-carbon solutions to meet their needs in a world on its way to net zero. These activities depend on employees, suppliers, value chain workers and communities, as well as other stakeholders.
 
-Our outcomes are generating value for shareholders and transforming
-Shell into a net-zero emissions energy business by 2050, while powering lives and respecting nature. Our upstream value chain
-consists of direct and indirect suppliers of goods and services which
+Our outcomes are generating value for shareholders and transforming Shell into a net-zero emissions energy business by 2050, while powering lives and respecting nature. Our upstream value chain consists of direct and indirect suppliers of goods and services which
 
+form an input to our products. Examples include suppliers of hydrocarbons, biofuels and biomass, power, non-fuel products sold in our retail sites and a wide variety of goods and services procured for use in our projects and operations, such as engineering, construction and maintenance services and materials.
 
-form an input to our products. Examples include suppliers of hydrocarbons, biofuels and biomass, power, non-fuel products sold in
-our retail sites and a wide variety of goods and services procured for use in our projects and operations, such as engineering, construction
-and maintenance services and materials.
+Our downstream value chain consists of customers and their use of our sold products. Examples include retail customers who consume oil products, biofuels, non-fuel retail products or electric vehicle charging solutions. Other examples include business customers who consume natural gas, crude oil or oil products, as well as customers who consume non-energy products such as chemicals.
 
-Our downstream value chain consists of customers and their use of our sold products. Examples include retail customers who consume oil
-products, biofuels, non-fuel retail products or electric vehicle charging solutions. Other examples include business customers who consume
-natural gas, crude oil or oil products, as well as customers who consume non-energy products such as chemicals.
-
-References to "upstream value chain" and "downstream value chain" in the Sustainability Statements have the meaning given above and do
-not refer to our Upstream business segment or to our Downstream,
-Renewables and Energy Solutions directorate.
-
+References to "upstream value chain" and "downstream value chain" in the Sustainability Statements have the meaning given above and do not refer to our Upstream business segment or to our Downstream, Renewables and Energy Solutions directorate.
 
 ## Interests and views of stakeholders (SBM-2)
 
-Shell recognises the important role it has in many societies and is committed to public collaboration and stakeholder engagement.
-Working with stakeholders is crucial to drive the collaboration needed between governments, companies and consumers to advance the
-energy transition.
+Shell recognises the important role it has in many societies and is committed to public collaboration and stakeholder engagement. Working with stakeholders is crucial to drive the collaboration needed between governments, companies and consumers to advance the energy transition.
 
-Shell's key stakeholders can be categorised into seven groups. Where appropriate, each group is considered to include both current
-and potential stakeholders. We seek to understand the needs and expectations of key stakeholder groups and take their views and
-interests into account in our decision-making.
+Shell's key stakeholders can be categorised into seven groups. Where appropriate, each group is considered to include both current and potential stakeholders. We seek to understand the needs and expectations of key stakeholder groups and take their views and interests into account in our decision-making.
 
 See "How we create value" on pages 8-9 for information on our value creation model.
 
-
 ### Key stakeholder groups and how we engage with them
-
 
 <table>
 <tr>
@@ -1301,95 +983,49 @@ See "How we create value" on pages 8-9 for information on our value creation mod
 
 [A] Business to business (B2B), Business to consumer (B2C).
 
+Stakeholder engagement is governed by the Shell General Business Principles (SGBP), which set out how we recognise our responsibilities to stakeholders. They set the standard for how we engage, guided by the principles of listening, respect and honesty.
 
-Stakeholder engagement is governed by the Shell General Business
-Principles (SGBP), which set out how we recognise our responsibilities to stakeholders. They set the standard for how we engage, guided
-by the principles of listening, respect and honesty.
+Stakeholder engagement is a continuous process of dialogue. Our business engages with key stakeholder groups on a regular basis at multiple levels. We may undertake more frequent or structured engagement during projects, activities, acquisitions, divestments and other significant decisions. Stakeholder engagement is fundamental to how we identify, assess and manage actual and potential impacts associated with our business. It is also an integral part of how we respect human rights and provide access to remedy.
 
-Stakeholder engagement is a continuous process of dialogue. Our business engages with key stakeholder groups on a regular basis
-at multiple levels. We may undertake more frequent or structured engagement during projects, activities, acquisitions, divestments and
-other significant decisions. Stakeholder engagement is fundamental to how we identify, assess and manage actual and potential impacts
-associated with our business. It is also an integral part of how we respect human rights and provide access to remedy.
+Shell's strategy and business model are informed by the views, interests and rights of key stakeholder groups, including customers, investors, employees, strategic partners and suppliers, affected communities, civil society and governments. Value chain workers are a key stakeholder group for our strategic partners and suppliers. Our success in the energy transition depends on our people, our contractors and suppliers, and the communities in which we operate.
 
-Shell's strategy and business model are informed by the views, interests and rights of key stakeholder groups, including customers, investors,
-employees, strategic partners and suppliers, affected communities, civil society and governments. Value chain workers are a key stakeholder
-group for our strategic partners and suppliers. Our success in the energy transition depends on our people, our contractors and
-suppliers, and the communities in which we operate.
+We recognise there are differing societal views about our operations and the intricacies associated with the evolving energy transition. These differences are also reflected in our key stakeholder groups. Management weighs up all relevant factors and considers which course of action best enables delivery of our strategy in the long-term interests of the Company, taking into consideration the effect on stakeholders. It is not always possible to balance the Company's interests with those of other stakeholders.
 
-We recognise there are differing societal views about our operations and the intricacies associated with the evolving energy transition.
-These differences are also reflected in our key stakeholder groups.
-Management weighs up all relevant factors and considers which course of action best enables delivery of our strategy in the long-term
-interests of the Company, taking into consideration the effect on stakeholders. It is not always possible to balance the Company's
-interests with those of other stakeholders.
-
-See "Principal decisions and stakeholders" on pages 145-148 for information on how the interests of stakeholders are taken into account
-in the Board's decision-making process. See "Our approach to sustainability" on pages 127-133, "Understanding and engaging with
-our stakeholders" on pages 165-166 and "Workforce engagement" on pages 167-168 for information about how the Board and EC are
-informed about the views and interests of affected stakeholders with regard to sustainability-related impacts.
-
+See "Principal decisions and stakeholders" on pages 145-148 for information on how the interests of stakeholders are taken into account in the Board's decision-making process. See "Our approach to sustainability" on pages 127-133, "Understanding and engaging with our stakeholders" on pages 165-166 and "Workforce engagement" on pages 167-168 for information about how the Board and EC are informed about the views and interests of affected stakeholders with regard to sustainability-related impacts.
 
 #### Material impacts, risks and opportunities and their interaction with strategy and business model (SBM-3)
 
-Shell has conducted an assessment of its material sustainability-related impacts, risks and opportunities as the basis for determining its
-disclosures in the Sustainability Statements in 2024.
+Shell has conducted an assessment of its material sustainability-related impacts, risks and opportunities as the basis for determining its disclosures in the Sustainability Statements in 2024.
 
-Within the Sustainability Statements, the term "impacts" refers to actual and potential sustainability-related impacts on people and the
-environment connected with our business. Such impacts can be positive or negative. "Risks and opportunities" refers to sustainability-related
-financial risks and opportunities, including those derived from dependencies on natural, human and social resources.
+Within the Sustainability Statements, the term "impacts" refers to actual and potential sustainability-related impacts on people and the environment connected with our business. Such impacts can be positive or negative. "Risks and opportunities" refers to sustainability-related financial risks and opportunities, including those derived from dependencies on natural, human and social resources.
 
-When the terms impact, risk and opportunity are used within the
-Sustainability Statements, they generally have the meaning given to them by the ESRS unless the context indicates otherwise.
+When the terms impact, risk and opportunity are used within the Sustainability Statements, they generally have the meaning given to them by the ESRS unless the context indicates otherwise.
 
-Our assessment of impacts, risks and opportunities is based on the double materiality principle. This requires us to consider sustainability
-matters from the perspective of Shell's actual or potential impact on the environment and society, as well as whether such matters trigger or
-could reasonably be expected to trigger material financial effects for
-Shell. These perspectives are sometimes referred to as "impact materiality" and "financial materiality". A matter is material for
-reporting purposes if it meets the criteria for impact materiality, financial materiality or both.
-
+Our assessment of impacts, risks and opportunities is based on the double materiality principle. This requires us to consider sustainability matters from the perspective of Shell's actual or potential impact on the environment and society, as well as whether such matters trigger or could reasonably be expected to trigger material financial effects for Shell. These perspectives are sometimes referred to as "impact materiality" and "financial materiality". A matter is material for reporting purposes if it meets the criteria for impact materiality, financial materiality or both.
 
 #### Impacts
 
-We consider actual and potential impacts over the short, medium and long term. Impacts include those connected with our own operations,
-our value chain and business relationships. We have the ability to control Shell companies and Shell-operated joint ventures by applying
-our own policies and standards. Shell does not control non-operated joint ventures.
+We consider actual and potential impacts over the short, medium and long term. Impacts include those connected with our own operations, our value chain and business relationships. We have the ability to control Shell companies and Shell-operated joint ventures by applying our own policies and standards. Shell does not control non-operated joint ventures.
 
-Our influence over value chain and business relationships is indirect, depending on factors such as our line of sight into potential impacts
-and the nature of our contractual rights and obligations, if any.
-
+Our influence over value chain and business relationships is indirect, depending on factors such as our line of sight into potential impacts and the nature of our contractual rights and obligations, if any.
 
 #### Risks and opportunities
 
-We consider risks or opportunities that could have a material effect on Shell's earnings, cash flows and financial condition over the short,
-medium or long term.
-
+We consider risks or opportunities that could have a material effect on Shell's earnings, cash flows and financial condition over the short, medium or long term.
 
 #### Outcome
 
-Our double materiality assessment has identified 23 material impacts.
-Sixteen were assessed as negative and seven as positive. One of the negative impacts, greenhouse gas emissions, corresponds to both a risk
-and an opportunity (see "Climate change and the energy transition" on page 137 and "Climate related opportunities" on page 84
-respectively). The remaining impacts do not constitute a risk or opportunity in their own right, although many are considered an
-element of a larger principal risk factor.
+Our double materiality assessment has identified 23 material impacts. Sixteen were assessed as negative and seven as positive. One of the negative impacts, greenhouse gas emissions, corresponds to both a risk and an opportunity (see "Climate change and the energy transition" on page 137 and "Climate related opportunities" on page 84 respectively). The remaining impacts do not constitute a risk or opportunity in their own right, although many are considered an element of a larger principal risk factor.
 
-Our impacts, risks and opportunities are summarised in the table
-"Material sustainability topics" on pages 352-353. We indicate the reasonably expected time horizon in which effects could materialise.
-We also indicate whether impacts, risks or opportunities concentrate in our own operations or value chain.
+Our impacts, risks and opportunities are summarised in the table "Material sustainability topics" on pages 352-353. We indicate the reasonably expected time horizon in which effects could materialise. We also indicate whether impacts, risks or opportunities concentrate in our own operations or value chain.
 
-Information about our approach to managing individual impacts, risks and opportunities through policies, actions, metrics and targets can be
-found in the topical sections.
+Information about our approach to managing individual impacts, risks and opportunities through policies, actions, metrics and targets can be found in the topical sections.
 
-For further topic-specific information, see "Material impacts, risks and opportunities and their interaction with strategy and business model
-(ESRS 2 SBM-3)" on page 367 for climate change, page 409 for own workforce, page 414 for workers in the value chain and page 419 for
-affected communities.
+For further topic-specific information, see "Material impacts, risks and opportunities and their interaction with strategy and business model (ESRS 2 SBM-3)" on page 367 for climate change, page 409 for own workforce, page 414 for workers in the value chain and page 419 for affected communities.
 
-The double materiality assessment process uses qualitative and/or quantitative thresholds to determine which impacts, risks and
-opportunities are identified and addressed by Shell as material and to determine which sustainability matters are material for reporting
-purposes. Therefore, the Sustainability Statements may not include every impact, risk and opportunity or additional entity-specific
-disclosure that each individual key stakeholder group may consider important in its own particular assessment.
-
+The double materiality assessment process uses qualitative and/or quantitative thresholds to determine which impacts, risks and opportunities are identified and addressed by Shell as material and to determine which sustainability matters are material for reporting purposes. Therefore, the Sustainability Statements may not include every impact, risk and opportunity or additional entity-specific disclosure that each individual key stakeholder group may consider important in its own particular assessment.
 
 ## Material sustainability topics
-
 
 <table>
 <tr>
@@ -1601,10 +1237,6 @@ disclosure that each individual key stakeholder group may consider important in 
 </tr>
 </table>
 
-
-## Sustainability Statements | ESRS2 General continued
-
-
 <table>
 <tr>
 <th rowspan="2">Topic</th>
@@ -1747,7 +1379,6 @@ disclosure that each individual key stakeholder group may consider important in 
 
 [P] Positive impact.
 
-
 ### Risk factors
 
 Climate change and the energy transition (see pages 137-138).
@@ -1764,301 +1395,157 @@ Reputation and risks to our licence to operate (see page 143).
 
 Climate-related risks and opportunities
 
-CRI
-Climate-related commercial risks (see page 81).
+CRI Climate-related commercial risks (see page 81).
 
-CR2
-Climate-related regulatory risks (see page 81).
+CR2 Climate-related regulatory risks (see page 81).
 
-CR3
-Climate-related societal risks (including litigation) (see page 82).
+CR3 Climate-related societal risks (including litigation) (see page 82).
 
-CR4
-Climate-related physical risks (see page 83).
+CR4 Climate-related physical risks (see page 83).
 
-CO1
-Climate-related opportunities (see page 84).
+CO1 Climate-related opportunities (see page 84).
 
-
-We assessed seven of the eight topical standards of the ESRS as material for Shell in 2024, with some individual subtopics, subsubtopics or data points assessed as non-material. The eighth standard,
-"S4 Consumers and end-users", was assessed as non-material. The topics of most relevance to customers, Scope 3 greenhouse gas
-emissions and product stewardship, are covered in "Climate change (El)" on pages 364-376 and "Pollution (E2)" on pages 391-394,
-respectively.
-
+We assessed seven of the eight topical standards of the ESRS as material for Shell in 2024, with some individual subtopics, subsubtopics or data points assessed as non-material. The eighth standard, "S4 Consumers and end-users", was assessed as non-material. The topics of most relevance to customers, Scope 3 greenhouse gas emissions and product stewardship, are covered in "Climate change (El)" on pages 364-376 and "Pollution (E2)" on pages 391-394, respectively.
 
 ## Current and anticipated effects on business model, value chain, strategy and decision-making
 
-The "Risk factors" section on pages 135-144 provides an overview of the principal risks Shell is exposed to in its operations, their potential
-effects and how they are managed.
+The "Risk factors" section on pages 135-144 provides an overview of the principal risks Shell is exposed to in its operations, their potential effects and how they are managed.
 
-Our double materiality assessment has identified GHG emissions as a material impact and climate change and energy transition as a
-sustainability-related risk. The current and anticipated effects of this risk on our business model, value chain, strategy and decision-making are
-described in "Our strategy" on pages 10-13, "Risk factors" on pages
-135-144 and "Our journey to net zero" on pages 76-108.
+Our double materiality assessment has identified GHG emissions as a material impact and climate change and energy transition as a sustainability-related risk. The current and anticipated effects of this risk on our business model, value chain, strategy and decision-making are described in "Our strategy" on pages 10-13, "Risk factors" on pages 135-144 and "Our journey to net zero" on pages 76-108.
 
-The remaining impacts are not a material risk or opportunity for Shell in their own right. However, many are considered elements of one or
-more risk factors. The current and anticipated effects of these impacts on our business model, value chain, strategy and decision-making are
-described in "Our strategy" on pages 10-13, "Risk factors" on pages
-135-144, and alongside the disclosures provided under the corresponding topical ESRS.
-
+The remaining impacts are not a material risk or opportunity for Shell in their own right. However, many are considered elements of one or more risk factors. The current and anticipated effects of these impacts on our business model, value chain, strategy and decision-making are described in "Our strategy" on pages 10-13, "Risk factors" on pages 135-144, and alongside the disclosures provided under the corresponding topical ESRS.
 
 ## Current and anticipated financial effects
 
-See Note 4 to the "Consolidated Financial Statements" on pages
-255-265 for information about financial effects as well as other key insights, including sensitivities related to climate change and
-the energy transition.
-
+See Note 4 to the "Consolidated Financial Statements" on pages 255-265 for information about financial effects as well as other key insights, including sensitivities related to climate change and the energy transition.
 
 ## Resilience of strategy and business model
 
-See "Resilience of Shell's strategy to different climate-related scenarios" on pages 86-88 for information about the resilience of our strategy and
-business model in the context of climate change and the energy transition.
+See "Resilience of Shell's strategy to different climate-related scenarios" on pages 86-88 for information about the resilience of our strategy and business model in the context of climate change and the energy transition.
 
-The resilience of our strategy and business model in the context of material impacts that are elements of one or more risk factors is
-described in "Our strategy" on pages 10-13, "Risk factors" on pages
-135-144, and alongside the disclosures provided under the corresponding topical ESRS.
-
+The resilience of our strategy and business model in the context of material impacts that are elements of one or more risk factors is described in "Our strategy" on pages 10-13, "Risk factors" on pages 135-144, and alongside the disclosures provided under the corresponding topical ESRS.
 
 ## Changes compared to previous periods
 
-The current reporting period is the first in which Shell has conducted a double materiality assessment in accordance with ESRS requirements.
-Accordingly, there are no changes to our material impacts, risks or opportunities compared to the previous reporting period.
-
+The current reporting period is the first in which Shell has conducted a double materiality assessment in accordance with ESRS requirements. Accordingly, there are no changes to our material impacts, risks or opportunities compared to the previous reporting period.
 
 ## Description of the process to identify and assess material impacts, risks and opportunities (IRO-1)
 
-Shell has developed a process to identify and assess material sustainability-related impacts, risks and opportunities as the basis
-for determining our disclosures in the Sustainability Statements.
+Shell has developed a process to identify and assess material sustainability-related impacts, risks and opportunities as the basis for determining our disclosures in the Sustainability Statements.
 
-Our double materiality process follows five steps. We start by establishing our business context, activities, value chain and
-stakeholders. Next, we consider potential sustainability matters and identify actual and potential impacts, risks and opportunities. We
-then assess impacts for actual and potential severity, and risks and opportunities for potential financial effects. Finally, we determine
-material matters for reporting. Each step is discussed below.
-
+Our double materiality process follows five steps. We start by establishing our business context, activities, value chain and stakeholders. Next, we consider potential sustainability matters and identify actual and potential impacts, risks and opportunities. We then assess impacts for actual and potential severity, and risks and opportunities for potential financial effects. Finally, we determine material matters for reporting. Each step is discussed below.
 
 ### 1. Establish the business context
 
-We begin by establishing the scope of the assessment. To provide a common framework for analysis, we review our principal activities,
-business relationships and key stakeholder groups. We consider Shell's dependence on key resources including financial capital, operations,
-human capital, relationships, intellectual capital and natural resources.
-We also adopt guidelines for assessing our own operations and our upstream and downstream value chain.
-
+We begin by establishing the scope of the assessment. To provide a common framework for analysis, we review our principal activities, business relationships and key stakeholder groups. We consider Shell's dependence on key resources including financial capital, operations, human capital, relationships, intellectual capital and natural resources. We also adopt guidelines for assessing our own operations and our upstream and downstream value chain.
 
 ### 2. Identify impacts, risks and opportunities
 
-Next, we review the list of sustainability-related topics, subtopics and sub-subtopics provided by the ESRS and industry-specific lists
-developed by Ipieca and the Global Reporting Initiative (GRI). Where relevant, we also consider Shell-specific topics.
+Next, we review the list of sustainability-related topics, subtopics and sub-subtopics provided by the ESRS and industry-specific lists developed by Ipieca and the Global Reporting Initiative (GRI). Where relevant, we also consider Shell-specific topics.
 
-Based on this review, internal experts prepare an inventory of impacts, risks and opportunities. When performing this exercise for our own
-operations, we are informed by various sources of information, such as operating data, internal and external studies, and stakeholder views.
-For our upstream and downstream value chain, we focus on areas where there is sufficient information to allow us to make an informed
-assessment. This may include our own operating data or information provided by suppliers, business partners or other third parties.
+Based on this review, internal experts prepare an inventory of impacts, risks and opportunities. When performing this exercise for our own operations, we are informed by various sources of information, such as operating data, internal and external studies, and stakeholder views. For our upstream and downstream value chain, we focus on areas where there is sufficient information to allow us to make an informed assessment. This may include our own operating data or information provided by suppliers, business partners or other third parties.
 
-We focus our assessment on aspects of our own operations with the most potential for negative impacts on people or the environment
-based on industry experience. We also focus on business relationships with high potential for negative impacts, such as non-operated
-ventures, governments and suppliers
+We focus our assessment on aspects of our own operations with the most potential for negative impacts on people or the environment based on industry experience. We also focus on business relationships with high potential for negative impacts, such as non-operated ventures, governments and suppliers
 
-We consider actual and potential impacts, both positive and negative. For risks and opportunities, we consider uncertain environmental, social
-or governance events or conditions that, if they occurred, could have material financial effects on Shell. Impacts, risks and opportunities are
-considered over the short, medium and long term.
-
+We consider actual and potential impacts, both positive and negative. For risks and opportunities, we consider uncertain environmental, social or governance events or conditions that, if they occurred, could have material financial effects on Shell. Impacts, risks and opportunities are considered over the short, medium and long term.
 
 #### 3. Assess actual and potential impacts
 
-We adopt criteria to assess the likelihood and magnitude of impacts. These criteria are based on Shell's existing risk assessment tools for
-health, safety, security, environment and social performance (HSSE &
-SP), modified where necessary to meet the requirements of the ESRS.
+We adopt criteria to assess the likelihood and magnitude of impacts. These criteria are based on Shell's existing risk assessment tools for health, safety, security, environment and social performance (HSSE & SP), modified where necessary to meet the requirements of the ESRS.
 
-Our assessment matrix is based on a five-point scale for likelihood.
-Magnitude is also based on a five-point scale, taking into account the scale, scope and remediability of the impact.
+Our assessment matrix is based on a five-point scale for likelihood. Magnitude is also based on a five-point scale, taking into account the scale, scope and remediability of the impact.
 
-For actual impacts, we treat the effect as already occurring and do not assign a rating for likelihood. We assign a rating for magnitude based
-on actual impacts after implementation of standard control measures.
-We exclude from this analysis measures that compensate for residual impacts, such as the use of carbon credits or biodiversity offsets.
+For actual impacts, we treat the effect as already occurring and do not assign a rating for likelihood. We assign a rating for magnitude based on actual impacts after implementation of standard control measures. We exclude from this analysis measures that compensate for residual impacts, such as the use of carbon credits or biodiversity offsets.
 
-For potential impacts, we assign a rating for likelihood and magnitude. In line with ESRS requirements, we assess potential magnitude on a
-gross basis, assuming no mitigation in consequences due to control measures. For potential human rights impacts, magnitude takes
-precedence over likelihood.
-
+For potential impacts, we assign a rating for likelihood and magnitude. In line with ESRS requirements, we assess potential magnitude on a gross basis, assuming no mitigation in consequences due to control measures. For potential human rights impacts, magnitude takes precedence over likelihood.
 
 #### 4. Assess risks and opportunities
 
-We adopt criteria to assess the likelihood and magnitude of potential financial effects. These are based on our existing enterprise risk
-management framework, modified where necessary to ensure consistency with our approach to assessing impacts. Our assessment
-matrix is based on a five-point scale for likelihood. Magnitude is also based on a five-point scale, taking into account the potential ways in
-which financial effects could materialise, including through Shell's dependence on natural, human and social resources.
+We adopt criteria to assess the likelihood and magnitude of potential financial effects. These are based on our existing enterprise risk management framework, modified where necessary to ensure consistency with our approach to assessing impacts. Our assessment matrix is based on a five-point scale for likelihood. Magnitude is also based on a five-point scale, taking into account the potential ways in which financial effects could materialise, including through Shell's dependence on natural, human and social resources.
 
-
-To ensure connectivity with existing disclosures, we consider whether potential risks have been identified previously as a principal risk factor
-or as an element of a principal risk factor. Where applicable, these linkages are highlighted in our disclosure. See "Risk management and
-risk factors" on pages 134-144 for information about how sustainability matters are integrated with our risk factors.
-
+To ensure connectivity with existing disclosures, we consider whether potential risks have been identified previously as a principal risk factor or as an element of a principal risk factor. Where applicable, these linkages are highlighted in our disclosure. See "Risk management and risk factors" on pages 134-144 for information about how sustainability matters are integrated with our risk factors.
 
 #### 5. Determine material disclosures
 
-In the final step of the process, we apply the outcome of the double materiality assessment to determine our material disclosures for the
-Sustainability Statements. A consolidated list of impacts, risks and opportunities is reviewed with internal experts and managers.
-Reporting thresholds for actual impacts are based on magnitude. For potential impacts, reporting thresholds are based on a combination of
-likelihood and magnitude. For risks that are material on a stand-alone basis, reporting thresholds follow existing definitions of financial
-materiality. Opportunities are assessed based on qualitative thresholds. The final results of the assessment are reviewed and endorsed by an
-internal management committee consisting of senior business and functional managers. See "Risk management and internal controls over
-sustainability reporting (GOV-5)" on page 347 for information about control procedures for sustainability reporting.
+In the final step of the process, we apply the outcome of the double materiality assessment to determine our material disclosures for the Sustainability Statements. A consolidated list of impacts, risks and opportunities is reviewed with internal experts and managers. Reporting thresholds for actual impacts are based on magnitude. For potential impacts, reporting thresholds are based on a combination of likelihood and magnitude. For risks that are material on a stand-alone basis, reporting thresholds follow existing definitions of financial materiality. Opportunities are assessed based on qualitative thresholds. The final results of the assessment are reviewed and endorsed by an internal management committee consisting of senior business and functional managers. See "Risk management and internal controls over sustainability reporting (GOV-5)" on page 347 for information about control procedures for sustainability reporting.
 
-We map our material impacts, risks and opportunities to ESRS disclosure requirements. Disclosure requirements with at least one
-corresponding impact, risk or opportunity are deemed to be material. The remainder are deemed to be non-material. We omit individual data
-points deemed to be non-material based on the process for determining data point materiality laid out in the ESRS. This process takes into
-consideration the significance of the information in relation to the matter it purports to explain or depict and the relevance of the data
-point to meeting the decision-making needs of users.
-
+We map our material impacts, risks and opportunities to ESRS disclosure requirements. Disclosure requirements with at least one corresponding impact, risk or opportunity are deemed to be material. The remainder are deemed to be non-material. We omit individual data points deemed to be non-material based on the process for determining data point materiality laid out in the ESRS. This process takes into consideration the significance of the information in relation to the matter it purports to explain or depict and the relevance of the data point to meeting the decision-making needs of users.
 
 ##### How our management systems inform the assessment
 
-Sustainability is integrated into our existing risk management processes, as set out in the Shell Performance Framework. Our double
-materiality assessment, undertaken for the purpose of determining our disclosures in the Sustainability Statements, is informed by these
-processes but does not replace them.
+Sustainability is integrated into our existing risk management processes, as set out in the Shell Performance Framework. Our double materiality assessment, undertaken for the purpose of determining our disclosures in the Sustainability Statements, is informed by these processes but does not replace them.
 
-Details of how existing risk management processes inform our assessment of specific topics are set out below. See "How we manage
-risks" on page 134 and "Policies and standards" on page 130 for information about how sustainability is integrated into Shell's overall
-approach to risk management.
-
+Details of how existing risk management processes inform our assessment of specific topics are set out below. See "How we manage risks" on page 134 and "Policies and standards" on page 130 for information about how sustainability is integrated into Shell's overall approach to risk management.
 
 ### HSSE & SP and Asset Management
 
-Our standards require a systematic approach to managing health, safety, security, environment and social performance (HSSE & SP).
-The foundation of this approach is our management system.
+Our standards require a systematic approach to managing health, safety, security, environment and social performance (HSSE & SP). The foundation of this approach is our management system.
 
-Our approach to identifying and assessing impacts, risks and opportunities related to emissions, pollution, water, biodiversity,
-circularity and waste and affected communities is governed by our internal risk management process and our SEAM Standards. We
-expect non-operated joint ventures to adopt appropriate and acceptable policies to manage their risks.
+Our approach to identifying and assessing impacts, risks and opportunities related to emissions, pollution, water, biodiversity, circularity and waste and affected communities is governed by our internal risk management process and our SEAM Standards. We expect non-operated joint ventures to adopt appropriate and acceptable policies to manage their risks.
 
-We use various processes to identify, assess and manage health, safety, environmental and social impacts, risks and opportunities.
-Two of the most important are impact assessment and the hazards and effects management process.
-
+We use various processes to identify, assess and manage health, safety, environmental and social impacts, risks and opportunities. Two of the most important are impact assessment and the hazards and effects management process.
 
 ### Impact assessment
 
-Our standards require projects, assets or businesses to identify the need for an impact assessment process in the early stages of a project
-with the potential for new or changed impacts on the environment, communities and community health. Impact assessment is a
-methodology to identify and assess the environmental, social and health impacts of a proposed project. It involves evaluating alternatives
-and identifying measures to mitigate negative impacts or enhance positive impacts, as well as management and monitoring arrangements. Our standards require the impact assessment to be
-performed in alignment with international standards, which are generally defined as local legal requirements in high-income OECD
-countries at a minimum and the IFC Performance Standards elsewhere.
-
+Our standards require projects, assets or businesses to identify the need for an impact assessment process in the early stages of a project with the potential for new or changed impacts on the environment, communities and community health. Impact assessment is a methodology to identify and assess the environmental, social and health impacts of a proposed project. It involves evaluating alternatives and identifying measures to mitigate negative impacts or enhance positive impacts, as well as management and monitoring arrangements. Our standards require the impact assessment to be performed in alignment with international standards, which are generally defined as local legal requirements in high-income OECD countries at a minimum and the IFC Performance Standards elsewhere.
 
 ### Hazards and effects management
 
-Our standards require assets, projects and activities to establish and maintain systematic risk identification and management processes such
-as the hazards and effects management process (HEMP). This approach starts by identifying potential hazards and evaluating their likelihood and
-potential impact. We then implement controls to reduce the risks to as low as reasonably practicable (ALARP), which is the point at which the cost in
-time, money and effort of further risk reduction is grossly disproportionate to the reduction achieved. In doing so, we apply a hierarchy of controls,
-which prioritises the elimination, substitution and isolation of hazards, before implementing engineered safeguards or other solutions. We
-monitor the effectiveness of these controls via regular assurance activities.
-
+Our standards require assets, projects and activities to establish and maintain systematic risk identification and management processes such as the hazards and effects management process (HEMP). This approach starts by identifying potential hazards and evaluating their likelihood and potential impact. We then implement controls to reduce the risks to as low as reasonably practicable (ALARP), which is the point at which the cost in time, money and effort of further risk reduction is grossly disproportionate to the reduction achieved. In doing so, we apply a hierarchy of controls, which prioritises the elimination, substitution and isolation of hazards, before implementing engineered safeguards or other solutions. We monitor the effectiveness of these controls via regular assurance activities.
 
 ### Community engagement
 
-We engage with affected communities on a range of topics related to our operations, including issues related to pollution, water, biodiversity
-and waste. In some locations, permitting processes may also require statutory public consultations or hearings. See "Affected Communities
-(S3)" on page 419 and "Interests and views of stakeholders (SBM-2)" on page 350 for information.
-
+We engage with affected communities on a range of topics related to our operations, including issues related to pollution, water, biodiversity and waste. In some locations, permitting processes may also require statutory public consultations or hearings. See "Affected Communities (S3)" on page 419 and "Interests and views of stakeholders (SBM-2)" on page 350 for information.
 
 ### How our approach to individual topics inform the assessment
 
 The application of our management systems with respect to individual environmental, social and governance topics is explained below.
 
-
 ### Climate change
 
-Our approach to identifying and assessing climate-related impacts, risks and opportunities is integrated into the risk management,
-performance management, learning and improvement cycle that sits at the heart of the Shell Performance Framework.
+Our approach to identifying and assessing climate-related impacts, risks and opportunities is integrated into the risk management, performance management, learning and improvement cycle that sits at the heart of the Shell Performance Framework.
 
-Climate-related matters are considered from a strategic, operational, conduct and culture perspective to help us maintain a comprehensive
-view of our impacts, risks and opportunities and the time horizons in which they could materialise.
-
+Climate-related matters are considered from a strategic, operational, conduct and culture perspective to help us maintain a comprehensive view of our impacts, risks and opportunities and the time horizons in which they could materialise.
 
 ### GHG emissions
 
-We identify, assess and manage actual and potential GHG emissions from activities under our operational control as part of our SEAM
-Standards. We expect non-operated joint ventures to adopt appropriate and acceptable policies to manage their risks.
+We identify, assess and manage actual and potential GHG emissions from activities under our operational control as part of our SEAM Standards. We expect non-operated joint ventures to adopt appropriate and acceptable policies to manage their risks.
 
-We identify sources of Scope 1, 2 and 3 GHG emissions based on operating data, design and engineering practices, and analysis of
-products manufactured and sold. We assess the actual and potential
-GHG emissions inventory from these sources in line with internationally recognised standards and industry-specific guidelines [A].
+We identify sources of Scope 1, 2 and 3 GHG emissions based on operating data, design and engineering practices, and analysis of products manufactured and sold. We assess the actual and potential GHG emissions inventory from these sources in line with internationally recognised standards and industry-specific guidelines [A].
 
-[A] Assessments of GHG emissions associated with our business activities are prepared in accordance with ISO 14064-1:2018 Specification with Guidance at the Organization Level
-for Quantification and Reporting of Greenhouse Gas Emissions and Removals and the
-GHG Protocol Corporate Accounting and Reporting Standard (2004). Industry-specific guidance is also applied, including the API Compendium of Greenhouse Gas Emissions
-Methodologies for the Natural Gas and Oil Industry (November 2021), Ipieca
-Sustainability Reporting Guidance for the Oil and Gas Industry (4th edition, 2020) and other standards and guidance.
+[A] Assessments of GHG emissions associated with our business activities are prepared in accordance with ISO 14064-1:2018 Specification with Guidance at the Organization Level for Quantification and Reporting of Greenhouse Gas Emissions and Removals and the GHG Protocol Corporate Accounting and Reporting Standard (2004). Industry-specific guidance is also applied, including the API Compendium of Greenhouse Gas Emissions Methodologies for the Natural Gas and Oil Industry (November 2021), Ipieca Sustainability Reporting Guidance for the Oil and Gas Industry (4th edition, 2020) and other standards and guidance.
 
+Our standards require assets and projects to forecast their future emission levels and to prepare an annual plan which demonstrates planned delivery of their allotment of business-level carbon targets. The aim of this requirement is to ensure that assets or projects with material GHG emissions have plans to contribute emission reductions in line with Shell's GHG reduction targets and ambition.
 
-Our standards require assets and projects to forecast their future emission levels and to prepare an annual plan which demonstrates
-planned delivery of their allotment of business-level carbon targets. The aim of this requirement is to ensure that assets or projects with material
-GHG emissions have plans to contribute emission reductions in line with Shell's GHG reduction targets and ambition.
+Each business and function regularly reviews its risk profile, risk responses and assurance activities throughout the year to ensure climate-related risks are managed effectively. These insights are used to provide management with updates on the operational management of greenhouse gas emissions and climate-related risks and opportunities.
 
-Each business and function regularly reviews its risk profile, risk responses and assurance activities throughout the year to ensure
-climate-related risks are managed effectively. These insights are used to provide management with updates on the operational management of
-greenhouse gas emissions and climate-related risks and opportunities.
+During these updates, management reviews whether our risk responses are effective in addressing the components of climate-related risks and opportunities. These reviews help us to update Shell's plans and guide our day-to-day operational decisions such as maintenance schedules and our risk response plans. See "Material impacts, risks and opportunities and their interaction with strategy and business model (ESRS 2 SBM-3)" on page 351.
 
-During these updates, management reviews whether our risk responses are effective in addressing the components of climate-related risks and
-opportunities. These reviews help us to update Shell's plans and guide our day-to-day operational decisions such as maintenance schedules
-and our risk response plans. See "Material impacts, risks and opportunities and their interaction with strategy and business model
-(ESRS 2 SBM-3)" on page 351.
-
-The management teams are supported by a combination of carbonmanagement-related standards and frameworks, forums at various
-levels of the organisation, and capability development programmes.
-We use risk management processes to identify and respond to emerging risks to the safe, compliant and efficient operation of our
-assets, including climate-related risk.
+The management teams are supported by a combination of carbonmanagement-related standards and frameworks, forums at various levels of the organisation, and capability development programmes. We use risk management processes to identify and respond to emerging risks to the safe, compliant and efficient operation of our assets, including climate-related risk.
 
 Our risk management processes are carried out at the Group, business, function and asset level, which includes projects.
 
-
 ### Climate-related physical risks
 
-See "Physical risks" on page 83 for information on Shell's approach to identifying and assessing climate-related physical hazards in our
-operations and value chain, our use of high-emission climate scenarios, and our exposure to climate-related physical risk.
-
+See "Physical risks" on page 83 for information on Shell's approach to identifying and assessing climate-related physical hazards in our operations and value chain, our use of high-emission climate scenarios, and our exposure to climate-related physical risk.
 
 ### Climate-related transition risks and opportunities
 
-We monitor climate-related transition risks across four components: commercial, regulatory, societal (including litigation) and physical, as
-well as monitoring climate-related opportunities. We are continually enhancing our approach to identifying, assessing and managing risks
-and opportunities resulting from climate change. This includes considering different time horizons in which risks and opportunities
-could materialise and their relevance for business planning.
+We monitor climate-related transition risks across four components: commercial, regulatory, societal (including litigation) and physical, as well as monitoring climate-related opportunities. We are continually enhancing our approach to identifying, assessing and managing risks and opportunities resulting from climate change. This includes considering different time horizons in which risks and opportunities could materialise and their relevance for business planning.
 
-Shell has identified climate change and the energy transition as a material risk. The risk could potentially result in changes to the demand
-for our products, supply chains and markets; further changes to the regulatory environment in which we operate; and increased litigation.
-See Note 32 to the Consolidated Financial Statements "Legal proceedings and other contingencies" on page 308.
+Shell has identified climate change and the energy transition as a material risk. The risk could potentially result in changes to the demand for our products, supply chains and markets; further changes to the regulatory environment in which we operate; and increased litigation. See Note 32 to the Consolidated Financial Statements "Legal proceedings and other contingencies" on page 308.
 
-In assessing this risk, we have considered a range of climate scenarios including those in which the rise in global average temperature this
-century is limited to 1.5℃ above pre-industrial levels.
+In assessing this risk, we have considered a range of climate scenarios including those in which the rise in global average temperature this century is limited to 1.5℃ above pre-industrial levels.
 
-We actively monitor societal developments such as regulation-driven carbon pricing and customer-driven product preferences. Where
-relevant, we incorporate these developments into potential scenarios which provide insights into how the energy transition may unfold in the
-medium and long term. These insights, along with those provided by external scenarios such as those prepared for the IPCC's Sixth
-Assessment Report, guide how we set our strategic direction, capital allocation and climate-related targets and ambition.
+We actively monitor societal developments such as regulation-driven carbon pricing and customer-driven product preferences. Where relevant, we incorporate these developments into potential scenarios which provide insights into how the energy transition may unfold in the medium and long term. These insights, along with those provided by external scenarios such as those prepared for the IPCC's Sixth Assessment Report, guide how we set our strategic direction, capital allocation and climate-related targets and ambition.
 
-The transformation of the energy system to net-zero emissions will require simultaneous action in three areas: an unprecedented
-improvement in the efficiency with which energy is used; a sharp reduction in the carbon intensity of the energy mix; and the mitigation
-of residual emissions through the use of technology and natural sinks. While it is difficult to predict the exact combination of actions that will
-deliver the net-zero goal, scenarios help us to consider the variables and the potential direction and pace of the transition needed.
-Scenarios are not intended to be predictions of likely future events or outcomes and, therefore, are not the basis for Shell's operating plans,
-outlook and financial statements.
+The transformation of the energy system to net-zero emissions will require simultaneous action in three areas: an unprecedented improvement in the efficiency with which energy is used; a sharp reduction in the carbon intensity of the energy mix; and the mitigation of residual emissions through the use of technology and natural sinks. While it is difficult to predict the exact combination of actions that will deliver the net-zero goal, scenarios help us to consider the variables and the potential direction and pace of the transition needed. Scenarios are not intended to be predictions of likely future events or outcomes and, therefore, are not the basis for Shell's operating plans, outlook and financial statements.
 
-Key aspects of Shell's financial resilience in the context of climaterelated impacts are assessed and described in more detail in Note 4
-to the "Consolidated Financial Statements" on pages 255-265. This describes how Shell has considered climate-related impacts in key
-areas of the financial statements and how this translates into the valuation of assets and measurement of liabilities. Shell's financial
-statements are based on reasonable and supportable assumptions that represent management's best estimate of the range of economic
-conditions that may exist in the foreseeable future.
+Key aspects of Shell's financial resilience in the context of climaterelated impacts are assessed and described in more detail in Note 4 to the "Consolidated Financial Statements" on pages 255-265. This describes how Shell has considered climate-related impacts in key areas of the financial statements and how this translates into the valuation of assets and measurement of liabilities. Shell's financial statements are based on reasonable and supportable assumptions that represent management's best estimate of the range of economic conditions that may exist in the foreseeable future.
 
-As there is no single scenario that underpins our plans, sensitivity analysis has been conducted using a range of key assumptions to test
-the resilience of our asset base.
+As there is no single scenario that underpins our plans, sensitivity analysis has been conducted using a range of key assumptions to test the resilience of our asset base.
 
-Oil and gas prices are one of the key assumptions that underpin Shell's financial statements, with the mid-price outlook informed by Shell's
-scenario planning representing management's best estimate. Price outlooks reflect a broad range of factors, including, but not limited to,
-future supply and demand, and the pace of growth of low-carbon solutions. The scenarios have been selected to illustrate the resilience of
-the asset base under a range of possible outcomes, including the price implications arising from the ambitious International Energy Agency's
-Net Zero Emissions by 2050 Scenario (NZE50) which provides a potential path for the global energy system to net-zero emissions by
+Oil and gas prices are one of the key assumptions that underpin Shell's financial statements, with the mid-price outlook informed by Shell's scenario planning representing management's best estimate. Price outlooks reflect a broad range of factors, including, but not limited to, future supply and demand, and the pace of growth of low-carbon solutions. The scenarios have been selected to illustrate the resilience of the asset base under a range of possible outcomes, including the price implications arising from the ambitious International Energy Agency's Net Zero Emissions by 2050 Scenario (NZE50) which provides a potential path for the global energy system to net-zero emissions by
 2050. Sensitivities of asset-carrying amounts to prices are under the
 assumption that all other factors in the models used to calculate impacts remain unchanged.
 
@@ -2066,126 +1553,67 @@ Sensitivity analysis has been performed using price outlooks from:
 
 1\. Average prices from three 1.5-2℃ external climate change scenarios.
 
-2\. Hybrid Shell Plan and IEA NZE50: for this, Shell's mid-price outlook is applied for the next 10 years. Because of greater uncertainty, the IEA
-normative Net Zero Emissions scenario is applied for the period after
-10 years. This gives less weight to the price-risk uncertainty in the first 10 years reflected in the business plan period and applies more
-risk to the more uncertain subsequent periods.
+2\. Hybrid Shell Plan and IEA NZE50: for this, Shell's mid-price outlook is applied for the next 10 years. Because of greater uncertainty, the IEA normative Net Zero Emissions scenario is applied for the period after 10 years. This gives less weight to the price-risk uncertainty in the first 10 years reflected in the business plan period and applies more risk to the more uncertain subsequent periods.
 
-3\. A 1.5℃ scenario, derived from IEA NZE50: this applies the IEA normative Net Zero Emissions scenario over the whole period under
-review and reflects the sensitivity to a pure net-zero emissions scenario from the IEA.
-
+3\. A 1.5℃ scenario, derived from IEA NZE50: this applies the IEA normative Net Zero Emissions scenario over the whole period under review and reflects the sensitivity to a pure net-zero emissions scenario from the IEA.
 
 ### Pollution
 
-We maintain an overview of sites and activities under our operational control for pollution-related impacts, risks and opportunities. Our
-assessment is based on operating data, technical studies, expert analysis and internal risk management processes. We are limited in
-our ability to analyse pollution-related impacts in our upstream and downstream value chain owing to limited availability of data.
-
+We maintain an overview of sites and activities under our operational control for pollution-related impacts, risks and opportunities. Our assessment is based on operating data, technical studies, expert analysis and internal risk management processes. We are limited in our ability to analyse pollution-related impacts in our upstream and downstream value chain owing to limited availability of data.
 
 ### Water and marine resources
 
-We maintain an overview of sites and activities under our operational control for water-related impacts, risks and opportunities. Our
-assessment is based on operating data, technical studies, expert analysis and internal risk management processes. We also use tools
-such as the World Resources Institute's Aqueduct Water Risk Atlas.
-We are limited in our ability to analyse water-related impacts in our upstream and downstream value chain owing to the limited availability
-of data.
-
+We maintain an overview of sites and activities under our operational control for water-related impacts, risks and opportunities. Our assessment is based on operating data, technical studies, expert analysis and internal risk management processes. We also use tools such as the World Resources Institute's Aqueduct Water Risk Atlas. We are limited in our ability to analyse water-related impacts in our upstream and downstream value chain owing to the limited availability of data.
 
 ### Biodiversity and ecosystems
 
-In addition to our requirements for impact assessment, where the significance of potential impacts is assessed using criteria tailored to
-local environmental and socio-economic circumstances, our standards also require us to avoid adverse impacts on biodiversity and ecosystem
-services and, where avoidance cannot be achieved, to mitigate adverse impacts via the mitigation hierarchy.
+In addition to our requirements for impact assessment, where the significance of potential impacts is assessed using criteria tailored to local environmental and socio-economic circumstances, our standards also require us to avoid adverse impacts on biodiversity and ecosystem services and, where avoidance cannot be achieved, to mitigate adverse impacts via the mitigation hierarchy.
 
-We use a variety of internationally recognised assessment tools, such as the Integrated Biodiversity Assessment Tool (IBAT), to guide our
-approach to identifying impacts, risks and opportunities, in combination with analysis of site-level data.
+We use a variety of internationally recognised assessment tools, such as the Integrated Biodiversity Assessment Tool (IBAT), to guide our approach to identifying impacts, risks and opportunities, in combination with analysis of site-level data.
 
-Where we have sites located in or near biodiversity sensitive areas, we implement measures to avoid, minimise, restore or, if necessary,
-compensate for negative impacts on natural habitats or the habitats of species for which a protected area has been designated. If a site is
-located in critical habitat, our standards require us to implement the mitigation hierarchy and achieve net positive impact on biodiversity.
-We follow national or international standards to assess biodiversity impacts and define mitigation measures.
+Where we have sites located in or near biodiversity sensitive areas, we implement measures to avoid, minimise, restore or, if necessary, compensate for negative impacts on natural habitats or the habitats of species for which a protected area has been designated. If a site is located in critical habitat, our standards require us to implement the mitigation hierarchy and achieve net positive impact on biodiversity. We follow national or international standards to assess biodiversity impacts and define mitigation measures.
 
-We consult with local communities and other affected stakeholders throughout the project life cycle on potential impacts of our activities on
-the biological resources, ecosystems and ecosystem services used by them and ways to avoid or minimise such impacts.
+We consult with local communities and other affected stakeholders throughout the project life cycle on potential impacts of our activities on the biological resources, ecosystems and ecosystem services used by them and ways to avoid or minimise such impacts.
 
-We have further work to do to identify and assess dependencies at site locations and in the upstream and downstream value chain. We also
-have further work to do to identify and assess transition and physical risks and systemic risks. We aim to undertake further work to mature
-our understanding of these topics.
+We have further work to do to identify and assess dependencies at site locations and in the upstream and downstream value chain. We also have further work to do to identify and assess transition and physical risks and systemic risks. We aim to undertake further work to mature our understanding of these topics.
 
-We are limited in our ability to analyse biodiversity-related impacts in our upstream and downstream value chain owing to the limited
-availability of data at Group level.
-
+We are limited in our ability to analyse biodiversity-related impacts in our upstream and downstream value chain owing to the limited availability of data at Group level.
 
 ### Resource use and circular economy
 
-We maintain an overview of sites and activities under our operational control for circularity-related impacts, risks and opportunities. Our
-assessment is based on operating data, technical studies, expert analysis and internal risk management processes. We are limited in
-our ability to analyse circularity-related impacts in our upstream and downstream value chain owing to the limited availability of data.
-
+We maintain an overview of sites and activities under our operational control for circularity-related impacts, risks and opportunities. Our assessment is based on operating data, technical studies, expert analysis and internal risk management processes. We are limited in our ability to analyse circularity-related impacts in our upstream and downstream value chain owing to the limited availability of data.
 
 ### Own workforce
 
-We identify actual or potential impacts on our workforce through a variety of means. These include feedback from human resources and
-line managers, feedback from engagement and the Shell People
-Survey, learning from Shell Global Helpline cases and other mechanisms. We identify, assess and manage safety-related risks for
-activities under our operational control as part of our SEAM Standards.
-
+We identify actual or potential impacts on our workforce through a variety of means. These include feedback from human resources and line managers, feedback from engagement and the Shell People Survey, learning from Shell Global Helpline cases and other mechanisms. We identify, assess and manage safety-related risks for activities under our operational control as part of our SEAM Standards.
 
 ### Workers in the value chain
 
-We identify, assess and manage worker welfare-related impacts for activities under our operational control as part of our SEAM Standards.
-We identify, assess and manage impacts for people who work in our supply chain for non-hydrocarbon goods and services as part of our
-enhanced value chain due diligence process.
-
+We identify, assess and manage worker welfare-related impacts for activities under our operational control as part of our SEAM Standards. We identify, assess and manage impacts for people who work in our supply chain for non-hydrocarbon goods and services as part of our enhanced value chain due diligence process.
 
 ### Affected communities
 
-We identify, assess and manage community-related impacts for activities under our operational control as part of our SEAM Standards.
-In addition, we conduct a risk-based annual review of select assets and projects to evaluate the effectiveness of local management of social
-performance, with participation from in-country teams and central experts.
-
+We identify, assess and manage community-related impacts for activities under our operational control as part of our SEAM Standards. In addition, we conduct a risk-based annual review of select assets and projects to evaluate the effectiveness of local management of social performance, with participation from in-country teams and central experts.
 
 ### Ethics and compliance
 
-Shell's Ethics and Compliance Office (SECO) establishes requirements for Shell's businesses and functions, and supports them to identify and
-assess ethics and compliance risks. SECO designs, supports and monitors Shell's ethics and compliance programmes. These are
-supported by legal counsel who monitor external legal and regulatory developments. Shell's businesses and functions are responsible for
-implementing the necessary policies, standards and procedures. Ethics and compliance representatives provide advice and monitor the
-effectiveness of the programme.
+Shell's Ethics and Compliance Office (SECO) establishes requirements for Shell's businesses and functions, and supports them to identify and assess ethics and compliance risks. SECO designs, supports and monitors Shell's ethics and compliance programmes. These are supported by legal counsel who monitor external legal and regulatory developments. Shell's businesses and functions are responsible for implementing the necessary policies, standards and procedures. Ethics and compliance representatives provide advice and monitor the effectiveness of the programme.
 
-Our ethics and compliance policies require Shell's businesses and functions to review the risks associated with anti-bribery and corruption,
-anti-money laundering, facilitation of tax evasion, data privacy and trade compliance, periodically and when there is a significant change
-in business conditions. Many factors influence our exposure to business conduct risks. Shell reviews the exposure of its businesses and functions
-based on a variety of factors including the location, the nature of the activity and the degree of involvement with government officials.
-
+Our ethics and compliance policies require Shell's businesses and functions to review the risks associated with anti-bribery and corruption, anti-money laundering, facilitation of tax evasion, data privacy and trade compliance, periodically and when there is a significant change in business conditions. Many factors influence our exposure to business conduct risks. Shell reviews the exposure of its businesses and functions based on a variety of factors including the location, the nature of the activity and the degree of involvement with government officials.
 
 ### Other methodological notes
 
-We engage with stakeholders on a regular basis concerning our potential business impacts. We have not engaged with stakeholders
-directly on the double materiality assessment, but use feedback from existing communication channels to inform our assessment. We
-reviewed the double materiality assessment with relationship owners for key stakeholder groups to ensure external views are reflected.
+We engage with stakeholders on a regular basis concerning our potential business impacts. We have not engaged with stakeholders directly on the double materiality assessment, but use feedback from existing communication channels to inform our assessment. We reviewed the double materiality assessment with relationship owners for key stakeholder groups to ensure external views are reflected.
 
-Shell's Sustainability Report 2023 was informed by the double materiality principle as set out in the GRI standard and guided by
-topics set out in the GRI and Ipieca standards. This is the first year in which we have applied the process prescribed by the ESRS. We expect
-to review our double materiality assessment on an annual basis.
-
+Shell's Sustainability Report 2023 was informed by the double materiality principle as set out in the GRI standard and guided by topics set out in the GRI and Ipieca standards. This is the first year in which we have applied the process prescribed by the ESRS. We expect to review our double materiality assessment on an annual basis.
 
 ## Disclosure requirements in ESRS covered by the undertaking's sustainability statement (IRO-2)
 
-The following table lists the disclosure requirements covered by the
-Sustainability Statements and the page numbers where the related disclosures can be found. This table excludes disclosure requirements
-and data points that have been assessed as non-material or that are not required for reporting in 2024 under the phase-in provisions of
-the ESRS.
+The following table lists the disclosure requirements covered by the Sustainability Statements and the page numbers where the related disclosures can be found. This table excludes disclosure requirements and data points that have been assessed as non-material or that are not required for reporting in 2024 under the phase-in provisions of the ESRS.
 
-For data points incorporated by reference, we provide the paragraph in the relevant ESRS standard that identifies the data point, a brief
-description of the data point, and the page number where the information can be found in this Report.
-
-
-## Sustainability Statements | ESRS2 General continued
-
+For data points incorporated by reference, we provide the paragraph in the relevant ESRS standard that identifies the data point, a brief description of the data point, and the page number where the information can be found in this Report.
 
 ### Disclosure requirements covered by the Sustainability Statements
-
 
 <table>
 <tr>
@@ -2282,10 +1710,6 @@ description of the data point, and the page number where the information can be 
 <td>§16(a): Targets in support of the Paris Agreement (pages 77, 94 and 102). §16(b): Climate change mitigation actions and decarbonisation levers (pages 102-103). §16(c): Investments and funding to support the transition plan (pages 86-90). §16(f): Capex related to coal, oil and gas (pages 86-90). §16(h): Transition planning, business strategy and financial planning (pages 10-13, 86-90). §16(i): Progress in implementing the transition plan (page 94).</td>
 </tr>
 </table>
-
-
-## Sustainability Statements | ESRS2 General continued
-
 
 <table>
 <tr>
@@ -2419,10 +1843,6 @@ description of the data point, and the page number where the information can be 
 <td></td>
 </tr>
 </table>
-
-
-## Sustainability Statements | ESRS2 General continued
-
 
 <table>
 <tr>
@@ -2594,10 +2014,6 @@ description of the data point, and the page number where the information can be 
 </tr>
 </table>
 
-
-## Sustainability Statements | ESRS2 General continued
-
-
 <table>
 <tr>
 <th>ESRS standard</th>
@@ -2744,15 +2160,9 @@ description of the data point, and the page number where the information can be 
 </tr>
 </table>
 
-
-## Sustainability Statements | ESRS2 General continued
-
-The table below shows data points that derive from other EU legislation as listed in ESRS 2, Appendix B, indicating where the information can be
-found in our report and which are assessed as not material or applicable.
-
+The table below shows data points that derive from other EU legislation as listed in ESRS 2, Appendix B, indicating where the information can be found in our report and which are assessed as not material or applicable.
 
 ### Data points that derive from other EU legislation
-
 
 <table>
 <tr>
@@ -3045,10 +2455,6 @@ found in our report and which are assessed as not material or applicable.
 </tr>
 </table>
 
-
-## Sustainability Statements | ESRS2 General continued
-
-
 <table>
 <tr>
 <th>Disclosure requirement</th>
@@ -3166,111 +2572,61 @@ found in our report and which are assessed as not material or applicable.
 </tr>
 </table>
 
-
-For information about how we have determined the information to be disclosed in relation to material impacts, risks and opportunities, see
-"Description of the process to identify and assess material impacts, risks and opportunities (IRO-1)" on page 354.
-
+For information about how we have determined the information to be disclosed in relation to material impacts, risks and opportunities, see "Description of the process to identify and assess material impacts, risks and opportunities (IRO-1)" on page 354.
 
 ## Environment
 
 ### Climate change (E1)
 
-
 ## We aim to become a net-zero emissions energy business by 2050 and work with our customers across sectors to help accelerate the energy transition.
 
-Our double materiality assessment has identified GHG emissions as a material topic. See "Material impacts, risks and opportunities and their
-interaction with strategy and business model (SBM-3)" on page 351 and "Description of the process to identify and assess material impacts,
-risks and opportunities (IRO-1)" on page 354 for more information.
-
+Our double materiality assessment has identified GHG emissions as a material topic. See "Material impacts, risks and opportunities and their interaction with strategy and business model (SBM-3)" on page 351 and "Description of the process to identify and assess material impacts, risks and opportunities (IRO-1)" on page 354 for more information.
 
 ### Why it matters
 
-The world needs a balanced energy transition, one that maintains secure energy supplies, while accelerating the transition to affordable
-low-carbon solutions. We believe our strategy supports a balanced transition by providing the oil and gas people need today, while
-helping to build the energy system of the future.
-
+The world needs a balanced energy transition, one that maintains secure energy supplies, while accelerating the transition to affordable low-carbon solutions. We believe our strategy supports a balanced transition by providing the oil and gas people need today, while helping to build the energy system of the future.
 
 ### Transition plan for climate change mitigation (E1-1)
 
-Shell's climate change transition plans are delivered through our strategy. This is supported by a suite of processes and greenhouse gas emission
-reduction targets and by an ambition, which cover all of our businesses.
+Shell's climate change transition plans are delivered through our strategy. This is supported by a suite of processes and greenhouse gas emission reduction targets and by an ambition, which cover all of our businesses.
 
-Our strategy incorporates climate change mitigation actions and decarbonisation levers with the aim of generating more value with less
-emissions for the benefit of our shareholders, customers and wider society as we work to become a net-zero emissions energy business by 2050.
-
+Our strategy incorporates climate change mitigation actions and decarbonisation levers with the aim of generating more value with less emissions for the benefit of our shareholders, customers and wider society as we work to become a net-zero emissions energy business by 2050.
 
 ### Targets in support of the Paris Agreement [A]
 
-Shell supports the more ambitious goal of the Paris Agreement, which is to limit the rise in global average temperature this century to 1.5℃
-above pre-industrial levels. We aim to become a net-zero emissions energy business by 2050 and have set targets to reduce our Scope 1
-and 2 emissions and our net carbon intensity (NCI) [B], as well as an ambition to reduce customer emissions from the use of our oil products
-(Scope 3, Category 11).
+Shell supports the more ambitious goal of the Paris Agreement, which is to limit the rise in global average temperature this century to 1.5℃ above pre-industrial levels. We aim to become a net-zero emissions energy business by 2050 and have set targets to reduce our Scope 1 and 2 emissions and our net carbon intensity (NCI) [B], as well as an ambition to reduce customer emissions from the use of our oil products (Scope 3, Category 11).
 
-Most of Shell's GHG emissions reduction targets predate the CSRD and differ from the ESRS boundary and definitions (see "Targets related
-to climate change mitigation and adaptation (E1-4)" on page 371 for more information). They all support the objective of becoming a netzero emissions energy business by 2050 and are an integral part of
-our transition plans.
+Most of Shell's GHG emissions reduction targets predate the CSRD and differ from the ESRS boundary and definitions (see "Targets related to climate change mitigation and adaptation (E1-4)" on page 371 for more information). They all support the objective of becoming a netzero emissions energy business by 2050 and are an integral part of our transition plans.
 
-Our oil products ambition to reduce customer emissions from the use of our oil products by 15-20% by 2030, Scope 3 Category 11 (2021
-baseline) [C], is set on a gross basis. For the different levers of our
-Scope 1 and 2 GHG emissions reduction target, see "Climate change mitigation actions and decarbonisation levers" on page 365, "Drivers
-of absolute Scope 1 and 2 emissions change" on page 94 and
-"Progress towards our Scope 1 and 2 target" on page 102.
+Our oil products ambition to reduce customer emissions from the use of our oil products by 15-20% by 2030, Scope 3 Category 11 (2021 baseline) [C], is set on a gross basis. For the different levers of our Scope 1 and 2 GHG emissions reduction target, see "Climate change mitigation actions and decarbonisation levers" on page 365, "Drivers of absolute Scope 1 and 2 emissions change" on page 94 and "Progress towards our Scope 1 and 2 target" on page 102.
 
-In 2024, our combined Scope 1 and 2 emissions reflected a 2% increase compared to 2023, and a 30% reduction compared to the
-2016 baseline, without the use of voluntary carbon credits, GHG removals or avoided emissions.
+In 2024, our combined Scope 1 and 2 emissions reflected a 2% increase compared to 2023, and a 30% reduction compared to the 2016 baseline, without the use of voluntary carbon credits, GHG removals or avoided emissions.
 
 [A] Acknowledging uncertainty in the pace of change in the energy transition, we have chosen to set interim targets only to 2030.
 
 [B] Shell's NCI is the average intensity, weighted by sales volume, of the energy products sold by Shell.
 
-[C] In March 2024, we set an ambition to reduce absolute emissions related to the use of our oil products by 15-20% by 2030, compared with 2021 (Scope 3 Category 11). Customer
-emissions from the use of our oil products (Scope 3, Category 11) were 517 million tonnes carbon dioxide equivalent (CO2e) in 2023 and 569 million tonnes CO2e in 2021.
+[C] In March 2024, we set an ambition to reduce absolute emissions related to the use of our oil products by 15-20% by 2030, compared with 2021 (Scope 3 Category 11). Customer emissions from the use of our oil products (Scope 3, Category 11) were 517 million tonnes carbon dioxide equivalent (CO2e) in 2023 and 569 million tonnes CO2e in 2021.
 
-Shell's climate-related targets and ambition are set out in the table
-"Climate-related targets and ambition" on page 365. Our targets and ambition are forward-looking based on management's current
-expectations and certain material assumptions and, accordingly, involve risks and uncertainties that could cause actual results,
-performance or events to differ materially from those expressed or implied herein.
+Shell's climate-related targets and ambition are set out in the table "Climate-related targets and ambition" on page 365. Our targets and ambition are forward-looking based on management's current expectations and certain material assumptions and, accordingly, involve risks and uncertainties that could cause actual results, performance or events to differ materially from those expressed or implied herein.
 
-We believe our NCI targets are aligned with the more ambitious goal of the Paris Agreement, which is to limit the rise in global average
-temperature this century to 1.5℃ above pre-industrial levels.
+We believe our NCI targets are aligned with the more ambitious goal of the Paris Agreement, which is to limit the rise in global average temperature this century to 1.5℃ above pre-industrial levels.
 
-As there is no established standard for aligning an energy supplier's decarbonisation targets within the 1.5℃ temperature goal of the
-Paris Agreement, we have derived our NCI targets from scenarios developed for the Sixth Assessment Report of the Intergovernmental
-Panel on Climate Change.
+As there is no established standard for aligning an energy supplier's decarbonisation targets within the 1.5℃ temperature goal of the Paris Agreement, we have derived our NCI targets from scenarios developed for the Sixth Assessment Report of the Intergovernmental Panel on Climate Change.
 
-We start with the complete set of 1.5℃ scenarios and then exclude scenarios which are too reliant on carbon removals or use of bioenergy
-before removing outliers. We then calculate an emissions intensity for each scenario which is comparable to our own NCI. Finally, we
-produce a 1.5℃ pathway based on the reductions in emissions intensity over time. We have chosen to use a range instead of any
-individual scenario to better reflect the uncertainty of the energy transition. We believe that using this pathway to set our targets
-demonstrates that they are aligned with the more ambitious 1.5℃ goal of the Paris Agreement.
+We start with the complete set of 1.5℃ scenarios and then exclude scenarios which are too reliant on carbon removals or use of bioenergy before removing outliers. We then calculate an emissions intensity for each scenario which is comparable to our own NCI. Finally, we produce a 1.5℃ pathway based on the reductions in emissions intensity over time. We have chosen to use a range instead of any individual scenario to better reflect the uncertainty of the energy transition. We believe that using this pathway to set our targets demonstrates that they are aligned with the more ambitious 1.5℃ goal of the Paris Agreement.
 
-For our oil products ambition to reduce customer emissions from the use of our oil products by 15-20% by 2030 compared with 2021 (Scope 3
-Category 11), using the same set of 1.5 ℃ scenarios developed for the
-Sixth Assessment Report, we determined the changes in oil volumes in the energy system. Our reduction percentage is more ambitious than
-the median value of this range and among the more ambitious scenarios. We therefore believe it is compatible with limiting global
-warming to 1.5 C in line with the Paris Agreement.
+For our oil products ambition to reduce customer emissions from the use of our oil products by 15-20% by 2030 compared with 2021 (Scope 3 Category 11), using the same set of 1.5 ℃ scenarios developed for the Sixth Assessment Report, we determined the changes in oil volumes in the energy system. Our reduction percentage is more ambitious than the median value of this range and among the more ambitious scenarios. We therefore believe it is compatible with limiting global warming to 1.5 C in line with the Paris Agreement.
 
-We have set absolute and intensity reduction targets and an ambition for the GHG emissions from our own operations and from the products
-we sell over the short, medium and long term to track our performance.
+We have set absolute and intensity reduction targets and an ambition for the GHG emissions from our own operations and from the products we sell over the short, medium and long term to track our performance.
 
-The NCI metric tracks progress in reducing the overall carbon intensity of the energy products sold by Shell. The NCI measures emissions
-associated with each unit of energy we sell, compared to a 2016 baseline. It reflects changes in sales of oil and gas products, and
-changes in sales of low- and zero-carbon products - such as biofuels and renewable electricity.
+The NCI metric tracks progress in reducing the overall carbon intensity of the energy products sold by Shell. The NCI measures emissions associated with each unit of energy we sell, compared to a 2016 baseline. It reflects changes in sales of oil and gas products, and changes in sales of low- and zero-carbon products - such as biofuels and renewable electricity.
 
-Unlike Scope 1 and 2 emissions, reducing the NCI of the products we sell requires action by both Shell and our customers, with the support
-of governments and policymakers, to create the right conditions for change.
+Unlike Scope 1 and 2 emissions, reducing the NCI of the products we sell requires action by both Shell and our customers, with the support of governments and policymakers, to create the right conditions for change.
 
-Our performance against our disclosed targets and ambition is set out in "Metrics used by Shell to assess climate-related risks and
-opportunities in line with our strategy and risk management process" on page 94. It includes information on how the targets and ambition are
-monitored and reviewed, the metrics used, whether our progress is in line with what we initially planned and an analysis of trends or
-significant changes in our progress towards achieving the targets and ambition.
-
-
-## Sustainability Statements | Environment | Climate change (E1) continued
-
+Our performance against our disclosed targets and ambition is set out in "Metrics used by Shell to assess climate-related risks and opportunities in line with our strategy and risk management process" on page 94. It includes information on how the targets and ambition are monitored and reviewed, the metrics used, whether our progress is in line with what we initially planned and an analysis of trends or significant changes in our progress towards achieving the targets and ambition.
 
 ## Climate-related targets and ambition
-
 
 <table>
 <tr>
@@ -3355,42 +2711,30 @@ significant changes in our progress towards achieving the targets and ambition.
 </tr>
 </table>
 
-
 ## Climate change mitigation actions and decarbonisation levers
 
-Shell's climate mitigation actions and identified decarbonisation levers are embedded in our energy transition plans to support the delivery of
-the absolute and intensity reduction targets and ambition that we have set for GHG emissions from our own operations (Scope 1 and 2) and
-from the products we sell (Scope 3). This covers all our businesses with the aim of reducing emissions from our operations and helping our
-customers transition to cost-competitive and cleaner energy. The actions we are taking include:
+Shell's climate mitigation actions and identified decarbonisation levers are embedded in our energy transition plans to support the delivery of the absolute and intensity reduction targets and ambition that we have set for GHG emissions from our own operations (Scope 1 and 2) and from the products we sell (Scope 3). This covers all our businesses with the aim of reducing emissions from our operations and helping our customers transition to cost-competitive and cleaner energy. The actions we are taking include:
 
 - reducing the GHG emissions from our operations (Scope 1 and 2) by
 improving our energy efficiency, deploying renewable electricity, and reducing methane emissions in our assets and projects;
 
 - growing our LNG business while decarbonising our LNG portfolio
-in two main ways: by growing our portfolio with a lower carbon intensity, and continuing to invest in emissions abatement projects
-to reduce both CO2 and methane emissions;
+in two main ways: by growing our portfolio with a lower carbon intensity, and continuing to invest in emissions abatement projects to reduce both CO2 and methane emissions;
 
 - managing our Integrated Gas and Upstream portfolio to support a
-balanced energy transition by cutting emissions from oil and gas production. Oil production is increasingly from our deep-water
-business which, through innovation, produces higher-margin and lower-carbon barrels; and
+balanced energy transition by cutting emissions from oil and gas production. Oil production is increasingly from our deep-water business which, through innovation, produces higher-margin and lower-carbon barrels; and
 
 - focusing our businesses in Downstream and Renewables and Energy
 Solutions to offer more low-carbon energy solutions, while reducing sales of oil products.
 
-The climate-change mitigation actions we will take and decarbonisation levers we will implement to achieve our targets and ambition will
-depend on the evolution of our asset portfolio and the continued development of technologies which reduce carbon emissions.
+The climate-change mitigation actions we will take and decarbonisation levers we will implement to achieve our targets and ambition will depend on the evolution of our asset portfolio and the continued development of technologies which reduce carbon emissions.
 
-We expect that, on a net portfolio basis, reductions, predominantly from abatement projects including carbon capture and storage and
-electrification, are expected to outweigh increases in our Scope 1 and
-2 emissions from new investments between 2024 and 2030. Our investments in producing low-carbon energy such as biofuels will
-increase our Scope 1 and 2 emissions, while reducing the NCI of the products we sell. Subsequent reductions in our emissions are reflected
-in the decarbonisation levers set out below and reflect an expected path to meeting our target by 2030.
+We expect that, on a net portfolio basis, reductions, predominantly from abatement projects including carbon capture and storage and electrification, are expected to outweigh increases in our Scope 1 and 2 emissions from new investments between 2024 and 2030. Our investments in producing low-carbon energy such as biofuels will increase our Scope 1 and 2 emissions, while reducing the NCI of the products we sell. Subsequent reductions in our emissions are reflected in the decarbonisation levers set out below and reflect an expected path to meeting our target by 2030.
 
 The decarbonisation levers and actions planned to achieve our Scope 1 and 2 GHG emissions reduction target include:
 
 - making portfolio changes such as acquisitions and investments in low
-carbon intensity projects, decommissioning facilities, divesting assets while sustaining our oil production with increasingly lower carbon
-intensity;
+carbon intensity projects, decommissioning facilities, divesting assets while sustaining our oil production with increasingly lower carbon intensity;
 
 - progressing the repurposing of our energy and chemicals parks;
 
@@ -3400,8 +2744,7 @@ intensity;
 
 - developing carbon capture and storage (CCS) for some of our facilities.
 
-If required, we may choose to use high-quality carbon credits to offset any remaining emissions from our operations, in line with the carbon
-mitigation hierarchy of avoid, reduce and compensate.
+If required, we may choose to use high-quality carbon credits to offset any remaining emissions from our operations, in line with the carbon mitigation hierarchy of avoid, reduce and compensate.
 
 The decarbonisation levers and actions planned to achieve our net carbon intensity target include:
 
@@ -3413,67 +2756,38 @@ The decarbonisation levers and actions planned to achieve our net carbon intensi
 
 - increasing sales of low-carbon fuels, such as biofuels;
 
-
 - developing and deploying more CCS; and
 
 - using high-quality carbon credits, such as nature-based solutions,
 to offset remaining carbon emissions.
 
-In addition we plan to reduce the sales of oil products in line with our
-Scope 3, Category 11 ambition.
+In addition we plan to reduce the sales of oil products in line with our Scope 3, Category 11 ambition.
 
-We will continue to reassess our decarbonisation levers over time as part of our Operating Plan process to support the achievement of our
-targets and ambition. For details of the climate mitigation actions taken and decarbonisation levers delivered in 2024 see "Actions and
-resources in relation to climate change policies (E1-3)" on page 370,
-"Progress towards our Scope 1 and 2 target" on pages 102 and "GHG removals and GHG mitigation projects financed through carbon credits
-(E1-7)" on page 375.
-
+We will continue to reassess our decarbonisation levers over time as part of our Operating Plan process to support the achievement of our targets and ambition. For details of the climate mitigation actions taken and decarbonisation levers delivered in 2024 see "Actions and resources in relation to climate change policies (E1-3)" on page 370, "Progress towards our Scope 1 and 2 target" on pages 102 and "GHG removals and GHG mitigation projects financed through carbon credits (E1-7)" on page 375.
 
 ## Investments and funding to support the transition plan
 
-Shell's capital investment and business plans, covering a 10-year cycle, include funding to deliver our 2030 targets and ambition which are
-integral to our strategy to achieve net zero by 2050. See "Actions and resources in relation to climate change policies (E1-3)" on page 370 for
-more information on our investments and funding which support our energy transition plans. In addition, see "Capex Plan assessment" on
-page 380 for an explanation of the key performance indicators of EU taxonomy-aligned capital expenditure (capex) and capex plans, and
-"Investing in the energy transition" on pages 86-90 for details of our short-term capex plans in support of our energy transition plan.
+Shell's capital investment and business plans, covering a 10-year cycle, include funding to deliver our 2030 targets and ambition which are integral to our strategy to achieve net zero by 2050. See "Actions and resources in relation to climate change policies (E1-3)" on page 370 for more information on our investments and funding which support our energy transition plans. In addition, see "Capex Plan assessment" on page 380 for an explanation of the key performance indicators of EU taxonomy-aligned capital expenditure (capex) and capex plans, and "Investing in the energy transition" on pages 86-90 for details of our short-term capex plans in support of our energy transition plan.
 
-Shell allocates capital through an integrated process that considers our aspired portfolio and product mix, hurdle rate (minimum acceptable rate
-of return), emissions impact and other factors, with the aim of taking decisions that balance short-, medium- and long-term business objectives.
+Shell allocates capital through an integrated process that considers our aspired portfolio and product mix, hurdle rate (minimum acceptable rate of return), emissions impact and other factors, with the aim of taking decisions that balance short-, medium- and long-term business objectives.
 
-Energy transition plan operating expenditure (opex) and capex is reported by the main investment categories, such as non-energy products
-and low-carbon energy solutions, as well as by segment. Shell monitors and continues to evolve cash capital and operational expenditure by
-segment and by product group to achieve its targets and ambition.
-
+Energy transition plan operating expenditure (opex) and capex is reported by the main investment categories, such as non-energy products and low-carbon energy solutions, as well as by segment. Shell monitors and continues to evolve cash capital and operational expenditure by segment and by product group to achieve its targets and ambition.
 
 ## Potential locked-in GHG emissions
 
-Shell has not identified potential locked-in GHG emissions to be a significant transition risk. We believe our decarbonisation plans will
-deliver our GHG emissions reduction targets by 2030.
+Shell has not identified potential locked-in GHG emissions to be a significant transition risk. We believe our decarbonisation plans will deliver our GHG emissions reduction targets by 2030.
 
-Shell's business plans, including the impact of our identified decarbonisation levers, cover a 10-year forward-looking period.
-Decarbonisation targets are key to our business planning process.
+Shell's business plans, including the impact of our identified decarbonisation levers, cover a 10-year forward-looking period. Decarbonisation targets are key to our business planning process.
 
-Shell's Operating Plan process identifies opportunities for Scope 1 and
-2 GHG emission reductions from assets and activities under our operational control over the short and medium term which support our
-target to reduce Scope 1 and 2 absolute emissions by 50% by 2030 compared with the 2016 baseline, on a net basis.
+Shell's Operating Plan process identifies opportunities for Scope 1 and 2 GHG emission reductions from assets and activities under our operational control over the short and medium term which support our target to reduce Scope 1 and 2 absolute emissions by 50% by 2030 compared with the 2016 baseline, on a net basis.
 
-Additionally, Shell has identified Scope 3, Category 11 "Use of sold products" to be a significant category of Scope 3 emissions, along
-with categories 1, 3 and 9. See "Targets related to climate change mitigation and adaptation (E1-4)" on page 371 for details of Shell's
-climate-related targets and ambition up to 2030.
-
+Additionally, Shell has identified Scope 3, Category 11 "Use of sold products" to be a significant category of Scope 3 emissions, along with categories 1, 3 and 9. See "Targets related to climate change mitigation and adaptation (E1-4)" on page 371 for details of Shell's climate-related targets and ambition up to 2030.
 
 ## Alignment with the EU Taxonomy
 
-Shell prepares its business and financial plans, including its energy transition plans, using a broader scope than the EU Taxonomy requires.
-See "The EU Taxonomy" on pages 377-390 for information about
-Shell's taxonomy-eligible and taxonomy-aligned activities.
+Shell prepares its business and financial plans, including its energy transition plans, using a broader scope than the EU Taxonomy requires. See "The EU Taxonomy" on pages 377-390 for information about Shell's taxonomy-eligible and taxonomy-aligned activities.
 
-Shell's reporting on capital expenditure aligns with its business segments, which do not correspond to the industry codes contained
-in the Statistical Classification of Economic Activities in the European
-Community (NACE). Under the European Commission's Delegated
-Regulation (EU) 2021/2178, oil and gas production are non-eligible activities. Electricity generation from fossil gaseous fuels is an eligible
-economic activity.
-
+Shell's reporting on capital expenditure aligns with its business segments, which do not correspond to the industry codes contained in the Statistical Classification of Economic Activities in the European Community (NACE). Under the European Commission's Delegated Regulation (EU) 2021/2178, oil and gas production are non-eligible activities. Electricity generation from fossil gaseous fuels is an eligible economic activity.
 
 ## Capex related to coal, oil and gas
 
@@ -3483,85 +2797,56 @@ Shell has assessed its cash capex measure to be the most relevant representation
 
 See "Investing in the energy transition" on pages 86-90 for details of our investments in the oil and gas sector in 2024.
 
-
 ## EU Paris-aligned benchmarks
 
-As Shell derives more than 10% of its total revenues from the exploration, extraction, distribution and refining of oil fuels, we are
-excluded from the EU Paris-aligned benchmarks, in line with the
-European Commission's Delegated Regulation (EU) 2020/1818 (Climate Benchmark Regulation), Article 12.1(e).
-
+As Shell derives more than 10% of its total revenues from the exploration, extraction, distribution and refining of oil fuels, we are excluded from the EU Paris-aligned benchmarks, in line with the European Commission's Delegated Regulation (EU) 2020/1818 (Climate Benchmark Regulation), Article 12.1(e).
 
 ## Transition planning, business strategy and financial planning
 
 Shell's energy transition plans are embedded in and aligned with our strategy and are supported by our financial planning processes.
 
-At Group level, the potential impacts of the energy transition on our business model and strategy are discussed and assessed by the Board
-and the Executive Committee as part of the annual strategic and business planning cycle. This assessment allows us to challenge
-accepted ways of thinking, identify material risks and opportunities, and identify key tensions and trade-offs.
+At Group level, the potential impacts of the energy transition on our business model and strategy are discussed and assessed by the Board and the Executive Committee as part of the annual strategic and business planning cycle. This assessment allows us to challenge accepted ways of thinking, identify material risks and opportunities, and identify key tensions and trade-offs.
 
-Management consideration of different climate change outcomes informs a range of areas, including but not limited to the setting of the
-long-term strategy, business planning, and investment and divestment decisions. The outcomes considered by management vary in relation to
-the extent and pace of the energy transition.
+Management consideration of different climate change outcomes informs a range of areas, including but not limited to the setting of the long-term strategy, business planning, and investment and divestment decisions. The outcomes considered by management vary in relation to the extent and pace of the energy transition.
 
-We regularly update our business plans, commodity and carbon price outlooks, and assumptions as we move towards net-zero emissions by
-2050 [A].
+We regularly update our business plans, commodity and carbon price outlooks, and assumptions as we move towards net-zero emissions by 2050 [A].
 
 [A] We believe our total net absolute emissions peaked in 2018 at 1.7 gigatonnes of carbon dioxide equivalent (GtCO2).
 
-Our strategy reflects our responses to the climate-related risks and opportunities identified and energy transition plans developed. Our
-responses can be summarised as:
+Our strategy reflects our responses to the climate-related risks and opportunities identified and energy transition plans developed. Our responses can be summarised as:
 
 - delivery through our integrated business model;
 
 - decarbonisation of our operations and energy value chains; and
 
 - a focus on demand-driven decarbonisation - recognising that we
-need to work with our customers to identify low-carbon energy solutions for their energy demands in the sectors where we have
-competitive advantages.
+need to work with our customers to identify low-carbon energy solutions for their energy demands in the sectors where we have competitive advantages.
 
-See "Our strategy" on pages 10-13 and "Shell's energy transition plans" on pages 77-93 for more information. See "Targets related to climate
-change mitigation and adaptation (E1-4)" on page 371.
-
+See "Our strategy" on pages 10-13 and "Shell's energy transition plans" on pages 77-93 for more information. See "Targets related to climate change mitigation and adaptation (E1-4)" on page 371.
 
 ## Approval of the transition plan
 
 The Board of Directors has primary oversight of the approval and delivery of Shell's strategy, including its energy transition plans.
 
-The Board is supported by the Sustainability Committee (SUSCO), the Remuneration Committee (REMCO), the Audit and Risk Committee
-(ARC) and the Nomination and Succession Committee (NOMCO). The importance of sustainability means that these committees are informed
-about sustainability, including climate-related matters, as appropriate throughout the year.
+The Board is supported by the Sustainability Committee (SUSCO), the Remuneration Committee (REMCO), the Audit and Risk Committee (ARC) and the Nomination and Succession Committee (NOMCO). The importance of sustainability means that these committees are informed about sustainability, including climate-related matters, as appropriate throughout the year.
 
-The Chief Executive Officer (CEO) has the delegated authority from the
-Board to manage Shell's actions in relation to the Company's strategy. The CEO is assisted on climate-related matters by members of the
-Executive Committee to review and implement Shell's energy transition plans and ensure that such matters are monitored appropriately.
+The Chief Executive Officer (CEO) has the delegated authority from the Board to manage Shell's actions in relation to the Company's strategy. The CEO is assisted on climate-related matters by members of the Executive Committee to review and implement Shell's energy transition plans and ensure that such matters are monitored appropriately.
 
-See "Climate-related risks and opportunities identified by Shell over the short, medium and long term" on pages 80-84 and "Board oversight of
-sustainability including climate-related impacts, risks and opportunities" on pages 127-128.
-
+See "Climate-related risks and opportunities identified by Shell over the short, medium and long term" on pages 80-84 and "Board oversight of sustainability including climate-related impacts, risks and opportunities" on pages 127-128.
 
 ## Progress in implementing the transition plan
 
-Shell's performance and progress in the energy transition is measured with respect to our climate-related targets and ambition, including
-those reflected in the remuneration of senior management and employees.
+Shell's performance and progress in the energy transition is measured with respect to our climate-related targets and ambition, including those reflected in the remuneration of senior management and employees.
 
-See "Integration of sustainability-related performance in incentive schemes (GOV-3)" on page 346 and "Metrics used by Shell to assess
-climate-related risks and opportunities in line with our strategy and risk management process" on page 94 for more details.
+See "Integration of sustainability-related performance in incentive schemes (GOV-3)" on page 346 and "Metrics used by Shell to assess climate-related risks and opportunities in line with our strategy and risk management process" on page 94 for more details.
 
-The targets we have set are used to manage climate-related risks and opportunities as well as our performance and are focused primarily on
-reducing our absolute GHG emissions and our NCI. See "Our climaterelated metrics and targets" on page 93 for details of Shell's progress
-in 2024.
-
+The targets we have set are used to manage climate-related risks and opportunities as well as our performance and are focused primarily on reducing our absolute GHG emissions and our NCI. See "Our climaterelated metrics and targets" on page 93 for details of Shell's progress in 2024.
 
 ## Material impacts, risks and opportunities and their interaction with strategy and business model (ESRS 2 SBM-3)
 
-Shell has identified and assessed the GHG emissions associated with our activities to be material, and climate change and the energy
-transition to be a material risk factor. See "Material impacts, risks and opportunities and their interaction with strategy and business model
-(SBM-3)" on page 351 for more details.
+Shell has identified and assessed the GHG emissions associated with our activities to be material, and climate change and the energy transition to be a material risk factor. See "Material impacts, risks and opportunities and their interaction with strategy and business model (SBM-3)" on page 351 for more details.
 
-We set out in "Description of the process to identify and assess material impacts, risks and opportunities (IRO-1)" on page 354 our process to
-identify and assess material sustainability-related impacts, risks and opportunities. We have identified climate-related risks across four
-components: commercial, regulatory and societal (including litigation) transition risks, and physical risks. We have also identified climaterelated opportunities as part of our risk assessment.
-
+We set out in "Description of the process to identify and assess material impacts, risks and opportunities (IRO-1)" on page 354 our process to identify and assess material sustainability-related impacts, risks and opportunities. We have identified climate-related risks across four components: commercial, regulatory and societal (including litigation) transition risks, and physical risks. We have also identified climaterelated opportunities as part of our risk assessment.
 
 <table>
 <tr>
@@ -3609,9 +2894,7 @@ components: commercial, regulatory and societal (including litigation) transitio
 </tr>
 </table>
 
-
 ## Climate-related opportunities
-
 
 <table>
 <tr>
@@ -3630,106 +2913,58 @@ components: commercial, regulatory and societal (including litigation) transitio
 </tr>
 </table>
 
-
-See "Description of the process to identify and assess material impacts, risks and opportunities (IRO-1)" on page 354, "Climate-related risks and
-opportunities identified by Shell over the short, medium and long term" on pages 80-84 and "Metrics used by Shell to assess climate-related
-impacts, risks and opportunities in line with its strategy and risk management process" on pages 93-106.
-
+See "Description of the process to identify and assess material impacts, risks and opportunities (IRO-1)" on page 354, "Climate-related risks and opportunities identified by Shell over the short, medium and long term" on pages 80-84 and "Metrics used by Shell to assess climate-related impacts, risks and opportunities in line with its strategy and risk management process" on pages 93-106.
 
 ### Current and anticipated effects on business model, value chain, strategy and decision-making
 
-In considering climate change, energy transition variables and the potential direction and pace of transition, we develop internal climaterelated scenarios and evaluate them together with external scenarios.
-Consideration of different climate-change scenarios informs management in a range of areas, including identifying and assessing
-material impacts, risks and opportunities; setting the long-term strategy; performing financial and business planning; and taking investment and
-divestment decisions.
+In considering climate change, energy transition variables and the potential direction and pace of transition, we develop internal climaterelated scenarios and evaluate them together with external scenarios. Consideration of different climate-change scenarios informs management in a range of areas, including identifying and assessing material impacts, risks and opportunities; setting the long-term strategy; performing financial and business planning; and taking investment and divestment decisions.
 
-See "Climate-related risks and opportunities identified by Shell over the short, medium and long term" on pages 80-84 and "Impact of climaterelated risks and opportunities on Shell's businesses, strategy and
-financial planning" on pages 85-86 for more information on how Shell evaluates the impact of material impacts, risks and opportunities on our
-business model, value chain, strategy and decision-making.
-
+See "Climate-related risks and opportunities identified by Shell over the short, medium and long term" on pages 80-84 and "Impact of climaterelated risks and opportunities on Shell's businesses, strategy and financial planning" on pages 85-86 for more information on how Shell evaluates the impact of material impacts, risks and opportunities on our business model, value chain, strategy and decision-making.
 
 ### Current and potential financial effects
 
-A range of current and potential financial effects of climate change and the energy transition on Shell's financial statements are outlined in
-Note 4 to the "Consolidated Financial Statements" on pages 255-265.
+A range of current and potential financial effects of climate change and the energy transition on Shell's financial statements are outlined in Note 4 to the "Consolidated Financial Statements" on pages 255-265.
 
-Note 4 includes sensitivity analysis using various climate-related scenarios for oil and gas prices, chemical and refining margins,
-discount rates and carbon prices. Other financial impacts described in Note 4 include portfolio changes and asset useful life, product
-demand, decommissioning and restoration, deferred tax assets, onerous contracts, dividend resilience and physical risks.
+Note 4 includes sensitivity analysis using various climate-related scenarios for oil and gas prices, chemical and refining margins, discount rates and carbon prices. Other financial impacts described in Note 4 include portfolio changes and asset useful life, product demand, decommissioning and restoration, deferred tax assets, onerous contracts, dividend resilience and physical risks.
 
-Note 4 describes how Shell has considered climate change in key areas of the financial statements and how this translates into the
-valuation of assets and measurement of liabilities. Shell's financial statements are based on reasonable and supportable assumptions
-that represent management's best estimate of the range of economic conditions that may exist in the foreseeable future.
+Note 4 describes how Shell has considered climate change in key areas of the financial statements and how this translates into the valuation of assets and measurement of liabilities. Shell's financial statements are based on reasonable and supportable assumptions that represent management's best estimate of the range of economic conditions that may exist in the foreseeable future.
 
-The current financial effects on Shell's financial position, performance and cash flows of the material climate-related risks and opportunities
-identified include the likelihood of litigation and increased compliance costs. Shell does not consider the identified effects to pose a significant
-risk of material adjustment to the carrying value of assets and liabilities within the next annual reporting period.
-
+The current financial effects on Shell's financial position, performance and cash flows of the material climate-related risks and opportunities identified include the likelihood of litigation and increased compliance costs. Shell does not consider the identified effects to pose a significant risk of material adjustment to the carrying value of assets and liabilities within the next annual reporting period.
 
 ### Carbon costs in Shell's business plan
 
-Shell's business plan includes capital expenditure and operating costs to support the achievement of our Scope 1 and 2 emission reduction
-targets (on a net basis). These include asset-level abatement project costs that drive efficiencies and reduce emissions, the expected costs
-of complying with evolving carbon regulations based on a forecast of
-Shell's equity share of emissions and the cost of offsets for any residual amounts. Methods for estimating costs vary, depending on the nature
-of the cost.
+Shell's business plan includes capital expenditure and operating costs to support the achievement of our Scope 1 and 2 emission reduction targets (on a net basis). These include asset-level abatement project costs that drive efficiencies and reduce emissions, the expected costs of complying with evolving carbon regulations based on a forecast of Shell's equity share of emissions and the cost of offsets for any residual amounts. Methods for estimating costs vary, depending on the nature of the cost.
 
-The total capital expenditure for abatement projects which includes energy efficiency improvements, progressing the repurposing of our
-energy and chemicals parks, CCS facilities and electrification of our facilities included in the 10-year business plan is in excess of $6 billion.
+The total capital expenditure for abatement projects which includes energy efficiency improvements, progressing the repurposing of our energy and chemicals parks, CCS facilities and electrification of our facilities included in the 10-year business plan is in excess of $6 billion.
 
-Total yearly costs in respect of carbon emissions in Shell's business plan gradually increase from $1 billion in 2025 to $5 billion in 2034, using
-our mid-price scenario for carbon costs. Costs for complying with evolving carbon regulations are based on a forecast of Shell's equity
-share of emissions and are included in the business plan at Shell's midprice outlook on a country-by-country basis and represent
-management's best estimate.
+Total yearly costs in respect of carbon emissions in Shell's business plan gradually increase from $1 billion in 2025 to $5 billion in 2034, using our mid-price scenario for carbon costs. Costs for complying with evolving carbon regulations are based on a forecast of Shell's equity share of emissions and are included in the business plan at Shell's midprice outlook on a country-by-country basis and represent management's best estimate.
 
-There is significant uncertainty as to how carbon regulations and costs will develop over the next decades. These will depend on policies set
-by countries and the pace of the energy transition. In accordance with the International Financial Reporting Standards, Shell's financial
-statements are based on reasonable and supportable assumptions that represent management's current best estimate of the economic
-conditions that may arise in the foreseeable future, which is policybased up to 2030 and then based on the mid-price outlook beyond
-2030.
+There is significant uncertainty as to how carbon regulations and costs will develop over the next decades. These will depend on policies set by countries and the pace of the energy transition. In accordance with the International Financial Reporting Standards, Shell's financial statements are based on reasonable and supportable assumptions that represent management's current best estimate of the economic conditions that may arise in the foreseeable future, which is policybased up to 2030 and then based on the mid-price outlook beyond 2030.
 
 See "Carbon price sensitivities" in Note 4 on page 260 for more information.
 
-
 ### Anticipated financial effects from transition risks and potential climate-related opportunities
 
-Shell's financial statements are based on reasonable and supportable assumptions that represent management's best estimate of the range
-of economic conditions that may exist in the foreseeable future.
+Shell's financial statements are based on reasonable and supportable assumptions that represent management's best estimate of the range of economic conditions that may exist in the foreseeable future.
 
-Overall, we mitigate climate-related risks through our strategy to deliver more value with less emissions. With our focus on performance,
-discipline and simplification, we believe that we are positioning ourselves to achieve our financial targets and climate-related targets
-and ambition. Shell will, through its business and financial planning processes, continue to refresh its assessment of the anticipated financial
-impact from the identified material transition and physical risks and potential climate-related opportunities.
+Overall, we mitigate climate-related risks through our strategy to deliver more value with less emissions. With our focus on performance, discipline and simplification, we believe that we are positioning ourselves to achieve our financial targets and climate-related targets and ambition. Shell will, through its business and financial planning processes, continue to refresh its assessment of the anticipated financial impact from the identified material transition and physical risks and potential climate-related opportunities.
 
-However, a number of anticipated and potential effects are set out in Note 4 to the "Consolidated Financial Statements" on page 255.
-This note includes an overview of key assumptions used for financial planning related to climate change and the energy transition in
-addition to details of the sensitivity of carrying values to commodity prices, carbon emission costs, chemical and refining margins, discount
-rates and demand, if different assumptions were applied.
-
+However, a number of anticipated and potential effects are set out in Note 4 to the "Consolidated Financial Statements" on page 255. This note includes an overview of key assumptions used for financial planning related to climate change and the energy transition in addition to details of the sensitivity of carrying values to commodity prices, carbon emission costs, chemical and refining margins, discount rates and demand, if different assumptions were applied.
 
 #### Resilience of our strategy and business model
 
-See "Resilience of Shell's strategy to different climate-related scenarios" on pages 86-90 for information on the resilience of our strategy and
-business model to climate change-related impacts, risks and opportunities. See Note 4 to the "Consolidated Financial Statements"
-on pages 255-265 for information about Shell's financial resilience.
+See "Resilience of Shell's strategy to different climate-related scenarios" on pages 86-90 for information on the resilience of our strategy and business model to climate change-related impacts, risks and opportunities. See Note 4 to the "Consolidated Financial Statements" on pages 255-265 for information about Shell's financial resilience.
 
-Shell's financial strength and access to capital give us the ability to effectively manage climate-related impacts and risks, capture
-opportunities and reshape our portfolio as the energy system transforms. They also allow us to withstand volatility in oil and
-gas markets.
+Shell's financial strength and access to capital give us the ability to effectively manage climate-related impacts and risks, capture opportunities and reshape our portfolio as the energy system transforms. They also allow us to withstand volatility in oil and gas markets.
 
-As we work towards net-zero emissions, we continue to optimise our capital allocation between our business segments. We regularly
-assess the sensitivity of our asset carrying values to carbon pricing, discount rates and commodity price assumptions as part of our efforts
-to track the resilience of Shell's strategy to climate-related risks and opportunities.
+As we work towards net-zero emissions, we continue to optimise our capital allocation between our business segments. We regularly assess the sensitivity of our asset carrying values to carbon pricing, discount rates and commodity price assumptions as part of our efforts to track the resilience of Shell's strategy to climate-related risks and opportunities.
 
-
-As there is no single scenario that underpins our plans, sensitivity analysis has been conducted using a range of key assumptions to
-test the resilience of our asset base.
+As there is no single scenario that underpins our plans, sensitivity analysis has been conducted using a range of key assumptions to test the resilience of our asset base.
 
 The key areas of climate change-related risks that have been subject to sensitivity analysis include:
 
 - For Integrated Gas and Upstream, sensitivity to commodity prices
-and carbon prices has been tested covering the carrying value of goodwill, other intangible assets, property, plant and equipment,
-and joint ventures and associates.
+and carbon prices has been tested covering the carrying value of goodwill, other intangible assets, property, plant and equipment, and joint ventures and associates.
 
 - For Chemicals and Products, sensitivity to chemical margins, refining
 margins and carbon prices has been tested.
@@ -3740,179 +2975,89 @@ expected to be resilient through the energy transition with limited exposure of 
 - Sensitivity to changes in the discount rate applied in impairment
 testing has also been tested.
 
-See Note 4 to the "Consolidated Financial Statements" on pages
-255-265.
+See Note 4 to the "Consolidated Financial Statements" on pages 255-265.
 
-We believe the areas of uncertainty in our resilience analysis are appropriately managed through our energy transition strategy and
-Operating Plan cycle, with relevant mitigating actions considered and portfolio changes enacted. In turn, we demonstrate the resilience of our
-business model and strategy as we adapt to changes in technology, policy, workforce reskilling requirements and customer preferences.
-The scope of our resilience analysis covers all business areas.
+We believe the areas of uncertainty in our resilience analysis are appropriately managed through our energy transition strategy and Operating Plan cycle, with relevant mitigating actions considered and portfolio changes enacted. In turn, we demonstrate the resilience of our business model and strategy as we adapt to changes in technology, policy, workforce reskilling requirements and customer preferences. The scope of our resilience analysis covers all business areas.
 
-Mitigation of physical risks, whether or not related to climate change, is considered and embedded in the design, construction and operation
-of our projects and/or operation of our assets. In the long term, the level of unpredictability is such that the need for investment in climate
-adaptation measures is not immediate. Our forward planning means we are in a position to monitor our assets and determine whether
-there is any need for adaptation action.
+Mitigation of physical risks, whether or not related to climate change, is considered and embedded in the design, construction and operation of our projects and/or operation of our assets. In the long term, the level of unpredictability is such that the need for investment in climate adaptation measures is not immediate. Our forward planning means we are in a position to monitor our assets and determine whether there is any need for adaptation action.
 
-Some investors and financial institutions have been aligning their portfolios to a low-carbon and net-zero world, driven by both
-regulatory and broader stakeholder pressures. A failure to decarbonise in line with investor and lender expectations could have a material
-adverse effect on our ability to access financing for certain types of projects. This could also adversely affect our partners' ability to finance
-their portion of costs, either through equity or debt. Shell has looked, and continues to look, at sustainable financing options while focusing
-on delivering the Group's energy transition strategy as a whole.
+Some investors and financial institutions have been aligning their portfolios to a low-carbon and net-zero world, driven by both regulatory and broader stakeholder pressures. A failure to decarbonise in line with investor and lender expectations could have a material adverse effect on our ability to access financing for certain types of projects. This could also adversely affect our partners' ability to finance their portion of costs, either through equity or debt. Shell has looked, and continues to look, at sustainable financing options while focusing on delivering the Group's energy transition strategy as a whole.
 
-We consider the Group's financial framework to be an appropriate one for an oil and gas company navigating the energy transition.
-We believe our approach is increasingly recognised and understood by investors and financial institutions.
+We consider the Group's financial framework to be an appropriate one for an oil and gas company navigating the energy transition. We believe our approach is increasingly recognised and understood by investors and financial institutions.
 
-In preparing our sensitivity analysis, we have used research from our technology programmes, along with work carried out by the
-International Energy Agency, the Intergovernmental Panel on Climate
-Change and several other external bodies. We have also drawn from the expertise in our own energy security scenarios which were
-published in 2023. Our scenarios are quantified by our World Energy
-Models, which are supplemented with climate analysis done in conjunction with the Massachusetts Institute of Technology.
+In preparing our sensitivity analysis, we have used research from our technology programmes, along with work carried out by the International Energy Agency, the Intergovernmental Panel on Climate Change and several other external bodies. We have also drawn from the expertise in our own energy security scenarios which were published in 2023. Our scenarios are quantified by our World Energy Models, which are supplemented with climate analysis done in conjunction with the Massachusetts Institute of Technology.
 
-Scenarios are not intended to be predictions of likely future events or outcomes and, therefore, are not the basis for Shell's operating plans
-and financial statements.
+Scenarios are not intended to be predictions of likely future events or outcomes and, therefore, are not the basis for Shell's operating plans and financial statements.
 
-See "Resilience of Shell's strategy to different climate-related scenarios" on pages 86-90 and Note 4 to the "Consolidated Financial
-Statements" on pages 255-265.
-
+See "Resilience of Shell's strategy to different climate-related scenarios" on pages 86-90 and Note 4 to the "Consolidated Financial Statements" on pages 255-265.
 
 ### Policies related to climate change mitigation and adaptation (E1-2)
 
 Policies in place to manage material impacts, risks and opportunities related to climate change mitigation and adaptation
 
-Shell's policies for managing climate-related matters are based on the
-Shell Performance Framework (SPF). These policies include Shell's
-Safety, Environment and Asset Management (SEAM) Standards; our
-Carbon Management Framework; carbon pricing; our Greenhouse
-Gas and Energy Management process, policies and controls; and our
-Opportunity Realisation Standard.
+Shell's policies for managing climate-related matters are based on the Shell Performance Framework (SPF). These policies include Shell's Safety, Environment and Asset Management (SEAM) Standards; our Carbon Management Framework; carbon pricing; our Greenhouse Gas and Energy Management process, policies and controls; and our Opportunity Realisation Standard.
 
-We identify, assess and manage climate-related impacts for activities under our operational control as part of our SEAM Standards.
-We expect non-operated joint ventures to adopt appropriate and acceptable policies to manage their risks. See "SEAM Standards"
-on page 130 and "Carbon Management Framework" on page 85 for information.
-
+We identify, assess and manage climate-related impacts for activities under our operational control as part of our SEAM Standards. We expect non-operated joint ventures to adopt appropriate and acceptable policies to manage their risks. See "SEAM Standards" on page 130 and "Carbon Management Framework" on page 85 for information.
 
 ### Policies on climate change mitigation
 
-
 #### Business-level carbon plans
 
-Our policies require our businesses to develop plans that demonstrate a decarbonisation trajectory aligned with carbon budgets allocated
-under the Carbon Management Framework. This includes delivery of applicable targets related to routine flaring and methane. These
-requirements are designed to ensure that our commitments are translated into tangible targets and plans.
+Our policies require our businesses to develop plans that demonstrate a decarbonisation trajectory aligned with carbon budgets allocated under the Carbon Management Framework. This includes delivery of applicable targets related to routine flaring and methane. These requirements are designed to ensure that our commitments are translated into tangible targets and plans.
 
-Our policies require our businesses to determine the targets for carbonsignificant and carbon-critical projects, assets and shipping fleets based
-on future CO2 costs, anticipated GHG emissions including those across value chains, and in a manner that cumulatively delivers GHG
-performance consistent with our climate-related targets and ambition and future aspired portfolio.
+Our policies require our businesses to determine the targets for carbonsignificant and carbon-critical projects, assets and shipping fleets based on future CO2 costs, anticipated GHG emissions including those across value chains, and in a manner that cumulatively delivers GHG performance consistent with our climate-related targets and ambition and future aspired portfolio.
 
 Our policies require businesses to integrate their targets and decarbonisation plans into their annual business plans.
 
-
 #### Greenhouse Gas and Energy Management Plan
 
-Our policies require assets and shipping fleets with total annual GHG emissions of more than 50,000 tonnes to annually update and assure
-a Greenhouse Gas and Energy Management Plan (GHG EMP) which demonstrates planned delivery of their allotment of the business-level
-carbon target. The GHG EMP includes a marginal GHG reduction cost curve, economically assessed using applicable CO2 project screening
-values; a minimum 10-year forecast, or forecast to the end of field life for upstream assets, of anticipated future emission levels; plans
-demonstrating a trajectory to deliver targets related to flaring and methane emissions, where applicable; and a description of risks and
-opportunities in managing and delivering the forecast emissions, including energy efficiency levers and deployment of renewable
-energy. See "Internal carbon pricing (E1-8)" on page 376 for more details of project screening values.
+Our policies require assets and shipping fleets with total annual GHG emissions of more than 50,000 tonnes to annually update and assure a Greenhouse Gas and Energy Management Plan (GHG EMP) which demonstrates planned delivery of their allotment of the business-level carbon target. The GHG EMP includes a marginal GHG reduction cost curve, economically assessed using applicable CO2 project screening values; a minimum 10-year forecast, or forecast to the end of field life for upstream assets, of anticipated future emission levels; plans demonstrating a trajectory to deliver targets related to flaring and methane emissions, where applicable; and a description of risks and opportunities in managing and delivering the forecast emissions, including energy efficiency levers and deployment of renewable energy. See "Internal carbon pricing (E1-8)" on page 376 for more details of project screening values.
 
-Our policies require the outputs of the GHG EMP to be integrated in the annual business plan, operating plans and strategic asset
-management plans, as appropriate.
+Our policies require the outputs of the GHG EMP to be integrated in the annual business plan, operating plans and strategic asset management plans, as appropriate.
 
-Our policies require the Global Process Council for Greenhouse Gas and Energy Management, led by the global process owner for GHG
-and including business and functional experts, to meet regularly to evaluate opportunities for the improvement of the processes, tools,
-communications and capabilities needed by the businesses to achieve our climate-related targets and ambition.
-
+Our policies require the Global Process Council for Greenhouse Gas and Energy Management, led by the global process owner for GHG and including business and functional experts, to meet regularly to evaluate opportunities for the improvement of the processes, tools, communications and capabilities needed by the businesses to achieve our climate-related targets and ambition.
 
 ### Tracking of delivery plans
 
-Our policies require our shipping fleets and assets with total annual
-GHG emissions of more than 50,000 tonnes to track delivery of planned GHG reductions and to communicate any delay, alteration
-or termination of activities in delivering these reductions to the senior executive with single-point accountability for the business concerned.
-
+Our policies require our shipping fleets and assets with total annual GHG emissions of more than 50,000 tonnes to track delivery of planned GHG reductions and to communicate any delay, alteration or termination of activities in delivering these reductions to the senior executive with single-point accountability for the business concerned.
 
 ### Integration of GHGs in project evaluation
 
-Our standards require projects to consider GHG emissions in their evaluation by including a forecast of annual Scope 1, 2 and 3 GHG
-emissions over the life of the project and by applying CO2 project screening values in the base economics and net-zero emission
-abatement curve. The aim of this requirement is to ensure that projects provide a reasonably accurate outlook of their GHG implications
-to inform robust investment decisions in light of Shell's emission reduction commitments.
-
+Our standards require projects to consider GHG emissions in their evaluation by including a forecast of annual Scope 1, 2 and 3 GHG emissions over the life of the project and by applying CO2 project screening values in the base economics and net-zero emission abatement curve. The aim of this requirement is to ensure that projects provide a reasonably accurate outlook of their GHG implications to inform robust investment decisions in light of Shell's emission reduction commitments.
 
 ### Carbon Critical and Carbon Significant Projects
 
-Carbon Critical Projects are opportunities (projects and deals) which are expected to result in an increase or decrease of 200,000 tonnes
-or more of Scope 1 and 2 CO2 equivalent emissions in their peak emissions year, or more than 10 terawatt-hours of power delivered in
-their peak generation year. These thresholds apply on a 100% basis for
-Shell-operated ventures or on an equity share basis for non-operated ventures. Our standards require Carbon Critical Projects to meet the
-GHG-related requirements of Shell's Opportunity Realisation Standard. The aim is to facilitate informed decision-making by identifying potential
-carbon-value trade-offs and carbon-value synergies and contextualising these projects in terms of those with the greatest potential to impact our
-ability to meet our GHG reduction commitments.
+Carbon Critical Projects are opportunities (projects and deals) which are expected to result in an increase or decrease of 200,000 tonnes or more of Scope 1 and 2 CO2 equivalent emissions in their peak emissions year, or more than 10 terawatt-hours of power delivered in their peak generation year. These thresholds apply on a 100% basis for Shell-operated ventures or on an equity share basis for non-operated ventures. Our standards require Carbon Critical Projects to meet the GHG-related requirements of Shell's Opportunity Realisation Standard. The aim is to facilitate informed decision-making by identifying potential carbon-value trade-offs and carbon-value synergies and contextualising these projects in terms of those with the greatest potential to impact our ability to meet our GHG reduction commitments.
 
-Carbon Significant Projects refers to projects, assets or modifications of existing assets which are expected to result in more than 50,000
-tonnes of CO2e total Scope 1 and 2 emissions in their peak emissions year or more than 1 terawatt-hour of power delivered in their
-peak generation year. These thresholds apply on a 100% basis for Shell-operated ventures or on an equity share basis for
-non-operated ventures.
+Carbon Significant Projects refers to projects, assets or modifications of existing assets which are expected to result in more than 50,000 tonnes of CO2e total Scope 1 and 2 emissions in their peak emissions year or more than 1 terawatt-hour of power delivered in their peak generation year. These thresholds apply on a 100% basis for Shell-operated ventures or on an equity share basis for non-operated ventures.
 
-Our standards require Carbon Critical and Carbon Significant Projects to maintain a Greenhouse Gas and Energy Management Plan with
-GHG intensity targets or energy performance targets, or both. The aim is to ensure that projects with significant GHG emissions have targets
-benchmarked beyond the minimum requirements in our performance standards and plans to bring down GHG emissions over time in line
-with business-level reduction targets.
+Our standards require Carbon Critical and Carbon Significant Projects to maintain a Greenhouse Gas and Energy Management Plan with GHG intensity targets or energy performance targets, or both. The aim is to ensure that projects with significant GHG emissions have targets benchmarked beyond the minimum requirements in our performance standards and plans to bring down GHG emissions over time in line with business-level reduction targets.
 
-For Carbon Critical and Carbon Significant Projects, our standards require the Greenhouse Gas and Energy Management Plan to be
-updated at each stage gate of the opportunity realisation process.
+For Carbon Critical and Carbon Significant Projects, our standards require the Greenhouse Gas and Energy Management Plan to be updated at each stage gate of the opportunity realisation process.
 
-Our standards require the plan to include an abatement curve demonstrating the project's approach to achieving net-zero GHG
-emissions; the project's value chain GHG emissions intensity; and a description of how carbon competitiveness has been implemented in
-project development through an evaluation of the greenhouse gas performance of the concept(s) considered. The aim is to ensure that
-project teams consider carbon as early as possible and to ensure it is appropriately considered at each stage gate.
+Our standards require the plan to include an abatement curve demonstrating the project's approach to achieving net-zero GHG emissions; the project's value chain GHG emissions intensity; and a description of how carbon competitiveness has been implemented in project development through an evaluation of the greenhouse gas performance of the concept(s) considered. The aim is to ensure that project teams consider carbon as early as possible and to ensure it is appropriately considered at each stage gate.
 
-Our standards also require Carbon Critical and Carbon Significant
-Projects to meet the applicable performance standard(s) and implement all value-adding abatement options. The aim is to ensure
-that projects that significantly impact Shell's GHG commitments meet a minimum standard of GHG performance, and implement plans to
-further reduce their emissions by leveraging economically feasible
-GHG reduction opportunities.
+Our standards also require Carbon Critical and Carbon Significant Projects to meet the applicable performance standard(s) and implement all value-adding abatement options. The aim is to ensure that projects that significantly impact Shell's GHG commitments meet a minimum standard of GHG performance, and implement plans to further reduce their emissions by leveraging economically feasible GHG reduction opportunities.
 
-Our standards require Carbon Critical Projects to receive documented endorsement from the senior executive with single-point accountability
-for the relevant business and the technical function head for Safety,
-Environment and Asset Management for the project's greenhouse gas and energy management performance target(s) and the project's
-value chain intensity. Our standards require this endorsement at each decision gate within the opportunity realisation process and
-for the project mandate proposal to commit to a project and final investment proposal.
-
+Our standards require Carbon Critical Projects to receive documented endorsement from the senior executive with single-point accountability for the relevant business and the technical function head for Safety, Environment and Asset Management for the project's greenhouse gas and energy management performance target(s) and the project's value chain intensity. Our standards require this endorsement at each decision gate within the opportunity realisation process and for the project mandate proposal to commit to a project and final investment proposal.
 
 ### Policies relevant to climate change adaptation
 
-Mitigation of physical risks, whether or not related to climate change, is considered and embedded in the design and construction of our
-projects and the operation of our assets to help minimise the risk of adverse incidents to our employees and contractors, the environment
-and communities where we operate, and our equipment. Acute and chronic physical risks, regardless of cause, are a key consideration in
-our design and engineering practices and standards.
-
+Mitigation of physical risks, whether or not related to climate change, is considered and embedded in the design and construction of our projects and the operation of our assets to help minimise the risk of adverse incidents to our employees and contractors, the environment and communities where we operate, and our equipment. Acute and chronic physical risks, regardless of cause, are a key consideration in our design and engineering practices and standards.
 
 ### Resourcing our actions
 
-The Executive Vice President for Safety, Environment and Asset
-Management is the most senior executive in Shell with accountability for the development, governance and oversight of the SEAM
-Standards. Leaders of assets, performance units, businesses or functions are accountable for assessing which SEAM Standards are relevant,
-based on their objectives, risk profile and activities, and for implementing those standards as appropriate.
+The Executive Vice President for Safety, Environment and Asset Management is the most senior executive in Shell with accountability for the development, governance and oversight of the SEAM Standards. Leaders of assets, performance units, businesses or functions are accountable for assessing which SEAM Standards are relevant, based on their objectives, risk profile and activities, and for implementing those standards as appropriate.
 
-Implementation of SEAM Standards relevant to climate change mitigation and adaptation is supported by members of Shell's Safety,
-Environment and Asset Management function, which includes subject matter experts across a broad range of greenhouse gas and carbon
-technical specialisms and other disciplines. The requirements of our standards are communicated to people involved with implementation
-through various mechanisms, including internal communication channels, management systems and training, as appropriate.
-
+Implementation of SEAM Standards relevant to climate change mitigation and adaptation is supported by members of Shell's Safety, Environment and Asset Management function, which includes subject matter experts across a broad range of greenhouse gas and carbon technical specialisms and other disciplines. The requirements of our standards are communicated to people involved with implementation through various mechanisms, including internal communication channels, management systems and training, as appropriate.
 
 ## Actions and resources in relation to climate change policies (E1-3)
 
-The scope of the actions described in this section covers Shell companies and joint ventures in which Shell is the operator, unless
-otherwise stated. Many of our actions are of an ongoing nature.
-Horizons for the completion of time-bound actions are indicated where applicable.
+The scope of the actions described in this section covers Shell companies and joint ventures in which Shell is the operator, unless otherwise stated. Many of our actions are of an ongoing nature. Horizons for the completion of time-bound actions are indicated where applicable.
 
-Our actions are intended to help us achieve the desired outcome of our policies and standards by providing resources and expertise that
-support our businesses to implement them in fit-for-purpose ways.
+Our actions are intended to help us achieve the desired outcome of our policies and standards by providing resources and expertise that support our businesses to implement them in fit-for-purpose ways.
 
 The key actions we have taken in 2024 have been designed to deliver our decarbonisation levers in support of our transition plans.
-
 
 We are cutting GHG emissions in our operations to meet our targets, by:
 
@@ -3932,9 +3077,7 @@ and
 
 - growing our LNG business with lower carbon intensity.
 
-Our Downstream and Renewables and Energy Solutions businesses are aimed at offering more low-carbon solutions by progressing the
-repurposing of our refineries into energy and chemicals parks. As part of our approach to the energy transition, we are continuing to develop
-integrated energy hubs to reduce our own emissions and those of the products we sell. This includes:
+Our Downstream and Renewables and Energy Solutions businesses are aimed at offering more low-carbon solutions by progressing the repurposing of our refineries into energy and chemicals parks. As part of our approach to the energy transition, we are continuing to develop integrated energy hubs to reduce our own emissions and those of the products we sell. This includes:
 
 - developing biofuels such as sustainable aviation fuel, renewable diesel
 and renewable natural gas to help our customers decarbonise without having to change their cars, trucks, aeroplanes or ships;
@@ -3943,40 +3086,25 @@ and renewable natural gas to help our customers decarbonise without having to ch
 growing demand;
 
 - making selective investments in renewable power generation,
-batteries and other grid-flexible technologies to decarbonise our own operations and provide low-carbon solutions to our commercial
-and industrial customers in our power business;
+batteries and other grid-flexible technologies to decarbonise our own operations and provide low-carbon solutions to our commercial and industrial customers in our power business;
 
 - continuing to invest in the production of hydrogen as a feedstock for
-synthetic fuels and as an energy carrier for transport and industry to expand the technology and reduce costs so that it becomes an
-available and affordable low-carbon option in the future; and
+synthetic fuels and as an energy carrier for transport and industry to expand the technology and reduce costs so that it becomes an available and affordable low-carbon option in the future; and
 
 - working with governments, customers and partners to unlock the
 potential of carbon capture and storage and carbon removal to reduce emissions where there are few low-carbon alternatives.
 
-Across our businesses, high-quality carbon credits have been and may continue to be used by Shell and its customers to compensate for
-emissions in line with the carbon mitigation hierarchy of avoid, reduce and compensate.
+Across our businesses, high-quality carbon credits have been and may continue to be used by Shell and its customers to compensate for emissions in line with the carbon mitigation hierarchy of avoid, reduce and compensate.
 
-We continue to invest in the research and development, demonstration and commercial deployment of new technologies and products that
-contribute to decarbonisation. We invest in the latest energy technologies through partnerships with start-ups, larger companies
-and leading academic institutions seeking to electrify energy systems, decarbonise transport, gain data-based insights and provide innovative
-customer solutions.
+We continue to invest in the research and development, demonstration and commercial deployment of new technologies and products that contribute to decarbonisation. We invest in the latest energy technologies through partnerships with start-ups, larger companies and leading academic institutions seeking to electrify energy systems, decarbonise transport, gain data-based insights and provide innovative customer solutions.
 
-See "Drivers of absolute Scope 1 and 2 emissions change" on page
-94 and "NCI performance" on page 96 for details of the drivers of change in 2024 and "Energy transition in action - selection of
-portfolio changes and actions in 2024" on page 92 for details of actions taken in 2024. See also "Climate change mitigation actions
-and decarbonisation levers" on page 365 for more information about the decarbonisation levers we have identified to achieve our Scope 1
-and 2 GHG emissions reduction target, our NCI target and Scope 3
-Category 11 GHG emissions ambition; and "Progress towards our
-Scope 1 and 2 target" on pages 102-103 and "Progress towards our NCI target" on page 103 for details of how we expect our
-decarbonisation levers to progress towards our 2030 targets and ambition.
+See "Drivers of absolute Scope 1 and 2 emissions change" on page 94 and "NCI performance" on page 96 for details of the drivers of change in 2024 and "Energy transition in action - selection of portfolio changes and actions in 2024" on page 92 for details of actions taken in 2024. See also "Climate change mitigation actions and decarbonisation levers" on page 365 for more information about the decarbonisation levers we have identified to achieve our Scope 1 and 2 GHG emissions reduction target, our NCI target and Scope 3 Category 11 GHG emissions ambition; and "Progress towards our Scope 1 and 2 target" on pages 102-103 and "Progress towards our NCI target" on page 103 for details of how we expect our decarbonisation levers to progress towards our 2030 targets and ambition.
 
 Engagement and advocacy, directly with governments and indirectly through industry associations and coalitions, is part of our strategy.
 
-Shell engages with governments, regulators and policymakers in different ways to advocate robust policy, legislation and regulation
-in areas where we can best reduce our own emissions and support the decarbonisation of our customers.
+Shell engages with governments, regulators and policymakers in different ways to advocate robust policy, legislation and regulation in areas where we can best reduce our own emissions and support the decarbonisation of our customers.
 
-We have developed and are advocating positions across the transport and industrial sectors, as well as carbon abatement and removal, along
-four key themes:
+We have developed and are advocating positions across the transport and industrial sectors, as well as carbon abatement and removal, along four key themes:
 
 - achieving net-zero emissions - cross-sector policies that support
 the achievement of national net-zero commitments through comprehensive policy frameworks and carbon pricing;
@@ -3985,132 +3113,79 @@ the achievement of national net-zero commitments through comprehensive policy fr
 energy security, such as predictable regulatory frameworks that enable the production of hydrocarbons with lower emissions;
 
 - driving changes in demand - policies that support changes in
-customer demand in transport and industry, such as vehicle standards, mandates for sustainable aviation fuel and a transition
-to low-carbon products; and
+customer demand in transport and industry, such as vehicle standards, mandates for sustainable aviation fuel and a transition to low-carbon products; and
 
 - growing low-carbon solutions - policies that encourage the
-development of low-carbon solutions, including incentives for biofuels, flexibility in feedstock choices, and effective regulatory
-frameworks for hydrogen and CCS.
-
+development of low-carbon solutions, including incentives for biofuels, flexibility in feedstock choices, and effective regulatory frameworks for hydrogen and CCS.
 
 ## Current and future financial and other resources allocated to the action plan
 
-As we work towards net-zero emissions, we continue to optimise our capital allocation and operational expenditure, balancing energy
-security and demand and energy transition opportunities. We recognise that to achieve our strategic targets and ambition of
-generating more value with less GHG emissions, and to effectively manage our risk profile including climate-related risks and
-opportunities, will require significant operational and capital expenditure allocated in our annual budgets and future business plans.
+As we work towards net-zero emissions, we continue to optimise our capital allocation and operational expenditure, balancing energy security and demand and energy transition opportunities. We recognise that to achieve our strategic targets and ambition of generating more value with less GHG emissions, and to effectively manage our risk profile including climate-related risks and opportunities, will require significant operational and capital expenditure allocated in our annual budgets and future business plans.
 
-Shell's capital investment and business plans include funding in support of our short- and medium-term energy transition plans as we work to
-achieve net zero by 2050. See "Investing in the energy transition" on pages 86-90 for more information about Shell's investments and
-funding supporting the implementation of our energy transition plans.
+Shell's capital investment and business plans include funding in support of our short- and medium-term energy transition plans as we work to achieve net zero by 2050. See "Investing in the energy transition" on pages 86-90 for more information about Shell's investments and funding supporting the implementation of our energy transition plans.
 
-Some financial institutions have been aligning their portfolios to a lowcarbon and net-zero world, driven by both regulatory and broader
-stakeholder pressures. Shell's financial strength and access to capital give us the ability to implement our climate change mitigation actions
-and adaptations.
+Some financial institutions have been aligning their portfolios to a lowcarbon and net-zero world, driven by both regulatory and broader stakeholder pressures. Shell's financial strength and access to capital give us the ability to implement our climate change mitigation actions and adaptations.
 
-See "Climate-related commercial risk" on page 81 for more information.
-Shell's capital investment and business plans, covering a 10-year cycle, include funding to deliver our 2030 targets and ambition. See
-"Resilience of Shell's strategy to different climate-related scenarios" on pages 86-90 for more information on our investments and expenditure
-which support our energy transition plans.
+See "Climate-related commercial risk" on page 81 for more information. Shell's capital investment and business plans, covering a 10-year cycle, include funding to deliver our 2030 targets and ambition. See "Resilience of Shell's strategy to different climate-related scenarios" on pages 86-90 for more information on our investments and expenditure which support our energy transition plans.
 
 See "The EU Taxonomy" on page 378 for information about Shell's taxonomy-eligible and taxonomy-aligned activities.
 
-
 ## Targets related to climate change mitigation and adaptation (E1-4)
 
-Information in this section reflects Shell's choice of boundary for its targets and ambition related to climate change mitigation and
-adaptation. See "General basis for preparation of sustainability statements (BP-1)" on page 342 for more information.
-
+Information in this section reflects Shell's choice of boundary for its targets and ambition related to climate change mitigation and adaptation. See "General basis for preparation of sustainability statements (BP-1)" on page 342 for more information.
 
 ## Climate-related targets
 
 As part of its energy transition plans, Shell has set several climaterelated targets and an ambition, most of which predate the CSRD.
 
-
-For detailed information on Shell's climate-related targets and ambition, see "Transition plan for climate change mitigation (E1-1)" on page 364
-and "Our climate-related metrics and targets" on pages 93-106.
+For detailed information on Shell's climate-related targets and ambition, see "Transition plan for climate change mitigation (E1-1)" on page 364 and "Our climate-related metrics and targets" on pages 93-106.
 
 Shell has the following greenhouse gas emission reduction targets and ambition for Scope 1, 2 and 3:
 
 - In March 2024, Shell set an oil products ambition to reduce
-customer emissions from the use of our oil products by 15-20% by 2030, Scope 3 Category 11 (with 2021 the reference year), in
-accordance with the CSRD and the ESRS definition of greenhouse gas emission reduction target. [A]
+customer emissions from the use of our oil products by 15-20% by 2030, Scope 3 Category 11 (with 2021 the reference year), in accordance with the CSRD and the ESRS definition of greenhouse gas emission reduction target. [A]
 
 - In 2021, Shell set a target to halve the emissions from its operations
-(Scope 1) plus the energy it buys to run them (Scope 2) by 2030 compared to 2016 levels on a net basis. This target predates the
-CSRD and differs from the ESRS boundary and definitions. It is a net target and has been set on an operational control boundary in line
-with the Greenhouse Gas Protocol boundaries, and standard practice in the industry standards. The ESRS reporting boundary
-prescribed for Scope 1 and 2 deviates from the GHG Protocol (see
-"General basis for preparation of sustainability statements (BP-1)" on pages 342-344 for more information). In 2024, our combined Scope
-1 and 2 emissions reflected a 2% increase compared to 2023, and a
-30% reduction compared to the 2016 baseline, without the use of voluntary carbon credits, GHG removals or avoided emissions.
+(Scope 1) plus the energy it buys to run them (Scope 2) by 2030 compared to 2016 levels on a net basis. This target predates the CSRD and differs from the ESRS boundary and definitions. It is a net target and has been set on an operational control boundary in line with the Greenhouse Gas Protocol boundaries, and standard practice in the industry standards. The ESRS reporting boundary prescribed for Scope 1 and 2 deviates from the GHG Protocol (see "General basis for preparation of sustainability statements (BP-1)" on pages 342-344 for more information). In 2024, our combined Scope 1 and 2 emissions reflected a 2% increase compared to 2023, and a 30% reduction compared to the 2016 baseline, without the use of voluntary carbon credits, GHG removals or avoided emissions.
 
 - In 2021, Shell also set targets to reduce the net carbon intensity
-(NCI) of the products it sells (see "Targets used by Shell to manage climate-related risks and opportunities and performance against
-targets" on page 101 for more information). These targets also predate the CSRD and differ from the ESRS boundary and definitions. These net intensity targets are based on an equity
-boundary, which deviates from the ESRS boundary and definitions for total GHG emissions.
+(NCI) of the products it sells (see "Targets used by Shell to manage climate-related risks and opportunities and performance against targets" on page 101 for more information). These targets also predate the CSRD and differ from the ESRS boundary and definitions. These net intensity targets are based on an equity boundary, which deviates from the ESRS boundary and definitions for total GHG emissions.
 
-[A] Customer emissions from the use of our oil products (Scope 3, Category 11) were 517 million tonnes carbon dioxide equivalent (CO2e) in 2023 and 569 million tonnes CO2e
-in 2021.
+[A] Customer emissions from the use of our oil products (Scope 3, Category 11) were 517 million tonnes carbon dioxide equivalent (CO2e) in 2023 and 569 million tonnes CO2e in 2021.
 
-Furthermore, in 2021, Shell set a target to become a net-zero energy business by 2050 and is measuring progress towards this target using
-the other targets and ambition referenced in this section. For more information see "Transition plan for climate change mitigation (E1-1)" on
-page 364 and "Targets used by Shell to manage climate-related risks and opportunities and performance against targets" on page 101.
+Furthermore, in 2021, Shell set a target to become a net-zero energy business by 2050 and is measuring progress towards this target using the other targets and ambition referenced in this section. For more information see "Transition plan for climate change mitigation (E1-1)" on page 364 and "Targets used by Shell to manage climate-related risks and opportunities and performance against targets" on page 101.
 
-Shell's target covers the full Scope 1 and 2 emissions and Scope 3 emissions from the energy products we sell. This target also predates
-the CSRD and differs from the CSRD definition of net-zero target. The pace of change in the energy transition is uncertain and there
-are currently no justified sectoral variations in line with recognised external sectoral pathways available.
+Shell's target covers the full Scope 1 and 2 emissions and Scope 3 emissions from the energy products we sell. This target also predates the CSRD and differs from the CSRD definition of net-zero target. The pace of change in the energy transition is uncertain and there are currently no justified sectoral variations in line with recognised external sectoral pathways available.
 
-Shell's Operating Plan, outlook and business plans cover a 10-year forecast period and are updated every year. The business plan reflects
-our Scope 1, Scope 2 and NCI targets over the next 10 years.
-However, Shell's business plans cannot reflect our 2050 net-zero emissions target, as this target is currently outside our planning period.
-Shell's business plan reflects Shell's strategy. We will continue to update our business plan, price outlooks and assumptions as we move
-towards net-zero emissions by 2050.
+Shell's Operating Plan, outlook and business plans cover a 10-year forecast period and are updated every year. The business plan reflects our Scope 1, Scope 2 and NCI targets over the next 10 years. However, Shell's business plans cannot reflect our 2050 net-zero emissions target, as this target is currently outside our planning period. Shell's business plan reflects Shell's strategy. We will continue to update our business plan, price outlooks and assumptions as we move towards net-zero emissions by 2050.
 
-In addition to the above, Shell also set two additional climate-related targets that predate the CSRD: eliminate routine flaring from upstream
-operations by 2025 [B], and maintain methane emissions intensity below 0.2% and achieve near-zero methane emissions by 2030 [C].
+In addition to the above, Shell also set two additional climate-related targets that predate the CSRD: eliminate routine flaring from upstream operations by 2025 [B], and maintain methane emissions intensity below 0.2% and achieve near-zero methane emissions by 2030 [C].
 
-[B] This target was subject to the completion of the sale of The Shell Petroleum Development
-Company of Nigeria Limited (SPDC). With effect from January 1, 2025, SPDC ceased routine flaring. As detailed elsewhere in this report, on March 13, 2025, Shell completed
-the sale of SPDC to Renaissance.
+[B] This target was subject to the completion of the sale of The Shell Petroleum Development Company of Nigeria Limited (SPDC). With effect from January 1, 2025, SPDC ceased routine flaring. As detailed elsewhere in this report, on March 13, 2025, Shell completed the sale of SPDC to Renaissance.
 
 [C] On an intensity basis.
 
-The targets are forward-looking based on management's current expectations and certain material assumptions and, accordingly,
-involve risks and uncertainties that could cause actual results, performance or events to differ materially from those expressed
-or implied in this report.
+The targets are forward-looking based on management's current expectations and certain material assumptions and, accordingly, involve risks and uncertainties that could cause actual results, performance or events to differ materially from those expressed or implied in this report.
 
 More detail on Shell's climate-related targets and ambition can be found in "Transition plan for climate change mitigation (E1-1)" on page
 364. The framework and methodology used to determine our targets
-and ambition are set out in "Targets used by Shell to manage climaterelated risks and opportunities and performance against targets" on
-page 101, recognising that most of Shell's climate-related targets predate the CSRD and differ from the ESRS boundary and definitions.
+and ambition are set out in "Targets used by Shell to manage climaterelated risks and opportunities and performance against targets" on page 101, recognising that most of Shell's climate-related targets predate the CSRD and differ from the ESRS boundary and definitions.
 
 See "Climate-related risks and opportunities identified by Shell over the short, medium and long term" on page 80 for details of the climaterelated risks our targets and ambition are designed to manage.
 
-
 ## Decarbonisation levers
 
-We set out our decarbonisation levers to achieve the absolute and intensity reduction targets and ambition we have set for GHG
-emissions from our own operations (Scope 1 and 2) together with the decarbonisation levers planned to achieve our net carbon intensity
-target and our Scope 3, Category 11 ambition in "Climate change mitigation actions and decarbonisation levers" on page 365.
+We set out our decarbonisation levers to achieve the absolute and intensity reduction targets and ambition we have set for GHG emissions from our own operations (Scope 1 and 2) together with the decarbonisation levers planned to achieve our net carbon intensity target and our Scope 3, Category 11 ambition in "Climate change mitigation actions and decarbonisation levers" on page 365.
 
-See "Progress towards our Scope 1 and 2 target" on page 102 for a summary of the quantitative contributions of our decarbonisation levers
-to achieving our Scope 1 and 2 GHG emissions reduction target and
-"Progress towards our NCI target" on page 103 for a summary of the quantitative contributions of our decarbonisation levers to achieving
-our NCI reduction target.
-
+See "Progress towards our Scope 1 and 2 target" on page 102 for a summary of the quantitative contributions of our decarbonisation levers to achieving our Scope 1 and 2 GHG emissions reduction target and "Progress towards our NCI target" on page 103 for a summary of the quantitative contributions of our decarbonisation levers to achieving our NCI reduction target.
 
 ## Energy consumption and mix (E1-5)
 
-Information in this section reflects the reporting boundary specified by the ESRS except where explicitly stated. See "General basis for
-preparation of sustainability statements (BP-1)" on pages 342-344 for more information.
+Information in this section reflects the reporting boundary specified by the ESRS except where explicitly stated. See "General basis for preparation of sustainability statements (BP-1)" on pages 342-344 for more information.
 
-Energy consumption data in this section refer to primary (thermal) energy, such as the energy content of fuels used to generate electricity,
-steam, heat and mechanical energy. This includes energy from renewable and non-renewable sources.
+Energy consumption data in this section refer to primary (thermal) energy, such as the energy content of fuels used to generate electricity, steam, heat and mechanical energy. This includes energy from renewable and non-renewable sources.
 
-The energy consumption data below reflect the energy generated and purchased by facilities within the scope of the ESRS reporting
-boundary. This boundary differs from the operational control boundary used by Shell to monitor and report energy consumption as reported in
-"GHG emissions and energy consumption data - information provided in accordance with UK regulations" on page 107.
+The energy consumption data below reflect the energy generated and purchased by facilities within the scope of the ESRS reporting boundary. This boundary differs from the operational control boundary used by Shell to monitor and report energy consumption as reported in "GHG emissions and energy consumption data - information provided in accordance with UK regulations" on page 107.
 
 Energy consumed by facilities under our operational control is calculated as follows:
 
@@ -4121,22 +3196,14 @@ multiplying the volume of fuels consumed for energy purposes by their respective
 the energy is calculated using 100% generation efficiency.
 
 - For purchased and consumed electricity from non-renewable sources,
-the energy is calculated using actual electricity purchased, multiplied by country-specific electricity generation efficiency factors from
-International Energy Agency statistics to determine the associated thermal energy expended at the source.
+the energy is calculated using actual electricity purchased, multiplied by country-specific electricity generation efficiency factors from International Energy Agency statistics to determine the associated thermal energy expended at the source.
 
 - Energy for purchased and consumed steam and heat is calculated
-from actual steam and heat purchased, multiplied by a supplierspecific conversion efficiency or by a generic efficiency factor where
-supplier-specific data are not available.
+from actual steam and heat purchased, multiplied by a supplierspecific conversion efficiency or by a generic efficiency factor where supplier-specific data are not available.
 
-
-## Sustainability Statements | Environment | Climate change (E1) continued
-
-The detailed energy consumption data available from assets not operated by Shell vary. When available, the data are used. When not available,
-the data for material assets are estimated based on energy consumption to greenhouse gas ratios for similar types of operated assets.
-
+The detailed energy consumption data available from assets not operated by Shell vary. When available, the data are used. When not available, the data for material assets are estimated based on energy consumption to greenhouse gas ratios for similar types of operated assets.
 
 ## Energy consumption and mix
-
 
 <table>
 <tr>
@@ -4208,12 +3275,9 @@ the data for material assets are estimated based on energy consumption to greenh
 
 [B] Of total energy consumption under operational control in 2024, 99% came from fossil sources and 1% from renewable sources.
 
-
 Energy generated by facilities under Shell's operational control and exported to third parties, including to the power grid, is presented below.
 
-
 ## Renewable and non-renewable energy production [A]
-
 
 <table>
 <tr>
@@ -4236,27 +3300,15 @@ Energy generated by facilities under Shell's operational control and exported to
 
 [A] Operational control boundary. Renewable and non-renewable energy production available for sale (energy produced net of energy consumed through own use).
 
-
 ### Energy intensity based on net revenue
 
-Total energy consumption, used as the numerator, is prepared using the ESRS reporting boundary. This includes a reasonable estimate
-of consumption for consolidated assets not under Shell's operational control where the information was not available.
+Total energy consumption, used as the numerator, is prepared using the ESRS reporting boundary. This includes a reasonable estimate of consumption for consolidated assets not under Shell's operational control where the information was not available.
 
-Net revenue, used as the denominator, corresponds to Revenue as presented in Shell's Consolidated Statement of Income and is prepared
-using the financial control boundary (in line with the International
-Financial Reporting Standards), where 100% revenue is reported for fully consolidated subsidiaries plus the Shell share of revenue
-recognised from joint operations, irrespective of operational control considerations. The numerator therefore differs from the denominator
-due to the inclusion of Shell-operated equity-accounted assets in the
-ESRS reporting boundary.
+Net revenue, used as the denominator, corresponds to Revenue as presented in Shell's Consolidated Statement of Income and is prepared using the financial control boundary (in line with the International Financial Reporting Standards), where 100% revenue is reported for fully consolidated subsidiaries plus the Shell share of revenue recognised from joint operations, irrespective of operational control considerations. The numerator therefore differs from the denominator due to the inclusion of Shell-operated equity-accounted assets in the ESRS reporting boundary.
 
-For 2024, the resulting metric is set out in the table below, recognising the misalignment of boundaries across total energy consumption and
-net revenue. As revenue is expected to fluctuate with oil and gas prices and other factors which are not correlated with energy consumption,
-in our view, the information so calculated does not provide a reliable measure of energy intensity, nor does it permit a realistic comparison
-between reporting entities and over time.
-
+For 2024, the resulting metric is set out in the table below, recognising the misalignment of boundaries across total energy consumption and net revenue. As revenue is expected to fluctuate with oil and gas prices and other factors which are not correlated with energy consumption, in our view, the information so calculated does not provide a reliable measure of energy intensity, nor does it permit a realistic comparison between reporting entities and over time.
 
 ## Energy intensity based on net revenue
-
 
 <table>
 <tr>
@@ -4285,11 +3337,9 @@ between reporting entities and over time.
 
 [B] See "Consolidated Statement of Income" on page 241.
 
-
 ## Gross Scopes 1, 2, 3 and total GHG emissions (E1-6)
 
-We follow the GHG Protocol's Corporate Accounting and Reporting
-Standard, which defines three scopes of GHG emissions:
+We follow the GHG Protocol's Corporate Accounting and Reporting Standard, which defines three scopes of GHG emissions:
 
 - Scope 1: direct GHG emissions from sources under Shell's
 operational control;
@@ -4300,9 +3350,7 @@ energy consumed by Shell assets under operational control; and
 - Scope 3: other indirect GHG emissions, including emissions
 associated with the use of energy products sold by Shell.
 
-
 ## Gross Scope 1, 2, 3 and total GHG emissions [E]
-
 
 <table>
 <tr>
@@ -4390,34 +3438,21 @@ associated with the use of energy products sold by Shell.
 </tr>
 </table>
 
-
-## Sustainability Statements | Environment | Climate change (E1) continued
-
-GHG emissions comprise CO2, methane, nitrous oxide, hydrofluorocarbons, perfluorocarbons, sulphur hexafluoride and nitrogen trifluoride, with CO2 and methane being the most significant
-contributors.
-
+GHG emissions comprise CO2, methane, nitrous oxide, hydrofluorocarbons, perfluorocarbons, sulphur hexafluoride and nitrogen trifluoride, with CO2 and methane being the most significant contributors.
 
 ## Basis of preparation - Scope 1 and 2 emissions
 
-In this section, Scope 1 and 2 emissions are presented in accordance with the ESRS boundary. See "General basis for preparation of
-sustainability statements (BP-1)" on pages 342-344 for more information.
+In this section, Scope 1 and 2 emissions are presented in accordance with the ESRS boundary. See "General basis for preparation of sustainability statements (BP-1)" on pages 342-344 for more information.
 
-Our Scope 1 and 2 GHG emissions inventory was prepared in line with the requirements outlined in ISO 14064-1:2018 Specification with
-Guidance at the Organization Level for Quantification and Reporting of Greenhouse Gas Emissions and Removals and the GHG Protocol's
-Corporate Accounting and Reporting Standard.
+Our Scope 1 and 2 GHG emissions inventory was prepared in line with the requirements outlined in ISO 14064-1:2018 Specification with Guidance at the Organization Level for Quantification and Reporting of Greenhouse Gas Emissions and Removals and the GHG Protocol's Corporate Accounting and Reporting Standard.
 
-In line with external standards, we aggregate our GHG emissions into tonnes of CO2 equivalent by applying global warming potential
-(GWP) factors to non-CO2 GHGs. Factors applied in 2024 were taken from the IPCC's Fifth Assessment Report (AR5) over a 100-year time
-period, as stipulated by the UK Government GHG Conversion Factors for Company Reporting [A].
+In line with external standards, we aggregate our GHG emissions into tonnes of CO2 equivalent by applying global warming potential (GWP) factors to non-CO2 GHGs. Factors applied in 2024 were taken from the IPCC's Fifth Assessment Report (AR5) over a 100-year time period, as stipulated by the UK Government GHG Conversion Factors for Company Reporting [A].
 
-[A] We use GWP factors from AR5 to calculate our emissions, as stipulated by UK regulations which Shell is also subject to. Updates to GWP factors published in AR6, which ESRS
-requires us to use, are immaterial to Shell's GHG inventory.
-
+[A] We use GWP factors from AR5 to calculate our emissions, as stipulated by UK regulations which Shell is also subject to. Updates to GWP factors published in AR6, which ESRS requires us to use, are immaterial to Shell's GHG inventory.
 
 ## Scope 1 emissions
 
-All significant sources were included in our Scope 1 inventory.
-Sources included comprise:
+All significant sources were included in our Scope 1 inventory. Sources included comprise:
 
 - combustion of carbon-containing fuels in stationary equipment
 (e.g. boilers, gas turbines) for energy generation;
@@ -4444,38 +3479,25 @@ to third parties;
 
 - carbon credits.
 
-
 ### Scope 2 emissions
 
-All significant sources were included in our Scope 2 inventory. Sources included comprise indirect emissions from purchased and consumed
-electricity, steam and heat. We did not identify any assets with imported cooling or compressed air used for energy purposes.
+All significant sources were included in our Scope 2 inventory. Sources included comprise indirect emissions from purchased and consumed electricity, steam and heat. We did not identify any assets with imported cooling or compressed air used for energy purposes.
 
-Scope 2 emissions are calculated using the market- and location-based methods separately as defined by the GHG Protocol Scope 2
-Guidance. Scope 2 emissions are presented on a gross basis.
-
+Scope 2 emissions are calculated using the market- and location-based methods separately as defined by the GHG Protocol Scope 2 Guidance. Scope 2 emissions are presented on a gross basis.
 
 ### Basis of preparation - Scope 3 emissions
 
-See "Basis of preparation - Scope 3 emissions" on page 100 for the basis of preparation of the Scope 3 emissions we report on an
-equity basis.
-
+See "Basis of preparation - Scope 3 emissions" on page 100 for the basis of preparation of the Scope 3 emissions we report on an equity basis.
 
 ### Contractual instruments used in relation to Scope 2 GHG emissions
 
-We consider energy to be derived from renewable sources if the origin of the purchased energy is clearly defined in supplier contracts
-including renewable power purchasing agreements and market instruments such as Guarantee of Origin from renewable sources in
-Europe or Renewable Energy Certificates in the USA and Canada.
+We consider energy to be derived from renewable sources if the origin of the purchased energy is clearly defined in supplier contracts including renewable power purchasing agreements and market instruments such as Guarantee of Origin from renewable sources in Europe or Renewable Energy Certificates in the USA and Canada.
 
-The contractual instruments we have used in relation to the purchase of energy, both bundled with energy generation attributes and unbundled
-with energy attribute claims (i.e. rights to claim renewable energy attributes separate from the power purchased), by assets under our
-operational control, are as follows. Information from assets not operated by Shell could not reasonably be estimated in 2024.
-
+The contractual instruments we have used in relation to the purchase of energy, both bundled with energy generation attributes and unbundled with energy attribute claims (i.e. rights to claim renewable energy attributes separate from the power purchased), by assets under our operational control, are as follows. Information from assets not operated by Shell could not reasonably be estimated in 2024.
 
 ### Scope 2 GHG emissions: share and types of contractual instruments [A] [B]
 
-%
-2024
-
+% 2024
 
 <table>
 <tr>
@@ -4488,16 +3510,11 @@ operational control, are as follows. Information from assets not operated by She
 </tr>
 </table>
 
-
 #### Biogenic emissions
 
-CO2 emissions from biogenic feedstocks are set out in the table below. These are not included in the GHG emissions inventory in line with the
-GHG Protocol and ISO 14064-1:2018 requirements. The biogenic emissions not included in Scope 1 and 2 emissions presented below
-are related to facilities under our operational control.
-
+CO2 emissions from biogenic feedstocks are set out in the table below. These are not included in the GHG emissions inventory in line with the GHG Protocol and ISO 14064-1:2018 requirements. The biogenic emissions not included in Scope 1 and 2 emissions presented below are related to facilities under our operational control.
 
 ### Biogenic emissions of CO2 [A]
-
 
 <table>
 <tr>
@@ -4522,30 +3539,17 @@ are related to facilities under our operational control.
 </tr>
 </table>
 
-
 #### GHG intensity based on net revenue
 
-Total GHG emissions, used as the numerator, is prepared as required by the ESRS and reported in the table "Gross Scopes 1, 2, 3 and total
-GHG emissions" on page 373.
+Total GHG emissions, used as the numerator, is prepared as required by the ESRS and reported in the table "Gross Scopes 1, 2, 3 and total GHG emissions" on page 373.
 
-Net revenue, used as the denominator, corresponds to Revenue as presented in Shell's Consolidated Statement of Income and is prepared
-using the financial control boundary (in line with the International
-Financial Reporting Standards), where 100% revenue is reported for fully consolidated subsidiaries plus the Shell share of revenue
-recognised from joint operations, irrespective of operational control considerations.
+Net revenue, used as the denominator, corresponds to Revenue as presented in Shell's Consolidated Statement of Income and is prepared using the financial control boundary (in line with the International Financial Reporting Standards), where 100% revenue is reported for fully consolidated subsidiaries plus the Shell share of revenue recognised from joint operations, irrespective of operational control considerations.
 
-
-The numerator therefore differs from the denominator due to the inclusion of Shell-operated equity-accounted assets in the ESRS
-reporting boundary. Additionally, revenue is expected to fluctuate with oil and gas prices and other factors which are not correlated with
-GHG emissions. As such, in our view, the information so calculated does not provide a reliable measure of energy intensity, nor does it
-permit a realistic comparison between reporting entities and over time.
-Nonetheless, we have prepared the GHG intensity per net revenue metric, recognising the misalignment of boundaries across total GHG
-emissions and revenue.
+The numerator therefore differs from the denominator due to the inclusion of Shell-operated equity-accounted assets in the ESRS reporting boundary. Additionally, revenue is expected to fluctuate with oil and gas prices and other factors which are not correlated with GHG emissions. As such, in our view, the information so calculated does not provide a reliable measure of energy intensity, nor does it permit a realistic comparison between reporting entities and over time. Nonetheless, we have prepared the GHG intensity per net revenue metric, recognising the misalignment of boundaries across total GHG emissions and revenue.
 
 For 2024, the resulting metric is set out in the table below on both a market-based and location-based basis.
 
-
 ### GHG intensity based per net revenue
-
 
 <table>
 <tr>
@@ -4580,17 +3584,11 @@ For 2024, the resulting metric is set out in the table below on both a market-ba
 </tr>
 </table>
 
-
 ## GHG removals and GHG mitigation projects financed through carbon credits (E1-7)
 
-Removal of greenhouse gases refers to the withdrawal of greenhouse gases from the atmosphere as a result of deliberate human activities.
-There are two main types of removal mechanism: enhancement of natural processes that remove carbon from the atmosphere, for
-example through natural carbon sinks, or technical or chemical processes that capture CO2 and sequester it underground. Carbon
-capture and storage is considered a removal mechanism only when it results in "negative emissions", for example when paired with
-technologies like direct air capture.
+Removal of greenhouse gases refers to the withdrawal of greenhouse gases from the atmosphere as a result of deliberate human activities. There are two main types of removal mechanism: enhancement of natural processes that remove carbon from the atmosphere, for example through natural carbon sinks, or technical or chemical processes that capture CO2 and sequester it underground. Carbon capture and storage is considered a removal mechanism only when it results in "negative emissions", for example when paired with technologies like direct air capture.
 
 In 2024, Shell has not used removal mechanisms in its own operations or its upstream and downstream value chain.
-
 
 <table>
 <tr>
@@ -4624,24 +3622,15 @@ In 2024, Shell has not used removal mechanisms in its own operations or its upst
 </tr>
 </table>
 
-
 Shell's Nature Based Solutions business invests in entities and projects, and develops projects that conserve, enhance and restore ecosystems
 - such as forests, grasslands and wetlands - to prevent GHG
-emissions or reduce atmospheric CO2 levels. When these entities and projects begin to issue carbon credits, Shell may choose to participate
-in the offtake of these credits as part of its offsetting activities.
+emissions or reduce atmospheric CO2 levels. When these entities and projects begin to issue carbon credits, Shell may choose to participate in the offtake of these credits as part of its offsetting activities.
 
-Carbon credits may contribute to our aim to become a net-zero emissions energy business by 2050. They may be used by Shell and its
-customers to compensate emissions in line with the carbon mitigation hierarchy of avoid, reduce and compensate.
+Carbon credits may contribute to our aim to become a net-zero emissions energy business by 2050. They may be used by Shell and its customers to compensate emissions in line with the carbon mitigation hierarchy of avoid, reduce and compensate.
 
-We believe that the carbon credits need to have a robust carbon benefit and deliver a positive impact on ecosystems and communities.
-We work closely with local partners to ensure that the carbon credit projects we invest in are of high quality, and are developed and
-certified under credible and independent carbon credit standards. These include the Verra Verified Carbon Standard (VCS) Program,
-Gold Standard carbon offset certification and the ACR carbon crediting programme (formerly American Carbon Registry).
+We believe that the carbon credits need to have a robust carbon benefit and deliver a positive impact on ecosystems and communities. We work closely with local partners to ensure that the carbon credit projects we invest in are of high quality, and are developed and certified under credible and independent carbon credit standards. These include the Verra Verified Carbon Standard (VCS) Program, Gold Standard carbon offset certification and the ACR carbon crediting programme (formerly American Carbon Registry).
 
-We do this to ensure that the carbon credits are real and verifiable, and that issues such as permanence, additionality and leakage have
-been adequately considered. We also buy credits from nature- and technology-based projects developed by others. We carefully source
-and screen the credits we purchase and retire from the market.
-
+We do this to ensure that the carbon credits are real and verifiable, and that issues such as permanence, additionality and leakage have been adequately considered. We also buy credits from nature- and technology-based projects developed by others. We carefully source and screen the credits we purchase and retire from the market.
 
 <table>
 <tr>
@@ -4699,24 +3688,15 @@ and screen the credits we purchase and retire from the market.
 </tr>
 </table>
 
-[A] One carbon credit represents the avoidance or removal of one metric tonne of CO2
-☒ equivalent.
+[A] One carbon credit represents the avoidance or removal of one metric tonne of CO2 ☒ equivalent.
 
+In 2024, Shell accounted for the retirement of 17.3 million carbon credits, of which 16.4 million were related to our NCI (including 2.4 million linked to the sale of energy products).
 
-In 2024, Shell accounted for the retirement of 17.3 million carbon credits, of which 16.4 million were related to our NCI (including
-2.4 million linked to the sale of energy products).
-
-We also buy carbon credits generated by other nature-based projects and by technologies. We carefully source and screen the credits we
-purchase and retire from the market. The use of high-quality carbon credits, if required, is one of the decarbonisation levers available to
-Shell. We may choose to use high-quality carbon credits to offset any remaining emissions from our operations, in line with the carbon
-mitigation hierarchy of avoid, reduce and compensate.
-
+We also buy carbon credits generated by other nature-based projects and by technologies. We carefully source and screen the credits we purchase and retire from the market. The use of high-quality carbon credits, if required, is one of the decarbonisation levers available to Shell. We may choose to use high-quality carbon credits to offset any remaining emissions from our operations, in line with the carbon mitigation hierarchy of avoid, reduce and compensate.
 
 Shell's business plan includes the option to retire a range of high-quality carbon credits in the future, as set out in the table below:
 
-
 ## Range of voluntary carbon credits planned to be retired in the future
-
 
 <table>
 <tr>
@@ -4734,158 +3714,87 @@ Shell's business plan includes the option to retire a range of high-quality carb
 </tr>
 </table>
 
+We will review and update the planned range of voluntary carbon credits to be retired in the future as part of the annual operating plan process. We anticipate that the planned range will fluctuate over time, reflecting the uncertainty of the energy transition.
 
-We will review and update the planned range of voluntary carbon credits to be retired in the future as part of the annual operating plan
-process. We anticipate that the planned range will fluctuate over time, reflecting the uncertainty of the energy transition.
-
-In relation to our 2050 net-zero emissions target, we have no quantitative plans for the use of carbon credits due to the uncertainties
-regarding the pace of the energy transition, customer demand and the related development of our business models in the decades leading up
-to 2050.
-
+In relation to our 2050 net-zero emissions target, we have no quantitative plans for the use of carbon credits due to the uncertainties regarding the pace of the energy transition, customer demand and the related development of our business models in the decades leading up to 2050.
 
 ### Internal carbon pricing (E1-8)
 
-Shell uses shadow prices, called CO2 project screening values (PSVs), to assess the CO2 resilience of all its business activities to potential
-future carbon costs, such as those arising from mandatory emission trading schemes or carbon taxes. PSVs do not consider costs that
-may be applicable to Scope 3 emissions.
+Shell uses shadow prices, called CO2 project screening values (PSVs), to assess the CO2 resilience of all its business activities to potential future carbon costs, such as those arising from mandatory emission trading schemes or carbon taxes. PSVs do not consider costs that may be applicable to Scope 3 emissions.
 
-We consider the potential costs associated with operational GHG emissions when preparing Greenhouse Gas and Energy Management
-Plans for projects and assets, and when evaluating capital projects before a final investment decision. For each region, we have developed
-short-, medium- and long-term estimates of the future costs of carbon. These are reviewed and updated annually. See Note 4 to the
-"Consolidated Financial Statements" on page 255 for further details on our regional cost of carbon estimates and "Policies related to climate
-change mitigation and adaptation (E1-2)" on page 369 for further details of our policies in respect of operational GHG emissions.
+We consider the potential costs associated with operational GHG emissions when preparing Greenhouse Gas and Energy Management Plans for projects and assets, and when evaluating capital projects before a final investment decision. For each region, we have developed short-, medium- and long-term estimates of the future costs of carbon. These are reviewed and updated annually. See Note 4 to the "Consolidated Financial Statements" on page 255 for further details on our regional cost of carbon estimates and "Policies related to climate change mitigation and adaptation (E1-2)" on page 369 for further details of our policies in respect of operational GHG emissions.
 
-Up to 2030, our cost of carbon emission estimates are largely policydriven through emission trading schemes or taxation levied by
-governments, which vary significantly from country to country. Beyond
-2030, when policy predictions are more challenging, our estimates are based on the expected cost of the abatement technologies required to
-meet our 2050 target.
+Up to 2030, our cost of carbon emission estimates are largely policydriven through emission trading schemes or taxation levied by governments, which vary significantly from country to country. Beyond 2030, when policy predictions are more challenging, our estimates are based on the expected cost of the abatement technologies required to meet our 2050 target.
 
-The estimated cost is trending towards $50 or $230 per tonne (RT24), depending on the country, in 2050. See Note 4 to the "Consolidated
-Financial Statements" on page 261 for further details on our regional cost of carbon estimates. See "Carbon pricing" on page 89.
+The estimated cost is trending towards $50 or $230 per tonne (RT24), depending on the country, in 2050. See Note 4 to the "Consolidated Financial Statements" on page 261 for further details on our regional cost of carbon estimates. See "Carbon pricing" on page 89.
 
-Shell's cost of compliance with the emissions trading and related schemes was around $381 million in 2024, as stated in Shell's
-Consolidated Statement of Income for 2024. In 2024, 43% of our
-Scope 1 emissions under operational control were reported by assets covered by regulated emission trading schemes [A].
+Shell's cost of compliance with the emissions trading and related schemes was around $381 million in 2024, as stated in Shell's Consolidated Statement of Income for 2024. In 2024, 43% of our Scope 1 emissions under operational control were reported by assets covered by regulated emission trading schemes [A].
 
 [A] In 2024, Scope 1 emissions covered by regulated emissions trading schemes for facilities not operated by Shell could not be estimated.
 
-
 #### Anticipated financial effects from material physical and transition risks and potential climate-related opportunities (E1-9)
 
-Under the provisions of "Appendix C: List of phased-in Disclosure
-Requirements" to the ESRS, Shell has elected to use the phase-in provisions governing "Anticipated financial effects from material
-physical and transition risks and potential climate-related opportunities (E1-9)" for the first year of preparation of its Sustainability Statements.
+Under the provisions of "Appendix C: List of phased-in Disclosure Requirements" to the ESRS, Shell has elected to use the phase-in provisions governing "Anticipated financial effects from material physical and transition risks and potential climate-related opportunities (E1-9)" for the first year of preparation of its Sustainability Statements.
 
-However, a number of anticipated and potential effects are set out in Note 4 to the "Consolidated Financial Statements" on page 255.
-This note includes an overview of key assumptions used for financial planning related to climate change and the energy transition in
-addition to details of the sensitivity of carrying values to commodity prices, carbon emission costs, chemical and refining margins, discount
-rates and demand, if different assumptions were applied.
-
+However, a number of anticipated and potential effects are set out in Note 4 to the "Consolidated Financial Statements" on page 255. This note includes an overview of key assumptions used for financial planning related to climate change and the energy transition in addition to details of the sensitivity of carrying values to commodity prices, carbon emission costs, chemical and refining margins, discount rates and demand, if different assumptions were applied.
 
 ## The EU Taxonomy
 
-
 ## Introduction
 
-Regulation EU 2020/852 (the "Taxonomy Regulation" or the
-"Taxonomy") is a classification system for determining when an economic activity can be considered environmentally sustainable according to
-European Union (EU) standards. It aims to encourage investment in a low-carbon economy by creating common definitions of sustainability
-and mandatory disclosures to help investors make informed decisions.
+Regulation EU 2020/852 (the "Taxonomy Regulation" or the "Taxonomy") is a classification system for determining when an economic activity can be considered environmentally sustainable according to European Union (EU) standards. It aims to encourage investment in a low-carbon economy by creating common definitions of sustainability and mandatory disclosures to help investors make informed decisions.
 
-Non-financial companies screen their eligible activities against the taxonomy's technical criteria for environmental sustainability and
-minimum safeguards. This allows them to calculate the share of revenue (turnover), capital expenditure (capex) and operating expenditure
-(opex) that can be classified as aligned.
+Non-financial companies screen their eligible activities against the taxonomy's technical criteria for environmental sustainability and minimum safeguards. This allows them to calculate the share of revenue (turnover), capital expenditure (capex) and operating expenditure (opex) that can be classified as aligned.
 
-Shell supports the EU's ambition to achieve net-zero emissions, which aligns with our own target to become a net-zero emissions energy business
-by 2050. We have reported against the taxonomy voluntarily since 2021 because we recognise the importance of increasing transparency about
-how companies are progressing in the energy transition.
+Shell supports the EU's ambition to achieve net-zero emissions, which aligns with our own target to become a net-zero emissions energy business by 2050. We have reported against the taxonomy voluntarily since 2021 because we recognise the importance of increasing transparency about how companies are progressing in the energy transition.
 
-In anticipation of the transposition by the Netherlands of the EU Corporate
-Sustainability Reporting Directive (CSRD) into national law, a key development for Shell in 2024 has been the voluntary implementation of the
-CSRD and the accompanying European Sustainability Reporting Standards (ESRS). This means Shell plc will come fully into scope of the EU Taxonomy
-Regulation upon the transposition of the CSRD by the Netherlands into law. The CSRD extends the EU Taxonomy Regulation's reporting obligation to
-third-country issuers that are listed on European exchanges.
-
+In anticipation of the transposition by the Netherlands of the EU Corporate Sustainability Reporting Directive (CSRD) into national law, a key development for Shell in 2024 has been the voluntary implementation of the CSRD and the accompanying European Sustainability Reporting Standards (ESRS). This means Shell plc will come fully into scope of the EU Taxonomy Regulation upon the transposition of the CSRD by the Netherlands into law. The CSRD extends the EU Taxonomy Regulation's reporting obligation to third-country issuers that are listed on European exchanges.
 
 ## Reporting scope
 
-The taxonomy's reporting scope covers Shell's global business, based on the financial consolidation boundary. Shell's eligible activities
-include elements of our chemicals, power generation and storage, hydrogen, biogas and biofuels, electric vehicle charging, carbon
-capture and storage (CCS) and nature-based solutions (NBS) businesses. Our remaining businesses are non-eligible.
+The taxonomy's reporting scope covers Shell's global business, based on the financial consolidation boundary. Shell's eligible activities include elements of our chemicals, power generation and storage, hydrogen, biogas and biofuels, electric vehicle charging, carbon capture and storage (CCS) and nature-based solutions (NBS) businesses. Our remaining businesses are non-eligible.
 
-The taxonomy's reporting basis differs from that used in our financial statements, which are based on International Financial Reporting
-Standards (IFRS).
+The taxonomy's reporting basis differs from that used in our financial statements, which are based on International Financial Reporting Standards (IFRS).
 
-For example, the taxonomy does not recognise our interests in equityaccounted joint ventures and associates, goodwill, feasibility expenses or
-integrated value chains. These and other differences result in lower reported turnover, capex and opex under the taxonomy compared with
-our other disclosures.
-
+For example, the taxonomy does not recognise our interests in equityaccounted joint ventures and associates, goodwill, feasibility expenses or integrated value chains. These and other differences result in lower reported turnover, capex and opex under the taxonomy compared with our other disclosures.
 
 ## Technical criteria
 
-The taxonomy's technical criteria recognise stringent levels of environmental performance rather than transitional steps or alternative
-pathways. The complexity of the criteria and their reliance on
-EU standards can make the criteria difficult to interpret and apply, especially for activities outside the EU.
-
+The taxonomy's technical criteria recognise stringent levels of environmental performance rather than transitional steps or alternative pathways. The complexity of the criteria and their reliance on EU standards can make the criteria difficult to interpret and apply, especially for activities outside the EU.
 
 ## Eligible and aligned share of Shell's business
 
-In 2024, Shell's eligible turnover was $9,353 million or 3.3% (2023:
-$8,445 million or 2.7%), capex was $3,270 million or 10.6% (2023:
-$6,032 million or 19.2%) and opex was $1,181 million or 24.7% (2023: $1,382 million or 25.9%).
+In 2024, Shell's eligible turnover was $9,353 million or 3.3% (2023: $8,445 million or 2.7%), capex was $3,270 million or 10.6% (2023: $6,032 million or 19.2%) and opex was $1,181 million or 24.7% (2023: $1,382 million or 25.9%).
 
-In 2024, our aligned turnover was $698 million or 0.2% (2023: $542 million or 0.2%), capex was $1,849 million or 6.0% (2023: $4,173
-million or 13.3%) and opex was $114 million or 2.4% (2023: $30 million or 0.6%). Our taxonomy-aligned activities include elements of our
-hydrogen, wind, solar, battery storage, biogas and biofuels, and EV charging businesses, excluding individual assets that are not currently
-aligned with the technical screening criteria.
+In 2024, our aligned turnover was $698 million or 0.2% (2023: $542 million or 0.2%), capex was $1,849 million or 6.0% (2023: $4,173 million or 13.3%) and opex was $114 million or 2.4% (2023: $30 million or 0.6%). Our taxonomy-aligned activities include elements of our hydrogen, wind, solar, battery storage, biogas and biofuels, and EV charging businesses, excluding individual assets that are not currently aligned with the technical screening criteria.
 
-The taxonomy does not provide a complete picture of our low-carbon business. Nevertheless, we support efforts to improve the framework and
-advance climate-related disclosure more broadly. For more information, see "Our journey to net zero" on pages 76-108.
-
+The taxonomy does not provide a complete picture of our low-carbon business. Nevertheless, we support efforts to improve the framework and advance climate-related disclosure more broadly. For more information, see "Our journey to net zero" on pages 76-108.
 
 ## Scope of taxonomy-eligible activities
 
-
 ## The taxonomy framework
 
-The taxonomy establishes technical criteria for environmental sustainability across more than 150 economic activities and six
-environmental objectives.
+The taxonomy establishes technical criteria for environmental sustainability across more than 150 economic activities and six environmental objectives.
 
-An activity is taxonomy-eligible if it is described in a delegated act adopted under the EU Taxonomy Regulation. Such an activity
-is eligible regardless of whether it complies with the technical screening criteria.
+An activity is taxonomy-eligible if it is described in a delegated act adopted under the EU Taxonomy Regulation. Such an activity is eligible regardless of whether it complies with the technical screening criteria.
 
-An activity is taxonomy-aligned if it contributes substantially to one or more environmental objectives, does no significant harm to any of
-the other objectives, is carried out in compliance with minimum human and labour rights safeguards, and complies with the relevant technical
-screening criteria.
+An activity is taxonomy-aligned if it contributes substantially to one or more environmental objectives, does no significant harm to any of the other objectives, is carried out in compliance with minimum human and labour rights safeguards, and complies with the relevant technical screening criteria.
 
-The EU has stated that the taxonomy will develop over time. It notes that the fact that an activity does not contribute substantially to one of
-the EU's environmental objectives does not necessarily mean it is not sustainable. Not all activities with the potential to make a substantial
-contribution to the environmental objectives are yet included in the framework.
-
+The EU has stated that the taxonomy will develop over time. It notes that the fact that an activity does not contribute substantially to one of the EU's environmental objectives does not necessarily mean it is not sustainable. Not all activities with the potential to make a substantial contribution to the environmental objectives are yet included in the framework.
 
 ## Our eligibility and alignment
 
 Our eligible and aligned turnover, capex and opex are presented in the table below.
 
-Eligible turnover increased by $908 million, mainly due to revenues generated from the manufacture of chemicals and plastics. Eligible
-capex decreased by $2,762 million compared to 2023 due to fewer acquisitions of eligible activities in 2024. Eligible opex decreased by
-$201 million, and mainly consisted of operational costs in chemicals and plastics business.
+Eligible turnover increased by $908 million, mainly due to revenues generated from the manufacture of chemicals and plastics. Eligible capex decreased by $2,762 million compared to 2023 due to fewer acquisitions of eligible activities in 2024. Eligible opex decreased by $201 million, and mainly consisted of operational costs in chemicals and plastics business.
 
-Five economic activities were assessed as taxonomy-aligned, including the manufacture of hydrogen, electricity from wind, electricity from
-solar, storage of electricity and infrastructure enabling low-carbon road transport. For a sixth activity, the manufacture of biogas and biofuels, we assessed some elements of our activities as taxonomy-aligned and
-some as non-aligned.
+Five economic activities were assessed as taxonomy-aligned, including the manufacture of hydrogen, electricity from wind, electricity from solar, storage of electricity and infrastructure enabling low-carbon road transport. For a sixth activity, the manufacture of biogas and biofuels, we assessed some elements of our activities as taxonomy-aligned and some as non-aligned.
 
-Aligned turnover increased by $156 million, mainly due to revenues generated by renewable energy and low-carbon road transport
-businesses. Aligned capex decreased by $2,324 million compared to capex reported in 2023 due to fewer acquisitions of eligible activities
-in 2024. Aligned opex increased by $84 million, mainly due to
-Cross Wind Hollandse Kust (noord) offshore wind farm reaching commercial operations.
-
+Aligned turnover increased by $156 million, mainly due to revenues generated by renewable energy and low-carbon road transport businesses. Aligned capex decreased by $2,324 million compared to capex reported in 2023 due to fewer acquisitions of eligible activities in 2024. Aligned opex increased by $84 million, mainly due to Cross Wind Hollandse Kust (noord) offshore wind farm reaching commercial operations.
 
 ## Basis of preparation
 
-Shell seeks to prepare its disclosure in accordance with Delegated
-Regulation EU 2021/2178 (the "Disclosures Delegated Act") as well as several Commission Notices containing answers to frequently asked
-questions about taxonomy reporting issued between 2021 and 2024.
+Shell seeks to prepare its disclosure in accordance with Delegated Regulation EU 2021/2178 (the "Disclosures Delegated Act") as well as several Commission Notices containing answers to frequently asked questions about taxonomy reporting issued between 2021 and 2024.
 
 Shell has adopted a three-step process to prepare its taxonomy disclosure:
 
@@ -4900,15 +3809,9 @@ the screening results.
 
 Each step is discussed below.
 
-
 ## Identification of eligible activities
 
-Shell has assessed its business against the economic activities qualifying for the taxonomy's six environmental objectives. These
-include the activities listed in Delegated Regulation EU 2021/2139 (the
-"Climate Delegated Act", as amended), the gas-related activities listed in Delegated Regulation EU 2022/1214 (the "Complementary Climate
-Delegated Act") and the activities listed in Delegated Regulation EU
-2023/2486 (the "Environmental Delegated Act").
-
+Shell has assessed its business against the economic activities qualifying for the taxonomy's six environmental objectives. These include the activities listed in Delegated Regulation EU 2021/2139 (the "Climate Delegated Act", as amended), the gas-related activities listed in Delegated Regulation EU 2022/1214 (the "Complementary Climate Delegated Act") and the activities listed in Delegated Regulation EU 2023/2486 (the "Environmental Delegated Act").
 
 <table>
 <tr>
@@ -4995,34 +3898,19 @@ Delegated Act") and the activities listed in Delegated Regulation EU
 </tr>
 </table>
 
+The taxonomy does not provide criteria for determining when an economic activity is in scope for reporting. According to EU guidance, an economic activity takes place when resources - such as capital, goods, labour, manufacturing techniques or intermediary products - are combined to produce specific goods or services. Based on this definition, Shell treats economic activities as in scope for reporting if they correspond to final goods or services offered for sale to customers, or if they are intended to be offered for sale in the future, based on current business plans. We do not report on factors of production or overheads, such as real estate or IT, since these do not represent a final good or service. We also do not report on activities which are immaterial to our results and are not intended to operate as standalone businesses, such as sales of waste heat or electricity from refineries and chemical plants.
 
-The taxonomy does not provide criteria for determining when an economic activity is in scope for reporting. According to EU guidance,
-an economic activity takes place when resources - such as capital, goods, labour, manufacturing techniques or intermediary products -
-are combined to produce specific goods or services. Based on this definition, Shell treats economic activities as in scope for reporting if
-they correspond to final goods or services offered for sale to customers, or if they are intended to be offered for sale in the future, based on
-current business plans. We do not report on factors of production or overheads, such as real estate or IT, since these do not represent
-a final good or service. We also do not report on activities which are immaterial to our results and are not intended to operate as standalone businesses, such as sales of waste heat or electricity from
-refineries and chemical plants.
-
-For 2024, we identified a total of 13 economic activities as eligible for reporting. Although we screen our activities against all applicable
-environmental objectives, the discussion of our performance against the technical screening criteria focuses on the climate mitigation objective.
-
+For 2024, we identified a total of 13 economic activities as eligible for reporting. Although we screen our activities against all applicable environmental objectives, the discussion of our performance against the technical screening criteria focuses on the climate mitigation objective.
 
 ## Alignment screening
 
-Shell has developed an internal process to assess its eligible activities for alignment with the technical screening criteria and minimum
-safeguards. This is based on our understanding of the requirements of the Disclosures Delegated Act.
+Shell has developed an internal process to assess its eligible activities for alignment with the technical screening criteria and minimum safeguards. This is based on our understanding of the requirements of the Disclosures Delegated Act.
 
-For each eligible activity, we begin by identifying the assets in scope for reporting. An asset is typically a discrete element of physical plant
-or equipment that contributes to an economic activity, such as a chemical plant or a wind farm, or a project in development that is
-intended to become an asset in the future.
+For each eligible activity, we begin by identifying the assets in scope for reporting. An asset is typically a discrete element of physical plant or equipment that contributes to an economic activity, such as a chemical plant or a wind farm, or a project in development that is intended to become an asset in the future.
 
-Once the assets for each activity have been defined, we review the
-Substantial Contribution and Do No Significant Harm criteria and proceed to screen the assets. Screening is carried out by subject
-matter experts and subject to cross-checking at various levels.
+Once the assets for each activity have been defined, we review the Substantial Contribution and Do No Significant Harm criteria and proceed to screen the assets. Screening is carried out by subject matter experts and subject to cross-checking at various levels.
 
-The technical criteria are highly detailed, with extensive references to European standards and regulations, which are not widely used
-outside the region. Applying them poses several challenges including:
+The technical criteria are highly detailed, with extensive references to European standards and regulations, which are not widely used outside the region. Applying them poses several challenges including:
 - where it is difficult to translate EU standards or regulations to a nonEU context;
 
 - where Shell is materially aligned with a complex technical standard
@@ -5036,112 +3924,57 @@ than the one implied by the activity description.
 
 These situations require us to apply judgement in determining whether the criteria are met.
 
-Sometimes it is not possible to associate eligible turnover, capex or opex with a specific asset. For example, this can happen when we incur
-research and development expenses for an activity but the expenditure cannot be tied to a specific project for screening purposes. If alignment
-cannot be reasonably established according to our alignment screening process, the relevant amounts are classified as eligible
-but non-aligned.
+Sometimes it is not possible to associate eligible turnover, capex or opex with a specific asset. For example, this can happen when we incur research and development expenses for an activity but the expenditure cannot be tied to a specific project for screening purposes. If alignment cannot be reasonably established according to our alignment screening process, the relevant amounts are classified as eligible but non-aligned.
 
-Situations can arise where we may not be able to screen all assets in scope of an activity. This can occur when an activity contains a large
-number of early-stage projects and it is more efficient to focus on the most material projects and treat the remaining ones as eligible but
-non-aligned. This situation can also arise when assets are acquired late in the reporting cycle and there is insufficient time to conduct a
-technical screening, or when it has not been possible to obtain information about a non-operated asset from joint-venture partners. Such assets are treated as eligible but non-aligned by default.
+Situations can arise where we may not be able to screen all assets in scope of an activity. This can occur when an activity contains a large number of early-stage projects and it is more efficient to focus on the most material projects and treat the remaining ones as eligible but non-aligned. This situation can also arise when assets are acquired late in the reporting cycle and there is insufficient time to conduct a technical screening, or when it has not been possible to obtain information about a non-operated asset from joint-venture partners. Such assets are treated as eligible but non-aligned by default.
 
-Assets that do not have eligible turnover, capex or opex to report are non-eligible and are not subject to technical screening. In practice,
-many early-stage projects are non-eligible because they have no turnover or capex to report, while feasibility expenditures incurred
-prior to a final investment decision (FID) are considered non-eligible under the taxonomy's definition of opex. Technical screening outcomes
-described in this disclosure apply only to eligible assets that have been screened in 2024.
+Assets that do not have eligible turnover, capex or opex to report are non-eligible and are not subject to technical screening. In practice, many early-stage projects are non-eligible because they have no turnover or capex to report, while feasibility expenditures incurred prior to a final investment decision (FID) are considered non-eligible under the taxonomy's definition of opex. Technical screening outcomes described in this disclosure apply only to eligible assets that have been screened in 2024.
 
-Where some assets or products in scope of an economic activity are assessed as fully aligned with the technical screening criteria while
-others are not, an allocation method is applied so that only the aligned portion is included. For example, this can occur when some biofuels
-or biogas production is assessed as taxonomy-aligned and some is assessed as non-aligned.
+Where some assets or products in scope of an economic activity are assessed as fully aligned with the technical screening criteria while others are not, an allocation method is applied so that only the aligned portion is included. For example, this can occur when some biofuels or biogas production is assessed as taxonomy-aligned and some is assessed as non-aligned.
 
-Where there is uncertainty with regard to how to interpret or apply any of the technical screening criteria in our alignment screening process,
-the relevant assets are assessed as non-aligned. In such cases, we intend to monitor future developments and update our approach
-as appropriate.
-
+Where there is uncertainty with regard to how to interpret or apply any of the technical screening criteria in our alignment screening process, the relevant assets are assessed as non-aligned. In such cases, we intend to monitor future developments and update our approach as appropriate.
 
 ### Substantial Contribution
 
-The taxonomy's Substantial Contribution criteria are designed to ensure that an economic activity either has a substantial positive impact on
-one of the environmental objectives or substantially reduces negative impacts on the environment. The criteria vary from activity to activity.
+The taxonomy's Substantial Contribution criteria are designed to ensure that an economic activity either has a substantial positive impact on one of the environmental objectives or substantially reduces negative impacts on the environment. The criteria vary from activity to activity.
 
-Shell screened its eligible economic activities against all relevant environmental objectives. For five activities, assets in scope for
-screening were assessed as aligned with the Substantial Contribution criteria for climate mitigation, including solar, wind, hydrogen
-manufacturing, storage of electricity and infrastructure enabling lowcarbon road transport. For a sixth activity, manufacture of biogas and
-biofuels, some elements were assessed as aligned and some as nonaligned, based on the proportion of feedstock meeting the Substantial
-Contribution criteria.
+Shell screened its eligible economic activities against all relevant environmental objectives. For five activities, assets in scope for screening were assessed as aligned with the Substantial Contribution criteria for climate mitigation, including solar, wind, hydrogen manufacturing, storage of electricity and infrastructure enabling lowcarbon road transport. For a sixth activity, manufacture of biogas and biofuels, some elements were assessed as aligned and some as nonaligned, based on the proportion of feedstock meeting the Substantial Contribution criteria.
 
-Assets in scope for our remaining activities were assessed as nonaligned. For two activities, alignment could not be established due to
-uncertainty about how to interpret and apply the technical screening criteria. This was the case for carbon transport and storage, where
-there are questions as to whether local standards are equivalent to the international and EU standards referenced by the criteria, and
-for conservation forestry, where the technical criteria differ from internationally recognised carbon credit standards.
-
+Assets in scope for our remaining activities were assessed as nonaligned. For two activities, alignment could not be established due to uncertainty about how to interpret and apply the technical screening criteria. This was the case for carbon transport and storage, where there are questions as to whether local standards are equivalent to the international and EU standards referenced by the criteria, and for conservation forestry, where the technical criteria differ from internationally recognised carbon credit standards.
 
 ### Do No Significant Harm
 
-The taxonomy's Do No Significant Harm (DNSH) criteria are designed to ensure that an economic activity does not impede other
-environmental objectives being reached. The combination of the
-Substantial Contribution and Do No Significant Harm criteria is intended to ensure coherence between the taxonomy's objectives and
-to avoid progress towards one objective being made at the expense of another.
+The taxonomy's Do No Significant Harm (DNSH) criteria are designed to ensure that an economic activity does not impede other environmental objectives being reached. The combination of the Substantial Contribution and Do No Significant Harm criteria is intended to ensure coherence between the taxonomy's objectives and to avoid progress towards one objective being made at the expense of another.
 
-The DNSH criteria for activities contributing to climate change mitigation include detailed requirements for climate change adaptation, water,
-circular economy, pollution prevention and biodiversity. The criteria vary for each environmental objective and activity.
+The DNSH criteria for activities contributing to climate change mitigation include detailed requirements for climate change adaptation, water, circular economy, pollution prevention and biodiversity. The criteria vary for each environmental objective and activity.
 
-Shell screened its eligible economic activities against all relevant environmental objectives. For five activities, assets in scope for
-screening were assessed as aligned with the DNSH criteria for climate
+Shell screened its eligible economic activities against all relevant environmental objectives. For five activities, assets in scope for screening were assessed as aligned with the DNSH criteria for climate
 
+mitigation, including solar, wind, hydrogen manufacturing, storage of electricity and infrastructure enabling low-carbon road transport. Some elements of our manufacture of biogas and biofuels activities were assessed as aligned and some as non-aligned.
 
-mitigation, including solar, wind, hydrogen manufacturing, storage of electricity and infrastructure enabling low-carbon road transport. Some
-elements of our manufacture of biogas and biofuels activities were assessed as aligned and some as non-aligned.
+In 2024, we continued to review physical climate risks for our eligible activities in line with the requirements of the Generic criteria for Do No Significant Harm to Climate Change Adaptation (Appendix A). The review of the eligible activities followed the approach set out in "Climate-related physical risks" on page 138.
 
-In 2024, we continued to review physical climate risks for our eligible activities in line with the requirements of the Generic criteria for Do No
-Significant Harm to Climate Change Adaptation (Appendix A). The review of the eligible activities followed the approach set out in
-"Climate-related physical risks" on page 138.
+In assessing alignment with the DNSH criteria, we were required to apply judgement to our electric vehicle charging activities. Electric vehicle charging is referenced by multiple economic activities in the taxonomy, each of which has a different set of technical screening criteria. There is a lack of consensus in the market about which one to apply to different electrical vehicle charging business models. Shell categorised all its electric vehicle charging businesses under the activity with the most stringent criteria, "6.15 Infrastructure Enabling LowCarbon Road Transport and Public Transport".
 
-In assessing alignment with the DNSH criteria, we were required to apply judgement to our electric vehicle charging activities. Electric
-vehicle charging is referenced by multiple economic activities in the taxonomy, each of which has a different set of technical screening
-criteria. There is a lack of consensus in the market about which one to apply to different electrical vehicle charging business models. Shell
-categorised all its electric vehicle charging businesses under the activity with the most stringent criteria, "6.15 Infrastructure Enabling LowCarbon Road Transport and Public Transport".
+For this activity, we assessed the DNSH criteria for waste management to be more applicable to medium- or large-scale infrastructure projects than to distributed, small-scale electric vehicle charging infrastructure with a small construction footprint. Our operating standards for electric vehicle charging include measures to limit waste generation and encourage re-use and recycling, which we assess as materially equivalent.
 
-For this activity, we assessed the DNSH criteria for waste management to be more applicable to medium- or large-scale infrastructure projects
-than to distributed, small-scale electric vehicle charging infrastructure with a small construction footprint. Our operating standards for electric
-vehicle charging include measures to limit waste generation and encourage re-use and recycling, which we assess as materially
-equivalent.
-
-Our remaining eligible activities were assessed as non-aligned with one or more of the DNSH criteria. In several cases, we assessed ourselves
-as non-aligned due to uncertainty about how to interpret various aspects of the technical screening criteria.
-
+Our remaining eligible activities were assessed as non-aligned with one or more of the DNSH criteria. In several cases, we assessed ourselves as non-aligned due to uncertainty about how to interpret various aspects of the technical screening criteria.
 
 ### Minimum safeguards
 
-The taxonomy defines the minimum safeguards as procedures implemented by a company to ensure alignment with the OECD
-Guidelines for Multinational Enterprises and the UN Guiding Principles on Business and Human Rights, including the eight fundamental
-conventions identified in the Declaration of the International Labour
-Organisation on Fundamental Principles and Rights at Work and the
-International Bill of Human Rights.
+The taxonomy defines the minimum safeguards as procedures implemented by a company to ensure alignment with the OECD Guidelines for Multinational Enterprises and the UN Guiding Principles on Business and Human Rights, including the eight fundamental conventions identified in the Declaration of the International Labour Organisation on Fundamental Principles and Rights at Work and the International Bill of Human Rights.
 
-Respect for human rights is embedded in the Shell General
-Business Principles and our Code of Conduct. We have an integrated approach to human rights that is embedded into our policies and
-processes, which are applicable to all employees and contractors. This approach is informed by the UN Guiding Principles on Business
-and Human Rights.
+Respect for human rights is embedded in the Shell General Business Principles and our Code of Conduct. We have an integrated approach to human rights that is embedded into our policies and processes, which are applicable to all employees and contractors. This approach is informed by the UN Guiding Principles on Business and Human Rights.
 
-We assessed our taxonomy-eligible activities as compliant with the minimum safeguards [A]. See "Human Rights" on page 121 for more
-information.
-
+We assessed our taxonomy-eligible activities as compliant with the minimum safeguards [A]. See "Human Rights" on page 121 for more information.
 
 ### Capex Plan assessment
 
-As specified in the Disclosures Delegated Act, capex and opex can be treated as aligned when such expenditures form part of a Capex Plan
-aimed at expanding an aligned activity or upgrading an eligible activity to enable it to become aligned.
+As specified in the Disclosures Delegated Act, capex and opex can be treated as aligned when such expenditures form part of a Capex Plan aimed at expanding an aligned activity or upgrading an eligible activity to enable it to become aligned.
 
-To qualify, a Capex Plan must be approved by management and disclosed at the economic activity aggregated level. The expansion
-or upgrade must take place within five years unless a longer period is justified by the specific features of the activity and the upgrade
-concerned. This can be up to a maximum of 10 years. The justification for a longer transition period must feature in the Capex Plan and be included in the disclosure. If the Capex Plan fails to meet the conditions within the specified timeframe, previously published KPIs must be restated.
+To qualify, a Capex Plan must be approved by management and disclosed at the economic activity aggregated level. The expansion or upgrade must take place within five years unless a longer period is justified by the specific features of the activity and the upgrade concerned. This can be up to a maximum of 10 years. The justification for a longer transition period must feature in the Capex Plan and be included in the disclosure. If the Capex Plan fails to meet the conditions within the specified timeframe, previously published KPIs must be restated.
 
-A lack of consensus exists in the market about how to interpret various aspects of the technical screening criteria. There is also uncertainty
-about how the criteria might apply to future performance conditions.
-Shell has therefore decided not to recognise any capex or opex as aligned under the Capex Plan provision in 2024.
-
+A lack of consensus exists in the market about how to interpret various aspects of the technical screening criteria. There is also uncertainty about how the criteria might apply to future performance conditions. Shell has therefore decided not to recognise any capex or opex as aligned under the Capex Plan provision in 2024.
 
 ### Enabling and transitional activities
 
@@ -5166,22 +3999,15 @@ environmental goals, considering the economic lifetime of those assets; and
 - have a substantial positive impact on the basis of life-cycle
 considerations.
 
-An economic activity is only transitional or enabling if it complies with the technical screening criteria. In 2024, two of Shell's activities,
-storage of electricity and infrastructure enabling low-carbon road transport, qualified as enabling.
-
+An economic activity is only transitional or enabling if it complies with the technical screening criteria. In 2024, two of Shell's activities, storage of electricity and infrastructure enabling low-carbon road transport, qualified as enabling.
 
 ## Calculating the key performance indicators
 
-The taxonomy KPIs consist of separate measures for eligible and aligned turnover, capex and opex. Each measure is calculated as
-the amount associated with eligible or aligned economic activities (numerator) divided by the total (denominator). In 2024, there was
-no change in the approach to calculating the KPIs.
-
+The taxonomy KPIs consist of separate measures for eligible and aligned turnover, capex and opex. Each measure is calculated as the amount associated with eligible or aligned economic activities (numerator) divided by the total (denominator). In 2024, there was no change in the approach to calculating the KPIs.
 
 ## Turnover
 
-The turnover KPI comprises the Revenue line from the Consolidated
-Statement of Income. This measure is reconciled as follows.
-
+The turnover KPI comprises the Revenue line from the Consolidated Statement of Income. This measure is reconciled as follows.
 
 <table>
 <tr>
@@ -5209,31 +4035,17 @@ Statement of Income. This measure is reconciled as follows.
 </tr>
 </table>
 
+Shell's reporting of revenue in the Consolidated Statement of Income follows the IFRS definition, under which realised and unrealised gains and losses from hedging are recognised in revenue. We follow the same principles when calculating the numerator and denominator for the turnover KPI. In 2024, excluding hedging effects would have an immaterial impact on the numerator and denominator.
 
-Shell's reporting of revenue in the Consolidated Statement of Income follows the IFRS definition, under which realised and unrealised gains
-and losses from hedging are recognised in revenue. We follow the same principles when calculating the numerator and denominator for
-the turnover KPI. In 2024, excluding hedging effects would have an immaterial impact on the numerator and denominator.
-
-[A] In 2021, a notification to the Netherlands National Contact Point (NCP) was raised concerning the activities of SPDC as operator of the SPDC JV in Nigeria, in which SPDC
-holds a 30% interest. In 2024, the NCP, in its final statement, highlighted recommendations in relation to SPDC's community feedback mechanism (CFM). SPDC
-continues to implement improvements to further align this mechanism with the UNGP effectiveness criteria for operational grievance mechanisms. All our reported eligible
-economic activities fall outside of Nigeria. As detailed elsewhere in this report, on March
-13, 2025, Shell completed the sale of SPDC to Renaissance.
-
+[A] In 2021, a notification to the Netherlands National Contact Point (NCP) was raised concerning the activities of SPDC as operator of the SPDC JV in Nigeria, in which SPDC holds a 30% interest. In 2024, the NCP, in its final statement, highlighted recommendations in relation to SPDC's community feedback mechanism (CFM). SPDC continues to implement improvements to further align this mechanism with the UNGP effectiveness criteria for operational grievance mechanisms. All our reported eligible economic activities fall outside of Nigeria. As detailed elsewhere in this report, on March 13, 2025, Shell completed the sale of SPDC to Renaissance.
 
 ## Capex
 
-The capex KPI comprises the Additions line from the "Consolidated
-Financial Statements" Note 11 - Goodwill and other intangible assets; and the Additions line from the "Consolidated Financial Statements"
-Note 12 - Property, plant and equipment. Goodwill is excluded from the measure.
+The capex KPI comprises the Additions line from the "Consolidated Financial Statements" Note 11 - Goodwill and other intangible assets; and the Additions line from the "Consolidated Financial Statements" Note 12 - Property, plant and equipment. Goodwill is excluded from the measure.
 
-When business combinations involving an eligible activity occur in a prior reporting period but purchase price allocation takes place within
-the current period, we recognise the resulting movements to property, plant and equipment and intangible assets as an addition. These
-amounts are contained within Note 11 - Goodwill and other intangible assets and Note 12 - Property, plant and equipment in the Sales,
-retirements and other movements line and are added to the numerator and denominator.
+When business combinations involving an eligible activity occur in a prior reporting period but purchase price allocation takes place within the current period, we recognise the resulting movements to property, plant and equipment and intangible assets as an addition. These amounts are contained within Note 11 - Goodwill and other intangible assets and Note 12 - Property, plant and equipment in the Sales, retirements and other movements line and are added to the numerator and denominator.
 
 This measure is reconciled as follows.
-
 
 <table>
 <tr>
@@ -5271,27 +4083,15 @@ This measure is reconciled as follows.
 </tr>
 </table>
 
+The numerator for aligned capex comprises the part of eligible capex that is (a) associated with taxonomy-aligned economic activities; (b) part of a Capex Plan to expand an aligned activity or to enable a nonaligned activity to become aligned; and (c) related to the purchase of output from taxonomy-eligible activities. Due to limited guidance about how (c) should be calculated, our reporting focuses on (a) and (b) only.
 
-The numerator for aligned capex comprises the part of eligible capex that is (a) associated with taxonomy-aligned economic activities; (b)
-part of a Capex Plan to expand an aligned activity or to enable a nonaligned activity to become aligned; and (c) related to the purchase of
-output from taxonomy-eligible activities. Due to limited guidance about how (c) should be calculated, our reporting focuses on (a) and (b) only.
-
-The capex KPI as defined by the EU Taxonomy Regulation differs from
-Shell's cash capital expenditure measure. The latter monitors investing activities on a cash basis, excluding items such as lease additions,
-which do not necessarily result in cash outflows in the period. This measure comprises the following lines from the Consolidated Statement
-of Cash Flows: Capital expenditure, investments in joint ventures and associates and investments in equity securities. The cash capital
-expenditure is presented on page 272.
-
+The capex KPI as defined by the EU Taxonomy Regulation differs from Shell's cash capital expenditure measure. The latter monitors investing activities on a cash basis, excluding items such as lease additions, which do not necessarily result in cash outflows in the period. This measure comprises the following lines from the Consolidated Statement of Cash Flows: Capital expenditure, investments in joint ventures and associates and investments in equity securities. The cash capital expenditure is presented on page 272.
 
 ## Opex
 
-The taxonomy defines the opex KPI as costs associated with maintenance and repair, research and development and short-term
-leases. This is narrower than Shell's definition of operating expenses and does not capture all of our expenditure on otherwise eligible
-activities. This measure is reconciled as follows:
-
+The taxonomy defines the opex KPI as costs associated with maintenance and repair, research and development and short-term leases. This is narrower than Shell's definition of operating expenses and does not capture all of our expenditure on otherwise eligible activities. This measure is reconciled as follows:
 
 ## EU Taxonomy opex 2024
-
 
 <table>
 <tr>
@@ -5341,95 +4141,49 @@ activities. This measure is reconciled as follows:
 </tr>
 </table>
 
-
-The numerator for aligned opex comprises the part of eligible opex that is (a) associated with taxonomy-aligned economic activities; (b) part of
-a Capex Plan to expand an aligned activity or to enable a non-aligned activity to become aligned; and (c) related to the purchase of output
-from taxonomy-eligible activities. Due to limited guidance about how (c) should be calculated, our reporting focuses on (a) and (b) only.
-
+The numerator for aligned opex comprises the part of eligible opex that is (a) associated with taxonomy-aligned economic activities; (b) part of a Capex Plan to expand an aligned activity or to enable a non-aligned activity to become aligned; and (c) related to the purchase of output from taxonomy-eligible activities. Due to limited guidance about how (c) should be calculated, our reporting focuses on (a) and (b) only.
 
 ### Other accounting policies
 
 Eligibility and alignment are calculated separately for each economic activity.
 
-The reporting boundary for each economic activity is determined by the scope of the activity description contained in the relevant
-delegated act. This boundary frequently differs from our integrated value chains and segmental reporting. As a result, various adjustments
-are needed to calculate the required figures. For example, we exclude sales of third-party products as well as trading and retailing from the
-calculation of the KPIs. These are significant for Shell's integrated business model but are not eligible for the taxonomy. Although intragroup sales are non-eligible, sales to our trading business are used in
-certain circumstances to calculate the turnover attributable to eligible parts of the value chain.
+The reporting boundary for each economic activity is determined by the scope of the activity description contained in the relevant delegated act. This boundary frequently differs from our integrated value chains and segmental reporting. As a result, various adjustments are needed to calculate the required figures. For example, we exclude sales of third-party products as well as trading and retailing from the calculation of the KPIs. These are significant for Shell's integrated business model but are not eligible for the taxonomy. Although intragroup sales are non-eligible, sales to our trading business are used in certain circumstances to calculate the turnover attributable to eligible parts of the value chain.
 
-When a reporting entity is engaged in multiple economic activities, an allocation method is applied so that only the appropriate part is
-included. Reconciliation is made to total turnover, capex and opex to avoid double counting.
+When a reporting entity is engaged in multiple economic activities, an allocation method is applied so that only the appropriate part is included. Reconciliation is made to total turnover, capex and opex to avoid double counting.
 
-In some cases, a subsidiary or other related undertaking may have interests in more than one economic activity but insufficient data are
-available to disaggregate turnover, capex and opex. In these cases, we allocate the KPIs to the activity that best describes the primary
-business of the entity.
+In some cases, a subsidiary or other related undertaking may have interests in more than one economic activity but insufficient data are available to disaggregate turnover, capex and opex. In these cases, we allocate the KPIs to the activity that best describes the primary business of the entity.
 
-Shell's eligible and aligned turnover, capex and opex are presented on pages 384-386 in accordance with templates specified in Annex Il of
-the Disclosures Delegated Act as amended. Disclosures concerning our gas-related activities are presented on pages 387-390 in accordance
-with the requirements of the Disclosures Delegated Act, Articles 8(6) and (7), including the templates specified in Annex XII.
-
+Shell's eligible and aligned turnover, capex and opex are presented on pages 384-386 in accordance with templates specified in Annex Il of the Disclosures Delegated Act as amended. Disclosures concerning our gas-related activities are presented on pages 387-390 in accordance with the requirements of the Disclosures Delegated Act, Articles 8(6) and (7), including the templates specified in Annex XII.
 
 ## Contextual information on the KPIs
 
-This section provides additional contextual information to accompany the presentation of the turnover, capex and opex KPIs on pages
-384-386.
-
+This section provides additional contextual information to accompany the presentation of the turnover, capex and opex KPIs on pages 384-386.
 
 ## Turnover
 
-In 2024, Shell's taxonomy-eligible turnover was $9,353 million or 3.3% of the total, which was an increase in absolute terms of $908 million
-compared with 2023. The economic activities that made the biggest contribution to eligible turnover were the manufacture of chemicals and
-plastics, renewable energy (including wind, solar and installation of renewable energy technologies), and the manufacture of biogas and
-biofuels.
+In 2024, Shell's taxonomy-eligible turnover was $9,353 million or 3.3% of the total, which was an increase in absolute terms of $908 million compared with 2023. The economic activities that made the biggest contribution to eligible turnover were the manufacture of chemicals and plastics, renewable energy (including wind, solar and installation of renewable energy technologies), and the manufacture of biogas and biofuels.
 
-Eligible turnover for the manufacture of chemicals and plastics increased to $8,032 million in 2024 from $7,082 million in 2023 as a
-result of higher production volume and better asset performance.
-Additional eligible revenues of $742 million were generated by renewable energy, driven by the wind business. Revenue of $258
-million was generated by the manufacture of biogas and biofuels.
+Eligible turnover for the manufacture of chemicals and plastics increased to $8,032 million in 2024 from $7,082 million in 2023 as a result of higher production volume and better asset performance. Additional eligible revenues of $742 million were generated by renewable energy, driven by the wind business. Revenue of $258 million was generated by the manufacture of biogas and biofuels.
 
-Aligned turnover of $698 million was an increase in absolute terms of
-$156 million compared with 2023, mainly due to revenues generated by renewable energy from wind and solar.
-
+Aligned turnover of $698 million was an increase in absolute terms of $156 million compared with 2023, mainly due to revenues generated by renewable energy from wind and solar.
 
 ## Capex
 
-In 2024, Shell's taxonomy-eligible capex was $3,270 million or
-10.6% of the total, which was a decrease of $2,762 million compared with 2023. The economic activities that made the biggest contribution
-to eligible capex included renewable energy from solar and wind, the manufacture of chemicals and plastics, and the manufacture of biogas
-and biofuels.
+In 2024, Shell's taxonomy-eligible capex was $3,270 million or 10.6% of the total, which was a decrease of $2,762 million compared with 2023. The economic activities that made the biggest contribution to eligible capex included renewable energy from solar and wind, the manufacture of chemicals and plastics, and the manufacture of biogas and biofuels.
 
-Eligible capex for solar and wind was a combined $1,026 million in
-2024 compared with $1,596 million in 2023 due to further capital reallocation in the renewable energy business. Eligible capex for
-chemicals and plastics was a combined $898 million in 2024 compared with $999 million in 2023, reflecting the completion of construction activities after a fire incident in one of our plants. Eligible
-capex for biogas and biofuels was $532 million in 2024 compared with $2,078 million in 2023, which was driven by a material business
-acquisition in 2023. Eligible capex for low-carbon transport, which includes electric vehicle charging and hydrogen mobility, was $336
-million in 2024 compared with $991 million in 2023, driven by fewer acquisitions in the business. Eligible capex for hydrogen was $295
-million in 2024 compared with $199 million in 2023.
+Eligible capex for solar and wind was a combined $1,026 million in 2024 compared with $1,596 million in 2023 due to further capital reallocation in the renewable energy business. Eligible capex for chemicals and plastics was a combined $898 million in 2024 compared with $999 million in 2023, reflecting the completion of construction activities after a fire incident in one of our plants. Eligible capex for biogas and biofuels was $532 million in 2024 compared with $2,078 million in 2023, which was driven by a material business acquisition in 2023. Eligible capex for low-carbon transport, which includes electric vehicle charging and hydrogen mobility, was $336 million in 2024 compared with $991 million in 2023, driven by fewer acquisitions in the business. Eligible capex for hydrogen was $295 million in 2024 compared with $199 million in 2023.
 
-Aligned capex of $1,849 million was a decrease in absolute terms of
-$2,324 million compared with 2023, mainly driven by fewer acquisitions and further capital reallocation in the renewable energy
-business.
+Aligned capex of $1,849 million was a decrease in absolute terms of $2,324 million compared with 2023, mainly driven by fewer acquisitions and further capital reallocation in the renewable energy business.
 
 Capex additions related to acquisitions through business combinations are aggregated with other capex additions.
 
-
 ## Opex
 
-In 2024, Shell's taxonomy-eligible opex was $1,181 million or 24.7% of the total, which was a decrease of $201 million compared with 2023.
-The economic activities that made the biggest contribution to eligible opex included manufacture of chemicals and plastics, renewable
-energy from wind, and manufacture of biogas and biofuels. Our chemicals business is relatively mature compared with our other eligible
-activities and therefore accounts for the largest share of opex.
+In 2024, Shell's taxonomy-eligible opex was $1,181 million or 24.7% of the total, which was a decrease of $201 million compared with 2023. The economic activities that made the biggest contribution to eligible opex included manufacture of chemicals and plastics, renewable energy from wind, and manufacture of biogas and biofuels. Our chemicals business is relatively mature compared with our other eligible activities and therefore accounts for the largest share of opex.
 
-Eligible opex for chemicals and plastics was a combined $971 million in 2024 compared with opex of $1,133 million in 2023, mainly due to
-global costs reduction. Lower opex for biogas and biofuels and hydrogen were mainly driven by lower research and development
-expenditure.
+Eligible opex for chemicals and plastics was a combined $971 million in 2024 compared with opex of $1,133 million in 2023, mainly due to global costs reduction. Lower opex for biogas and biofuels and hydrogen were mainly driven by lower research and development expenditure.
 
-Aligned opex of $114 million was higher compared with $30 million reported in 2023, and mainly related to operational costs in the wind
-business.
-
-
-## Sustainability Statements | Environment | EU Taxonomy continued
-
+Aligned opex of $114 million was higher compared with $30 million reported in 2023, and mainly related to operational costs in the wind business.
 
 <table>
 <tr>
@@ -5521,9 +4275,7 @@ business.
 </tr>
 </table>
 
-
 ## Turnover KPI
-
 
 <table>
 <tr>
@@ -6255,9 +5007,7 @@ business.
 </tr>
 </table>
 
-
 ## Capex KPI
-
 
 <table>
 <tr>
@@ -6958,12 +5708,9 @@ business.
 </tr>
 </table>
 
-
 ## Opex KPI
 
-
 ### Proportion of opex from products or services associated with taxonomy-aligned economic activities - 2024 [A]
-
 
 <table>
 <tr>
@@ -7699,9 +6446,7 @@ business.
 </tr>
 </table>
 
-
 ## Disclosures for nuclear and fossil gas activities
-
 
 <table>
 <tr>
@@ -7745,9 +6490,7 @@ business.
 </tr>
 </table>
 
-[A] Shell's facilities include integrated gas-fired heating, cooling and power generation units which support one or more primary activities. Such units do not operate on a stand-alone basis and
-are not treated as a separate economic activity for reporting purposes.
-
+[A] Shell's facilities include integrated gas-fired heating, cooling and power generation units which support one or more primary activities. Such units do not operate on a stand-alone basis and are not treated as a separate economic activity for reporting purposes.
 
 <table>
 <tr>
@@ -7942,7 +6685,6 @@ are not treated as a separate economic activity for reporting purposes.
 </tr>
 </table>
 
-
 <table>
 <tr>
 <th colspan="17">Template 3: Taxonomy-aligned economic activities (numerator), 2024</th>
@@ -8126,11 +6868,9 @@ are not treated as a separate economic activity for reporting purposes.
 </tr>
 </table>
 
-
 ## Template 4: Taxonomy-eligible but not taxonomy-aligned economic activities, 2024
 
 $ million, except where indicated
-
 
 <table>
 <tr>
@@ -8293,12 +7033,7 @@ $ million, except where indicated
 </tr>
 </table>
 
-
-## Sustainability Statements | Environment | EU Taxonomy continued
-
-
 ## Template 5: Taxonomy non-eligible economic activities, 2024
-
 
 <table>
 <tr>
@@ -8394,257 +7129,147 @@ $ million, except where indicated
 
 [A] The scope of this requirement cannot be determined based on current EU guidance. Shell intends to monitor future developments and update our approach as appropriate.
 
-
 ## Pollution (E2)
 
-We seek to manage the impact of our operations on air quality, water quality and soil and groundwater resources, while complying
-with applicable regulations.
+We seek to manage the impact of our operations on air quality, water quality and soil and groundwater resources, while complying with applicable regulations.
 
-Our double materiality assessment has identified emissions to air, discharges to water, soil and groundwater, oil spills in Nigeria and
-hazardous substances as material topics. See "Material impacts, risks and opportunities and their interaction with strategy and business
-model (SBM-3)" on page 351 and "Description of the process to identify and assess material impacts, risks and opportunities (IRO-1)"
-on page 354 for more information.
-
+Our double materiality assessment has identified emissions to air, discharges to water, soil and groundwater, oil spills in Nigeria and hazardous substances as material topics. See "Material impacts, risks and opportunities and their interaction with strategy and business model (SBM-3)" on page 351 and "Description of the process to identify and assess material impacts, risks and opportunities (IRO-1)" on page 354 for more information.
 
 ## Why it matters
 
-Our businesses emit pollutants to air and water, subject to limits established by Shell or local standards, whichever are most stringent.
-Managing these emissions is part of our commitment to pursue the goal of no harm to people and to respect nature by protecting the
-environment. We design, operate and maintain our facilities with the intention of minimising discharges to air and water.
+Our businesses emit pollutants to air and water, subject to limits established by Shell or local standards, whichever are most stringent. Managing these emissions is part of our commitment to pursue the goal of no harm to people and to respect nature by protecting the environment. We design, operate and maintain our facilities with the intention of minimising discharges to air and water.
 
-We design, operate and maintain our facilities with the intention of avoiding discharges to soil or groundwater. However, there is
-potential for unintentional contamination to occur for reasons such as operational failure, accidents, unusual corrosion or third-party
-interference including theft or sabotage. We prepare and practise our emergency response to incidents and proactively manage soil
-and groundwater impacts and risks.
+We design, operate and maintain our facilities with the intention of avoiding discharges to soil or groundwater. However, there is potential for unintentional contamination to occur for reasons such as operational failure, accidents, unusual corrosion or third-party interference including theft or sabotage. We prepare and practise our emergency response to incidents and proactively manage soil and groundwater impacts and risks.
 
-Our products and operations involve the use of hazardous substances with the potential to harm people and the environment. We work to
-ensure our many products - such as fuels, lubricants and chemicals are safe throughout their life cycle.
+Our products and operations involve the use of hazardous substances with the potential to harm people and the environment. We work to ensure our many products - such as fuels, lubricants and chemicals are safe throughout their life cycle.
 
-This section explains how Shell manages air quality, water quality, soil and groundwater, and hazardous substances. See "Water (E3)" on
-page 395 for information about our approach to water stewardship, and "Safety" on pages 429-438 for information about our approach
-to process safety, emergency response and oil spills.
-
+This section explains how Shell manages air quality, water quality, soil and groundwater, and hazardous substances. See "Water (E3)" on page 395 for information about our approach to water stewardship, and "Safety" on pages 429-438 for information about our approach to process safety, emergency response and oil spills.
 
 ## Policies related to pollution (E2-1)
 
-Our approach to pollution control is governed by our Safety,
-Environment and Asset Management (SEAM) Standards. These contain standards related to air quality, water quality, product stewardship, soil
-and groundwater, as well as related standards such as process safety and emergency response. See "SEAM Standards" on page 130 for
-more information.
+Our approach to pollution control is governed by our Safety, Environment and Asset Management (SEAM) Standards. These contain standards related to air quality, water quality, product stewardship, soil and groundwater, as well as related standards such as process safety and emergency response. See "SEAM Standards" on page 130 for more information.
 
-The standards described in this section apply to Shell companies and joint ventures in which Shell is the operator, except where otherwise
-stated. We expect non-operated joint ventures to adopt appropriate and acceptable policies to manage their risks.
-
+The standards described in this section apply to Shell companies and joint ventures in which Shell is the operator, except where otherwise stated. We expect non-operated joint ventures to adopt appropriate and acceptable policies to manage their risks.
 
 ## Air quality
 
-We design, operate and maintain our facilities to minimise emissions of pollutants to air. Under normal operating conditions, we emit pollutants
-to air subject to limits established by local regulators or our own standards, whichever are more stringent.
-
+We design, operate and maintain our facilities to minimise emissions of pollutants to air. Under normal operating conditions, we emit pollutants to air subject to limits established by local regulators or our own standards, whichever are more stringent.
 
 ## Volatile organic compounds (VOC)
 
-Our standards require emission sources with VOC emissions exceeding
-100 tonnes per year to establish, implement and maintain a risk-based programme of monitoring to detect leaks and implement repairs.
+Our standards require emission sources with VOC emissions exceeding 100 tonnes per year to establish, implement and maintain a risk-based programme of monitoring to detect leaks and implement repairs.
 
-Our standards require controls to be implemented to reduce emissions from such sources to as low as reasonably practicable (excluding
-combustion sources and process streams where VOC content is less than 10% by weight).
-
+Our standards require controls to be implemented to reduce emissions from such sources to as low as reasonably practicable (excluding combustion sources and process streams where VOC content is less than 10% by weight).
 
 ## Nitrogen oxides (NOx) and sulphur oxides (SOx)
 
-Our standards for emissions of NOx and SOx distinguish between facilities located in member countries of the Organisation for Economic
-Co-operation and Development (OECD), whose regulatory frameworks are generally mature, and those located in countries outside the
-OECD, where they may be less so. For existing refineries or chemical plants in non-OECD countries, our standards set minimum performance
-levels for emissions of NOx and SOx. For other types of facilities located outside the OECD, those facilities are required to select an
-OECD country and apply the limits of the country selected.
+Our standards for emissions of NOx and SOx distinguish between facilities located in member countries of the Organisation for Economic Co-operation and Development (OECD), whose regulatory frameworks are generally mature, and those located in countries outside the OECD, where they may be less so. For existing refineries or chemical plants in non-OECD countries, our standards set minimum performance levels for emissions of NOx and SOx. For other types of facilities located outside the OECD, those facilities are required to select an OECD country and apply the limits of the country selected.
 
-We require new facilities, and modifications to existing facilities, after
-July 1, 2024, to meet the International Finance Corporation's emission guidelines for NOx and SOx. Where this cannot be achieved, our
-standards require emissions to be reduced to as low as reasonably practicable. We also require new facilities, and modifications to
-existing facilities, after July 1, 2024, to assess the effect of future emissions on air quality in the surrounding area (airshed) and to meet
-airshed ambient air quality specifications. Where this is not achievable, emissions are to be reduced to as low as reasonably practicable.
-
+We require new facilities, and modifications to existing facilities, after July 1, 2024, to meet the International Finance Corporation's emission guidelines for NOx and SOx. Where this cannot be achieved, our standards require emissions to be reduced to as low as reasonably practicable. We also require new facilities, and modifications to existing facilities, after July 1, 2024, to assess the effect of future emissions on air quality in the surrounding area (airshed) and to meet airshed ambient air quality specifications. Where this is not achievable, emissions are to be reduced to as low as reasonably practicable.
 
 ## Water quality
 
-Our standards require disposal of waste water from our assets, projects or businesses to be managed in line with water stewardship principles.
-Our discharges to water are also subject to limits established by local regulators.
+Our standards require disposal of waste water from our assets, projects or businesses to be managed in line with water stewardship principles. Our discharges to water are also subject to limits established by local regulators.
 
-We design, operate and maintain our onshore and offshore facilities to minimise discharges to water according to local regulatory
-requirements and our own standards. Our standards require new onshore assets and modifications of existing onshore assets after July 1,
-2024, to meet the more stringent of our own or local regulatory limits for discharges of certain pollutants and increases in water temperature.
-Our standards are derived from the International Finance Corporation's environmental, health and safety discharge criteria.
+We design, operate and maintain our onshore and offshore facilities to minimise discharges to water according to local regulatory requirements and our own standards. Our standards require new onshore assets and modifications of existing onshore assets after July 1, 2024, to meet the more stringent of our own or local regulatory limits for discharges of certain pollutants and increases in water temperature. Our standards are derived from the International Finance Corporation's environmental, health and safety discharge criteria.
 
-Our standards require new assets and existing assets modified after
-July 1, 2024, to use best available techniques (BAT) and meet best environmental practice (BEP) assessment criteria for water treatment.
-These are designed to ensure that an asset meets the most stringent of either local requirements or our own standards.
+Our standards require new assets and existing assets modified after July 1, 2024, to use best available techniques (BAT) and meet best environmental practice (BEP) assessment criteria for water treatment. These are designed to ensure that an asset meets the most stringent of either local requirements or our own standards.
 
-For offshore operations, our standards prohibit the discharge to sea of non-aqueous drilling fluids such as oil-based muds and synthetic-based
-muds. Discharge of drilling cuttings to sea is only allowed subject to conditions such as distance to shore, expected dispersion of solids and
-if the concentration of certain substances is below specified limits.
+For offshore operations, our standards prohibit the discharge to sea of non-aqueous drilling fluids such as oil-based muds and synthetic-based muds. Discharge of drilling cuttings to sea is only allowed subject to conditions such as distance to shore, expected dispersion of solids and if the concentration of certain substances is below specified limits.
 
-Our standards prohibit the use of mineral oil or diesel non-aqueous drilling fluids when drilling through aquifers or other beneficial use
-water-bearing zones.
+Our standards prohibit the use of mineral oil or diesel non-aqueous drilling fluids when drilling through aquifers or other beneficial use water-bearing zones.
 
 See "Water stewardship" on page 395 for information about our water consumption standards.
 
-
 ## Soil and groundwater
 
-Under normal operating conditions, our assets are designed to avoid emissions and discharges to soil or groundwater. However, there is
-potential for unintentional contamination to occur for reasons such as operational failure, accidents, unusual corrosion or third-party
-interference including theft or sabotage.
+Under normal operating conditions, our assets are designed to avoid emissions and discharges to soil or groundwater. However, there is potential for unintentional contamination to occur for reasons such as operational failure, accidents, unusual corrosion or third-party interference including theft or sabotage.
 
-Our standards on process safety prescribe technical standards and operating practices designed to prevent losses of containment and
-to prevent escalation and mitigate impacts should an incident occur. Our standards on emergency response are designed to ensure that
-we are appropriately prepared to respond to all credible emergency and worst-case spill scenarios.
+Our standards on process safety prescribe technical standards and operating practices designed to prevent losses of containment and to prevent escalation and mitigate impacts should an incident occur. Our standards on emergency response are designed to ensure that we are appropriately prepared to respond to all credible emergency and worst-case spill scenarios.
 
 See "Safety" on page 429 for information about our standards on process safety and emergency response.
 
-Our standards on soil and groundwater apply to assets, projects or businesses under Shell's operational control. We apply similar
-requirements to divested sites where Shell retains responsibility for managing soil and groundwater issues.
+Our standards on soil and groundwater apply to assets, projects or businesses under Shell's operational control. We apply similar requirements to divested sites where Shell retains responsibility for managing soil and groundwater issues.
 
-Our standards require our assets, projects or businesses to proactively assess and manage soil- and groundwater-related impacts and risks.
-This includes requirements to carry out soil and groundwater assessments on a regular basis and to determine whether any
-investigation, control or remedial action is required. Our standards require known or suspected releases to soil and groundwater to be
-investigated, assessed and, depending on the outcome of a risk assessment, remediated.
+Our standards require our assets, projects or businesses to proactively assess and manage soil- and groundwater-related impacts and risks. This includes requirements to carry out soil and groundwater assessments on a regular basis and to determine whether any investigation, control or remedial action is required. Our standards require known or suspected releases to soil and groundwater to be investigated, assessed and, depending on the outcome of a risk assessment, remediated.
 
-For assets deemed to be at higher risk for soil and groundwater contamination, our standards require a groundwater monitoring
-plan, including an annual monitoring programme and the design of appropriate systems. For sites where benzene or ether oxygenates are
-present or suspected, we apply additional monitoring, control and remediation measures.
+For assets deemed to be at higher risk for soil and groundwater contamination, our standards require a groundwater monitoring plan, including an annual monitoring programme and the design of appropriate systems. For sites where benzene or ether oxygenates are present or suspected, we apply additional monitoring, control and remediation measures.
 
-In line with site-level assessments, our standards require our assets, projects or businesses to develop a remedial action plan documenting
-the actions to be taken to address potential soil and groundwater contamination.
-
+In line with site-level assessments, our standards require our assets, projects or businesses to develop a remedial action plan documenting the actions to be taken to address potential soil and groundwater contamination.
 
 ## Product stewardship
 
-Our approach to product stewardship aims to make sure our products are safe throughout the life cycle. We also manage the use of
-hazardous substances and materials in our operations to minimise harm to people or the environment.
-
+Our approach to product stewardship aims to make sure our products are safe throughout the life cycle. We also manage the use of hazardous substances and materials in our operations to minimise harm to people or the environment.
 
 ### Product safety
 
-Our standards require our assets, projects or businesses to identify, assess and manage hazards and risks associated with our products
-throughout the life cycle, from development, product handling, storage and transport to final disposal. As part of this process, we implement
-measures to prevent and mitigate actual or potential health, safety or environmental impacts. Our standards require re-evaluating existing
-products when entering a new market, altering a product's formulation or manufacturing, or when new health, safety, environmental or
-regulatory information becomes known.
+Our standards require our assets, projects or businesses to identify, assess and manage hazards and risks associated with our products throughout the life cycle, from development, product handling, storage and transport to final disposal. As part of this process, we implement measures to prevent and mitigate actual or potential health, safety or environmental impacts. Our standards require re-evaluating existing products when entering a new market, altering a product's formulation or manufacturing, or when new health, safety, environmental or regulatory information becomes known.
 
-We communicate the hazards and requirements to manage the risks of our products to customers, employees, contractors and authorities
-through product safety data sheets and product hazard labels.
+We communicate the hazards and requirements to manage the risks of our products to customers, employees, contractors and authorities through product safety data sheets and product hazard labels.
 
 These standards apply to products such as fuels, lubricants and chemicals.
 
-Hazardous substances and materials in our operations Our standards require our assets, projects or businesses to identify,
-assess and manage the hazards and risks associated with substances and materials used in our operations. As part of this process, we
-evaluate hazards associated with the use, storage, transport and disposal of substances and materials and implement controls to
-prevent and mitigate actual or potential health, safety or environmental impacts.
+Hazardous substances and materials in our operations Our standards require our assets, projects or businesses to identify, assess and manage the hazards and risks associated with substances and materials used in our operations. As part of this process, we evaluate hazards associated with the use, storage, transport and disposal of substances and materials and implement controls to prevent and mitigate actual or potential health, safety or environmental impacts.
 
-Our standards require a systematic approach to evaluating and managing hazards associated with purchased products through
-a chemical and product approval process.
+Our standards require a systematic approach to evaluating and managing hazards associated with purchased products through a chemical and product approval process.
 
-We communicate the hazards and requirements to manage the risks of hazardous substances in our operations to employees, contractors and authorities through product safety data sheets,
-product inventories, product hazard labels and other health, safety and environmental information.
-
+We communicate the hazards and requirements to manage the risks of hazardous substances in our operations to employees, contractors and authorities through product safety data sheets, product inventories, product hazard labels and other health, safety and environmental information.
 
 ### Animal testing
 
-Global chemical safety regulations require animal testing to assess the risks of new products. We aim to replace animal testing with suitable
-alternatives while continuing to innovate, develop and maintain new and safe products and technologies.
+Global chemical safety regulations require animal testing to assess the risks of new products. We aim to replace animal testing with suitable alternatives while continuing to innovate, develop and maintain new and safe products and technologies.
 
-Our standards require assets, projects or businesses to apply a hierarchy of controls to replace animal tests with alternatives where
-possible, to reduce the number of animals used and to refine test methods to make them as humane as possible. When animal testing
-is required by regulation, our standards require controls to ensure that stringent animal welfare standards are followed.
+Our standards require assets, projects or businesses to apply a hierarchy of controls to replace animal tests with alternatives where possible, to reduce the number of animals used and to refine test methods to make them as humane as possible. When animal testing is required by regulation, our standards require controls to ensure that stringent animal welfare standards are followed.
 
 See shell.com for our Animal Welfare Report.
 
-
 ## Other policies
 
-See "Impact assessment" on page 355, "Water (E3)" on page 395,
-"Resource use and circular economy (E5)" on page 404 and "Safety" on page 429 for information about other standards relevant to
-pollution control.
-
+See "Impact assessment" on page 355, "Water (E3)" on page 395, "Resource use and circular economy (E5)" on page 404 and "Safety" on page 429 for information about other standards relevant to pollution control.
 
 ## Actions and resources related to pollution (E2-2)
 
-In 2024, we took action to reduce our air emissions, manage our water discharges and improve our performance on air and water quality. We
-continued to manage soil and groundwater and product stewardship in line with existing standards and procedures.
+In 2024, we took action to reduce our air emissions, manage our water discharges and improve our performance on air and water quality. We continued to manage soil and groundwater and product stewardship in line with existing standards and procedures.
 
-The scope of the actions described in this section covers Shell companies and joint ventures in which Shell is the operator, unless
-otherwise stated. Many of our actions are of an ongoing nature.
-Horizons for the completion of time-bound actions are indicated where applicable.
+The scope of the actions described in this section covers Shell companies and joint ventures in which Shell is the operator, unless otherwise stated. Many of our actions are of an ongoing nature. Horizons for the completion of time-bound actions are indicated where applicable.
 
-Our actions are intended to help us achieve the desired outcome of our policies and standards by providing resources and expertise that
-support our businesses to implement them in fit-for-purpose ways.
-
+Our actions are intended to help us achieve the desired outcome of our policies and standards by providing resources and expertise that support our businesses to implement them in fit-for-purpose ways.
 
 ## Air quality
 
-We follow our own standards and those of local regulators to manage airborne pollutants, including emissions of nitrogen oxides, sulphur
-oxides and volatile organic compounds.
+We follow our own standards and those of local regulators to manage airborne pollutants, including emissions of nitrogen oxides, sulphur oxides and volatile organic compounds.
 
-
-In 2024, we continued to implement leak detection and repair programmes to reduce emissions of volatile organic compounds,
-with a focus on sources of VOC emissions exceeding 100 tonnes per year. We also continued to implement greenhouse gas improvement
-opportunities, which often reduce emissions of other air pollutants. For example, reducing site power generation or routine flaring can lower
-greenhouse gas emissions, as well as volatile organic compounds,
-NOx and SOx-
-
+In 2024, we continued to implement leak detection and repair programmes to reduce emissions of volatile organic compounds, with a focus on sources of VOC emissions exceeding 100 tonnes per year. We also continued to implement greenhouse gas improvement opportunities, which often reduce emissions of other air pollutants. For example, reducing site power generation or routine flaring can lower greenhouse gas emissions, as well as volatile organic compounds, NOx and SOx-
 
 ## Water quality
 
 We follow our own standards and those of local regulators to manage waste-water discharges.
 
-In 2024, we continued to embed our refreshed approach to water management in our operations, based on water stewardship principles.
-In some offshore assets, such as our Prelude floating LNG facility in
-Australia, our UK assets in the North Sea and our deep-water assets in the Gulf of America, we are implementing programmes to further assess
-waste-water discharges in response to new regulations.
+In 2024, we continued to embed our refreshed approach to water management in our operations, based on water stewardship principles. In some offshore assets, such as our Prelude floating LNG facility in Australia, our UK assets in the North Sea and our deep-water assets in the Gulf of America, we are implementing programmes to further assess waste-water discharges in response to new regulations.
 
 We continue to participate in industry consortia to develop tools and methodologies to improve the management of waste-water discharges.
 
 See "Water stewardship" on page 395 for more information about our approach to managing water.
 
-
 ## Soil and groundwater
 
-Shell operates a global soil and groundwater programme comprising an in-house team and experienced consultants who support Shell
-businesses to understand, assess and manage their soil and groundwater risks.
+Shell operates a global soil and groundwater programme comprising an in-house team and experienced consultants who support Shell businesses to understand, assess and manage their soil and groundwater risks.
 
-We have an active research and development programme that helps develop best practice and we conduct scientific research on potential
-impacts associated with our activities. We often share our research findings with government agencies, researchers and other stakeholders
-to support the development of sustainable and risk-based environmental guidelines.
+We have an active research and development programme that helps develop best practice and we conduct scientific research on potential impacts associated with our activities. We often share our research findings with government agencies, researchers and other stakeholders to support the development of sustainable and risk-based environmental guidelines.
 
-We design, operate and maintain our facilities with the intention of preventing spills. To minimise the risk of spills, Shell has routine
-programmes in place to help reduce failures and maintain the reliability of facilities and pipelines. See "Process safety" on page 431 for more
-information.
-
+We design, operate and maintain our facilities with the intention of preventing spills. To minimise the risk of spills, Shell has routine programmes in place to help reduce failures and maintain the reliability of facilities and pipelines. See "Process safety" on page 431 for more information.
 
 ## Product stewardship
 
-We work to ensure our products - such as fuels, lubricants and chemicals - are safe throughout their life cycle. We carry out risk
-assessments for products and additives and publish and distribute safety data sheets to customers globally.
+We work to ensure our products - such as fuels, lubricants and chemicals - are safe throughout their life cycle. We carry out risk assessments for products and additives and publish and distribute safety data sheets to customers globally.
 
-Working through industry consortia, Shell conducts research and development on tools and methodologies to better identify, assess and
-manage risks to water, air and soil. This includes understanding the implications of new scientific research and emerging regulations on
-pollutants.
-
+Working through industry consortia, Shell conducts research and development on tools and methodologies to better identify, assess and manage risks to water, air and soil. This includes understanding the implications of new scientific research and emerging regulations on pollutants.
 
 ## Resourcing our actions
 
-The Executive Vice President for Safety, Environment and Asset
-Management is the most senior executive in Shell with accountability for the development, governance and oversight of the SEAM
-Standards. Leaders of assets, performance units, businesses or functions are accountable for assessing which SEAM Standards are relevant,
-based on their objectives, risk profile and activities, and for implementing those standards as appropriate.
+The Executive Vice President for Safety, Environment and Asset Management is the most senior executive in Shell with accountability for the development, governance and oversight of the SEAM Standards. Leaders of assets, performance units, businesses or functions are accountable for assessing which SEAM Standards are relevant, based on their objectives, risk profile and activities, and for implementing those standards as appropriate.
 
-Implementation of SEAM Standards relevant to pollution control is supported by members of Shell's Safety, Environment and Asset
-Management function, which includes subject matter experts in impact assessment, air emissions, water, ecotoxicology, soil and groundwater,
-process safety, emergency response and other disciplines. The requirements of our standards are communicated to people involved
-with implementation through various mechanisms, including internal communication channels, management systems and training, as
-appropriate.
-
+Implementation of SEAM Standards relevant to pollution control is supported by members of Shell's Safety, Environment and Asset Management function, which includes subject matter experts in impact assessment, air emissions, water, ecotoxicology, soil and groundwater, process safety, emergency response and other disciplines. The requirements of our standards are communicated to people involved with implementation through various mechanisms, including internal communication channels, management systems and training, as appropriate.
 
 ## Planned actions
 
@@ -8659,40 +7284,25 @@ to address emissions of volatile organic compounds; and
 - work towards improving our asset integrity and process safety
 performance, a key factor in our spills performance.
 
-Our action plans are responsive to changing business conditions.
-Planned actions not directly related to compliance with regulations or our own standards are subject to change. The actions indicated above
-represent key focus areas rather than an exhaustive list.
-
+Our action plans are responsive to changing business conditions. Planned actions not directly related to compliance with regulations or our own standards are subject to change. The actions indicated above represent key focus areas rather than an exhaustive list.
 
 ## Targets related to pollution (E2-3)
 
-Emissions of pollutants to air and water during normal operating conditions are often subject to limits and permit conditions established
-by local regulators at the asset level, which establish the performance level to be achieved for any improvements between a base period and
-a future period. Due to the diversity of our operations and the different regulatory frameworks to which we are subject, we have not set
-consolidated targets at a Group level for specific air pollutants, emissions to water, pollution to soil or specific loads, substances of
-concern or substances of very high concern.
+Emissions of pollutants to air and water during normal operating conditions are often subject to limits and permit conditions established by local regulators at the asset level, which establish the performance level to be achieved for any improvements between a base period and a future period. Due to the diversity of our operations and the different regulatory frameworks to which we are subject, we have not set consolidated targets at a Group level for specific air pollutants, emissions to water, pollution to soil or specific loads, substances of concern or substances of very high concern.
 
-We measure the effectiveness of our policies and standards by monitoring our performance data and compliance with permit
-conditions. These efforts are supported by experts who monitor trends and provide technical advice to our operating assets.
-
+We measure the effectiveness of our policies and standards by monitoring our performance data and compliance with permit conditions. These efforts are supported by experts who monitor trends and provide technical advice to our operating assets.
 
 ## Pollution of air, water and soil (E2-4)
 
 This section describes our performance on air quality, water quality and spills in 2024.
 
-We present data on emissions to air and discharges to water against an operational control boundary. See "Supplementary data for
-pollution, water, biodiversity and waste, including estimates for non-operated assets" on page 434-437 for data reported against an ESRS
-boundary.
-
+We present data on emissions to air and discharges to water against an operational control boundary. See "Supplementary data for pollution, water, biodiversity and waste, including estimates for non-operated assets" on page 434-437 for data reported against an ESRS boundary.
 
 ## Air quality
 
-We gather data on emissions to air from the day-to-day running of our facilities. We work to minimise these emissions according to local
-regulatory requirements and our own standards.
-
+We gather data on emissions to air from the day-to-day running of our facilities. We work to minimise these emissions according to local regulatory requirements and our own standards.
 
 ## Emissions to air (operational control) [A] [B]
-
 
 <table>
 <tr>
@@ -8797,43 +7407,25 @@ regulatory requirements and our own standards.
 </tr>
 </table>
 
-[A] Emissions to air are defined as the total mass of pollutants emitted to the atmosphere. Data are calculated at site level and consolidated for assets under Shell's operational control. In
-the absence of local regulation or an approved voluntary scheme, the highest practical tier from the following hierarchy is used: continuous monitoring, periodic monitoring, derived
-emission factors based on monitoring over a range of conditions; engineering calculations; equipment manufacturer emission factors; or use of default or standard emission factors.
-When emission factors are used, reference information and guidance include the European
-Monitoring and Evaluation Programme, the European Environment Agency, Concawe, the
-American Petroleum Institute and the International Maritime Organization. There is a degree of measurement uncertainty arising from the number of emission points for which
-data are calculated and variations in the emission factors used at site level, which in some cases are governed by local regulation. As a result of these limitations, it is not possible to
-furnish a range of estimates with confidence.
+[A] Emissions to air are defined as the total mass of pollutants emitted to the atmosphere. Data are calculated at site level and consolidated for assets under Shell's operational control. In the absence of local regulation or an approved voluntary scheme, the highest practical tier from the following hierarchy is used: continuous monitoring, periodic monitoring, derived emission factors based on monitoring over a range of conditions; engineering calculations; equipment manufacturer emission factors; or use of default or standard emission factors. When emission factors are used, reference information and guidance include the European Monitoring and Evaluation Programme, the European Environment Agency, Concawe, the American Petroleum Institute and the International Maritime Organization. There is a degree of measurement uncertainty arising from the number of emission points for which data are calculated and variations in the emission factors used at site level, which in some cases are governed by local regulation. As a result of these limitations, it is not possible to furnish a range of estimates with confidence.
 
-[B] Includes reporting by facilities with emissions above the thresholds specified in the
-European Pollutant Release and Transfer Register regulation. Some facilities with emissions below these thresholds also submit data, particularly for SOx, NOx and VOCs.
+[B] Includes reporting by facilities with emissions above the thresholds specified in the European Pollutant Release and Transfer Register regulation. Some facilities with emissions below these thresholds also submit data, particularly for SOx, NOx and VOCs.
 
 [C] PAH excludes naphthalene (C10Hg), which is reported separately.
 
+Our SOx emissions in 2024 decreased to 21 thousand tonnes from 31 thousand tonnes in 2023. The decrease was mainly due to a reduction in our flaring at the Shell Energy and Chemicals Park Singapore and the Shell-operated Scotford Upgrader in Canada.
 
-Our SOx emissions in 2024 decreased to 21 thousand tonnes from 31 thousand tonnes in 2023. The decrease was mainly due to a reduction
-in our flaring at the Shell Energy and Chemicals Park Singapore and the Shell-operated Scotford Upgrader in Canada.
+Our NOx emissions in 2024 increased to 92 thousand tonnes from 88 thousand tonnes in 2023. The rise was partly driven by activity by facilities in Nigeria and logistics in the UK.
 
-Our NOx emissions in 2024 increased to 92 thousand tonnes from 88 thousand tonnes in 2023. The rise was partly driven by activity by
-facilities in Nigeria and logistics in the UK.
+Our emissions of VOCs in 2024 were 32 thousand tonnes compared with 32 thousand tonnes in 2023 (restated from 36 thousand tonnes following a review of the performance data).
 
-Our emissions of VOCs in 2024 were 32 thousand tonnes compared with 32 thousand tonnes in 2023 (restated from 36 thousand tonnes
-following a review of the performance data).
-
-Our assets are often required by regulators to gather data on various air pollutants for local performance monitoring and reporting. In 2024,
-we began collecting data on several additional pollutants for certain assets. We intend to provide further contextual information in the future
-when additional comparative data are available.
-
+Our assets are often required by regulators to gather data on various air pollutants for local performance monitoring and reporting. In 2024, we began collecting data on several additional pollutants for certain assets. We intend to provide further contextual information in the future when additional comparative data are available.
 
 ## Water quality
 
-We gather data on pollutants in water returned to the environment from the day-to-day running of our facilities (referred to as "discharges
-to surface water"). We work to minimise these discharges according to local regulatory requirements and our own standards.
-
+We gather data on pollutants in water returned to the environment from the day-to-day running of our facilities (referred to as "discharges to surface water"). We work to minimise these discharges according to local regulatory requirements and our own standards.
 
 ## Pollutants discharged to surface water (operational control) [A] [B] [C]
-
 
 <table>
 <tr>
@@ -8905,91 +7497,47 @@ to surface water"). We work to minimise these discharges according to local regu
 </tr>
 </table>
 
-[A] Pollutants discharged to surface water are defined as the total mass of pollutants present in controlled or regulated effluent discharges to surface water directly from onshore assets.
-Figures are expressed on the basis of net discharge derived from measured concentrations and discharged effluent volumes. The scope includes pollutants discharged through
-produced water, process water, oil or water interceptors, cooling water and boiler blowdown water. It excludes oil spills, pollutants in water injected in reservoirs, quantities
-discharged to third-party treatment facilities and surface run-off water.
+[A] Pollutants discharged to surface water are defined as the total mass of pollutants present in controlled or regulated effluent discharges to surface water directly from onshore assets. Figures are expressed on the basis of net discharge derived from measured concentrations and discharged effluent volumes. The scope includes pollutants discharged through produced water, process water, oil or water interceptors, cooling water and boiler blowdown water. It excludes oil spills, pollutants in water injected in reservoirs, quantities discharged to third-party treatment facilities and surface run-off water.
 
-[B]
-Data on pollutants discharged to surface water are calculated at site level and consolidated for assets under Shell's operational control. In the absence of a locally
-required analysis method, the reported pollutants are analysed in samples taken from representative streams such as treated process water using pollutant-specific
-methodologies based on the American Public Health Association, the Royal Netherlands
-Standardization Institute and the International Organization for Standardization (ISO).
-There is a degree of measurement uncertainty arising from effluent sampling and logistics, local analytical capabilities and applied methods, and from the determination of the
-effluent volumes. Standardisation will reduce such uncertainties, but as a result, it is currently not possible to furnish a range of estimates with confidence.
+[B] Data on pollutants discharged to surface water are calculated at site level and consolidated for assets under Shell's operational control. In the absence of a locally required analysis method, the reported pollutants are analysed in samples taken from representative streams such as treated process water using pollutant-specific methodologies based on the American Public Health Association, the Royal Netherlands Standardization Institute and the International Organization for Standardization (ISO). There is a degree of measurement uncertainty arising from effluent sampling and logistics, local analytical capabilities and applied methods, and from the determination of the effluent volumes. Standardisation will reduce such uncertainties, but as a result, it is currently not possible to furnish a range of estimates with confidence.
 
-[C] Includes reporting by facilities with discharges above the thresholds specified in the
-European Pollutant Release and Transfer Register regulation. Some facilities with discharges below these thresholds may also submit data.
+[C] Includes reporting by facilities with discharges above the thresholds specified in the European Pollutant Release and Transfer Register regulation. Some facilities with discharges below these thresholds may also submit data.
 
-
-Our assets are required by regulators to gather data on various discharges to water for local performance monitoring and reporting.
-In 2024, we began collecting data at a Group level on several pollutants that were previously monitored at a local level. We intend
-to provide further contextual information in the future when additional comparative data are available.
-
+Our assets are required by regulators to gather data on various discharges to water for local performance monitoring and reporting. In 2024, we began collecting data at a Group level on several pollutants that were previously monitored at a local level. We intend to provide further contextual information in the future when additional comparative data are available.
 
 ## Spills
 
-See "Spills" on page 433 for metrics and commentary related to oil spills, including in Nigeria. Because of the importance of process safety
-to preventing losses of containment, and preventing escalation and mitigating impacts should an incident occur, spills data are placed in
-this section so that they can be viewed alongside related disclosures on process safety and emergency response.
-
+See "Spills" on page 433 for metrics and commentary related to oil spills, including in Nigeria. Because of the importance of process safety to preventing losses of containment, and preventing escalation and mitigating impacts should an incident occur, spills data are placed in this section so that they can be viewed alongside related disclosures on process safety and emergency response.
 
 ## Water and marine resources (E3)
 
-
 ## Water is essential to life and is an important resource in many industrial processes. As an energy company we need water for our operations, and this can affect other water users.
 
-Our double materiality assessment has identified fresh-water consumption, especially in water-stressed areas, as a material topic.
-See "Material impacts, risks and opportunities and their interaction with strategy and business model (SBM-3)" on page 351 and "Description of
-the process to identify and assess material impacts, risks and opportunities (IRO-1)" on page 354 for more information.
-
+Our double materiality assessment has identified fresh-water consumption, especially in water-stressed areas, as a material topic. See "Material impacts, risks and opportunities and their interaction with strategy and business model (SBM-3)" on page 351 and "Description of the process to identify and assess material impacts, risks and opportunities (IRO-1)" on page 354 for more information.
 
 ### Why it matters
 
-Shell's businesses consume water for a variety of uses. In 2024, around
-79 million cubic metres of fresh-water consumed was used for manufacturing oil products and chemicals (88%), with the remaining 11
-million cubic metres mainly used for oil and gas production.
+Shell's businesses consume water for a variety of uses. In 2024, around 79 million cubic metres of fresh-water consumed was used for manufacturing oil products and chemicals (88%), with the remaining 11 million cubic metres mainly used for oil and gas production.
 
-Our use of water can have impacts on ecosystems and people.
-Consumption of water by our business activities has the potential to cause physical changes to ecosystems, affecting habitats and species.
-In water-stressed areas, it can exacerbate existing pressure on ecosystems and lead to competition with communities and other water
-users. To help us manage these impacts, we are implementing water stewardship principles across our businesses and developing local
-improvement plans.
+Our use of water can have impacts on ecosystems and people. Consumption of water by our business activities has the potential to cause physical changes to ecosystems, affecting habitats and species. In water-stressed areas, it can exacerbate existing pressure on ecosystems and lead to competition with communities and other water users. To help us manage these impacts, we are implementing water stewardship principles across our businesses and developing local improvement plans.
 
-This section explains how Shell manages the sourcing, use, treatment and disposal of water. See "Pollution (E2)" on page 391 for information
-about our approach to water quality and soil and groundwater. See
-"Biodiversity and ecosystems (E4)" on page 397 for information about our approach to marine habitats.
-
+This section explains how Shell manages the sourcing, use, treatment and disposal of water. See "Pollution (E2)" on page 391 for information about our approach to water quality and soil and groundwater. See "Biodiversity and ecosystems (E4)" on page 397 for information about our approach to marine habitats.
 
 ### Policies related to water and marine resources (E3-1)
 
-Our approach to water is governed by our Safety, Environment and
-Asset Management (SEAM) Standards. These contain standards addressing water stewardship, management of discharges and the
-use of technology in our facilities, among other topics. See "SEAM
-Standards" on page 130 for more information.
+Our approach to water is governed by our Safety, Environment and Asset Management (SEAM) Standards. These contain standards addressing water stewardship, management of discharges and the use of technology in our facilities, among other topics. See "SEAM Standards" on page 130 for more information.
 
-The standards described in this section apply to Shell companies and joint ventures in which Shell is the operator, except where otherwise
-stated. We expect non-operated joint ventures to adopt appropriate and acceptable policies to manage their risks.
-
+The standards described in this section apply to Shell companies and joint ventures in which Shell is the operator, except where otherwise stated. We expect non-operated joint ventures to adopt appropriate and acceptable policies to manage their risks.
 
 ### Water stewardship
 
-Our standards require our assets, projects or businesses to manage sourcing, use, treatment and disposal of water based on recognised
-water stewardship principles. Our standards are informed by external best practices, such as those developed by the Alliance for Water
-Stewardship.
+Our standards require our assets, projects or businesses to manage sourcing, use, treatment and disposal of water based on recognised water stewardship principles. Our standards are informed by external best practices, such as those developed by the Alliance for Water Stewardship.
 
-The objective is to manage our use and sourcing of water in ways that are socially equitable, environmentally sustainable, economically
-beneficial and achieved through a stakeholder-inclusive process that involves site- and catchment-based actions, in line with a water
-stewardship management plan. Such plans help us to move away from a traditional inside-out approach focusing on our impact on the
-environment to an outside-in approach that considers how we impact, and are impacted by, the environment. They also help us to reduce
-consumption in water-stressed areas.
+The objective is to manage our use and sourcing of water in ways that are socially equitable, environmentally sustainable, economically beneficial and achieved through a stakeholder-inclusive process that involves site- and catchment-based actions, in line with a water stewardship management plan. Such plans help us to move away from a traditional inside-out approach focusing on our impact on the environment to an outside-in approach that considers how we impact, and are impacted by, the environment. They also help us to reduce consumption in water-stressed areas.
 
-The water stewardship principles are applicable to fresh-water and marine environments. To account for the diversity of Shell's operations,
-we expect assets, projects or businesses to meet the intent of the principles by applying them to their local circumstances in a fit-forpurpose way.
-
+The water stewardship principles are applicable to fresh-water and marine environments. To account for the diversity of Shell's operations, we expect assets, projects or businesses to meet the intent of the principles by applying them to their local circumstances in a fit-forpurpose way.
 
 ## Water stewardship principles
-
 
 <table>
 <tr>
@@ -9018,87 +7566,45 @@ we expect assets, projects or businesses to meet the intent of the principles by
 </tr>
 </table>
 
-
-For new projects, we undertake environmental and social impact assessments to identify measures to avoid or minimise impacts on
-water. We evaluate the long-term sustainability of water resources to select options that avoid or minimise disruption to the environment and
-other users. This helps to ensure we have a continued supply of water for our operations, while also minimising impacts and bringing benefits
-to others. See "Impact assessment" on page 355 for more information.
+For new projects, we undertake environmental and social impact assessments to identify measures to avoid or minimise impacts on water. We evaluate the long-term sustainability of water resources to select options that avoid or minimise disruption to the environment and other users. This helps to ensure we have a continued supply of water for our operations, while also minimising impacts and bringing benefits to others. See "Impact assessment" on page 355 for more information.
 
 See "Water quality" on page 393 for information about our standards on prevention and abatement of water pollution.
 
-Shell is not a producer of biological or non-biological marine resources such as deep-sea minerals or seafood products. Accordingly, we have
-not adopted standards on these topics.
+Shell is not a producer of biological or non-biological marine resources such as deep-sea minerals or seafood products. Accordingly, we have not adopted standards on these topics.
 
 Our approach to promoting sustainable oceans and seas is covered by our standards on biodiversity, water stewardship and pollution control.
 
-
 ### Actions and resources related to water and marine resources (E3-2)
 
-Our actions in 2024 focused on embedding water stewardship management plans in applicable operations, with an emphasis on
-reducing fresh-water consumption in water-stressed areas.
+Our actions in 2024 focused on embedding water stewardship management plans in applicable operations, with an emphasis on reducing fresh-water consumption in water-stressed areas.
 
-The scope of the actions described in this section covers Shell companies and joint ventures in which Shell is the operator, unless
-otherwise stated. Many of our actions are of an ongoing nature.
-Horizons for the completion of time-bound actions are indicated where applicable.
+The scope of the actions described in this section covers Shell companies and joint ventures in which Shell is the operator, unless otherwise stated. Many of our actions are of an ongoing nature. Horizons for the completion of time-bound actions are indicated where applicable.
 
-Our actions are intended to help us achieve the desired outcome of our policies and standards by providing resources and expertise that
-support our businesses to implement them in fit-for-purpose ways.
-
+Our actions are intended to help us achieve the desired outcome of our policies and standards by providing resources and expertise that support our businesses to implement them in fit-for-purpose ways.
 
 ## Water stewardship management plans
 
-Our assets, projects or businesses are required to implement water stewardship principles by developing and implementing water
-stewardship management plans in accordance with our SEAM
-Standards.
+Our assets, projects or businesses are required to implement water stewardship principles by developing and implementing water stewardship management plans in accordance with our SEAM Standards.
 
-Since 2021, we have conducted water stewardship assessments at
-18 assets across different businesses and regions, with a priority on operations in areas of high water stress and those that use significant
-quantities of fresh water. The insights gained from these assessments have moved us towards a more holistic stewardship approach. This
-goes beyond only focusing on water use to also considering factors such as water footprint, regional water stress, water quality,
-catchments, governance and stakeholder engagement. Building on these efforts, our Mobility and US Midstream businesses developed
-water stewardship plans in 2024.
-
+Since 2021, we have conducted water stewardship assessments at 18 assets across different businesses and regions, with a priority on operations in areas of high water stress and those that use significant quantities of fresh water. The insights gained from these assessments have moved us towards a more holistic stewardship approach. This goes beyond only focusing on water use to also considering factors such as water footprint, regional water stress, water quality, catchments, governance and stakeholder engagement. Building on these efforts, our Mobility and US Midstream businesses developed water stewardship plans in 2024.
 
 ## Areas of high water stress
 
-In 2024, we continued to make progress in reducing our consumption of fresh water in water-stressed areas, which we classify in accordance
-with World Resources Institute definitions, subject to the qualifications set out below.
+In 2024, we continued to make progress in reducing our consumption of fresh water in water-stressed areas, which we classify in accordance with World Resources Institute definitions, subject to the qualifications set out below.
 
-In 2018, we assessed four facilities as being located in areas of high water stress, based on the Aqueduct Water Risk Atlas and the
-materiality of contribution to total fresh-water consumption in such areas. These included the Pearl GTL gas-to-liquids facility in Qatar; the
-Shell Import Facility in Tabangao in the Philippines; and the Shell
-Energy and Chemicals Park Singapore, which comprises integrated refining and chemical assets on Pulau Bukom and Jurong Island.
-Although Singapore was subsequently reclassified by the Aqueduct
-Water Risk Atlas as being at low overall water stress, we continue to treat the Shell Energy and Chemicals Park as part of a water-stressed
-region, based on our original 2018 assessment.
+In 2018, we assessed four facilities as being located in areas of high water stress, based on the Aqueduct Water Risk Atlas and the materiality of contribution to total fresh-water consumption in such areas. These included the Pearl GTL gas-to-liquids facility in Qatar; the Shell Import Facility in Tabangao in the Philippines; and the Shell Energy and Chemicals Park Singapore, which comprises integrated refining and chemical assets on Pulau Bukom and Jurong Island. Although Singapore was subsequently reclassified by the Aqueduct Water Risk Atlas as being at low overall water stress, we continue to treat the Shell Energy and Chemicals Park as part of a water-stressed region, based on our original 2018 assessment.
 
-In 2024, the Shell Energy and Chemicals Park Singapore commissioned a waste-water recovery project that resulted in a further
-reduction of fresh-water withdrawal rates. In 2024, Shell reached an agreement to sell its interest in the Energy and Chemicals Park
-Singapore. This transaction is expected to be completed in 2025, subject to regulatory approvals.
-
+In 2024, the Shell Energy and Chemicals Park Singapore commissioned a waste-water recovery project that resulted in a further reduction of fresh-water withdrawal rates. In 2024, Shell reached an agreement to sell its interest in the Energy and Chemicals Park Singapore. This transaction is expected to be completed in 2025, subject to regulatory approvals.
 
 ## Working with others
 
-Shell collaborates with universities, technology providers and other energy companies to identify and develop opportunities to improve
-our water management performance. We work with other companies through Ipieca, the global oil and gas industry association for
-advancing environmental and social performance across the energy transition, to support the development of water risk assessment tools
-to improve the way companies define, assess and respond to waterrelated risks. Our collaboration priorities focus on the practical
-implementation of water stewardship principles and the development and adoption of technology solutions for sustainable water
-management. These activities concern impacts related to water consumption and water quality.
-
+Shell collaborates with universities, technology providers and other energy companies to identify and develop opportunities to improve our water management performance. We work with other companies through Ipieca, the global oil and gas industry association for advancing environmental and social performance across the energy transition, to support the development of water risk assessment tools to improve the way companies define, assess and respond to waterrelated risks. Our collaboration priorities focus on the practical implementation of water stewardship principles and the development and adoption of technology solutions for sustainable water management. These activities concern impacts related to water consumption and water quality.
 
 ## Resourcing our actions
 
-The Executive Vice President for Safety, Environment and Asset
-Management is the most senior executive in Shell with accountability for the development, governance and oversight of the SEAM
-Standards. Leaders of assets, performance units, businesses or functions are accountable for assessing which SEAM Standards are relevant,
-based on their objectives, risk profile and activities, and for implementing those standards as appropriate.
+The Executive Vice President for Safety, Environment and Asset Management is the most senior executive in Shell with accountability for the development, governance and oversight of the SEAM Standards. Leaders of assets, performance units, businesses or functions are accountable for assessing which SEAM Standards are relevant, based on their objectives, risk profile and activities, and for implementing those standards as appropriate.
 
-Implementation of SEAM Standards relevant to water is supported by members of Shell's Safety, Environment and Asset Management
-function, which includes subject matter experts in impact assessment, water management, ecotoxicology and other disciplines. The
-requirements of our standards are communicated to people involved with implementation through various mechanisms, including internal
-communication channels, management systems and training, as appropriate.
-
+Implementation of SEAM Standards relevant to water is supported by members of Shell's Safety, Environment and Asset Management function, which includes subject matter experts in impact assessment, water management, ecotoxicology and other disciplines. The requirements of our standards are communicated to people involved with implementation through various mechanisms, including internal communication channels, management systems and training, as appropriate.
 
 ## Planned actions
 
@@ -9111,38 +7617,21 @@ standards and those of local regulators;
 
 - engage with external stakeholders and industry peers on waterrelated issues.
 
-Our action plans are responsive to changing business conditions.
-Planned actions not directly related to compliance with regulations or our own standards are subject to change. The actions indicated above
-represent key focus areas rather than an exhaustive list.
-
+Our action plans are responsive to changing business conditions. Planned actions not directly related to compliance with regulations or our own standards are subject to change. The actions indicated above represent key focus areas rather than an exhaustive list.
 
 ## Targets related to water and marine resources (E3-3)
 
-In 2021, we set a voluntary commitment to reduce our consumption of fresh water by 15% by 2025 compared with 2018 levels in areas
-where there is high fresh-water stress. We achieved this commitment ahead of time in 2022. Shell's commitment meets the ESRS definition
-of a target.
+In 2021, we set a voluntary commitment to reduce our consumption of fresh water by 15% by 2025 compared with 2018 levels in areas where there is high fresh-water stress. We achieved this commitment ahead of time in 2022. Shell's commitment meets the ESRS definition of a target.
 
-In 2024, our consumption of fresh water in areas of high water stress was 16 million cubic metres compared with 25 million cubic metres in
-the base year of 2018, a 36% reduction over the period. The reduction was mainly the result of a net decrease in water consumption at the
-Pearl GTL facility in Qatar, the Shell Energy and Chemicals Park
-Singapore and the Shell Import Facility in Tabangao in the Philippines, and reflects a combination of hardware changes, improvements in
-operating practices and the conversion of Tabangao from a refinery to a terminal. This level of progress is consistent with our expectations
-when setting the commitment.
+In 2024, our consumption of fresh water in areas of high water stress was 16 million cubic metres compared with 25 million cubic metres in the base year of 2018, a 36% reduction over the period. The reduction was mainly the result of a net decrease in water consumption at the Pearl GTL facility in Qatar, the Shell Energy and Chemicals Park Singapore and the Shell Import Facility in Tabangao in the Philippines, and reflects a combination of hardware changes, improvements in operating practices and the conversion of Tabangao from a refinery to a terminal. This level of progress is consistent with our expectations when setting the commitment.
 
-The scope of this commitment covers the four facilities that account for most of our consumption of fresh water in water-stressed areas. The
-adoption of this commitment responds to emerging scientific evidence about water-stressed areas and stakeholder concerns about our
-potential impact on such areas. We have not adopted targets for commodities related to marine resources as we consider this topic to
-have limited relevance for our business.
-
+The scope of this commitment covers the four facilities that account for most of our consumption of fresh water in water-stressed areas. The adoption of this commitment responds to emerging scientific evidence about water-stressed areas and stakeholder concerns about our potential impact on such areas. We have not adopted targets for commodities related to marine resources as we consider this topic to have limited relevance for our business.
 
 ## Water consumption (E3-4)
 
 Our water performance data for 2024 are presented below.
 
-We present data for water consumption against an operational control boundary. See "Supplementary data for pollution, water, biodiversity
-and waste, including estimates for non-operated assets" on page 435 for water consumption data reported against a financial control
-boundary.
-
+We present data for water consumption against an operational control boundary. See "Supplementary data for pollution, water, biodiversity and waste, including estimates for non-operated assets" on page 435 for water consumption data reported against a financial control boundary.
 
 <table>
 <tr>
@@ -9177,121 +7666,63 @@ boundary.
 </tr>
 </table>
 
-[A] Water volumes are reported at site level using one or more of the following methods: metering; water bills from public utilities; pumping capacity multiplied by the time of
-pumping; and process requirement estimates. Due to the site-specific nature of these calculations, it is not possible to state a degree of measurement uncertainty with
-confidence.
+[A] Water volumes are reported at site level using one or more of the following methods: metering; water bills from public utilities; pumping capacity multiplied by the time of pumping; and process requirement estimates. Due to the site-specific nature of these calculations, it is not possible to state a degree of measurement uncertainty with confidence.
 
 [B] Fresh water figures do not include once-through cooling water
 
-[C] Water consumption is defined as fresh water withdrawn minus fresh water discharged. Where "fresh water" is not defined by local regulation, below 2,000 mg/l total dissolved
-solids is used. Fresh water generally includes water from public utilities, water wells, lakes, ponds, streams and rivers.
+[C] Water consumption is defined as fresh water withdrawn minus fresh water discharged. Where "fresh water" is not defined by local regulation, below 2,000 mg/l total dissolved solids is used. Fresh water generally includes water from public utilities, water wells, lakes, ponds, streams and rivers.
 
-[D] Areas of high water stress are areas where the ratio of water demand and water availability is high or extremely high in the Aqueduct Water Risk Atlas tool of the World
-Resources Institute. We assess four material facilities as located in areas of high water stress: Pearl GTL in Qatar; the Shell Import Facility at Tabangao in the Philippines; and the
-Shell Energy and Chemicals Park Singapore, which comprises integrated refining and chemical assets on Pulau Bukom and Jurong Island. Figures include reporting by a small
-number of assets in water-stressed areas which make an immaterial contribution to total water consumption in water-stressed areas.
+[D] Areas of high water stress are areas where the ratio of water demand and water availability is high or extremely high in the Aqueduct Water Risk Atlas tool of the World Resources Institute. We assess four material facilities as located in areas of high water stress: Pearl GTL in Qatar; the Shell Import Facility at Tabangao in the Philippines; and the Shell Energy and Chemicals Park Singapore, which comprises integrated refining and chemical assets on Pulau Bukom and Jurong Island. Figures include reporting by a small number of assets in water-stressed areas which make an immaterial contribution to total water consumption in water-stressed areas.
 
-[E] Water recycled and reused is the volume of fresh water used in more than one process or more than once before final treatment and/or discharge to the environment. It does not
-include water used in re-circulating cooling towers, nor non-fresh water used, such as sea water or brackish surface water and groundwater.
+[E] Water recycled and reused is the volume of fresh water used in more than one process or more than once before final treatment and/or discharge to the environment. It does not include water used in re-circulating cooling towers, nor non-fresh water used, such as sea water or brackish surface water and groundwater.
 
-[F] Water stored means water continuously collected in containment structures. This is typically the last stage of processing where the water is managed by passive evaporation.
-The water may include treated or untreated associated water or rainwater.
-
+[F] Water stored means water continuously collected in containment structures. This is typically the last stage of processing where the water is managed by passive evaporation. The water may include treated or untreated associated water or rainwater.
 
 ## Biodiversity and ecosystems (E4)
 
-
 ## Our activities can affect natural habitats and the communities that depend on them. We seek to have a positive impact on biodiversity.
 
-Our double materiality assessment has identified biodiversity loss, sensitive areas and species, and ecosystem services as material topics.
-See "Material impacts, risks and opportunities and their interaction with strategy and business model (SBM-3)" on page 351 and "Description of
-the process to identify and assess material impacts, risks and opportunities (IRO-1)" on page 354 for more information.
-
+Our double materiality assessment has identified biodiversity loss, sensitive areas and species, and ecosystem services as material topics. See "Material impacts, risks and opportunities and their interaction with strategy and business model (SBM-3)" on page 351 and "Description of the process to identify and assess material impacts, risks and opportunities (IRO-1)" on page 354 for more information.
 
 ### Why it matters
 
-We recognise the urgency to protect and enhance biodiversity and ecosystem services. The links between nature and climate are
-recognised in the UN Kunming-Montreal Global Biodiversity
-Framework of 2022 and successive meetings of the Conference of the Parties under the UN Framework Convention on Climate Change.
-We also acknowledge the important links between biodiversity and communities.
+We recognise the urgency to protect and enhance biodiversity and ecosystem services. The links between nature and climate are recognised in the UN Kunming-Montreal Global Biodiversity Framework of 2022 and successive meetings of the Conference of the Parties under the UN Framework Convention on Climate Change. We also acknowledge the important links between biodiversity and communities.
 
-Our business activities have the potential to contribute directly or indirectly to drivers of biodiversity loss such as climate change,
-pollution, land use change, fresh-water use change and sea use change. They also have the potential to impact critical habitats and
-other biodiversity sensitive areas, and to contribute to changes from natural to modified habitats, which can affect the quality or availability
-of ecosystem services used by local communities. We seek to minimise our impact on nature through operating standards that address
-biodiversity and other aspects of environmental performance.
+Our business activities have the potential to contribute directly or indirectly to drivers of biodiversity loss such as climate change, pollution, land use change, fresh-water use change and sea use change. They also have the potential to impact critical habitats and other biodiversity sensitive areas, and to contribute to changes from natural to modified habitats, which can affect the quality or availability of ecosystem services used by local communities. We seek to minimise our impact on nature through operating standards that address biodiversity and other aspects of environmental performance.
 
-Our business activities depend on ecosystem services such as provision of fresh water and natural resources, and benefits obtained from the
-natural processes and functioning of ecosystems, such as climate and flood regulation and erosion control.
+Our business activities depend on ecosystem services such as provision of fresh water and natural resources, and benefits obtained from the natural processes and functioning of ecosystems, such as climate and flood regulation and erosion control.
 
-We are still at an early stage of understanding how these issues may affect our business in the future, including with respect to our value chain.
-This section explains how Shell manages impacts on biodiversity and ecosystems, critical habitats and deforestation. See "Climate change
-(E1)" on page 364, "Pollution (E2)" on page 391, "Water and marine resources (E3)" on page 395 and "Resource use and circular economy
-(E5)" on page 404 for information about our approach to other environmental topics relevant to biodiversity.
-
+We are still at an early stage of understanding how these issues may affect our business in the future, including with respect to our value chain. This section explains how Shell manages impacts on biodiversity and ecosystems, critical habitats and deforestation. See "Climate change (E1)" on page 364, "Pollution (E2)" on page 391, "Water and marine resources (E3)" on page 395 and "Resource use and circular economy (E5)" on page 404 for information about our approach to other environmental topics relevant to biodiversity.
 
 ## Transition plan and consideration of biodiversity and ecosystems in strategy and business model (E4-1)
 
-Shell businesses operate within land and marine ecosystems. For example, we need access to land for onshore operations such as
-oil and gas production, refineries, chemical plants, pipelines, retail facilities, and electricity generation and storage. We need access
-to marine areas for oil and gas production, pipelines, carbon capture and storage, wind power generation, marine terminals and shipping.
-Our operations also use natural resources such as fresh water.
+Shell businesses operate within land and marine ecosystems. For example, we need access to land for onshore operations such as oil and gas production, refineries, chemical plants, pipelines, retail facilities, and electricity generation and storage. We need access to marine areas for oil and gas production, pipelines, carbon capture and storage, wind power generation, marine terminals and shipping. Our operations also use natural resources such as fresh water.
 
-Our ability to develop new projects and opportunities depends in part on our ability to meet the expectations of regulators, communities and
-other stakeholders for managing our impact on biodiversity.
+Our ability to develop new projects and opportunities depends in part on our ability to meet the expectations of regulators, communities and other stakeholders for managing our impact on biodiversity.
 
-Our dependencies on nature will change as we progress in the energy transition. For example, our biofuel activities depend on access to land
-and availability of natural resources such as soil and water and the regulating ecosystem services they provide. Our nature-based solution
-activities depend on access to land as well as the supporting ecosystem services needed to capture CO2 and enhance biodiversity.
+Our dependencies on nature will change as we progress in the energy transition. For example, our biofuel activities depend on access to land and availability of natural resources such as soil and water and the regulating ecosystem services they provide. Our nature-based solution activities depend on access to land as well as the supporting ecosystem services needed to capture CO2 and enhance biodiversity.
 
-We manage biodiversity in our operations through our operating standards and environmental management systems. We also work with
-peers through organisations like Ipieca, the global oil and gas industry association for advancing environmental and social performance
-across the energy transition, to deepen our understanding of the industry's impacts on biodiversity and to develop best practices.
+We manage biodiversity in our operations through our operating standards and environmental management systems. We also work with peers through organisations like Ipieca, the global oil and gas industry association for advancing environmental and social performance across the energy transition, to deepen our understanding of the industry's impacts on biodiversity and to develop best practices.
 
-Considering the integrated approach of our strategy, and how our approach to identifying and managing biodiversity impacts is
-embedded within it, we have not yet carried out a comprehensive assessment of the resilience of our strategy and business model
-specifically in relation to biodiversity and ecosystems as set out under the ESRS. We aim to undertake further work to deepen
-our understanding. See "Respecting nature" on page 109-113 for further information.
-
+Considering the integrated approach of our strategy, and how our approach to identifying and managing biodiversity impacts is embedded within it, we have not yet carried out a comprehensive assessment of the resilience of our strategy and business model specifically in relation to biodiversity and ecosystems as set out under the ESRS. We aim to undertake further work to deepen our understanding. See "Respecting nature" on page 109-113 for further information.
 
 ## Material impacts, risks and opportunities and their interaction with strategy and business model (ESRS 2 SBM-3)
 
-We provide a consolidated list of sites in biodiversity sensitive areas in the table "Sites impacting biodiversity sensitive areas" on pages
-398-400.This table is prepared by undertaking geospatial analysis of the overlap between Shell's operated asset footprint and mapped
-biodiversity sensitive areas (BSAs). To identify these areas, we use the
-World Database of Protected Areas (WDPA), maintained by the UN
-Environment Programme World Conservation Monitoring Centre (UNEP-WCMC), and the World Database of Key Biodiversity Areas
-(WDKBA), maintained by BirdLife International.
+We provide a consolidated list of sites in biodiversity sensitive areas in the table "Sites impacting biodiversity sensitive areas" on pages 398-400.This table is prepared by undertaking geospatial analysis of the overlap between Shell's operated asset footprint and mapped biodiversity sensitive areas (BSAs). To identify these areas, we use the World Database of Protected Areas (WDPA), maintained by the UN Environment Programme World Conservation Monitoring Centre (UNEP-WCMC), and the World Database of Key Biodiversity Areas (WDKBA), maintained by BirdLife International.
 
-The BSAs used or applied in the assessment include UNESCO World
-Heritage Sites, the Natura 2000 network of protected areas, key biodiversity areas and other protected areas. The latter encompass
-Ramsar Wetlands of International Importance, UNESCO Man and the
-Biosphere Reserves, areas designated under regional agreements such as OSPAR and Emerald Network, as well as nationally designated
-areas reported as International Union for Conservation of Nature (IUCN) Management Category I-IV in the UNEP-WCMC WDPA.
+The BSAs used or applied in the assessment include UNESCO World Heritage Sites, the Natura 2000 network of protected areas, key biodiversity areas and other protected areas. The latter encompass Ramsar Wetlands of International Importance, UNESCO Man and the Biosphere Reserves, areas designated under regional agreements such as OSPAR and Emerald Network, as well as nationally designated areas reported as International Union for Conservation of Nature (IUCN) Management Category I-IV in the UNEP-WCMC WDPA.
 
+Certain areas have multiple BSA designations with defined conservation objectives that may target different species or habitats. We analyse all applicable designations and their associated geographic areas and list them in the table accordingly.
 
-Certain areas have multiple BSA designations with defined conservation objectives that may target different species or habitats.
-We analyse all applicable designations and their associated geographic areas and list them in the table accordingly.
+Owing to the large number of operated assets that potentially impact biodiversity sensitive areas, uncertainties in interpreting ESRS requirements, and various data limitations, we apply judgement in consolidating sites by country and provide an indication of the business activities impacting the areas listed in the table.
 
-Owing to the large number of operated assets that potentially impact biodiversity sensitive areas, uncertainties in interpreting
-ESRS requirements, and various data limitations, we apply judgement in consolidating sites by country and provide an indication of the
-business activities impacting the areas listed in the table.
+Our assessment includes Shell sites under operational control, excluding our retail network and real estate locations, which generally have less potential for negative impact on BSAs due to their size, the nature of their activity and because they are often located in urban and developed areas.
 
-Our assessment includes Shell sites under operational control, excluding our retail network and real estate locations, which generally
-have less potential for negative impact on BSAs due to their size, the nature of their activity and because they are often located in urban and
-developed areas.
+Our analysis is based on global datasets and may exclude other nationally designated sites that have not been submitted to the WDPA or WDKBA. Due to the setup of this analysis, it does not yield data on all site-specific impacts and dependencies on, or the ecological status of, all BSAs. We aim to undertake further work on site-level impacts and dependencies and approaches to defining ecological status with reference to specific ecosystem baseline levels.
 
-Our analysis is based on global datasets and may exclude other nationally designated sites that have not been submitted to the WDPA
-or WDKBA. Due to the setup of this analysis, it does not yield data on all site-specific impacts and dependencies on, or the ecological status
-of, all BSAs. We aim to undertake further work on site-level impacts and dependencies and approaches to defining ecological status with
-reference to specific ecosystem baseline levels.
+We assess land use change as a material impact. On a stand-alone basis, we do not assess land degradation, desertification or soil sealing as material impacts at a Group level. Some of our operations take place in locations where they may affect threatened species.
 
-We assess land use change as a material impact. On a stand-alone basis, we do not assess land degradation, desertification or soil sealing
-as material impacts at a Group level. Some of our operations take place in locations where they may affect threatened species.
-
-See "Supplementary data for pollution, water, biodiversity and waste, including estimates for non-operated assets" on page 437 for
-estimated information about joint operations not under operational control impacting biodiversity sensitive areas.
-
+See "Supplementary data for pollution, water, biodiversity and waste, including estimates for non-operated assets" on page 437 for estimated information about joint operations not under operational control impacting biodiversity sensitive areas.
 
 <table>
 <tr>
@@ -9668,7 +8099,6 @@ estimated information about joint operations not under operational control impac
 </tr>
 </table>
 
-
 <table>
 <tr>
 <th>Country</th>
@@ -9735,7 +8165,6 @@ estimated information about joint operations not under operational control impac
 <td>North-east Faroe-Shetland Channel, OSPAR MPA · Faroe-Shetland Sponge Belt, OSPAR MPA o East of Gannet & Montrose Fields, OSPAR MPA o West Shetland Shelf, OSPAR MPA · Liverpool Bay / Bae Lerpwl, OSPAR MPA · Wight-Barfleur Reef, OSPAR MPA · Dogger Bank, OSPAR MPA o North Norfolk Sandbanks and Saturn Reef, OSPAR MPA · Fulmar, OSPAR MPA · Norwegian Boundary Sediment Plain, OSPAR MPA o Southern North Sea, OSPAR MPA o South Pennine Moors, Emerald Network · Flamborough and Filey Coast, Emerald Network o Peak District Moors (South Pennine Moors Phase 1), Emerald Network o Solent and Dorset Coast, Emerald Network o Bentley Wood, SSSI o Dark Peak, SSSI o Haisborough, Hammond and Winterton, OSPAR MPA · Cromer Shoal Chalk Beds, OSPAR MPA · Greater Wash, OSPAR MPA o Mundesley Cliffs, SSSI o Ythan Estuary & Meikle Loch, Ramsar Site · Red Moss of Netherley, Nature Reserve o River Dee, Emerald Network</td>
 </tr>
 </table>
-
 
 <table>
 <tr>
@@ -9845,124 +8274,73 @@ estimated information about joint operations not under operational control impac
 </tr>
 </table>
 
-[A] Includes sites located within designated biodiversity sensitive areas. It is not yet possible to provide consolidated information on sites "near" biodiversity sensitive areas due to incomplete
-availability of information at a Group level about whether and how our activities may affect such areas. We aim to undertake further work to enhance our understanding.
+[A] Includes sites located within designated biodiversity sensitive areas. It is not yet possible to provide consolidated information on sites "near" biodiversity sensitive areas due to incomplete availability of information at a Group level about whether and how our activities may affect such areas. We aim to undertake further work to enhance our understanding.
 
-[B] WDPA: UNEP-WCMC and IUCN (2025), Protected Planet: The World Database on Protected Areas (WDPA), January 2025, Cambridge, UK. Available at: ibat-alliance.org (accessed
-22/01/2025). KBAs: BirdLife International (September 2024). World Database of Key Biodiversity Areas. Available at ibat-alliance.org (accessed 12/10/2024).
+[B] WDPA: UNEP-WCMC and IUCN (2025), Protected Planet: The World Database on Protected Areas (WDPA), January 2025, Cambridge, UK. Available at: ibat-alliance.org (accessed 22/01/2025). KBAs: BirdLife International (September 2024). World Database of Key Biodiversity Areas. Available at ibat-alliance.org (accessed 12/10/2024).
 
 [C] Shell business activity affecting biodiversity sensitive area.
 
 [D] Natura 2000 includes Special Areas of Conservation (SAC) (EU Habitats Directive) and Special Protection Areas (SPA) (EU Birds Directive).
 
-[E] NCA: Nature Conservation Act (Netherlands). OSPAR MPA: Oslo-Paris Convention for the Protection of the Marine Environment of the North-East Atlantic, Marine Protected Area. SSSI:
-Site of Special Scientific Interest. Emerald Network: includes Areas of Special Conservation Interest established under the Bern Convention aimed at Conservation of European Wildlife and
-Natural Habitats.
+[E] NCA: Nature Conservation Act (Netherlands). OSPAR MPA: Oslo-Paris Convention for the Protection of the Marine Environment of the North-East Atlantic, Marine Protected Area. SSSI: Site of Special Scientific Interest. Emerald Network: includes Areas of Special Conservation Interest established under the Bern Convention aimed at Conservation of European Wildlife and Natural Habitats.
 
-[F] QGC's LNG Plant on Curtis Island is present within the Great Barrier Reef World Heritage Site (declared in 1981). Construction was undertaken by BG Group in 2010, and the plant was
-operational at the time of Shell's acquisition in 2016. Approval for the development of the plant was granted by the Australian Government and the operations are regulated by both the state
-and federal governments.
+[F] QGC's LNG Plant on Curtis Island is present within the Great Barrier Reef World Heritage Site (declared in 1981). Construction was undertaken by BG Group in 2010, and the plant was operational at the time of Shell's acquisition in 2016. Approval for the development of the plant was granted by the Australian Government and the operations are regulated by both the state and federal governments.
 
-[G] The Wadden Sea World Heritage Site was inscribed in 2009. Shell undertook exploration activities in the area during the 1960s, and since 2007, natural gas has been produced from under
-the Wadden Sea World Heritage Site. Production takes place from the land outside the boundary of the designated World Heritage Site and is regulated by the Dutch government.
-
+[G] The Wadden Sea World Heritage Site was inscribed in 2009. Shell undertook exploration activities in the area during the 1960s, and since 2007, natural gas has been produced from under the Wadden Sea World Heritage Site. Production takes place from the land outside the boundary of the designated World Heritage Site and is regulated by the Dutch government.
 
 ## Policies related to biodiversity and ecosystems (E4-2)
 
-Our approach to biodiversity and ecosystems is governed by our
-Safety, Environment and Asset Management (SEAM) Standards.
+Our approach to biodiversity and ecosystems is governed by our Safety, Environment and Asset Management (SEAM) Standards.
 
-These contain standards related to avoiding adverse impacts on biodiversity and ecosystems, applying the mitigation hierarchy,
-achieving net positive impact on biodiversity in critical habitats and netzero deforestation. Our standards apply to land and marine
-environments, unless otherwise stated. See "SEAM Standards" on page 130 for more information.
+These contain standards related to avoiding adverse impacts on biodiversity and ecosystems, applying the mitigation hierarchy, achieving net positive impact on biodiversity in critical habitats and netzero deforestation. Our standards apply to land and marine environments, unless otherwise stated. See "SEAM Standards" on page 130 for more information.
 
-The standards described in this section apply to Shell companies and joint ventures in which Shell is the operator, except where otherwise
-stated. We expect non-operated joint ventures to adopt appropriate and acceptable policies to manage their risks.
-
+The standards described in this section apply to Shell companies and joint ventures in which Shell is the operator, except where otherwise stated. We expect non-operated joint ventures to adopt appropriate and acceptable policies to manage their risks.
 
 ## World Heritage Sites
 
-Shell does not explore for or develop oil and gas resources in natural or mixed World Heritage Sites. We do not enter into joint ventures
-unless they comply with this requirement.
-
+Shell does not explore for or develop oil and gas resources in natural or mixed World Heritage Sites. We do not enter into joint ventures unless they comply with this requirement.
 
 ## Biodiversity and ecosystem management
 
-Our standards require our assets, projects and businesses to avoid negative impacts on biodiversity and ecosystem services, and where
-avoidance is not achievable, to mitigate negative impacts following the mitigation hierarchy. The mitigation hierarchy is a sequence of actions
-to anticipate and avoid impacts on biodiversity and ecosystem services.
-It prioritises avoidance, and, where this is not possible, minimisation of impacts, followed by rehabilitation and restoration, and where
-significant residual impacts remain, the use of offsets.
-
+Our standards require our assets, projects and businesses to avoid negative impacts on biodiversity and ecosystem services, and where avoidance is not achievable, to mitigate negative impacts following the mitigation hierarchy. The mitigation hierarchy is a sequence of actions to anticipate and avoid impacts on biodiversity and ecosystem services. It prioritises avoidance, and, where this is not possible, minimisation of impacts, followed by rehabilitation and restoration, and where significant residual impacts remain, the use of offsets.
 
 ## Critical habitats
 
-When undertaking a project in a critical habitat, we aim to go beyond compensating for a residual adverse impact to deliver an overall
-conservation gain or net positive impact to biodiversity.
+When undertaking a project in a critical habitat, we aim to go beyond compensating for a residual adverse impact to deliver an overall conservation gain or net positive impact to biodiversity.
 
-Critical habitats are specific areas of high biodiversity value in which receptors are particularly sensitive to development. We apply the same
-definition of critical habitats as the International Finance Corporation.
+Critical habitats are specific areas of high biodiversity value in which receptors are particularly sensitive to development. We apply the same definition of critical habitats as the International Finance Corporation.
 
-Our standards require all projects located in a critical habitat to develop and implement a biodiversity action plan that sets out the
-actions needed to follow the mitigation hierarchy and the actions designed to achieve a net positive impact. Such plans are required to
-include clear objectives, milestones and indicators to monitor progress.
+Our standards require all projects located in a critical habitat to develop and implement a biodiversity action plan that sets out the actions needed to follow the mitigation hierarchy and the actions designed to achieve a net positive impact. Such plans are required to include clear objectives, milestones and indicators to monitor progress.
 
-Net positive impact on biodiversity in the context of projects is an outcome in which the impacts on biodiversity caused by the project are
-outweighed by the actions taken to avoid and reduce such impacts, rehabilitate affected species and/or landscapes and offset any
-residual impacts.
-
+Net positive impact on biodiversity in the context of projects is an outcome in which the impacts on biodiversity caused by the project are outweighed by the actions taken to avoid and reduce such impacts, rehabilitate affected species and/or landscapes and offset any residual impacts.
 
 ## Deforestation and reforestation
 
-Deforestation occurs when forests are converted to non-forest uses. Our aim is to avoid deforestation in line with the mitigation hierarchy
-as referenced above. Where avoidance cannot be achieved, we seek to implement reforestation plans that include measures to achieve netzero deforestation while maintaining biodiversity and conservation
-value. This standard addresses our commitment to net-zero deforestation which commenced in 2022.
+Deforestation occurs when forests are converted to non-forest uses. Our aim is to avoid deforestation in line with the mitigation hierarchy as referenced above. Where avoidance cannot be achieved, we seek to implement reforestation plans that include measures to achieve netzero deforestation while maintaining biodiversity and conservation value. This standard addresses our commitment to net-zero deforestation which commenced in 2022.
 
-Our standards require our assets, projects and businesses to avoid deforestation, and where avoidance is not achievable, to implement
-a reforestation plan. Reforestation of at least the same area of an equivalent forest is required to ensure that biodiversity and
-conservation values are restored. This requirement is intended to address our contribution to land use change.
+Our standards require our assets, projects and businesses to avoid deforestation, and where avoidance is not achievable, to implement a reforestation plan. Reforestation of at least the same area of an equivalent forest is required to ensure that biodiversity and conservation values are restored. This requirement is intended to address our contribution to land use change.
 
-In line with the definition of forest used by the Food and Agriculture
-Organization of the United Nations, our commitment to net-zero deforestation as embedded in our standards applies to land spanning
-more than 0.5 hectares with trees higher than five metres and a canopy cover of more than 10%, or trees able to reach these thresholds in situ.
-It does not include land that is predominantly under agricultural or urban land use.
-
+In line with the definition of forest used by the Food and Agriculture Organization of the United Nations, our commitment to net-zero deforestation as embedded in our standards applies to land spanning more than 0.5 hectares with trees higher than five metres and a canopy cover of more than 10%, or trees able to reach these thresholds in situ. It does not include land that is predominantly under agricultural or urban land use.
 
 ## Biodiversity management in nature-based solutions
 
-Shell buys high-quality carbon credits generated by projects that protect nature and restore the environment. We also invest directly
-in projects to increase the supply of carbon credits and help meet demand from customers.
+Shell buys high-quality carbon credits generated by projects that protect nature and restore the environment. We also invest directly in projects to increase the supply of carbon credits and help meet demand from customers.
 
-Our standards require Shell-funded nature-based projects or activities that protect, enhance or restore natural ecosystems to generate carbon
-credits to achieve accreditation from a standard or regulation that delivers net positive impact on biodiversity. Net positive impact in this
-context means that a project's net impacts on biodiversity in the project zone are positive, compared with the biodiversity conditions under the
-without-project land use scenario over the project lifetime. Our standards require such projects to meet the Climate, Community and
-Biodiversity Standards (CCB), an equivalent standard, or compliance with local legislation to deliver net positive impact on biodiversity.
-
+Our standards require Shell-funded nature-based projects or activities that protect, enhance or restore natural ecosystems to generate carbon credits to achieve accreditation from a standard or regulation that delivers net positive impact on biodiversity. Net positive impact in this context means that a project's net impacts on biodiversity in the project zone are positive, compared with the biodiversity conditions under the without-project land use scenario over the project lifetime. Our standards require such projects to meet the Climate, Community and Biodiversity Standards (CCB), an equivalent standard, or compliance with local legislation to deliver net positive impact on biodiversity.
 
 ## Sourcing of biocomponents
 
-Shell only sources renewable components or feedstocks for lowcarbon fuels that meet our standards for human rights, animal care
-and welfare principles, and protection of areas with high-carbon stock or of high biodiversity value, as set out in our policy on sourcing of
-biocomponents. See "Sourcing of biocomponents" on page 405 for more information.
-
+Shell only sources renewable components or feedstocks for lowcarbon fuels that meet our standards for human rights, animal care and welfare principles, and protection of areas with high-carbon stock or of high biodiversity value, as set out in our policy on sourcing of biocomponents. See "Sourcing of biocomponents" on page 405 for more information.
 
 ## How our policies contribute to biodiversity
 
-Our environmental, social and safety standards are designed to work together to reduce negative impacts on nature, ecosystems
-and people. Some of our standards, such as those related to pollution, directly address drivers of biodiversity loss and the state of species
-and ecosystems. Others operate indirectly by targeting aspects of our activities which may contribute to those drivers, such as land use
-change or ecosystem services. Because our standards are designed to work in an integrated manner to achieve outcomes that are
-appropriate for the local environment, they do not necessarily specify all the potential impact drivers.
-
+Our environmental, social and safety standards are designed to work together to reduce negative impacts on nature, ecosystems and people. Some of our standards, such as those related to pollution, directly address drivers of biodiversity loss and the state of species and ecosystems. Others operate indirectly by targeting aspects of our activities which may contribute to those drivers, such as land use change or ecosystem services. Because our standards are designed to work in an integrated manner to achieve outcomes that are appropriate for the local environment, they do not necessarily specify all the potential impact drivers.
 
 ## Other policies
 
 See "Impact assessment" on page 355 for information about our approach to impact assessment.
 
-
 ## Key environmental and social policies or standards contributing directly or indirectly to addressing impacts to biodiversity and ecosystem services [A]
-
 
 <table>
 <tr>
@@ -10214,49 +8592,29 @@ See "Impact assessment" on page 355 for information about our approach to impact
 
 [B] We aim to undertake further work to understand the risks posed by invasive alien species and how we manage pathways of introduction.
 
-
 ## Other disclosures on policies
 
-Shell's standards on biodiversity cover World Heritage Sites, biodiversity and ecosystem management, critical habitats, deforestation and reforestation, biodiversity in nature-based solutions
-projects and sourcing of biocomponents. We have not adopted overarching biodiversity and ecosystem protection standards covering
-operational sites owned, leased or managed in or near a biodiversity sensitive area, though our standards on World Heritage Sites,
-biodiversity and ecosystem management, and critical habitats address relevant aspects.
+Shell's standards on biodiversity cover World Heritage Sites, biodiversity and ecosystem management, critical habitats, deforestation and reforestation, biodiversity in nature-based solutions projects and sourcing of biocomponents. We have not adopted overarching biodiversity and ecosystem protection standards covering operational sites owned, leased or managed in or near a biodiversity sensitive area, though our standards on World Heritage Sites, biodiversity and ecosystem management, and critical habitats address relevant aspects.
 
-Shell has not adopted specific standards on sustainable land and agriculture. Our exposure to these issues arises in the context of
-sourcing of feedstocks for biofuels. Our sourcing of biocomponents policy includes specific consideration of sustainable land use by
-ensuring we do not source renewable components or feedstocks that have been associated with the clearing of areas with high carbon stock
-or high biodiversity value. See "Sourcing of biocomponents" on page
-405 for more information.
+Shell has not adopted specific standards on sustainable land and agriculture. Our exposure to these issues arises in the context of sourcing of feedstocks for biofuels. Our sourcing of biocomponents policy includes specific consideration of sustainable land use by ensuring we do not source renewable components or feedstocks that have been associated with the clearing of areas with high carbon stock or high biodiversity value. See "Sourcing of biocomponents" on page 405 for more information.
 
-Our approach to sustainable oceans and seas is covered by our environmental, social and safety standards, which apply to land and
-marine environments. See "Deforestation and reforestation" on page
-401 for information about our standards on deforestation.
-
+Our approach to sustainable oceans and seas is covered by our environmental, social and safety standards, which apply to land and marine environments. See "Deforestation and reforestation" on page 401 for information about our standards on deforestation.
 
 ## Actions and resources related to biodiversity and ecosystems (E4-3)
 
-Our actions in 2024 focused on implementing our refreshed standards on biodiversity and ecosystems, with activities located in critical
-habitats and forest habitats as key priorities.
+Our actions in 2024 focused on implementing our refreshed standards on biodiversity and ecosystems, with activities located in critical habitats and forest habitats as key priorities.
 
-The scope of the actions described in this section covers Shell companies and joint ventures in which Shell is the operator, unless
-otherwise stated. Many of our actions are of an ongoing nature.
-Horizons for the completion of time-bound actions are indicated where applicable.
+The scope of the actions described in this section covers Shell companies and joint ventures in which Shell is the operator, unless otherwise stated. Many of our actions are of an ongoing nature. Horizons for the completion of time-bound actions are indicated where applicable.
 
-Our actions are intended to help us achieve the desired outcome of our policies and standards by providing resources and expertise that
-support our businesses to implement them in fit-for-purpose ways.
-
+Our actions are intended to help us achieve the desired outcome of our policies and standards by providing resources and expertise that support our businesses to implement them in fit-for-purpose ways.
 
 ## Critical habitats
 
-We seek to avoid impacts on critical habitats. Where avoidance is not possible, we aim to mitigate and compensate for our impact based on
-the mitigation hierarchy.
+We seek to avoid impacts on critical habitats. Where avoidance is not possible, we aim to mitigate and compensate for our impact based on the mitigation hierarchy.
 
-Our standards require new projects located in critical habitats to develop a biodiversity action plan. This sets out the actions needed to
-follow the mitigation hierarchy and to achieve a net positive impact on biodiversity.
-
+Our standards require new projects located in critical habitats to develop a biodiversity action plan. This sets out the actions needed to follow the mitigation hierarchy and to achieve a net positive impact on biodiversity.
 
 ## Projects in critical habitats with biodiversity action plans (operational control) [A] [B]
-
 
 <table>
 <tr>
@@ -10276,101 +8634,58 @@ follow the mitigation hierarchy and to achieve a net positive impact on biodiver
 </tr>
 </table>
 
-[A] Data on projects in critical habitats are not directly comparable with the table "Sites impacting biodiversity sensitive areas" on pages 398-400. This is primarily due to
-differences in the definition of a "site" and "project" for reporting purposes. The definition used for biodiversity sensitive area includes only designated protected areas included in
-the World Database on Protected Areas (WDPA) and the World Database of Key
-Biodiversity Areas (WDKBA). Not all critical habitats are gazetted protected areas and therefore may not be mapped in these global biodiversity datasets. It is possible for
-multiple critical habitats or biodiversity sensitive areas to overlap with an individual site. If a project is located in a critical habitat but not within a designated biodiversity sensitive
-area, it will not be included in the "Sites impacting biodiversity sensitive areas" table.
-Similarly, not all biodiversity sensitive areas meet the definition of critical habitat and therefore a site located in such an area is not required under our standards to prepare a
-biodiversity action plan.
+[A] Data on projects in critical habitats are not directly comparable with the table "Sites impacting biodiversity sensitive areas" on pages 398-400. This is primarily due to differences in the definition of a "site" and "project" for reporting purposes. The definition used for biodiversity sensitive area includes only designated protected areas included in the World Database on Protected Areas (WDPA) and the World Database of Key Biodiversity Areas (WDKBA). Not all critical habitats are gazetted protected areas and therefore may not be mapped in these global biodiversity datasets. It is possible for multiple critical habitats or biodiversity sensitive areas to overlap with an individual site. If a project is located in a critical habitat but not within a designated biodiversity sensitive area, it will not be included in the "Sites impacting biodiversity sensitive areas" table. Similarly, not all biodiversity sensitive areas meet the definition of critical habitat and therefore a site located in such an area is not required under our standards to prepare a biodiversity action plan.
 
 [B] Includes Shell-operated projects in critical habitats for which the final investment decision was taken after February 11, 2021. Projects that subsequently become assets are included.
 
-
-[C] A biodiversity action plan sets out actions to mitigate impacts and to conserve or enhance biodiversity. It identifies priority receptors and details of appropriate management actions,
-including an implementation plan to progress and deliver net positive impact.
+[C] A biodiversity action plan sets out actions to mitigate impacts and to conserve or enhance biodiversity. It identifies priority receptors and details of appropriate management actions, including an implementation plan to progress and deliver net positive impact.
 
 Examples of activities in development or under way in 2024 include:
 
 - in partnership with a local university, we are executing an ecological
-restoration programme on Browse Island, Australia, to help eradicate invasive alien species, improve reef health and promote the return of
-breeding seabirds to enhance regional resilience;
+restoration programme on Browse Island, Australia, to help eradicate invasive alien species, improve reef health and promote the return of breeding seabirds to enhance regional resilience;
 
 - on Príncipe Island, São Tomé and Príncipe, we helped implement a
 turtle conservation programme in partnership with a local conservation organisation; and
 
 - in partnership with the Marine Alliance for Science and Technology
-for Scotland (MASTS), and its member institutions, including Scottish government stakeholders, we helped to set up a multi-year research
-programme to gain insights into the ecology of skates and sharks in
-Scottish waters to help develop effective conservation strategies.
+for Scotland (MASTS), and its member institutions, including Scottish government stakeholders, we helped to set up a multi-year research programme to gain insights into the ecology of skates and sharks in Scottish waters to help develop effective conservation strategies.
 
-Also in 2024, we continued to work with industry partners like Ipieca and the International Association of Oil & Gas Producers and through
-partnerships with the International Union for Conservation of Nature (IUCN) and Proteus Partners to share best practice on approaches to
-no net loss, net gain, net positive impact to biodiversity and how business can contribute in the future to global nature positive goals.
-
+Also in 2024, we continued to work with industry partners like Ipieca and the International Association of Oil & Gas Producers and through partnerships with the International Union for Conservation of Nature (IUCN) and Proteus Partners to share best practice on approaches to no net loss, net gain, net positive impact to biodiversity and how business can contribute in the future to global nature positive goals.
 
 ## Reforestation
 
-Deforestation occurs when forests are converted to non-forest uses. We work with partners and stakeholders to develop plans tailored to each
-reforestation project.
+Deforestation occurs when forests are converted to non-forest uses. We work with partners and stakeholders to develop plans tailored to each reforestation project.
 
-There is typically a time lag between the deforestation of an area and the start of the replanting process, which can range from months to
-years. As a result, there is often a difference in the number of hectares deforested and the number of hectares replanted within a single
-reporting period.
+There is typically a time lag between the deforestation of an area and the start of the replanting process, which can range from months to years. As a result, there is often a difference in the number of hectares deforested and the number of hectares replanted within a single reporting period.
 
-In 2024, around 214 hectares were deforested as a result of our activities. This occurred in Australia, Canada and Nigeria, where we
-are preparing for or implementing reforestation programmes in line with local plans.
+In 2024, around 214 hectares were deforested as a result of our activities. This occurred in Australia, Canada and Nigeria, where we are preparing for or implementing reforestation programmes in line with local plans.
 
-We reforested 54 hectares in 2024 in British Columbia, Canada, working in close partnership with the Doig River First Nation to reforest
-land that had been previously cleared by others in the 1950s. In addition, we also partnered with Swan River First Nation in Alberta
-to reforest 10 hectares of previously cleared agricultural land.
-
+We reforested 54 hectares in 2024 in British Columbia, Canada, working in close partnership with the Doig River First Nation to reforest land that had been previously cleared by others in the 1950s. In addition, we also partnered with Swan River First Nation in Alberta to reforest 10 hectares of previously cleared agricultural land.
 
 ## Biodiversity offsets
 
-Our efforts to achieve net positive impact in critical habitats and netzero deforestation may require the use of biodiversity offsets. Where
-relevant, our biodiversity action plans and reforestation plans include biodiversity offsets. Such plans include a description of the offsets and
-their aims, including area and offset type, standards applied, where required, and criteria and indicators used to monitor delivery. As our
-standards require application of the mitigation hierarchy with respect to biodiversity impacts at asset, business or project level, local
-information on biodiversity offsets may exist but is not collated at
-Group level. We aim to undertake further work to enhance our disclosures on our use of biodiversity offsets.
-
+Our efforts to achieve net positive impact in critical habitats and netzero deforestation may require the use of biodiversity offsets. Where relevant, our biodiversity action plans and reforestation plans include biodiversity offsets. Such plans include a description of the offsets and their aims, including area and offset type, standards applied, where required, and criteria and indicators used to monitor delivery. As our standards require application of the mitigation hierarchy with respect to biodiversity impacts at asset, business or project level, local information on biodiversity offsets may exist but is not collated at Group level. We aim to undertake further work to enhance our disclosures on our use of biodiversity offsets.
 
 ## Collaborating with others
 
 We contribute to programmes that develop best practices and contribute to deepening scientific understanding of biodiversity and ecosystems.
 
-We have a long history of working alongside global environmental partners. For example, as part of the IUCN Renewable Energy and
-Nature programme Phase 2, we work with the IUCN, industry and nongovernmental organisations to develop guidance for cumulative impact
-assessment, spatial planning, responsible sourcing and biodiversity enhancements in renewable projects.
+We have a long history of working alongside global environmental partners. For example, as part of the IUCN Renewable Energy and Nature programme Phase 2, we work with the IUCN, industry and nongovernmental organisations to develop guidance for cumulative impact assessment, spatial planning, responsible sourcing and biodiversity enhancements in renewable projects.
 
-Shell is one of the industry partners supporting INSITE, an independent science programme examining the effects of man-made structures on
-the ecology of the North Sea. We also contribute to the Offshore
-Renewables Joint Industry Programme, a research programme aimed at improving understanding of the effects of offshore wind and other
-energy projects on the marine environment.
+Shell is one of the industry partners supporting INSITE, an independent science programme examining the effects of man-made structures on the ecology of the North Sea. We also contribute to the Offshore Renewables Joint Industry Programme, a research programme aimed at improving understanding of the effects of offshore wind and other energy projects on the marine environment.
 
-When undertaking impact assessments or developing biodiversity action plans or reforestation plans, we consult with stakeholders to
-incorporate local and indigenous knowledge and work in partnerships to implement these plans.
-
+When undertaking impact assessments or developing biodiversity action plans or reforestation plans, we consult with stakeholders to incorporate local and indigenous knowledge and work in partnerships to implement these plans.
 
 ## Sourcing of biocomponents
 
 See "Renewable and waste-based biofuel feedstocks" on page 406 for information about actions related to biocomponents.
 
-
 ## Resourcing our actions
 
-The Executive Vice President for Safety, Environment and Asset
-Management is the most senior executive in Shell with accountability for the development, governance and oversight of the SEAM
-Standards. Leaders of assets, performance units, businesses or functions are accountable for assessing which SEAM Standards are relevant
-based on their objectives, risk profile and activities, and for implementing those standards as appropriate.
+The Executive Vice President for Safety, Environment and Asset Management is the most senior executive in Shell with accountability for the development, governance and oversight of the SEAM Standards. Leaders of assets, performance units, businesses or functions are accountable for assessing which SEAM Standards are relevant based on their objectives, risk profile and activities, and for implementing those standards as appropriate.
 
-Implementation of the SEAM Standards relevant to biodiversity is supported by members of Shell's Safety, Environment and Asset
-Management function, which includes subject matter experts in impact assessment and biodiversity. The requirements of our standards are
-communicated to people involved with implementation through various mechanisms, including internal communication channels, management
-systems and training, as appropriate.
-
+Implementation of the SEAM Standards relevant to biodiversity is supported by members of Shell's Safety, Environment and Asset Management function, which includes subject matter experts in impact assessment and biodiversity. The requirements of our standards are communicated to people involved with implementation through various mechanisms, including internal communication channels, management systems and training, as appropriate.
 
 ## Planned actions
 
@@ -10387,36 +8702,21 @@ reforestation plans;
 - work with external stakeholders and industry peers on biodiversity
 issues.
 
-
-Our action plans are responsive to changing business conditions.
-Planned actions not directly related to compliance with regulations or our own standards are subject to change. The actions given above
-represent key focus areas rather than an exhaustive list.
-
+Our action plans are responsive to changing business conditions. Planned actions not directly related to compliance with regulations or our own standards are subject to change. The actions given above represent key focus areas rather than an exhaustive list.
 
 ## Targets related to biodiversity and ecosystems (E4-4)
 
-Our business activities and the ecosystems in which they are located are diverse. As a result, the nature of our impacts on biodiversity varies
-from location to location. We believe that local goals drive more appropriate outcomes than globally aggregated targets, which may or
-may not be applicable to every situation. For this reason, we have not set consolidated targets on biodiversity at a Group level. Instead, our
-site-specific biodiversity action plans and reforestation plans set priorities at a local level for specific objectives, such as net positive
-impact or net-zero deforestation. Such plans may specify a base year from which progress is measured.
+Our business activities and the ecosystems in which they are located are diverse. As a result, the nature of our impacts on biodiversity varies from location to location. We believe that local goals drive more appropriate outcomes than globally aggregated targets, which may or may not be applicable to every situation. For this reason, we have not set consolidated targets on biodiversity at a Group level. Instead, our site-specific biodiversity action plans and reforestation plans set priorities at a local level for specific objectives, such as net positive impact or net-zero deforestation. Such plans may specify a base year from which progress is measured.
 
-We measure the effectiveness of our policies and standards by monitoring the implementation of our biodiversity requirements.
-We track progress on implementing biodiversity action plans and reforestation plans at regular intervals. These efforts are supported by
-specialist teams that monitor internal and external trends and provide technical advice to our operating assets.
-
+We measure the effectiveness of our policies and standards by monitoring the implementation of our biodiversity requirements. We track progress on implementing biodiversity action plans and reforestation plans at regular intervals. These efforts are supported by specialist teams that monitor internal and external trends and provide technical advice to our operating assets.
 
 ## Impact metrics related to biodiversity and ecosystems change (E4-5)
 
-Due to the diversity of our operations, the ecosystems in which they are located and different ways in which our activities may impact
-biodiversity, our monitoring and measurement have a strong local focus. We continue to monitor the development of external frameworks
-for corporate-level reporting on biodiversity and ecosystem services.
+Due to the diversity of our operations, the ecosystems in which they are located and different ways in which our activities may impact biodiversity, our monitoring and measurement have a strong local focus. We continue to monitor the development of external frameworks for corporate-level reporting on biodiversity and ecosystem services.
 
 Our sites located in biodiversity sensitive areas are shown below.
 
-
 ### Sites located in biodiversity sensitive areas (operational control) [A] [B] [C] [D]
-
 
 <table>
 <tr>
@@ -10436,27 +8736,17 @@ Our sites located in biodiversity sensitive areas are shown below.
 </tr>
 </table>
 
-[A] A site is a defined geographical area in which Shell business operations take place. A site may consist of one or more facilities or one or more geological fields with associated
-production and utility facilities. A site generally corresponds to the business accountability of an operations manager or production unit manager.
+[A] A site is a defined geographical area in which Shell business operations take place. A site may consist of one or more facilities or one or more geological fields with associated production and utility facilities. A site generally corresponds to the business accountability of an operations manager or production unit manager.
 
-[B] Biodiversity sensitive areas include UNESCO World Heritage Sites, the Natura 2000 network of protected areas, key biodiversity areas and other protected areas including
-Ramsar Wetlands of International Importance, UNESCO Man-Biosphere Reserves, areas designated under regional agreements, as well as nationally designated areas reported as
-IUCN Management Category I-IV.
+[B] Biodiversity sensitive areas include UNESCO World Heritage Sites, the Natura 2000 network of protected areas, key biodiversity areas and other protected areas including Ramsar Wetlands of International Importance, UNESCO Man-Biosphere Reserves, areas designated under regional agreements, as well as nationally designated areas reported as IUCN Management Category I-IV.
 
-[C] Includes sites located within designated biodiversity sensitive areas. It is not yet possible to provide consolidated information on sites "near" biodiversity sensitive areas due to
-incomplete availability of information at a Group level about whether and how our activities may affect such areas. We aim to undertake further work to enhance our
-understanding.
+[C] Includes sites located within designated biodiversity sensitive areas. It is not yet possible to provide consolidated information on sites "near" biodiversity sensitive areas due to incomplete availability of information at a Group level about whether and how our activities may affect such areas. We aim to undertake further work to enhance our understanding.
 
-[D] If a project is located in a critical habitat but not within a designated biodiversity sensitive area, it is not included in this table or in the table "Sites impacting biodiversity sensitive
-areas". See Footnote [A] to the table "Projects in critical habitats with biodiversity action plans" on page 403 for information.
+[D] If a project is located in a critical habitat but not within a designated biodiversity sensitive area, it is not included in this table or in the table "Sites impacting biodiversity sensitive areas". See Footnote [A] to the table "Projects in critical habitats with biodiversity action plans" on page 403 for information.
 
-
-Deforestation is one of the causes of land use change. We monitor progress on reforestation for sites under Shell's operational control,
-consistent with our commitment to net-zero deforestation. Our progress on reforestation for sites under Shell's operational control is shown below.
-
+Deforestation is one of the causes of land use change. We monitor progress on reforestation for sites under Shell's operational control, consistent with our commitment to net-zero deforestation. Our progress on reforestation for sites under Shell's operational control is shown below.
 
 ### Deforestation and reforestation (operational control) [A]
-
 
 <table>
 <tr>
@@ -10478,258 +8768,139 @@ consistent with our commitment to net-zero deforestation. Our progress on refore
 
 [A] Includes total area deforested and reforested by Shell-operated projects and activities within the reporting period.
 
-[B] The scope is limited to forests as defined by the Food and Agriculture Organization of the
-United Nations.
+[B] The scope is limited to forests as defined by the Food and Agriculture Organization of the United Nations.
 
 [C] Replanting hectares are counted as soon as seedlings are planted in the ground.
 
-
-There is typically a time lag between the deforestation of an area and the start of the replanting process, which can range from months to
-years. As a result, there is often a difference in the number of hectares deforested and the number of hectares replanted within a single
-reporting period. Since 2022, when our net-zero deforestation commitment commenced, we have deforested 506 hectares and reforested 65 hectares. All sites where deforestation has occurred have
-reforestation plans in place or under development. See "Deforestation and reforestation" on page 401 for more information.
+There is typically a time lag between the deforestation of an area and the start of the replanting process, which can range from months to years. As a result, there is often a difference in the number of hectares deforested and the number of hectares replanted within a single reporting period. Since 2022, when our net-zero deforestation commitment commenced, we have deforested 506 hectares and reforested 65 hectares. All sites where deforestation has occurred have reforestation plans in place or under development. See "Deforestation and reforestation" on page 401 for more information.
 
 We aim to continue to explore options to enhance our biodiversity metrics in the future.
 
-
 ## Resource use and circular economy (E5)
-
 
 ## As part of our respecting nature ambition, we seek to use resources efficiently and to increase reuse and recycling.
 
-Our double materiality assessment has identified waste management as a material topic. See "Material impacts, risks and opportunities and
-their interaction with strategy and business mode (SBM-3)" on page
-351 and "Description of the process to identify and assess material impacts, risks and opportunities (IRO-1)" on page 354 for more
-information.
-
+Our double materiality assessment has identified waste management as a material topic. See "Material impacts, risks and opportunities and their interaction with strategy and business mode (SBM-3)" on page 351 and "Description of the process to identify and assess material impacts, risks and opportunities (IRO-1)" on page 354 for more information.
 
 ## Why it matters
 
-Shell's business consumes resources and materials while producing energy and non-energy products for our customers. Our activities also
-generate waste, which must be managed appropriately to avoid harm to people or the environment. We are improving local practices by
-prioritising waste prevention, reuse and recycling over energy recovery and disposal.
+Shell's business consumes resources and materials while producing energy and non-energy products for our customers. Our activities also generate waste, which must be managed appropriately to avoid harm to people or the environment. We are improving local practices by prioritising waste prevention, reuse and recycling over energy recovery and disposal.
 
-Fossil fuels are based on a non-renewable natural resource which is combusted at the point of consumption. Such products are linear by
-nature. We are exploring options to reduce our use of resources, improve efficiency and recycling, and offer products that incorporate
-circular principles in those parts of our business where it is possible to do so.
+Fossil fuels are based on a non-renewable natural resource which is combusted at the point of consumption. Such products are linear by nature. We are exploring options to reduce our use of resources, improve efficiency and recycling, and offer products that incorporate circular principles in those parts of our business where it is possible to do so.
 
-Shell purchases biocomponents to produce biofuels, lubricants and chemicals, blend into fuels or to trade. Certain biofuel feedstocks have
-the potential for negative impacts in areas such as human rights, biodiversity or the release of carbon into the atmosphere. We adopt
-policies and procedures to prevent and mitigate these potential impacts.
-
+Shell purchases biocomponents to produce biofuels, lubricants and chemicals, blend into fuels or to trade. Certain biofuel feedstocks have the potential for negative impacts in areas such as human rights, biodiversity or the release of carbon into the atmosphere. We adopt policies and procedures to prevent and mitigate these potential impacts.
 
 ## Policies related to resource use and circular economy (E5-1)
 
-Our approach to resource use and circularity is governed by our
-Safety, Environment and Asset Management (SEAM) Standards, except where otherwise stated. These contain standards for resource
-efficiency, waste management and circularity. They are designed to increase the use of secondary resources, sustainable sourcing
-and renewable resources. See "SEAM Standards" on page 130 for more information.
+Our approach to resource use and circularity is governed by our Safety, Environment and Asset Management (SEAM) Standards, except where otherwise stated. These contain standards for resource efficiency, waste management and circularity. They are designed to increase the use of secondary resources, sustainable sourcing and renewable resources. See "SEAM Standards" on page 130 for more information.
 
-The standards described in this section apply to Shell companies and joint ventures in which Shell is the operator, except where otherwise
-stated. We expect non-operated joint ventures to adopt appropriate and acceptable policies to manage their risks.
-
+The standards described in this section apply to Shell companies and joint ventures in which Shell is the operator, except where otherwise stated. We expect non-operated joint ventures to adopt appropriate and acceptable policies to manage their risks.
 
 ## Waste management
 
-Our standards require assets, projects or businesses to identify wasterelated impacts and to adopt waste management plans. Our objective
-is to make sure that collection, storage, transport and disposal of waste is carried out in accordance with applicable laws and Shell standards.
-Such plans document the legislative context, the quantities and types of waste generated, waste classification and management decisionmaking processes, and all aspects of waste handling from collection
-and storage to transport and final disposal. We apply a waste management hierarchy that aims to prevent or reduce waste at source
-as the most preferred option, followed by reuse, recycling, energy recovery and treatment and disposal.
+Our standards require assets, projects or businesses to identify wasterelated impacts and to adopt waste management plans. Our objective is to make sure that collection, storage, transport and disposal of waste is carried out in accordance with applicable laws and Shell standards. Such plans document the legislative context, the quantities and types of waste generated, waste classification and management decisionmaking processes, and all aspects of waste handling from collection and storage to transport and final disposal. We apply a waste management hierarchy that aims to prevent or reduce waste at source as the most preferred option, followed by reuse, recycling, energy recovery and treatment and disposal.
 
-When disposing of hazardous waste, our standards require the use of disposal sites that meet internationally recognised standards for waste
-management facilities, as verified by subject matter experts.
+When disposing of hazardous waste, our standards require the use of disposal sites that meet internationally recognised standards for waste management facilities, as verified by subject matter experts.
 
-We seek to minimise the movement of hazardous waste across international borders. When such movement cannot be avoided, our
-standards require us to verify compliance with the Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and
-their Disposal.
+We seek to minimise the movement of hazardous waste across international borders. When such movement cannot be avoided, our standards require us to verify compliance with the Basel Convention on the Control of Transboundary Movements of Hazardous Wastes and their Disposal.
 
-Our waste management standards are applied throughout the project life cycle from construction and operation to decommissioning. When
-developing new assets, we undertake impact assessments to identify measures to avoid or minimise waste-related impacts. When
-decommissioning assets, we seek to maximise reuse, repurposing and recycling of materials.
+Our waste management standards are applied throughout the project life cycle from construction and operation to decommissioning. When developing new assets, we undertake impact assessments to identify measures to avoid or minimise waste-related impacts. When decommissioning assets, we seek to maximise reuse, repurposing and recycling of materials.
 
-Some Shell businesses have adopted waste management policies specific to their business. For example, our Renewables and Energy
-Solutions business has adopted a ban on the use of landfills for disposing of wind turbine blades. This policy applies to new projects
-undertaken after 2022 as well as to certain existing projects undertaken before 2022 for which decommissioning is expected
-within the next decade.
-
+Some Shell businesses have adopted waste management policies specific to their business. For example, our Renewables and Energy Solutions business has adopted a ban on the use of landfills for disposing of wind turbine blades. This policy applies to new projects undertaken after 2022 as well as to certain existing projects undertaken before 2022 for which decommissioning is expected within the next decade.
 
 ## Circular economy
 
-In 2024, Shell introduced a new requirement within the SEAM
-Standards for our assets, projects or businesses to develop strategies to identify circularity-related risks and opportunities. This requirement
-aims to encourage the development of fit-for-purpose objectives and strategies based on the principles of rethink, refuse, reduce, reuse,
-recycle and repair. The intent of this standard is to accelerate progress on our ambition to use resources and materials efficiently and to
-increase reuse and recycling.
-
+In 2024, Shell introduced a new requirement within the SEAM Standards for our assets, projects or businesses to develop strategies to identify circularity-related risks and opportunities. This requirement aims to encourage the development of fit-for-purpose objectives and strategies based on the principles of rethink, refuse, reduce, reuse, recycle and repair. The intent of this standard is to accelerate progress on our ambition to use resources and materials efficiently and to increase reuse and recycling.
 
 ## Sourcing of biocomponents
 
-Our approach to sourcing renewable components and feedstock is governed by our policy on sustainable sourcing of biocomponents. This
-policy applies to all feedstocks regardless of origin. Its aim is to ensure that we do not source renewable components or feedstocks that have
-been associated with a potential violation of human rights, animal care and welfare principles and/or clearing of areas with high carbon stock
-or of high biodiversity value.
+Our approach to sourcing renewable components and feedstock is governed by our policy on sustainable sourcing of biocomponents. This policy applies to all feedstocks regardless of origin. Its aim is to ensure that we do not source renewable components or feedstocks that have been associated with a potential violation of human rights, animal care and welfare principles and/or clearing of areas with high carbon stock or of high biodiversity value.
 
-The policy requires new feedstock type and country combinations to be subject to a risk assessment covering key environmental and social
-criteria, including human rights, prior to an agreement to procure.
-Identified risks are mitigated through measures such as certification by recognised sustainability standards (including chain of custody
-traceability and sustainable production elements) and the inclusion of mandatory contract clauses. The policy requires suppliers to
-demonstrate alignment with human rights and environmental requirements, which are incorporated in our contractual agreements.
+The policy requires new feedstock type and country combinations to be subject to a risk assessment covering key environmental and social criteria, including human rights, prior to an agreement to procure. Identified risks are mitigated through measures such as certification by recognised sustainability standards (including chain of custody traceability and sustainable production elements) and the inclusion of mandatory contract clauses. The policy requires suppliers to demonstrate alignment with human rights and environmental requirements, which are incorporated in our contractual agreements.
 
-This policy requires palm oil, Latin American soy, sugar-cane derivatives, and forestry products and residues to be certified through
-recognised voluntary schemes. It prohibits the use of any crude palm oil or palm oil derivatives as a feedstock for the production of low-carbon
-fuels in our operations.
+This policy requires palm oil, Latin American soy, sugar-cane derivatives, and forestry products and residues to be certified through recognised voluntary schemes. It prohibits the use of any crude palm oil or palm oil derivatives as a feedstock for the production of low-carbon fuels in our operations.
 
-The scope of this policy applies to components and feedstocks procured by Shell companies and joint ventures in which Shell is the
-operator. Non-operated joint ventures determine their own policies.
-
+The scope of this policy applies to components and feedstocks procured by Shell companies and joint ventures in which Shell is the operator. Non-operated joint ventures determine their own policies.
 
 ## Other policies
 
-See "Impact assessment" on page 355, "Greenhouse gas and energy management plan" on page 369 and "Water stewardship" on page
-395 for information about other policies relevant to resource use and waste management.
-
+See "Impact assessment" on page 355, "Greenhouse gas and energy management plan" on page 369 and "Water stewardship" on page 395 for information about other policies relevant to resource use and waste management.
 
 ## Actions and resources related to resource use and circular economy (E5-2)
 
-In 2024, we continued to make improvements in our approach to managing waste and circularity. We also continued to refine our
-approach to the sourcing of biocomponents.
+In 2024, we continued to make improvements in our approach to managing waste and circularity. We also continued to refine our approach to the sourcing of biocomponents.
 
-The scope of the actions described in this section covers Shell companies and joint ventures in which Shell is the operator, unless
-otherwise stated. Many of our actions are of an ongoing nature.
-Horizons for the completion of time-bound actions are indicated where applicable.
+The scope of the actions described in this section covers Shell companies and joint ventures in which Shell is the operator, unless otherwise stated. Many of our actions are of an ongoing nature. Horizons for the completion of time-bound actions are indicated where applicable.
 
-Our actions are intended to help us achieve the desired outcome of our policies and standards by providing resources and expertise that
-support our businesses to implement them in fit-for-purpose ways.
-
+Our actions are intended to help us achieve the desired outcome of our policies and standards by providing resources and expertise that support our businesses to implement them in fit-for-purpose ways.
 
 ## Waste and circularity
 
-We are working to reduce waste and increase circularity in those parts of our business where it is possible to do so. In 2024, we concluded
-our aim for zero waste is technically unfeasible. We continue to improve waste and circularity plans at the asset level to drive fit-forpurpose waste reduction and optimise local circular economies.
+We are working to reduce waste and increase circularity in those parts of our business where it is possible to do so. In 2024, we concluded our aim for zero waste is technically unfeasible. We continue to improve waste and circularity plans at the asset level to drive fit-forpurpose waste reduction and optimise local circular economies.
 
-Since 2021, we have completed 26 detailed assessments across our businesses to better understand the types of waste we generate and
-identify options to increase circular approaches. Using the results of these assessments, our assets are improving local waste management
-practices by prioritising waste prevention, reuse and recycling over energy recovery and disposal.
+Since 2021, we have completed 26 detailed assessments across our businesses to better understand the types of waste we generate and identify options to increase circular approaches. Using the results of these assessments, our assets are improving local waste management practices by prioritising waste prevention, reuse and recycling over energy recovery and disposal.
 
+For example, at our Pearl GTL gas-to-liquids facility in Qatar, we have diverted waste to local cement kilns for use as clinker in cement production, thereby reducing use of raw materials and the amount of waste sent to landfill. Our Gulf of America operations are finding ways to reduce the disposal of unused chemicals, for example by testing and treating them so that they can be returned to the supplier for reuse.
 
-For example, at our Pearl GTL gas-to-liquids facility in Qatar, we have diverted waste to local cement kilns for use as clinker in cement
-production, thereby reducing use of raw materials and the amount of waste sent to landfill. Our Gulf of America operations are finding ways
-to reduce the disposal of unused chemicals, for example by testing and treating them so that they can be returned to the supplier for reuse.
+We are investigating options to reduce waste streams such as biosludge, potentially contaminated soils and drilling fluids and cuttings. For example, at the Nyhamna gas plant in Norway, we send biosludge to a local biogas facility, diverting it from landfill to generate electricity and for use as a soil fertiliser.
 
-We are investigating options to reduce waste streams such as biosludge, potentially contaminated soils and drilling fluids and cuttings.
-For example, at the Nyhamna gas plant in Norway, we send biosludge to a local biogas facility, diverting it from landfill to generate
-electricity and for use as a soil fertiliser.
+At our Brazos wind farm upgrade in Texas, we sent decommissioned turbine blades in 2024 to be recycled for use as a component in construction materials.
 
-At our Brazos wind farm upgrade in Texas, we sent decommissioned turbine blades in 2024 to be recycled for use as a component in
-construction materials.
+Our businesses and assets are developing strategies to improve circularity and to address risks and opportunities associated with our material flows. We developed four circularity strategies in 2024 which identified opportunities to increase the use of recycled materials in products and construction, eliminate single-use purchases, and design and select equipment that reduces waste generation.
 
-Our businesses and assets are developing strategies to improve circularity and to address risks and opportunities associated with our
-material flows. We developed four circularity strategies in 2024 which identified opportunities to increase the use of recycled materials in
-products and construction, eliminate single-use purchases, and design and select equipment that reduces waste generation.
-
-To build common understanding and progress the circular economy in the energy sector, Shell participates in circularity-related working
-groups of industry or business associations such as Ipieca, the global oil and gas association for advancing environmental and social
-performance across the energy transition; the European Chemical
-Industry Council (Cefic); and the World Business Council for
-Sustainable Development (WBCSD). We are also members of
-CHWMEG and the Canadian Waste Receiver Assessment Program, which help to assess waste disposal and recycling facilities on behalf of
-their members.
-
+To build common understanding and progress the circular economy in the energy sector, Shell participates in circularity-related working groups of industry or business associations such as Ipieca, the global oil and gas association for advancing environmental and social performance across the energy transition; the European Chemical Industry Council (Cefic); and the World Business Council for Sustainable Development (WBCSD). We are also members of CHWMEG and the Canadian Waste Receiver Assessment Program, which help to assess waste disposal and recycling facilities on behalf of their members.
 
 ## Renewable and waste-based biofuel feedstocks
 
-Shell aims to be a significant and profitable supplier of low-carbon fuels to help decarbonise harder-to-abate sectors including aviation, marine
-and commercial road transport.
+Shell aims to be a significant and profitable supplier of low-carbon fuels to help decarbonise harder-to-abate sectors including aviation, marine and commercial road transport.
 
-We supply and trade low-carbon fuels such as biodiesel, bioethanol, renewable natural gas (also known as biogas or biomethane),
-renewable diesel (also known as hydrotreated vegetable oil or HVO) and sustainable aviation fuel (SAF) to help lower the carbon emissions
-from transport. These fuels can be blended with existing fuels - such as diesel, petrol and aviation fuel - or used neat, and do not require
-costly investment in new infrastructure, which means they are a practical option for reducing transport emissions.
+We supply and trade low-carbon fuels such as biodiesel, bioethanol, renewable natural gas (also known as biogas or biomethane), renewable diesel (also known as hydrotreated vegetable oil or HVO) and sustainable aviation fuel (SAF) to help lower the carbon emissions from transport. These fuels can be blended with existing fuels - such as diesel, petrol and aviation fuel - or used neat, and do not require costly investment in new infrastructure, which means they are a practical option for reducing transport emissions.
 
-Shell and the non-operated joint venture Raízen (Shell interest 44%) are, together, one of the world's largest blenders and distributors of
-biofuels. Biofuels, along with natural gas, will play a key role in reducing emissions from heavy-duty transport.
+Shell and the non-operated joint venture Raízen (Shell interest 44%) are, together, one of the world's largest blenders and distributors of biofuels. Biofuels, along with natural gas, will play a key role in reducing emissions from heavy-duty transport.
 
-In 2024, around 10.37 billion litres of biofuels (2023: 9.7 billion litres) were blended into Shell's sale of fuels worldwide, which includes the
-Shell share of sales made by Raízen. Raízen produced, on a 100% basis, around 3.16 billion litres of ethanol in 2024 (2023: 3.12 billion
-litres).
+In 2024, around 10.37 billion litres of biofuels (2023: 9.7 billion litres) were blended into Shell's sale of fuels worldwide, which includes the Shell share of sales made by Raízen. Raízen produced, on a 100% basis, around 3.16 billion litres of ethanol in 2024 (2023: 3.12 billion litres).
 
-To support our biofuel production capacity, we are developing multiple sourcing strategies for feedstocks. This includes purchases of feedstocks
-from third parties as well as equity production.
+To support our biofuel production capacity, we are developing multiple sourcing strategies for feedstocks. This includes purchases of feedstocks from third parties as well as equity production.
 
-In line with our biocomponents sourcing policy, the palm oil derivatives and waste, sugar cane and South American soy feedstock we purchase
-are certified under sustainability standards like the Roundtable on
+In line with our biocomponents sourcing policy, the palm oil derivatives and waste, sugar cane and South American soy feedstock we purchase are certified under sustainability standards like the Roundtable on
 
-Sustainable Palm Oil, the International Sustainability and Carbon
-Certification, Bonsucro and the Round Table on Responsible Soy
-Association. We have also committed not to use crude palm oil or palm oil derivatives as a feedstock in Shell-operated assets producing
-biofuels or biogas.
+Sustainable Palm Oil, the International Sustainability and Carbon Certification, Bonsucro and the Round Table on Responsible Soy Association. We have also committed not to use crude palm oil or palm oil derivatives as a feedstock in Shell-operated assets producing biofuels or biogas.
 
-Renewable natural gas (RNG), also known as biogas or biomethane, is gas derived from processing organic waste in a controlled environment
-until it is fully interchangeable with conventional natural gas.
+Renewable natural gas (RNG), also known as biogas or biomethane, is gas derived from processing organic waste in a controlled environment until it is fully interchangeable with conventional natural gas.
 
-We are using local agricultural waste to grow Shell's RNG portfolio. Our acquisition of Nature Energy in 2023 supports our ambition to
-build a large-scale integrated RNG value chain to grow our low-carbon offerings across sectors. Nature Energy is one of the largest producers
-of RNG in Europe, and its main supply chains involve locally sourced agricultural waste.
+We are using local agricultural waste to grow Shell's RNG portfolio. Our acquisition of Nature Energy in 2023 supports our ambition to build a large-scale integrated RNG value chain to grow our low-carbon offerings across sectors. Nature Energy is one of the largest producers of RNG in Europe, and its main supply chains involve locally sourced agricultural waste.
 
-In the USA, we have two dairy manure-to-RNG facilities in operation, with a third under construction that is expected to become operational
-in 2025.
+In the USA, we have two dairy manure-to-RNG facilities in operation, with a third under construction that is expected to become operational in 2025.
 
-In July 2024, we announced that we had paused on-site construction work at the biofuels facility at the Shell Energy and Chemicals Park
-Rotterdam in the Netherlands to assess the most commercial way forward for the project.
+In July 2024, we announced that we had paused on-site construction work at the biofuels facility at the Shell Energy and Chemicals Park Rotterdam in the Netherlands to assess the most commercial way forward for the project.
 
 See "Biofuels" on page 58 for more information.
 
-
 ## Plastics
 
-Shell supports the need for improved circularity in the global plastics market. We encourage reduction, reuse and recycling of plastics and
-we are also a founding member of the Alliance to End Plastic Waste, which helps governments to assess and improve waste collection and
-waste management.
+Shell supports the need for improved circularity in the global plastics market. We encourage reduction, reuse and recycling of plastics and we are also a founding member of the Alliance to End Plastic Waste, which helps governments to assess and improve waste collection and waste management.
 
-We are working with partners across the plastic waste value chain, such as the waste management industry and pyrolysis oil producers,
-to encourage the development of a more circular value chain.
+We are working with partners across the plastic waste value chain, such as the waste management industry and pyrolysis oil producers, to encourage the development of a more circular value chain.
 
-Since 2019, Shell has been processing pyrolysis oil made from mixed plastic waste at the Shell Norco Energy and Chemicals Park in the
-USA. In 2024, we began production at our new pyrolysis oil upgrader at the Shell Chemicals Park Moerdijk in the Netherlands. The upgrader
-improves the quality of pyrolysis oil, a liquid made from hard-to-recycle plastic waste, and turns it into chemical feedstock. The plant has the
-capacity to process up to 50,000 tonnes of pyrolysis oil per year.
-
+Since 2019, Shell has been processing pyrolysis oil made from mixed plastic waste at the Shell Norco Energy and Chemicals Park in the USA. In 2024, we began production at our new pyrolysis oil upgrader at the Shell Chemicals Park Moerdijk in the Netherlands. The upgrader improves the quality of pyrolysis oil, a liquid made from hard-to-recycle plastic waste, and turns it into chemical feedstock. The plant has the capacity to process up to 50,000 tonnes of pyrolysis oil per year.
 
 ## Packaging
 
-We continue to work towards our priority to increase recycled plastic in our packaging and ensure the packaging we use for our products is
-reusable or recyclable by design.
+We continue to work towards our priority to increase recycled plastic in our packaging and ensure the packaging we use for our products is reusable or recyclable by design.
 
-In our Global Lubricants business, we continued to work with packaging suppliers to increase recycled plastic in our lubricant
-packaging. We are also using rewashed or rebottled bulk containers and reconditioned steel drums in select markets. And we collaborate
-with partners to produce and use fully recycled steel drums in
-Germany.
+In our Global Lubricants business, we continued to work with packaging suppliers to increase recycled plastic in our lubricant packaging. We are also using rewashed or rebottled bulk containers and reconditioned steel drums in select markets. And we collaborate with partners to produce and use fully recycled steel drums in Germany.
 
-In our Mobility business, we continue to work with our suppliers for
-Shell-branded car care, food and drink products globally to increase packaging sustainability, which includes incorporating packaging
-sustainability elements in some tenders.
-
+In our Mobility business, we continue to work with our suppliers for Shell-branded car care, food and drink products globally to increase packaging sustainability, which includes incorporating packaging sustainability elements in some tenders.
 
 ## Resourcing our actions
 
-The Executive Vice President for Safety, Environment and Asset
-Management is the most senior executive in Shell with accountability for the development, governance and oversight of the SEAM
-Standards. Leaders of assets, performance units, businesses or functions are accountable for assessing which SEAM Standards are relevant,
-based on their objectives, risk profile and activities, and for implementing those standards as appropriate.
+The Executive Vice President for Safety, Environment and Asset Management is the most senior executive in Shell with accountability for the development, governance and oversight of the SEAM Standards. Leaders of assets, performance units, businesses or functions are accountable for assessing which SEAM Standards are relevant, based on their objectives, risk profile and activities, and for implementing those standards as appropriate.
 
-Implementation of SEAM Standards relevant to circularity and waste is supported by members of Shell's Safety, Environment and Asset
-Management function, which includes subject matter experts in impact assessment and waste management.
+Implementation of SEAM Standards relevant to circularity and waste is supported by members of Shell's Safety, Environment and Asset Management function, which includes subject matter experts in impact assessment and waste management.
 
-The Vice President for Sustainability is the most senior executive in Shell with accountability for the development, governance and oversight of
-Shell's policy on sourcing of biocomponents, with support from a crossbusiness Renewable Components and Feedstock Sustainability
-Committee (RCFS). Leaders of business units that source biocomponents are responsible for compliance with the policy through
-their procurement focal points, with support from the Low Carbon
-Solutions sustainability team.
+The Vice President for Sustainability is the most senior executive in Shell with accountability for the development, governance and oversight of Shell's policy on sourcing of biocomponents, with support from a crossbusiness Renewable Components and Feedstock Sustainability Committee (RCFS). Leaders of business units that source biocomponents are responsible for compliance with the policy through their procurement focal points, with support from the Low Carbon Solutions sustainability team.
 
-The requirements of our standards and policies are communicated to people involved with implementation through various mechanisms,
-including internal communication channels, management systems and training, as appropriate.
-
+The requirements of our standards and policies are communicated to people involved with implementation through various mechanisms, including internal communication channels, management systems and training, as appropriate.
 
 ## Planned actions
 
@@ -10745,93 +8916,49 @@ regulators;
 - explore opportunities for reused or recycled feedstocks for the
 manufacture of chemicals and plastics.
 
-Our action plans are responsive to changing business conditions.
-Planned actions not directly related to compliance with regulations or our own standards are subject to change. The actions listed above
-represent key focus areas rather than an exhaustive list.
-
+Our action plans are responsive to changing business conditions. Planned actions not directly related to compliance with regulations or our own standards are subject to change. The actions listed above represent key focus areas rather than an exhaustive list.
 
 ## Targets related to resource use and circular economy (E5-3)
 
-Shell has set a priority to increase the amount of recycled plastic in
-Shell-branded packaging to 30% by 2030 and to ensure that the packaging we use for our products is reusable or recyclable by design.
-Shell's priority meets the ESRS definition of a target.
+Shell has set a priority to increase the amount of recycled plastic in Shell-branded packaging to 30% by 2030 and to ensure that the packaging we use for our products is reusable or recyclable by design. Shell's priority meets the ESRS definition of a target.
 
-The scope of this priority includes Shell-branded primary packaging for our lubricants and non-fuel mobility products such as car care and food
-and drink. It excludes secondary and tertiary packaging; Shell-branded packaging of products manufactured, purchased and used by third
-parties; and-third party producers who make Shell products.
-Percentages for recycled plastic in Shell-branded packaging and for packaging that is reusable or recyclable are calculated using weight
-from purchasing specifications.
-
+The scope of this priority includes Shell-branded primary packaging for our lubricants and non-fuel mobility products such as car care and food and drink. It excludes secondary and tertiary packaging; Shell-branded packaging of products manufactured, purchased and used by third parties; and-third party producers who make Shell products. Percentages for recycled plastic in Shell-branded packaging and for packaging that is reusable or recyclable are calculated using weight from purchasing specifications.
 
 ## Recycled plastic content in packaging
 
-By the end of 2024, we had achieved a level of 17% recycled plastic content by weight in Shell-branded plastic packaging compared with
-10% in the base year of 2022. This level of progress is consistent with our expectations when setting the priority.
-
+By the end of 2024, we had achieved a level of 17% recycled plastic content by weight in Shell-branded plastic packaging compared with 10% in the base year of 2022. This level of progress is consistent with our expectations when setting the priority.
 
 ## Packaging classified as reusable or recyclable
 
-In 2024, we continued to meet our priority to ensure the packaging we use for our products is reusable or recyclable by design. In our
-Lubricants business, we maintained 99% total Shell-branded product packaging classified as reusable or recyclable by weight. Our Mobility
-business increased its use of reusable or recyclable packaging to 92% in 2024, compared with 79% in the base year of 2022. This level of
-progress is consistent with our expectations when setting the priority.
-
+In 2024, we continued to meet our priority to ensure the packaging we use for our products is reusable or recyclable by design. In our Lubricants business, we maintained 99% total Shell-branded product packaging classified as reusable or recyclable by weight. Our Mobility business increased its use of reusable or recyclable packaging to 92% in 2024, compared with 79% in the base year of 2022. This level of progress is consistent with our expectations when setting the priority.
 
 ## Other disclosures
 
-Our post-consumer recycled material and reusable or recyclable packaging priorities respond to emerging scientific evidence on the
-impacts of plastic waste on the environment as well as to customer demand for increased circularity in packaging. By working towards
-these priorities, we increase our proportional use of recycled plastic and reduce our primary raw material use. These priorities relate to the
-recycling layer of the waste hierarchy. They have been adopted voluntarily, although as a global priority they also apply in jurisdictions
-that are adopting mandatory regulations.
+Our post-consumer recycled material and reusable or recyclable packaging priorities respond to emerging scientific evidence on the impacts of plastic waste on the environment as well as to customer demand for increased circularity in packaging. By working towards these priorities, we increase our proportional use of recycled plastic and reduce our primary raw material use. These priorities relate to the recycling layer of the waste hierarchy. They have been adopted voluntarily, although as a global priority they also apply in jurisdictions that are adopting mandatory regulations.
 
-Shell has not set consolidated targets for circular product design; minimisation of primary raw materials; sustainable sourcing and use of
-renewable resources in line with the cascading principle to use, reuse and recycle resources for as long as possible and at the highest value
-use per stage; waste management; or other matters related to resource use or the circular economy other than as set out above.
-
+Shell has not set consolidated targets for circular product design; minimisation of primary raw materials; sustainable sourcing and use of renewable resources in line with the cascading principle to use, reuse and recycle resources for as long as possible and at the highest value use per stage; waste management; or other matters related to resource use or the circular economy other than as set out above.
 
 ## Resource outflows (E5-5)
 
 Shell's outflows consist of our products as well as waste generated from our operations.
 
-
 ## Products
 
-Shell produces and sells energy and non-energy products with varying levels of technical and economic potential to transition to more circular
-production processes. Energy products based on fossil fuels such as oil, natural gas and refined products are linear by nature, as they are
-based on a non-renewable natural resource which is combusted at the point of consumption. Chemicals based on hydrocarbon feedstocks
-have the potential to increase the use of recycled feedstocks as market incentives and technologies evolve. We are investing in biofuels, which
-have potential for circular production.
+Shell produces and sells energy and non-energy products with varying levels of technical and economic potential to transition to more circular production processes. Energy products based on fossil fuels such as oil, natural gas and refined products are linear by nature, as they are based on a non-renewable natural resource which is combusted at the point of consumption. Chemicals based on hydrocarbon feedstocks have the potential to increase the use of recycled feedstocks as market incentives and technologies evolve. We are investing in biofuels, which have potential for circular production.
 
-Where relevant, Shell seeks to provide customers with non-fuel products that improve resource efficiency or incorporate circular
-principles by design. For example, we are the world's leading supplier of bitumen, one of the most recycled products in the construction
-industry. We have designed next-generation premium asphalts that last up to 20% longer than conventional polymer-modified bitumen. This
-can extend the service life of roads by up to three years.
+Where relevant, Shell seeks to provide customers with non-fuel products that improve resource efficiency or incorporate circular principles by design. For example, we are the world's leading supplier of bitumen, one of the most recycled products in the construction industry. We have designed next-generation premium asphalts that last up to 20% longer than conventional polymer-modified bitumen. This can extend the service life of roads by up to three years.
 
-Shell also produces lubricants that can be recycled after use, excluding greases and applications where the lubricant is fully consumed in the
-use phase. Such lubricants can be re-refined through hydroprocessing to achieve the same quality as virgin base oils. In our catalyst
-manufacturing business, some of our catalysts are designed to be regenerated and reused by the customer to extend useful life. Precious
-metals in our catalysts are typically leased from third parties and reclaimed after use.
-
+Shell also produces lubricants that can be recycled after use, excluding greases and applications where the lubricant is fully consumed in the use phase. Such lubricants can be re-refined through hydroprocessing to achieve the same quality as virgin base oils. In our catalyst manufacturing business, some of our catalysts are designed to be regenerated and reused by the customer to extend useful life. Precious metals in our catalysts are typically leased from third parties and reclaimed after use.
 
 ## Waste
 
-Shell's operations generate non-hazardous and hazardous waste. Our drilling and production activities produce waste streams such as drilling
-fluid and cuttings, potentially contaminated soil, spent chemicals, brine water and septic waste. Our manufacturing operations produce waste
-streams such as bio-sludge, potentially contaminated soil, industrial waste water and spent catalysts.
+Shell's operations generate non-hazardous and hazardous waste. Our drilling and production activities produce waste streams such as drilling fluid and cuttings, potentially contaminated soil, spent chemicals, brine water and septic waste. Our manufacturing operations produce waste streams such as bio-sludge, potentially contaminated soil, industrial waste water and spent catalysts.
 
+These streams can include a variety of materials including metals, nonmetallic minerals and chemical substances. We aim to recycle catalysts containing rare earth elements and to reclaim catalysts containing precious metals. We also aim to regenerate to extend catalyst life and recycle to reduce disposal.
 
-These streams can include a variety of materials including metals, nonmetallic minerals and chemical substances. We aim to recycle catalysts
-containing rare earth elements and to reclaim catalysts containing precious metals. We also aim to regenerate to extend catalyst life and
-recycle to reduce disposal.
-
-We present data below for waste against an operational control boundary. See "Supplementary data for pollution, water, biodiversity
-and waste, including estimates for non-operated assets" on pages
-434-437 for data reported against a financial control boundary.
-
+We present data below for waste against an operational control boundary. See "Supplementary data for pollution, water, biodiversity and waste, including estimates for non-operated assets" on pages 434-437 for data reported against a financial control boundary.
 
 ### Waste (operational control) [A]
-
 
 <table>
 <tr>
@@ -10923,17 +9050,11 @@ and waste, including estimates for non-operated assets" on pages
 </tr>
 </table>
 
-[A] Waste data are calculated using methods required or recommended by relevant regulatory
-☒ agencies or authorities. In the absence of these, mass is determined by direct measurement using weighbridges. In the absence of weighing facilities, mass is estimated. Due to the
-complex and site-specific nature of these calculations, it is not possible to state a degree of measurement uncertainty with confidence. These data include liquid waste streams that are
-classified as waste by regulators and sent for disposal to a third-party facility or re-injected on-site. They exclude process waste water, produced water and waste-water streams not
-classified as waste by regulators, including waste water discharged to a municipal or public treatment works. They also exclude contaminated soil remediated on-site or in situ. Split by
-category may not add up to the total due to rounding.
+[A] Waste data are calculated using methods required or recommended by relevant regulatory ☒ agencies or authorities. In the absence of these, mass is determined by direct measurement using weighbridges. In the absence of weighing facilities, mass is estimated. Due to the complex and site-specific nature of these calculations, it is not possible to state a degree of measurement uncertainty with confidence. These data include liquid waste streams that are classified as waste by regulators and sent for disposal to a third-party facility or re-injected on-site. They exclude process waste water, produced water and waste-water streams not classified as waste by regulators, including waste water discharged to a municipal or public treatment works. They also exclude contaminated soil remediated on-site or in situ. Split by category may not add up to the total due to rounding.
 
 [B] Waste generated is the total mass of hazardous and non-hazardous waste generated and disposed of or diverted from disposal.
 
-[C] Hazardous waste includes all waste that is defined as hazardous, toxic, dangerous, listed, priority, special or some other similar term as defined by an appropriate country,
-regulatory agency or authority.
+[C] Hazardous waste includes all waste that is defined as hazardous, toxic, dangerous, listed, priority, special or some other similar term as defined by an appropriate country, regulatory agency or authority.
 
 [D] Radioactive waste is classified according to local regulations.
 
@@ -10943,60 +9064,41 @@ regulatory agency or authority.
 
 [G] Other recovery operations include incineration with energy recovery.
 
-[H] Waste directed to disposal may be incinerated, sent to landfill or disposed of in some other way, such as chemical, physical or biological (or a combination) treatment that acts
-as the final disposal point.
+[H] Waste directed to disposal may be incinerated, sent to landfill or disposed of in some other way, such as chemical, physical or biological (or a combination) treatment that acts as the final disposal point.
 
 [I] Non-recycled waste is the total mass of hazardous and non-hazardous waste that is directed to disposal.
 
-
 In 2024, we disposed of 1,933 thousand tonnes of waste, compared with 2,251 thousand tonnes in 2023.
 
-We disposed of 1,396 thousand tonnes of non-hazardous waste in
-2024, compared with 1,619 thousand tonnes in 2023. The decrease was primarily due to the return-to-service of water treatment equipment
-after maintenance at the Scotford Upgrader in Canada.
+We disposed of 1,396 thousand tonnes of non-hazardous waste in 2024, compared with 1,619 thousand tonnes in 2023. The decrease was primarily due to the return-to-service of water treatment equipment after maintenance at the Scotford Upgrader in Canada.
 
-We disposed of 536 thousand tonnes of hazardous waste in 2024, compared with 631 thousand tonnes in 2023. The decrease was due to
-improved classification of generated waste in our Mobility and Low
-Carbon Fuels businesses and a reduction of drilling waste in Argentina.
+We disposed of 536 thousand tonnes of hazardous waste in 2024, compared with 631 thousand tonnes in 2023. The decrease was due to improved classification of generated waste in our Mobility and Low Carbon Fuels businesses and a reduction of drilling waste in Argentina.
 
-We diverted 728 thousand tonnes of residual materials for reuse, recycling or use as a raw material in another process. This includes
-waste that might otherwise go to landfill being incinerated to generate energy.
-
+We diverted 728 thousand tonnes of residual materials for reuse, recycling or use as a raw material in another process. This includes waste that might otherwise go to landfill being incinerated to generate energy.
 
 ## Social
 
 ### Own workforce (S1)
 
-
 ## Our people are essential to our purpose of powering progress together. They are key to delivering our strategy and we believe in helping them to develop their skills.
 
-Our double materiality assessment has identified working conditions and equal treatment and opportunities as material topics. See
-"Material impacts, risks and opportunities and their interaction with strategy and business model (SBM-3)" on page 351 and "Description
-of the process to identify and assess material impacts, risks and opportunities (IRO-1)" on page 354 for more information.
-
+Our double materiality assessment has identified working conditions and equal treatment and opportunities as material topics. See "Material impacts, risks and opportunities and their interaction with strategy and business model (SBM-3)" on page 351 and "Description of the process to identify and assess material impacts, risks and opportunities (IRO-1)" on page 354 for more information.
 
 ### Why it matters
 
-The successful delivery of our strategy depends on our people and on a culture that aligns with our goals and reflects the changes we need to
-make as part of the energy transition. Attracting, retaining, developing and motivating our people is core to our success.
+The successful delivery of our strategy depends on our people and on a culture that aligns with our goals and reflects the changes we need to make as part of the energy transition. Attracting, retaining, developing and motivating our people is core to our success.
 
-This section explains Shell's approach to its own workforce. See
-"Workers in the value chain (S2)" on page 415 for information about our approach to non-employees in our value chain.
-
+This section explains Shell's approach to its own workforce. See "Workers in the value chain (S2)" on page 415 for information about our approach to non-employees in our value chain.
 
 ## Material impacts, risks and opportunities and their interaction with strategy and business model (ESRS 2 SBM-3)
 
-Except where otherwise stated, this ESRS S1 section covers Shell's own workforce, which comprises employees and, where relevant,
-non-employees whom we engage on a temporary basis to augment our existing staff as the need arises.
+Except where otherwise stated, this ESRS S1 section covers Shell's own workforce, which comprises employees and, where relevant, non-employees whom we engage on a temporary basis to augment our existing staff as the need arises.
 
 Shell's total workforce comprises employees and external workers, whom we refer to as our contingent workforce or contingent workers.
 
-Shell considers employees to be persons with whom we have an employment relationship, subject to the laws of the countries in which
-we do business. This includes people employed in Shell subsidiaries and Shell-operated joint ventures, and those seconded to non-operated
-joint operations, joint ventures or associates.
+Shell considers employees to be persons with whom we have an employment relationship, subject to the laws of the countries in which we do business. This includes people employed in Shell subsidiaries and Shell-operated joint ventures, and those seconded to non-operated joint operations, joint ventures or associates.
 
-Our contingent workforce is categorised in accordance with applicable laws and regulations, based on job duties and responsibilities. We
-recognise different categories of contingent workers, including:
+Our contingent workforce is categorised in accordance with applicable laws and regulations, based on job duties and responsibilities. We recognise different categories of contingent workers, including:
 
 (1) people who work under our day-to-day supervision on a temporary basis to augment existing staff;
 
@@ -11004,288 +9106,145 @@ recognise different categories of contingent workers, including:
 
 (3) people who work for suppliers providing outsourced services on a long-term basis.
 
-The people under (1) are referred to as non-employees for the purpose of our disclosure and the people under (2) and (3) are together
-referred to as workers in the value chain, value chain workers or workers and fall under the scope of ESRS S2 for the purpose of our
-disclosure. People employed or otherwise engaged by non-operated ventures and by business partners are not part of our total workforce.
+The people under (1) are referred to as non-employees for the purpose of our disclosure and the people under (2) and (3) are together referred to as workers in the value chain, value chain workers or workers and fall under the scope of ESRS S2 for the purpose of our disclosure. People employed or otherwise engaged by non-operated ventures and by business partners are not part of our total workforce.
 
-Human capital is fundamental to Shell's business model and the delivery of our strategy. As the energy system transforms and we
-reshape our portfolio, elements of our culture will need to adapt. For example, we will have to develop new skills, and adapt our processes
-and systems, which, in some areas, will need to be different from those required for our traditional oil and gas businesses.
+Human capital is fundamental to Shell's business model and the delivery of our strategy. As the energy system transforms and we reshape our portfolio, elements of our culture will need to adapt. For example, we will have to develop new skills, and adapt our processes and systems, which, in some areas, will need to be different from those required for our traditional oil and gas businesses.
 
-Our business activities have a positive economic impact on employees by creating jobs and providing competitive pay and benefits. Our
-employees and, where relevant, non-employees, also benefit from personal development opportunities through on-the-job learning,
-coaching and formal training.
+Our business activities have a positive economic impact on employees by creating jobs and providing competitive pay and benefits. Our employees and, where relevant, non-employees, also benefit from personal development opportunities through on-the-job learning, coaching and formal training.
 
-Our approach to diversity, equity and inclusion has the potential for positive impacts by promoting equal opportunity based on objective
-factors and creating an environment where people feel included.
+Our approach to diversity, equity and inclusion has the potential for positive impacts by promoting equal opportunity based on objective factors and creating an environment where people feel included.
 
-We take active steps to avoid potential negative impacts, including discrimination, harassment, non-respect of fundamental human or
-labour rights, and occupational health and safety incidents. As potential human rights and labour rights impacts can occur in any
-country, our systems are designed to assess potential exposure to forced labour and child labour based on the nature of the business
-activity and the location in which it is performed. We operate in some locations where potential negative impacts may arise from exposure
-to systemic human and labour rights risks or from individual incidents. The changing nature of our business has the potential to result in
-organisational changes which may affect the number of employees and expertise we require.
+We take active steps to avoid potential negative impacts, including discrimination, harassment, non-respect of fundamental human or labour rights, and occupational health and safety incidents. As potential human rights and labour rights impacts can occur in any country, our systems are designed to assess potential exposure to forced labour and child labour based on the nature of the business activity and the location in which it is performed. We operate in some locations where potential negative impacts may arise from exposure to systemic human and labour rights risks or from individual incidents. The changing nature of our business has the potential to result in organisational changes which may affect the number of employees and expertise we require.
 
-We pay particular attention to the needs of groups who may have heightened exposure to potential negative impacts associated with
-discrimination and harassment, such as women and ethnic minorities.
-We also give particular attention to workers whose roles involve exposure to operational safety hazards.
-
+We pay particular attention to the needs of groups who may have heightened exposure to potential negative impacts associated with discrimination and harassment, such as women and ethnic minorities. We also give particular attention to workers whose roles involve exposure to operational safety hazards.
 
 ## Portfolio companies
 
-Portfolio companies are non-integrated entities within the Shell Group. To give these companies the flexibility they need, they operate as
-subsidiaries while generally retaining their own processes and systems.
-Portfolio companies comply with Shell's minimum requirements for controls and compliance. These include the Shell Performance
-Framework and mandatory requirements for ethics and compliance, risk management and safety. Portfolio companies generally maintain their
-own human resources policies, processes and systems. We expect them to comply with Shell's minimum standards on maternity leave, parental
-leave and life/accident/disability cover, subject to factors such as local laws and regulation. Our disclosures in ESRS SI exclude portfolio
-companies except as stated above.
-
+Portfolio companies are non-integrated entities within the Shell Group. To give these companies the flexibility they need, they operate as subsidiaries while generally retaining their own processes and systems. Portfolio companies comply with Shell's minimum requirements for controls and compliance. These include the Shell Performance Framework and mandatory requirements for ethics and compliance, risk management and safety. Portfolio companies generally maintain their own human resources policies, processes and systems. We expect them to comply with Shell's minimum standards on maternity leave, parental leave and life/accident/disability cover, subject to factors such as local laws and regulation. Our disclosures in ESRS SI exclude portfolio companies except as stated above.
 
 ## Policies related to own workforce (S1-1)
 
-Shell's approach to managing impacts, risks and opportunities associated with our own workforce is guided by a combination of
-global and local policies.
+Shell's approach to managing impacts, risks and opportunities associated with our own workforce is guided by a combination of global and local policies.
 
-Shell employs people in more than 70 countries and is subject to different labour laws and practices in the jurisdictions where we do
-business. Our global policies are designed to establish minimum standards across countries. Our local policies respect applicable law,
-regulations and practices at a local level.
+Shell employs people in more than 70 countries and is subject to different labour laws and practices in the jurisdictions where we do business. Our global policies are designed to establish minimum standards across countries. Our local policies respect applicable law, regulations and practices at a local level.
 
-The policies described in this section apply to employees and, where required by law, to non-employees working in Shell subsidiaries and
-Shell-operated joint ventures and to those employees seconded to non-operated joint operations (except in certain cases where we are
-precluded from offering Shell's minimum standards owing to the non-operated venture structure), joint ventures or associates, or where
-otherwise stated.
+The policies described in this section apply to employees and, where required by law, to non-employees working in Shell subsidiaries and Shell-operated joint ventures and to those employees seconded to non-operated joint operations (except in certain cases where we are precluded from offering Shell's minimum standards owing to the non-operated venture structure), joint ventures or associates, or where otherwise stated.
 
-We communicate our policies to our own workforce through a variety of channels, including new employee induction, Code of Conduct
-refresher training, internal communications and other Human
-Resources processes.
-
+We communicate our policies to our own workforce through a variety of channels, including new employee induction, Code of Conduct refresher training, internal communications and other Human Resources processes.
 
 ## Human rights
 
-Our commitment to respect the human rights of our total workforce is described in the Shell General Business Principles, which set the
-standard for how we conduct business aligned with our core values of honesty, integrity and respect for people. All people who form
-part of our total workforce are expected to behave in line with these principles.
+Our commitment to respect the human rights of our total workforce is described in the Shell General Business Principles, which set the standard for how we conduct business aligned with our core values of honesty, integrity and respect for people. All people who form part of our total workforce are expected to behave in line with these principles.
 
-The Shell Code of Conduct explains how employees, contingent workers and anyone else acting on behalf of Shell must behave to live
-up to our business principles. It sets out our expectations with regard to a safe and healthy workplace, equal opportunity, freedom from
-discrimination and harassment, respect for fundamental human and labour rights, anti-bribery and fair competition.
+The Shell Code of Conduct explains how employees, contingent workers and anyone else acting on behalf of Shell must behave to live up to our business principles. It sets out our expectations with regard to a safe and healthy workplace, equal opportunity, freedom from discrimination and harassment, respect for fundamental human and labour rights, anti-bribery and fair competition.
 
-Shell is committed to respecting human rights as set out in the United
-Nations Universal Declaration of Human Rights and the International
-Labour Organization's Declaration on Fundamental Principles and Rights at Work. This includes respect for freedom of association and the
-effective recognition of the right to collective bargaining, elimination of forced and child labour, the elimination of discrimination in respect of
-employment and occupation, and a safe and healthy working environment. We support relevant voluntary codes, including the OECD
-Guidelines for Multinational Enterprises and the UN Global Compact.
+Shell is committed to respecting human rights as set out in the United Nations Universal Declaration of Human Rights and the International Labour Organization's Declaration on Fundamental Principles and Rights at Work. This includes respect for freedom of association and the effective recognition of the right to collective bargaining, elimination of forced and child labour, the elimination of discrimination in respect of employment and occupation, and a safe and healthy working environment. We support relevant voluntary codes, including the OECD Guidelines for Multinational Enterprises and the UN Global Compact.
 
-Shell has an integrated approach to human rights which is informed by the UN Guiding Principles on Business and Human Rights and is
-embedded in our policies and management systems. We set similar expectations for our contingent workforce and suppliers through the
-Shell Supplier Principles (see page 425). Our policies and systems specifically address child labour and forced labour. In general, this
-would include human trafficking.
+Shell has an integrated approach to human rights which is informed by the UN Guiding Principles on Business and Human Rights and is embedded in our policies and management systems. We set similar expectations for our contingent workforce and suppliers through the Shell Supplier Principles (see page 425). Our policies and systems specifically address child labour and forced labour. In general, this would include human trafficking.
 
-See "Processes for engaging with own workforce and workers' representatives about impacts (S1-2)" on page 410 for information
-about our approach to workforce engagement. See "Processes to remediate negative impacts and channels for own workforce to raise
-concerns (S1-3)" on page 411 for information about access to remedy.
-
+See "Processes for engaging with own workforce and workers' representatives about impacts (S1-2)" on page 410 for information about our approach to workforce engagement. See "Processes to remediate negative impacts and channels for own workforce to raise concerns (S1-3)" on page 411 for information about access to remedy.
 
 ## Discrimination and equal opportunity
 
-Shell's Code of Conduct sets out our expectations for equal opportunity in employment decisions based on objective factors. It recognises the
-value of diversity and prohibits discrimination based on race, colour, religion, age, gender, sexual orientation, gender identity, marital status,
-disability, ethnic origin or nationality. It does not explicitly refer to political opinion, national extraction or social origin. However, it
-requires employment decisions to be based solely on objective factors such as merit, qualifications, performance and business considerations.
+Shell's Code of Conduct sets out our expectations for equal opportunity in employment decisions based on objective factors. It recognises the value of diversity and prohibits discrimination based on race, colour, religion, age, gender, sexual orientation, gender identity, marital status, disability, ethnic origin or nationality. It does not explicitly refer to political opinion, national extraction or social origin. However, it requires employment decisions to be based solely on objective factors such as merit, qualifications, performance and business considerations.
 
-The Code of Conduct prohibits harassment, defined as any action, conduct or behaviour which is humiliating, intimidating or hostile.
-We expect employees, contingent workers and anyone else acting on behalf of Shell to treat others with respect and to avoid situations
-that may be perceived as inappropriate.
+The Code of Conduct prohibits harassment, defined as any action, conduct or behaviour which is humiliating, intimidating or hostile. We expect employees, contingent workers and anyone else acting on behalf of Shell to treat others with respect and to avoid situations that may be perceived as inappropriate.
 
-Due to differences in employment laws in the countries in which we operate, our global policies do not include specific commitments
-related to positive action for groups within our workforce, other than those indicated above. Local policies may vary depending on local
-laws, regulations or practices for specific groups within our workforce.
-See "Diversity, equity and inclusion" on page 117 for more information.
+Due to differences in employment laws in the countries in which we operate, our global policies do not include specific commitments related to positive action for groups within our workforce, other than those indicated above. Local policies may vary depending on local laws, regulations or practices for specific groups within our workforce. See "Diversity, equity and inclusion" on page 117 for more information.
 
-Our policies and management practices are designed to eliminate discrimination and seek to address bias in attraction, selection,
-development, performance and reward management. Examples of procedures for implementing these policies include our job resourcing
-guidelines and accessibility standards applied through the hiring process, a global performance management approach that determines pay outcomes, gender and salary grade checks for skewness in individual
-performance outcomes, a global job evaluation and benchmarking system, and regular country pay equity checks. When evidence of bias is
-detected, follow-up actions may include further work to understand the reasons and taking corrective steps where appropriate.
-
+Our policies and management practices are designed to eliminate discrimination and seek to address bias in attraction, selection, development, performance and reward management. Examples of procedures for implementing these policies include our job resourcing guidelines and accessibility standards applied through the hiring process, a global performance management approach that determines pay outcomes, gender and salary grade checks for skewness in individual performance outcomes, a global job evaluation and benchmarking system, and regular country pay equity checks. When evidence of bias is detected, follow-up actions may include further work to understand the reasons and taking corrective steps where appropriate.
 
 ## Life/accident/disability cover
 
-Shell has a global standard of a minimum of twice the annual base salary for death in service or an injury benefit associated with a
-workplace accident. This is a total figure that includes both stateprovided benefits and employer-provided contributions.
-
+Shell has a global standard of a minimum of twice the annual base salary for death in service or an injury benefit associated with a workplace accident. This is a total figure that includes both stateprovided benefits and employer-provided contributions.
 
 ## Maternity leave
 
-Shell has a global minimum standard of 16 weeks paid maternity leave, enabling new mothers to put their families first and spend more time
-with their newborns.
-
+Shell has a global minimum standard of 16 weeks paid maternity leave, enabling new mothers to put their families first and spend more time with their newborns.
 
 ## Parental leave
 
-Shell has a global minimum standard of eight weeks' paid leave to all non-birthing parents, subject to any local restrictions. This policy
-includes new fathers and parents welcoming a child through surrogacy or adoption. Paid parental leave for non-birthing parents applies
-regardless of gender, gender identity or marital status.
-
+Shell has a global minimum standard of eight weeks' paid leave to all non-birthing parents, subject to any local restrictions. This policy includes new fathers and parents welcoming a child through surrogacy or adoption. Paid parental leave for non-birthing parents applies regardless of gender, gender identity or marital status.
 
 ## Pay philosophy and Fair Pay Principles
 
-Our Fair Pay Principles are designed to manage pay at Shell and help us ensure that employees are valued, respected and recognised for the
-work they do. Shell's pay is designed to be market competitive and free from bias. Shell sets clear performance expectations, gives employees
-the opportunity to share in Shell's success through a variety of variable pay schemes, and is transparent and clear in its communication of pay.
+Our Fair Pay Principles are designed to manage pay at Shell and help us ensure that employees are valued, respected and recognised for the work they do. Shell's pay is designed to be market competitive and free from bias. Shell sets clear performance expectations, gives employees the opportunity to share in Shell's success through a variety of variable pay schemes, and is transparent and clear in its communication of pay.
 
-We ensure fairness by applying our Fair Pay Principles across payrelated matters and limit the opportunity for bias through several
-internal processes and practices. We do not pay differently owing to gender, ethnicity or other characteristics. Portfolio companies generally
-maintain their own pay philosophies and principles.
-
+We ensure fairness by applying our Fair Pay Principles across payrelated matters and limit the opportunity for bias through several internal processes and practices. We do not pay differently owing to gender, ethnicity or other characteristics. Portfolio companies generally maintain their own pay philosophies and principles.
 
 ## Health and safety
 
-The Shell Code of Conduct requires every Shell company, supplier and joint venture under Shell operational control to have a systematic
-approach to managing health, safety, security, environment and social performance (HSSE & SP). We expect non-operated joint ventures to
-adopt appropriate and acceptable policies to manage their risks.
+The Shell Code of Conduct requires every Shell company, supplier and joint venture under Shell operational control to have a systematic approach to managing health, safety, security, environment and social performance (HSSE & SP). We expect non-operated joint ventures to adopt appropriate and acceptable policies to manage their risks.
 
-This requirement is designed to ensure compliance with the law and to achieve continuous performance improvement while promoting a
-culture in which our total workforce shares this commitment. See
-"Policies related to safety" on page 429 for details of our safety policies and standards.
-
+This requirement is designed to ensure compliance with the law and to achieve continuous performance improvement while promoting a culture in which our total workforce shares this commitment. See "Policies related to safety" on page 429 for details of our safety policies and standards.
 
 ## Processes for engaging with own workforce and workers' representatives about impacts (S1-2)
 
-Insight into employee needs and perspectives enables Shell to continually learn and improve our policies, processes and practices.
-The Shell People Survey is one of the key tools we use to measure employee engagement, motivation, affiliation and commitment to
-Shell. External and internal research shows that increased employee engagement can result in better business performance and improved
-safety. In 2024, the response rate to the survey was 86%, compared with 88% in 2023 which indicates our people's desire to provide
-feedback. The overall employee engagement score decreased to 75 (compared with the top quartile 80 points) from 79 points in 2023,
-which we believe reflects the level of changes introduced in the organisation as we transform our business to deliver more value
-with less emissions.
+Insight into employee needs and perspectives enables Shell to continually learn and improve our policies, processes and practices. The Shell People Survey is one of the key tools we use to measure employee engagement, motivation, affiliation and commitment to Shell. External and internal research shows that increased employee engagement can result in better business performance and improved safety. In 2024, the response rate to the survey was 86%, compared with 88% in 2023 which indicates our people's desire to provide feedback. The overall employee engagement score decreased to 75 (compared with the top quartile 80 points) from 79 points in 2023, which we believe reflects the level of changes introduced in the organisation as we transform our business to deliver more value with less emissions.
 
+Across Shell, employees have access to senior leaders, local employee forums and employee resource groups. These engagements enable Shell to maintain a constructive employee and industrial relations environment.
 
-Across Shell, employees have access to senior leaders, local employee forums and employee resource groups. These engagements enable
-Shell to maintain a constructive employee and industrial relations environment.
+Management regularly engages with employees and, where relevant, non-employees, through elected employee representatives and a range of local formal and informal channels. These channels include webcasts and all-employee messages from our CEO and other senior leaders, as well as town halls, team meetings and site visits by the Board and Executive Committee. Engagement takes place continually throughout the year.
 
-Management regularly engages with employees and, where relevant, non-employees, through elected employee representatives and a range
-of local formal and informal channels. These channels include webcasts and all-employee messages from our CEO and other senior leaders,
-as well as town halls, team meetings and site visits by the Board and
-Executive Committee. Engagement takes place continually throughout the year.
+We respect the right to collective bargaining and freedom of association. Shell respects local law in our efforts to advance labour principles.
 
-We respect the right to collective bargaining and freedom of association. Shell respects local law in our efforts to advance labour
-principles.
+Where appropriate, engagement takes place with union and employee representatives at asset and country level, as well as with the Shell European Works Council.
 
-Where appropriate, engagement takes place with union and employee representatives at asset and country level, as well as with the Shell
-European Works Council.
+We gain insight into the needs of specific groups of employees and, where relevant, non-employees, through a network of around 120 employee resource groups in 30 countries and regions. These groups cover areas such as gender, race and ethnicity, LGBT+, disability inclusion, parents, new graduates, experienced hires and veterans. Engagement with employee resource groups takes place on a regular basis, including at senior leadership levels. We may also obtain insights from third parties and external partnerships.
 
-We gain insight into the needs of specific groups of employees and, where relevant, non-employees, through a network of around 120
-employee resource groups in 30 countries and regions. These groups cover areas such as gender, race and ethnicity, LGBT+, disability
-inclusion, parents, new graduates, experienced hires and veterans.
-Engagement with employee resource groups takes place on a regular basis, including at senior leadership levels. We may also obtain insights
-from third parties and external partnerships.
-
-Shell's Human Resources (HR) function, headed by the Chief Human
-Resources and Corporate Officer, has operational responsibility for employee engagement.
-
+Shell's Human Resources (HR) function, headed by the Chief Human Resources and Corporate Officer, has operational responsibility for employee engagement.
 
 ## Processes to remediate negative impacts and channels for own workforce to raise concerns (S1-3)
 
 Where we have potentially caused or contributed to adverse impacts, we seek to provide and facilitate access to remedy.
 
-
 ## Providing access to remedy
 
-Shell provides multiple channels for employees and, where relevant, non-employees, to raise concerns and seek access to remedy. We use
-information generated by these processes to monitor trends, assess effectiveness and improve performance.
+Shell provides multiple channels for employees and, where relevant, non-employees, to raise concerns and seek access to remedy. We use information generated by these processes to monitor trends, assess effectiveness and improve performance.
 
-Where appropriate, we encourage employees and non-employees to raise concerns directly with their line manager or an HR representative.
-In some countries, additional resources may be available to facilitate conversations, such as an employee representative body.
+Where appropriate, we encourage employees and non-employees to raise concerns directly with their line manager or an HR representative. In some countries, additional resources may be available to facilitate conversations, such as an employee representative body.
 
-Employees and non-employees can raise concerns confidentially via the
-Shell Global Helpline, a formal channel for receiving and following up enquiries and complaints. Employees and non-employees can submit
-reports to the Shell Global Helpline on a named or anonymous basis. If the report is a query, or a dilemma for which advice is sought, it will
-be passed to someone qualified to provide that advice, such as an appointed expert in the subject or a member of our legal team. If the
-report is of the nature of an allegation that requires investigation, an investigator or investigation team will be assigned. This will usually
-involve one or more trained investigators with subject matter experience and any needed local knowledge.
+Employees and non-employees can raise concerns confidentially via the Shell Global Helpline, a formal channel for receiving and following up enquiries and complaints. Employees and non-employees can submit reports to the Shell Global Helpline on a named or anonymous basis. If the report is a query, or a dilemma for which advice is sought, it will be passed to someone qualified to provide that advice, such as an appointed expert in the subject or a member of our legal team. If the report is of the nature of an allegation that requires investigation, an investigator or investigation team will be assigned. This will usually involve one or more trained investigators with subject matter experience and any needed local knowledge.
 
-In locations where effective third-party complaint systems are established by local law, policy or practice, we may also participate
-in these as a channel to receive and respond to concerns.
+In locations where effective third-party complaint systems are established by local law, policy or practice, we may also participate in these as a channel to receive and respond to concerns.
 
-In 2024, all our employees and non-employees had access to channels to raise their employment concerns or grievances, including the Shell
-Global Helpline. We communicate the existence of these channels to our own workforce on a regular basis through new employee induction,
-Code of Conduct refresher training and leadership messages.
-
+In 2024, all our employees and non-employees had access to channels to raise their employment concerns or grievances, including the Shell Global Helpline. We communicate the existence of these channels to our own workforce on a regular basis through new employee induction, Code of Conduct refresher training and leadership messages.
 
 ## Assessing effectiveness
 
 We use several mechanisms to assess the effectiveness of our engagement and access to remedy.
 
-Shell's Business Integrity Department collects and analyses data on allegations involving potential violations of the Shell Code of Conduct
-and the outcome of the investigation, whether received via the Shell
-Global Helpline or a local Human Resources process. This information enables us to monitor trends in complaints received and how they
-are addressed.
+Shell's Business Integrity Department collects and analyses data on allegations involving potential violations of the Shell Code of Conduct and the outcome of the investigation, whether received via the Shell Global Helpline or a local Human Resources process. This information enables us to monitor trends in complaints received and how they are addressed.
 
-The annual Shell People Survey includes questions designed to test whether employees feel safe to speak up, whether teams are free from
-harassment and bullying, whether there are equal opportunities for people to develop and progress and whether employees trust that
-discrimination, harassment and bullying will be investigated and appropriately actioned.
+The annual Shell People Survey includes questions designed to test whether employees feel safe to speak up, whether teams are free from harassment and bullying, whether there are equal opportunities for people to develop and progress and whether employees trust that discrimination, harassment and bullying will be investigated and appropriately actioned.
 
-We maintain a stringent no retaliation policy to protect any person making an allegation in good faith. This protection extends to those
-who participate in or conduct an investigation as well as workers' representatives.
-
+We maintain a stringent no retaliation policy to protect any person making an allegation in good faith. This protection extends to those who participate in or conduct an investigation as well as workers' representatives.
 
 ### Taking action on material impacts on own workforce, and approaches to managing material risks and pursuing material opportunities related to own workforce, and effectiveness of those actions (S1-4)
 
-The scope of the actions described in this section cover Shell employees and non-employees, where applicable. Many of our actions are of an
-ongoing nature. Horizons for the completion of time-bound actions are indicated where applicable.
+The scope of the actions described in this section cover Shell employees and non-employees, where applicable. Many of our actions are of an ongoing nature. Horizons for the completion of time-bound actions are indicated where applicable.
 
-Our actions are intended to help us achieve the desired outcome of our policies and standards by providing resources and expertise that
-support our businesses to implement them in fit-for-purpose ways.
+Our actions are intended to help us achieve the desired outcome of our policies and standards by providing resources and expertise that support our businesses to implement them in fit-for-purpose ways.
 
-In 2024, we continued our employee dialogue to mitigate the impact on our own workforce arising from portfolio and structural changes in
-the organisation.
+In 2024, we continued our employee dialogue to mitigate the impact on our own workforce arising from portfolio and structural changes in the organisation.
 
-The Shell Performance Framework supports the delivery of sustainable business outcomes. In 2024, we continued to embed the Shell
-Performance Framework in our human resources processes, with the aim of ensuring all elements of our culture are harnessed to deliver on
-our strategy.
+The Shell Performance Framework supports the delivery of sustainable business outcomes. In 2024, we continued to embed the Shell Performance Framework in our human resources processes, with the aim of ensuring all elements of our culture are harnessed to deliver on our strategy.
 
-We continued to raise awareness and promote skill building on mental well-being at Shell through Shell's Global Mental Well-being
-Programme. We continued to increase resources available to our employees and, where relevant, to non-employees, on other pertinent
-topics such as financial well-being.
+We continued to raise awareness and promote skill building on mental well-being at Shell through Shell's Global Mental Well-being Programme. We continued to increase resources available to our employees and, where relevant, to non-employees, on other pertinent topics such as financial well-being.
 
-We supported several countries to develop country-level diversity, equity and inclusion (DE&I) plans. We make our progress transparent
-through an internal DE&I dashboard that is accessible on a voluntary basis to all Shell employees.
+We supported several countries to develop country-level diversity, equity and inclusion (DE&I) plans. We make our progress transparent through an internal DE&I dashboard that is accessible on a voluntary basis to all Shell employees.
 
-We track the effectiveness of our actions through several mechanisms, including internal reporting and analysis of performance data, and
-feedback received though the Shell Global Helpline, Shell People
-Survey and other engagement channels.
+We track the effectiveness of our actions through several mechanisms, including internal reporting and analysis of performance data, and feedback received though the Shell Global Helpline, Shell People Survey and other engagement channels.
 
+We take action to support access to remedy through a variety of channels, including the Shell Global Helpline. We also seek to understand the needs of our workforce through mechanisms such as the Shell People Survey and our Global Mental Well-being programme.
 
-We take action to support access to remedy through a variety of channels, including the Shell Global Helpline. We also seek to
-understand the needs of our workforce through mechanisms such as the
-Shell People Survey and our Global Mental Well-being programme.
+We identify actual or potential impacts on our workforce through a variety of means. These include feedback from human resources and line managers, feedback from engagement and the Shell People Survey, learning from Shell Global Helpline cases and other mechanisms. Impacts that are relevant at a global level are discussed at an appropriate management level. Where necessary, this may result in actions being taken.
 
-We identify actual or potential impacts on our workforce through a variety of means. These include feedback from human resources and
-line managers, feedback from engagement and the Shell People
-Survey, learning from Shell Global Helpline cases and other mechanisms. Impacts that are relevant at a global level are discussed
-at an appropriate management level. Where necessary, this may result in actions being taken.
-
-Shell seeks to avoid or minimise material adverse impacts on our own workforce by embedding respect for the rights of our employees and,
-where relevant, non-employees, in our policies and practices. Shell is committed to respecting human rights as set out in the UN Universal
-Declaration of Human Rights and the International Labour
-Organization Declaration on Fundamental Principles and Rights at
-Work. Our approach is informed by the UN Guiding Principles on
-Business and Human Rights. We provide and facilitate access to remedy. See "Policies related to own workforce (S1-1)" on page 409
-for more information.
-
+Shell seeks to avoid or minimise material adverse impacts on our own workforce by embedding respect for the rights of our employees and, where relevant, non-employees, in our policies and practices. Shell is committed to respecting human rights as set out in the UN Universal Declaration of Human Rights and the International Labour Organization Declaration on Fundamental Principles and Rights at Work. Our approach is informed by the UN Guiding Principles on Business and Human Rights. We provide and facilitate access to remedy. See "Policies related to own workforce (S1-1)" on page 409 for more information.
 
 ## Resourcing our actions
 
-The Chief Human Resources and Corporate Officer is the most senior executive in Shell with accountability for the overall development,
-governance and oversight of Shell's Human Resources policies. Human
-Resources leaders in legal entities are accountable for implementation of applicable policies and for compliance with applicable laws and
-regulations. Human resources policies are implemented by members of
-Shell's Human Resources function. The requirements of our policies are communicated to people involved with implementation through various
-mechanisms, including internal communication channels, management systems and training as appropriate.
-
+The Chief Human Resources and Corporate Officer is the most senior executive in Shell with accountability for the overall development, governance and oversight of Shell's Human Resources policies. Human Resources leaders in legal entities are accountable for implementation of applicable policies and for compliance with applicable laws and regulations. Human resources policies are implemented by members of Shell's Human Resources function. The requirements of our policies are communicated to people involved with implementation through various mechanisms, including internal communication channels, management systems and training as appropriate.
 
 ## Planned actions
 
@@ -11303,56 +9262,33 @@ relevant, with non employees;
 - support access to remedy through the Shell Global Helpline and
 other channels.
 
-Our action plans are responsive to changing business conditions.
-Planned actions not directly related to compliance with regulations or our own standards are subject to change. The actions indicated above
-represent key focus areas rather than an exhaustive list. See "Our
-People" on pages 115-119 for more information.
-
+Our action plans are responsive to changing business conditions. Planned actions not directly related to compliance with regulations or our own standards are subject to change. The actions indicated above represent key focus areas rather than an exhaustive list. See "Our People" on pages 115-119 for more information.
 
 ## Targets related to managing material negative impacts, advancing positive impacts, and managing material risks and opportunities (S1-5)
 
-Shell has set voluntary ambitions to advance our aim to become one of the most diverse and inclusive organisations in the world. We engage
-with our own workforce and employee resource groups on Shell's approach to diversity, equity and inclusion. These voluntary ambitions
-as specified below meet the ESRS definition of a target.
+Shell has set voluntary ambitions to advance our aim to become one of the most diverse and inclusive organisations in the world. We engage with our own workforce and employee resource groups on Shell's approach to diversity, equity and inclusion. These voluntary ambitions as specified below meet the ESRS definition of a target.
 
-We inform employees and employee representative bodies about our progress towards our ambitions and how we can improve our
-performance. We communicate our progress transparently in internal and external reporting where relevant.
-
+We inform employees and employee representative bodies about our progress towards our ambitions and how we can improve our performance. We communicate our progress transparently in internal and external reporting where relevant.
 
 ## Women in senior leadership
 
-To meet our aim of improving gender balance, we have an ambition to achieve 35% representation of women in our senior leadership
-positions by 2025 and 40% by 2030, compared with 29.5% in the baseline year of 2021 (excluding portfolio companies). At the end of
-2024, representation of women was 33% compared with 32% at the end of 2023. This level of progress is consistent with our expectations
-when setting the ambition.
+To meet our aim of improving gender balance, we have an ambition to achieve 35% representation of women in our senior leadership positions by 2025 and 40% by 2030, compared with 29.5% in the baseline year of 2021 (excluding portfolio companies). At the end of 2024, representation of women was 33% compared with 32% at the end of 2023. This level of progress is consistent with our expectations when setting the ambition.
 
-The scope of this ambition refers to an existing Shell measure for senior leadership based on compensation grades. The total number of these
-positions may change from year to year. We focus on representation as a percentage of this total group.
-
+The scope of this ambition refers to an existing Shell measure for senior leadership based on compensation grades. The total number of these positions may change from year to year. We focus on representation as a percentage of this total group.
 
 ## Ethnic minorities in Senior Management
 
-In support of the UK's Parker Review recommendations, we have an ambition to achieve 15% ethnic minority representation in Senior
-Management by 2027, compared with 14% in the baseline year of 2023 (excluding portfolio companies). At the end of 2024, our
-representation was 15%. This level of progress is consistent with our expectations when setting the ambition.
+In support of the UK's Parker Review recommendations, we have an ambition to achieve 15% ethnic minority representation in Senior Management by 2027, compared with 14% in the baseline year of 2023 (excluding portfolio companies). At the end of 2024, our representation was 15%. This level of progress is consistent with our expectations when setting the ambition.
 
-As per Parker Review recommendations, Senior Management refers to senior leadership based in the UK and is a Shell measure based on
-compensation grades. We have moved to this Shell definition of Senior
-Management for 2024 onwards to align with our self-identification data collection and processes. Ethnic minority refers to an individual
-who self-identifies as Asian, Black, Mixed/multiple, or other ethnic minority group, in line with UK Office for National Statistics
-classifications.
-
+As per Parker Review recommendations, Senior Management refers to senior leadership based in the UK and is a Shell measure based on compensation grades. We have moved to this Shell definition of Senior Management for 2024 onwards to align with our self-identification data collection and processes. Ethnic minority refers to an individual who self-identifies as Asian, Black, Mixed/multiple, or other ethnic minority group, in line with UK Office for National Statistics classifications.
 
 ## Characteristics of the undertaking's employees (S1-6)
 
 This section describes the key characteristics of employees in our own workforce.
 
-
 ## Employees by gender
 
-
 ### Employees by gender [A] [B]
-
 
 <table>
 <tr>
@@ -11385,13 +9321,9 @@ This section describes the key characteristics of employees in our own workforce
 
 [B] Includes employees seconded to joint ventures.
 
-
-Note 33 to the "Consolidated Financial Statements" provides employee numbers based on average headcount during the reporting
-period, excluding employees seconded to joint ventures and associates. See page 311 for more information.
-
+Note 33 to the "Consolidated Financial Statements" provides employee numbers based on average headcount during the reporting period, excluding employees seconded to joint ventures and associates. See page 311 for more information.
 
 ### Employees by country [A] [B] [C]
-
 
 <table>
 <tr>
@@ -11429,22 +9361,15 @@ period, excluding employees seconded to joint ventures and associates. See page 
 
 [C] Countries with more than 50 employees representing at least 10% of total employees.
 
-
-Note 33 to the "Consolidated Financial Statements" provides employee numbers based on average headcount during the reporting
-period, excluding employees seconded to joint ventures and associates. See page 311 for more information.
-
+Note 33 to the "Consolidated Financial Statements" provides employee numbers based on average headcount during the reporting period, excluding employees seconded to joint ventures and associates. See page 311 for more information.
 
 ## Employees by contract type and gender
 
-See the table "Employee contract type by gender and region" on page
-116 for the number of employees on permanent contracts (including employment-at-will) and temporary contracts by gender.
-
+See the table "Employee contract type by gender and region" on page 116 for the number of employees on permanent contracts (including employment-at-will) and temporary contracts by gender.
 
 ## Employee turnover
 
-
 ### Employee turnover [A] [B]
-
 
 <table>
 <tr>
@@ -11468,26 +9393,17 @@ See the table "Employee contract type by gender and region" on page
 
 [B] Includes employees seconded to joint ventures.
 
-[C] Calculated as the aggregate number of employees who leave voluntarily or due to dismissal, retirement or death in service, divided by average employee headcount for the
-reporting period. Excludes termination due to divestment.
-
+[C] Calculated as the aggregate number of employees who leave voluntarily or due to dismissal, retirement or death in service, divided by average employee headcount for the reporting period. Excludes termination due to divestment.
 
 Data for our own workforce are reported on the basis of headcount at the end of the reporting period.
 
 See "Changes in headcount" on page 115 for more information.
 
-
 ### Collective bargaining coverage and social dialogue (S1-8)
 
-We respect the right to collective bargaining and freedom of association. Where appropriate, engagements take place with union
-representatives at asset and country level, as well as with the Shell
-European Works Council. Employees covered by collective bargaining agreements are those individuals to whom Shell is obliged to apply the
-agreement. Agreements may apply to unionised and non-unionised employees. An employee covered by more than one collective
-bargaining agreement is only counted once.
-
+We respect the right to collective bargaining and freedom of association. Where appropriate, engagements take place with union representatives at asset and country level, as well as with the Shell European Works Council. Employees covered by collective bargaining agreements are those individuals to whom Shell is obliged to apply the agreement. Agreements may apply to unionised and non-unionised employees. An employee covered by more than one collective bargaining agreement is only counted once.
 
 ### Collective bargaining coverage and social dialogue [A]
-
 
 <table>
 <tr>
@@ -11528,19 +9444,15 @@ bargaining agreement is only counted once.
 
 [A] Excludes employees in portfolio companies.
 
-[B] The European Economic Area (EEA) countries include the 27 member states of the
-European Union plus Iceland, Liechtenstein and Norway.
+[B] The European Economic Area (EEA) countries include the 27 member states of the European Union plus Iceland, Liechtenstein and Norway.
 
 [C] For countries with more than 50 employees representing at least 10% of total employees.
 
-
 See "Employee engagement" on page 117.
-
 
 ### Diversity metrics (S1-9)
 
 This section describes the gender distribution at senior leadership level and the age distribution of our employees.
-
 
 <table>
 <caption>Gender distribution of senior leadership [A]</caption>
@@ -11575,47 +9487,31 @@ This section describes the gender distribution at senior leadership level and th
 
 [B] Senior Leadership is a Shell measure based on compensation grade levels.
 
-
 See the table "Employees by age group" on page 116 for information on the distribution of employees by age group.
-
 
 ## Adequate wages (S1-10)
 
-Shell's pay is designed to be market competitive. We expect that our employees can meet their basic needs through the pay and benefits
-that we provide. Shell pays its employees an adequate wage, in line with applicable benchmarks, which we regularly check.
+Shell's pay is designed to be market competitive. We expect that our employees can meet their basic needs through the pay and benefits that we provide. Shell pays its employees an adequate wage, in line with applicable benchmarks, which we regularly check.
 
 See "Pay philosophy and Fair Pay Principles" on page 410 for more information.
 
-This assessment does not take into account any additional non-salary components of total remuneration that may be applicable, such as
-benefits and share awards.
-
+This assessment does not take into account any additional non-salary components of total remuneration that may be applicable, such as benefits and share awards.
 
 ## Health and safety metrics (S1-14)
 
-The Shell Commitment and Policy on Health, Security, Safety, the
-Environment and Social Performance (HSSE & SP) requires Shell companies, contractors and joint ventures under our operational
-control to adopt a systematic approach to managing HSSE risk to achieve compliance with the law and continuous improvement in
-performance. We expect ventures not under our operational control to adopt an equivalent approach.
+The Shell Commitment and Policy on Health, Security, Safety, the Environment and Social Performance (HSSE & SP) requires Shell companies, contractors and joint ventures under our operational control to adopt a systematic approach to managing HSSE risk to achieve compliance with the law and continuous improvement in performance. We expect ventures not under our operational control to adopt an equivalent approach.
 
-All employees and non-employees working under our day-to-day supervision are covered by the appropriate HSSE & SP requirements
-which may be implemented through our own management system based on our standards or the supplier's management system, depending on the contract mode.
+All employees and non-employees working under our day-to-day supervision are covered by the appropriate HSSE & SP requirements which may be implemented through our own management system based on our standards or the supplier's management system, depending on the contract mode.
 
-See "Contractor HSSE management" on page 429 for information on our approach to managing HSSE in contracts and "Personal safety" on
-page 432 for information on our safety performance.
-
+See "Contractor HSSE management" on page 429 for information on our approach to managing HSSE in contracts and "Personal safety" on page 432 for information on our safety performance.
 
 ## Remuneration metrics (pay gap and total remuneration) (S1-16)
 
-We operate objective pay processes and seek to address bias. The basis for paying fairly is equal pay for equal work, taking into account
-factors such as performance and experience. We monitor pay equity through regular analysis to obtain confidence that we have pay equity
-between genders for performing the same jobs. We address any unexplained pay differences related to gender through rigorous
-internal processes.
+We operate objective pay processes and seek to address bias. The basis for paying fairly is equal pay for equal work, taking into account factors such as performance and experience. We monitor pay equity through regular analysis to obtain confidence that we have pay equity between genders for performing the same jobs. We address any unexplained pay differences related to gender through rigorous internal processes.
 
 See "Discrimination and equal opportunity" on page 410 for more information.
 
-
 ## Remuneration metrics [A]
-
 
 <table>
 <tr>
@@ -11639,208 +9535,103 @@ See "Discrimination and equal opportunity" on page 410 for more information.
 
 [B] Defined as the difference in average pay levels between female and male employees, expressed as a percentage of the average pay level of male employees.
 
-[C] Calculated as annual total remuneration for the highest paid individual, divided by the median employee annual total remuneration excluding the highest paid individual. Annual
-total remuneration includes salary, bonus, the fair value of long-term incentives awarded, and relevant allowances and benefits.
+[C] Calculated as annual total remuneration for the highest paid individual, divided by the median employee annual total remuneration excluding the highest paid individual. Annual total remuneration includes salary, bonus, the fair value of long-term incentives awarded, and relevant allowances and benefits.
 
+We continue to make progress towards gender balance across Shell, but a gender pay gap exists for several reasons, including fewer women in senior leadership positions and fewer women in higher-paid specialist roles. See "Diversity, equity and inclusion" on page 117.
 
-We continue to make progress towards gender balance across Shell, but a gender pay gap exists for several reasons, including fewer
-women in senior leadership positions and fewer women in higher-paid specialist roles. See "Diversity, equity and inclusion" on page 117.
-
-The reporting basis for calculating the annual total remuneration ratio of the highest paid individual to the median annual total remuneration
-for all employees follows the European Sustainability Reporting
-Standards. This methodology differs from calculations performed to comply with UK reporting regulations. See "CEO pay ratio" on page
-204.
-
+The reporting basis for calculating the annual total remuneration ratio of the highest paid individual to the median annual total remuneration for all employees follows the European Sustainability Reporting Standards. This methodology differs from calculations performed to comply with UK reporting regulations. See "CEO pay ratio" on page 204.
 
 ## Incidents, complaints and severe human rights impacts (S1-17)
 
-In 2024, a total of 2,025 reports were submitted to the Shell Global
-Helpline, the main channel for employees and non-employees to raise concerns outside of their management line. These reports include both
-enquiries and allegations. Of these, 691 reports involved concerns about discrimination or harassment. Another 75 reports involved
-concerns related to health and safety, working conditions or other work-related rights.
+In 2024, a total of 2,025 reports were submitted to the Shell Global Helpline, the main channel for employees and non-employees to raise concerns outside of their management line. These reports include both enquiries and allegations. Of these, 691 reports involved concerns about discrimination or harassment. Another 75 reports involved concerns related to health and safety, working conditions or other work-related rights.
 
-A total of 82 cases of discrimination or harassment were found to be substantiated, along with 23 cases related to health and safety,
-working conditions or other work-related rights. Cases found to be substantiated include reports received in the current period as well as
-reports received in a prior period and closed in the current one. These figures do not include cases that remain open at the end of the
-reporting period. Because we allow concerns to be submitted anonymously, our data do not distinguish between concerns filed by
-employees and non-employees.
+A total of 82 cases of discrimination or harassment were found to be substantiated, along with 23 cases related to health and safety, working conditions or other work-related rights. Cases found to be substantiated include reports received in the current period as well as reports received in a prior period and closed in the current one. These figures do not include cases that remain open at the end of the reporting period. Because we allow concerns to be submitted anonymously, our data do not distinguish between concerns filed by employees and non-employees.
 
-In 2024, no complaints concerning our own workforce were filed with a National Contact Point for the OECD Guidelines for Multinational
-Enterprises.
+In 2024, no complaints concerning our own workforce were filed with a National Contact Point for the OECD Guidelines for Multinational Enterprises.
 
-An incident is a legal action or complaint registered with the undertaking or competent authorities through a formal process, or an instance of noncompliance identified by the undertaking through established
-procedures. According to the UN Guiding Principles on Business and
-Human Rights, a severe human rights incident is characterised by the significant impact it may have, which is evaluated based on its scale,
-scope and irremediable nature. An incident may be severe by virtue of one or more of these criteria.
+An incident is a legal action or complaint registered with the undertaking or competent authorities through a formal process, or an instance of noncompliance identified by the undertaking through established procedures. According to the UN Guiding Principles on Business and Human Rights, a severe human rights incident is characterised by the significant impact it may have, which is evaluated based on its scale, scope and irremediable nature. An incident may be severe by virtue of one or more of these criteria.
 
 In 2024, no severe human rights incidents involving our own workforce were identified.
 
-
 ## Workers in the value chain (S2)
 
-Care for people reflects our core values and our approach to safety and human rights. We also know that when people feel cared for,
-they perform at their best. We seek to respect and promote the rights and welfare of our employees, contingent workforce and
-others in our value chain.
+Care for people reflects our core values and our approach to safety and human rights. We also know that when people feel cared for, they perform at their best. We seek to respect and promote the rights and welfare of our employees, contingent workforce and others in our value chain.
 
-Our double materiality assessment has identified workers in the value chain and responsible sourcing as material topics. See "Material
-impacts, risks and opportunities and their interaction with strategy and business model (SBM-3)" on page 351 and "Description of the process
-to identify and assess material impacts, risks and opportunities (IRO-1)" on page 354 for more information.
-
+Our double materiality assessment has identified workers in the value chain and responsible sourcing as material topics. See "Material impacts, risks and opportunities and their interaction with strategy and business model (SBM-3)" on page 351 and "Description of the process to identify and assess material impacts, risks and opportunities (IRO-1)" on page 354 for more information.
 
 ## Why it matters
 
-Our business depends on a competitive and resilient supply chain.
-Suppliers play an important role in helping us deliver our strategy and creating value for us and our stakeholders.
+Our business depends on a competitive and resilient supply chain. Suppliers play an important role in helping us deliver our strategy and creating value for us and our stakeholders.
 
-Our supply chain is diverse, encompassing small, medium and large enterprises across many countries and categories of goods and
-services. Across Shell's supply chains, we seek to source goods and services responsibly. These supplier relationships have positive impacts
-as well as the potential for negative impacts.
+Our supply chain is diverse, encompassing small, medium and large enterprises across many countries and categories of goods and services. Across Shell's supply chains, we seek to source goods and services responsibly. These supplier relationships have positive impacts as well as the potential for negative impacts.
 
-This section discusses our approach to workers in the value chain. See
-"Management of relationships with suppliers (G1-2)" on page 425 for information about our general approach to responsible sourcing.
-
+This section discusses our approach to workers in the value chain. See "Management of relationships with suppliers (G1-2)" on page 425 for information about our general approach to responsible sourcing.
 
 ## Material impacts, risks and opportunities and their interaction with strategy and business model (ESRS 2 SBM-3)
 
 Shell's total workforce comprises employees and external workers, to whom we refer as our contingent workforce or contingent workers.
 
-Our contingent workforce is categorised in accordance with applicable laws and regulations, based on job duties and responsibilities. We
-recognise different categories of contingent workers, including: (1) people who work under our day-to-day supervision on a temporary
-basis to augment existing staff;
+Our contingent workforce is categorised in accordance with applicable laws and regulations, based on job duties and responsibilities. We recognise different categories of contingent workers, including: (1) people who work under our day-to-day supervision on a temporary basis to augment existing staff;
 
 (2) people who provide professional services based on a defined scope of work; and
 
 (3) people who work for suppliers providing outsourced services on a long-term basis.
 
-The people under (1) are referred to as non-employees for the purpose of our disclosure and fall under the scope of ESRS S1. People employed
-or otherwise engaged by non-operated ventures and by business partners are not part of our total workforce.
+The people under (1) are referred to as non-employees for the purpose of our disclosure and fall under the scope of ESRS S1. People employed or otherwise engaged by non-operated ventures and by business partners are not part of our total workforce.
 
-Our standards address two main types of value chain worker. Our worker welfare standards focus on people under (2) and (3) who work
-on Shell sites or as dedicated supplier staff on non-Shell sites. In addition to the categories listed above, our enhanced value chain due
-diligence policy applies to people who work in our supply chains for non-hydrocarbon goods and services and who are not generally
-considered part of our contingent workforce. For the purpose of our disclosure under ESRS S2, we refer to people covered by these policies
-as workers, workers in the value chain, value chain workers or supplier staff, subject to the scope limitations set out above.
+Our standards address two main types of value chain worker. Our worker welfare standards focus on people under (2) and (3) who work on Shell sites or as dedicated supplier staff on non-Shell sites. In addition to the categories listed above, our enhanced value chain due diligence policy applies to people who work in our supply chains for non-hydrocarbon goods and services and who are not generally considered part of our contingent workforce. For the purpose of our disclosure under ESRS S2, we refer to people covered by these policies as workers, workers in the value chain, value chain workers or supplier staff, subject to the scope limitations set out above.
 
-Throughout this section, we discuss worker welfare and enhanced value chain due diligence separately to highlight differences in approach to
-workers covered by these standards.
+Throughout this section, we discuss worker welfare and enhanced value chain due diligence separately to highlight differences in approach to workers covered by these standards.
 
+Our disclosures in this section cover different types of workers who may be impacted directly or indirectly by Shell's operations or business relationships. Across these types, the nature of our contractual relationships and our ability to influence varies.
 
-Our disclosures in this section cover different types of workers who may be impacted directly or indirectly by Shell's operations or business
-relationships. Across these types, the nature of our contractual relationships and our ability to influence varies.
+Our disclosure covers our upstream value chain for non-hydrocarbon goods and services. It does not cover workers in our downstream value chain, such as persons working for independent licencees or dealers in our retail network who sell Shell-branded products. We aim to carry out further work in the future to deepen our understanding of this population.
 
-Our disclosure covers our upstream value chain for non-hydrocarbon goods and services. It does not cover workers in our downstream value
-chain, such as persons working for independent licencees or dealers in our retail network who sell Shell-branded products. We aim to carry
-out further work in the future to deepen our understanding of this population.
+For workers on Shell sites and dedicated supplier staff on non-Shell sites, we aim to prevent and mitigate potential negative impacts on physical and/or mental well-being arising from inadequate living and/ or working conditions as relevant. This includes requiring suppliers to manage potential impacts associated with accommodation, safety, workload, wages and job security. We also seek to prevent and mitigate potential labour rights impacts in areas such as forced labour, child labour, freedom of association and collective bargaining, recruitment practices and access to remedy. These impacts are generally managed through our suppliers.
 
-For workers on Shell sites and dedicated supplier staff on non-Shell sites, we aim to prevent and mitigate potential negative impacts on
-physical and/or mental well-being arising from inadequate living and/ or working conditions as relevant. This includes requiring suppliers to
-manage potential impacts associated with accommodation, safety, workload, wages and job security. We also seek to prevent and
-mitigate potential labour rights impacts in areas such as forced labour, child labour, freedom of association and collective bargaining,
-recruitment practices and access to remedy. These impacts are generally managed through our suppliers.
+As potential human rights impacts can arise in any country or category, we take a risk-based approach to assessing suppliers. We derive supply-chain country information from a third-party vendor, who assess certain activities and countries to be more exposed to potential negative impacts. Examples of areas assessed as having high exposure to labour rights risks include parts of Asia, Africa and the Middle East and South and Central America.
 
-As potential human rights impacts can arise in any country or category, we take a risk-based approach to assessing suppliers. We derive
-supply-chain country information from a third-party vendor, who assess certain activities and countries to be more exposed to potential
-negative impacts. Examples of areas assessed as having high exposure to labour rights risks include parts of Asia, Africa and the Middle East
-and South and Central America.
+Depending on the nature of the contract and the location in which the work is performed, we may pay particular attention to sub-groups of value chain workers who are identified as especially vulnerable, such as migrant workers. We use a third-party vendor for analysis of countries with high potential for negative impacts on labour rights and for internal assessments of high-potential-impact activities.
 
-Depending on the nature of the contract and the location in which the work is performed, we may pay particular attention to sub-groups of
-value chain workers who are identified as especially vulnerable, such as migrant workers. We use a third-party vendor for analysis of
-countries with high potential for negative impacts on labour rights and for internal assessments of high-potential-impact activities.
+The changing nature of our business has the potential to affect the types of goods and services we procure, which may have indirect impacts on workers employed by our suppliers.
 
-The changing nature of our business has the potential to affect the types of goods and services we procure, which may have indirect
-impacts on workers employed by our suppliers.
+When considering workers covered by our enhanced value chain due diligence policy, certain categories of goods and services, including raw materials and feedstocks, may also be assessed as having high potential exposure to human rights impacts. In these situations, we proceed on the basis that potential negative impacts could be more likely to arise, triggering the need for additional due diligence to manage the potential impacts on workers effectively.
 
-When considering workers covered by our enhanced value chain due diligence policy, certain categories of goods and services, including
-raw materials and feedstocks, may also be assessed as having high potential exposure to human rights impacts. In these situations, we
-proceed on the basis that potential negative impacts could be more likely to arise, triggering the need for additional due diligence to
-manage the potential impacts on workers effectively.
+Our operations also have positive impacts on value chain workers through economic opportunity, skill development, and improved working conditions and safety standards.
 
-Our operations also have positive impacts on value chain workers through economic opportunity, skill development, and improved
-working conditions and safety standards.
-
-Showing care for people is part of our core values and is reflected in the Shell General Business Principles and Shell Performance
-Framework. Care for workers in our value chain also benefits Shell by improving safety, productivity and quality in our operations.
-
+Showing care for people is part of our core values and is reflected in the Shell General Business Principles and Shell Performance Framework. Care for workers in our value chain also benefits Shell by improving safety, productivity and quality in our operations.
 
 ## Policies related to value chain workers (S2-1)
 
-Shell has adopted policies and standards to identify and manage impacts on value chain workers in specified parts of our upstream value
-chain. We also set expectations for how our suppliers, and non-operated joint ventures, manage potential impacts. Our approach
-reflects the varying degrees of influence we have at different levels of the value chain based on our contractual rights and obligations.
+Shell has adopted policies and standards to identify and manage impacts on value chain workers in specified parts of our upstream value chain. We also set expectations for how our suppliers, and non-operated joint ventures, manage potential impacts. Our approach reflects the varying degrees of influence we have at different levels of the value chain based on our contractual rights and obligations.
 
-The policies and standards described in this section apply to Shell companies and joint ventures in which Shell is the operator. We expect
-non-operated joint ventures to adopt appropriate and acceptable policies to manage their risks.
-
+The policies and standards described in this section apply to Shell companies and joint ventures in which Shell is the operator. We expect non-operated joint ventures to adopt appropriate and acceptable policies to manage their risks.
 
 ## Human rights and value chain workers
 
-We are committed to respecting the Universal Declaration of Human
-Rights; the United Nations Guiding Principles on Business and Human
-Rights; and the 1998 Declaration on Fundamental Principles of Rights at
-Work of the International Labour Organization (ILO), which covers: freedom of association and the effective recognition of the right to
-collective bargaining, the elimination of forced or compulsory labour, the abolition of child labour, the elimination of discrimination in respect
-of employment and occupation, and a safe and healthy working environment. We also support voluntary frameworks such as the OECD
-Guidelines for Multinational Enterprises, the United Nations Global
-Compact, and the Building Responsibly Principles. Our approach to workers in the value chain is informed by the United Nations Guiding
-Principles on Business and Human Rights. As outlined in the Shell
-Supplier Principles, our suppliers should provide workers with a dedicated whistle-blowing mechanism where grievances related to the
-above topics can be logged confidentially. In 2024, no cases of nonrespect of the UN Guiding Principles on Business and Human Rights,
-the ILO Declaration on Fundamental Principles and Rights at Work or the OECD Guidelines for Multinational Enterprises were identified in
-our upstream and downstream value chain.
-
+We are committed to respecting the Universal Declaration of Human Rights; the United Nations Guiding Principles on Business and Human Rights; and the 1998 Declaration on Fundamental Principles of Rights at Work of the International Labour Organization (ILO), which covers: freedom of association and the effective recognition of the right to collective bargaining, the elimination of forced or compulsory labour, the abolition of child labour, the elimination of discrimination in respect of employment and occupation, and a safe and healthy working environment. We also support voluntary frameworks such as the OECD Guidelines for Multinational Enterprises, the United Nations Global Compact, and the Building Responsibly Principles. Our approach to workers in the value chain is informed by the United Nations Guiding Principles on Business and Human Rights. As outlined in the Shell Supplier Principles, our suppliers should provide workers with a dedicated whistle-blowing mechanism where grievances related to the above topics can be logged confidentially. In 2024, no cases of nonrespect of the UN Guiding Principles on Business and Human Rights, the ILO Declaration on Fundamental Principles and Rights at Work or the OECD Guidelines for Multinational Enterprises were identified in our upstream and downstream value chain.
 
 ## Shell Supplier Principles
 
 Shell seeks to work with suppliers that behave in an economically, environmentally and socially responsible manner.
 
-The Shell Supplier Principles set out our expectations of suppliers with respect to business integrity; health, safety, security, environment and
-social performance (HSSE & SP); and labour and human rights. We carry out risk-based pre-contractual screening to assess the ability of
-suppliers to meet our requirements. In our procurement contracts, suppliers agree to adhere to the Shell General Business Principles, the
-Shell Supplier Principles and the Shell Code of Conduct. Suppliers are required to comply with all applicable laws and regulations and agree
-to provide and maintain safe and healthy working conditions for all their workers. We specify in our contracts that we expect suppliers to
-impose the same or equivalent requirements on their direct suppliers.
+The Shell Supplier Principles set out our expectations of suppliers with respect to business integrity; health, safety, security, environment and social performance (HSSE & SP); and labour and human rights. We carry out risk-based pre-contractual screening to assess the ability of suppliers to meet our requirements. In our procurement contracts, suppliers agree to adhere to the Shell General Business Principles, the Shell Supplier Principles and the Shell Code of Conduct. Suppliers are required to comply with all applicable laws and regulations and agree to provide and maintain safe and healthy working conditions for all their workers. We specify in our contracts that we expect suppliers to impose the same or equivalent requirements on their direct suppliers.
 
-The Shell Supplier Principles set out our expectations that suppliers should conduct their activities in a manner that respects human rights as
-set out in the United Nations Universal Declaration of Human Rights and the core conventions of the International Labour Organization
-(ILO). In particular, suppliers are expected to ensure no use of child or forced labour; no payment of recruitment fees by workers; compliance
-with applicable laws on freedom of association and collective bargaining; a safe and healthy workplace free of discrimination,
-harassment or retaliation; compliance with applicable laws on working hours; and wages and benefits that meet or exceed national legal
-standards. We also expect suppliers to provide value chain workers with a dedicated grievance mechanism where concerns can be logged
-confidentially.
+The Shell Supplier Principles set out our expectations that suppliers should conduct their activities in a manner that respects human rights as set out in the United Nations Universal Declaration of Human Rights and the core conventions of the International Labour Organization (ILO). In particular, suppliers are expected to ensure no use of child or forced labour; no payment of recruitment fees by workers; compliance with applicable laws on freedom of association and collective bargaining; a safe and healthy workplace free of discrimination, harassment or retaliation; compliance with applicable laws on working hours; and wages and benefits that meet or exceed national legal standards. We also expect suppliers to provide value chain workers with a dedicated grievance mechanism where concerns can be logged confidentially.
 
-The Shell Supplier Principles apply to contracts managed by Shell's
-Supply Chain organisation, which generally manages procurement of non-hydrocarbon goods and services on behalf of Shell companies and
-joint ventures in which Shell is the operator. See "Shell Supplier
-Principles" on page 425.
-
+The Shell Supplier Principles apply to contracts managed by Shell's Supply Chain organisation, which generally manages procurement of non-hydrocarbon goods and services on behalf of Shell companies and joint ventures in which Shell is the operator. See "Shell Supplier Principles" on page 425.
 
 ## Worker welfare
 
-Shell has established standards to ensure compliance with fundamental labour rights for value chain workers on Shell sites and dedicated
-supplier staff on non-Shell sites. These are embedded in our Safety,
-Environment and Asset Management (SEAM) Standards and our
-Category Management and Contracting Process Framework.
-We refer to them collectively as "worker welfare". See "SEAM
-Standards" on page 130.
+Shell has established standards to ensure compliance with fundamental labour rights for value chain workers on Shell sites and dedicated supplier staff on non-Shell sites. These are embedded in our Safety, Environment and Asset Management (SEAM) Standards and our Category Management and Contracting Process Framework. We refer to them collectively as "worker welfare". See "SEAM Standards" on page 130.
 
-Our approach is based on the 10 principles established by Building
-Responsibly, an alliance of companies that seeks to promote the rights and welfare of workers in the engineering and construction industry.
+Our approach is based on the 10 principles established by Building Responsibly, an alliance of companies that seeks to promote the rights and welfare of workers in the engineering and construction industry.
 
-Before awarding a contract, our standards require an assessment of whether the contract has high potential exposure to worker welfare
-impacts. If so, our standards require us to pre-qualify the supplier's capability to manage these issues. For contracts with high potential
-exposure to worker welfare risks, our standards require the supplier to develop a worker welfare management plan.
+Before awarding a contract, our standards require an assessment of whether the contract has high potential exposure to worker welfare impacts. If so, our standards require us to pre-qualify the supplier's capability to manage these issues. For contracts with high potential exposure to worker welfare risks, our standards require the supplier to develop a worker welfare management plan.
 
-The plan is designed to achieve compliance with the Building
-Responsibly Principles and International Finance Corporation and
-European Bank for Reconstruction and Development standards on worker accommodation. It establishes minimum expectations for labour
-rights, including: no discrimination; no forced, trafficked or child labour; ethical recruitment; freedom to change employment; access to
-documentation; respect for wage and benefit agreements; worker representation; access to grievance mechanisms; and healthy, safe and
-habitable living and working conditions. The plan includes regular performance measurement and reviews. Our standards require
-suppliers to consider worker feedback when developing or updating the plan.
-
+The plan is designed to achieve compliance with the Building Responsibly Principles and International Finance Corporation and European Bank for Reconstruction and Development standards on worker accommodation. It establishes minimum expectations for labour rights, including: no discrimination; no forced, trafficked or child labour; ethical recruitment; freedom to change employment; access to documentation; respect for wage and benefit agreements; worker representation; access to grievance mechanisms; and healthy, safe and habitable living and working conditions. The plan includes regular performance measurement and reviews. Our standards require suppliers to consider worker feedback when developing or updating the plan.
 
 ## Building Responsibly Worker Welfare Principles
-
 
 <table>
 <tr>
@@ -11885,251 +9676,139 @@ suppliers to consider worker feedback when developing or updating the plan.
 </tr>
 </table>
 
-
 <figure>
 <figcaption>Ten worker rights and workplace standards are listed: "Workers are treated with dignity, respect and fairness"; "Workers are free from forced, trafficked, and child labor"; "Recruitment practices are ethical, legal, voluntary, and free from discrimination"; "Freedom to change employment is respected"; "Working conditions are safe and healthy"; "Living conditions are safe, clean, and habitable"; "Access to documentation and mobility is unrestricted"; "Wage and benefit agreements are respected"; "Worker representation is respected"; and "Grievance mechanisms and access to remedy are readily available." The items are presented as a coherent checklist that groups protections across recruitment and hiring, employment mobility, workplace and living conditions, economic and administrative safeguards, and representation and remedy. The recruitment- and mobility-related entries ("Workers are free from forced, trafficked, and child labor"; "Recruitment practices are ethical, legal, voluntary, and free from discrimination"; "Freedom to change employment is respected"; "Access to documentation and mobility is unrestricted") relate directly to how workers enter and move within employment. Health and safety are emphasized through separate entries for working conditions ("Working conditions are safe and healthy") and living conditions ("Living conditions are safe, clean, and habitable"), while compensation and voice are addressed by "Wage and benefit agreements are respected" and "Worker representation is respected." Each statement is accompanied by a yellow circular icon, visually linking each principle to its corresponding label.</figcaption>
 </figure>
 
+Our standards require us to assure the effectiveness of worker welfare management plans, review performance against contractual requirements and agree actions for continuous improvement.
 
-Our standards require us to assure the effectiveness of worker welfare management plans, review performance against contractual
-requirements and agree actions for continuous improvement.
-
-We use a risk-based approach to verify implementation of action plans through mechanisms such as audits, site visits and updates as part of
-general business performance reviews with suppliers.
-
+We use a risk-based approach to verify implementation of action plans through mechanisms such as audits, site visits and updates as part of general business performance reviews with suppliers.
 
 ## Enhanced value chain due diligence
 
-In 2024, we took steps to strengthen our human rights due diligence processes for sourcing goods and services. Identifying and mitigating
-potential negative impacts in this part of our value chain can be challenging, as the nature of our contractual relationships means we
-may have less visibility into potential issues and less scope to exert influence. We have introduced a new policy within our Category
-Management and Contracting Process Framework requiring additional due diligence for new contracts with the highest potential for human
-rights impacts. The scope of this policy is limited to procurement contracts managed by Shell's Supply Chain organisation, which
-generally manages procurement of non-hydrocarbon goods and services on behalf of Shell companies and joint ventures in which
-Shell is the operator.
+In 2024, we took steps to strengthen our human rights due diligence processes for sourcing goods and services. Identifying and mitigating potential negative impacts in this part of our value chain can be challenging, as the nature of our contractual relationships means we may have less visibility into potential issues and less scope to exert influence. We have introduced a new policy within our Category Management and Contracting Process Framework requiring additional due diligence for new contracts with the highest potential for human rights impacts. The scope of this policy is limited to procurement contracts managed by Shell's Supply Chain organisation, which generally manages procurement of non-hydrocarbon goods and services on behalf of Shell companies and joint ventures in which Shell is the operator.
 
-For new contracts, we apply a risk-based approach to screening for potential human rights impacts during pre-qualification or tendering.
-We conduct due diligence to verify suppliers' ability to meet our standards for categories of goods and services with the highest
-potential exposure to negative impacts. These categories include specified raw materials, feedstocks, components and transport and
-logistics services.
+For new contracts, we apply a risk-based approach to screening for potential human rights impacts during pre-qualification or tendering. We conduct due diligence to verify suppliers' ability to meet our standards for categories of goods and services with the highest potential exposure to negative impacts. These categories include specified raw materials, feedstocks, components and transport and logistics services.
 
-For high risk contracts, the policy requires suppliers to complete a capability assessment of their ability to prevent, mitigate and remediate
-negative impacts within their own operations and relevant parts of their supply chain. If gaps are identified, suppliers are required to develop
-an action plan with controls in place prior to contract commencement.
+For high risk contracts, the policy requires suppliers to complete a capability assessment of their ability to prevent, mitigate and remediate negative impacts within their own operations and relevant parts of their supply chain. If gaps are identified, suppliers are required to develop an action plan with controls in place prior to contract commencement.
 
-For contracts assessed as high risk for potential negative impacts, the policy also requires the inclusion of human rights due diligence clauses
-and progress checks during contract performance reviews.
-
+For contracts assessed as high risk for potential negative impacts, the policy also requires the inclusion of human rights due diligence clauses and progress checks during contract performance reviews.
 
 ## Processes for engaging with value chain workers about impacts (S2-2)
 
-Suppliers are responsible for undertaking engagement with their own workforce. Our approach to supporting them in this responsibility is set
-out below.
+Suppliers are responsible for undertaking engagement with their own workforce. Our approach to supporting them in this responsibility is set out below.
 
-We discuss worker welfare and enhanced value chain due diligence separately to highlight differences in approach to workers covered by
-these standards.
-
+We discuss worker welfare and enhanced value chain due diligence separately to highlight differences in approach to workers covered by these standards.
 
 ## Worker welfare
 
-Suppliers working on Shell sites or providing dedicated staff on nonShell sites are responsible for undertaking engagement with their
-own workforce. Shell may support such engagement as part of our approach to avoiding and managing potential negative impacts.
-We encourage our suppliers to undertake regular and constructive dialogue with their employees. For contracts assessed as having high
-potential exposure to worker welfare impacts, we ask suppliers to gather worker feedback when developing and implementing worker
-welfare management plans. We encourage our suppliers to engage directly with value chain workers or their legitimate representatives
-where possible. Shell is not a party to direct engagement between value chain workers and their employers nor are we involved in
-collective bargaining agreements between value chain workers and their employers.
+Suppliers working on Shell sites or providing dedicated staff on nonShell sites are responsible for undertaking engagement with their own workforce. Shell may support such engagement as part of our approach to avoiding and managing potential negative impacts. We encourage our suppliers to undertake regular and constructive dialogue with their employees. For contracts assessed as having high potential exposure to worker welfare impacts, we ask suppliers to gather worker feedback when developing and implementing worker welfare management plans. We encourage our suppliers to engage directly with value chain workers or their legitimate representatives where possible. Shell is not a party to direct engagement between value chain workers and their employers nor are we involved in collective bargaining agreements between value chain workers and their employers.
 
+Engagement with value chain workers on Shell sites takes place on a regular basis though channels such as leadership engagements, onboarding, training, worker surveys and pre-work meetings. We encourage suppliers to engage in regular dialogue with their employees about worker welfare.
 
-Engagement with value chain workers on Shell sites takes place on a regular basis though channels such as leadership engagements,
-onboarding, training, worker surveys and pre-work meetings. We encourage suppliers to engage in regular dialogue with their
-employees about worker welfare.
+Suppliers are responsible for direct engagement with their employees and for complying with contractual requirements related to worker welfare. The most senior role in the relevant Shell entity with operational responsibility for monitoring compliance with contractual requirements is the local Shell contract holder. Overall accountability for contract management on site rests with the project or asset manager.
 
-Suppliers are responsible for direct engagement with their employees and for complying with contractual requirements related to worker
-welfare. The most senior role in the relevant Shell entity with operational responsibility for monitoring compliance with contractual
-requirements is the local Shell contract holder. Overall accountability for contract management on site rests with the project or asset
-manager.
+We offer training to suppliers to help them meet our expectations, including with respect to implementing the Building Responsibly Principles. Suppliers are also informed about channels for raising concerns on an anonymous basis through the Shell Global Helpline or local grievance mechanisms. Supplier staff working on Shell sites undergo training in Shell's safety and worker welfare standards before starting work.
 
-We offer training to suppliers to help them meet our expectations, including with respect to implementing the Building Responsibly
-Principles. Suppliers are also informed about channels for raising concerns on an anonymous basis through the Shell Global Helpline
-or local grievance mechanisms. Supplier staff working on Shell sites undergo training in Shell's safety and worker welfare standards
-before starting work.
+Our approach to safety and worker welfare places a consistent focus on human performance. This starts with the recognition that people make mistakes and that our preventive barriers need to be capable of managing the impact of those mistakes without undesirable consequences for people or the environment. We seek to promote a culture where everyone feels empowered to intervene and to speak up freely without repercussions so that we and/or the employing supplier can address impacts and learn from any feedback received.
 
-Our approach to safety and worker welfare places a consistent focus on human performance. This starts with the recognition that people
-make mistakes and that our preventive barriers need to be capable of managing the impact of those mistakes without undesirable
-consequences for people or the environment. We seek to promote a culture where everyone feels empowered to intervene and to speak up
-freely without repercussions so that we and/or the employing supplier can address impacts and learn from any feedback received.
+We assess the effectiveness of our engagement through various means. This includes feedback received from value chain workers or their representatives during leadership or supervisor engagements, concerns raised via Shell or supplier grievance mechanisms, and indirect indicators of engagement such as safety performance. Depending on the contract, we may agree key performance indicators with the supplier that are tailored for the local context.
 
-We assess the effectiveness of our engagement through various means. This includes feedback received from value chain workers or their
-representatives during leadership or supervisor engagements, concerns raised via Shell or supplier grievance mechanisms, and indirect
-indicators of engagement such as safety performance. Depending on the contract, we may agree key performance indicators with the
-supplier that are tailored for the local context.
-
-We consult with international organisations and industry associations to understand and respond to current and emerging human rights
-issues relevant to our business. These include Ipieca, the global oil and gas industry association for advancing environmental and social
-performance across the energy transition; Building Responsibly; and the human rights working group of Business for Social Responsibility. When
-we identify groups who are particularly vulnerable to negative impacts, such as migrant workers, we may take additional steps to understand
-their needs and concerns, through consultation with suppliers or knowledgeable third parties.
-
+We consult with international organisations and industry associations to understand and respond to current and emerging human rights issues relevant to our business. These include Ipieca, the global oil and gas industry association for advancing environmental and social performance across the energy transition; Building Responsibly; and the human rights working group of Business for Social Responsibility. When we identify groups who are particularly vulnerable to negative impacts, such as migrant workers, we may take additional steps to understand their needs and concerns, through consultation with suppliers or knowledgeable third parties.
 
 ## Enhanced value chain due diligence
 
-Our ability to engage with workers covered by our enhanced value chain due diligence policy is constrained by the nature of our
-contractual relationship with the supplier and the fact that we may not have direct or indirect access to such workers. In these situations, we
-are generally more reliant on publicly available information or third parties to help us understand potential negative impacts.
-
+Our ability to engage with workers covered by our enhanced value chain due diligence policy is constrained by the nature of our contractual relationship with the supplier and the fact that we may not have direct or indirect access to such workers. In these situations, we are generally more reliant on publicly available information or third parties to help us understand potential negative impacts.
 
 ## Processes to remediate negative impacts and channels for value chain workers to raise concerns (S2-3)
 
-Shell aims to provide multiple channels for value chain workers to raise concerns and obtain access to remedy. If we become aware of
-concerns pertaining to one of our suppliers, we will raise this as part of supplier performance management.
+Shell aims to provide multiple channels for value chain workers to raise concerns and obtain access to remedy. If we become aware of concerns pertaining to one of our suppliers, we will raise this as part of supplier performance management.
 
-We discuss worker welfare and enhanced value chain due diligence separately to highlight differences in approach to workers covered by
-these standards.
-
+We discuss worker welfare and enhanced value chain due diligence separately to highlight differences in approach to workers covered by these standards.
 
 ### Worker welfare
 
-We expect suppliers working on Shell sites or providing dedicated staff on non-Shell sites to provide grievance mechanisms where workers can
-raise concerns on an anonymous basis. For contracts assessed as having high potential exposure to worker welfare impacts, we require
-suppliers to detail how they will provide a grievance mechanism.
+We expect suppliers working on Shell sites or providing dedicated staff on non-Shell sites to provide grievance mechanisms where workers can raise concerns on an anonymous basis. For contracts assessed as having high potential exposure to worker welfare impacts, we require suppliers to detail how they will provide a grievance mechanism.
 
-Shell employees, contingent workers and third parties can raise concerns anonymously through the Shell Global Helpline, which is
-available in multiple languages 24 hours a day, seven days a week.
+Shell employees, contingent workers and third parties can raise concerns anonymously through the Shell Global Helpline, which is available in multiple languages 24 hours a day, seven days a week.
 
-At sites where value chain workers are drawn from the local community, workers may also use community feedback mechanisms
-that have been established to receive, track and respond to questions and complaints. It is possible to raise concerns via this mechanism
-anonymously. See "Providing access to remedy" on page 411 for more information.
+At sites where value chain workers are drawn from the local community, workers may also use community feedback mechanisms that have been established to receive, track and respond to questions and complaints. It is possible to raise concerns via this mechanism anonymously. See "Providing access to remedy" on page 411 for more information.
 
-Regardless of the channel, we seek to address concerns in a timely and equitable manner. Participation in a grievance mechanism provided by
-Shell or a supplier does not prevent a complainant from raising their concern with a third party if it is not possible to achieve a resolution
-through mutual agreement.
+Regardless of the channel, we seek to address concerns in a timely and equitable manner. Participation in a grievance mechanism provided by Shell or a supplier does not prevent a complainant from raising their concern with a third party if it is not possible to achieve a resolution through mutual agreement.
 
-Our standards require our own grievance mechanisms and those of suppliers to include measures for tracking concerns and using
-the feedback to update the worker welfare management plan.
-We encourage suppliers to assess whether the mechanism is trusted and provides effective access to remedy.
+Our standards require our own grievance mechanisms and those of suppliers to include measures for tracking concerns and using the feedback to update the worker welfare management plan. We encourage suppliers to assess whether the mechanism is trusted and provides effective access to remedy.
 
-We communicate the existence of grievance mechanisms to workers in the value chain. We maintain a stringent no-retaliation policy to protect
-any person making an allegation in good faith. This protection extends to those who participate in or conduct an investigation.
-
+We communicate the existence of grievance mechanisms to workers in the value chain. We maintain a stringent no-retaliation policy to protect any person making an allegation in good faith. This protection extends to those who participate in or conduct an investigation.
 
 ### Enhanced value chain due diligence
 
-The Shell Supplier Principles require suppliers to establish grievance mechanisms for their own employees and to impose a similar
-requirement on their direct suppliers. Concerns can also be raised anonymously through the Shell Global Helpline.
-
+The Shell Supplier Principles require suppliers to establish grievance mechanisms for their own employees and to impose a similar requirement on their direct suppliers. Concerns can also be raised anonymously through the Shell Global Helpline.
 
 ## Taking action on material impacts on value chain workers, and approaches to managing material risks and pursuing material opportunities related to value chain workers, and effectiveness of those actions (S2-4)
 
 In 2024, we continued to take steps to improve our approach to worker welfare and enhanced value chain due diligence.
 
-The scope of the actions described in this section cover Shell companies and joint ventures in which Shell is the operator, unless otherwise
-stated. Many of our actions are of an ongoing nature. Horizons for the completion of time-bound actions are indicated where applicable.
+The scope of the actions described in this section cover Shell companies and joint ventures in which Shell is the operator, unless otherwise stated. Many of our actions are of an ongoing nature. Horizons for the completion of time-bound actions are indicated where applicable.
 
-Our actions are intended to help us achieve the desired outcome of our policies and standards by providing resources and expertise that
-support our businesses to implement them in fit-for-purpose ways.
+Our actions are intended to help us achieve the desired outcome of our policies and standards by providing resources and expertise that support our businesses to implement them in fit-for-purpose ways.
 
-We discuss worker welfare and enhanced value chain due diligence separately to highlight differences in approach to workers covered by
-these standards.
-
+We discuss worker welfare and enhanced value chain due diligence separately to highlight differences in approach to workers covered by these standards.
 
 ## Worker welfare
 
 In 2024, we continued to collaborate with peers and suppliers to drive higher standards and consistency across the industry.
 
-With Ipieca, we developed a toolkit of definitions and resources to support energy companies to enhance worker engagement and
-responsible recruitment.
+With Ipieca, we developed a toolkit of definitions and resources to support energy companies to enhance worker engagement and responsible recruitment.
 
-We continued to work with a group of businesses in the energy sector including bp, Equinor, Ørsted and TenneT to further develop the
-Worker Welfare Group, a partnership focused on labour rights and worker welfare within the marine construction sector. The group has
-developed a set of principles and guidelines to support, in the first instance, the Singapore marine construction sector to meet
-international standards for labour rights and worker welfare, focusing on responsible recruitment, improved accommodation, better transport,
-and improved access to grievance mechanisms. The group has also engaged with key stakeholders to advocate systemic improvements
-and, additionally, is working with local organisations to facilitate access to remedy for workers.
+We continued to work with a group of businesses in the energy sector including bp, Equinor, Ørsted and TenneT to further develop the Worker Welfare Group, a partnership focused on labour rights and worker welfare within the marine construction sector. The group has developed a set of principles and guidelines to support, in the first instance, the Singapore marine construction sector to meet international standards for labour rights and worker welfare, focusing on responsible recruitment, improved accommodation, better transport, and improved access to grievance mechanisms. The group has also engaged with key stakeholders to advocate systemic improvements and, additionally, is working with local organisations to facilitate access to remedy for workers.
 
-To improve how we manage worker welfare, we updated our expectations in the Shell Commitment and Policy on HSSE & SP to include implementation of the Building Responsibly Principles. For
-contracts assessed as having high potential for negative impacts on worker welfare, we introduced new requirements as part of our SEAM
-Standards on worker welfare to ensure value chain workers are informed of labour rights issues and how to get access to remedy
-before starting work.
-
+To improve how we manage worker welfare, we updated our expectations in the Shell Commitment and Policy on HSSE & SP to include implementation of the Building Responsibly Principles. For contracts assessed as having high potential for negative impacts on worker welfare, we introduced new requirements as part of our SEAM Standards on worker welfare to ensure value chain workers are informed of labour rights issues and how to get access to remedy before starting work.
 
 ## Enhanced value chain due diligence
 
-In 2024, we began embedding our policy on enhanced value chain due diligence processes for suppliers of highest risk goods and services.
-See "Policies related to value chain workers (S2-1)" on page 415 for information.
+In 2024, we began embedding our policy on enhanced value chain due diligence processes for suppliers of highest risk goods and services. See "Policies related to value chain workers (S2-1)" on page 415 for information.
 
-Also in 2024, we exchanged best practice on implementing human rights due diligence in supply chains with a cross-sectoral group of
-companies organised by Business for Social Responsibility. We actively collaborate with industry peers in Ipieca's supply chain working group.
-
+Also in 2024, we exchanged best practice on implementing human rights due diligence in supply chains with a cross-sectoral group of companies organised by Business for Social Responsibility. We actively collaborate with industry peers in Ipieca's supply chain working group.
 
 ## Assessing effectiveness
 
-We discuss worker welfare and enhanced value chain due diligence separately to highlight differences in approach to workers covered by
-these standards.
-
+We discuss worker welfare and enhanced value chain due diligence separately to highlight differences in approach to workers covered by these standards.
 
 ## Worker welfare
 
-To assess the effectiveness of our actions on worker welfare, including effectiveness of grievance mechanisms, we may undertake checks
-ranging from self assessment and peer review to internal audits. We also perform periodic contract reviews which may include assessing the
-effectiveness of the grievance mechanism and contract-specific key performance indicators. We may gather worker feedback through
-surveys, site visits and other channels.
-
+To assess the effectiveness of our actions on worker welfare, including effectiveness of grievance mechanisms, we may undertake checks ranging from self assessment and peer review to internal audits. We also perform periodic contract reviews which may include assessing the effectiveness of the grievance mechanism and contract-specific key performance indicators. We may gather worker feedback through surveys, site visits and other channels.
 
 ## Enhanced value chain due diligence
 
-Having adopted our enhanced value chain due diligence policy in
-2024, we aim to conduct internal assessments to verify compliance with the new policy as well as periodic contract reviews.
-
+Having adopted our enhanced value chain due diligence policy in 2024, we aim to conduct internal assessments to verify compliance with the new policy as well as periodic contract reviews.
 
 ## Responding to concerns
 
-We discuss worker welfare and enhanced value chain due diligence separately to highlight differences in approach to workers covered by
-these standards.
-
+We discuss worker welfare and enhanced value chain due diligence separately to highlight differences in approach to workers covered by these standards.
 
 ## Worker welfare
 
-We may become aware of actual or potential negative impacts through channels such as local grievance mechanisms, the Shell Global
-Helpline or information provided by a supplier or third party.
-Depending on the nature of the issue, we may investigate the concern ourselves or refer it to the supplier for follow-up.
+We may become aware of actual or potential negative impacts through channels such as local grievance mechanisms, the Shell Global Helpline or information provided by a supplier or third party. Depending on the nature of the issue, we may investigate the concern ourselves or refer it to the supplier for follow-up.
 
-If an incident is confirmed, we review the circumstances and decide on the action to be taken. When the impacts are preventable or
-remediable, we may engage with the supplier to take appropriate measures.
-
+If an incident is confirmed, we review the circumstances and decide on the action to be taken. When the impacts are preventable or remediable, we may engage with the supplier to take appropriate measures.
 
 ## Enhanced value chain due diligence
 
-Our approach to enhanced value chain due diligence encourages collaboration with suppliers to address potential dilemmas and gaps in
-performance through ongoing performance management. We intend to periodically review and update our assessment of value chains with
-high potential exposure to negative impacts to help us to make sure our risk-based controls are as up to date as possible.
+Our approach to enhanced value chain due diligence encourages collaboration with suppliers to address potential dilemmas and gaps in performance through ongoing performance management. We intend to periodically review and update our assessment of value chains with high potential exposure to negative impacts to help us to make sure our risk-based controls are as up to date as possible.
 
-For more information on our approach to access to remedy, see
-"Processes to remediate negative impacts and channels for value chain workers to raise concerns (S2-3)" on page 417.
-
+For more information on our approach to access to remedy, see "Processes to remediate negative impacts and channels for value chain workers to raise concerns (S2-3)" on page 417.
 
 ## Resourcing our actions
 
-The Executive Vice President for Safety, Environment and Asset
-Management is the most senior executive in Shell with accountability for the development, governance and oversight of the SEAM
-Standards. Leaders of assets, performance units, businesses or functions are accountable for assessing which SEAM Standards are relevant
-based on their objectives, risk profile and activities, and for implementing those standards as appropriate.
+The Executive Vice President for Safety, Environment and Asset Management is the most senior executive in Shell with accountability for the development, governance and oversight of the SEAM Standards. Leaders of assets, performance units, businesses or functions are accountable for assessing which SEAM Standards are relevant based on their objectives, risk profile and activities, and for implementing those standards as appropriate.
 
-Implementation of SEAM Standards relevant to worker welfare is supported by members of Shell's Safety, Environment and Asset
-Management function as well as our Health, Supply Chain and Real
-Estate organisations. These include experts in worker welfare, safety and other disciplines.
+Implementation of SEAM Standards relevant to worker welfare is supported by members of Shell's Safety, Environment and Asset Management function as well as our Health, Supply Chain and Real Estate organisations. These include experts in worker welfare, safety and other disciplines.
 
-The Executive Vice President for Supply Chain, Contracting and
-Procurement is the most senior executive in Shell with accountability for the overall development, governance and oversight of the Shell
-Supplier Principles and our policy on enhanced value chain due diligence. Contract holders are responsible for implementing these
-requirements.
+The Executive Vice President for Supply Chain, Contracting and Procurement is the most senior executive in Shell with accountability for the overall development, governance and oversight of the Shell Supplier Principles and our policy on enhanced value chain due diligence. Contract holders are responsible for implementing these requirements.
 
-Implementation is supported by members of Shell's Supply Chain,
-Contracting and Procurement function, which includes subject matter experts in procurement, contract management and other disciplines.
+Implementation is supported by members of Shell's Supply Chain, Contracting and Procurement function, which includes subject matter experts in procurement, contract management and other disciplines.
 
-The requirements of our standards and policies are communicated to people involved with implementation through various mechanisms,
-including internal communication channels, management systems and training as appropriate.
-
+The requirements of our standards and policies are communicated to people involved with implementation through various mechanisms, including internal communication channels, management systems and training as appropriate.
 
 ## Planned actions
 
@@ -12141,237 +9820,123 @@ In 2025, we will continue to:
 
 - support efforts to provide access to remedy for value chain workers.
 
-Our action plans are responsive to changing business conditions.
-Planned actions not directly related to compliance with regulations or our own standards are subject to change. The actions indicated above
-represent key focus areas rather than an exhaustive list.
-
+Our action plans are responsive to changing business conditions. Planned actions not directly related to compliance with regulations or our own standards are subject to change. The actions indicated above represent key focus areas rather than an exhaustive list.
 
 ## Other disclosures
 
-Shell seeks to avoid or minimise material adverse impacts on value chain workers by embedding respect for their rights in our policies and
-practices. Shell is committed to respecting human rights as set out in the
-UN Universal Declaration of Human Rights and the International
-Labour Organization (ILO) Declaration on Fundamental Principles and
-Rights at Work.
+Shell seeks to avoid or minimise material adverse impacts on value chain workers by embedding respect for their rights in our policies and practices. Shell is committed to respecting human rights as set out in the UN Universal Declaration of Human Rights and the International Labour Organization (ILO) Declaration on Fundamental Principles and Rights at Work.
 
-Our approach is informed by the UN Guiding Principles on Business and Human Rights. We provide and facilitate access to remedy. Our
-suppliers are expected to conduct their activities in a manner that respects human rights as set out in the UN Universal Declaration of
-Human Rights and the core conventions of the ILO.
+Our approach is informed by the UN Guiding Principles on Business and Human Rights. We provide and facilitate access to remedy. Our suppliers are expected to conduct their activities in a manner that respects human rights as set out in the UN Universal Declaration of Human Rights and the core conventions of the ILO.
 
 See "Shell Supplier Principles" on page 425 and "Policies related to value chain workers (S2-1)" on page 415 for more information.
 
-An incident is a legal action or complaint registered with the undertaking or competent authorities through a formal process, or an instance of noncompliance identified by the undertaking through established
-procedures. According to the UN Guiding Principles on Business and
-Human Rights, a severe human rights incident is characterised by the significant impact it may have, which is evaluated based on its scale,
-scope and irremediable nature. An incident may be severe by virtue of one or more of these criteria.
+An incident is a legal action or complaint registered with the undertaking or competent authorities through a formal process, or an instance of noncompliance identified by the undertaking through established procedures. According to the UN Guiding Principles on Business and Human Rights, a severe human rights incident is characterised by the significant impact it may have, which is evaluated based on its scale, scope and irremediable nature. An incident may be severe by virtue of one or more of these criteria.
 
-In 2024, we investigated and substantiated three reports related to workers in the value chain, arising from both external reports and
-identification through our procedures. These cases concerned matters including late payment of wages, failure to provide unrestricted access
-to passports and the requirement to pay recruitment fees.
+In 2024, we investigated and substantiated three reports related to workers in the value chain, arising from both external reports and identification through our procedures. These cases concerned matters including late payment of wages, failure to provide unrestricted access to passports and the requirement to pay recruitment fees.
 
-We take these matters very seriously. We are following up with the suppliers and sub-suppliers concerned, and have required them to
-develop corrective action plans, including setting out how the suppliers provide remedy to the persons affected.
-
+We take these matters very seriously. We are following up with the suppliers and sub-suppliers concerned, and have required them to develop corrective action plans, including setting out how the suppliers provide remedy to the persons affected.
 
 ### Targets related to managing material negative impacts, advancing positive impacts, and managing material risks and opportunities (S2-5)
 
-Exposure to potential human rights impacts varies according to factors such as the nature of the work being performed, the capability of the
-supplier and the location in which the activity takes place. As a result, while we may establish key performance indicators at a contractual
-level, we have not set consolidated targets for workers in the value chain at a Group level.
+Exposure to potential human rights impacts varies according to factors such as the nature of the work being performed, the capability of the supplier and the location in which the activity takes place. As a result, while we may establish key performance indicators at a contractual level, we have not set consolidated targets for workers in the value chain at a Group level.
 
-Our agreements with suppliers specify our performance expectations and period in which these apply. Suppliers are responsible for
-engagement with value chain workers, including with respect to topics such as goal setting, performance tracking or identifying opportunities
-for improvement.
+Our agreements with suppliers specify our performance expectations and period in which these apply. Suppliers are responsible for engagement with value chain workers, including with respect to topics such as goal setting, performance tracking or identifying opportunities for improvement.
 
-We measure the effectiveness of our policies and standards by monitoring performance data and periodic contract performance
-reviews. Such data may include performance measured against key indicators, inspection reports, audit reports and other sources of
-information.
-
+We measure the effectiveness of our policies and standards by monitoring performance data and periodic contract performance reviews. Such data may include performance measured against key indicators, inspection reports, audit reports and other sources of information.
 
 ## Affected communities (S3)
 
-Many of our operations are located close to communities. We aim to be a good neighbour by contributing to their well-being. This
-includes strong community engagement, managing the negative impacts of our business and delivering a range of benefits.
+Many of our operations are located close to communities. We aim to be a good neighbour by contributing to their well-being. This includes strong community engagement, managing the negative impacts of our business and delivering a range of benefits.
 
-Our double materiality assessment has identified social impacts, community engagement, security and human rights, and social
-investment and benefits as material topics. See "Material impacts, risks and opportunities and their interaction with strategy and business
-mode (SBM-3)" on page 351 and "Description of the process to identify and assess material impacts, risks and opportunities (IRO-1)" on page
-354 for more information.
-
+Our double materiality assessment has identified social impacts, community engagement, security and human rights, and social investment and benefits as material topics. See "Material impacts, risks and opportunities and their interaction with strategy and business mode (SBM-3)" on page 351 and "Description of the process to identify and assess material impacts, risks and opportunities (IRO-1)" on page 354 for more information.
 
 ## Why it matters
 
-Our business activities have the potential to affect communities directly and indirectly. In our operations, many of our facilities are located
-close to where people live and work. We aim to minimise negative social and environmental impacts, including by engaging communities
-and providing access to remedy. We also aim to deliver positive benefits. Managing our impacts responsibly helps us to maintain our
-reputation and licence to operate.
-
+Our business activities have the potential to affect communities directly and indirectly. In our operations, many of our facilities are located close to where people live and work. We aim to minimise negative social and environmental impacts, including by engaging communities and providing access to remedy. We also aim to deliver positive benefits. Managing our impacts responsibly helps us to maintain our reputation and licence to operate.
 
 ## Material impacts, risks and opportunities and their interaction with strategy and business model (ESRS 2 SBM-3)
 
-Our business activities and the communities in which we operate are diverse. Communities most likely to be impacted by our operations are
-those living nearest to our projects or assets. In some locations, affected communities may include Indigenous Peoples. The types of
-communities we interact with vary in their socio-economic status, as do vulnerable groups within these communities. Depending on the nature
-of our activities and the composition of the local community, groups at potentially greater risk of harm may include women, disabled people,
-low-income families, persons without formal land tenure, Indigenous
-Peoples and migrant workers, among others.
+Our business activities and the communities in which we operate are diverse. Communities most likely to be impacted by our operations are those living nearest to our projects or assets. In some locations, affected communities may include Indigenous Peoples. The types of communities we interact with vary in their socio-economic status, as do vulnerable groups within these communities. Depending on the nature of our activities and the composition of the local community, groups at potentially greater risk of harm may include women, disabled people, low-income families, persons without formal land tenure, Indigenous Peoples and migrant workers, among others.
 
-Our understanding of affected communities may be developed through means such as direct and indirect engagement, impact assessment and
-concerns received through grievance mechanisms.
+Our understanding of affected communities may be developed through means such as direct and indirect engagement, impact assessment and concerns received through grievance mechanisms.
 
-Our activities can have negative and positive impacts on communities where we operate. Potential negative impacts include adverse effects
-on the environment, livelihoods, community health and safety, cultural heritage and other aspects of socio-economic well-being. These can be
-the result of planned events, such as land use change, traffic, environmental impacts or the closure of plants. They can also result
-from unplanned events such as industrial incidents or sabotage.
+Our activities can have negative and positive impacts on communities where we operate. Potential negative impacts include adverse effects on the environment, livelihoods, community health and safety, cultural heritage and other aspects of socio-economic well-being. These can be the result of planned events, such as land use change, traffic, environmental impacts or the closure of plants. They can also result from unplanned events such as industrial incidents or sabotage.
 
-Our activities contribute positively to local economies through taxes and the creation of jobs and opportunities for local businesses. We
-also make social investments in areas determined by local community needs and priorities.
+Our activities contribute positively to local economies through taxes and the creation of jobs and opportunities for local businesses. We also make social investments in areas determined by local community needs and priorities.
 
-Respectful engagement with local communities is critical to the success of our projects and long-term operations. Local opposition can result in
-a loss of access to resources or relationships, thereby resulting in increased costs or missed business opportunities. Communities can also
-be an enabler of our business, for example by facilitating access to new opportunities or as a source of human capital.
+Respectful engagement with local communities is critical to the success of our projects and long-term operations. Local opposition can result in a loss of access to resources or relationships, thereby resulting in increased costs or missed business opportunities. Communities can also be an enabler of our business, for example by facilitating access to new opportunities or as a source of human capital.
 
-The scope of this section includes Shell companies and joint ventures where we have operational control and direct relationships with
-affected communities.
-
+The scope of this section includes Shell companies and joint ventures where we have operational control and direct relationships with affected communities.
 
 ## Policies related to affected communities (S3-1)
 
-Our approach to affected communities is governed by our Safety,
-Environment and Asset Management (SEAM) Standards, except where otherwise stated. These contain standards for stakeholder engagement,
-managing environmental and social impacts and providing benefits.
-See "SEAM Standards" on page 130 for more information.
+Our approach to affected communities is governed by our Safety, Environment and Asset Management (SEAM) Standards, except where otherwise stated. These contain standards for stakeholder engagement, managing environmental and social impacts and providing benefits. See "SEAM Standards" on page 130 for more information.
 
-The standards described in this section apply to Shell companies and joint ventures in which Shell is the operator, except where otherwise
-stated. We expect non-operated joint ventures to adopt appropriate and acceptable policies to manage their risks.
-
+The standards described in this section apply to Shell companies and joint ventures in which Shell is the operator, except where otherwise stated. We expect non-operated joint ventures to adopt appropriate and acceptable policies to manage their risks.
 
 ## Stakeholder engagement
 
-Respectful two-way engagement with stakeholders is the foundation of our approach. When our assets, projects or businesses have the
-potential to impact communities, our standards require them to plan for stakeholder engagement. The intent is to identify community
-stakeholders, determine their needs and expectations, establish an appropriate engagement approach and seek feedback on our
-management of impacts. We seek to pay particular attention to groups who may be more vulnerable to negative impacts or who require a
-more tailored engagement approach.
+Respectful two-way engagement with stakeholders is the foundation of our approach. When our assets, projects or businesses have the potential to impact communities, our standards require them to plan for stakeholder engagement. The intent is to identify community stakeholders, determine their needs and expectations, establish an appropriate engagement approach and seek feedback on our management of impacts. We seek to pay particular attention to groups who may be more vulnerable to negative impacts or who require a more tailored engagement approach.
 
-As part of the stakeholder engagement process, our standards require the establishment of community feedback mechanisms to receive,
-document and address complaints, questions or requests from local stakeholders. These mechanisms are designed to facilitate access to
-remedy for community complaints in line with the UN Guiding
-Principles on Business and Human Rights.
-
+As part of the stakeholder engagement process, our standards require the establishment of community feedback mechanisms to receive, document and address complaints, questions or requests from local stakeholders. These mechanisms are designed to facilitate access to remedy for community complaints in line with the UN Guiding Principles on Business and Human Rights.
 
 ## Managing impacts
 
-Our standards require assets, projects or businesses to engage stakeholders and to identify and manage potential impacts associated
-with our activities. Our standards also require environmental and social management to be put in place to prevent and mitigate adverse
-impacts and enhance positive impacts, with appropriate management oversight and resources.
+Our standards require assets, projects or businesses to engage stakeholders and to identify and manage potential impacts associated with our activities. Our standards also require environmental and social management to be put in place to prevent and mitigate adverse impacts and enhance positive impacts, with appropriate management oversight and resources.
 
-See "Processes for engaging with affected communities about impacts (S3-2)" on page 421 and "Impact assessment" on page 355 for more
-information about our approach.
-
+See "Processes for engaging with affected communities about impacts (S3-2)" on page 421 and "Impact assessment" on page 355 for more information about our approach.
 
 ## Managing social impacts
 
-Our standards require assets, projects or businesses to apply special procedures in situations involving involuntary resettlement, cultural
-heritage, Indigenous Peoples or operations in environments with high or unusual social risks.
+Our standards require assets, projects or businesses to apply special procedures in situations involving involuntary resettlement, cultural heritage, Indigenous Peoples or operations in environments with high or unusual social risks.
 
-Our standards require us to apply a hierarchy of controls to such impacts. This means we anticipate and avoid business activity that can
-result in adverse impacts. Where avoidance is not possible, we seek to minimise impacts by exploring alternatives in the design of the activity.
+Our standards require us to apply a hierarchy of controls to such impacts. This means we anticipate and avoid business activity that can result in adverse impacts. Where avoidance is not possible, we seek to minimise impacts by exploring alternatives in the design of the activity.
 
-Where residual impacts remain, our standards require management plans to be established in line with international standards, including
-where applicable the International Finance Corporation's Performance
-Standards on resettlement, cultural heritage and Indigenous Peoples.
-
+Where residual impacts remain, our standards require management plans to be established in line with international standards, including where applicable the International Finance Corporation's Performance Standards on resettlement, cultural heritage and Indigenous Peoples.
 
 ## Involuntary resettlement
 
-We sometimes require temporary or permanent access to areas of land or sea where people are living or working. These situations can result in
-physical or economic displacement, which need to be carefully managed.
+We sometimes require temporary or permanent access to areas of land or sea where people are living or working. These situations can result in physical or economic displacement, which need to be carefully managed.
 
-Our standards require assets, projects or businesses to avoid involuntary resettlement whenever possible. When this cannot be
-avoided, our standards require the development of a resettlement action plan or, in cases of economic displacement not resulting in
-physical displacement, a livelihood restoration plan. These plans are designed to mitigate the negative impacts of displacement, identify
-development opportunities and establish the entitlements of all categories of affected persons (including host communities), with
-particular attention paid to the needs of the poor and the vulnerable. In developing these plans, we seek to work with local communities
-to help them resettle and maintain or improve their standard of living. Our support may include helping communities to establish alternative
-livelihoods.
-
+Our standards require assets, projects or businesses to avoid involuntary resettlement whenever possible. When this cannot be avoided, our standards require the development of a resettlement action plan or, in cases of economic displacement not resulting in physical displacement, a livelihood restoration plan. These plans are designed to mitigate the negative impacts of displacement, identify development opportunities and establish the entitlements of all categories of affected persons (including host communities), with particular attention paid to the needs of the poor and the vulnerable. In developing these plans, we seek to work with local communities to help them resettle and maintain or improve their standard of living. Our support may include helping communities to establish alternative livelihoods.
 
 ## Cultural heritage
 
-Preserving cultural heritage is an important part of our efforts to manage social impacts. Cultural heritage refers to places of
-archaeological, historical, cultural, artistic or religious significance.
-It can also include preservation of unique environmental features, cultural knowledge and traditional lifestyles.
+Preserving cultural heritage is an important part of our efforts to manage social impacts. Cultural heritage refers to places of archaeological, historical, cultural, artistic or religious significance. It can also include preservation of unique environmental features, cultural knowledge and traditional lifestyles.
 
-Our approach starts with considering how to avoid or minimise impacts on cultural heritage. This can involve carrying out archaeological
-assessments to inform project design and site selection. If appropriate, we may develop so-called "chance find" procedures to deal with
-previously unknown heritage resources that could be discovered during construction or operations. Such procedures are important for helping
-to prevent damage to these resources. Where appropriate, we train staff and contractors to make them aware of these resources and give
-them the authority to halt work if necessary.
-
+Our approach starts with considering how to avoid or minimise impacts on cultural heritage. This can involve carrying out archaeological assessments to inform project design and site selection. If appropriate, we may develop so-called "chance find" procedures to deal with previously unknown heritage resources that could be discovered during construction or operations. Such procedures are important for helping to prevent damage to these resources. Where appropriate, we train staff and contractors to make them aware of these resources and give them the authority to halt work if necessary.
 
 ## Indigenous Peoples
 
-Our activities can affect Indigenous Peoples who hold specific rights for the protection of their cultures, traditional ways of life and special
-connections to land and water. In accordance with the Shell General
-Business Principles and in support of the UN Declaration on the Rights of Indigenous Peoples, we seek the support and agreement of
-Indigenous Peoples potentially affected by our activities, through dialogue, culturally appropriate grievance mechanisms and impact
-management processes.
+Our activities can affect Indigenous Peoples who hold specific rights for the protection of their cultures, traditional ways of life and special connections to land and water. In accordance with the Shell General Business Principles and in support of the UN Declaration on the Rights of Indigenous Peoples, we seek the support and agreement of Indigenous Peoples potentially affected by our activities, through dialogue, culturally appropriate grievance mechanisms and impact management processes.
 
-Shell recognises the principle of free, prior and informed consent (FPIC), as interpreted by the International Finance Corporation Performance
-Standards as a safeguard for Indigenous Peoples' rights. We believe our approach is consistent with the application of this principle while
-respecting the laws of the jurisdictions where we operate.
-
+Shell recognises the principle of free, prior and informed consent (FPIC), as interpreted by the International Finance Corporation Performance Standards as a safeguard for Indigenous Peoples' rights. We believe our approach is consistent with the application of this principle while respecting the laws of the jurisdictions where we operate.
 
 ## High or unusual social risks
 
-Our operations can be exposed to social environments where potential impacts or risks may be more difficult to manage. Examples include
-areas experiencing conflict, areas where there is a history of community grievances leading to protests and business disruption, or areas where
-there are unusually high expectations for community benefits such as jobs, contracting opportunities or social investment.
+Our operations can be exposed to social environments where potential impacts or risks may be more difficult to manage. Examples include areas experiencing conflict, areas where there is a history of community grievances leading to protests and business disruption, or areas where there are unusually high expectations for community benefits such as jobs, contracting opportunities or social investment.
 
-Our standards require assets, projects or businesses operating in environments with high or unusual social risks to obtain specialist
-advice from a qualified expert. The aim of this requirement is to ensure that input to local management plans is provided by individuals with
-the necessary expertise.
-
+Our standards require assets, projects or businesses operating in environments with high or unusual social risks to obtain specialist advice from a qualified expert. The aim of this requirement is to ensure that input to local management plans is provided by individuals with the necessary expertise.
 
 ## Social investment
 
-In countries where our social investment spend exceeds $500,000 per year, our standards require a social investment strategy to define goals
-and measurable social outcomes. The strategy documents how projects are planned and managed, how alignment with stakeholder and
-business priorities are determined, how project impacts are monitored and evaluated, and how the project will transition once Shell's support
-ends. Our standards require project- or asset-level social investment plans to align with our country social investment strategy, while
-reflecting local needs and priorities.
-
+In countries where our social investment spend exceeds $500,000 per year, our standards require a social investment strategy to define goals and measurable social outcomes. The strategy documents how projects are planned and managed, how alignment with stakeholder and business priorities are determined, how project impacts are monitored and evaluated, and how the project will transition once Shell's support ends. Our standards require project- or asset-level social investment plans to align with our country social investment strategy, while reflecting local needs and priorities.
 
 ## Disaster relief
 
-In countries where Shell expects to provide aid in the event of a natural or humanitarian disaster, our standards require the development of a
-disaster relief donation plan to predetermine the circumstances in which
-Shell will make donations and how they will be delivered. The intent is to enable us to be well prepared for a swift and appropriate response
-to alleviate the impacts of a disaster on communities. This includes partners that are preselected and prescreened, allocated budgets
-and agreements that are in place where needed.
-
+In countries where Shell expects to provide aid in the event of a natural or humanitarian disaster, our standards require the development of a disaster relief donation plan to predetermine the circumstances in which Shell will make donations and how they will be delivered. The intent is to enable us to be well prepared for a swift and appropriate response to alleviate the impacts of a disaster on communities. This includes partners that are preselected and prescreened, allocated budgets and agreements that are in place where needed.
 
 ## Security
 
-Shell has incorporated the Voluntary Principles on Security and Human
-Rights (VPSHR) to give guidance on how to respect human rights while providing security for business operations. Shell avoids the use of
-armed security except for where there is a requirement under local laws or in countries where threats are most severe.
+Shell has incorporated the Voluntary Principles on Security and Human Rights (VPSHR) to give guidance on how to respect human rights while providing security for business operations. Shell avoids the use of armed security except for where there is a requirement under local laws or in countries where threats are most severe.
 
-Our standards require country management teams to identify potential negative impacts and risks associated with security and human rights in
-line with the Voluntary Principles on Security and Human Rights. Where potential impacts or risks exist, our standards require mitigation actions
-and monitoring of effectiveness. Our standards require incidents or allegations to be reported internally and investigated. Our Shipping
-and Maritime business adopts comparable practices for shipping operations.
-
+Our standards require country management teams to identify potential negative impacts and risks associated with security and human rights in line with the Voluntary Principles on Security and Human Rights. Where potential impacts or risks exist, our standards require mitigation actions and monitoring of effectiveness. Our standards require incidents or allegations to be reported internally and investigated. Our Shipping and Maritime business adopts comparable practices for shipping operations.
 
 ## Communities and human rights
 
-Communities are one of Shell's four key focus areas for human rights, alongside labour rights, workers in our value chain and security. The
-following human rights commitments are of specific relevance to communities.
-
+Communities are one of Shell's four key focus areas for human rights, alongside labour rights, workers in our value chain and security. The following human rights commitments are of specific relevance to communities.
 
 ### Communities and human rights
-
 
 <table>
 <tr>
@@ -12392,376 +9957,207 @@ following human rights commitments are of specific relevance to communities.
 </tr>
 </table>
 
+Shell's standards with respect to affected communities are based on a commitment to respect human rights as set out in the UN Universal Declaration of Human Rights.
 
-Shell's standards with respect to affected communities are based on a commitment to respect human rights as set out in the UN Universal
-Declaration of Human Rights.
+Our approach is informed by the UN Guiding Principles on Business and Human Rights. Our policies with respect to Indigenous Peoples are designed to support the UN Declaration on the Rights of Indigenous Peoples.
 
-Our approach is informed by the UN Guiding Principles on Business and Human Rights. Our policies with respect to Indigenous Peoples are
-designed to support the UN Declaration on the Rights of Indigenous
-Peoples.
-
-See "Other disclosures" on page 419 for information about cases of non-respect of the UN Guiding Principles on Business and Human
-Rights, the International Labour Organization Declaration on
-Fundamental Principles and Rights at Work or the OECD Guidelines for Multinational Enterprises involving affected communities in our
-operations or our upstream and downstream value chain.
-
+See "Other disclosures" on page 419 for information about cases of non-respect of the UN Guiding Principles on Business and Human Rights, the International Labour Organization Declaration on Fundamental Principles and Rights at Work or the OECD Guidelines for Multinational Enterprises involving affected communities in our operations or our upstream and downstream value chain.
 
 ## Processes for engaging with affected communities about impacts (S3-2)
 
-We engage with communities throughout the project life cycle. This helps us to understand their needs and expectations, obtain input on
-identifying and managing impacts, and provide access to remedy.
-Engagement is a continuous process that helps us improve our decisionmaking and performance.
+We engage with communities throughout the project life cycle. This helps us to understand their needs and expectations, obtain input on identifying and managing impacts, and provide access to remedy. Engagement is a continuous process that helps us improve our decisionmaking and performance.
 
-We use communication channels that are appropriate for local circumstances to enable effective engagement with community
-members, their legitimate representatives and credible proxies that may have insight into their situation. Engagement is an ongoing process. The
-people we engage with, the topics we discuss, and the frequency and type of engagement vary across the life cycle and location of our
-business activities.
+We use communication channels that are appropriate for local circumstances to enable effective engagement with community members, their legitimate representatives and credible proxies that may have insight into their situation. Engagement is an ongoing process. The people we engage with, the topics we discuss, and the frequency and type of engagement vary across the life cycle and location of our business activities.
 
-The manager of a project or asset is accountable for community engagement, supported by specialists in community engagement or
-impact management as appropriate. Shell's Vice President for Social
-Performance is responsible for providing Group-level support for engagement activities where required.
+The manager of a project or asset is accountable for community engagement, supported by specialists in community engagement or impact management as appropriate. Shell's Vice President for Social Performance is responsible for providing Group-level support for engagement activities where required.
 
-When planning new projects, we undertake environmental and social impact assessments to identify potential impacts on communities. These
-are designed to help us identify and manage potential impacts on the environment, livelihoods, health, human rights and other aspects of
-well-being. Impact assessments are usually carried out by specialist external consultants, under the supervision of Shell experts.
+When planning new projects, we undertake environmental and social impact assessments to identify potential impacts on communities. These are designed to help us identify and manage potential impacts on the environment, livelihoods, health, human rights and other aspects of well-being. Impact assessments are usually carried out by specialist external consultants, under the supervision of Shell experts.
 
-At each stage of the process, we consider potential impacts and decide how best to proceed. We apply the mitigation hierarchy, a
-decision-making framework that helps us to avoid negative impacts and, where this is not possible, to minimise, mitigate or restore. When
-negative impacts cannot be avoided through improvements in project design, we implement measures to mitigate negative impacts and
-enhance positive impacts. Community involvement is important for identifying potential impacts and determining whether mitigations or
-enhancements will have the desired result.
+At each stage of the process, we consider potential impacts and decide how best to proceed. We apply the mitigation hierarchy, a decision-making framework that helps us to avoid negative impacts and, where this is not possible, to minimise, mitigate or restore. When negative impacts cannot be avoided through improvements in project design, we implement measures to mitigate negative impacts and enhance positive impacts. Community involvement is important for identifying potential impacts and determining whether mitigations or enhancements will have the desired result.
 
-For countries where we have a large community footprint, we undertake an annual review process to assess the effectiveness of our
-work with affected communities. This includes testing the effectiveness of our engagement approach.
+For countries where we have a large community footprint, we undertake an annual review process to assess the effectiveness of our work with affected communities. This includes testing the effectiveness of our engagement approach.
 
-When designing engagements with communities, we prioritise groups that will be most impacted or least resilient to negative impacts.
-Depending on the circumstances, we may design tailored engagement processes to engage with such groups effectively.
+When designing engagements with communities, we prioritise groups that will be most impacted or least resilient to negative impacts. Depending on the circumstances, we may design tailored engagement processes to engage with such groups effectively.
 
+When engaging with Indigenous Peoples, we engage through mutually agreed, transparent and culturally appropriate consultation processes. Shell recognises the principle of free, prior and informed consent (FPIC), as interpreted by the International Finance Corporation Performance Standards, as a safeguard for Indigenous Peoples' rights.
 
-When engaging with Indigenous Peoples, we engage through mutually agreed, transparent and culturally appropriate consultation processes.
-Shell recognises the principle of free, prior and informed consent (FPIC), as interpreted by the International Finance Corporation Performance
-Standards, as a safeguard for Indigenous Peoples' rights.
+During construction and operations, we maintain engagement with communities about impacts and benefits. When we divest assets or exit areas, we collaborate with partners with the aim of leaving a positive legacy.
 
-During construction and operations, we maintain engagement with communities about impacts and benefits. When we divest assets or
-exit areas, we collaborate with partners with the aim of leaving a positive legacy.
-
-For non-operated ventures, we use a risk-based approach to determine where we need to engage with business partners to support their work
-with affected communities. If necessary, we may offer technical support to our partners or undertake direct engagement ourselves.
-
+For non-operated ventures, we use a risk-based approach to determine where we need to engage with business partners to support their work with affected communities. If necessary, we may offer technical support to our partners or undertake direct engagement ourselves.
 
 ## Processes to remediate negative impacts and channels for affected communities to raise concerns (53-3)
 
-Engagement with communities is an important part of our approach to managing human rights and providing access to remedy. Shell offers
-several channels to encourage affected communities to raise concerns.
-Large projects and assets have dedicated community engagement practitioners, who act as a bridge between local communities and
-our operations. We also offer community feedback mechanisms that allow us to receive, track and respond to questions and complaints.
-Communities can also raise concerns anonymously through the Shell
-Global Helpline. In locations where third-party-operated complaint systems are in place, such as those of a government, we sometimes
-use these to inform us of feedback related to our operations and to respond appropriately.
-
+Engagement with communities is an important part of our approach to managing human rights and providing access to remedy. Shell offers several channels to encourage affected communities to raise concerns. Large projects and assets have dedicated community engagement practitioners, who act as a bridge between local communities and our operations. We also offer community feedback mechanisms that allow us to receive, track and respond to questions and complaints. Communities can also raise concerns anonymously through the Shell Global Helpline. In locations where third-party-operated complaint systems are in place, such as those of a government, we sometimes use these to inform us of feedback related to our operations and to respond appropriately.
 
 ### Providing access to remedy
 
-Shell provides and facilitates access to remedy through community feedback mechanisms and the Shell Global Helpline. Shell does not
-require individuals or communities to permanently waive their legal right to bring a claim through a judicial process as a precondition of
-raising a grievance through a Shell grievance mechanism, nor will
-Shell otherwise take extrajudicial measures to obstruct state-based judicial processes.
+Shell provides and facilitates access to remedy through community feedback mechanisms and the Shell Global Helpline. Shell does not require individuals or communities to permanently waive their legal right to bring a claim through a judicial process as a precondition of raising a grievance through a Shell grievance mechanism, nor will Shell otherwise take extrajudicial measures to obstruct state-based judicial processes.
 
 Shell will not contribute to or support retaliation, threats, intimidation or attacks against those who raise concerns in relation to our operations.
 
-We have assessed our community feedback mechanism against the access to remedy criteria of the UN Guiding Principles on Business
-and Human Rights. This has enabled us to improve our approach, helping to ensure we treat community feedback consistently across
-our operations, respect anonymity and allow communities to pursue other options if they disagree with the outcome of the process.
+We have assessed our community feedback mechanism against the access to remedy criteria of the UN Guiding Principles on Business and Human Rights. This has enabled us to improve our approach, helping to ensure we treat community feedback consistently across our operations, respect anonymity and allow communities to pursue other options if they disagree with the outcome of the process.
 
-In some locations, community members may be employed by suppliers who perform work on Shell sites. We have contractual requirements
-for suppliers to provide their own grievance mechanisms (see "Shell
-Supplier Principles" on page 425). Concerns may also be submitted via the Shell Global Helpline.
-
+In some locations, community members may be employed by suppliers who perform work on Shell sites. We have contractual requirements for suppliers to provide their own grievance mechanisms (see "Shell Supplier Principles" on page 425). Concerns may also be submitted via the Shell Global Helpline.
 
 ### Assessing effectiveness
 
-Our standards require assets, projects or businesses where communities are potentially affected to track and respond to questions, complaints
-and feedback.
+Our standards require assets, projects or businesses where communities are potentially affected to track and respond to questions, complaints and feedback.
 
-For countries where we have a large community footprint, we conduct an annual review of the effectiveness of our work with communities. As
-part of this process, we analyse concerns raised through community feedback mechanisms to understand opportunities to improve.
+For countries where we have a large community footprint, we conduct an annual review of the effectiveness of our work with communities. As part of this process, we analyse concerns raised through community feedback mechanisms to understand opportunities to improve.
 
-We also evaluate the effectiveness of the mechanism in terms of whether it is known, trusted and used. In 2024, we improved our
-internal tools to make it easier to track user satisfaction with the remedies afforded by the process.
+We also evaluate the effectiveness of the mechanism in terms of whether it is known, trusted and used. In 2024, we improved our internal tools to make it easier to track user satisfaction with the remedies afforded by the process.
 
-We seek feedback from communities on the effectiveness of feedback mechanisms. Where appropriate, we may involve communities in
-tracking and monitoring how concerns are addressed.
-
+We seek feedback from communities on the effectiveness of feedback mechanisms. Where appropriate, we may involve communities in tracking and monitoring how concerns are addressed.
 
 ## Taking action on material impacts on affected communities, and approaches to managing material risks and pursuing material opportunities related to affected communities, and effectiveness of those actions (S3-4)
 
 In 2024, we continued to take steps to improve our approach to managing impacts and supporting access to remedy through community feedback mechanisms.
 
-The scope of the actions described in this section covers Shell companies and joint ventures in which Shell is the operator, unless
-otherwise stated. Many of our actions are of an ongoing nature.
-Horizons for the completion of time-bound actions are indicated where applicable.
+The scope of the actions described in this section covers Shell companies and joint ventures in which Shell is the operator, unless otherwise stated. Many of our actions are of an ongoing nature. Horizons for the completion of time-bound actions are indicated where applicable.
 
-Our actions are intended to help us achieve the desired outcome of our policies and standards by providing resources and expertise that
-support our businesses to implement them in fit-for-purpose ways.
-
+Our actions are intended to help us achieve the desired outcome of our policies and standards by providing resources and expertise that support our businesses to implement them in fit-for-purpose ways.
 
 ### Building capacity to manage impacts
 
-In 2024, our improvement plan for social performance focused on five themes. These comprised work to embed our standards and strengthen
-the integration of social performance into business decisions; support local teams to drive continuous improvement; develop the competence
-of staff in critical positions; deepen our understanding of the potential community issues associated with changes in our business portfolio;
-and provide risk-based support to our non-operated ventures.
-
+In 2024, our improvement plan for social performance focused on five themes. These comprised work to embed our standards and strengthen the integration of social performance into business decisions; support local teams to drive continuous improvement; develop the competence of staff in critical positions; deepen our understanding of the potential community issues associated with changes in our business portfolio; and provide risk-based support to our non-operated ventures.
 
 ### Portfolio changes
 
-For Shell, the energy transition brings new business models that require different approaches to social performance. For example, new business
-opportunities in Shell's Renewables and Energy Solutions and Nature
-Based Solutions businesses may require us to work with partners who have less experience in managing community impacts such as land
-acquisition or disruption to livelihoods.
+For Shell, the energy transition brings new business models that require different approaches to social performance. For example, new business opportunities in Shell's Renewables and Energy Solutions and Nature Based Solutions businesses may require us to work with partners who have less experience in managing community impacts such as land acquisition or disruption to livelihoods.
 
-We seek to offer our support and exert a positive influence on non-operated ventures where we identify a need for additional technical
-expertise or resources.
-
+We seek to offer our support and exert a positive influence on non-operated ventures where we identify a need for additional technical expertise or resources.
 
 ### Indigenous Peoples
 
-Historically, most of Shell's interactions with Indigenous Peoples have taken place in highly regulated contexts such as in Canada
-and Australia.
+Historically, most of Shell's interactions with Indigenous Peoples have taken place in highly regulated contexts such as in Canada and Australia.
 
-In Australia, our QGC business continues to work on negotiations with several Traditional Owner groups to modernise existing Indigenous
-land use agreements. The process has proven challenging, partly owing to the need to rebuild trust and confidence between the parties. In
-Alberta, Canada, Shell Energy and Chemicals Park Scotford signed a good neighbour agreement with its two closest indigenous
-communities, the Enoch Cree Nation and the Alexander First Nation.
+In Australia, our QGC business continues to work on negotiations with several Traditional Owner groups to modernise existing Indigenous land use agreements. The process has proven challenging, partly owing to the need to rebuild trust and confidence between the parties. In Alberta, Canada, Shell Energy and Chemicals Park Scotford signed a good neighbour agreement with its two closest indigenous communities, the Enoch Cree Nation and the Alexander First Nation.
 
-Our potential exposure to Indigenous Peoples issues increasingly extends beyond these countries, especially in the context of nature-based
-solutions. For these projects, our standards require certification to the
-Climate, Community and Biodiversity (CCB) Standards or an equivalent, which includes requirements around free, prior and informed consent.
-
+Our potential exposure to Indigenous Peoples issues increasingly extends beyond these countries, especially in the context of nature-based solutions. For these projects, our standards require certification to the Climate, Community and Biodiversity (CCB) Standards or an equivalent, which includes requirements around free, prior and informed consent.
 
 ### Land acquisition and resettlement
 
-Land acquisition and resettlement is a key focus area across our operated and non-operated ventures, and requires specialist skills to
-manage. In 2024, we engaged in plans to manage impacts associated with potential economic resettlement in Albania, Norway, South Korea,
-Trinidad and Tobago, and the UK. We also provided support to resettlement processes in non-operated ventures in Tanzania, Iraq and
-Brazil. In addition, we supported local assets in the USA and other countries with issues related to encroachment.
-
+Land acquisition and resettlement is a key focus area across our operated and non-operated ventures, and requires specialist skills to manage. In 2024, we engaged in plans to manage impacts associated with potential economic resettlement in Albania, Norway, South Korea, Trinidad and Tobago, and the UK. We also provided support to resettlement processes in non-operated ventures in Tanzania, Iraq and Brazil. In addition, we supported local assets in the USA and other countries with issues related to encroachment.
 
 ## Cultural heritage
 
-In 2024, projects in Australia, Namibia, Oman and Trinidad and
-Tobago established chance-find procedures in their operations, aligned with our standards. We continue to implement cultural heritage
-procedures in our exploration operations in Albania, where several significant archaeological discoveries have been made since 2019.
-
+In 2024, projects in Australia, Namibia, Oman and Trinidad and Tobago established chance-find procedures in their operations, aligned with our standards. We continue to implement cultural heritage procedures in our exploration operations in Albania, where several significant archaeological discoveries have been made since 2019.
 
 ## Security
 
-Our operations expose us to criminality, civil unrest, activism, terrorism, cyber disruption and acts of war. We take steps to have clear and
-planned responses to security incidents so that we are able to react effectively if they occur.
+Our operations expose us to criminality, civil unrest, activism, terrorism, cyber disruption and acts of war. We take steps to have clear and planned responses to security incidents so that we are able to react effectively if they occur.
 
-Shell is a member of the Voluntary Principles on Security and Human
-Rights (VPSHR), a multi-stakeholder initiative that gives guidance on how to respect human rights while providing security for business
-operations. Shell implements this guidance within our operations, concentrating on countries where the risks of working with government
-and private security forces are identified as greatest.
+Shell is a member of the Voluntary Principles on Security and Human Rights (VPSHR), a multi-stakeholder initiative that gives guidance on how to respect human rights while providing security for business operations. Shell implements this guidance within our operations, concentrating on countries where the risks of working with government and private security forces are identified as greatest.
 
-We carry out annual risk assessments and develop implementation plans to manage the identified risks. As part of these plans, we carry
-out training and awareness briefings with the security forces that we rely on in our implementation countries. We also screen private security
-providers on VPSHR and monitor their performance.
-
+We carry out annual risk assessments and develop implementation plans to manage the identified risks. As part of these plans, we carry out training and awareness briefings with the security forces that we rely on in our implementation countries. We also screen private security providers on VPSHR and monitor their performance.
 
 ## Social investment
 
-Our activities contribute to economies through taxes, jobs and business opportunities. We also make social investments in areas determined by
-local community needs and priorities. These investments are sometimes voluntary and sometimes required by governments or as part of a
-contractual agreement.
+Our activities contribute to economies through taxes, jobs and business opportunities. We also make social investments in areas determined by local community needs and priorities. These investments are sometimes voluntary and sometimes required by governments or as part of a contractual agreement.
 
-Shell has three priority areas for social investment: access to energy; skills and enterprise development; and science, technology,
-engineering and maths education. In 2024, we spent $165 million on social investment, of which $87 million (53%) was required by
-government regulations or contractual agreements. We spent the remaining $78 million (47%) on voluntary social investment.
+Shell has three priority areas for social investment: access to energy; skills and enterprise development; and science, technology, engineering and maths education. In 2024, we spent $165 million on social investment, of which $87 million (53%) was required by government regulations or contractual agreements. We spent the remaining $78 million (47%) on voluntary social investment.
 
-An important part of our social investment is our contribution to communities that have been impacted by disasters. Typically, Shell
-provides financial donations to non-governmental and partner organisations that are experienced in providing humanitarian aid in
-disaster situations. Where possible and needed, we also contribute our products and services, such as fuel, chemical products, transport
-and logistics.
-
+An important part of our social investment is our contribution to communities that have been impacted by disasters. Typically, Shell provides financial donations to non-governmental and partner organisations that are experienced in providing humanitarian aid in disaster situations. Where possible and needed, we also contribute our products and services, such as fuel, chemical products, transport and logistics.
 
 ## Community skills and enterprise development
 
-Our community skills and enterprise development programmes benefit communities where we operate by creating employment opportunities
-and contributing to economic development. These programmes also strengthen the number of potential suppliers and staff for our value
-chain.
+Our community skills and enterprise development programmes benefit communities where we operate by creating employment opportunities and contributing to economic development. These programmes also strengthen the number of potential suppliers and staff for our value chain.
 
-Education in science, technology, engineering and maths
-We actively support science, technology, engineering and maths (STEM) through a range of programmes. NXplorers, our flagship STEM
-programme, aims to help young people develop creative thinking to bridge the skills gap.
-
+Education in science, technology, engineering and maths We actively support science, technology, engineering and maths (STEM) through a range of programmes. NXplorers, our flagship STEM programme, aims to help young people develop creative thinking to bridge the skills gap.
 
 ## Local content
 
 See "Local content" on page 426 for information about our approach.
 
-
 ## Tracking effectiveness
 
-For countries where we have a large community footprint, we undertake an annual review process to assess the effectiveness of our
-work with affected communities. This includes an assessment of how we manage negative and positive impacts on communities, undertaken by
-local staff and corporate experts. Social performance issues are considered as part of our HSSE & SP internal assurance processes.
-
+For countries where we have a large community footprint, we undertake an annual review process to assess the effectiveness of our work with affected communities. This includes an assessment of how we manage negative and positive impacts on communities, undertaken by local staff and corporate experts. Social performance issues are considered as part of our HSSE & SP internal assurance processes.
 
 ## Responding to concerns
 
-We may become aware of actual or potential negative impacts through impact assessment, stakeholder engagement or concerns
-raised through community feedback mechanisms. Depending on the nature of the issue, we may investigate the concern ourselves or refer it
-to a third party if appropriate.
+We may become aware of actual or potential negative impacts through impact assessment, stakeholder engagement or concerns raised through community feedback mechanisms. Depending on the nature of the issue, we may investigate the concern ourselves or refer it to a third party if appropriate.
 
-If an incident is confirmed, we review the circumstances and decide on the action to be taken. When the impacts are preventable or
-remediable, we may consider appropriate measures. Such measures may be taken on our own or in conjunction with others. When actual or
-potential impacts arise in relation to topics such as impact management or land acquisition, we aim to ensure our standards are implemented in
-an appropriate manner.
+If an incident is confirmed, we review the circumstances and decide on the action to be taken. When the impacts are preventable or remediable, we may consider appropriate measures. Such measures may be taken on our own or in conjunction with others. When actual or potential impacts arise in relation to topics such as impact management or land acquisition, we aim to ensure our standards are implemented in an appropriate manner.
 
-See "Processes to remediate negative impacts and channels for affected communities to raise concerns (S3-3)" on page 422 for further
-information about our approach to access to remedy.
-
+See "Processes to remediate negative impacts and channels for affected communities to raise concerns (S3-3)" on page 422 for further information about our approach to access to remedy.
 
 ## Other disclosures
 
-Shell seeks to avoid or minimise material adverse impacts on affected communities by embedding respect for their rights in our policies and
-practices. Shell is committed to respecting human rights as set out in the
-UN Universal Declaration of Human Rights and the International
-Labour Organization Declaration on Fundamental Principles and Rights at Work. Our approach is informed by the UN Guiding Principles on
-Business and Human Rights. We provide and facilitate access to remedy.
+Shell seeks to avoid or minimise material adverse impacts on affected communities by embedding respect for their rights in our policies and practices. Shell is committed to respecting human rights as set out in the UN Universal Declaration of Human Rights and the International Labour Organization Declaration on Fundamental Principles and Rights at Work. Our approach is informed by the UN Guiding Principles on Business and Human Rights. We provide and facilitate access to remedy.
 
-Our policies on impact assessment, environmental management and communities are designed to manage the impacts of our activities. See
-"Policies related to affected communities (S3-1)" on page 420 and
-"Communities and human rights" on page 421 for more information.
+Our policies on impact assessment, environmental management and communities are designed to manage the impacts of our activities. See "Policies related to affected communities (S3-1)" on page 420 and "Communities and human rights" on page 421 for more information.
 
-An incident is a legal action or complaint registered with the undertaking or competent authorities through a formal process, or an instance of noncompliance identified by the undertaking through established
-procedures. According to the UN Guiding Principles on Business and
-Human Rights, a severe human rights incident is characterised by the significant impact it may have, which is evaluated based on its scale,
-scope and irremediable nature. An incident may be severe by virtue of one or more of these criteria.
+An incident is a legal action or complaint registered with the undertaking or competent authorities through a formal process, or an instance of noncompliance identified by the undertaking through established procedures. According to the UN Guiding Principles on Business and Human Rights, a severe human rights incident is characterised by the significant impact it may have, which is evaluated based on its scale, scope and irremediable nature. An incident may be severe by virtue of one or more of these criteria.
 
-In 2024, no severe human rights incidents connected to affected communities were identified. No severe human rights incidents
-connected with land disputes or free prior and informed consent of Indigenous Peoples were identified.
+In 2024, no severe human rights incidents connected to affected communities were identified. No severe human rights incidents connected with land disputes or free prior and informed consent of Indigenous Peoples were identified.
 
-
-In 2024, no cases of non-respect of the UN Guiding Principles on
-Business and Human Rights, the ILO Declaration on Fundamental
-Principles and Rights at Work or the OECD Guidelines for Multinational
-Enterprises connected to affected communities were identified in our operations or our upstream and downstream value chain.
-
+In 2024, no cases of non-respect of the UN Guiding Principles on Business and Human Rights, the ILO Declaration on Fundamental Principles and Rights at Work or the OECD Guidelines for Multinational Enterprises connected to affected communities were identified in our operations or our upstream and downstream value chain.
 
 ## Resourcing our actions
 
-The Executive Vice President for Safety, Environment and Asset
-Management is the most senior executive in Shell with accountability for the development, governance and oversight of the SEAM
-Standards. Leaders of assets, performance units, businesses or functions are accountable for assessing which SEAM Standards are relevant to
-them based on their objectives, risk profile and activities, and for implementing those standards as appropriate.
+The Executive Vice President for Safety, Environment and Asset Management is the most senior executive in Shell with accountability for the development, governance and oversight of the SEAM Standards. Leaders of assets, performance units, businesses or functions are accountable for assessing which SEAM Standards are relevant to them based on their objectives, risk profile and activities, and for implementing those standards as appropriate.
 
-Implementation of SEAM Standards relevant to social performance is supported by members of Shell's Corporate Relations and Safety,
-Environment and Asset Management function. These include experts in community engagement, resettlement, Indigenous Peoples, human
-rights, impact assessment and other disciplines. The requirements of our standards are communicated to people involved with implementation
-through various mechanisms, including internal communication channels, management systems and training as appropriate.
-
+Implementation of SEAM Standards relevant to social performance is supported by members of Shell's Corporate Relations and Safety, Environment and Asset Management function. These include experts in community engagement, resettlement, Indigenous Peoples, human rights, impact assessment and other disciplines. The requirements of our standards are communicated to people involved with implementation through various mechanisms, including internal communication channels, management systems and training as appropriate.
 
 ## Planned actions
 
 In 2025, we will continue to:
 
 - manage stakeholder engagement, impact management, involuntary
-resettlement, cultural heritage, Indigenous Peoples, high or unusual social risks, social investment, disaster relief, and security and human
-rights in line with our standards; and
+resettlement, cultural heritage, Indigenous Peoples, high or unusual social risks, social investment, disaster relief, and security and human rights in line with our standards; and
 
 - support efforts to provide access to remedy for affected communities
 through community feedback mechanisms.
 
-Our action plans are responsive to changing business conditions.
-Planned actions not directly related to compliance with regulations or our own standards are subject to change. The actions indicated above
-represent key focus areas rather than an exhaustive list.
-
+Our action plans are responsive to changing business conditions. Planned actions not directly related to compliance with regulations or our own standards are subject to change. The actions indicated above represent key focus areas rather than an exhaustive list.
 
 ## Targets related to managing material negative impacts, advancing positive impacts, and managing material risks and opportunities (S3-5)
 
-Our business activities and the communities in which we operate are diverse. Experience shows that local goals drive more appropriate
-outcomes than globally aggregated targets, which may or may not be applicable to every community. For this reason, we have not adopted
-consolidated targets on affected communities at a Group level.
+Our business activities and the communities in which we operate are diverse. Experience shows that local goals drive more appropriate outcomes than globally aggregated targets, which may or may not be applicable to every community. For this reason, we have not adopted consolidated targets on affected communities at a Group level.
 
-We aim for continuous improvement in our performance and may set goals at a local level addressing specific priorities, such as reducing
-road traffic or enhancing local recruitment and contracting. Such goals may include performance measurement from a base period to a future
-period. Where appropriate, we engage directly with affected communities to discuss the local priorities. In some cases, this may
-involve community participation in setting goals, monitoring progress, identifying lessons learned or further opportunities for improvement.
-
+We aim for continuous improvement in our performance and may set goals at a local level addressing specific priorities, such as reducing road traffic or enhancing local recruitment and contracting. Such goals may include performance measurement from a base period to a future period. Where appropriate, we engage directly with affected communities to discuss the local priorities. In some cases, this may involve community participation in setting goals, monitoring progress, identifying lessons learned or further opportunities for improvement.
 
 ## Governance
 
 ### Business conduct (G1)
 
-
 ## Our core values of honesty, integrity and respect for people, as well as our focus on safety and sustainability, are critical to our strategy.
 
-Our double materiality assessment has identified a culture of integrity and responsible sourcing as material topics. It has also identified tax
-and payments to governments and safety as material entity-specific topics, which we cover in this section in recognition of their overarching
-relevance for Shell's activities. See "Material impacts, risks and opportunities and their interaction with strategy and business model
-(SBM-3)" on page 351 and "Description of the process to identify and assess material impacts, risks and opportunities (IRO-1)" on page 354
-for more information.
-
+Our double materiality assessment has identified a culture of integrity and responsible sourcing as material topics. It has also identified tax and payments to governments and safety as material entity-specific topics, which we cover in this section in recognition of their overarching relevance for Shell's activities. See "Material impacts, risks and opportunities and their interaction with strategy and business model (SBM-3)" on page 351 and "Description of the process to identify and assess material impacts, risks and opportunities (IRO-1)" on page 354 for more information.
 
 ### Why it matters
 
-Our core values of honesty, integrity and respect for people underpin our work with employees, customers, investors, contractors, suppliers,
-non-governmental organisations (NGOs), the communities where we operate and others. We are committed to doing business in an ethical
-and transparent way.
-
+Our core values of honesty, integrity and respect for people underpin our work with employees, customers, investors, contractors, suppliers, non-governmental organisations (NGOs), the communities where we operate and others. We are committed to doing business in an ethical and transparent way.
 
 ### Business conduct policies and corporate culture (G1-1)
 
-Our core values underpin our work with employees, customers, investors, contractors, suppliers, NGOs, the communities where we operate and
-others. The Shell General Business Principles, Code of Conduct and
-Ethics and Compliance Manual help everyone at Shell to act in line with our values.
+Our core values underpin our work with employees, customers, investors, contractors, suppliers, NGOs, the communities where we operate and others. The Shell General Business Principles, Code of Conduct and Ethics and Compliance Manual help everyone at Shell to act in line with our values.
 
-The Shell General Business Principles set out our responsibilities to shareholders, customers, employees, business partners and society.
-They set the standards for how we conduct business with honesty, integrity and respect for people. As part of these principles, we commit
-to contribute to sustainable development, by balancing short- and longterm interests and integrating economic, environmental and social
-considerations into our decision-making. All Shell employees and contractors, and those at joint ventures we operate, are expected
-to behave in line with these business principles.
+The Shell General Business Principles set out our responsibilities to shareholders, customers, employees, business partners and society. They set the standards for how we conduct business with honesty, integrity and respect for people. As part of these principles, we commit to contribute to sustainable development, by balancing short- and longterm interests and integrating economic, environmental and social considerations into our decision-making. All Shell employees and contractors, and those at joint ventures we operate, are expected to behave in line with these business principles.
 
-The Shell Code of Conduct explains how employees, contractors and anyone else acting on behalf of Shell must behave to live up to our
-business principles. It covers safety, anti-bribery and corruption, fair competition, human rights and other important areas.
+The Shell Code of Conduct explains how employees, contractors and anyone else acting on behalf of Shell must behave to live up to our business principles. It covers safety, anti-bribery and corruption, fair competition, human rights and other important areas.
 
-The Shell Ethics and Compliance Manual defines the detailed requirements for businesses and functions to comply with laws on
-anti-bribery and corruption, anti-money laundering, preventing the facilitation of tax evasion, antitrust, data privacy and trade compliance.
+The Shell Ethics and Compliance Manual defines the detailed requirements for businesses and functions to comply with laws on anti-bribery and corruption, anti-money laundering, preventing the facilitation of tax evasion, antitrust, data privacy and trade compliance.
 
-Shell employees, contractors and third parties can report potential breaches of the Code of Conduct confidentially through several
-channels, including anonymously through the Shell Global Helpline.
+Shell employees, contractors and third parties can report potential breaches of the Code of Conduct confidentially through several channels, including anonymously through the Shell Global Helpline.
 
-We maintain a stringent no retaliation policy to protect any person making an allegation in good faith. This protection extends to those
-who participate in or conduct an investigation. We investigate allegations of potential violations of the Shell Code of Conduct or
-applicable laws promptly and independently of the management line concerned.
+We maintain a stringent no retaliation policy to protect any person making an allegation in good faith. This protection extends to those who participate in or conduct an investigation. We investigate allegations of potential violations of the Shell Code of Conduct or applicable laws promptly and independently of the management line concerned.
 
-Our policies require Shell staff to undergo appropriate ethics and compliance training. The type and depth of training is dependent
-on the level of risk. Training is repeated every three years, or more frequently for positions where the risk exposure is higher. Functions
-considered to be at higher risk for exposure to bribery include, but are not limited to, persons involved in procurement and contracting, new business development and engagement with government officials. Staff involved in receiving and investigating potential breaches of the Code
-of Conduct undergo specific training in managing such cases.
+Our policies require Shell staff to undergo appropriate ethics and compliance training. The type and depth of training is dependent on the level of risk. Training is repeated every three years, or more frequently for positions where the risk exposure is higher. Functions considered to be at higher risk for exposure to bribery include, but are not limited to, persons involved in procurement and contracting, new business development and engagement with government officials. Staff involved in receiving and investigating potential breaches of the Code of Conduct undergo specific training in managing such cases.
 
-See the conduct and culture risks highlighted in "Risk factors" on pages
-135-144 for additional information on how Shell seeks to establish, develop, promote and evaluate our corporate culture.
+See the conduct and culture risks highlighted in "Risk factors" on pages 135-144 for additional information on how Shell seeks to establish, develop, promote and evaluate our corporate culture.
 
 See "Animal testing" on page 392 for information about Shell's animal welfare standards.
 
-
 ### Management of relationships with suppliers (G1-2)
 
-As part of Shell's responsible sourcing approach, we aim to work with suppliers that behave in an economically, environmentally and socially
-responsible manner.
-
+As part of Shell's responsible sourcing approach, we aim to work with suppliers that behave in an economically, environmentally and socially responsible manner.
 
 ### Shell Supplier Principles
 
-Shell partners with suppliers who adhere to our Shell General Business
-Principles and Shell Supplier Principles. Our standard contract terms require adherence to these or equivalent principles.
+Shell partners with suppliers who adhere to our Shell General Business Principles and Shell Supplier Principles. Our standard contract terms require adherence to these or equivalent principles.
 
-The Shell Supplier Principles apply to contracts managed by Shell's
-Supply Chain organisation, which generally manages procurement of non-hydrocarbon goods and services on behalf of Shell companies and
-joint ventures in which Shell is the operator.
+The Shell Supplier Principles apply to contracts managed by Shell's Supply Chain organisation, which generally manages procurement of non-hydrocarbon goods and services on behalf of Shell companies and joint ventures in which Shell is the operator.
 
 Our Supplier Principles comprise the following topics:
 
@@ -12769,181 +10165,102 @@ Our Supplier Principles comprise the following topics:
 laws and regulations, including with respect to corruption, bribery, competition and conflicts of interest.
 
 - Health, Safety, Security, Environment and Social Performance (HSSE
-& SP): a systematic approach to managing health, safety, security and environment, including environmental protection, energy and
-resource efficiency, managing social impacts, and respectful engagement with employees, communities and other stakeholders.
+& SP): a systematic approach to managing health, safety, security and environment, including environmental protection, energy and resource efficiency, managing social impacts, and respectful engagement with employees, communities and other stakeholders.
 
 - Labour and Human Rights: respect for human rights and labour
-rights, including no use of forced labour or child labour; no payment of recruitment fees by workers; compliance with applicable laws on
-freedom of association and collective bargaining; no tolerance for harassment, discrimination or retaliation; compliance with applicable
-laws on working hours; wages and benefits that meet or exceed national legal standards; and grievance mechanisms where concerns
-can be raised confidentially.
+rights, including no use of forced labour or child labour; no payment of recruitment fees by workers; compliance with applicable laws on freedom of association and collective bargaining; no tolerance for harassment, discrimination or retaliation; compliance with applicable laws on working hours; wages and benefits that meet or exceed national legal standards; and grievance mechanisms where concerns can be raised confidentially.
 
-Suppliers are required to notify Shell in case of any violations of the
-Shell General Business Principles or the Shell Supplier Principles.
+Suppliers are required to notify Shell in case of any violations of the Shell General Business Principles or the Shell Supplier Principles.
 
-Shell evaluates and selects its suppliers based on, among other things, the following considerations: capability to act in accordance with the
-Shell General Business Principles and Shell Supplier Principles, clear financial position, technical capability of delivering in line with Shell
-standards, and ability to deliver the scope of work safely and manage human rights and worker welfare within their own operations and
-respective supply chains.
+Shell evaluates and selects its suppliers based on, among other things, the following considerations: capability to act in accordance with the Shell General Business Principles and Shell Supplier Principles, clear financial position, technical capability of delivering in line with Shell standards, and ability to deliver the scope of work safely and manage human rights and worker welfare within their own operations and respective supply chains.
 
-After the initial assessment of potential suppliers, we may carry out additional risk assessments. These can trigger further assessment of
-suppliers' capability on topics such as worker welfare and ethics and compliance. Depending on the risk profile, suppliers may be asked to
-put mitigation actions in place.
+After the initial assessment of potential suppliers, we may carry out additional risk assessments. These can trigger further assessment of suppliers' capability on topics such as worker welfare and ethics and compliance. Depending on the risk profile, suppliers may be asked to put mitigation actions in place.
 
-Our purchases of goods and services, including from small and medium-sized enterprises, are governed by standard contractual
-terms and conditions. These specify the scope of the contract, the responsibilities of the parties to each other and processes for payment.
+Our purchases of goods and services, including from small and medium-sized enterprises, are governed by standard contractual terms and conditions. These specify the scope of the contract, the responsibilities of the parties to each other and processes for payment.
 
-
-Our standard terms require suppliers to issue an invoice once the agreed goods or services have been satisfactorily delivered and
-accepted by Shell. We aim to pay any undisputed amounts within the time period specified in the contract after receiving a correct
-and adequately supported invoice.
-
+Our standard terms require suppliers to issue an invoice once the agreed goods or services have been satisfactorily delivered and accepted by Shell. We aim to pay any undisputed amounts within the time period specified in the contract after receiving a correct and adequately supported invoice.
 
 ### Enhanced value chain due diligence
 
-In 2024, we took steps to strengthen our human rights due diligence processes for sourcing goods and services. We have introduced a new
-policy within our Category Management and Contracting Process
-Framework requiring additional due diligence for new contracts with higher potential for human rights impacts. See "Enhanced value chain
-due diligence" on page 416.
-
+In 2024, we took steps to strengthen our human rights due diligence processes for sourcing goods and services. We have introduced a new policy within our Category Management and Contracting Process Framework requiring additional due diligence for new contracts with higher potential for human rights impacts. See "Enhanced value chain due diligence" on page 416.
 
 ### Local content
 
-We want to make a positive difference to countries and local communities where we operate. We do this by creating jobs, training
-people, supporting local businesses and buying goods and services from local suppliers - collectively referred to as local content. We also
-work to include in our supply chain enterprises that are part of historically under-represented or underserved groups.
-
+We want to make a positive difference to countries and local communities where we operate. We do this by creating jobs, training people, supporting local businesses and buying goods and services from local suppliers - collectively referred to as local content. We also work to include in our supply chain enterprises that are part of historically under-represented or underserved groups.
 
 ### Prevention and detection of corruption and bribery (G1-3)
 
-The Shell General Business Principles, Code of Conduct and Ethics and
-Compliance Manual define our requirements for complying with laws on anti-bribery and corruption. These requirements apply to all Shelloperated ventures and companies in which Shell holds a controlling
-interest, either directly or indirectly.
-
+The Shell General Business Principles, Code of Conduct and Ethics and Compliance Manual define our requirements for complying with laws on anti-bribery and corruption. These requirements apply to all Shelloperated ventures and companies in which Shell holds a controlling interest, either directly or indirectly.
 
 ### Our approach
 
-To help us prevent and detect corruption and bribery, we require our business and functions to undertake regular risk reviews and implement
-risk-based controls. We identify roles that are exposed to potential bribery and corruption risks and provide training. We require ethics
-and compliance due diligence when contracting, engaging in business development, before funding social investment and before entering
-into relationships with trade associations. We also include ethics and compliance clauses in our contracts.
+To help us prevent and detect corruption and bribery, we require our business and functions to undertake regular risk reviews and implement risk-based controls. We identify roles that are exposed to potential bribery and corruption risks and provide training. We require ethics and compliance due diligence when contracting, engaging in business development, before funding social investment and before entering into relationships with trade associations. We also include ethics and compliance clauses in our contracts.
 
-Specialists in our Business Integrity Department and Human Resources function manage investigations when concerns are raised. Independent
-audits are conducted by Shell Internal Audit and Investigations (SIAI).
-
+Specialists in our Business Integrity Department and Human Resources function manage investigations when concerns are raised. Independent audits are conducted by Shell Internal Audit and Investigations (SIAI).
 
 ### Raising and investigating concerns
 
-If staff wish to report a concern, they may speak to their line manager, the Shell Ethics and Compliance Office (SECO) or a representative of
-the Human Resources or Legal functions. Alternatively, staff and third parties can contact the Shell Global Helpline, which is available to
-anyone, 24 hours a day, seven days a week, via telephone or the internet. Reports can be made anonymously and in multiple languages.
+If staff wish to report a concern, they may speak to their line manager, the Shell Ethics and Compliance Office (SECO) or a representative of the Human Resources or Legal functions. Alternatively, staff and third parties can contact the Shell Global Helpline, which is available to anyone, 24 hours a day, seven days a week, via telephone or the internet. Reports can be made anonymously and in multiple languages.
 
-Shell has a professional Business Integrity Department that investigates allegations of potential violations of the Shell Code of Conduct. This
-function operates independently from the management line under investigation. We conduct investigations according to six investigation
-principles: confidentiality, impartiality, integrity, competence, timeliness and protection from retaliation. Only trained members of the Business
-Integrity Department and Human Resources function have the authority to direct, manage or conduct such investigations.
+Shell has a professional Business Integrity Department that investigates allegations of potential violations of the Shell Code of Conduct. This function operates independently from the management line under investigation. We conduct investigations according to six investigation principles: confidentiality, impartiality, integrity, competence, timeliness and protection from retaliation. Only trained members of the Business Integrity Department and Human Resources function have the authority to direct, manage or conduct such investigations.
 
-Each quarter, the Business Integrity Department reports on Code of
-Conduct incidents to the Business Integrity Committee, Executive
-Committee (EC) and the Board Audit and Risk Committee (ARC). Ethics and compliance officers review cases, investigation outcomes, trends,
-learnings and follow-up actions. Shell's Chief Ethics and Compliance
-Officer (CECO) reports to the EC and ARC on compliance with the application of the investigation principles and overall consistency of our approach. See "Audit and Risk Committee Report - Compliance and
-Governance" on page 183 for more information.
+Each quarter, the Business Integrity Department reports on Code of Conduct incidents to the Business Integrity Committee, Executive Committee (EC) and the Board Audit and Risk Committee (ARC). Ethics and compliance officers review cases, investigation outcomes, trends, learnings and follow-up actions. Shell's Chief Ethics and Compliance Officer (CECO) reports to the EC and ARC on compliance with the application of the investigation principles and overall consistency of our approach. See "Audit and Risk Committee Report - Compliance and Governance" on page 183 for more information.
 
-Shell Internal Audit and Investigations (SIAI) provides independent and objective assurance on the adequacy and effectiveness of our risk
-management and internal controls. SIAI conducts investigations of corporate irregularities raised through the Shell Global Helpline and
-produces causal analysis and learning on business incidents.
+Shell Internal Audit and Investigations (SIAI) provides independent and objective assurance on the adequacy and effectiveness of our risk management and internal controls. SIAI conducts investigations of corporate irregularities raised through the Shell Global Helpline and produces causal analysis and learning on business incidents.
 
-See "The role of the administrative, management and supervisory bodies (GOV-1)" on page 345 for information about the governance
-of ethics and compliance.
-
+See "The role of the administrative, management and supervisory bodies (GOV-1)" on page 345 for information about the governance of ethics and compliance.
 
 ### Training
 
-Ethics and compliance training in Shell follows a risk-based approach, with the depth of training required of staff dependent on the level of
-risk associated with their role.
+Ethics and compliance training in Shell follows a risk-based approach, with the depth of training required of staff dependent on the level of risk associated with their role.
 
-Staff must complete all assigned Shell ethics and compliance training courses. Code of Conduct training, which explains the behaviour Shell
-expects from its representatives, is mandatory for all employees and contractor staff.
+Staff must complete all assigned Shell ethics and compliance training courses. Code of Conduct training, which explains the behaviour Shell expects from its representatives, is mandatory for all employees and contractor staff.
 
-Certain roles pose higher risks for corruption or bribery owing to the sensitive nature of the transactions involved or because they entail
-engagement with government officials. We prioritise additional training for these roles.
+Certain roles pose higher risks for corruption or bribery owing to the sensitive nature of the transactions involved or because they entail engagement with government officials. We prioritise additional training for these roles.
 
-We require all staff in roles identified as being potentially at risk for exposure to corruption or bribery to undergo appropriate training.
-Training completion is tracked and repetition cycles are defined.
-Training on anti-bribery and anti-corruption is valid for three years from the date of completion but may be refreshed more frequently, for
-instance in response to changes in the risk environment. In 2024, 98% of staff in at-risk roles possessed a valid training completion in line with
-the applicable cycle.
+We require all staff in roles identified as being potentially at risk for exposure to corruption or bribery to undergo appropriate training. Training completion is tracked and repetition cycles are defined. Training on anti-bribery and anti-corruption is valid for three years from the date of completion but may be refreshed more frequently, for instance in response to changes in the risk environment. In 2024, 98% of staff in at-risk roles possessed a valid training completion in line with the applicable cycle.
 
 We offer free training in anti-bribery and anti-corruption practices to selected suppliers. This training is available in 14 languages.
 
-The Board endorses the Shell ethics and compliance programme including the required training programmes. An Ethics and Compliance
-Learning Board, chaired by the CECO, makes decisions on strategic direction and how we run effective training. Anti-bribery and corruption
-is reviewed on a periodic basis to ensure content is relevant and up to date.
-
+The Board endorses the Shell ethics and compliance programme including the required training programmes. An Ethics and Compliance Learning Board, chaired by the CECO, makes decisions on strategic direction and how we run effective training. Anti-bribery and corruption is reviewed on a periodic basis to ensure content is relevant and up to date.
 
 ### Communicating our expectations
 
-Shell's policies on ethics and compliance are communicated to employees, suppliers and third parties at the start of any contractual
-relationships and through training, leadership communications and
-Shell's website. Our Code of Conduct and associated training are offered in multiple languages with the aim of making our expectations
-clear and easy to understand.
-
+Shell's policies on ethics and compliance are communicated to employees, suppliers and third parties at the start of any contractual relationships and through training, leadership communications and Shell's website. Our Code of Conduct and associated training are offered in multiple languages with the aim of making our expectations clear and easy to understand.
 
 ### Incidents of corruption or bribery (G1-4)
 
-No Shell company, and to the best of our knowledge, no Shell staff were convicted or fined for criminal violations of anti-corruption and
-anti-bribery laws in 2024.
+No Shell company, and to the best of our knowledge, no Shell staff were convicted or fined for criminal violations of anti-corruption and anti-bribery laws in 2024.
 
-We review cases involving alleged violations of anti-corruption and anti-bribery to identify lessons learned and improve our internal
-processes. We take appropriate steps when violations are substantiated, which can include consequence management and other actions.
-
+We review cases involving alleged violations of anti-corruption and anti-bribery to identify lessons learned and improve our internal processes. We take appropriate steps when violations are substantiated, which can include consequence management and other actions.
 
 ## Actions and resources
 
-In 2024, we continued to manage ethics and compliance through our policies and systems. This included implementing the detailed
-requirements of the Ethics and Compliance Manual, providing training, maintaining risk-based compliance programmes and encouraging
-people to discuss the dilemmas they face in their work. We will continue these activities in 2025.
+In 2024, we continued to manage ethics and compliance through our policies and systems. This included implementing the detailed requirements of the Ethics and Compliance Manual, providing training, maintaining risk-based compliance programmes and encouraging people to discuss the dilemmas they face in their work. We will continue these activities in 2025.
 
-We have not adopted consolidated targets for ethics and compliance.
-We track the effectiveness of our policies and actions through data and insights from the Shell Global Helpline, the Shell Ethics and Compliance
-organisation and the Shell People Survey.
+We have not adopted consolidated targets for ethics and compliance. We track the effectiveness of our policies and actions through data and insights from the Shell Global Helpline, the Shell Ethics and Compliance organisation and the Shell People Survey.
 
-Accountability for ethics and compliance in Shell lies with the Chief
-Executive Officer and the Executive Committee. Implementation is supported by Shell's Ethics and Compliance Office, which includes
-subject matter experts in business ethics and compliance.
-
+Accountability for ethics and compliance in Shell lies with the Chief Executive Officer and the Executive Committee. Implementation is supported by Shell's Ethics and Compliance Office, which includes subject matter experts in business ethics and compliance.
 
 ## Tax and other payments to governments
 
-One of the ways Shell makes a meaningful financial contribution to the countries where we operate is by paying taxes. Our operations
-generate revenues for governments through the taxes and royalties we pay, which are often used to fund essential public services.
+One of the ways Shell makes a meaningful financial contribution to the countries where we operate is by paying taxes. Our operations generate revenues for governments through the taxes and royalties we pay, which are often used to fund essential public services.
 
-Our double materiality assessment has identified tax and other payments to governments as a material entity-specific topic. See
-"Material impacts, risks and opportunities and their interaction with strategy and business mode (SBM-3)" on page 351 and "Description
-of the process to identify and assess material impacts, risks and opportunities (IRO-1)" on page 354 for more information.
-
+Our double materiality assessment has identified tax and other payments to governments as a material entity-specific topic. See "Material impacts, risks and opportunities and their interaction with strategy and business mode (SBM-3)" on page 351 and "Description of the process to identify and assess material impacts, risks and opportunities (IRO-1)" on page 354 for more information.
 
 ## Why it matters
 
-When we invest in a country, we seek to build long-term relationships and develop our business sustainably. We recognise our responsibility
-towards investors, governments, employees and the local communities we are part of. Revenue transparency and the taxes we collect and
-pay are one of the ways we fulfil this responsibility.
+When we invest in a country, we seek to build long-term relationships and develop our business sustainably. We recognise our responsibility towards investors, governments, employees and the local communities we are part of. Revenue transparency and the taxes we collect and pay are one of the ways we fulfil this responsibility.
 
-Our approach to tax is designed to support our strategy through our commitment to transparency, compliance and open dialogue with our
-stakeholders, from governments to civil society.
+Our approach to tax is designed to support our strategy through our commitment to transparency, compliance and open dialogue with our stakeholders, from governments to civil society.
 
 The Board of Directors of Shell plc approves our tax strategy, reviews its effectiveness and maintains sound internal controls.
 
-
 ## Our approach to tax Our tax strategy is designed to support Shell in delivering its strategy
-
 
 ### Shell is committed to tax compliance
 
-
 ### Shell is transparent on tax matters
-
 
 ### Shell is open to dialogue
 
@@ -12974,211 +10291,119 @@ authorities with timely and comprehensive information on potential tax issues
 - We give constructive input
 to industry groups and international organisations
 
-
 ## Sustainability Statements | Governance | Tax and other payments to governments
-
 
 ### Policies related to tax
 
-The B Team Responsible Tax Principles were developed by companies, including Shell, civil society, investors and representatives from international
-institutions. We adopted The B Team Responsible Tax Principles as our own. The Shell Responsible Tax Principles guide our decisions on tax matters.
-
+The B Team Responsible Tax Principles were developed by companies, including Shell, civil society, investors and representatives from international institutions. We adopted The B Team Responsible Tax Principles as our own. The Shell Responsible Tax Principles guide our decisions on tax matters.
 
 <figure>
 <figcaption>Seven core tax principles are numbered 1 through 7 and labeled as: 1 Accountability and governance; 2 Compliance; 3 Business structure; 4 Relationships with authorities; 5 Seeking and accepting tax incentives; 6 Supporting effective tax systems; and 7 Transparency. Accountability and governance states that "Tax is a core part of corporate responsibility and governance and is overseen by the Board of Directors (the Board)." Compliance states that "We are committed to complying with the tax legislation of the countries in which we operate and pay the right amount of tax at the right time in the countries where we create value." Business structure states that "We will only use business structures that are driven by commercial considerations, are aligned with business activity and which have genuine substance. We do not seek abusive tax results." Relationships with authorities states that "We seek, wherever possible, to develop co-operative relationships with tax authorities, based on mutual respect, transparency and trust." Seeking and accepting tax incentives states that "Where we claim tax incentives offered by government authorities, we seek to ensure that they are transparent and consistent with statutory or regulatory frameworks." Supporting effective tax systems states that "We engage constructively in national and international dialogue with governments, business groups and civil society to support the development of effective tax systems, legislation and administration." Transparency states that "We provide regular information to our stakeholders, including investors, policymakers, employees, civil society and the general public, about our approach to tax and taxes paid."</figcaption>
 </figure>
 
-
 ### Actions and resources
 
-In 2024, Shell paid $12,459 million in corporate income taxes and
-$5,737 million in government royalties. We also collected excise duties, sales taxes and similar levies on our fuel and other products on
-behalf of governments.
+In 2024, Shell paid $12,459 million in corporate income taxes and $5,737 million in government royalties. We also collected excise duties, sales taxes and similar levies on our fuel and other products on behalf of governments.
 
-We publish an annual Tax Contribution Report which sets out the corporate income tax that Shell companies paid in the jurisdictions
-where we have a taxable presence. Shell also publishes an annual
-Payments to Governments report, prepared in accordance with the
-UK's Reports on Payments to Governments Regulations 2014 (as amended in December 2015). This report is also published pursuant to
-article 5:25e of the Dutch FMSA (Wft) and is furnished with the US
-Securities and Exchange Commission according to Section 13(q) under the US Securities Exchange Act of 1934.
+We publish an annual Tax Contribution Report which sets out the corporate income tax that Shell companies paid in the jurisdictions where we have a taxable presence. Shell also publishes an annual Payments to Governments report, prepared in accordance with the UK's Reports on Payments to Governments Regulations 2014 (as amended in December 2015). This report is also published pursuant to article 5:25e of the Dutch FMSA (Wft) and is furnished with the US Securities and Exchange Commission according to Section 13(q) under the US Securities Exchange Act of 1934.
 
-We regularly engage with policymakers to support the development of tax rules and regulations. In this way, we hope to contribute to the
-development of fair, effective and stable tax systems. We also provide constructive input to industry groups and international organisations,
-such as the Extractive Industries Transparency Initiative, The B Team
+We regularly engage with policymakers to support the development of tax rules and regulations. In this way, we hope to contribute to the development of fair, effective and stable tax systems. We also provide constructive input to industry groups and international organisations, such as the Extractive Industries Transparency Initiative, The B Team
 
 Responsible Tax Working Group and the international business network Business at OECD.
 
-The Board of Directors of Shell plc approves our tax strategy, reviews its effectiveness and maintains sound internal controls. The Executive
-Vice President Taxation and Corporate Structure is responsible for tax matters and provides assurance based on our tax control framework.
-Implementation is supported by members of Shell's Finance function, which includes subject matter experts on various aspects of tax. In
-2025, we will continue to be guided by the Shell Responsible Tax
-Principles in our tax-related activities.
+The Board of Directors of Shell plc approves our tax strategy, reviews its effectiveness and maintains sound internal controls. The Executive Vice President Taxation and Corporate Structure is responsible for tax matters and provides assurance based on our tax control framework. Implementation is supported by members of Shell's Finance function, which includes subject matter experts on various aspects of tax. In 2025, we will continue to be guided by the Shell Responsible Tax Principles in our tax-related activities.
 
-We have not adopted consolidated targets for this topic. We track the effectiveness of our policies and actions through regular monitoring and
-review of our financial, operational and compliance controls, including tax controls.
+We have not adopted consolidated targets for this topic. We track the effectiveness of our policies and actions through regular monitoring and review of our financial, operational and compliance controls, including tax controls.
 
 Read more about our approach to tax on shell.com.
 
-
 ### Safety
-
 
 #### Safety, along with our core values, underpins our strategy. We aim to do no harm to people and to have no leaks across our operations. We call this our Goal Zero ambition.
 
-Our double materiality assessment has identified safety as a material entity-specific topic. See "Material impacts, risks and opportunities and
-their interaction with strategy and business model (SBM-3)" on page
-351 and "Description of the process to identify and assess material impacts, risks and opportunities (IRO-1)" on page 354 for more
-information.
-
+Our double materiality assessment has identified safety as a material entity-specific topic. See "Material impacts, risks and opportunities and their interaction with strategy and business model (SBM-3)" on page 351 and "Description of the process to identify and assess material impacts, risks and opportunities (IRO-1)" on page 354 for more information.
 
 ##### Why it matters
 
-The nature of our operations exposes us to a wide range of safety risks.
-We strive to reduce risks and to minimise the potential impact of any incident, with a particular emphasis on the risks with the most serious
-consequences if something goes wrong.
+The nature of our operations exposes us to a wide range of safety risks. We strive to reduce risks and to minimise the potential impact of any incident, with a particular emphasis on the risks with the most serious consequences if something goes wrong.
 
-We seek to improve safety by focusing on the three areas where risks associated with our activities are highest: personal, process and
-transport.
+We seek to improve safety by focusing on the three areas where risks associated with our activities are highest: personal, process and transport.
 
-Personal safety in Shell refers to occupational hazards associated with building, maintaining or operating our facilities. Process safety is about
-keeping hazardous substances inside pipes, tanks and vessels, and ensuring that well fluids are contained during construction, well
-interventions (such as maintenance) and operations. Transport safety concerns hazards associated with transporting people, products or
-equipment by road, sea, air and rail.
-
+Personal safety in Shell refers to occupational hazards associated with building, maintaining or operating our facilities. Process safety is about keeping hazardous substances inside pipes, tanks and vessels, and ensuring that well fluids are contained during construction, well interventions (such as maintenance) and operations. Transport safety concerns hazards associated with transporting people, products or equipment by road, sea, air and rail.
 
 ##### Policies related to safety
 
-Our approach to safety is governed by the Shell Commitment and
-Policy on Health, Security, Safety, the Environment and Social
-Performance (HSSE & SP). It sets out our expectations for the management of HSSE & SP and applies to all Shell companies,
-contractors and joint ventures under our operational control.
+Our approach to safety is governed by the Shell Commitment and Policy on Health, Security, Safety, the Environment and Social Performance (HSSE & SP). It sets out our expectations for the management of HSSE & SP and applies to all Shell companies, contractors and joint ventures under our operational control.
 
-We translate the Shell Commitment and Policy on HSSE & SP into action through our Safety, Environment and Asset Management
-(SEAM) Standards. The SEAM Standards set out our requirements for personal safety, process safety, transport safety and emergency
-response (see "SEAM Standards" on page 130).
+We translate the Shell Commitment and Policy on HSSE & SP into action through our Safety, Environment and Asset Management (SEAM) Standards. The SEAM Standards set out our requirements for personal safety, process safety, transport safety and emergency response (see "SEAM Standards" on page 130).
 
-The standards described in this section apply to Shell companies and joint ventures in which Shell is the operator, except where otherwise
-stated. We expect non-operated joint ventures to adopt appropriate and acceptable policies to manage their risks.
-
+The standards described in this section apply to Shell companies and joint ventures in which Shell is the operator, except where otherwise stated. We expect non-operated joint ventures to adopt appropriate and acceptable policies to manage their risks.
 
 ##### Management systems
 
 Our standards require a systematic approach to managing HSSE & SP. The foundation of this approach is our management system.
 
-The SEAM HSSE & SP and Asset Management Foundations Standard sets the requirements for the core elements of our management system.
-It covers topics such as establishing an organisation to manage HSSE
-& SP, management accountabilities and responsibilities, assurance, competence management, performance monitoring and continuous
-learning and improvement. The standard also specifies core processes such as risk management, management of HSSE & SP through a
-hierarchy of controls, permit to work and management of change. It also sets out our requirements for HSSE & SP in joint ventures, capital
-projects, acquisitions and divestments.
-
+The SEAM HSSE & SP and Asset Management Foundations Standard sets the requirements for the core elements of our management system. It covers topics such as establishing an organisation to manage HSSE & SP, management accountabilities and responsibilities, assurance, competence management, performance monitoring and continuous learning and improvement. The standard also specifies core processes such as risk management, management of HSSE & SP through a hierarchy of controls, permit to work and management of change. It also sets out our requirements for HSSE & SP in joint ventures, capital projects, acquisitions and divestments.
 
 ##### Contractor HSSE management
 
-When contracting for goods and services, our standards require assets or businesses to specify the activities in the contracted scope of work
-and to determine the associated level of HSSE risk. Our standards require verification that the supplier is capable of managing the HSSE
-risks in the contract scope.
+When contracting for goods and services, our standards require assets or businesses to specify the activities in the contracted scope of work and to determine the associated level of HSSE risk. Our standards require verification that the supplier is capable of managing the HSSE risks in the contract scope.
 
-Our standards require HSSE requirements to be established in contracts. These requirements formalise our expectations for HSSE risk
-management associated with the contracted scope and the supplier's capability to manage those risks. Based on the contract scope, the
-assessed risk, and the capability of the supplier, a contract mode is determined which describes the HSSE risk management responsibility
-of Shell and the supplier, which in turn determines the HSSE management system applicable in controlling each risk.
+Our standards require HSSE requirements to be established in contracts. These requirements formalise our expectations for HSSE risk management associated with the contracted scope and the supplier's capability to manage those risks. Based on the contract scope, the assessed risk, and the capability of the supplier, a contract mode is determined which describes the HSSE risk management responsibility of Shell and the supplier, which in turn determines the HSSE management system applicable in controlling each risk.
 
-Our standards require suppliers to demonstrate readiness to implement
-HSSE risk management before starting work. Our standards also require assets or businesses to assure effective implementation of HSSE
-risk management and to conduct performance management against contractual requirements.
+Our standards require suppliers to demonstrate readiness to implement HSSE risk management before starting work. Our standards also require assets or businesses to assure effective implementation of HSSE risk management and to conduct performance management against contractual requirements.
 
-The above requirements apply to contracts providing goods or services to the company with the exception of non-differentiated goods and
-services which are of a standard nature, common to all customers, where it is not practically possible to impose and verify effectiveness of
-additional requirements or controls to manage HSSE risks beyond the
-Shell Supplier Principles. See "Shell Supplier Principles" on page 425 for more information.
-
+The above requirements apply to contracts providing goods or services to the company with the exception of non-differentiated goods and services which are of a standard nature, common to all customers, where it is not practically possible to impose and verify effectiveness of additional requirements or controls to manage HSSE risks beyond the Shell Supplier Principles. See "Shell Supplier Principles" on page 425 for more information.
 
 ##### Personal safety
 
-The SEAM Workplace Health, Safety and Security Standard establishes requirements for occupational health and safety hazards
-that have the potential to result in harm to people.
+The SEAM Workplace Health, Safety and Security Standard establishes requirements for occupational health and safety hazards that have the potential to result in harm to people.
 
-Examples include standards to manage control of work, working in confined spaces, diving and tunnelling operations, electrical safety,
-excavation, hot work, ionising radiation, lifting and hoisting, personal protective equipment, safe isolation and working at heights. Additional
-standards cover building safety, business travel, company-sponsored events, health hazard management, product stewardship, fatigue risk
-management, fitness to work, human factors management and security.
-
+Examples include standards to manage control of work, working in confined spaces, diving and tunnelling operations, electrical safety, excavation, hot work, ionising radiation, lifting and hoisting, personal protective equipment, safe isolation and working at heights. Additional standards cover building safety, business travel, company-sponsored events, health hazard management, product stewardship, fatigue risk management, fitness to work, human factors management and security.
 
 ##### Process safety
 
-The SEAM Process Safety and Asset Management Standard establishes requirements from project design and construction throughout the life cycle to keep sites, employees, contractors and
-communities safe.
+The SEAM Process Safety and Asset Management Standard establishes requirements from project design and construction throughout the life cycle to keep sites, employees, contractors and communities safe.
 
-The standard defines our requirements for the identification of process safety hazards and the design of controls to prevent the release of the
-identified hazards. In the event of a spill or a leak, our standards require the use of independent recovery measures to reduce the
-likelihood of a release becoming catastrophic. We regularly inspect, test and maintain these barriers so that they meet our standards.
-
+The standard defines our requirements for the identification of process safety hazards and the design of controls to prevent the release of the identified hazards. In the event of a spill or a leak, our standards require the use of independent recovery measures to reduce the likelihood of a release becoming catastrophic. We regularly inspect, test and maintain these barriers so that they meet our standards.
 
 ##### Transport safety
 
 The SEAM Transport Safety Standard sets out our requirements for road, rail, sea and air transport.
 
-
 ##### Road safety
 
-Our standards define requirements for managing risks related to road transport. Examples of topics covered by these standards include
-vehicle specifications and inspection, training and qualification for drivers, journey management and fatigue risk management. Our
-standards align with industry standards for land transport safety published by the International Association of Oil & Gas Producers.
-
+Our standards define requirements for managing risks related to road transport. Examples of topics covered by these standards include vehicle specifications and inspection, training and qualification for drivers, journey management and fatigue risk management. Our standards align with industry standards for land transport safety published by the International Association of Oil & Gas Producers.
 
 ##### Maritime safety
 
-Our standards define requirements for managing risks related to maritime operations. These cover the use of cargo transport vessels and
-support vessels, ports and berths, and the operation of facilities with maritime interfaces. Our procedures include positive vetting for cargo
-transport vessels and support vessels. We require double hulls for bulk liquid transport in vessels of 600 deadweight tonnes and above. We
-maintain detailed procedures for managing maritime risks associated with floating production, storage and offloading units (FPSO) and
-floating storage and offloading units (FSO).
-
+Our standards define requirements for managing risks related to maritime operations. These cover the use of cargo transport vessels and support vessels, ports and berths, and the operation of facilities with maritime interfaces. Our procedures include positive vetting for cargo transport vessels and support vessels. We require double hulls for bulk liquid transport in vessels of 600 deadweight tonnes and above. We maintain detailed procedures for managing maritime risks associated with floating production, storage and offloading units (FPSO) and floating storage and offloading units (FSO).
 
 ##### Air safety
 
-Our standards, which incorporate the requirements of the International
-Association of Oil & Gas Producers (IOGP) Industry Air Transport
-Requirements, define requirements for managing risks related to aircraft operations, covering fixed wing, rotary, remotely piloted airborne
-systems and drone operations. Our procedures include processes for assessing aircraft operators used for Shell-owned, chartered or other
-contracted air transport operations. We only use aircraft types and aircraft operators that have been assessed as acceptable based on
-our standards.
-
+Our standards, which incorporate the requirements of the International Association of Oil & Gas Producers (IOGP) Industry Air Transport Requirements, define requirements for managing risks related to aircraft operations, covering fixed wing, rotary, remotely piloted airborne systems and drone operations. Our procedures include processes for assessing aircraft operators used for Shell-owned, chartered or other contracted air transport operations. We only use aircraft types and aircraft operators that have been assessed as acceptable based on our standards.
 
 ##### Rail safety
 
-Our standards define requirements for managing risks related to rail operations. These include requirements for procedures, controls and
-mitigations to manage risks associated with rail operations.
-
+Our standards define requirements for managing risks related to rail operations. These include requirements for procedures, controls and mitigations to manage risks associated with rail operations.
 
 ##### Emergency response
 
-The SEAM Standards set out our requirements for emergency response, oil spill response and medical emergencies. These standards are
-designed to ensure that we are appropriately prepared to respond to all credible emergency and worst-case spill scenarios.
+The SEAM Standards set out our requirements for emergency response, oil spill response and medical emergencies. These standards are designed to ensure that we are appropriately prepared to respond to all credible emergency and worst-case spill scenarios.
 
-Our standards require assets and businesses to understand the potential emergencies that could happen as a result of our operations
-and develop plans to respond to these scenarios.
+Our standards require assets and businesses to understand the potential emergencies that could happen as a result of our operations and develop plans to respond to these scenarios.
 
-Our standards require asset and business incident management teams to be trained and to exercise the response plans regularly. These
-exercises often involve working closely with local emergency services and regulatory agencies to jointly ensure our capability to respond to
-an incident.
+Our standards require asset and business incident management teams to be trained and to exercise the response plans regularly. These exercises often involve working closely with local emergency services and regulatory agencies to jointly ensure our capability to respond to an incident.
 
-Our emergency and spill response plans and procedures are driven by our internal risk management processes and local regulatory
-requirements. Our standards require alignment with industry emergency and spill management systems to facilitate interorganisational collaboration by responders.
-
+Our emergency and spill response plans and procedures are driven by our internal risk management processes and local regulatory requirements. Our standards require alignment with industry emergency and spill management systems to facilitate interorganisational collaboration by responders.
 
 ##### Actions and resources
 
-The scope of the actions described in this section covers Shell's operated businesses unless otherwise stated. Many of our actions are
-of an ongoing nature. Schedules for the completion of time-bound actions are indicated where applicable.
+The scope of the actions described in this section covers Shell's operated businesses unless otherwise stated. Many of our actions are of an ongoing nature. Schedules for the completion of time-bound actions are indicated where applicable.
 
-Our actions are intended to help us achieve the desired outcome of our policies and standards by providing resources and expertise that
-support our businesses to implement them in fit-for-purpose ways.
+Our actions are intended to help us achieve the desired outcome of our policies and standards by providing resources and expertise that support our businesses to implement them in fit-for-purpose ways.
 
-Our multi-year process of refreshing our approach to safety for all employees and contractors started in 2020. This approach is rooted
-in a consistent focus on human performance. We ask people at Shell to apply a learner mindset, by which we mean the belief that we can
-always improve, enhance individual capabilities, learn from mistakes and successes, and speak up freely without repercussions.
+Our multi-year process of refreshing our approach to safety for all employees and contractors started in 2020. This approach is rooted in a consistent focus on human performance. We ask people at Shell to apply a learner mindset, by which we mean the belief that we can always improve, enhance individual capabilities, learn from mistakes and successes, and speak up freely without repercussions.
 
 In practice, our refreshed approach to safety is about enhancing how we prepare for and conduct high-risk activities by:
 
@@ -13204,119 +10429,65 @@ and on any degradation of barriers designed to prevent or minimise the consequen
 - embedding lessons learned in our training and instructions for
 future work.
 
-In 2024, we continued to integrate this approach into the plans of our facilities, projects and functions. Some of our non-operated ventures
-have also chosen to implement elements of our refreshed approach.
-
+In 2024, we continued to integrate this approach into the plans of our facilities, projects and functions. Some of our non-operated ventures have also chosen to implement elements of our refreshed approach.
 
 ##### Personal safety
 
-When our employees and contractors perform tasks, we expect them to consider the hazards that could potentially cause serious harm and
-the effectiveness of the barriers in place to avoid serious harm. We establish and maintain competence management systems to ensure
-people are competent to perform their roles and responsibilities.
+When our employees and contractors perform tasks, we expect them to consider the hazards that could potentially cause serious harm and the effectiveness of the barriers in place to avoid serious harm. We establish and maintain competence management systems to ensure people are competent to perform their roles and responsibilities.
 
-We run safety awareness programmes and hold an annual global
-Safety Day to give employees and contractors time to discuss safety culture on the frontline, and reflect on how to prevent incidents and
-how to improve performance. In 2024, the focus was on "Before I start work", which means pausing to reflect on what needs to be in place
-before we start work, for that work to be done safely.
-
+We run safety awareness programmes and hold an annual global Safety Day to give employees and contractors time to discuss safety culture on the frontline, and reflect on how to prevent incidents and how to improve performance. In 2024, the focus was on "Before I start work", which means pausing to reflect on what needs to be in place before we start work, for that work to be done safely.
 
 ##### Working with others
 
-We work with contractors and suppliers to help them understand our requirements for managing risk and operating safely. We strive to help
-improve the energy industry's safety performance by sharing safety standards and experience with other operators, joint venture partners,
-contractors and professional organisations.
+We work with contractors and suppliers to help them understand our requirements for managing risk and operating safely. We strive to help improve the energy industry's safety performance by sharing safety standards and experience with other operators, joint venture partners, contractors and professional organisations.
 
-In 2024, senior executives from more than 20 of our major contractors joined Shell executives in Houston, Texas, for our annual Contractor
-Safety Leadership workshop. Discussion focused on preventing fatal and life-changing injuries through a focus on human performance,
-learning from and improving normal work, mental well-being, and worker welfare. Additionally, we support industry safe work coalitions
-in the oil products terminal sector and maritime sector with safetyspecific work groups and regional conferences.
+In 2024, senior executives from more than 20 of our major contractors joined Shell executives in Houston, Texas, for our annual Contractor Safety Leadership workshop. Discussion focused on preventing fatal and life-changing injuries through a focus on human performance, learning from and improving normal work, mental well-being, and worker welfare. Additionally, we support industry safe work coalitions in the oil products terminal sector and maritime sector with safetyspecific work groups and regional conferences.
 
-We also work with industry organisations to develop standards and practices supporting safe and disciplined operations. Some of the
-organisations we work with include the International Association of
-Oil & Gas Producers, the American Petroleum Institute, the Center for Chemical Process Safety, and the Energy Institute.
-
+We also work with industry organisations to develop standards and practices supporting safe and disciplined operations. Some of the organisations we work with include the International Association of Oil & Gas Producers, the American Petroleum Institute, the Center for Chemical Process Safety, and the Energy Institute.
 
 ##### Process safety
 
-In 2024, we continued to focus on strengthening our core work processes to improve the health of the human and technical barriers
-that help us to prevent process safety incidents and to recover effectively if they occur.
+In 2024, we continued to focus on strengthening our core work processes to improve the health of the human and technical barriers that help us to prevent process safety incidents and to recover effectively if they occur.
 
-Our key focus areas are to standardise our risk assessment tools, embed human performance in frontline work execution and shift to
-performance indicators that help us better identify the preconditions that can lead to incidents, with a greater emphasis on risk potential.
+Our key focus areas are to standardise our risk assessment tools, embed human performance in frontline work execution and shift to performance indicators that help us better identify the preconditions that can lead to incidents, with a greater emphasis on risk potential.
 
-We continued to embed our Process Safety Fundamentals, a set of 10 good operating practices that help us strengthen asset integrity and
-process safety. We also conducted work to better understand potential process safety risks associated with new business activities such as
-hydrogen, ammonia and carbon capture and storage.
+We continued to embed our Process Safety Fundamentals, a set of 10 good operating practices that help us strengthen asset integrity and process safety. We also conducted work to better understand potential process safety risks associated with new business activities such as hydrogen, ammonia and carbon capture and storage.
 
-Also in 2024, we continued to learn from investigations into industry incidents and embed this knowledge into our process safety standards
-and our training programmes. Such learning helps us to better understand the causes of process safety incidents so that we can
-improve our controls to prevent them from occurring.
-
+Also in 2024, we continued to learn from investigations into industry incidents and embed this knowledge into our process safety standards and our training programmes. Such learning helps us to better understand the causes of process safety incidents so that we can improve our controls to prevent them from occurring.
 
 ##### Transport safety
 
-In 2024, we continued to embed our standards. We worked with specialist contractors, industry bodies, non-governmental organisations
-and governments to find ways of reducing transport safety risks.
-We also took specific actions on road safety, aviation safety and maritime safety.
-
+In 2024, we continued to embed our standards. We worked with specialist contractors, industry bodies, non-governmental organisations and governments to find ways of reducing transport safety risks. We also took specific actions on road safety, aviation safety and maritime safety.
 
 ##### Road safety
 
-In 2024, we continued to focus on strengthening our controls and implementing technology solutions that help us to better detect the
-conditions which can lead to accidents.
+In 2024, we continued to focus on strengthening our controls and implementing technology solutions that help us to better detect the conditions which can lead to accidents.
 
-Our standards require Shell employees and contractors who are identified as driving on work-related business to receive defensive
-driver training.
+Our standards require Shell employees and contractors who are identified as driving on work-related business to receive defensive driver training.
 
-We are installing active fatigue and distraction detection (AFDD) devices in vehicles operated by Shell or our contractors in countries
-where road transport risks are highest. These devices help us detect the conditions that can lead to accidents, which allows for earlier
-intervention to improve prevention. The AFDD devices have recorded and intervened in high-risk fatigue events, to prevent what could have
-resulted in motor vehicle incidents if the devices had not alerted the drivers.
-
+We are installing active fatigue and distraction detection (AFDD) devices in vehicles operated by Shell or our contractors in countries where road transport risks are highest. These devices help us detect the conditions that can lead to accidents, which allows for earlier intervention to improve prevention. The AFDD devices have recorded and intervened in high-risk fatigue events, to prevent what could have resulted in motor vehicle incidents if the devices had not alerted the drivers.
 
 ##### Maritime safety
 
-At the end of 2024, we managed and operated a global fleet of 22 tankers, liquefied natural gas carriers and the world's first liquefied
-hydrogen carrier. We are one of the world's largest charterers of oil and gas vessels. We work with our global maritime partners through
-our Maritime Partners in Safety Programme to improve the safety performance of the shipping industry.
-
+At the end of 2024, we managed and operated a global fleet of 22 tankers, liquefied natural gas carriers and the world's first liquefied hydrogen carrier. We are one of the world's largest charterers of oil and gas vessels. We work with our global maritime partners through our Maritime Partners in Safety Programme to improve the safety performance of the shipping industry.
 
 ##### Air safety
 
-In 2024, for Shell-operated ventures, our owned and contracted aircraft flew around 37,000 hours and carried around 292,000 Shell
-and contractor passengers to destinations across the world. In addition, remotely piloted aircraft completed flights on surveys,
-inspections, emissions surveillance, and security and incident response.
-
+In 2024, for Shell-operated ventures, our owned and contracted aircraft flew around 37,000 hours and carried around 292,000 Shell and contractor passengers to destinations across the world. In addition, remotely piloted aircraft completed flights on surveys, inspections, emissions surveillance, and security and incident response.
 
 ##### Emergency response
 
-In 2024, we held large-scale emergency response exercises at Shell
-Energy and Chemicals Park Rotterdam in the Netherlands and in Perth,
-Australia for offshore exploration to support our Prelude floating LNG facility.
+In 2024, we held large-scale emergency response exercises at Shell Energy and Chemicals Park Rotterdam in the Netherlands and in Perth, Australia for offshore exploration to support our Prelude floating LNG facility.
 
-We manage three regional Emergency Response Leadership Councils for the Americas; Asia-Pacific; and Europe, the Middle East and Africa.
-The councils bring together experts from different teams that need to be able to work together seamlessly in case of emergencies. In 2024, the
-councils held annual conferences in each region that covered a variety of topics such as lessons learned, dynamic risk assessments, new
-response technology, non-fluorinated firefighting foam tactics and response preparedness.
+We manage three regional Emergency Response Leadership Councils for the Americas; Asia-Pacific; and Europe, the Middle East and Africa. The councils bring together experts from different teams that need to be able to work together seamlessly in case of emergencies. In 2024, the councils held annual conferences in each region that covered a variety of topics such as lessons learned, dynamic risk assessments, new response technology, non-fluorinated firefighting foam tactics and response preparedness.
 
-We continued to be involved in industry consortia to improve wellcontainment capabilities such as the Marine Well Containment
-Company for the Gulf of America region and Oil Spill Response
-Limited, a global industry consortium. For oil spills, we have created a global response support network that enables us to deal more
-effectively with oil spills, by supplementing local response capability.
-
+We continued to be involved in industry consortia to improve wellcontainment capabilities such as the Marine Well Containment Company for the Gulf of America region and Oil Spill Response Limited, a global industry consortium. For oil spills, we have created a global response support network that enables us to deal more effectively with oil spills, by supplementing local response capability.
 
 ##### Resourcing our actions
 
-The Executive Vice President for Safety, Environment and Asset
-Management is the most senior executive in Shell with accountability for the development, governance and oversight of the SEAM
-Standards. Leaders of assets, performance units, businesses or functions are accountable for assessing which SEAM Standards are relevant
-based on their objectives, risk profile and activities, and for implementing those standards as appropriate.
+The Executive Vice President for Safety, Environment and Asset Management is the most senior executive in Shell with accountability for the development, governance and oversight of the SEAM Standards. Leaders of assets, performance units, businesses or functions are accountable for assessing which SEAM Standards are relevant based on their objectives, risk profile and activities, and for implementing those standards as appropriate.
 
-Implementation of SEAM Standards relevant to safety is supported by members of Shell's Safety, Environment and Asset Management
-function, which includes subject matter experts in personal safety, process safety, transport safety and other disciplines. The requirements
-of our standards are communicated to people involved with implementation through various mechanisms, including internal communication channels, management systems and training as
-appropriate.
-
+Implementation of SEAM Standards relevant to safety is supported by members of Shell's Safety, Environment and Asset Management function, which includes subject matter experts in personal safety, process safety, transport safety and other disciplines. The requirements of our standards are communicated to people involved with implementation through various mechanisms, including internal communication channels, management systems and training as appropriate.
 
 ##### Planned actions
 
@@ -13330,34 +10501,23 @@ improvement in safety performance; and
 
 - further mature and embed our refreshed approach to safety.
 
-Our action plans are responsive to changing business conditions.
-Planned actions not directly related to compliance with regulations or our own standards are subject to change. The actions indicated
-above represent key focus areas rather than an exhaustive list.
-
+Our action plans are responsive to changing business conditions. Planned actions not directly related to compliance with regulations or our own standards are subject to change. The actions indicated above represent key focus areas rather than an exhaustive list.
 
 ##### Targets
 
 We aim to do no harm to people and to have no leaks across our operations. We call this our Goal Zero ambition.
 
-Although we do not have consolidated targets for safety at a Group level that meet the criteria set out by the European Sustainability
-Reporting Standards (ESRS), we consider our Goal Zero ambition to be fundamental to the success of our company. We therefore track our
-performance through the metrics provided under "Safety performance" below and through our efforts to learn from incidents to understand
-underlying causes, including technical, behavioural, organisational and human factors.
-
+Although we do not have consolidated targets for safety at a Group level that meet the criteria set out by the European Sustainability Reporting Standards (ESRS), we consider our Goal Zero ambition to be fundamental to the success of our company. We therefore track our performance through the metrics provided under "Safety performance" below and through our efforts to learn from incidents to understand underlying causes, including technical, behavioural, organisational and human factors.
 
 ##### Safety performance
 
-Our safety performance in 2024 is shown below. We report data in this section on a 100% basis for companies and joint ventures in which
-Shell is the operator, unless stated otherwise.
-
+Our safety performance in 2024 is shown below. We report data in this section on a 100% basis for companies and joint ventures in which Shell is the operator, unless stated otherwise.
 
 ##### Personal safety
 
 Our personal safety performance in 2024 is shown below.
 
-
 ##### Personal safety and health [A]
-
 
 <table>
 <tr>
@@ -13422,16 +10582,11 @@ Our personal safety performance in 2024 is shown below.
 </tr>
 </table>
 
-[A] In line with industry practice, we distinguish three contract modes. Mode 1: Shell has control of the workplace or work activity; Mode 2: Shell and the contractor control their
-own workplace, but these workplaces can have a potential impact on each other which requires management of interfaces; Mode 3: Contractor or another external party controls
-the workplace and the contractor controls the work activity. In accordance with industry practice, we report on personal safety performance for Mode 1 and Mode 2. Mode 3
-contractors are non-reporting unless working on Shell premises.
+[A] In line with industry practice, we distinguish three contract modes. Mode 1: Shell has control of the workplace or work activity; Mode 2: Shell and the contractor control their own workplace, but these workplaces can have a potential impact on each other which requires management of interfaces; Mode 3: Contractor or another external party controls the workplace and the contractor controls the work activity. In accordance with industry practice, we report on personal safety performance for Mode 1 and Mode 2. Mode 3 contractors are non-reporting unless working on Shell premises.
 
-[B] Total deaths resulting from a work-related injury or occupational illness. Includes fatalities still under review that are probable to be confirmed as work related. Excludes fatalities still
-under review that are improbable to be confirmed as work related.
+[B] Total deaths resulting from a work-related injury or occupational illness. Includes fatalities still under review that are probable to be confirmed as work related. Excludes fatalities still under review that are improbable to be confirmed as work related.
 
-[C] Serious work-related injury or illness, including those resulting in fatality or a permanent impairment (defined as both an inability to return to the previous work role and inability to
-return to previous whole person function performing the activities of daily living).
+[C] Serious work-related injury or illness, including those resulting in fatality or a permanent impairment (defined as both an inability to return to the previous work role and inability to return to previous whole person function performing the activities of daily living).
 
 [D] Total injuries resulting in a fatality, lost workday case, restricted work case or medical treatment case.
 
@@ -13439,45 +10594,27 @@ return to previous whole person function performing the activities of daily livi
 
 [F] Total occupational illnesses identified and meeting the criteria for being recordable.
 
-
 ##### Personal safety and health
 
-Tragically, two of our contractor colleagues in Shell-operated ventures lost their lives in incidents which happened in 2024 while working for
-us. One contractor colleague in the Netherlands lost his life in an accident at Shell Energy and Chemicals Park Moerdijk in June 2024.
-Another contractor colleague in India was bitten by a snake in May
-2024 and subsequently passed away in January 2025.
+Tragically, two of our contractor colleagues in Shell-operated ventures lost their lives in incidents which happened in 2024 while working for us. One contractor colleague in the Netherlands lost his life in an accident at Shell Energy and Chemicals Park Moerdijk in June 2024. Another contractor colleague in India was bitten by a snake in May 2024 and subsequently passed away in January 2025.
 
-We sadly note that a contractor who sustained burn injuries in a flash fire at our EcoOils facility in Malaysia in February 2025 passed away
-later that month. The investigation into the incident remained under way at the time of publishing this report.
+We sadly note that a contractor who sustained burn injuries in a flash fire at our EcoOils facility in Malaysia in February 2025 passed away later that month. The investigation into the incident remained under way at the time of publishing this report.
 
-The death in February 2024 of a contractor colleague in Nigeria, who was injured in a fire incident in December 2023, was reported in our
-2023 Annual Report.
+The death in February 2024 of a contractor colleague in Nigeria, who was injured in a fire incident in December 2023, was reported in our 2023 Annual Report.
 
-Shell is profoundly impacted by these losses. We are resolutely committed to learn from these incidents and we aim to take all
-necessary measures to prevent anything similar from happening again.
-We continue to work closely with our contractors to help build a strong safety culture at the frontline.
+Shell is profoundly impacted by these losses. We are resolutely committed to learn from these incidents and we aim to take all necessary measures to prevent anything similar from happening again. We continue to work closely with our contractors to help build a strong safety culture at the frontline.
 
-We use serious injury, illness and fatality (SIF) and serious injury, illness and fatality frequency (SIF-F) to measure our safety performance. SIF
-is defined as a serious work-related injury or illness that resulted in a fatality or a permanent impairment, which is defined as a long-term or
-permanent injury or illness with a significant impact on daily activities.
-SIF-F is calculated by dividing the number of employee and contractor
-SIF by 100 million working hours. SIF-F enables us to focus our investigations on the most serious incidents. The aim is to collect
-and analyse relevant, high-quality data that can help us improve our efforts to prevent serious injuries and fatalities.
+We use serious injury, illness and fatality (SIF) and serious injury, illness and fatality frequency (SIF-F) to measure our safety performance. SIF is defined as a serious work-related injury or illness that resulted in a fatality or a permanent impairment, which is defined as a long-term or permanent injury or illness with a significant impact on daily activities. SIF-F is calculated by dividing the number of employee and contractor SIF by 100 million working hours. SIF-F enables us to focus our investigations on the most serious incidents. The aim is to collect and analyse relevant, high-quality data that can help us improve our efforts to prevent serious injuries and fatalities.
 
-In 2024, the number of serious work-related injuries or illnesses, including those that resulted in fatality or permanent impairment,
-decreased to 7 from 12 in 2023. The SIF-F was 1.5 cases per 100 million working hours compared with 2.6 in 2023.
+In 2024, the number of serious work-related injuries or illnesses, including those that resulted in fatality or permanent impairment, decreased to 7 from 12 in 2023. The SIF-F was 1.5 cases per 100 million working hours compared with 2.6 in 2023.
 
-In 2024, the number of injuries per million working hours - the total recordable case frequency - was 1.1 compared with 1.1 in 2023. The
-number of injuries that led to time off work per million working hours - the lost time injury frequency - was 0.5 in 2024 compared with 0.5 in 2023.
-
+In 2024, the number of injuries per million working hours - the total recordable case frequency - was 1.1 compared with 1.1 in 2023. The number of injuries that led to time off work per million working hours - the lost time injury frequency - was 0.5 in 2024 compared with 0.5 in 2023.
 
 ##### Process safety
 
 Our process safety performance in 2024 is shown below.
 
-
 ##### Process safety performance
-
 
 <table>
 <tr>
@@ -13501,35 +10638,19 @@ Our process safety performance in 2024 is shown below.
 </tr>
 </table>
 
-[A] A Tier 1 process safety event is an unplanned or uncontrolled release of any material from a process, including non-toxic and non-flammable materials, with the greatest actual
-consequence resulting in harm to employees, contract staff or a neighbouring community, damage to equipment, or exceeding a defined threshold quantity. A Tier 2 process safety
-event is a release of lesser consequence. Process safety events are classified according to guidance from the International Association of Oil & Gas Producers and the American
-Petroleum Institute (API 754 3rd edition).
+[A] A Tier 1 process safety event is an unplanned or uncontrolled release of any material from a process, including non-toxic and non-flammable materials, with the greatest actual consequence resulting in harm to employees, contract staff or a neighbouring community, damage to equipment, or exceeding a defined threshold quantity. A Tier 2 process safety event is a release of lesser consequence. Process safety events are classified according to guidance from the International Association of Oil & Gas Producers and the American Petroleum Institute (API 754 3rd edition).
 
-[B] Excludes sabotage-related process safety events. In 2024, there were two Tier 1 sabotagerelated events. The classification of sabotage-related process safety events is made on a
-best-endeavours basis.
+[B] Excludes sabotage-related process safety events. In 2024, there were two Tier 1 sabotagerelated events. The classification of sabotage-related process safety events is made on a best-endeavours basis.
 
+The number of Tier 1 and 2 operational process safety events in 2024 increased compared with 2023. There were 90 events reported during the year compared with 63 in 2023. The increase in process safety tiered events was driven by our Downstream, Renewables and Energy Solutions business. We are actively addressing these challenges by refining our operational strategies, renewing our focus on fundamentals and leveraging new technologies to return to the downward trend of previous years.
 
-The number of Tier 1 and 2 operational process safety events in 2024 increased compared with 2023. There were 90 events reported during
-the year compared with 63 in 2023. The increase in process safety tiered events was driven by our Downstream, Renewables and Energy
-Solutions business. We are actively addressing these challenges by refining our operational strategies, renewing our focus on fundamentals
-and leveraging new technologies to return to the downward trend of previous years.
+A well control incident is defined as a well set-up with fewer than two barriers in place to protect it against a release through any potential path. In 2024, there were no Level 1 or Level 2 well control incidents in Shell-operated ventures. There were also no events in 2023.
 
-A well control incident is defined as a well set-up with fewer than two barriers in place to protect it against a release through any potential
-path. In 2024, there were no Level 1 or Level 2 well control incidents in Shell-operated ventures. There were also no events in 2023.
-
-Process safety events related to crude theft and sabotage in Nigeria are recorded separately. In Nigeria, there were two such events in
-2024, compared with two in 2023. See "SPDC JV - Nigeria: Spills caused by crude theft and sabotage" on page 433 for more
-information.
-
+Process safety events related to crude theft and sabotage in Nigeria are recorded separately. In Nigeria, there were two such events in 2024, compared with two in 2023. See "SPDC JV - Nigeria: Spills caused by crude theft and sabotage" on page 433 for more information.
 
 ##### Spills
 
-We design, operate and maintain our facilities with the intention of preventing spills. To minimise the risk of spills, Shell has routine
-programmes and technologies in place to help reduce failures and maintain the reliability of facilities and pipelines. However, spills can
-still occur for reasons such as operational failure, accidents, unusual corrosion or theft or sabotage. Our spills performance in 2024 is
-shown below.
-
+We design, operate and maintain our facilities with the intention of preventing spills. To minimise the risk of spills, Shell has routine programmes and technologies in place to help reduce failures and maintain the reliability of facilities and pipelines. However, spills can still occur for reasons such as operational failure, accidents, unusual corrosion or theft or sabotage. Our spills performance in 2024 is shown below.
 
 <table>
 <tr>
@@ -13582,81 +10703,47 @@ shown below.
 </tr>
 </table>
 
-[A] All spill volumes and numbers are for hydrocarbon spills of more than 100 kilograms to the environment (land or water). Operational and sabotage total volumes include the total
-amount of the spill that reached the environment, not correcting for any amounts subsequently recovered, evaporated or otherwise lost.
+[A] All spill volumes and numbers are for hydrocarbon spills of more than 100 kilograms to the environment (land or water). Operational and sabotage total volumes include the total amount of the spill that reached the environment, not correcting for any amounts subsequently recovered, evaporated or otherwise lost.
 
 [B] In 2024, Nigeria includes SPDC JV operations only.
 
 [C] All theft or sabotage-related spills in 2024 occurred in Nigeria.
 
-
-In 2024, there were 69 operational spills of more than 100 kilograms compared with 71 in 2023 (restated from 70 operational spills of more
-than 100 kilograms following a review of the performance data). The volume of operational spills of oil and oil products in 2024 was 1.23
-thousand tonnes, compared with 0.37 thousand tonnes in 2023. The increase in operational spill volumes is partly attributable to a spill that
-occurred during severe weather in the Gulf of America, as well as incidents in Singapore, Canada and Nigeria.
-
+In 2024, there were 69 operational spills of more than 100 kilograms compared with 71 in 2023 (restated from 70 operational spills of more than 100 kilograms following a review of the performance data). The volume of operational spills of oil and oil products in 2024 was 1.23 thousand tonnes, compared with 0.37 thousand tonnes in 2023. The increase in operational spill volumes is partly attributable to a spill that occurred during severe weather in the Gulf of America, as well as incidents in Singapore, Canada and Nigeria.
 
 ##### Spills in Nigeria
 
-
 ##### SPDC JV - Nigeria: Operational spills
 
-In 2024, The Shell Petroleum Development Company of Nigeria
-Limited (SPDC) [A], as operator of the SPDC joint venture (SPDC JV,
-Shell interest 30%), reported 20 operational spill incidents of more than 100 kilograms of crude oil, compared with 9 reported in 2023.
-The increase in the number of operational spill incidents was largely because of a rise in cases of failure due to factory defects in a locally
-manufactured clamp used in pipeline repairs following the removal of illegal connections. The company that manufactured the clamps has
-recalled the affected batch, and SPDC has commenced the replacement of the clamps.
+In 2024, The Shell Petroleum Development Company of Nigeria Limited (SPDC) [A], as operator of the SPDC joint venture (SPDC JV, Shell interest 30%), reported 20 operational spill incidents of more than 100 kilograms of crude oil, compared with 9 reported in 2023. The increase in the number of operational spill incidents was largely because of a rise in cases of failure due to factory defects in a locally manufactured clamp used in pipeline repairs following the removal of illegal connections. The company that manufactured the clamps has recalled the affected batch, and SPDC has commenced the replacement of the clamps.
 
-In 2024, the volume of operational spills of oil and oil products was
-0.37 thousand tonnes compared with 0.005 thousand tonnes reported in 2023. The majority (89%) of the 2024 volume relates to two
-significant incidents, one onshore on the Trans Niger Pipeline and the other offshore at a terminal loading buoy.
+In 2024, the volume of operational spills of oil and oil products was 0.37 thousand tonnes compared with 0.005 thousand tonnes reported in 2023. The majority (89%) of the 2024 volume relates to two significant incidents, one onshore on the Trans Niger Pipeline and the other offshore at a terminal loading buoy.
 
-SPDC JV has an ongoing work programme to appraise, maintain and replace key sections of pipelines and flow lines to reduce the number
-of operational spills.
+SPDC JV has an ongoing work programme to appraise, maintain and replace key sections of pipelines and flow lines to reduce the number of operational spills.
 
-[A] Unless otherwise stated, all activities reported for or as relating to The Shell Petroleum
-Development Company of Nigeria Limited (SPDC) in this section should be understood as
-SPDC acting as the operator of the SPDC joint venture (SPDC JV). SPDC, as the corporate entity, owns 30% of the joint venture.
+[A] Unless otherwise stated, all activities reported for or as relating to The Shell Petroleum Development Company of Nigeria Limited (SPDC) in this section should be understood as SPDC acting as the operator of the SPDC joint venture (SPDC JV). SPDC, as the corporate entity, owns 30% of the joint venture.
 
-On March 13, 2025, Shell completed the sale of SPDC to Renaissance. By preserving the full range of SPDC's operating capabilities, the
-transaction has been designed to ensure that the company can continue to perform its role as operator and to meet its share of commitments within the joint venture, including those relating to health, safety, security and environment.
+On March 13, 2025, Shell completed the sale of SPDC to Renaissance. By preserving the full range of SPDC's operating capabilities, the transaction has been designed to ensure that the company can continue to perform its role as operator and to meet its share of commitments within the joint venture, including those relating to health, safety, security and environment.
 
-SPDC JV - Nigeria: Spills caused by crude theft and sabotage In 2024, about 81% of crude oil spill incidents of more than 100
-kilograms from SPDC JV facilities were caused by the illegal activities of third parties. In 2024, the volume of crude oil spills of more than
-100 kilograms caused by crude theft and sabotage was 2.0 thousand tonnes (84 incidents), compared with 1.4 thousand tonnes (139
-incidents) in 2023. The decrease in the number of incidents in 2024 shows an increased effectiveness of anti-theft protection mechanisms.
-
+SPDC JV - Nigeria: Spills caused by crude theft and sabotage In 2024, about 81% of crude oil spill incidents of more than 100 kilograms from SPDC JV facilities were caused by the illegal activities of third parties. In 2024, the volume of crude oil spills of more than 100 kilograms caused by crude theft and sabotage was 2.0 thousand tonnes (84 incidents), compared with 1.4 thousand tonnes (139 incidents) in 2023. The decrease in the number of incidents in 2024 shows an increased effectiveness of anti-theft protection mechanisms.
 
 ##### Prevention
 
-In 2024, SPDC JV continued on-ground surveillance of its areas of operation, including its pipeline network, to mitigate third-party
-interference and ensure that spills are detected and responded to as quickly as possible.
+In 2024, SPDC JV continued on-ground surveillance of its areas of operation, including its pipeline network, to mitigate third-party interference and ensure that spills are detected and responded to as quickly as possible.
 
-Regular surveillance flights and drones are used to inspect the most vulnerable segments of the pipeline network, monitor security and
-identify any new spills or illegal activity. SPDC JV continued to install and improve anti-theft protection mechanisms for key infrastructure, such as
-wellheads and manifolds. These include protective measures such as cages, anti-theft nuts and improved CCTV and networking capabilities.
-These measures continue to help deter theft and improve response.
+Regular surveillance flights and drones are used to inspect the most vulnerable segments of the pipeline network, monitor security and identify any new spills or illegal activity. SPDC JV continued to install and improve anti-theft protection mechanisms for key infrastructure, such as wellheads and manifolds. These include protective measures such as cages, anti-theft nuts and improved CCTV and networking capabilities. These measures continue to help deter theft and improve response.
 
-SPDC JV continued to work with the government security agencies in
-2024 to maintain surveillance and address illegal activities of third parties, primarily along the SPDC JV pipelines and their operational areas.
-
+SPDC JV continued to work with the government security agencies in 2024 to maintain surveillance and address illegal activities of third parties, primarily along the SPDC JV pipelines and their operational areas.
 
 ##### Response and remediation
 
-Regardless of the cause, SPDC JV cleans up and remediates areas affected by spills originating from its facilities. Clean-up activities
-include bio-remediation which stimulates micro-organisms that naturally break down and use carbon-rich oil, effectively removing it. Once
-clean-up and soil remediation operations are completed, the work is inspected and, if satisfactory, approved and certified by the Nigerian
-regulators. In the event of operational spills, SPDC JV also pays compensation to affected people and communities.
-
+Regardless of the cause, SPDC JV cleans up and remediates areas affected by spills originating from its facilities. Clean-up activities include bio-remediation which stimulates micro-organisms that naturally break down and use carbon-rich oil, effectively removing it. Once clean-up and soil remediation operations are completed, the work is inspected and, if satisfactory, approved and certified by the Nigerian regulators. In the event of operational spills, SPDC JV also pays compensation to affected people and communities.
 
 ##### Road safety
 
 Our road safety performance in 2024 is shown below.
 
-
 ##### Road safety [A]
-
 
 <table>
 <tr>
@@ -13681,138 +10768,71 @@ Our road safety performance in 2024 is shown below.
 </tr>
 </table>
 
-[A] In line with industry practice, we distinguish three contract modes. Mode 1: Shell has control of the workplace or work activity; Mode 2: Shell and the contractor control their
-own workplace, but these workplaces can have a potential impact on each other which requires management of interfaces; Mode 3: Contractor or another external party controls
-the workplace and the contractor controls the work activity. In accordance with industry practice, we report on personal safety performance for Mode 1 and Mode 2. Mode 3
-contractors are non-reporting unless working on Shell premises.
+[A] In line with industry practice, we distinguish three contract modes. Mode 1: Shell has control of the workplace or work activity; Mode 2: Shell and the contractor control their own workplace, but these workplaces can have a potential impact on each other which requires management of interfaces; Mode 3: Contractor or another external party controls the workplace and the contractor controls the work activity. In accordance with industry practice, we report on personal safety performance for Mode 1 and Mode 2. Mode 3 contractors are non-reporting unless working on Shell premises.
 
 [B] Motor vehicle incidents involving a fatality, lost time injury, vehicle rollover, medical treatment case or restricted work case.
 
-
-In 2024, Shell employees and contractors drove around 424 million kilometres on work-related business. Commercial road transport accounts
-for most of the kilometres driven. There were 17 severe motor vehicle incidents. There were no road-transport-related fatalities in 2024.
-
+In 2024, Shell employees and contractors drove around 424 million kilometres on work-related business. Commercial road transport accounts for most of the kilometres driven. There were 17 severe motor vehicle incidents. There were no road-transport-related fatalities in 2024.
 
 ## Supplementary data for pollution, water, biodiversity and waste, including estimates for non-operated assets
 
-This section provides data for pollution, water, biodiversity and resource use and circular economy according to the reporting
-boundaries specified by the European Sustainability Reporting
-Standards (ESRS), including estimated data for non-operated assets.
+This section provides data for pollution, water, biodiversity and resource use and circular economy according to the reporting boundaries specified by the European Sustainability Reporting Standards (ESRS), including estimated data for non-operated assets.
 
-In line with industry practice, Shell has historically reported sustainability data using an operational control boundary, whereby
-data are reported on a 100% basis for assets under operational control. This approach reflects the prevalence of joint operations in the
-oil and gas sector and the common industry practice of designating an operating partner to create and apply operating policies and
-standards. We have historically considered the operational control boundary to be the most appropriate way to report sustainability data,
-as it reflects performance we directly manage through the application of our operating standards.
+In line with industry practice, Shell has historically reported sustainability data using an operational control boundary, whereby data are reported on a 100% basis for assets under operational control. This approach reflects the prevalence of joint operations in the oil and gas sector and the common industry practice of designating an operating partner to create and apply operating policies and standards. We have historically considered the operational control boundary to be the most appropriate way to report sustainability data, as it reflects performance we directly manage through the application of our operating standards.
 
-The ESRS specify different reporting boundaries per environmental topic. These boundaries differ from our historical reporting. For
-pollution and biodiversity, the ESRS specify a hybrid boundary that combines elements of operational control and financial control, which
-we refer to as the "ESRS boundary". For water and for resource use and circular economy, ESRS specifies a financial control boundary. See
-"General basis for preparation of Sustainability Statements (BP-1)" on page 342 for an explanation of the differences between these
-boundaries and how they are applied.
+The ESRS specify different reporting boundaries per environmental topic. These boundaries differ from our historical reporting. For pollution and biodiversity, the ESRS specify a hybrid boundary that combines elements of operational control and financial control, which we refer to as the "ESRS boundary". For water and for resource use and circular economy, ESRS specifies a financial control boundary. See "General basis for preparation of Sustainability Statements (BP-1)" on page 342 for an explanation of the differences between these boundaries and how they are applied.
 
-To report data against a financial control or ESRS boundary requires access to data from non-operated ventures. Shell has more than 50
-joint operations not under operational control that fall within the ESRS boundary, of which 85% operate outside the European Economic Area.
-These ventures are not subject to the EU Corporate Sustainability
-Reporting Directive (CSRD), nor are they contractually obliged under the operator agreement to provide the volume and granularity of data
-required by the ESRS.
+To report data against a financial control or ESRS boundary requires access to data from non-operated ventures. Shell has more than 50 joint operations not under operational control that fall within the ESRS boundary, of which 85% operate outside the European Economic Area. These ventures are not subject to the EU Corporate Sustainability Reporting Directive (CSRD), nor are they contractually obliged under the operator agreement to provide the volume and granularity of data required by the ESRS.
 
-Shell sample-tested data availability from non-operated ventures and observed gaps in availability, quality and completeness. We have
-therefore, in accordance with the ESRS, estimated the data for non-operated ventures. See "General basis for preparation of Sustainability
-Statements (BP-1)" on page 342 for information about our efforts to gather data from non-operated ventures.
+Shell sample-tested data availability from non-operated ventures and observed gaps in availability, quality and completeness. We have therefore, in accordance with the ESRS, estimated the data for non-operated ventures. See "General basis for preparation of Sustainability Statements (BP-1)" on page 342 for information about our efforts to gather data from non-operated ventures.
 
-In the absence of actual data, information must be estimated, resulting in a high level of uncertainty. The preparation of estimates requires
-management to make judgements, estimates and assumptions that affect the information reported. Actual results may differ from estimates.
-The circumstances and operating standards of non-operated ventures may vary from Shell-operated ventures, which may result in differences
-in which metrics are assessed as reportable and how they are measured. Areas of significant judgement are highlighted below.
-
+In the absence of actual data, information must be estimated, resulting in a high level of uncertainty. The preparation of estimates requires management to make judgements, estimates and assumptions that affect the information reported. Actual results may differ from estimates. The circumstances and operating standards of non-operated ventures may vary from Shell-operated ventures, which may result in differences in which metrics are assessed as reportable and how they are measured. Areas of significant judgement are highlighted below.
 
 ## Estimation methodology for pollution, water and waste
 
-The data presented in this section are based on a combination of actual data for operated assets and estimated data for joint operations
-not under Shell's operational control (non-operated ventures).
+The data presented in this section are based on a combination of actual data for operated assets and estimated data for joint operations not under Shell's operational control (non-operated ventures).
 
-We assessed different options for estimating data for non-operated ventures. These included the use of data on production volumes, Scope
-1 greenhouse gas (GHG) emissions, and Scope 1 and 2 GHG emissions as a proxy for pollution, water consumption and waste. We concluded that the use of Scope 1 emissions is an appropriate proxy for these metrics.
-
+We assessed different options for estimating data for non-operated ventures. These included the use of data on production volumes, Scope 1 greenhouse gas (GHG) emissions, and Scope 1 and 2 GHG emissions as a proxy for pollution, water consumption and waste. We concluded that the use of Scope 1 emissions is an appropriate proxy for these metrics.
 
 ## Pollution
 
-For pollution-related metrics, we calculated data for non-operated assets based on data from Shell-operated assets. To do so, we
-established a ratio between actual Scope 1 GHG emissions and the relevant pollution metrics for Shell-operated ventures. This factor was
-then applied to actual Scope 1 GHG emissions reported on the ESRS boundary, which contains both operated and non-operated ventures.
-This method allows us to derive estimated totals for pollution on the
-ESRS boundary.
-
+For pollution-related metrics, we calculated data for non-operated assets based on data from Shell-operated assets. To do so, we established a ratio between actual Scope 1 GHG emissions and the relevant pollution metrics for Shell-operated ventures. This factor was then applied to actual Scope 1 GHG emissions reported on the ESRS boundary, which contains both operated and non-operated ventures. This method allows us to derive estimated totals for pollution on the ESRS boundary.
 
 ## Water consumption and waste
 
-For water consumption and waste, we calculated data for non-operated assets based on data from Shell-operated assets. To do so,
-we established a ratio between actual Scope 1 GHG emissions and the relevant metrics for Shell-operated ventures. This factor was then
-applied to actual Scope 1 GHG emissions reported on a financial control boundary, which contains both operated and non-operated
-ventures. This method allows us to derive estimated totals for water consumption and waste on a financial control boundary.
+For water consumption and waste, we calculated data for non-operated assets based on data from Shell-operated assets. To do so, we established a ratio between actual Scope 1 GHG emissions and the relevant metrics for Shell-operated ventures. This factor was then applied to actual Scope 1 GHG emissions reported on a financial control boundary, which contains both operated and non-operated ventures. This method allows us to derive estimated totals for water consumption and waste on a financial control boundary.
 
-For water metrics, we assess that it is not possible to estimate stored water, as this metric is subject to variation depending on the individual
-asset circumstances.
-
+For water metrics, we assess that it is not possible to estimate stored water, as this metric is subject to variation depending on the individual asset circumstances.
 
 ## Estimation uncertainties
 
-Estimation of this total environmental data for pollution, water and waste is subject to inherent uncertainty due to factors such as
-limitations in the availability of non-operated data and the high level assumptions applied in the selection and application of proxy
-indicators. These estimates should be interpreted with an understanding of these factors.
-
+Estimation of this total environmental data for pollution, water and waste is subject to inherent uncertainty due to factors such as limitations in the availability of non-operated data and the high level assumptions applied in the selection and application of proxy indicators. These estimates should be interpreted with an understanding of these factors.
 
 ## Estimation methodology for non-operated sites impacting biodiversity sensitive areas
 
-We provide an estimate of non-operated sites impacting biodiversity sensitive areas. Our ability to perform this exercise is constrained by
-lack of spatial data for the more than 50 assets not under Shell operational control that fall within the ESRS boundary.
+We provide an estimate of non-operated sites impacting biodiversity sensitive areas. Our ability to perform this exercise is constrained by lack of spatial data for the more than 50 assets not under Shell operational control that fall within the ESRS boundary.
 
-Due to limited availability of information at a Group level about the spatial boundaries of non-operated assets as well as local impacts and
-dependencies, we selected a sample of assets for assessment, using
-Scope 1 and 2 emissions as a proxy for materiality. The assets in scope of this analysis represent more than 90% of the Scope 1 and 2
-emissions from joint operations not under Shell's operational control in
-2024.
+Due to limited availability of information at a Group level about the spatial boundaries of non-operated assets as well as local impacts and dependencies, we selected a sample of assets for assessment, using Scope 1 and 2 emissions as a proxy for materiality. The assets in scope of this analysis represent more than 90% of the Scope 1 and 2 emissions from joint operations not under Shell's operational control in 2024.
 
-Using the S&P Global spatial layers, we established a representative geographic feature set for each asset. Features were identified from a
-combination of the following layers: Onshore and offshore blocks, onshore and offshore pipelines, floating production storage and
-offloading (FPSO) units, platforms, gas plants and refineries.
+Using the S&P Global spatial layers, we established a representative geographic feature set for each asset. Features were identified from a combination of the following layers: Onshore and offshore blocks, onshore and offshore pipelines, floating production storage and offloading (FPSO) units, platforms, gas plants and refineries.
 
-We applied the same definition of biodiversity sensitive areas as for the sites under operational control. These include UNESCO World
-Heritage Sites, the Natura 2000 network of protected areas, key biodiversity areas and other protected areas. The latter encompass
-Ramsar Wetlands of International Importance, UNESCO ManBiosphere Reserves, areas designated under regional agreements such
-as OSPAR and Emerald Network, as well as nationally designated areas reported as International Union for Conservation of Nature
-(IUCN) Management Category I-IV.
+We applied the same definition of biodiversity sensitive areas as for the sites under operational control. These include UNESCO World Heritage Sites, the Natura 2000 network of protected areas, key biodiversity areas and other protected areas. The latter encompass Ramsar Wetlands of International Importance, UNESCO ManBiosphere Reserves, areas designated under regional agreements such as OSPAR and Emerald Network, as well as nationally designated areas reported as International Union for Conservation of Nature (IUCN) Management Category I-IV.
 
+Although well datasets were excluded due to the large number of identified features, licence blocks, where appropriate, were identified as a proxy.
 
-Although well datasets were excluded due to the large number of identified features, licence blocks, where appropriate, were identified
-as a proxy.
+The resulting analysis was imported to the Integrated Biodiversity Assessment Tool (IBAT), which incorporates the World Database of Protected Areas (WDPA) maintained by the UN Environment Programme World Conservation Monitoring Centre (UNEP-WCMC) and the World Database of Key Biodiversity Areas (WDKBA) maintained by BirdLife International. The IBAT Disclosure Report function was used to identify potential sites based on their overlap with key biodiversity areas and protected areas.
 
-The resulting analysis was imported to the Integrated Biodiversity
-Assessment Tool (IBAT), which incorporates the World Database of
-Protected Areas (WDPA) maintained by the UN Environment
-Programme World Conservation Monitoring Centre (UNEP-WCMC) and the World Database of Key Biodiversity Areas (WDKBA) maintained by BirdLife International. The IBAT Disclosure Report
-function was used to identify potential sites based on their overlap with key biodiversity areas and protected areas.
+In the absence of actual footprint data, we applied a 1 kilometre buffer to the imported data to identify overlaps with key biodiversity areas and WDPA protected areas. Proximity to or overlap with a designated area does not necessarily mean the area is impacted by the activities.
 
-In the absence of actual footprint data, we applied a 1 kilometre buffer to the imported data to identify overlaps with key biodiversity areas
-and WDPA protected areas. Proximity to or overlap with a designated area does not necessarily mean the area is impacted by the activities.
+Estimates of sites impacting biodiversity sensitive areas are subject to inherent uncertainty due to factors such as limitations in the completeness or accuracy of the spatial datasets used for the analysis, and the possibility that datasets may exclude infrastructure that is part of the asset or include infrastructure that is not part of the asset. These estimates should be interpreted with an understanding of these factors.
 
-Estimates of sites impacting biodiversity sensitive areas are subject to inherent uncertainty due to factors such as limitations in the
-completeness or accuracy of the spatial datasets used for the analysis, and the possibility that datasets may exclude infrastructure that is part
-of the asset or include infrastructure that is not part of the asset. These estimates should be interpreted with an understanding of these factors.
-
-See "Material impacts, risks and opportunities and their interaction with strategy and business model (ESRS 2 SBM-3)" on page 397 for
-information about our approach to assessing Shell-operated sites impacting biodiversity sensitive areas.
-
+See "Material impacts, risks and opportunities and their interaction with strategy and business model (ESRS 2 SBM-3)" on page 397 for information about our approach to assessing Shell-operated sites impacting biodiversity sensitive areas.
 
 ## Emissions to air
 
-Estimated emissions to air reported against the ESRS boundary are presented below. See "Emissions to air (operational boundary)" on
-page 394 for actual data reported against an operational boundary.
-
+Estimated emissions to air reported against the ESRS boundary are presented below. See "Emissions to air (operational boundary)" on page 394 for actual data reported against an operational boundary.
 
 ### Emissions to air (ESRS boundary) [A] [B]
-
 
 <table>
 <tr>
@@ -13919,21 +10939,15 @@ page 394 for actual data reported against an operational boundary.
 
 [A] Emissions to air are defined as the total mass of pollutants emitted to the atmosphere.
 
-[B] Data are provided for the consolidated accounting group (the parent and subsidiaries) and jointly controlled operations, plus investees such as associates or joint ventures for
-which Shell has operational control. For Shell-operated assets, data are based on actual submissions, in accordance with the methodological considerations set out in the footnotes
-to the table "Emissions to air (operational control)" on page 394.
+[B] Data are provided for the consolidated accounting group (the parent and subsidiaries) and jointly controlled operations, plus investees such as associates or joint ventures for which Shell has operational control. For Shell-operated assets, data are based on actual submissions, in accordance with the methodological considerations set out in the footnotes to the table "Emissions to air (operational control)" on page 394.
 
 [C] PAH excludes naphthalene (C10H8), which is reported separately.
 
-
 ## Discharges to water
 
-Estimated discharges to water reported against the ESRS boundary are presented below. See "Pollutants discharged to surface water
-(operational boundary)" on page 394 for actual data reported against an operational boundary.
-
+Estimated discharges to water reported against the ESRS boundary are presented below. See "Pollutants discharged to surface water (operational boundary)" on page 394 for actual data reported against an operational boundary.
 
 ### Pollutants discharged to surface water (ESRS boundary) [A] [B]
-
 
 <table>
 <tr>
@@ -14007,19 +11021,13 @@ Estimated discharges to water reported against the ESRS boundary are presented b
 
 [A] Pollutants discharged to surface water are defined as the total mass of pollutants present in controlled or regulated effluent discharges to surface water.
 
-[B] Data are provided for the consolidated accounting group (the parent and subsidiaries) and jointly controlled operations, plus investees such as associates or joint ventures for
-which Shell has operational control. For Shell-operated assets, data are based on actual submissions, in accordance with the methodological considerations set out in the footnotes
-to the table "Pollutants discharged to surface water (operational control)" on page 394.
-
+[B] Data are provided for the consolidated accounting group (the parent and subsidiaries) and jointly controlled operations, plus investees such as associates or joint ventures for which Shell has operational control. For Shell-operated assets, data are based on actual submissions, in accordance with the methodological considerations set out in the footnotes to the table "Pollutants discharged to surface water (operational control)" on page 394.
 
 ## Water consumption
 
-Estimated water consumption reported against a financial control boundary are presented below. See "Water consumption (operational
-boundary)" on page 397 for actual data reported against an operational boundary.
-
+Estimated water consumption reported against a financial control boundary are presented below. See "Water consumption (operational boundary)" on page 397 for actual data reported against an operational boundary.
 
 ## Water consumption (financial control boundary) [A]
-
 
 <table>
 <tr>
@@ -14057,20 +11065,15 @@ boundary)" on page 397 for actual data reported against an operational boundary.
 </tr>
 </table>
 
-[A] The financial control boundary includes 100% of the parent company and subsidiaries and the Shell share for joint operations. Joint ventures and associates are excluded. For Shelloperated assets, data are based on actual submissions, in accordance with the
-methodological considerations set out in the footnotes to the table "Water consumption (operational control)" on page 397.
+[A] The financial control boundary includes 100% of the parent company and subsidiaries and the Shell share for joint operations. Joint ventures and associates are excluded. For Shelloperated assets, data are based on actual submissions, in accordance with the methodological considerations set out in the footnotes to the table "Water consumption (operational control)" on page 397.
 
 [B] Water consumption is defined as fresh water withdrawn minus freshwater discharged.
 
-
 ## Waste
 
-Estimated waste reported against a financial control boundary is presented below. See "Waste (operational control boundary)" on page
-408 for actual data reported against an operational boundary.
-
+Estimated waste reported against a financial control boundary is presented below. See "Waste (operational control boundary)" on page 408 for actual data reported against an operational boundary.
 
 ### Waste (financial control boundary) [A]
-
 
 <table>
 <tr>
@@ -14166,16 +11169,11 @@ Estimated waste reported against a financial control boundary is presented below
 </tr>
 </table>
 
-[A] The financial control boundary includes 100% of the parent company and subsidiaries and the Shell share for joint operations. Joint ventures and associates are excluded. For Shelloperated assets, data are based on actual submissions, in accordance with the
-methodological considerations set out in the footnotes to the table "Waste (operational control)" on page 408.
-
+[A] The financial control boundary includes 100% of the parent company and subsidiaries and the Shell share for joint operations. Joint ventures and associates are excluded. For Shelloperated assets, data are based on actual submissions, in accordance with the methodological considerations set out in the footnotes to the table "Waste (operational control)" on page 408.
 
 ## Sites impacting biodiversity sensitive areas
 
-Estimated information about joint operations not under operational control impacting biodiversity sensitive areas is presented below. See "Sites
-impacting biodiversity sensitive areas (operational control)" on pages 398-400 for information presented against an operational control
-boundary.
-
+Estimated information about joint operations not under operational control impacting biodiversity sensitive areas is presented below. See "Sites impacting biodiversity sensitive areas (operational control)" on pages 398-400 for information presented against an operational control boundary.
 
 <table>
 <tr>
@@ -14365,18 +11363,13 @@ boundary.
 </tr>
 </table>
 
-[A] Includes sites located in biodiversity sensitive areas, assuming a 1 kilometre buffer around key features in the absence of actual spatial footprint data. It is not yet possible to provide
-consolidated information on sites "near" biodiversity sensitive areas due to incomplete availability of information at a Group level about whether and how these activities may affect such
-areas. We aim to undertake further work to enhance our understanding.
+[A] Includes sites located in biodiversity sensitive areas, assuming a 1 kilometre buffer around key features in the absence of actual spatial footprint data. It is not yet possible to provide consolidated information on sites "near" biodiversity sensitive areas due to incomplete availability of information at a Group level about whether and how these activities may affect such areas. We aim to undertake further work to enhance our understanding.
 
-[B] Our analysis is based on global datasets and may exclude other nationally designated sites that have not been submitted to the WDPA or WDKBA. Due to the set-up of this analysis, it does
-not yield data on all site-specific impacts and dependencies on, or the ecological status of all biodiversity sensitive areas. We aim to undertake further work on site-level impacts and
-dependencies and approaches to defining ecological status with reference to specific ecosystem baseline levels.
+[B] Our analysis is based on global datasets and may exclude other nationally designated sites that have not been submitted to the WDPA or WDKBA. Due to the set-up of this analysis, it does not yield data on all site-specific impacts and dependencies on, or the ecological status of all biodiversity sensitive areas. We aim to undertake further work on site-level impacts and dependencies and approaches to defining ecological status with reference to specific ecosystem baseline levels.
 
 [C] Sites for which no overlaps with key biodiversity areas or WDPA protected areas could be identified are excluded from the table.
 
-[D] Generated under licence from the Integrated Biodiversity Assessment Tool (accessed 28/02/2025 and 03/03/2025). Data includes WDPA: UNEP-WCMC and IUCN (2025), Protected
-Planet: The World Database on Protected Areas (WDPA), January 2025, Cambridge, UK; KBAs: BirdLife International (September 2024), World Database of Key Biodiversity Areas.
+[D] Generated under licence from the Integrated Biodiversity Assessment Tool (accessed 28/02/2025 and 03/03/2025). Data includes WDPA: UNEP-WCMC and IUCN (2025), Protected Planet: The World Database on Protected Areas (WDPA), January 2025, Cambridge, UK; KBAs: BirdLife International (September 2024), World Database of Key Biodiversity Areas.
 
 [E] Includes data supplied by S&P Global and its affiliated and subsidiary companies. Copyright @ S&P Global 2025. All rights reserved.
 
@@ -14386,109 +11379,56 @@ Planet: The World Database on Protected Areas (WDPA), January 2025, Cambridge, U
 
 [H] Includes biodiversity sensitive areas impacted by business activity taking place in another country adjacent to an international border.
 
-
 ## Independent Auditor's report related to the Sustainability Statements
-
 
 ## INDEPENDENT ASSURANCE REPORT TO THE DIRECTORS OF SHELL PLC ON THE SUSTAINABILITY STATEMENTS
 
-Ernst & Young LLP ('EY') was engaged by Shell plc ('the Company') to perform a limited assurance engagement in accordance with
-International Standard on Assurance Engagements (ISAE) 3000 (Revised), to report if the sustainability statements for the year ended
-31 December 2024, including the information incorporated in the sustainability statements by reference (together hereafter referred to as
-the 'Sustainability Statements'), is in all material respects in accordance with the European Sustainability Reporting Standards ('ESRS') as
-adopted by the European Commission and is compliant with the reporting requirements provided for in Article 8 of Regulation (EU)
-2020/852 (Taxonomy Regulation) (together the 'Criteria') as set out on pages 377-390 of Shell plc's Annual Report and Accounts.
-
+Ernst & Young LLP ('EY') was engaged by Shell plc ('the Company') to perform a limited assurance engagement in accordance with International Standard on Assurance Engagements (ISAE) 3000 (Revised), to report if the sustainability statements for the year ended 31 December 2024, including the information incorporated in the sustainability statements by reference (together hereafter referred to as the 'Sustainability Statements'), is in all material respects in accordance with the European Sustainability Reporting Standards ('ESRS') as adopted by the European Commission and is compliant with the reporting requirements provided for in Article 8 of Regulation (EU) 2020/852 (Taxonomy Regulation) (together the 'Criteria') as set out on pages 377-390 of Shell plc's Annual Report and Accounts.
 
 ### Conclusion
 
-Based on the procedures performed and evidence obtained, nothing has come to our attention that causes us to believe that the
-Sustainability Statements is not, in all material respects:
+Based on the procedures performed and evidence obtained, nothing has come to our attention that causes us to believe that the Sustainability Statements is not, in all material respects:
 
 - in accordance with the European Sustainability Reporting Standards
 ('ESRS') as adopted by the European Commission;
 
 - inclusive of all material sustainability-related impacts, risks and
-opportunities for Shell plc as identified by the double materiality assessment process carried out by the Company in compliance with
-the ESRS; and
+opportunities for Shell plc as identified by the double materiality assessment process carried out by the Company in compliance with the ESRS; and
 
 - Compliant with the reporting requirements provided for in Article 8
 of Regulation (EU) 2020/852 (Taxonomy Regulation).
 
-
 ### Basis for our conclusion
 
-We conducted our engagement in accordance with International
-Standard on Assurance Engagements 3000 (Revised), Assurance
-Engagements Other than Audits or Reviews of Historical Financial
-Information, as promulgated by the International Auditing and
-Assurance Standards Board (IAASB) and the terms of our engagement letter dated August 8, 2024 as agreed with Shell plc.
+We conducted our engagement in accordance with International Standard on Assurance Engagements 3000 (Revised), Assurance Engagements Other than Audits or Reviews of Historical Financial Information, as promulgated by the International Auditing and Assurance Standards Board (IAASB) and the terms of our engagement letter dated August 8, 2024 as agreed with Shell plc.
 
-In performing this engagement, we have applied International
-Standard on Quality Management ('ISQM') 1 Quality Management for
-Firms that Perform Audits or Reviews of Financial Statements, or Other
-Assurance or Related Services engagements, which requires that we design, implement and operate a system of quality management
-including policies or procedures regarding compliance with ethical requirements, professional standards and applicable legal and
-regulatory requirements.
+In performing this engagement, we have applied International Standard on Quality Management ('ISQM') 1 Quality Management for Firms that Perform Audits or Reviews of Financial Statements, or Other Assurance or Related Services engagements, which requires that we design, implement and operate a system of quality management including policies or procedures regarding compliance with ethical requirements, professional standards and applicable legal and regulatory requirements.
 
-We have maintained our independence and other ethical requirements of the Institute of Chartered Accountants of England and Wales
-('ICAEW') Code of Ethics (which includes the requirements of the Code of Ethics for Professional Accountants issued by the International Ethics
-Standards Board for Accountants ('IESBA')). We are the independent auditor of the Company and therefore we will also comply with the
-independence requirements that are relevant to our audit of the financial statements in the UK, including the FRC's Ethical Standard
-as applied to listed public interest entities.
-
+We have maintained our independence and other ethical requirements of the Institute of Chartered Accountants of England and Wales ('ICAEW') Code of Ethics (which includes the requirements of the Code of Ethics for Professional Accountants issued by the International Ethics Standards Board for Accountants ('IESBA')). We are the independent auditor of the Company and therefore we will also comply with the independence requirements that are relevant to our audit of the financial statements in the UK, including the FRC's Ethical Standard as applied to listed public interest entities.
 
 ### Emphasis of matter - The most significant uncertainties affecting the quantitative metrics and monetary amounts
 
-The Sustainability Statements has been prepared in the context of new sustainability reporting standards, requiring entity specific and
-temporary interpretations and navigating inherent measurement or evaluation uncertainties.
+The Sustainability Statements has been prepared in the context of new sustainability reporting standards, requiring entity specific and temporary interpretations and navigating inherent measurement or evaluation uncertainties.
 
-We draw attention to the General basis for preparation of
-Sustainability Statements on page 342 of the Annual Report and
-Accounts that identifies the quantitative metrics and monetary amounts that are subject to a high level of measurement uncertainty and
-discloses information about the sources of measurement uncertainty and the assumptions, approximations and judgements the Company
-has made in measuring these in compliance with the ESRS.
+We draw attention to the General basis for preparation of Sustainability Statements on page 342 of the Annual Report and Accounts that identifies the quantitative metrics and monetary amounts that are subject to a high level of measurement uncertainty and discloses information about the sources of measurement uncertainty and the assumptions, approximations and judgements the Company has made in measuring these in compliance with the ESRS.
 
-The comparability of sustainability information between entities and over time may be affected by the lack of historical sustainability
-information in accordance with the ESRS and by the absence of a uniform practice on which to draw, to evaluate and measure this
-information. This allows for the application of different, but acceptable, measurement techniques, especially in the initial years.
-
+The comparability of sustainability information between entities and over time may be affected by the lack of historical sustainability information in accordance with the ESRS and by the absence of a uniform practice on which to draw, to evaluate and measure this information. This allows for the application of different, but acceptable, measurement techniques, especially in the initial years.
 
 ### Emphasis of matter - The double materiality assessment process
 
-The Sustainability Statements, including the disclosure of material impacts, risks and opportunities in accordance with the ESRS, is
-prepared with the double materiality assessment processes carried out by the Company as described on the pages 351-354 of the Annual
-Report and Accounts.
+The Sustainability Statements, including the disclosure of material impacts, risks and opportunities in accordance with the ESRS, is prepared with the double materiality assessment processes carried out by the Company as described on the pages 351-354 of the Annual Report and Accounts.
 
-The double materiality assessment process requires Shell plc to make key judgments and use thresholds and it is expected that this process
-will be refined over time. The double materiality assessment process uses quantitative and/or qualitative thresholds to determine which
-impacts, risks and opportunities are identified and addressed by Shell plc as material and to determine which sustainability matters are
-material for reporting purposes. Therefore, the sustainability statements may not include every impact, risk and opportunity or additional entityspecific disclosure that each individual stakeholder (group) may
-consider important in its own particular assessment.
+The double materiality assessment process requires Shell plc to make key judgments and use thresholds and it is expected that this process will be refined over time. The double materiality assessment process uses quantitative and/or qualitative thresholds to determine which impacts, risks and opportunities are identified and addressed by Shell plc as material and to determine which sustainability matters are material for reporting purposes. Therefore, the sustainability statements may not include every impact, risk and opportunity or additional entityspecific disclosure that each individual stakeholder (group) may consider important in its own particular assessment.
 
 Our conclusion is not modified in respect of these matters.
 
-
 ### Responsibilities of the Company for the Sustainability Statements
 
-The directors of the Company are solely responsible for the preparation of the Sustainability Statements in accordance with the ESRS, including
-the double materiality assessment process carried out by Shell plc as the basis for the Sustainability Statements and the disclosure of the
-material impacts, risks and opportunities in accordance with the ESRS. As part of the responsibilities for preparation of the Sustainability
-Statements, the directors of Shell plc are responsible for compliance with the reporting requirements provided for in Article 8 of Regulation
-(EU) 2020/852 (Taxonomy Regulation).
+The directors of the Company are solely responsible for the preparation of the Sustainability Statements in accordance with the ESRS, including the double materiality assessment process carried out by Shell plc as the basis for the Sustainability Statements and the disclosure of the material impacts, risks and opportunities in accordance with the ESRS. As part of the responsibilities for preparation of the Sustainability Statements, the directors of Shell plc are responsible for compliance with the reporting requirements provided for in Article 8 of Regulation (EU) 2020/852 (Taxonomy Regulation).
 
-Shell plc is also responsible for selecting and applying additional entity-specific disclosures to enable users to understand the company's
-sustainability-related impacts, risks or opportunities and for determining that these additional entity-specific disclosures are suitable in the
-circumstances and in accordance with the ESRS.
+Shell plc is also responsible for selecting and applying additional entity-specific disclosures to enable users to understand the company's sustainability-related impacts, risks or opportunities and for determining that these additional entity-specific disclosures are suitable in the circumstances and in accordance with the ESRS.
 
-The directors of the Company are also responsible for designing and implementing internal controls, maintaining adequate records, making
-estimates that are relevant to the preparation of the Sustainability
-Statements and other processes they determine are necessary, such that the Sustainability Statements is free from material misstatement,
-whether due to fraud or error.
-
-
-#### Sustainability Statements | Independent Auditor's report related to the Sustainability Statements continued
-
+The directors of the Company are also responsible for designing and implementing internal controls, maintaining adequate records, making estimates that are relevant to the preparation of the Sustainability Statements and other processes they determine are necessary, such that the Sustainability Statements is free from material misstatement, whether due to fraud or error.
 
 ## Responsibilities of EY for the limited assurance engagement on the Sustainability Statements
 
@@ -14502,135 +11442,81 @@ Matter on the basis of the work performed and evidence obtained; and
 
 - report our conclusion to the directors of the Company.
 
-
 ## What EY has assured
 
-Our limited assurance report only covers the Sustainability Statements, presented on pages 341-440 of the Annual Report and Accounts
-including the information incorporated by reference, on pages
-358-364 of the Annual Report and Accounts.
+Our limited assurance report only covers the Sustainability Statements, presented on pages 341-440 of the Annual Report and Accounts including the information incorporated by reference, on pages 358-364 of the Annual Report and Accounts.
 
-Other than as detailed above, we did not perform assurance procedures on any other information included in the Annual Report and
-Accounts, and accordingly, we do not express an opinion or conclusion on any such other information.
-
+Other than as detailed above, we did not perform assurance procedures on any other information included in the Annual Report and Accounts, and accordingly, we do not express an opinion or conclusion on any such other information.
 
 ## Our approach
 
-The objective of a limited assurance engagement is to perform such procedures so as to obtain information and explanations in order to
-provide us with sufficient appropriate evidence to express a negative conclusion on the Sustainability Statements. The nature, timing and
-extent of procedures performed in a limited assurance engagement is dependent on our judgement, including our assessment of the risk
-of material misstatement and is less in extent than for, a reasonable assurance engagement. Our procedures were only designed to obtain
-a limited level of assurance on which to base our conclusion and do not provide all the evidence that would be required to provide a
-reasonable level of assurance.
+The objective of a limited assurance engagement is to perform such procedures so as to obtain information and explanations in order to provide us with sufficient appropriate evidence to express a negative conclusion on the Sustainability Statements. The nature, timing and extent of procedures performed in a limited assurance engagement is dependent on our judgement, including our assessment of the risk of material misstatement and is less in extent than for, a reasonable assurance engagement. Our procedures were only designed to obtain a limited level of assurance on which to base our conclusion and do not provide all the evidence that would be required to provide a reasonable level of assurance.
 
-Although we considered the effectiveness of management's internal controls when determining the nature, timing and extent of our
-procedures, our assurance engagement was not designed to provide assurance on internal controls. Our procedures did not include testing
-controls or performing procedures relating to checking the aggregation or calculation of data within IT systems.
+Although we considered the effectiveness of management's internal controls when determining the nature, timing and extent of our procedures, our assurance engagement was not designed to provide assurance on internal controls. Our procedures did not include testing controls or performing procedures relating to checking the aggregation or calculation of data within IT systems.
 
-A limited assurance engagement consists of making enquiries, primarily of persons responsible for preparing the Sustainability Statements and
-related information and applying analytical and other appropriate procedures.
+A limited assurance engagement consists of making enquiries, primarily of persons responsible for preparing the Sustainability Statements and related information and applying analytical and other appropriate procedures.
 
-Because a limited assurance engagement can cover a range of assurance, the detail of the procedures we have performed is included
-below, so that our conclusion can be understood in the context of the nature, timing and extent of the procedures we performed:
+Because a limited assurance engagement can cover a range of assurance, the detail of the procedures we have performed is included below, so that our conclusion can be understood in the context of the nature, timing and extent of the procedures we performed:
 
 - Made inquiries and an analysis of the external environment and
-obtained an understanding of relevant sustainability themes and issues, the characteristics of the Company, its activities and the value
-chain and its key intangible resources in order to assess the double materiality assessment process carried out by the Company as the
-basis for the Sustainability Statements and disclosure of all material sustainability-related impacts, risks and opportunities in accordance
-with the ESRS;
+obtained an understanding of relevant sustainability themes and issues, the characteristics of the Company, its activities and the value chain and its key intangible resources in order to assess the double materiality assessment process carried out by the Company as the basis for the Sustainability Statements and disclosure of all material sustainability-related impacts, risks and opportunities in accordance with the ESRS;
 
 - Obtained through inquiries a general understanding of the internal
-control environment, the Company's processes for gathering and reporting entity-related and value chain information, and for
-identifying the Company's activities, determining eligible and aligned economic activities and preparing the disclosures provided for in
-Article 8 of Regulation (EU) 2020/852 (Taxonomy Regulation), the information systems and the Company's risk assessment process
-relevant to the preparation of the Sustainability Statements;
+control environment, the Company's processes for gathering and reporting entity-related and value chain information, and for identifying the Company's activities, determining eligible and aligned economic activities and preparing the disclosures provided for in Article 8 of Regulation (EU) 2020/852 (Taxonomy Regulation), the information systems and the Company's risk assessment process relevant to the preparation of the Sustainability Statements;
 
 - Assessed the double materiality assessment process carried out by
-the Company and identified and assessed areas of the Sustainability
-Statements, including the disclosures provided for in Article 8 of
-Regulation (EU) 2020/852 (Taxonomy Regulation), where misleading or unbalanced information or material misstatements, whether due to fraud or error, are likely to arise ('selected
-disclosures');
+the Company and identified and assessed areas of the Sustainability Statements, including the disclosures provided for in Article 8 of Regulation (EU) 2020/852 (Taxonomy Regulation), where misleading or unbalanced information or material misstatements, whether due to fraud or error, are likely to arise ('selected disclosures');
 
 - Designed and performed further assurance procedures aimed at
-addressing risks of material misstatements within the sustainability statements responsive to this risk analysis, including making inquiries
-of management;
+addressing risks of material misstatements within the sustainability statements responsive to this risk analysis, including making inquiries of management;
 
 - Considered whether the description of the double materiality
-assessment process in the Sustainability Statements made by management appears consistent with the process carried out by
-Shell plc;
+assessment process in the Sustainability Statements made by management appears consistent with the process carried out by Shell plc;
 
 - Performed analytical procedures on quantitative information in the
 Sustainability Statements, including consideration of data and trends;
 
 - Assessed whether Shell plc's methods for developing estimates are
-appropriate and have been consistently applied for the selected disclosures. We considered data and trends, however our procedures did not include testing the data on which the estimates
-are based or separately developing our own estimates against which to evaluate management's estimates;
+appropriate and have been consistently applied for the selected disclosures. We considered data and trends, however our procedures did not include testing the data on which the estimates are based or separately developing our own estimates against which to evaluate management's estimates;
 
 - Analysed, on a limited sample basis, relevant internal and external
-documentation available to Shell plc (including publicly available information or information from participants throughout its value
-chain) for selected disclosures;
+documentation available to Shell plc (including publicly available information or information from participants throughout its value chain) for selected disclosures;
 
 - Read the other information in the Annual Report and Accounts to
-identify material inconsistencies, if any, with the Sustainability
-Statements;
+identify material inconsistencies, if any, with the Sustainability Statements;
 
 - Considered how the Company identified economic activities eligible
-under the Taxonomy Regulation for each of the environmental objectives, reconciled selected key performance indicators for
-eligible activities with the accounts, considered whether these were calculated in accordance with the Taxonomy reference framework,
-and assessed how the Company identified where the eligible economic activities meet the cumulative conditions to qualify as
-aligned under the Taxonomy Regulation;
+under the Taxonomy Regulation for each of the environmental objectives, reconciled selected key performance indicators for eligible activities with the accounts, considered whether these were calculated in accordance with the Taxonomy reference framework, and assessed how the Company identified where the eligible economic activities meet the cumulative conditions to qualify as aligned under the Taxonomy Regulation;
 
 - Read the disclosures provided to address the reporting requirements
 of the Article 8 of the Taxonomy Regulation for consistency; and
 
 - Considered the overall presentation, structure and qualitative
-characteristics of sustainability information (relevance and faithful representation: complete, neutral and accurate) reported in the
-Sustainability Statements, including the reporting requirements provided for in Article 8 of Regulation (EU) 2020/852 (Taxonomy
-Regulation).
+characteristics of sustainability information (relevance and faithful representation: complete, neutral and accurate) reported in the Sustainability Statements, including the reporting requirements provided for in Article 8 of Regulation (EU) 2020/852 (Taxonomy Regulation).
 
 We also performed such other procedures as we considered necessary in the circumstances.
 
-
 ## Inherent limitations
 
-Non-financial information is subject to more inherent limitations than financial information, given the characteristics of the underlying subject
-matter. Because there is not yet a large body of established practice upon which to base measurement and evaluation techniques, the
-methods used for measuring or evaluating non-financial information, including the precision of different techniques, can differ, yet be equally
-acceptable. This may affect the comparability between entities, and over time.
+Non-financial information is subject to more inherent limitations than financial information, given the characteristics of the underlying subject matter. Because there is not yet a large body of established practice upon which to base measurement and evaluation techniques, the methods used for measuring or evaluating non-financial information, including the precision of different techniques, can differ, yet be equally acceptable. This may affect the comparability between entities, and over time.
 
-Comparative information included in the sustainability statements has not been part of our limited assurance engagement. Consequently,
-we do not provide any assurance on the comparative information and thereto related disclosures in the sustainability statements for Shell Plc.
-Our conclusion is not modified in respect of this matter.
+Comparative information included in the sustainability statements has not been part of our limited assurance engagement. Consequently, we do not provide any assurance on the comparative information and thereto related disclosures in the sustainability statements for Shell Plc. Our conclusion is not modified in respect of this matter.
 
-Our conclusion is based on historical information and the projection of any information or conclusions in the sustainability statements report to
-any future periods would be inappropriate.
+Our conclusion is based on historical information and the projection of any information or conclusions in the sustainability statements report to any future periods would be inappropriate.
 
-In reporting forward-looking information in accordance with the ESRS,
-Shell plc is required to prepare the forward-looking information on the basis of disclosed assumptions about events that may occur in the
-future and possible future actions by Shell plc. Forward looking information relates to events and actions that have not yet occurred
-and may never occur. The actual outcome is likely to be different since anticipated events frequently do not occur as expected. We do not
-provide assurance on the achievability of forward-looking information.
-
+In reporting forward-looking information in accordance with the ESRS, Shell plc is required to prepare the forward-looking information on the basis of disclosed assumptions about events that may occur in the future and possible future actions by Shell plc. Forward looking information relates to events and actions that have not yet occurred and may never occur. The actual outcome is likely to be different since anticipated events frequently do not occur as expected. We do not provide assurance on the achievability of forward-looking information.
 
 ## Use of our report
 
-This report is produced in accordance with the terms of our engagement letter dated August 8, 2024, solely for the purpose
-of reporting to the directors of Shell plc in connection with the
-Sustainability Statements for the period ended 31 December 2024. Those terms permit disclosure on Shell plc's website, solely for the
-purpose of Shell plc showing that it has obtained an independent assurance report in connection with the Sustainability Statements.
-To the fullest extent permitted by law, we do not accept or assume responsibility to anyone other than the Company and the Company's
-directors as a body, for the procedures performed, for this report, or for the conclusions we have formed. This engagement is separate to, and
-distinct from, our appointment as the auditor to the Company.
+This report is produced in accordance with the terms of our engagement letter dated August 8, 2024, solely for the purpose of reporting to the directors of Shell plc in connection with the Sustainability Statements for the period ended 31 December 2024. Those terms permit disclosure on Shell plc's website, solely for the purpose of Shell plc showing that it has obtained an independent assurance report in connection with the Sustainability Statements. To the fullest extent permitted by law, we do not accept or assume responsibility to anyone other than the Company and the Company's directors as a body, for the procedures performed, for this report, or for the conclusions we have formed. This engagement is separate to, and distinct from, our appointment as the auditor to the Company.
 
 /s/Ernst & Young LLP
 
-Ernst & Young LLP
-London
+Ernst & Young LLP London
 
 March 25, 2025
 
-
 ## Additional Information
-
 
 <table>
 <tr>
@@ -14655,47 +11541,21 @@ March 25, 2025
 </tr>
 </table>
 
-
 ## Shareholder information
 
-Shell plc (the Company) was incorporated in England and Wales on
-February 5, 2002, as a private company under the Companies Act
-1985, as amended. On October 27, 2004, the Company was reregistered as a public company limited by shares and changed its
-name from Forthdeal Limited to Royal Dutch Shell plc. On January 21,
-2022, the Company changed its name from Royal Dutch Shell plc to
-Shell plc. The Company is registered at Companies House, Cardiff, under company number 4366849. The Legal Entity Identifier (LEI)
-issued by the London Stock Exchange is 21380068P1DRHMJ8KU70. The business address for the Directors and Senior Management is
-Shell Centre, London, SE1 7NA.
+Shell plc (the Company) was incorporated in England and Wales on February 5, 2002, as a private company under the Companies Act 1985, as amended. On October 27, 2004, the Company was reregistered as a public company limited by shares and changed its name from Forthdeal Limited to Royal Dutch Shell plc. On January 21, 2022, the Company changed its name from Royal Dutch Shell plc to Shell plc. The Company is registered at Companies House, Cardiff, under company number 4366849. The Legal Entity Identifier (LEI) issued by the London Stock Exchange is 21380068P1DRHMJ8KU70. The business address for the Directors and Senior Management is Shell Centre, London, SE1 7NA.
 
-On December 31, 2021, the Company became tax resident in the
-United Kingdom. Its primary objective is to carry on the business of a holding company. It is not directly or indirectly owned or controlled by
-another corporation or by any government and does not know of any arrangements that may result in a change of control of the Company.
-
+On December 31, 2021, the Company became tax resident in the United Kingdom. Its primary objective is to carry on the business of a holding company. It is not directly or indirectly owned or controlled by another corporation or by any government and does not know of any arrangements that may result in a change of control of the Company.
 
 ### Nature of trading market
 
-On January 29, 2022, the Company established one single line of ordinary shares, each having a nominal value of €0.07. All shares are
-listed and able to trade at Euronext Amsterdam and the London Stock
-Exchange. Furthermore, all shares are transferable between these two markets. This makes both these exchanges primary exchanges for the
-ordinary shares.
+On January 29, 2022, the Company established one single line of ordinary shares, each having a nominal value of €0.07. All shares are listed and able to trade at Euronext Amsterdam and the London Stock Exchange. Furthermore, all shares are transferable between these two markets. This makes both these exchanges primary exchanges for the ordinary shares.
 
 Ordinary shares are traded in registered form.
 
-The Company's American Depositary Shares (ADSs) are listed on the
-New York Stock Exchange [A]. A depositary receipt is a certificate that evidences ADSs. Depositary receipts are issued, cancelled and
-exchanged at the office of JP Morgan Chase Bank, N.A., 383 Madison
-Avenue, New York, New York 10179, USA, as depositary (the
-Depositary), under Second Amended and Restated Deposit Agreement and Amendment No. 1 thereto (Deposit Agreement) between the
-Company, the Depositary and the holders of ADSs. Each ADS is equivalent to two ordinary shares of Shell plc deposited under the
-Deposit Agreement. All ordinary shares are capable of being deposited with the Depository in exchange for the corresponding
-amount of ADSs which may be traded at the New York Stock
-Exchange. This makes the New York Stock Exchange the primary exchange for the Company's American Depositary Receipts (ADRs).
-More information relating to ADSs is given on page 443.
+The Company's American Depositary Shares (ADSs) are listed on the New York Stock Exchange [A]. A depositary receipt is a certificate that evidences ADSs. Depositary receipts are issued, cancelled and exchanged at the office of JP Morgan Chase Bank, N.A., 383 Madison Avenue, New York, New York 10179, USA, as depositary (the Depositary), under Second Amended and Restated Deposit Agreement and Amendment No. 1 thereto (Deposit Agreement) between the Company, the Depositary and the holders of ADSs. Each ADS is equivalent to two ordinary shares of Shell plc deposited under the Deposit Agreement. All ordinary shares are capable of being deposited with the Depository in exchange for the corresponding amount of ADSs which may be traded at the New York Stock Exchange. This makes the New York Stock Exchange the primary exchange for the Company's American Depositary Receipts (ADRs). More information relating to ADSs is given on page 443.
 
-[A] At March 4, 2025, 569,992,987 ADSs were outstanding, representing 18.86% of the ordinary share capital, held by holders of record with an address in the USA. In addition
-to holders of ADSs, at March 4, 2025, 865,294 ordinary shares of €0.07 each were outstanding, representing 0.0143% of the ordinary share capital, held by 2951 holders
-of record registered with an address in the USA.
-
+[A] At March 4, 2025, 569,992,987 ADSs were outstanding, representing 18.86% of the ordinary share capital, held by holders of record with an address in the USA. In addition to holders of ADSs, at March 4, 2025, 865,294 ordinary shares of €0.07 each were outstanding, representing 0.0143% of the ordinary share capital, held by 2951 holders of record registered with an address in the USA.
 
 <table>
 <tr>
@@ -14752,18 +11612,13 @@ of record registered with an address in the USA.
 
 [A] Each ADS represents two ordinary shares of €0.07 each.
 
-
 ### Share capital
 
-Below we provide information on our share capital as at December 31,
-2024.
-
+Below we provide information on our share capital as at December 31, 2024.
 
 #### Share capital as at December 31, 2024
 
-The issued and fully paid share capital of the Company at
-December 31, 2024, was as follows:
-
+The issued and fully paid share capital of the Company at December 31, 2024, was as follows:
 
 <table>
 <tr>
@@ -14781,12 +11636,9 @@ December 31, 2024, was as follows:
 </tr>
 </table>
 
-
 #### Share capital as at March 4, 2025
 
-The issued and fully paid share capital of the Company at March 4,
-2025, was as follows:
-
+The issued and fully paid share capital of the Company at March 4, 2025, was as follows:
 
 <table>
 <tr>
@@ -14804,15 +11656,9 @@ The issued and fully paid share capital of the Company at March 4,
 </tr>
 </table>
 
+The Directors may only allot new ordinary shares if they have authority from shareholders to do so. The Company seeks to renew this authority annually at its AGM. Under the resolution passed at the Company's 2024 AGM, the Directors were granted authority to allot ordinary shares up to an aggregate nominal amount equivalent to approximately one-third of the issued ordinary share capital of the Company (in line with the guidelines issued by institutional investors).
 
-The Directors may only allot new ordinary shares if they have authority from shareholders to do so. The Company seeks to renew this authority
-annually at its AGM. Under the resolution passed at the Company's
-2024 AGM, the Directors were granted authority to allot ordinary shares up to an aggregate nominal amount equivalent to approximately one-third of the issued ordinary share capital of the
-Company (in line with the guidelines issued by institutional investors).
-
-The following is a summary of the material terms of the Company's ordinary shares, including brief descriptions of the provisions contained
-in the Articles of Association (the Articles) and applicable laws of England and Wales in effect on the date of this document.
-This summary does not purport to include complete statements of these provisions:
+The following is a summary of the material terms of the Company's ordinary shares, including brief descriptions of the provisions contained in the Articles of Association (the Articles) and applicable laws of England and Wales in effect on the date of this document. This summary does not purport to include complete statements of these provisions:
 
 - upon issuance, the ordinary shares are fully paid and free from
 all liens, equities, charges, encumbrances and other interest of the Company and not subject to calls of any kind;
@@ -14821,34 +11667,21 @@ all liens, equities, charges, encumbrances and other interest of the Company and
 on ordinary share capital; and
 
 - all ordinary shares are admitted to the Official List of the UK
-Financial Conduct Authority and to trading on the market for listed securities of the London Stock Exchange. Ordinary shares are also
-admitted to trading on Euronext Amsterdam. ADSs are listed on the New York Stock Exchange.
+Financial Conduct Authority and to trading on the market for listed securities of the London Stock Exchange. Ordinary shares are also admitted to trading on Euronext Amsterdam. ADSs are listed on the New York Stock Exchange.
 
-At December 31, 2024, trusts and trust-like entities holding shares for the benefit of employee share plans of Shell held (directly and
-indirectly) 31 million shares of the Company with an aggregate market value of $980 million and an aggregate nominal value of €2 million.
-
+At December 31, 2024, trusts and trust-like entities holding shares for the benefit of employee share plans of Shell held (directly and indirectly) 31 million shares of the Company with an aggregate market value of $980 million and an aggregate nominal value of €2 million.
 
 ### Significant shareholdings
 
-The Company's ordinary shares have voting rights on all matters that are subject to shareholder approval, including the election of directors.
-The Company's major shareholders do not have different voting rights.
-
+The Company's ordinary shares have voting rights on all matters that are subject to shareholder approval, including the election of directors. The Company's major shareholders do not have different voting rights.
 
 ### Notification of major shareholdings
 
-The Company did not receive any notifications pursuant to Disclosure
-Guidance and Transparency Rule (DTR) 5 during the year and up to
-March 4, 2025, (being a date not more than one month prior to the date of the Company's Notice of Annual General Meeting).
-
+The Company did not receive any notifications pursuant to Disclosure Guidance and Transparency Rule (DTR) 5 during the year and up to March 4, 2025, (being a date not more than one month prior to the date of the Company's Notice of Annual General Meeting).
 
 ### Designation of the Netherlands as EU Home Member State for regulatory purposes
 
-Following the exit of the UK from the EU and the end of the transition period, the Company announced that the EU Home Member State of
-the Company for the purposes of the EU Transparency Directive would be the Netherlands as from January 1, 2021. As a consequence, the
-Company files Transparency Directive and Market Abuse Regulationrelated regulatory information with the Netherlands Authority for the
-Financial Markets (Autoriteit Financiële Markten, or AFM). Major shareholders are required to report substantial holdings in Shell
-to the AFM in accordance with applicable Dutch law, in addition to their ongoing disclosure obligations under the DTR.
-
+Following the exit of the UK from the EU and the end of the transition period, the Company announced that the EU Home Member State of the Company for the purposes of the EU Transparency Directive would be the Netherlands as from January 1, 2021. As a consequence, the Company files Transparency Directive and Market Abuse Regulationrelated regulatory information with the Netherlands Authority for the Financial Markets (Autoriteit Financiële Markten, or AFM). Major shareholders are required to report substantial holdings in Shell to the AFM in accordance with applicable Dutch law, in addition to their ongoing disclosure obligations under the DTR.
 
 ### Method of holding shares or an interest in shares
 
@@ -14866,52 +11699,25 @@ Dutch Securities Giro Act (Wet giraal effectenverkeer) is applicable);
 
 - as a direct or indirect holder of either ADS with the Depositary.
 
-
 ### American Depositary Shares
 
-The Depositary is holding the shares underlying the ADSs and to the extent it is doing so directly via its UK nominee enjoys the rights of
-a shareholder under the Articles. Holders of ADSs will not have shareholder rights. The rights of the holder of an ADS are specified in
-the Deposit Agreement with the Depositary and are summarised below.
+The Depositary is holding the shares underlying the ADSs and to the extent it is doing so directly via its UK nominee enjoys the rights of a shareholder under the Articles. Holders of ADSs will not have shareholder rights. The rights of the holder of an ADS are specified in the Deposit Agreement with the Depositary and are summarised below.
 
-The Depositary will receive all cash dividends and other cash distributions made on the deposited shares underlying the ADSs
-and, where possible and on a reasonable basis, will distribute such dividends and distributions to holders of ADSs. Rights to purchase
-additional shares will also be made available to the Depositary who may make such rights available to holders of ADSs. All other
-distributions made on the Company's shares will be distributed by the
-Depositary in any means that the Depositary thinks is equitable and practical. The Depositary may deduct its fees and expenses and the amount of any taxes owed from any payments to holders and it may sell a holder's deposited shares to pay any taxes owed. The Depositary
-is not responsible if it decides that it is unlawful or impractical to make a distribution available to holders of ADSs.
+The Depositary will receive all cash dividends and other cash distributions made on the deposited shares underlying the ADSs and, where possible and on a reasonable basis, will distribute such dividends and distributions to holders of ADSs. Rights to purchase additional shares will also be made available to the Depositary who may make such rights available to holders of ADSs. All other distributions made on the Company's shares will be distributed by the Depositary in any means that the Depositary thinks is equitable and practical. The Depositary may deduct its fees and expenses and the amount of any taxes owed from any payments to holders and it may sell a holder's deposited shares to pay any taxes owed. The Depositary is not responsible if it decides that it is unlawful or impractical to make a distribution available to holders of ADSs.
 
-The Depositary will notify holders of ADSs of shareholders' meetings of the Company and will arrange to deliver voting materials to such
-holders of ADSs if requested by the Company. Upon request by a holder, the Depositary will endeavour to appoint such holder as proxy
-in respect of such holder's deposited shares entitling such holder to attend and vote at shareholders' meetings. Holders of ADSs may
-also instruct the Depositary to vote their deposited securities and the
-Depositary will try, as far as practical and lawful, to vote deposited shares in accordance with such instructions. The Company cannot
-ensure that holders will receive voting materials or otherwise learn of an upcoming shareholders' meeting in time to ensure that holders
-can instruct the Depositary to vote their shares.
+The Depositary will notify holders of ADSs of shareholders' meetings of the Company and will arrange to deliver voting materials to such holders of ADSs if requested by the Company. Upon request by a holder, the Depositary will endeavour to appoint such holder as proxy in respect of such holder's deposited shares entitling such holder to attend and vote at shareholders' meetings. Holders of ADSs may also instruct the Depositary to vote their deposited securities and the Depositary will try, as far as practical and lawful, to vote deposited shares in accordance with such instructions. The Company cannot ensure that holders will receive voting materials or otherwise learn of an upcoming shareholders' meeting in time to ensure that holders can instruct the Depositary to vote their shares.
 
-Upon payment of appropriate fees, expenses and taxes: (i) shareholders may deposit their shares with the Depositary and receive the corresponding class and amount of ADSs; and (ii) holders
-of ADSs may surrender their ADSs to the Depositary and have the corresponding class and amount of shares credited to their account.
+Upon payment of appropriate fees, expenses and taxes: (i) shareholders may deposit their shares with the Depositary and receive the corresponding class and amount of ADSs; and (ii) holders of ADSs may surrender their ADSs to the Depositary and have the corresponding class and amount of shares credited to their account.
 
-Further, subject to certain limitations, holders may, at any time, cancel
-ADSs and withdraw their underlying shares or have the corresponding class and amount of shares credited to their account.
-
+Further, subject to certain limitations, holders may, at any time, cancel ADSs and withdraw their underlying shares or have the corresponding class and amount of shares credited to their account.
 
 ### Fees paid by holders of ADSs
 
-The Depositary collects its fees for delivery and surrender of ADSs directly from investors depositing shares or surrendering ADSs for
-the purpose of withdrawal or from intermediaries acting for them. The Depositary collects fees for making distributions to investors
-by deducting those fees from the amounts distributed or by selling a portion of distributable property to pay the fees. The Depositary
-may generally refuse to provide fee-attracting services until its fees for those services are paid. See page 444.
-
+The Depositary collects its fees for delivery and surrender of ADSs directly from investors depositing shares or surrendering ADSs for the purpose of withdrawal or from intermediaries acting for them. The Depositary collects fees for making distributions to investors by deducting those fees from the amounts distributed or by selling a portion of distributable property to pay the fees. The Depositary may generally refuse to provide fee-attracting services until its fees for those services are paid. See page 444.
 
 ### Payments by Depositary to the Company
 
-J.P. Morgan Chase Bank, N.A., as Depositary, has agreed to share with the Company portions of certain fees collected, less ADS
-programme expenses paid by the Depositary. For example, these expenses include the Depositary's annual programme fees, transfer
-agency fees, custody fees, legal expenses, postage and envelopes for mailing annual and interim financial reports, printing and distributing
-dividend cheques, electronic filing of US federal tax information, mailing required tax forms, stationery, postage, facsimile and
-telephone calls and the standard out-of-pocket maintenance costs for the ADSs. From January 1, 2024, to December 31, 2024,
-the Company received $641,716.13 from the Depositary.
-
+J.P. Morgan Chase Bank, N.A., as Depositary, has agreed to share with the Company portions of certain fees collected, less ADS programme expenses paid by the Depositary. For example, these expenses include the Depositary's annual programme fees, transfer agency fees, custody fees, legal expenses, postage and envelopes for mailing annual and interim financial reports, printing and distributing dividend cheques, electronic filing of US federal tax information, mailing required tax forms, stationery, postage, facsimile and telephone calls and the standard out-of-pocket maintenance costs for the ADSs. From January 1, 2024, to December 31, 2024, the Company received $641,716.13 from the Depositary.
 
 Persons depositing or withdrawing shares must pay:
 
@@ -14923,8 +11729,7 @@ $5.00 or less per 100 ADSs (or portion of 100 ADSs)
 or other property.
 
 - Cancellation of ADSs for the purpose of their withdrawal, including if the
-Deposit Agreement terminates. An additional transaction fee per cancellation request and any applicable delivery expenses may also be charged by the
-Depositary.
+Deposit Agreement terminates. An additional transaction fee per cancellation request and any applicable delivery expenses may also be charged by the Depositary.
 
 - Distribution of securities to holders of deposited securities by the Depositary to
 ADS registered holders.
@@ -14941,66 +11746,39 @@ Deposit agreement).
 
 - Converting foreign currency into dollars.
 
-Taxes and other governmental charges the Depositary or the custodian has to pay on any ADS or share underlying an ADS, for example, share transfer taxes,
-stamp duty or withholding taxes
+Taxes and other governmental charges the Depositary or the custodian has to pay on any ADS or share underlying an ADS, for example, share transfer taxes, stamp duty or withholding taxes
 
 - As necessary.
 
-In addition to the above, the Depositary may charge: (i) a dividend fee of $5.00 or less per 100 ADSs (or portion of 100 ADSs) for cash
-dividends or issuance of ADSs resulting from share dividends and (ii) an administrative fee of $5.00 or less per 100 ADSs (or portion of 100
-ADSs) per calendar year. The Company and Depositary have agreed not to charge these fees at this time.
-
+In addition to the above, the Depositary may charge: (i) a dividend fee of $5.00 or less per 100 ADSs (or portion of 100 ADSs) for cash dividends or issuance of ADSs resulting from share dividends and (ii) an administrative fee of $5.00 or less per 100 ADSs (or portion of 100 ADSs) per calendar year. The Company and Depositary have agreed not to charge these fees at this time.
 
 ### Dividend Reinvestment Plan
 
-Equiniti Financial Services Limited, part of the Equiniti group of companies, operates a Dividend Reinvestment Plan (DRIP) which
-enables Shell plc shareholders to elect to have their dividend payments used to purchase Shell plc ordinary shares. More information can be
-found at shareview.co.uk/info/drip or by contacting Equiniti, the
-Company's UK Registrar.
+Equiniti Financial Services Limited, part of the Equiniti group of companies, operates a Dividend Reinvestment Plan (DRIP) which enables Shell plc shareholders to elect to have their dividend payments used to purchase Shell plc ordinary shares. More information can be found at shareview.co.uk/info/drip or by contacting Equiniti, the Company's UK Registrar.
 
-ABN AMRO Bank N.V. and JP Morgan Chase Bank N.A. also operate dividend reinvestment options. More information can be found by
-contacting the relevant provider.
-
+ABN AMRO Bank N.V. and JP Morgan Chase Bank N.A. also operate dividend reinvestment options. More information can be found by contacting the relevant provider.
 
 ### Exchange controls and other limitations affecting security holders
 
-Other than restrictions affecting those individuals, entities, government bodies, corporations, or activities that are targeted by European Union
-(EU) or UK sanctions for example, regarding Syria, Russia or North
-Korea, etc. and the general EU prohibition to transfer funds to and from for example, North Korea or Iran and the EU and UK financial
-restrictions affecting Russia or Belarus, we are not aware of any other legislative or other legal provision currently in force in the UK, the
-Netherlands, the EU or arising under the Articles restricting remittances to holders of the Company's ordinary shares who are non-residents
-of the UK, or affecting the import or export of capital.
-
+Other than restrictions affecting those individuals, entities, government bodies, corporations, or activities that are targeted by European Union (EU) or UK sanctions for example, regarding Syria, Russia or North Korea, etc. and the general EU prohibition to transfer funds to and from for example, North Korea or Iran and the EU and UK financial restrictions affecting Russia or Belarus, we are not aware of any other legislative or other legal provision currently in force in the UK, the Netherlands, the EU or arising under the Articles restricting remittances to holders of the Company's ordinary shares who are non-residents of the UK, or affecting the import or export of capital.
 
 ## Taxation
 
-
 ### General
 
-The Company is incorporated in England and Wales. The Company changed tax residence from the Netherlands to the UK on December
-31, 2021.
-
+The Company is incorporated in England and Wales. The Company changed tax residence from the Netherlands to the UK on December 31, 2021.
 
 ### UK stamp duty and stamp duty reserve tax
 
-Sales or transfers of the Company's ordinary shares within a clearance service (such as Euroclear Nederland) or of the Company's ADSs within
-the ADS depositary receipts system will not give rise to a stamp duty reserve tax (SDRT) liability and should not in practice require the
-payment of UK stamp duty.
+Sales or transfers of the Company's ordinary shares within a clearance service (such as Euroclear Nederland) or of the Company's ADSs within the ADS depositary receipts system will not give rise to a stamp duty reserve tax (SDRT) liability and should not in practice require the payment of UK stamp duty.
 
-The transfer of the Company's ordinary shares to a clearance service (such as Euroclear Nederland) or to an issuer of depositary shares
-(such as ADSs) will generally give rise to a UK stamp duty or SDRT liability at the rate of 1.5% of consideration given or, if none, of the
-value of the shares. A sale of the Company's ordinary shares that are not held within a clearance service (for example, settled through the
-UK's CREST system of paperless transfers) will generally be subject to UK stamp duty or SDRT at the rate of 0.5% of the amount of the
-consideration, normally paid by the purchaser.
-
+The transfer of the Company's ordinary shares to a clearance service (such as Euroclear Nederland) or to an issuer of depositary shares (such as ADSs) will generally give rise to a UK stamp duty or SDRT liability at the rate of 1.5% of consideration given or, if none, of the value of the shares. A sale of the Company's ordinary shares that are not held within a clearance service (for example, settled through the UK's CREST system of paperless transfers) will generally be subject to UK stamp duty or SDRT at the rate of 0.5% of the amount of the consideration, normally paid by the purchaser.
 
 ### Capital gains tax
 
-For the purposes of UK capital gains tax, the market values [A] of the shares of the former public parent companies of the Shell Group at the
-relevant dates were:
+For the purposes of UK capital gains tax, the market values [A] of the shares of the former public parent companies of the Shell Group at the relevant dates were:
 
 £
-
 
 <table>
 <tr>
@@ -15020,51 +11798,27 @@ relevant dates were:
 </tr>
 </table>
 
-[A] Restated where applicable to reflect all capitalisation issues since the relevant date. This includes the change in the capital structure in 2005, when Shell plc (at the time known as Royal Dutch
-Shell plc) became the single parent company of Royal Dutch Petroleum Company and of The "Shell" Transport and Trading Company, p.I.c., now The Shell Transport and Trading Company
-Limited, and one share in Royal Dutch Petroleum Company was exchanged for two Royal Dutch Shell plc A shares and one share in The "Shell" Transport and Trading Company, p.l.c. was
-exchanged for 0.287333066 Royal Dutch Shell plc B shares.
-
+[A] Restated where applicable to reflect all capitalisation issues since the relevant date. This includes the change in the capital structure in 2005, when Shell plc (at the time known as Royal Dutch Shell plc) became the single parent company of Royal Dutch Petroleum Company and of The "Shell" Transport and Trading Company, p.I.c., now The Shell Transport and Trading Company Limited, and one share in Royal Dutch Petroleum Company was exchanged for two Royal Dutch Shell plc A shares and one share in The "Shell" Transport and Trading Company, p.l.c. was exchanged for 0.287333066 Royal Dutch Shell plc B shares.
 
 ## Non-GAAP measures reconciliations
 
-These non-GAAP measures, also known as alternative performance measures, are financial measures other than those defined in International
-Financial Reporting Standards, that Shell considers provide useful information.
-
+These non-GAAP measures, also known as alternative performance measures, are financial measures other than those defined in International Financial Reporting Standards, that Shell considers provide useful information.
 
 ### Earnings on a current cost of supplies basis
 
-Segment earnings are presented on a current cost of supplies basis (CCS earnings), which is the earnings measure used by the Chief Executive
-Officer for the purposes of making decisions about allocating resources and assessing performance. On this basis, the purchase price of volumes
-sold during the period is based on the current cost of supplies during the same period after making allowance for the tax effect. CCS earnings
-therefore exclude the effect of changes in the oil price on inventory carrying amounts. The current cost of supplies adjustment does not impact
-cash flow from operating activities in the "Consolidated Statement of Cash Flows". For "Reconciliation of CCS earnings to income for the period",
-please refer to Note 7 to the "Consolidated Financial Statements".
-
+Segment earnings are presented on a current cost of supplies basis (CCS earnings), which is the earnings measure used by the Chief Executive Officer for the purposes of making decisions about allocating resources and assessing performance. On this basis, the purchase price of volumes sold during the period is based on the current cost of supplies during the same period after making allowance for the tax effect. CCS earnings therefore exclude the effect of changes in the oil price on inventory carrying amounts. The current cost of supplies adjustment does not impact cash flow from operating activities in the "Consolidated Statement of Cash Flows". For "Reconciliation of CCS earnings to income for the period", please refer to Note 7 to the "Consolidated Financial Statements".
 
 ### Adjusted Earnings per share
 
-Adjusted Earnings per share is calculated as Adjusted Earnings (see below) divided by the weighted average number of shares used as the basis
-for basic earnings per share (see Note 31 to the "Consolidated Financial Statements"). Adjusted Earnings per share were 3.76 in 2024 (2024
-Adjusted Earnings: $23,716 million; 2024 weighted average number of shares 6,299.6 million) and $4.20 in 2023 (2023 Adjusted Earnings
-$28,250 million; 2023 weighted average number of shares: 6,733.5 million).
-
+Adjusted Earnings per share is calculated as Adjusted Earnings (see below) divided by the weighted average number of shares used as the basis for basic earnings per share (see Note 31 to the "Consolidated Financial Statements"). Adjusted Earnings per share were 3.76 in 2024 (2024 Adjusted Earnings: $23,716 million; 2024 weighted average number of shares 6,299.6 million) and $4.20 in 2023 (2023 Adjusted Earnings $28,250 million; 2023 weighted average number of shares: 6,733.5 million).
 
 ### Adjusted Earnings, Adjusted Earnings Before Interest, Taxes, Depreciation and Amortisation (EBITDA), and Cash flow from operating activities
 
-The "Adjusted Earnings" measure is presented on a CCS basis and aims to facilitate a comparative understanding of Shell's financial performance
-from period to period by removing the effects of oil price changes on inventory carrying amounts and removing the effects of identified items
-adjusted for current cost of supplies. These items are in some cases driven by external factors and may, either individually or collectively, hinder
-the comparative understanding of Shell's financial results from period to period.
+The "Adjusted Earnings" measure is presented on a CCS basis and aims to facilitate a comparative understanding of Shell's financial performance from period to period by removing the effects of oil price changes on inventory carrying amounts and removing the effects of identified items adjusted for current cost of supplies. These items are in some cases driven by external factors and may, either individually or collectively, hinder the comparative understanding of Shell's financial results from period to period.
 
-The "Adjusted EBITDA" measure is presented on a CCS basis and is used by management to evaluate Shell's performance in the period and
-over time. We define "Adjusted EBITDA" as "Income/(loss) for the period" adjusted for current cost of supplies; identified items; tax charge/
-(credit); depreciation, amortisation and depletion; exploration well write-offs; and net interest expense. All items include the non-controlling
-interest component.
-
+The "Adjusted EBITDA" measure is presented on a CCS basis and is used by management to evaluate Shell's performance in the period and over time. We define "Adjusted EBITDA" as "Income/(loss) for the period" adjusted for current cost of supplies; identified items; tax charge/ (credit); depreciation, amortisation and depletion; exploration well write-offs; and net interest expense. All items include the non-controlling interest component.
 
 #### Adjusted Earnings, Adjusted Earnings Before Interest, Taxes, Depreciation and Amortisation (EBITDA) and Cash flow from operating activities
-
 
 <table>
 <tr>
@@ -15272,9 +12026,7 @@ interest component.
 </tr>
 </table>
 
-
 [A] See Note 7 to the Consolidated Financial Statements.
-
 
 <table>
 <tr>
@@ -15498,11 +12250,9 @@ interest component.
 
 [C] See footnote [A] of Consolidated Statement of Cash Flows.
 
-
 #### 2022
 
 $ million
-
 
 <table>
 <tr>
@@ -15731,20 +12481,11 @@ $ million
 
 [C] See footnote [A] of Consolidated Statement of Cash Flows.
 
-
-##### Additional Information | Non-GAAP measures reconciliations continued
-
-
 ##### Identified items
 
-The objective of identified items is to remove material impacts on net income/loss arising from transactions which are generally
-uncontrollable and unusual (infrequent or non-recurring) in nature or giving rise to a mismatch of accounting and economic results,
-or certain transactions that are generally excluded from underlying results in the industry.
+The objective of identified items is to remove material impacts on net income/loss arising from transactions which are generally uncontrollable and unusual (infrequent or non-recurring) in nature or giving rise to a mismatch of accounting and economic results, or certain transactions that are generally excluded from underlying results in the industry.
 
-Identified items comprise: divestment gains and losses, impairments, redundancy and restructuring, provisions for onerous contracts, fair
-value accounting of commodity derivatives and certain gas contracts, and the impact of exchange rate movements on certain deferred tax
-balances, and other items. Identified items in the table below are presented on a net basis.
-
+Identified items comprise: divestment gains and losses, impairments, redundancy and restructuring, provisions for onerous contracts, fair value accounting of commodity derivatives and certain gas contracts, and the impact of exchange rate movements on certain deferred tax balances, and other items. Identified items in the table below are presented on a net basis.
 
 <table>
 <tr>
@@ -15962,12 +12703,7 @@ balances, and other items. Identified items in the table below are presented on 
 </tr>
 </table>
 
-[A] Corporate includes reclassifications from equity to profit and loss of cumulative currency translation differences related to funding structures resulting in unfavourable movements of $1,122
-million. These cu rrency translation differences were previously recognised in other comprehensive income and accumulated in equity as part of accumulated other comprehensive income.
-
-
-##### Additional Information | Non-GAAP measures reconciliations continued
-
+[A] Corporate includes reclassifications from equity to profit and loss of cumulative currency translation differences related to funding structures resulting in unfavourable movements of $1,122 million. These cu rrency translation differences were previously recognised in other comprehensive income and accumulated in equity as part of accumulated other comprehensive income.
 
 <table>
 <tr>
@@ -16187,7 +12923,6 @@ million. These cu rrency translation differences were previously recognised in o
 
 [A] See Note 7 to the "Consolidated Financial Statements" which includes an explanation of the reporting segments changes applicable from 2024.
 
-
 <table>
 <tr>
 <th colspan="8">2022</th>
@@ -16406,60 +13141,27 @@ million. These cu rrency translation differences were previously recognised in o
 
 [A] See Note 7 to the "Consolidated Financial Statements" which includes an explanation of the reporting segments changes applicable from 2024.
 
+The identified items categories above may include after-tax impacts of identified items of joint ventures and associates which are fully reported within "Share of profit of joint ventures and associates" in the Consolidated Statement of Income, and fully reported as identified items included in Income/(loss) before taxation in the table above. Identified items related to subsidiaries are consolidated and reported across appropriate lines of the Consolidated Statement of Income. Only pre-tax identified items reported by subsidiaries are taken into account in the calculation of underlying operating expenses.
 
-The identified items categories above may include after-tax impacts of identified items of joint ventures and associates which are fully
-reported within "Share of profit of joint ventures and associates" in the Consolidated Statement of Income, and fully reported as identified
-items included in Income/(loss) before taxation in the table above.
-Identified items related to subsidiaries are consolidated and reported across appropriate lines of the Consolidated Statement of Income.
-Only pre-tax identified items reported by subsidiaries are taken into account in the calculation of underlying operating expenses.
+Provisions for onerous contracts: Provisions for onerous contracts that relate to businesses that Shell has exited or to redundant assets or assets that cannot be used.
 
-Provisions for onerous contracts: Provisions for onerous contracts that relate to businesses that Shell has exited or to redundant assets
-or assets that cannot be used.
+Fair value accounting of commodity derivatives and certain gas contracts: In the ordinary course of business, Shell enters into contracts to supply or purchase oil and gas products, power and environmental products. Shell also enters into contracts for tolling, pipeline and storage capacity. Derivative contracts are entered into for mitigation of resulting economic exposures (generally price exposure) and these derivative contracts are carried at period-end market price (fair value), with movements in fair value recognised in income for the period. Supply and purchase contracts entered into for operational purposes, as well as contracts for tolling, pipeline and storage capacity, are, by contrast, recognised when the transaction occurs; furthermore, inventory is carried at historical cost or net realisable value, whichever is lower. As a consequence, accounting mismatches occur because: (a) the supply or purchase transaction is recognised in a different period, or (b) the inventory is measured on a different basis. In addition, certain contracts are, due to pricing or delivery conditions, deemed to contain embedded derivatives or written options and are also required to be carried at fair value even though they are entered into for operational purposes. The accounting impacts are reported as identified items.
 
-Fair value accounting of commodity derivatives and certain gas contracts: In the ordinary course of business, Shell enters into contracts
-to supply or purchase oil and gas products, power and environmental products. Shell also enters into contracts for tolling, pipeline and
-storage capacity. Derivative contracts are entered into for mitigation of resulting economic exposures (generally price exposure) and these
-derivative contracts are carried at period-end market price (fair value), with movements in fair value recognised in income for the period.
-Supply and purchase contracts entered into for operational purposes, as well as contracts for tolling, pipeline and storage capacity, are, by
-contrast, recognised when the transaction occurs; furthermore, inventory is carried at historical cost or net realisable value, whichever
-is lower. As a consequence, accounting mismatches occur because: (a) the supply or purchase transaction is recognised in a different period,
-or (b) the inventory is measured on a different basis. In addition, certain contracts are, due to pricing or delivery conditions, deemed to contain
-embedded derivatives or written options and are also required to be carried at fair value even though they are entered into for operational
-purposes. The accounting impacts are reported as identified items.
+Impacts of exchange rate movements on tax balances represent the impact on tax balances of exchange rate movements arising on (a) the conversion to dollars of the local currency tax base of non-monetary assets and liabilities, as well as losses (this primarily impacts the Upstream and Integrated Gas segments) and (b) the conversion of dollar-denominated inter-segment loans to local currency, leading to taxable exchange rate gains or losses (this primarily impacts the Corporate segment).
 
-Impacts of exchange rate movements on tax balances represent the impact on tax balances of exchange rate movements arising on (a) the
-conversion to dollars of the local currency tax base of non-monetary assets and liabilities, as well as losses (this primarily impacts the
-Upstream and Integrated Gas segments) and (b) the conversion of dollar-denominated inter-segment loans to local currency, leading to
-taxable exchange rate gains or losses (this primarily impacts the
-Corporate segment).
-
-Other identified items represent other credits or charges that based on
-Shell management's assessment hinder the comparative understanding of Shell's financial results from period to period.
-
+Other identified items represent other credits or charges that based on Shell management's assessment hinder the comparative understanding of Shell's financial results from period to period.
 
 ### Cash capital expenditure
 
-Cash capital expenditure monitors investing activities on a cash basis, excluding items such as lease additions which do not necessarily result
-in cash outflows in the period. The measure comprises the following lines from the Consolidated Statement of Cash Flows: Capital
-expenditure, Investments in joint ventures and associates and
-Investments in equity securities. The reconciliation of "Capital expenditure" to "Cash capital expenditure" is presented in Note 7
-to the "Consolidated Financial Statements".
-
+Cash capital expenditure monitors investing activities on a cash basis, excluding items such as lease additions which do not necessarily result in cash outflows in the period. The measure comprises the following lines from the Consolidated Statement of Cash Flows: Capital expenditure, Investments in joint ventures and associates and Investments in equity securities. The reconciliation of "Capital expenditure" to "Cash capital expenditure" is presented in Note 7 to the "Consolidated Financial Statements".
 
 ### Operating expenses and underlying operating expenses
 
-Operating expenses is a measure of Shell's cost management performance, comprising the following items from the "Consolidated
-Statement of Income": production and manufacturing expenses; selling, distribution and administrative expenses; and research and
-development expenses.See Note 7 to the "Consolidated Financial
-Statements" for reconciliation of total operating expenses.
+Operating expenses is a measure of Shell's cost management performance, comprising the following items from the "Consolidated Statement of Income": production and manufacturing expenses; selling, distribution and administrative expenses; and research and development expenses.See Note 7 to the "Consolidated Financial Statements" for reconciliation of total operating expenses.
 
-Underlying operating expenses is a measure aimed at facilitating a comparative understanding of performance from period to period
-by removing the effects of identified items, which, either individually or collectively, can cause volatility, in some cases driven by
-external factors.
-
+Underlying operating expenses is a measure aimed at facilitating a comparative understanding of performance from period to period by removing the effects of identified items, which, either individually or collectively, can cause volatility, in some cases driven by external factors.
 
 ### Operating expenses and underlying operating expenses
-
 
 <table>
 <tr>
@@ -16530,25 +13232,17 @@ external factors.
 </tr>
 </table>
 
-
 ### Total spend on goods and services
 
-Total spend on goods and services represents the amounts paid to our suppliers globally and is comprised of both Capital Expenditure and
-Operating Expenditure. Employee costs are excluded from Operating costs as these do not relate to third-party spend.
+Total spend on goods and services represents the amounts paid to our suppliers globally and is comprised of both Capital Expenditure and Operating Expenditure. Employee costs are excluded from Operating costs as these do not relate to third-party spend.
 
-The total spend on goods and services is used to demonstrate the company's societal contribution towards suppliers, contractors and
-communities where Shell operates.
+The total spend on goods and services is used to demonstrate the company's societal contribution towards suppliers, contractors and communities where Shell operates.
 
-The calculation of Total spend on goods and services was changed in
-2023, with data published in previous years being limited to spend for
-Operated assets that has been contracted with the support of the
-Contracting and Procurement team, calculated on a cash payments basis.
-
+The calculation of Total spend on goods and services was changed in 2023, with data published in previous years being limited to spend for Operated assets that has been contracted with the support of the Contracting and Procurement team, calculated on a cash payments basis.
 
 ### Total spend on goods and services
 
 $ million
-
 
 <table>
 <tr>
@@ -16587,24 +13281,15 @@ $ million
 
 [B] See Note 33 to the "Consolidated Financial Statements".
 
-
 ### Structural cost reduction
 
-The structural cost reduction target is used for the purpose of demonstrating how management drives cost discipline across the entire
-organisation, simplifying our processes and portfolio, and streamlining the way we work.
+The structural cost reduction target is used for the purpose of demonstrating how management drives cost discipline across the entire organisation, simplifying our processes and portfolio, and streamlining the way we work.
 
-Structural cost reduction describes the decrease in underlying operating expenses as a result of operational efficiencies, divestments,
-workforce reductions and other cost-saving measures that are expected to be sustainable compared with 2022 levels.
+Structural cost reduction describes the decrease in underlying operating expenses as a result of operational efficiencies, divestments, workforce reductions and other cost-saving measures that are expected to be sustainable compared with 2022 levels.
 
+The total change between periods in underlying operating expenses will reflect both structural cost reductions and other changes in spend, including market factors, such as inflation and foreign exchange impacts, as well as changes in activity levels and costs associated with new operations.
 
-The total change between periods in underlying operating expenses will reflect both structural cost reductions and other changes in spend,
-including market factors, such as inflation and foreign exchange impacts, as well as changes in activity levels and costs associated
-with new operations.
-
-Estimates of cumulative annual structural cost reduction may be revised depending on whether cost reductions realised in prior periods are
-determined to be sustainable compared with 2022 levels. Structural cost reductions are stewarded internally to support management's
-oversight of spending over time. The 2025 target reflects annualised saving achieved by end-2025.
-
+Estimates of cumulative annual structural cost reduction may be revised depending on whether cost reductions realised in prior periods are determined to be sustainable compared with 2022 levels. Structural cost reductions are stewarded internally to support management's oversight of spending over time. The 2025 target reflects annualised saving achieved by end-2025.
 
 <table>
 <tr>
@@ -16656,18 +13341,13 @@ oversight of spending over time. The 2025 target reflects annualised saving achi
 
 [A] Structural cost reductions up to 2024 compared to 2022.
 
-
 ### Capital Employed
 
 Effective from 2024, the definition of capital employed has been amended to reflect the deduction of cash and cash equivalents.
 
-Management believes that the updated methodology better reflects
-Shell's approach to managing capital employed, including the management of cash and cash equivalents alongside total debt and
-equity as part of the financial framework. Comparative information has been revised to reflect the updated definition.
-
+Management believes that the updated methodology better reflects Shell's approach to managing capital employed, including the management of cash and cash equivalents alongside total debt and equity as part of the financial framework. Comparative information has been revised to reflect the updated definition.
 
 ### Capital Employed
-
 
 <table>
 <tr>
@@ -16748,32 +13428,19 @@ equity as part of the financial framework. Comparative information has been revi
 </tr>
 </table>
 
-
 ### Return on average capital employed
 
-Return on average capital employed ("ROACE") measures the efficiency of Shell's utilisation of the capital that it employs. Shell
-uses two ROACE measures: ROACE on an Adjusted Earnings plus
-Non-controlling interest (NCI) basis and LTIP ROACE.
+Return on average capital employed ("ROACE") measures the efficiency of Shell's utilisation of the capital that it employs. Shell uses two ROACE measures: ROACE on an Adjusted Earnings plus Non-controlling interest (NCI) basis and LTIP ROACE.
 
-ROACE on an Adjusted Earnings plus NCI basis relies on earnings on an Adjusted Earnings plus NCI basis excluding identified items adjusted
-for after-tax interest expense and after-tax interest income and is considered to be comparable with Shell's IFRS peers, who tend to
-adjust for similar items when calculating ROACE. The measure refers to Capital employed which consists of Total equity, current debt,
-and non-current debt, reduced by cash and cash equivalents.
+ROACE on an Adjusted Earnings plus NCI basis relies on earnings on an Adjusted Earnings plus NCI basis excluding identified items adjusted for after-tax interest expense and after-tax interest income and is considered to be comparable with Shell's IFRS peers, who tend to adjust for similar items when calculating ROACE. The measure refers to Capital employed which consists of Total equity, current debt, and non-current debt, reduced by cash and cash equivalents.
 
-In addition, the numerator applied to ROACE on an Adjusted Earnings plus NCI basis has been amended to remove interest on cash and cash
-equivalents for consistency with the revised capital employed definition.
+In addition, the numerator applied to ROACE on an Adjusted Earnings plus NCI basis has been amended to remove interest on cash and cash equivalents for consistency with the revised capital employed definition.
 
-LTIP (Long-Term Incentive Plan vesting) ROACE is a performance measure that is used for Long-Term Incentive Plan performance ranking
-and is defined as net income for the period as a percentage of the average capital employed for the period. The Capital Employed that
-is applied is different to the ROACE on an Adjusted earnings plus
-NCI basis in that it is not adjusted for Cash and cash equivalents.
+LTIP (Long-Term Incentive Plan vesting) ROACE is a performance measure that is used for Long-Term Incentive Plan performance ranking and is defined as net income for the period as a percentage of the average capital employed for the period. The Capital Employed that is applied is different to the ROACE on an Adjusted earnings plus NCI basis in that it is not adjusted for Cash and cash equivalents.
 
-ROACE on a Net Income basis has been discontinued, as this measure is no longer routinely used by management in assessing the efficiency
-of capital employed.
-
+ROACE on a Net Income basis has been discontinued, as this measure is no longer routinely used by management in assessing the efficiency of capital employed.
 
 #### ROACE on an Adjusted Earnings plus Non-controlling interest (NCI) basis
-
 
 <table>
 <tr>
@@ -16849,9 +13516,7 @@ of capital employed.
 </tr>
 </table>
 
-
 #### LTIP ROACE
-
 
 <table>
 <tr>
@@ -16897,49 +13562,27 @@ of capital employed.
 </tr>
 </table>
 
+Furthermore an additional measure of Price normalised ROACE on an Adjusted Earnings plus NCI basis, was introduced during Capital Market Day 2025 for purposes of tracking improvement in underlying
 
-Furthermore an additional measure of Price normalised ROACE on an
-Adjusted Earnings plus NCI basis, was introduced during Capital
-Market Day 2025 for purposes of tracking improvement in underlying
+performance in the utilisation of the capital that the company employs. The exclusion of the impact of price effects provides a more comparable reflection of the underlying business performance.
 
+This new measure will be calculated in the same manner as ROACE on an Adjusted Earnings plus NCI basis, with the only difference being the price-normalisation of Adjusted Earnings.
 
-performance in the utilisation of the capital that the company employs. The exclusion of the impact of price effects provides a more
-comparable reflection of the underlying business performance.
+Price-normalisation refers to the process of removing the impact of macroeconomic price movements, so as to determine a more comparable basis for calculating the ROACE year on year. Shell believes this is a more meaningful basis for investors to be able to assess the Company's performance over time.
 
-This new measure will be calculated in the same manner as ROACE on an Adjusted Earnings plus NCI basis, with the only difference being the
-price-normalisation of Adjusted Earnings.
-
-Price-normalisation refers to the process of removing the impact of macroeconomic price movements, so as to determine a more
-comparable basis for calculating the ROACE year on year. Shell believes this is a more meaningful basis for investors to be able to
-assess the Company's performance over time.
-
-The normalised Adjusted Earnings will be determined by pricenormalising the adjusted earnings using a price set as published in
-Quarterly Databook for Brent, Henry Hub on a real term 2024 basis (and related gas markers) and Refining and Chemicals Margin to a
-price set as communicated during Capital Market Day 2025.
-
+The normalised Adjusted Earnings will be determined by pricenormalising the adjusted earnings using a price set as published in Quarterly Databook for Brent, Henry Hub on a real term 2024 basis (and related gas markers) and Refining and Chemicals Margin to a price set as communicated during Capital Market Day 2025.
 
 ### Net debt, Net debt excluding lease liabilities and gearing
 
-Net debt is defined as the sum of current and non-current debt, less cash and cash equivalents, adjusted for the fair value of derivative
-financial instruments used to hedge foreign exchange and interest rate risk relating to debt, and associated collateral balances.
-Management considers this adjustment useful because it reduces the volatility of net debt caused by fluctuations in foreign exchange and
-interest rates, and eliminates the potential impact of related collateral payments or receipts. Debt-related derivative financial instruments are
-a subset of the derivative financial instrument assets and liabilities presented on the balance sheet. Collateral balances are reported
-under "Trade and other receivables" or "Trade and other payables" as appropriate. See also Note 20 to the "Consolidated Financial
-Statements".
+Net debt is defined as the sum of current and non-current debt, less cash and cash equivalents, adjusted for the fair value of derivative financial instruments used to hedge foreign exchange and interest rate risk relating to debt, and associated collateral balances. Management considers this adjustment useful because it reduces the volatility of net debt caused by fluctuations in foreign exchange and interest rates, and eliminates the potential impact of related collateral payments or receipts. Debt-related derivative financial instruments are a subset of the derivative financial instrument assets and liabilities presented on the balance sheet. Collateral balances are reported under "Trade and other receivables" or "Trade and other payables" as appropriate. See also Note 20 to the "Consolidated Financial Statements".
 
 Net debt excluding lease liabilities is calculated by subtracting lease liabilities from Net Debt.
 
-Lease Liabilities are frequently long-term operational necessities rather than discretionary financing choices. Management believes that using
-Net debt excluding lease liabilities alongside Net debt gives better insight to the financial position by reflecting debt directly tied to
-financing activities, and improving comparability against peers with different asset ownership strategies or following different
-accounting standards.
+Lease Liabilities are frequently long-term operational necessities rather than discretionary financing choices. Management believes that using Net debt excluding lease liabilities alongside Net debt gives better insight to the financial position by reflecting debt directly tied to financing activities, and improving comparability against peers with different asset ownership strategies or following different accounting standards.
 
 Gearing is a measure of Shell's capital structure and is defined as net debt as a percentage of total capital (net debt plus total equity).
 
-
 ### Net debt, Net Debt excluding Lease Liabilities and Gearing
-
 
 <table>
 <tr>
@@ -17022,19 +13665,13 @@ Gearing is a measure of Shell's capital structure and is defined as net debt as 
 </tr>
 </table>
 
-
 ### Cash flow from operating activities excluding working capital movements
 
-Working capital movements are defined as the sum of the following items in the Statement of Cash Flows: (increase) or decrease in
-inventories, (increase) or decrease in current receivables, and increase or (decrease) in current payables.
+Working capital movements are defined as the sum of the following items in the Statement of Cash Flows: (increase) or decrease in inventories, (increase) or decrease in current receivables, and increase or (decrease) in current payables.
 
-Cash flow from operating activities excluding working capital movements is a measure used by Shell to analyse its operating
-cash generation over time excluding the timing effects of changes in inventories and operating receivables and payables from period
-to period.
-
+Cash flow from operating activities excluding working capital movements is a measure used by Shell to analyse its operating cash generation over time excluding the timing effects of changes in inventories and operating receivables and payables from period to period.
 
 ### Cash flow from operating activities excluding working capital movements
-
 
 <table>
 <tr>
@@ -17081,23 +13718,15 @@ to period.
 </tr>
 </table>
 
-[A] To further enhance consistency between working capital and the Balance Sheet and the
-Statement of Cash Flows, from January 1, 2024, onwards movements in current other provisions are recognised in 'Decommissioning and other provisions' instead of 'Increase/
-(decrease) in current payables'. Comparatives for 2023 and 2022 have been reclassified accordingly to conform with current period presentation.
-
+[A] To further enhance consistency between working capital and the Balance Sheet and the Statement of Cash Flows, from January 1, 2024, onwards movements in current other provisions are recognised in 'Decommissioning and other provisions' instead of 'Increase/ (decrease) in current payables'. Comparatives for 2023 and 2022 have been reclassified accordingly to conform with current period presentation.
 
 ### Shareholder distribution and Shareholder distribution as percentage of CFFO
 
-Shareholder distribution is used to evaluate the level of cash distribution to shareholders. It is defined as the sum of Cash dividends
-paid to Shell plc shareholders and Repurchases of shares. Both are reported in the Consolidated Statement of Cash Flows.
+Shareholder distribution is used to evaluate the level of cash distribution to shareholders. It is defined as the sum of Cash dividends paid to Shell plc shareholders and Repurchases of shares. Both are reported in the Consolidated Statement of Cash Flows.
 
-Shareholder distribution as a percentage of CFFO is used to measure the company's progress on increasing returns to shareholders. This
-measure is calculated by dividing the Shareholder distribution by the annual CFFO as presented in the Consolidated Statement
-of Cash Flows.
-
+Shareholder distribution as a percentage of CFFO is used to measure the company's progress on increasing returns to shareholders. This measure is calculated by dividing the Shareholder distribution by the annual CFFO as presented in the Consolidated Statement of Cash Flows.
 
 ### Shareholder distribution and Shareholder distribution as percentage of CFFO
-
 
 <table>
 <tr>
@@ -17138,12 +13767,9 @@ of Cash Flows.
 </tr>
 </table>
 
-
 ### Divestment proceeds
 
-Divestment proceeds represent cash received from divestment activities in the period. Management regularly monitors this measure as a key
-lever to deliver sustainable cash flow.
-
+Divestment proceeds represent cash received from divestment activities in the period. Management regularly monitors this measure as a key lever to deliver sustainable cash flow.
 
 <table>
 <tr>
@@ -17181,18 +13807,13 @@ lever to deliver sustainable cash flow.
 </tr>
 </table>
 
-
 ### Free cash flow and organic free cash flow
 
-Free cash flow is used to evaluate cash available for financing activities, including shareholder distributions and debt servicing,
-after investment in maintaining and growing our business.
+Free cash flow is used to evaluate cash available for financing activities, including shareholder distributions and debt servicing, after investment in maintaining and growing our business.
 
-Organic free cash flow is defined as Free cash flow excluding the cash flows from acquisition and divestment activities. It is a measure
-used by management to evaluate generation of cash flow without these activities.
-
+Organic free cash flow is defined as Free cash flow excluding the cash flows from acquisition and divestment activities. It is a measure used by management to evaluate generation of cash flow without these activities.
 
 ### Free cash flow and Organic free cash flow
-
 
 <table>
 <tr>
@@ -17247,37 +13868,21 @@ used by management to evaluate generation of cash flow without these activities.
 
 [A] See "Divestment Proceeds" on page 451.
 
-[B] Cash outflows related to inorganic capital expenditure includes portfolio actions which expand Shell's activities through acquisitions and restructuring activities as reported in
-capital expenditure lines in the "Consolidated Statement of Cash Flows".
-
+[B] Cash outflows related to inorganic capital expenditure includes portfolio actions which expand Shell's activities through acquisitions and restructuring activities as reported in capital expenditure lines in the "Consolidated Statement of Cash Flows".
 
 ### Price-normalised free cash flow growth and Price- normalised free cash flow growth per share
 
-Price-normalised free cash flow growth (of 6% average growth over the
-2022-2030 period) and Price-normalised free cash flow growth per share (of 10% average per annum over the 2022 - 2025 period) are business
-targets introduced during Capital Markets Day (CMD23) in 2023 for the purposes of demonstrating progress in value creation towards achieving
-our strategy, reported on an annual basis.
+Price-normalised free cash flow growth (of 6% average growth over the 2022-2030 period) and Price-normalised free cash flow growth per share (of 10% average per annum over the 2022 - 2025 period) are business targets introduced during Capital Markets Day (CMD23) in 2023 for the purposes of demonstrating progress in value creation towards achieving our strategy, reported on an annual basis.
 
-Price-normalisation refers to the process of removing the impact of macroeconomic price movements, so as to determine a more
-comparable basis for calculating the growth in free cash flow year on year. Shell believes this is a more meaningful basis for investors
-to be able to assess the Company's performance over time.
+Price-normalisation refers to the process of removing the impact of macroeconomic price movements, so as to determine a more comparable basis for calculating the growth in free cash flow year on year. Shell believes this is a more meaningful basis for investors to be able to assess the Company's performance over time.
 
-Price-normalised cash flow from operating activities (CFFO) is determined by normalising the actual cash flow for the period by
-applying the price set communicated during CMD23 of: Brent, Henry
-Hub and related gas markers on a real-term 2022 basis, based on
-Operating Plan 2022 long-term price guidance until 2030 and, historical average Refining Margin $4-$6 per tonne (nominal) and
-historical average Chemicals Margin $150-$250 per tonne (nominal). The Price-normalised CFFO is added to Cash flow from Investments to
-achieve the Price-normalised free cash flow.
+Price-normalised cash flow from operating activities (CFFO) is determined by normalising the actual cash flow for the period by applying the price set communicated during CMD23 of: Brent, Henry Hub and related gas markers on a real-term 2022 basis, based on Operating Plan 2022 long-term price guidance until 2030 and, historical average Refining Margin $4-$6 per tonne (nominal) and historical average Chemicals Margin $150-$250 per tonne (nominal). The Price-normalised CFFO is added to Cash flow from Investments to achieve the Price-normalised free cash flow.
 
 The Price-normalised free cash flow growth is determined by comparing the Price-normalised free cash flow of the current year to the previous year.
 
-The Price-normalised free cash flow growth per share is calculated by first dividing the Price-normalised free cash flow for the year by the
-number of shares outstanding at the end of the period (the number of shares excludes shares held in trust), then comparing the current year
-Price-normalised free cash flow growth per share to the previous year.
-
+The Price-normalised free cash flow growth per share is calculated by first dividing the Price-normalised free cash flow for the year by the number of shares outstanding at the end of the period (the number of shares excludes shares held in trust), then comparing the current year Price-normalised free cash flow growth per share to the previous year.
 
 #### Price-normalised free cash flow growth
-
 
 <table>
 <tr>
@@ -17332,9 +13937,7 @@ Price-normalised free cash flow growth per share to the previous year.
 
 [A] Rounded to the nearest half billion. See below for explanation of how the Pricenormalisation impact is calculated.
 
-
 #### Price-normalised free cash flow growth per share
-
 
 <table>
 <tr>
@@ -17369,9 +13972,7 @@ Price-normalised free cash flow growth per share to the previous year.
 </tr>
 </table>
 
-
 #### Shares outstanding
-
 
 <table>
 <tr>
@@ -17402,20 +14003,15 @@ Price-normalised free cash flow growth per share to the previous year.
 
 [B] See Note 28 to the "Consolidated Financial Statements". Each ADS represents two ordinary shares.
 
-
 #### Calculation of the price-normalisation
 
-For each of the price markers shown in the table below, a comparison is made between the average prices for the period (published on our
-website Shell.com) against the price set shown below, which is based on the prices published at CMD23.
+For each of the price markers shown in the table below, a comparison is made between the average prices for the period (published on our website Shell.com) against the price set shown below, which is based on the prices published at CMD23.
 
-The price sensitivities shown in the table following, indicate the estimated impact in CFFO for the change in each price marker.
-The price sensitivities are applied to the price variance of each price marker to determine the impact on CFFO.
+The price sensitivities shown in the table following, indicate the estimated impact in CFFO for the change in each price marker. The price sensitivities are applied to the price variance of each price marker to determine the impact on CFFO.
 
 No price adjustments are made for Marketing and Renewables and Energy Solutions.
 
-
 ### Price set applied
-
 
 <table>
 <tr>
@@ -17462,9 +14058,7 @@ No price adjustments are made for Marketing and Renewables and Energy Solutions.
 </tr>
 </table>
 
-
 ### Price sensitivities applied
-
 
 <table>
 <tr>
@@ -17535,42 +14129,25 @@ No price adjustments are made for Marketing and Renewables and Energy Solutions.
 </tr>
 </table>
 
-
 ### Normalised free cash flow growth per share
 
-Normalised free cash flow growth per share is a new business target introduced during Capital Markets Day in 2025 for purposes of
-demonstrating progress in value creation towards achieving our strategy, reported on an annual basis.
+Normalised free cash flow growth per share is a new business target introduced during Capital Markets Day in 2025 for purposes of demonstrating progress in value creation towards achieving our strategy, reported on an annual basis.
 
-As from 2025 this new measure will replace the previous measures of
-Price-normalised free cash flow growth and Price-normalised free cash flow growth per share and will apply Organic free cash flow as the
-basis instead of Free cash flow, and also exclude the volatility of working capital and derivatives.
+As from 2025 this new measure will replace the previous measures of Price-normalised free cash flow growth and Price-normalised free cash flow growth per share and will apply Organic free cash flow as the basis instead of Free cash flow, and also exclude the volatility of working capital and derivatives.
 
-Price-normalised free cash flow will be determined by price-normalising the organic free cash flow using a price set as published in the
-Quarterly Databook for Brent, Henry Hub on a real term 2024 basis (and related gas markers) and Refining and Chemicals Margin to a
-price set as communicated during Capital Market Day 2025. This Pricenormalised organic free cash flow is then adjusted for the impact of
-working capital and derivatives.
+Price-normalised free cash flow will be determined by price-normalising the organic free cash flow using a price set as published in the Quarterly Databook for Brent, Henry Hub on a real term 2024 basis (and related gas markers) and Refining and Chemicals Margin to a price set as communicated during Capital Market Day 2025. This Pricenormalised organic free cash flow is then adjusted for the impact of working capital and derivatives.
 
-Price-normalisation refers to the process of removing the impact of macroeconomic price movements, so as to determine a more
-comparable basis for calculating the growth in organic free cash flow year on year. Shell believes this is a more meaningful basis for investors
-to be able to assess the Company's performance over time.
+Price-normalisation refers to the process of removing the impact of macroeconomic price movements, so as to determine a more comparable basis for calculating the growth in organic free cash flow year on year. Shell believes this is a more meaningful basis for investors to be able to assess the Company's performance over time.
 
-The Normalised free cash flow per share is calculated by dividing the
-Normalised free cash flow (see above) by the number of shares outstanding at the end of the period (the number of shares excludes
-shares held in trust).
+The Normalised free cash flow per share is calculated by dividing the Normalised free cash flow (see above) by the number of shares outstanding at the end of the period (the number of shares excludes shares held in trust).
 
-The Normalised free cash flow growth per share is determined by comparing the Normalised free cash flow per share of the current year
-to the previous year.
-
+The Normalised free cash flow growth per share is determined by comparing the Normalised free cash flow per share of the current year to the previous year.
 
 ### Taxes paid
 
-Taxes paid represents the taxes paid to governments and comprises
-Corporate income tax and government royalties.
+Taxes paid represents the taxes paid to governments and comprises Corporate income tax and government royalties.
 
-This measure differs to prior years reporting in that taxes of excise duties, sales taxes and similar levies on our fuel and products that are
-collected on behalf of the governments are no longer included. The removal of taxes collected which are not directly sourced from our
-systems is in line with our strategic simplification approach.
-
+This measure differs to prior years reporting in that taxes of excise duties, sales taxes and similar levies on our fuel and products that are collected on behalf of the governments are no longer included. The removal of taxes collected which are not directly sourced from our systems is in line with our strategic simplification approach.
 
 <table>
 <tr>
@@ -17602,21 +14179,11 @@ systems is in line with our strategic simplification approach.
 </tr>
 </table>
 
-
 ## Significant subsidiaries and other related undertakings (audited)
 
-Significant subsidiaries and other related undertakings at December 31, 2024, are set out below. These are included in the "Consolidated
-Financial Statements" on pages 241-312. Shell's percentage of share capital is shown to the nearest whole number. Subsidiaries are disclosed
-separately from all other undertakings. Subsidiaries directly held by the Company are marked with the annotation [a]. A number of the entities
-listed are dormant or not yet operational. Entities that are proportionately consolidated are identified by the annotation [b]. Shell-owned shares
-are ordinary shares unless identified with one of the following annotations against the company name: [c] Membership interest; [d] Partnership
-capital; [e] Non-redeemable; [f] Ordinary, Partnership capital; [g] Ordinary, Redeemable; [h] Ordinary, Redeemable, Non-redeemable; and [i]
-Redeemable, Non-redeemable; and [k] Deferred shares. Percentages reflect the Group Ownership Interest which represents the Shell Group's
-stake in an entity, regardless of the voting and non-voting shares.
-
+Significant subsidiaries and other related undertakings at December 31, 2024, are set out below. These are included in the "Consolidated Financial Statements" on pages 241-312. Shell's percentage of share capital is shown to the nearest whole number. Subsidiaries are disclosed separately from all other undertakings. Subsidiaries directly held by the Company are marked with the annotation [a]. A number of the entities listed are dormant or not yet operational. Entities that are proportionately consolidated are identified by the annotation [b]. Shell-owned shares are ordinary shares unless identified with one of the following annotations against the company name: [c] Membership interest; [d] Partnership capital; [e] Non-redeemable; [f] Ordinary, Partnership capital; [g] Ordinary, Redeemable; [h] Ordinary, Redeemable, Non-redeemable; and [i] Redeemable, Non-redeemable; and [k] Deferred shares. Percentages reflect the Group Ownership Interest which represents the Shell Group's stake in an entity, regardless of the voting and non-voting shares.
 
 ### Subsidiaries including Shell plc Direct Holdings
-
 
 <table>
 <tr>
@@ -17797,7 +14364,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 </tr>
 </table>
 
-
 <table>
 <tr>
 <td>Company by country and address of incorporation</td>
@@ -17972,10 +14538,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 <td>100</td>
 </tr>
 </table>
-
-
-#### Additional Information | Appendix | Significant subsidiaries and other related undertakings (audited) continued
-
 
 <table>
 <tr>
@@ -18184,7 +14746,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 <td>100</td>
 </tr>
 </table>
-
 
 <table>
 <tr>
@@ -18420,10 +14981,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 </tr>
 </table>
 
-
-#### Additional Information | Appendix | Significant subsidiaries and other related undertakings (audited) continued
-
-
 <table>
 <tr>
 <th>Company by country and address of incorporation</th>
@@ -18649,7 +15206,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 </tr>
 </table>
 
-
 <table>
 <tr>
 <th>Company by country and address of incorporation</th>
@@ -18851,10 +15407,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 <td>80</td>
 </tr>
 </table>
-
-
-#### Additional Information | Appendix | Significant subsidiaries and other related undertakings (audited) continued
-
 
 <table>
 <tr>
@@ -19071,7 +15623,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 </tr>
 </table>
 
-
 <table>
 <tr>
 <th>Company by country and address of incorporation</th>
@@ -19281,10 +15832,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 <td>100</td>
 </tr>
 </table>
-
-
-#### Additional Information | Appendix | Significant subsidiaries and other related undertakings (audited) continued
-
 
 <table>
 <tr>
@@ -19502,7 +16049,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 </tr>
 </table>
 
-
 <table>
 <tr>
 <th>Company by country and address of incorporation</th>
@@ -19716,10 +16262,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 <td>100</td>
 </tr>
 </table>
-
-
-#### Additional Information | Appendix | Significant subsidiaries and other related undertakings (audited) continued
-
 
 <table>
 <tr>
@@ -19947,7 +16489,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 </tr>
 </table>
 
-
 <table>
 <tr>
 <th>Company by country and address of incorporation</th>
@@ -20162,10 +16703,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 </tr>
 </table>
 
-
-#### Additional Information | Appendix | Significant subsidiaries and other related undertakings (audited) continued
-
-
 <table>
 <tr>
 <th>Company by country and address of incorporation</th>
@@ -20374,7 +16911,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 <td>100</td>
 </tr>
 </table>
-
 
 <table>
 <tr>
@@ -20600,10 +17136,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 <td>100</td>
 </tr>
 </table>
-
-
-#### Additional Information | Appendix | Significant subsidiaries and other related undertakings (audited) continued
-
 
 <table>
 <tr>
@@ -20848,7 +17380,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 </tr>
 </table>
 
-
 <table>
 <tr>
 <td>Company by country and address of incorporation</td>
@@ -21092,10 +17623,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 </tr>
 </table>
 
-
-#### Additional Information | Appendix | Significant subsidiaries and other related undertakings (audited) continued
-
-
 <table>
 <tr>
 <th>Company by country and address of incorporation</th>
@@ -21319,7 +17846,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 </tr>
 </table>
 
-
 <table>
 <tr>
 <th>Company by country and address of incorporation</th>
@@ -21524,10 +18050,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 </table>
 
 [A] As detailed elsewhere in this report, on March 13, 2025, Shell completed the sale of SPDC to Renaissance.
-
-
-#### Additional Information | Appendix | Significant subsidiaries and other related undertakings (audited) continued
-
 
 <table>
 <tr>
@@ -21744,7 +18266,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 <td>72</td>
 </tr>
 </table>
-
 
 <table>
 <tr>
@@ -21975,10 +18496,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 </tr>
 </table>
 
-
-#### Additional Information | Appendix | Significant subsidiaries and other related undertakings (audited) continued
-
-
 <table>
 <tr>
 <th>Company by country and address of incorporation</th>
@@ -22201,7 +18718,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 <td>100</td>
 </tr>
 </table>
-
 
 <table>
 <tr>
@@ -22443,10 +18959,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 <td>100</td>
 </tr>
 </table>
-
-
-#### Additional Information | Appendix | Significant subsidiaries and other related undertakings (audited) continued
-
 
 <table>
 <tr>
@@ -22691,7 +19203,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 </tr>
 </table>
 
-
 <table>
 <tr>
 <td>Company by country and address of incorporation</td>
@@ -22916,10 +19427,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 </tr>
 </table>
 
-
-#### Additional Information | Appendix | Significant subsidiaries and other related undertakings (audited) continued
-
-
 <table>
 <tr>
 <th>Company by country and address of incorporation</th>
@@ -23141,7 +19648,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 <td>100</td>
 </tr>
 </table>
-
 
 <table>
 <tr>
@@ -23386,10 +19892,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 </tr>
 </table>
 
-
-#### Additional Information | Appendix | Significant subsidiaries and other related undertakings (audited) continued
-
-
 <table>
 <tr>
 <th>Company by country and address of incorporation</th>
@@ -23632,7 +20134,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 <td>100</td>
 </tr>
 </table>
-
 
 <table>
 <tr>
@@ -23877,10 +20378,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 </tr>
 </table>
 
-
-#### Additional Information | Appendix | Significant subsidiaries and other related undertakings (audited) continued
-
-
 <table>
 <tr>
 <th>Company by country and address of incorporation</th>
@@ -24111,7 +20608,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 <td>100</td>
 </tr>
 </table>
-
 
 <table>
 <tr>
@@ -24344,10 +20840,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 </tr>
 </table>
 
-
-#### Additional Information | Appendix | Significant subsidiaries and other related undertakings (audited) continued
-
-
 <table>
 <tr>
 <th>Company by country and address of incorporation</th>
@@ -24555,7 +21047,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 </tr>
 </table>
 
-
 <table>
 <tr>
 <th>Company by country and address of incorporation</th>
@@ -24735,12 +21226,7 @@ stake in an entity, regardless of the voting and non-voting shares.
 </tr>
 </table>
 
-
-## Additional Information | Appendix | Significant subsidiaries and other related undertakings (audited) continued
-
-
 ### Other related undertakings
-
 
 <table>
 <tr>
@@ -24959,7 +21445,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 </tr>
 </table>
 
-
 <table>
 <tr>
 <th>Company by country and address of incorporation</th>
@@ -25158,10 +21643,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 <td>49</td>
 </tr>
 </table>
-
-
-## Additional Information | Appendix | Significant subsidiaries and other related undertakings (audited) continued
-
 
 <table>
 <tr>
@@ -25396,7 +21877,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 </tr>
 </table>
 
-
 <table>
 <tr>
 <th>Company by country and address of incorporation</th>
@@ -25619,10 +22099,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 </tr>
 </table>
 
-
-## Additional Information | Appendix | Significant subsidiaries and other related undertakings (audited) continued
-
-
 <table>
 <tr>
 <th>Company by country and address of incorporation</th>
@@ -25822,7 +22298,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 <td>60</td>
 </tr>
 </table>
-
 
 <table>
 <tr>
@@ -26050,10 +22525,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 </tr>
 </table>
 
-
-## Additional Information | Appendix | Significant subsidiaries and other related undertakings (audited) continued
-
-
 <table>
 <tr>
 <th>Company by country and address of incorporation</th>
@@ -26265,7 +22736,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 <td>51</td>
 </tr>
 </table>
-
 
 <table>
 <tr>
@@ -26488,10 +22958,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 </tr>
 </table>
 
-
-## Additional Information | Appendix | Significant subsidiaries and other related undertakings (audited) continued
-
-
 <table>
 <tr>
 <th>Company by country and address of incorporation</th>
@@ -26698,7 +23164,6 @@ stake in an entity, regardless of the voting and non-voting shares.
 </tr>
 </table>
 
-
 <table>
 <tr>
 <th>Company by country and address of incorporation</th>
@@ -26902,16 +23367,9 @@ stake in an entity, regardless of the voting and non-voting shares.
 </tr>
 </table>
 
-
-## Additional Information | Appendix | Significant subsidiaries and other related undertakings (audited) continued
-
-
 ### Company by country and address of incorporation
 
 %
-
-
-#### USA continued
 
 THE CORPORATION TRUST COMPANY, 1209 ORANGE STREET, CORPORATION TRUST
 
@@ -26939,12 +23397,11 @@ Three Wind Holdings, LLC [c]
 
 URSA Oil Pipeline Company LLC [c]
 
-##### Whitewater Hill Wind Partners, LLC [c]
+### Whitewater Hill Wind Partners, LLC [c]
 
 THE CORPORATION TRUST COMPANY, CORPORATION TRUST CENTER, 1209
 
 ORANGE STREET, WILMINGTON, 19801
-
 
 ### Brazos Wind Holdings, LLC [b] [c]
 
@@ -26962,19 +23419,15 @@ Oceanus Pipeline Company, LLC [c]
 
 #### Silicon Ranch Corporation
 
-THE CORPORATION TRUST COMPANY, CORPORATION TRUST CENTER, 1209
-ORANGE STREET, WILMINGTON, DE 19801
-
+THE CORPORATION TRUST COMPANY, CORPORATION TRUST CENTER, 1209 ORANGE STREET, WILMINGTON, DE 19801
 
 #### Peru LNG Company LLC [c]
 
-THE CORPORATION TRUST COMPANY, CORPORATION TRUST CENTRE, 1209
-ORANGE STREET, WILMINGTON, 19801
+THE CORPORATION TRUST COMPANY, CORPORATION TRUST CENTRE, 1209 ORANGE STREET, WILMINGTON, 19801
 
 Blue Tide Environmental LLC [f]
 
 96 CLEMATIS AVE, WALTHAM, MA 02453
-
 
 ### Cumulus Digital Systems, Inc.
 
@@ -26988,23 +23441,19 @@ Sucre Gas, S.A.
 
 #### ZAMBIA
 
-7TH FLOOR, NATIONAL SAVINGS & CREDIT BANK BUILDING, CAIRO ROAD, NORTH
-END, LUSAKA, LUSAKA
+7TH FLOOR, NATIONAL SAVINGS & CREDIT BANK BUILDING, CAIRO ROAD, NORTH END, LUSAKA, LUSAKA
 
 Shell Zambia Limited
 
 #### ZIMBABWE
 
-BLOCK 1, TENDESEKA OFFICE PARK, CNR SAMORA MACHEL AVENUE, RENFREW
-ROAD, HARARE
+BLOCK 1, TENDESEKA OFFICE PARK, CNR SAMORA MACHEL AVENUE, RENFREW ROAD, HARARE
 
 Central African Petroleum Refineries (Private) Limited
-
 
 ## Financial calendar in 2025
 
 The Annual General Meeting will be held on May 20, 2025.
-
 
 <table>
 <tr>
@@ -27085,18 +23534,11 @@ The Annual General Meeting will be held on May 20, 2025.
 
 [C] The Directors do not propose to recommend any further distribution in respect of 2024.
 
-[D] A different currency election date may apply to shareholders holding shares in a securities account with a bank or financial institution ultimately through Euroclear Nederland. This may
-also apply to other shareholders who do not hold their shares either directly on the Register of Members or in the corporate sponsored nominee arrangement. Shareholders can contact
-their broker, financial intermediary, bank or financial institution for the election deadline that applies.
-
+[D] A different currency election date may apply to shareholders holding shares in a securities account with a bank or financial institution ultimately through Euroclear Nederland. This may also apply to other shareholders who do not hold their shares either directly on the Register of Members or in the corporate sponsored nominee arrangement. Shareholders can contact their broker, financial intermediary, bank or financial institution for the election deadline that applies.
 
 ## Contact Us
 
-The best way to get in touch is via the "Contact us" section of the Shell website shell.com/investors. From here questions are properly directed
-to the Shell team that can assist. In addition, we have introduced an automated question response tool to assist with the most popular
-questions that we receive and reviewed and updated the "Shareholder FAQ" section of our website to provide the most time efficient
-information for our investors.
-
+The best way to get in touch is via the "Contact us" section of the Shell website shell.com/investors. From here questions are properly directed to the Shell team that can assist. In addition, we have introduced an automated question response tool to assist with the most popular questions that we receive and reviewed and updated the "Shareholder FAQ" section of our website to provide the most time efficient information for our investors.
 
 <table>
 <tr>
@@ -27151,132 +23593,40 @@ information for our investors.
 </tr>
 </table>
 
-
 <figure>
 <figcaption>Registered Office and HQ contact is Shell plc at Shell Centre, London SE1 7NA, United Kingdom, and the company is registered in England and Wales with company number 4366849. Share registration is handled by Equiniti at Aspect House, Spencer Road, Lancing, West Sussex BN99 6DA, United Kingdom, with telephone 0800 169 1679, email customer@equiniti.com, and online information available at shareview.co.uk. Investor Relations contact options include Shell plc, PO Box 162, 2501 AN The Hague, The Netherlands, or Shell Oil Company Investor Relations at 150 N Dairy Ashford, Houston, TX 77079, USA, with further information at shell.com/investors. American Depositary Shares (ADSs) are managed by JPMorgan Chase Bank, N.A., Shareowner Services, P.O. Box 64504, St. Paul, MN 55164-0504, USA. Overnight correspondence for Shareowner Services should be sent to 1110 Centre Pointe Curve, Suite 101, Mendota Heights, MN 55120-4100, USA, and telephone contacts are +1 888 737 2377 (USA only) and +1 651 453 2128 (International). Additional ADSs online contact references are shareowneronline.com/informational/contact-us/ and adr.com/shareholder. Annual report ordering is available at shell.com/annualreport.</figcaption>
 </figure>
 
-
 ## About this Report
 
-The Shell plc Annual Report (this "Report") serves as the Annual Report and Accounts in accordance with UK requirements for the year ended
-December 31, 2024, for Shell plc (the "Company") and its subsidiaries (collectively referred to as "Shell"). This Report presents the Consolidated
-Financial Statements of Shell (pages 241-312) and the Parent Company
-Financial Statements of Shell (pages 333-339). Except for these Financial
-Statements, the numbers presented throughout this Report may not sum precisely to the totals provided and percentages may not precisely reflect
-the absolute figures due to rounding.
+The Shell plc Annual Report (this "Report") serves as the Annual Report and Accounts in accordance with UK requirements for the year ended December 31, 2024, for Shell plc (the "Company") and its subsidiaries (collectively referred to as "Shell"). This Report presents the Consolidated Financial Statements of Shell (pages 241-312) and the Parent Company Financial Statements of Shell (pages 333-339). Except for these Financial Statements, the numbers presented throughout this Report may not sum precisely to the totals provided and percentages may not precisely reflect the absolute figures due to rounding.
 
-The Consolidated Financial Statements of Shell plc and its subsidiaries contained in this Report have been prepared in accordance with
-international accounting standards in conformity with the requirements of the UK Companies Act 2006 (the "Act"), and therefore in accordance
-with UK-adopted international accounting standards. As applied to Shell, there are no material differences from International Financial Reporting
-Standards (IFRS) as issued by the International Accounting Standards
-Board (IASB); therefore, the Consolidated Financial Statements have been prepared in accordance with IFRS as issued by the IASB. IFRS as
-defined above includes interpretations issued by the IFRS Interpretations
-Committee. Financial reporting terms used in this Report are in accordance with IFRS.
+The Consolidated Financial Statements of Shell plc and its subsidiaries contained in this Report have been prepared in accordance with international accounting standards in conformity with the requirements of the UK Companies Act 2006 (the "Act"), and therefore in accordance with UK-adopted international accounting standards. As applied to Shell, there are no material differences from International Financial Reporting Standards (IFRS) as issued by the International Accounting Standards Board (IASB); therefore, the Consolidated Financial Statements have been prepared in accordance with IFRS as issued by the IASB. IFRS as defined above includes interpretations issued by the IFRS Interpretations Committee. Financial reporting terms used in this Report are in accordance with IFRS.
 
-This Report contains certain forward-looking non-GAAP measures such as cash capital expenditure and divestments. We are unable to provide a
-reconciliation of these forward-looking non-GAAP measures to the most comparable GAAP financial measures because certain information
-needed to reconcile those non-GAAP measures to the most comparable
-GAAP financial measures is dependent on future events some of which are outside the control of Shell, such as oil and gas prices, interest rates
-and exchange rates. Moreover, estimating such GAAP measures with the required precision necessary to provide a meaningful reconciliation is
-extremely difficult and could not be accomplished without unreasonable effort. Non-GAAP measures in respect of future periods which cannot
-be reconciled to the most comparable GAAP financial measure are calculated in a manner which is consistent with the accounting policies
-applied in Shell plc's consolidated financial statements.
+This Report contains certain forward-looking non-GAAP measures such as cash capital expenditure and divestments. We are unable to provide a reconciliation of these forward-looking non-GAAP measures to the most comparable GAAP financial measures because certain information needed to reconcile those non-GAAP measures to the most comparable GAAP financial measures is dependent on future events some of which are outside the control of Shell, such as oil and gas prices, interest rates and exchange rates. Moreover, estimating such GAAP measures with the required precision necessary to provide a meaningful reconciliation is extremely difficult and could not be accomplished without unreasonable effort. Non-GAAP measures in respect of future periods which cannot be reconciled to the most comparable GAAP financial measure are calculated in a manner which is consistent with the accounting policies applied in Shell plc's consolidated financial statements.
 
-The companies in which Shell plc directly and indirectly owns investments are separate legal entities. In this report "Shell", "Shell Group" and
-"Group" are sometimes used for convenience to reference Shell plc and its subsidiaries in general. Likewise, the words "we", "us" and "our" are also
-used to refer to Shell plc and its subsidiaries in general or to those who work for them. These terms are also used where no useful purpose is
-served by identifying the particular entity or entities. "Subsidiaries", "Shell subsidiaries" and "Shell companies" as used in this report refer to entities
-over which Shell plc either directly or indirectly has control. The terms
-"joint venture", "joint operations", "joint arrangements", and "associates" may also be used to refer to a commercial arrangement in which Shell has
-a direct or indirect ownership interest with one or more parties. The term
-"Shell interest" is used for convenience to indicate the direct and/or indirect ownership interest held by Shell in an entity or unincorporated
-joint arrangement, after exclusion of all third-party interest.
+The companies in which Shell plc directly and indirectly owns investments are separate legal entities. In this report "Shell", "Shell Group" and "Group" are sometimes used for convenience to reference Shell plc and its subsidiaries in general. Likewise, the words "we", "us" and "our" are also used to refer to Shell plc and its subsidiaries in general or to those who work for them. These terms are also used where no useful purpose is served by identifying the particular entity or entities. "Subsidiaries", "Shell subsidiaries" and "Shell companies" as used in this report refer to entities over which Shell plc either directly or indirectly has control. The terms "joint venture", "joint operations", "joint arrangements", and "associates" may also be used to refer to a commercial arrangement in which Shell has a direct or indirect ownership interest with one or more parties. The term "Shell interest" is used for convenience to indicate the direct and/or indirect ownership interest held by Shell in an entity or unincorporated joint arrangement, after exclusion of all third-party interest.
 
-As used in this Report, "Accountable" is intended to mean: required or expected to justify actions or decisions. The Accountable person does not
-necessarily implement the action or decision (implementation is usually carried out by the person who is Responsible) but must organise the
-implementation and verify that the action has been carried out as required. This includes obtaining requisite assurance from Shell companies
-that the framework is operating effectively. "Responsible" is intended to mean: required or expected to implement actions or decisions. Each Shell
-company and Shell-operated venture is responsible for its operational performance and compliance with the Shell General Business Principles,
-Code of Conduct, Statement on Risk Management and Risk Manual, and Standards and Manuals. This includes responsibility for the
-operationalisation and implementation of Shell Group strategies and policies.
+As used in this Report, "Accountable" is intended to mean: required or expected to justify actions or decisions. The Accountable person does not necessarily implement the action or decision (implementation is usually carried out by the person who is Responsible) but must organise the implementation and verify that the action has been carried out as required. This includes obtaining requisite assurance from Shell companies that the framework is operating effectively. "Responsible" is intended to mean: required or expected to implement actions or decisions. Each Shell company and Shell-operated venture is responsible for its operational performance and compliance with the Shell General Business Principles, Code of Conduct, Statement on Risk Management and Risk Manual, and Standards and Manuals. This includes responsibility for the operationalisation and implementation of Shell Group strategies and policies.
 
-Shell's "net carbon intensity" referred to in this Report includes Shell's carbon emissions from the production of our energy products, our
-suppliers' carbon emissions in supplying energy for that production, and our customers' carbon emissions associated with their use of the
-energy products we sell. Shell's NCI also includes the emissions associated with the production and use of energy products produced
-by others which Shell purchases for resale. Shell only controls its own emissions. The use of the terms Shell's "net carbon intensity" or NCI is for
-convenience only and not intended to suggest these emissions are those of Shell plc or its subsidiaries.
+Shell's "net carbon intensity" referred to in this Report includes Shell's carbon emissions from the production of our energy products, our suppliers' carbon emissions in supplying energy for that production, and our customers' carbon emissions associated with their use of the energy products we sell. Shell's NCI also includes the emissions associated with the production and use of energy products produced by others which Shell purchases for resale. Shell only controls its own emissions. The use of the terms Shell's "net carbon intensity" or NCI is for convenience only and not intended to suggest these emissions are those of Shell plc or its subsidiaries.
 
-Shell's operating plan and outlook are forecasted for a three year period and 10-year period, respectively, and are updated every year. They
-reflect the current economic environment and what we can reasonably expect to see over the next three and ten years. Accordingly, the outlook
-reflects our Scope 1, Scope 2 and NCI targets over the next 10 years.
-However, Shell's operating plan and outlook cannot reflect our 2050 netzero emissions target, as this target is outside our planning period. Such
-future operating plans and outlooks could include changes to our portfolio, efficiency improvements and the use of carbon capture and
-storage and carbon credits. In the future, as society moves towards netzero emissions, we expect Shell's operating plans and outlooks to reflect
-this movement. However, if society is not net zero in 2050, as of today, there would be significant risk that Shell may not meet this target.
+Shell's operating plan and outlook are forecasted for a three year period and 10-year period, respectively, and are updated every year. They reflect the current economic environment and what we can reasonably expect to see over the next three and ten years. Accordingly, the outlook reflects our Scope 1, Scope 2 and NCI targets over the next 10 years. However, Shell's operating plan and outlook cannot reflect our 2050 netzero emissions target, as this target is outside our planning period. Such future operating plans and outlooks could include changes to our portfolio, efficiency improvements and the use of carbon capture and storage and carbon credits. In the future, as society moves towards netzero emissions, we expect Shell's operating plans and outlooks to reflect this movement. However, if society is not net zero in 2050, as of today, there would be significant risk that Shell may not meet this target.
 
-Except where indicated, the figures shown in the tables in this Report are in respect of subsidiaries only, without deduction of any non-controlling
-interest. However, the term "Shell share" is used for convenience to refer to the volumes of hydrocarbons that are produced, processed or sold
-through subsidiaries, joint ventures and associates. All of a subsidiary's production, processing or sales volumes (including the share of joint
-operations) are included in the Shell share, even if Shell owns less than
-100% of the subsidiary. In the case of joint ventures and associates, however, Shell-share figures are limited only to Shell's entitlement. In
-all cases, royalty payments in kind are deducted from the Shell share.
+Except where indicated, the figures shown in the tables in this Report are in respect of subsidiaries only, without deduction of any non-controlling interest. However, the term "Shell share" is used for convenience to refer to the volumes of hydrocarbons that are produced, processed or sold through subsidiaries, joint ventures and associates. All of a subsidiary's production, processing or sales volumes (including the share of joint operations) are included in the Shell share, even if Shell owns less than 100% of the subsidiary. In the case of joint ventures and associates, however, Shell-share figures are limited only to Shell's entitlement. In all cases, royalty payments in kind are deducted from the Shell share.
 
-Except where indicated, the figures shown in this Report are stated in
-US dollars. As used herein all references to "dollars" or "$" are to the
-US currency.
+Except where indicated, the figures shown in this Report are stated in US dollars. As used herein all references to "dollars" or "$" are to the US currency.
 
-
-This Report contains forward-looking statements concerning the financial condition, results of operations and businesses of Shell. All
-statements other than statements of historical fact are, or may be deemed to be, forward-looking statements. Forward-looking
-statements are statements of future expectations that are based on management's current expectations and assumptions and involve
-known and unknown risks and uncertainties that could cause actual results, performance or events to differ materially from those
-expressed or implied in these statements. Forward-looking statements include, among other things, statements concerning the
-potential exposure of Shell to market risks and statements expressing management's expectations, beliefs, estimates, forecasts, projections and assumptions. These forward-looking
-statements are identified by their use of terms and phrases such as
-"aim", "ambition", "anticipate", "aspire", "aspiration", "believe",
-"commit", "commitment", "could", "desire", "estimate", "expect",
-"goals", "intend", "may", "milestones", "objectives", "outlook", "plan",
-"probably", "project", "risks", "schedule", "seek", "should", "target",
-"vision", "will", "would" and similar terms and phrases. There are a number of factors that could affect the future operations of Shell
-and could cause those results to differ materially from those expressed in the forward-looking statements included in this Report,
-including (without limitation): (a) price fluctuations in crude oil and natural gas; (b) changes in demand for Shell's products; (c)
-currency fluctuations; (d) drilling and production results; (e) reserves estimates; (f) loss of market share and industry competition; (g)
-environmental and physical risks, including climate change; (h) risks associated with the identification of suitable potential acquisition
-properties and targets, and successful negotiation and completion of such transactions; (i) the risk of doing business in developing
-countries and countries subject to international sanctions; (j) legislative, judicial, fiscal and regulatory developments including
-tariffs and regulatory measures addressing climate change; (k) economic and financial market conditions in various countries and
-regions; (I) political risks, including the risks of expropriation and renegotiation of the terms of contracts with governmental entities,
-delays or advancements in the approval of projects and delays in the reimbursement for shared costs; (m) risks associated with the
-impact of pandemics, regional conflicts, such as the Russia-Ukraine war and the conflict in the Middle East, and a significant cyber
-security, data privacy or IT incident; (n) the pace of the energy transition; and (o) changes in trading conditions. Also see "Risk
-management and risk factors" on pages 134-144 for additional risks and further discussion. No assurance is provided that future
-dividend payments will match or exceed previous dividend payments. All forward-looking statements contained in this Report
-are expressly qualified in their entirety by the cautionary statements contained or referred to in this section. Readers should not place
-undue reliance on forward-looking statements. Each forwardlooking statement speaks only as of the date of this Report. Neither
-the Company nor any of its subsidiaries undertake any obligation to publicly update or revise any forward-looking statement as a
-result of new information, future events or other information. In light of these risks, results could differ materially from those stated,
-implied or inferred from the forward-looking statements contained in this Report.
+This Report contains forward-looking statements concerning the financial condition, results of operations and businesses of Shell. All statements other than statements of historical fact are, or may be deemed to be, forward-looking statements. Forward-looking statements are statements of future expectations that are based on management's current expectations and assumptions and involve known and unknown risks and uncertainties that could cause actual results, performance or events to differ materially from those expressed or implied in these statements. Forward-looking statements include, among other things, statements concerning the potential exposure of Shell to market risks and statements expressing management's expectations, beliefs, estimates, forecasts, projections and assumptions. These forward-looking statements are identified by their use of terms and phrases such as "aim", "ambition", "anticipate", "aspire", "aspiration", "believe", "commit", "commitment", "could", "desire", "estimate", "expect", "goals", "intend", "may", "milestones", "objectives", "outlook", "plan", "probably", "project", "risks", "schedule", "seek", "should", "target", "vision", "will", "would" and similar terms and phrases. There are a number of factors that could affect the future operations of Shell and could cause those results to differ materially from those expressed in the forward-looking statements included in this Report, including (without limitation): (a) price fluctuations in crude oil and natural gas; (b) changes in demand for Shell's products; (c) currency fluctuations; (d) drilling and production results; (e) reserves estimates; (f) loss of market share and industry competition; (g) environmental and physical risks, including climate change; (h) risks associated with the identification of suitable potential acquisition properties and targets, and successful negotiation and completion of such transactions; (i) the risk of doing business in developing countries and countries subject to international sanctions; (j) legislative, judicial, fiscal and regulatory developments including tariffs and regulatory measures addressing climate change; (k) economic and financial market conditions in various countries and regions; (I) political risks, including the risks of expropriation and renegotiation of the terms of contracts with governmental entities, delays or advancements in the approval of projects and delays in the reimbursement for shared costs; (m) risks associated with the impact of pandemics, regional conflicts, such as the Russia-Ukraine war and the conflict in the Middle East, and a significant cyber security, data privacy or IT incident; (n) the pace of the energy transition; and (o) changes in trading conditions. Also see "Risk management and risk factors" on pages 134-144 for additional risks and further discussion. No assurance is provided that future dividend payments will match or exceed previous dividend payments. All forward-looking statements contained in this Report are expressly qualified in their entirety by the cautionary statements contained or referred to in this section. Readers should not place undue reliance on forward-looking statements. Each forwardlooking statement speaks only as of the date of this Report. Neither the Company nor any of its subsidiaries undertake any obligation to publicly update or revise any forward-looking statement as a result of new information, future events or other information. In light of these risks, results could differ materially from those stated, implied or inferred from the forward-looking statements contained in this Report.
 
 Past performance cannot be relied on as a guide to future performance.
 
-This Report contains references to Shell's website, the Shell Energy
-Transition Strategy 2024 Report, Tax Contribution Report, Shell
-Climate and Energy Transition Lobbying Report and our report on
-Payments to Governments. These references are for the readers' convenience only. Shell is not incorporating by reference into this
-Report any information posted on shell.com or in the Shell Energy
-Transition Strategy 2024 Report, Tax Contribution Report, Shell
-Climate and Energy Transition Lobbying Report or our report on
-Payments to Governments. The content of any other websites referred to in this Report does not form part of this Report.
+This Report contains references to Shell's website, the Shell Energy Transition Strategy 2024 Report, Tax Contribution Report, Shell Climate and Energy Transition Lobbying Report and our report on Payments to Governments. These references are for the readers' convenience only. Shell is not incorporating by reference into this Report any information posted on shell.com or in the Shell Energy Transition Strategy 2024 Report, Tax Contribution Report, Shell Climate and Energy Transition Lobbying Report or our report on Payments to Governments. The content of any other websites referred to in this Report does not form part of this Report.
 
-With effect from January 29, 2022, Shell's A shares and B shares were assimilated into a single line of ordinary shares. Shell's A and
-B American Depositary Shares (ADSs) were assimilated into a single line of ADSs on the same date. This Report continues to refer
-to A shares, B shares, A ADSs and B ADSs when describing the position prior to January 29, 2022.
+With effect from January 29, 2022, Shell's A shares and B shares were assimilated into a single line of ordinary shares. Shell's A and B American Depositary Shares (ADSs) were assimilated into a single line of ADSs on the same date. This Report continues to refer to A shares, B shares, A ADSs and B ADSs when describing the position prior to January 29, 2022.
 
 Shell V-Power and Shell LiveWire are Shell trademarks.
 
-
 ## Documents on display
 
-This Report is also available, free of charge, at shell.com/ annualreport or at the offices of Shell in London, United Kingdom
-and The Hague, the Netherlands. Copies of this Report also may be obtained, free of charge, by mail.
+This Report is also available, free of charge, at shell.com/ annualreport or at the offices of Shell in London, United Kingdom and The Hague, the Netherlands. Copies of this Report also may be obtained, free of charge, by mail.
