@@ -509,7 +509,6 @@ executing related action plans and measuring
 <th>Independent board members2)</th>
 </tr>
 <tr>
-<td>888</td>
 <td>Board of directors (BoD)</td>
 <td>13</td>
 <td>0</td>
@@ -518,7 +517,6 @@ executing related action plans and measuring
 <td>50%</td>
 </tr>
 <tr>
-<td>8</td>
 <td>Executive management team (EMT)</td>
 <td>16</td>
 <td>16</td>
@@ -1208,7 +1206,7 @@ does not automatically impose restrictions on industrial activity. In 2024, the 
 <caption>Table 3: Material topics and related impacts, risks and opportunities</caption>
 <tr>
 <th colspan="2">Topic and sub-topics</th>
-<th>Impacts1)</th>
+<th>Impacts</th>
 <th>Risks</th>
 <th>Opportunities</th>
 </tr>
@@ -1270,7 +1268,7 @@ does not automatically impose restrictions on industrial activity. In 2024, the 
 <table>
 <tr>
 <th colspan="2">Topic and sub-topics</th>
-<th>Impacts1)</th>
+<th>Impacts</th>
 <th>Risks</th>
 <th>Opportunities</th>
 </tr>
