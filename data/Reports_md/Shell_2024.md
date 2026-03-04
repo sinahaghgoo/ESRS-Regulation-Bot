@@ -3497,8 +3497,6 @@ The contractual instruments we have used in relation to the purchase of energy, 
 
 ### Scope 2 GHG emissions: share and types of contractual instruments [A] [B]
 
-% 2024
-
 <table>
 <tr>
 <td>Contractual instruments used for the purchase of energy bundled with attributes about energy generation</td>
@@ -11778,8 +11776,6 @@ The transfer of the Company's ordinary shares to a clearance service (such as Eu
 
 For the purposes of UK capital gains tax, the market values [A] of the shares of the former public parent companies of the Shell Group at the relevant dates were:
 
-£
-
 <table>
 <tr>
 <th></th>
@@ -12251,8 +12247,6 @@ The "Adjusted EBITDA" measure is presented on a CCS basis and is used by managem
 [C] See footnote [A] of Consolidated Statement of Cash Flows.
 
 #### 2022
-
-$ million
 
 <table>
 <tr>

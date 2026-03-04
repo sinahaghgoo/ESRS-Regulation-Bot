@@ -279,7 +279,7 @@ Equinor's governance framework is further described in section 1.7 Governance an
 
 <figure><figcaption>Sustainability-related information flows through a structured, multi-level governance process from operations to the board. First-line employees collect and report operational data and observations, including emissions events, safety incidents, and regulatory compliance issues, forming the foundation of sustainability reporting. Site-level roles review and assess this data, identify operational or compliance risks, and escalate critical issues, trends, or incidents when needed. Interdisciplinary collaboration across the organization supports consistent identification and management of sustainability matters beyond formal reporting lines.
 
-At management levels, vice presidents analyze trends, assess regulatory compliance, and evaluate sustainability impacts across sites, escalating strategically significant matters to senior vice presidents. Senior vice presidents review consolidated reports, assess strategic implications, and determine whether corrective actions or additional resources are required, preparing key issues for executive review. The corporate executive committee integrates sustainability considerations into major operational, financial, and strategic decisions, including capital allocation and emissions targets. Oversight is ultimately exercised by the board of directors and its committees, which monitor sustainability performance, review assessments and indicators, and ensure alignment with strategy, risk management, and shareholder expectations.</figcaption>figure</figure>
+At management levels, vice presidents analyze trends, assess regulatory compliance, and evaluate sustainability impacts across sites, escalating strategically significant matters to senior vice presidents. Senior vice presidents review consolidated reports, assess strategic implications, and determine whether corrective actions or additional resources are required, preparing key issues for executive review. The corporate executive committee integrates sustainability considerations into major operational, financial, and strategic decisions, including capital allocation and emissions targets. Oversight is ultimately exercised by the board of directors and its committees, which monitor sustainability performance, review assessments and indicators, and ensure alignment with strategy, risk management, and shareholder expectations.</figcaption></figure>
 
 During 2024, the governing bodies addressed, among others, the following sustainability matters:
 
@@ -295,9 +295,7 @@ accident prevention on all levels including CEC has been conducted and we have c
 - Human rights: Reviewed human rights risks and
 ethical standards with a particular emphasis on our updated salient human rights issues and Human Rights Policy.
 
-- Cyber, personnel and physical security:
-
-Reviewed our security measures to enhance resilience against cyber and insider threats and safeguard physical infrastructure, addressing evolving risks to operational integrity and critical asset protection.
+- Cyber, personnel and physical security: Reviewed our security measures to enhance resilience against cyber and insider threats and safeguard physical infrastructure, addressing evolving risks to operational integrity and critical asset protection.
 
 - Political engagement: Worked to ensure
 alignment of group and corporate policies with regulatory standards and stakeholder expectations.
@@ -3073,9 +3071,7 @@ Equinor has purchased and retired carbon credits outside our own value chain for
 
 Equinor plans to retire credits outside its value chain in the future, including from existing contractual agreements. Only credits that are sufficiently substantiated and verified according to relevant industry standards will be considered as allowable as negative emissions levers in the NCI. Equinor has not made public claims of greenhouse gas neutrality involving the use of carbon credits.
 
-## Methodologies and
-
-### measurements
+## Methodologies and measurements
 
 Equinor follows the accounting principles outlined in the Greenhouse Gas Protocol for reporting of greenhouse gas emissions. The reporting covers carbon dioxide (CO, methane (CH, and nitrous oxide (N2O). The Global Warming Potentials (GWPs) used to express these emissions as CO2 equivalents are based on the AR-6 reference.
 
@@ -3597,8 +3593,6 @@ Our oil and gas activities carry inherent risks of pollution across our oil and 
 ##### Material impact: Pollution to air and water from major accidents
 
 Our core business activities, including the production and processing of oil and gas, represent a potential risk of major accidents that may have significant impact on nature. A major pollution accident to air may cause air quality degradation, potential damage to ecosystems or, via contamination, impact on wildlife and flora. A major accident to water, such as an oil spill, may contaminate shorelines or damage natural habitats, resulting in loss of flora and fauna and consequent reduction in biodiversity. Depending on the substances involved (e.g., light or heavy hydrocarbons) the magnitude of a pollution incident may result in severe environmental impact, with long term pollution that could persist. Managing the risk of major accidents is an integral aspect of our business lifecycle, ranging from evaluating business opportunities to delivering products and decommissioning. Safety is our paramount priority, embodied in one of our strategic pillars, "Always Safe". To address these impacts, we identify and manage technical and non-technical barriers to prevent negative environmental impacts. Should such incidents occur, we have emergency response measures in place and can act immediately to avoid and mitigate negative environmental consequences. We will work to restore any direct negative environmental consequences in the affected areas.
-
-## .
 
 Relevant provisions to this section include guidance on how we manage our material impacts within pollution, by mitigating negative impacts and going beyond the "do-no-harm" principle and contributing to positive impacts on the natural environment. It also outlines our commitment to fostering a proactive safety culture to prevent major accidents.
 
@@ -5934,7 +5928,7 @@ Within the solar industry, there are known concerns of risk of forced labour in 
 
 ## Metrics and Targets (S2)
 
-### S2-5
+## S2-5
 
 ## Targets related to managing material negative impacts, advancing positive impacts, and managing material risks and opportunities
 

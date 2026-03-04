@@ -899,15 +899,9 @@ TotalEnergies aims to increase its production by Upstream +3%/year oil & gas an 
 #### Oil projects merit curve Technical costs, $/boe
 
 <figure>
-<figcaption>The merit curve demonstrates that the company’s oil portfolio is concentrated in cost-competitive assets with strong economic fundamentals. By prioritizing low-cost projects and avoiding exposure to the high-cost tail of the curve, the strategy aims to ensure profitability, resilience, and value creation throughout commodity price cycles, while supporting disciplined investment during the energy transition. </figcaption>
+<figcaption>The company’s oil portfolio is concentrated in cost-competitive assets with strong economic fundamentals. By prioritizing low-cost projects and avoiding exposure to the high-cost tail of the curve, the strategy aims to ensure profitability, resilience, and value creation throughout commodity price cycles, while supporting disciplined investment during the energy transition. </figcaption>
 
 </figure>
-
-\* After tax breakeven ~25 $/b.
-
-Sources: Merit curve: Rystad (projects starting up in 2024-2030), TotalEnergies projects: internal data, shareholder view.
-
-Over the past 10 years, TotalEnergies has overhauled its upstream oil portfolio to refocus on the least expensive fields to develop, with a
 
 ### Liquefied Natural Gas activities
 
@@ -3977,11 +3971,6 @@ In 2024, TotalEnergies maintained its progress, thanks to growth in sales of ele
 The Company is resolutely continuing to reduce emissions from its operational assets. Thus, within the scope of its oil and gas facilities, emissions from assets operated by the Company fell by more than 36% compared to 2015 levels. In 2024, with more than 200 GHG emissions reduction projects coming to fruition, the Company reduced its emissions by 1.3 Mt CO2e across its operated assets.
 
 At the same time, emissions from flexible electricity generation increased as a result of the addition to the portfolio of CCGTs acquired in the United States and the United Kingdom, to support the strategy of rolling out an integrated low-carbon electricity offer. As a result, the Company's overall operated emissions have decreased by 25% compared to 2015.
-
-<figure>
-<figcaption>Scope 1+2 emissions from operated facilities (Mt CO2e)</figcaption>
-
-</figure>
 
 In 2024, operated methane emissions were 29 kt CH4, a decrease of 55% compared to 2020. TotalEnergies thus achieved its 2025 target of -50%, one year ahead of schedule, in 2024.
 

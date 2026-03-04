@@ -64,7 +64,7 @@ If multiple companies are selected, include a comparative analysis that highligh
 ## Research Questions for the Evaluation part
 
 **RQ1 — The Input (Data Structure)**
-How do domain-specific chunking strategies (ESRS-aware vs. Semantic vs. Fixed) impact the retrieval of relevant reporting standards?
+How do domain-specific chunking strategies impact the retrieval of relevant reporting standards?
 
 Focus: Is understanding the document structure (Parent-Child, Section headers) more important than the raw semantic content?
 
@@ -98,16 +98,17 @@ Contains 12 JSON files covering:
 
 Each file includes disclosure requirements, objectives, and application requirements of the corresponding ESRS chapter.
 
-### **Golden Standard** (`golden_standard.json`)  
+### **Golden Standard** (`golden_standard.json` NOTE: STILL NEEDS TO BE CREATED!!)  
 Contains:  
 - ESRS-related prompts/questions  
 - Required ESRS disclosures  
-- Ground-truth answers  
+- Ground-truth answers
+- Which pages of the report contain the answer  
 - Disclosure fulfillment levels per company
 
 ### **Models (from `.env`)**
 - Embeddings: **text-embedding-3-large**  
-- LLM: **gpt-5.2/gpt 5 mini**
+- LLM: **gpt-5.2**
 
 ### **Vector Database**
 - **[Qdrant](https://qdrant.tech/)**  
@@ -124,12 +125,8 @@ Contains:
 - **Multimodal Enrichment**: Integration of **GPT-5-mini Vision (VLM)** to generate textual descriptions for charts and figures, replacing raw images with semantic context.
 - **Cleaning**: Regex-based post-processing to remove artifacts (page numbers, headers).
 
-### 2. Structure-Aware Chunking
-- **Strategy**: Single robust strategy adhering to document hierarchy.
-- **Boundaries**: Uses Markdown headers (H1-H6) to define logical sections.
-- **Context Handling**: Prepends full header hierarchy (e.g., `Structure: Governance > Strategy > Climate...`) to each chunk.
-- **Atomic Units**: Preserves tables and figures as indivisible chunks.
-- **Metadata**: Extracts ESRS disclosure IDs (e.g., `E1-1`) and Year.
+### 2. Chunking
+- **Strategy**: Decision on what strategies is open!!
 
 ### 3. Embedding & Indexing
 - **Embeddings**: `text-embedding-3-large` (3072 dimensions).
@@ -149,7 +146,7 @@ Contains:
 
 ---
 
-## Jupyter Notebooks
+## Jupyter Notebooks --> STILL NEED TO BE CREATED AFTER ALL THE MODULES AND EVEFYTHING ELSE IS CREATED
 
 ### **1. Preprocessing & Indexing Notebook**
 Responsible for:  
@@ -218,7 +215,7 @@ Uses Qdrant for persistent per-company embeddings with metadata filtering.
 - Latency  
 - Prompt size  
 - Token cost  
-- # retrieved chunks  
+- retrieved chunks  
 
 ---
 

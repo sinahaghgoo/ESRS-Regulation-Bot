@@ -294,7 +294,7 @@ def get_element_page(element) -> int:
     return 0
 
 
-def build_markdown(result, pdf_path: str) -> str:
+def build_markdown(result, pdf_path: str, empty_figcaptions: bool = False) -> str:
     """Assemble all elements into a single markdown string."""
     
     content = result.content
@@ -314,61 +314,74 @@ def build_markdown(result, pdf_path: str) -> str:
                 html = table_to_html(table)
                 replacements.append((offset, length, "\n" + html + "\n", "table", i))
     
-    # Figures -> process with GPT-5.2
-    print(f"[3/4] Processing {len(result.figures) if result.figures else 0} figures with GPT-5.2...")
+    # Figures -> process with GPT-5.2 or insert empty figcaptions
+    figure_count = len(result.figures) if result.figures else 0
+    if empty_figcaptions:
+        print(f"[3/4] Processing {figure_count} figures with empty figcaptions...")
+    else:
+        print(f"[3/4] Processing {figure_count} figures with GPT-5.2...")
     if result.figures:
+        if empty_figcaptions:
+            for i, figure in enumerate(result.figures):
+                if not figure.spans:
+                    continue
+                offset = figure.spans[0].offset
+                length = figure.spans[0].length
+                figure_html = "\n<figure>\n<figcaption></figcaption>\n</figure>\n"
+                replacements.append((offset, length, figure_html, "figure_empty", i))
+        else:
         # Cache for figure descriptions to avoid re-processing
-        figure_cache_path = os.path.join(CACHE_DIR, f"{os.path.basename(pdf_path).replace('.pdf', '')}_figures.json")
-        figure_cache = {}
-        if os.path.exists(figure_cache_path):
-            with open(figure_cache_path, "r") as f:
-                figure_cache = json.load(f)
-        
-        for i, figure in enumerate(result.figures):
-            if not figure.spans:
-                continue
+            figure_cache_path = os.path.join(CACHE_DIR, f"{os.path.basename(pdf_path).replace('.pdf', '')}_figures.json")
+            figure_cache = {}
+            if os.path.exists(figure_cache_path):
+                with open(figure_cache_path, "r") as f:
+                    figure_cache = json.load(f)
             
-            offset = figure.spans[0].offset
-            length = figure.spans[0].length
-            page = get_element_page(figure)
-            
-            # Check figure description cache
-            cache_key = f"{i}_{page}_{offset}"
-            if cache_key in figure_cache:
-                desc = figure_cache[cache_key]
-                print(f"   Figure {i + 1}/{len(result.figures)} (page {page}) — cached")
-            else:
-                print(f"   Figure {i + 1}/{len(result.figures)} (page {page})...")
+            for i, figure in enumerate(result.figures):
+                if not figure.spans:
+                    continue
                 
-                # Extract caption hint
-                caption_hint = ""
-                if hasattr(figure, 'caption') and figure.caption:
-                    caption_hint = getattr(figure.caption, 'content', str(figure.caption))
+                offset = figure.spans[0].offset
+                length = figure.spans[0].length
+                page = get_element_page(figure)
                 
-                # Extract image from PDF
-                base64_img = extract_figure_image(pdf_path, figure)
-                
-                if base64_img is None:
-                    desc = "__SKIP__"
-                    print(f"      → Skipped (too small)")
+                # Check figure description cache
+                cache_key = f"{i}_{page}_{offset}"
+                if cache_key in figure_cache:
+                    desc = figure_cache[cache_key]
+                    print(f"   Figure {i + 1}/{len(result.figures)} (page {page}) — cached")
                 else:
-                    desc = classify_and_describe_figure(base64_img, caption_hint)
-                    if desc is None:
-                        desc = "__DECORATIVE__"
-                        print(f"      → Decorative (skipped)")
+                    print(f"   Figure {i + 1}/{len(result.figures)} (page {page})...")
+                    
+                    # Extract caption hint
+                    caption_hint = ""
+                    if hasattr(figure, 'caption') and figure.caption:
+                        caption_hint = getattr(figure.caption, 'content', str(figure.caption))
+                    
+                    # Extract image from PDF
+                    base64_img = extract_figure_image(pdf_path, figure)
+                    
+                    if base64_img is None:
+                        desc = "__SKIP__"
+                        print(f"      → Skipped (too small)")
                     else:
-                        print(f"      → Meaningful ({len(desc)} chars)")
+                        desc = classify_and_describe_figure(base64_img, caption_hint)
+                        if desc is None:
+                            desc = "__DECORATIVE__"
+                            print(f"      → Decorative (skipped)")
+                        else:
+                            print(f"      → Meaningful ({len(desc)} chars)")
+                    
+                    figure_cache[cache_key] = desc
+                    # Save cache after each figure
+                    with open(figure_cache_path, "w") as f:
+                        json.dump(figure_cache, f)
                 
-                figure_cache[cache_key] = desc
-                # Save cache after each figure
-                with open(figure_cache_path, "w") as f:
-                    json.dump(figure_cache, f)
-            
-            if desc in ("__SKIP__", "__DECORATIVE__"):
-                replacements.append((offset, length, "", "figure_skip", i))
-            else:
-                figure_html = f"\n<figure>\n<figcaption>{desc}</figcaption>\n</figure>\n"
-                replacements.append((offset, length, figure_html, "figure", i))
+                if desc in ("__SKIP__", "__DECORATIVE__"):
+                    replacements.append((offset, length, "", "figure_skip", i))
+                else:
+                    figure_html = f"\n<figure>\n<figcaption>{desc}</figcaption>\n</figure>\n"
+                    replacements.append((offset, length, figure_html, "figure", i))
     
     # -------------------------------------------------------------------
     # Step 2: Apply all replacements (sort by offset descending)
@@ -429,7 +442,7 @@ def postprocess_markdown(content: str) -> str:
 # Main
 # ---------------------------------------------------------------------------
 
-def extract_report(report_name: str, output_dir: str = None):
+def extract_report(report_name: str, output_dir: str = None, empty_figcaptions: bool = False):
     """Extract a single report from PDF to markdown."""
     
     pdf_path = os.path.join(PDF_DIR, f"{report_name}.pdf")
@@ -453,7 +466,7 @@ def extract_report(report_name: str, output_dir: str = None):
     result = analyse_pdf(pdf_path, report_name)
     
     # Step 2-4: Build markdown
-    markdown = build_markdown(result, pdf_path)
+    markdown = build_markdown(result, pdf_path, empty_figcaptions=empty_figcaptions)
     
     # Write output
     with open(output_path, "w", encoding="utf-8") as f:
@@ -494,6 +507,11 @@ def main():
         action="store_true",
         help="Clear the Azure DI cache before processing",
     )
+    parser.add_argument(
+        "--empty-figcaptions",
+        action="store_true",
+        help="Insert empty <figcaption></figcaption> for all detected figures and skip figure descriptions",
+    )
     args = parser.parse_args()
     
     if args.clear_cache and os.path.exists(CACHE_DIR):
@@ -503,10 +521,10 @@ def main():
     
     if args.all_three:
         for name in ["AkerBP_2024", "OMV_2024", "Repsol_2024"]:
-            extract_report(name, args.output_dir)
+            extract_report(name, args.output_dir, empty_figcaptions=args.empty_figcaptions)
             print()
     elif args.report:
-        extract_report(args.report, args.output_dir)
+        extract_report(args.report, args.output_dir, empty_figcaptions=args.empty_figcaptions)
     else:
         parser.print_help()
 

@@ -91,9 +91,7 @@ The Audit Committee of the Board ("Audit Committee") monitors and supervises the
 
 Proposal for the composition of Neste's Board of Directors is prepared annually by the Shareholders' Nomination Board consisting of three members appointed by the Company's three largest shareholders and the Chair of the Board of Directors. The Nomination Board's most important responsibility is to ensure that the Board of Directors and its members have sufficient expertise, knowledge and qualifications for the Company's needs, including capabilities related to sustainability matters. In the preparation of its proposal it will pay attention to achieving a good and balanced gender distribution and diversity in the Board of Directors, evaluating the competence of the Board of Directors as a whole.
 
-The members of the Board of Neste have diverse backgrounds in terms of education and experience in different professional and industrial fields and in business operations and management, all of which include competences on sustainability-related issues. The diversity of the Board of Directors is also supported by experience in industrial fields and markets that are strategically significant for Neste. Several of the members on the Board have experience within industries and products relevant for Neste, including e.g., biofuels, chemicals and fossil fuels. The members of the Board have gained an understanding of business conduct matters through various leadership and board positions in other companies. The
-
-members of the Audit Committee especially have knowledge and experience of accounting practices, preparation of financial statements and statutory sustainability reporting. The Board also calls on external expertise if and when it deems such expertise appropriate. Neste's Board does not include employee representatives.
+The members of the Board of Neste have diverse backgrounds in terms of education and experience in different professional and industrial fields and in business operations and management, all of which include competences on sustainability-related issues. The diversity of the Board of Directors is also supported by experience in industrial fields and markets that are strategically significant for Neste. Several of the members on the Board have experience within industries and products relevant for Neste, including e.g., biofuels, chemicals and fossil fuels. The members of the Board have gained an understanding of business conduct matters through various leadership and board positions in other companies. The members of the Audit Committee especially have knowledge and experience of accounting practices, preparation of financial statements and statutory sustainability reporting. The Board also calls on external expertise if and when it deems such expertise appropriate. Neste's Board does not include employee representatives.
 
 Neste's President and CEO prepares and makes necessary proposals to the Board on the above matters and in particular: related to corporate strategy (including the long-term ambition and targets for the sustainability vision). The Neste Leadership Team approves Neste's sustainability priorities and sustainability is represented in the Leadership Team through Executive Vice President, People & Culture. Responsibility for monitoring individual corporate sustainability targets is shared among the members of the Neste Leadership Team and reviewed periodically by the Leadership Team. Neste's sustainability work is managed by the Sustainability, Human Resources, and Safety units and is implemented across all applicable business areas and functions, supported by internal policies, principles and standards.
 
@@ -144,9 +142,7 @@ Safety is addressed by the Board at every meeting, also relating to Neste's mate
 
 Neste's Remuneration Policy aligns remuneration with the successful delivery of its long-term strategic and sustainability goals. The Neste Board of Directors is responsible for deciding the remuneration to the President and CEO and the members of the Neste Leadership Team, and for deciding the long- and short-term incentive plans. The Personnel and Remuneration Committee is responsible for drafting the remuneration-related matters and proposals for the BoD.
 
-Neste's climate commitments are connected with the remuneration of Neste's key personnel, as they are a performance measure in Neste's long-term incentives (LTIs). In 2024, Combined Greenhouse Gas Impact represents
-
-20% of the LTI and includes greenhouse gas emissions (GHG) emission reductions achieved with Neste renewable products by customers and GHG emissions from Neste production. These metrics are also directly related to the company's climate targets, as described under the E1 Climate change -section. Additionally, measures related to the improvement in both process and personnel safety constitute at least 20% of the short-term incentives' measures in 2024.
+Neste's climate commitments are connected with the remuneration of Neste's key personnel, as they are a performance measure in Neste's long-term incentives (LTIs). In 2024, Combined Greenhouse Gas Impact represents 20% of the LTI and includes greenhouse gas emissions (GHG) emission reductions achieved with Neste renewable products by customers and GHG emissions from Neste production. These metrics are also directly related to the company's climate targets, as described under the E1 Climate change -section. Additionally, measures related to the improvement in both process and personnel safety constitute at least 20% of the short-term incentives' measures in 2024.
 
 #### Risk management and internal controls over sustainability reporting
 
@@ -154,9 +150,7 @@ Neste's assurance functions consist of risk management, compliance and internal 
 
 Internal control requirements, as defined in the Neste Internal Control Principle and Controls over Financial and Sustainability Reporting Standard, are implemented across all levels of the organization. Operational management owns the risks and controls related to sustainability data within their respective areas, while Group Finance has overall responsibility for the Sustainability statement, mirroring the financial reporting responsibility structure. Specialists in sustainability reporting provide guidance and support.
 
-Neste has assessed and prioritized risks based on their potential impact on the reliability of its reporting, considering factors such as data materiality, process complexity and potential for human error. The company continues to mature in its sustainability reporting processes and systems, however some data collection and input
-
-still rely on manual processes. Risks identified include accuracy and completeness of the data. These risks are mitigated by clearly defined roles and responsibilities for data collection and reporting, and a common reporting guideline provided in Neste manual for CSRD reporting. Neste has implemented preventive and detective control activities based on the identified risks, including reconciliation controls and review controls for quantitative and qualitative sustainability data.
+Neste has assessed and prioritized risks based on their potential impact on the reliability of its reporting, considering factors such as data materiality, process complexity and potential for human error. The company continues to mature in its sustainability reporting processes and systems, however some data collection and input still rely on manual processes. Risks identified include accuracy and completeness of the data. These risks are mitigated by clearly defined roles and responsibilities for data collection and reporting, and a common reporting guideline provided in Neste manual for CSRD reporting. Neste has implemented preventive and detective control activities based on the identified risks, including reconciliation controls and review controls for quantitative and qualitative sustainability data.
 
 Internal Control function monitors the control performance and assesses control adequacy, reporting regularly to the Neste Leadership Team. Deficiencies are promptly reported to responsible parties for corrective action, with appropriate escalation to management and the Audit Committee of the Board of Directors. This process is consistent with financial reporting control deficiency reporting.
 
@@ -598,9 +592,7 @@ assessed based on a combination of the likelihood of the occurrence and the pote
 
 ### 4.2 Determination
 
-In the determination phase, appropriate thresholds were set to determine which IROs were material for Neste. Topics that exceeded the thresholds from either an impact or financial impact perspective or both, were deemed as material. The thresholds are based on the average score of likelihood and severity (impact materiality) or financial magnitude (financial materiality). The criteria for the thresholds are based on impact and financial materiality assessments, considering a range of factors, including but not limited to the significance of the IRO on stakeholders, environment and society, potential financial implications, risk appetite and tolerance and the strategic importance of the topic. Topics, which did not exceed
-
-the set materiality threshold but were seen as central for Neste's strategy and core values, or hold importance due to external stakeholder interest and strong industry relevance, were deemed material based on a separate management decision.
+In the determination phase, appropriate thresholds were set to determine which IROs were material for Neste. Topics that exceeded the thresholds from either an impact or financial impact perspective or both, were deemed as material. The thresholds are based on the average score of likelihood and severity (impact materiality) or financial magnitude (financial materiality). The criteria for the thresholds are based on impact and financial materiality assessments, considering a range of factors, including but not limited to the significance of the IRO on stakeholders, environment and society, potential financial implications, risk appetite and tolerance and the strategic importance of the topic. Topics, which did not exceed the set materiality threshold but were seen as central for Neste's strategy and core values, or hold importance due to external stakeholder interest and strong industry relevance, were deemed material based on a separate management decision.
 
 The thresholds set in the double materiality assessment are not static and may be subject to periodic review and adjustment.
 
@@ -818,9 +810,7 @@ Neste also has economic activities that are currently not covered by the EU taxo
 
 ## Substantial contribution criteria
 
-The EU taxonomy refers to the manufacture of biofuels for use in transport as a sustainable activity, and Neste has assessed its manufacturing of renewable fuels for the road transport and aviation sectors, as well as the co-processing of renewable raw materials to be taxonomy-relevant economic activities based on the Climate Delegated Act of the Regulation. Neste's Renewable
-
-Products provides renewable, lower-emission solutions for transportation, aviation, marine and other industrial uses. Co-processing of renewable raw materials aims to replace crude oil input in the production of fuels used in various transport sectors. Neste's activities relevant to the EU taxonomy are climate change mitigation solutions and are in line with the company's climate targets.
+The EU taxonomy refers to the manufacture of biofuels for use in transport as a sustainable activity, and Neste has assessed its manufacturing of renewable fuels for the road transport and aviation sectors, as well as the co-processing of renewable raw materials to be taxonomy-relevant economic activities based on the Climate Delegated Act of the Regulation. Neste's Renewable Products provides renewable, lower-emission solutions for transportation, aviation, marine and other industrial uses. Co-processing of renewable raw materials aims to replace crude oil input in the production of fuels used in various transport sectors. Neste's activities relevant to the EU taxonomy are climate change mitigation solutions and are in line with the company's climate targets.
 
 The EU taxonomy technical screening criteria for the Climate Delegated Act including climate change mitigation establishes criteria for the "Manufacture of biogas or biofuels for use in transport and of bioliquids" activity. The recognized activities, manufacturing biofuels and renewable co-processing of fuels, make a substantial contribution to climate change mitigation. The substantial contribution criteria sets the threshold for greenhouse gas (GHG) emission savings from the manufacture of biofuels and biogas for use in transport to at least 65% in relation to the GHG emission saving methodology and the relative fossil fuel comparator in accordance with Directive (EU) 2018/2001. Additionally, the criteria require that no food and feed crops are used in the manufacturing. The share of manufacturing of waste and residue raw materials is therefore included in the alignment figures for this activity. The alignment figures for biofuel sales outside the EU are reported separately because the GHG emission calculation and verification methodologies differ. Neste's renewable products comply with market-specific sustainability criteria and meet the GHG emission saving thresholds for EU taxonomy.
 
@@ -834,9 +824,7 @@ The relevant activity-specific DNSH criteria from Annex I have been evaluated fo
 
 ## Minimum safeguards
 
-Compliance with the minimum safeguards has been assessed at the group level based on the Report on Minimum Safeguards published by the EU Platform on Sustainable Finance in October 2022. Neste has assessed its operations to be compliant with the minimum safeguards as determined in the Neste Code of Conduct, which includes the topics of human rights, including workers' rights, bribery and corruption, taxation and
-
-fair competition. No violations have been identified with the safeguards. Neste's approach to human rights and anti-corruption is described in more detail in the S1 Own workforce, S2 Workers in the value chain and G1 Business conduct -sections of the Sustainability statement. More information about Neste's compliance program, including competition law compliance, is disclosed in the Annual Review. Neste also publishes a Tax Footprint annually.
+Compliance with the minimum safeguards has been assessed at the group level based on the Report on Minimum Safeguards published by the EU Platform on Sustainable Finance in October 2022. Neste has assessed its operations to be compliant with the minimum safeguards as determined in the Neste Code of Conduct, which includes the topics of human rights, including workers' rights, bribery and corruption, taxation and fair competition. No violations have been identified with the safeguards. Neste's approach to human rights and anti-corruption is described in more detail in the S1 Own workforce, S2 Workers in the value chain and G1 Business conduct -sections of the Sustainability statement. More information about Neste's compliance program, including competition law compliance, is disclosed in the Annual Review. Neste also publishes a Tax Footprint annually.
 
 ## Accounting policy
 
@@ -1314,20 +1302,6 @@ Neste's taxonomy OpEx figures include expenses presented in Note 9 Other expense
 
 ## B. TAXONOMY-NON-ELIGIBLE ACTIVITIES
 
-Turnover of Taxonomy-non-eligible activities
-
-14,637
-
-Total (A+B)
-
-20,635
-
-Y Yes, Taxonomy-eligible and Taxonomy-aligned activity with the relevant environmental objective EL Taxonomy-eligible activity for the relevant objective
-
-N/EL Taxonomy-non-eligible activity for the relevant objective
-
-1\) Share of waste & residue based renewable fuels sold outside of the EU
-
 ## Capital expenditure
 
 <table>
@@ -1710,20 +1684,6 @@ N/EL Taxonomy-non-eligible activity for the relevant objective
 </table>
 
 ## B. TAXONOMY-NON-ELIGIBLE ACTIVITIES
-
-CapEx of Taxonomy-non-eligible activities
-
-Total (A+B)
-
-1,997
-
-Y EL
-
-Yes, Taxonomy-eligible and Taxonomy-aligned activity with the relevant environmental objective Taxonomy-eligible activity for the relevant objective
-
-N/EL Taxonomy-non-eligible activity for the relevant objective
-
-1\) Share of waste & residue based renewable fuels sold outside of the EU
 
 ## Operating expenses
 
@@ -2179,9 +2139,7 @@ N/EL Taxonomy-non-eligible activity for the relevant objective
 
 Neste reports its fossil gas related activities in accordance with the Complementary Climate Delegated Act (2022/1214). Neste has exposures to natural gas related activities through its 40% ownership of Kilpilahti Power Plant Ltd, which is a joint venture company operating a combined heat and power plant. Taxonomy-eligible turnover for the activity 4.30. High-efficiency co-generation of heat/cool and power from fossil gaseous fuel includes Neste's sales of natural gas to Kilpilahti Power Plant and other fossil gas related turnover relates to Neste's natural gas sales to other parties.
 
-Taxonomy-eligible OpEx related to natural gas should cover direct expenses in accordance with the definitions in the Disclosures Delegated Act. As there have been no significant operating expenses during the reporting period and the information is financially immaterial,
-
-Neste does not disclose the template for natural gas related OpEx.
+Taxonomy-eligible OpEx related to natural gas should cover direct expenses in accordance with the definitions in the Disclosures Delegated Act. As there have been no significant operating expenses during the reporting period and the information is financially immaterial, Neste does not disclose the template for natural gas related OpEx.
 
 Additionally, CapEx related to natural gas is not disclosed because the investments related to the Kilpilahti Power Plant are not included in Neste's total capital expenditure. Neste did not recognize any nuclear related activities as defined in the Complementary Climate Delegated Act.
 
@@ -3143,9 +3101,7 @@ Through the Neste Sustainability Policy, Neste commits to using natural resource
 
 Neste's key principles relating to the sustainability of its renewable raw material supply chains are the Neste Supplier Code of Conduct and the Responsible Sourcing Principle. Additionally, The Supplier Sustainability Approval Principle sets the minimum sustainability requirements for approving renewable raw material suppliers. The Supplier Code of Conduct, applicable for all Neste's raw material suppliers, and the Supplier Sustainability Approval Principle are described more in detail under G1 Business Conduct.
 
-In addition to the Supplier Code of Conduct, renewable raw material suppliers need to comply with Neste's
-
-Responsible Sourcing Principle. Neste expects its suppliers to have the same commitment to promote positive impacts and to prevent habitat conversion throughout its supply chain. Neste works to eliminate deforestation, habitat conversion, and other social and environment negative impacts. The Responsible Sourcing Principle is aligned with relevant regulatory requirements, such as the EU RED II and the US Renewable Fuels Standard (RFS), and the UN Guiding Principles on Business and Human Rights.
+In addition to the Supplier Code of Conduct, renewable raw material suppliers need to comply with Neste's Responsible Sourcing Principle. Neste expects its suppliers to have the same commitment to promote positive impacts and to prevent habitat conversion throughout its supply chain. Neste works to eliminate deforestation, habitat conversion, and other social and environment negative impacts. The Responsible Sourcing Principle is aligned with relevant regulatory requirements, such as the EU RED II and the US Renewable Fuels Standard (RFS), and the UN Guiding Principles on Business and Human Rights.
 
 Neste monitors the implementation of these principles through rigorous sustainability due diligence, as described in the G1 Business Conduct -section. General governance, including the highest level of accountability for the policy, and stakeholder engagement related to policy implementation are described in the ESRS 2 General disclosures -section of this report.
 
@@ -3298,9 +3254,7 @@ implementation.
 
 The Neste OEMS is based on the principles of continual improvement and process-based thinking and aligned with ISO Standards 9001, 14001 and 45001. The leadership teams of Neste's business areas and functions are responsible for executing the requirements of the Policy in daily operations and the implementation of the Policy is monitored through on-site OEMS audits within the company's operations. Neste organizations in scope of the OEMS are covered by an internal audit specified in the company's Continual Improvement Principle. This means that each Principle (element) is covered by an internal audit every three years. The Policy is available publicly on Neste's website, while detailed Principles and Standards are available internally in the Neste Management System. The Policy covers impacts, risks and opportunities related to employee safety, and defines Neste's approach to the prevention of accidents at the workplace.
 
-The Safety Leadership Principle sets the minimum requirements and expectations for safety leadership and accountability within Neste. The Principle includes Neste's Life Saving Rules and Stop Work Authority and covers impacts, risks and opportunities
-
-related to employee safety. The Principle is applicable to all employees of Neste and to anyone working for or representing any business entity within the Neste Group. It is available internally in the Neste Management System. Members of the Neste Leadership team are responsible for overseeing the implementation of the Safety Leadership Principle in business areas and functions, where relevant.
+The Safety Leadership Principle sets the minimum requirements and expectations for safety leadership and accountability within Neste. The Principle includes Neste's Life Saving Rules and Stop Work Authority and covers impacts, risks and opportunities related to employee safety. The Principle is applicable to all employees of Neste and to anyone working for or representing any business entity within the Neste Group. It is available internally in the Neste Management System. Members of the Neste Leadership team are responsible for overseeing the implementation of the Safety Leadership Principle in business areas and functions, where relevant.
 
 ## Human Rights
 
@@ -3728,9 +3682,7 @@ Code of Conduct Guide for Suppliers. The supplementary guide also provides furth
 
 The Neste Human Rights Principle describes Neste's commitment to respect human rights and engage in the remediation of adverse human rights impacts throughout its business operations and value chains. It explains Neste's approach to implementing the UN Guiding Principles on Business and Human Rights and carrying out ongoing human rights due diligence and stakeholder engagement. The Human Rights Principle sets the standards for a rights-based approach in all of Neste's business decisions. As stated in the Principle, Neste encourages and supports its business partners to continually improve and develop beyond the minimum requirements in the Supplier Code of Conduct to reach the human rights standards and expectations set out in the Human Rights Principle.
 
-In accordance with the Human Rights Principle, Neste will not engage in or support the use of any form of forced or child labor, and is committed to identify, assess and address these risks in its global operations and value chains. This includes all situations of exploitation that a
-
-person cannot refuse or leave, because of threats, violence, coercion, abuse of power or deception, including, but not limited to trafficking in persons, slavery, servitude, forced marriage, forced labor, compulsory labor, debt bondage, involuntary prison labor, deceptive recruiting for labor or services, and child labor. The Principle also prohibits practices that can lead to forced labor such as document retention, recruitment fees, deceptive practices regarding employment contracts and violations of freedom of movement. The Human Rights Principle is described in more detail in the S1 Own Workforce -section.
+In accordance with the Human Rights Principle, Neste will not engage in or support the use of any form of forced or child labor, and is committed to identify, assess and address these risks in its global operations and value chains. This includes all situations of exploitation that a person cannot refuse or leave, because of threats, violence, coercion, abuse of power or deception, including, but not limited to trafficking in persons, slavery, servitude, forced marriage, forced labor, compulsory labor, debt bondage, involuntary prison labor, deceptive recruiting for labor or services, and child labor. The Principle also prohibits practices that can lead to forced labor such as document retention, recruitment fees, deceptive practices regarding employment contracts and violations of freedom of movement. The Human Rights Principle is described in more detail in the S1 Own Workforce -section.
 
 The Responsible Sourcing Principle sets out additional requirements for all Neste's renewable raw material suppliers. The Principle includes Neste's commitment to respect the human rights of all workers and communities in its supply base. Neste is committed to proactively prevent adverse human rights impacts throughout its business operations and value chains.
 
@@ -3758,7 +3710,7 @@ implemented worker voice technology to scale up the number of workers the compan
 - Sustainability audits: Neste's sustainability audits
 prioritize the assessment of impacts on people and identifying any signs of forced labor. The audits in the company's upstream supply chains for renewable raw materials include one-on-one interviews with different employee groups, including management, workers with different job profiles, third-party employees and, when possible, union or worker's committee representatives.
 
-## . Human rights impact assessments: Neste
+## Human rights impact assessments: Neste
 
 assesses human rights risks when planning to enter new sourcing regions for its renewable raw materials. This can involve on-the-ground field research and interviews with rights-holders and/or their legitimate representatives. For example, in 2023-24, Neste collaborated with third-party experts at the Solidaridad Foundation to assess the human rights impacts associated with its Brazilian supply chains. The assessment included gender-sensitive interviews with various groups, including representatives of value chain workers and Indigenous peoples.
 
@@ -3849,9 +3801,7 @@ employees and capacity building of suppliers.
 - The company tracks its progress and effectiveness
 of implementing these actions through KPI's and its Grievance Tracking process.
 
-Neste believes that close engagement and collaboration with contractors on its sites and raw material suppliers provides it the best opportunities to advance human rights and proactively mitigate modern slavery risks within company supply chains. Neste therefore engages regularly in capacity building with its suppliers and contractors. The company also monitors supplier information and engages with its suppliers through its Supplier Sustainability Portal (SSP), a digital platform that is used to facilitate the evaluation of potential and existing renewable raw material suppliers, to support performance monitoring and to enable active supplier engagement. This, and engagement with other stakeholders
-
-(as described in ESRS 2 General disclosures) informs Neste's ambition for addressing forced labor in the value chain.
+Neste believes that close engagement and collaboration with contractors on its sites and raw material suppliers provides it the best opportunities to advance human rights and proactively mitigate modern slavery risks within company supply chains. Neste therefore engages regularly in capacity building with its suppliers and contractors. The company also monitors supplier information and engages with its suppliers through its Supplier Sustainability Portal (SSP), a digital platform that is used to facilitate the evaluation of potential and existing renewable raw material suppliers, to support performance monitoring and to enable active supplier engagement. This, and engagement with other stakeholders (as described in ESRS 2 General disclosures) informs Neste's ambition for addressing forced labor in the value chain.
 
 Neste aims to continue the above actions until the context, best practice or requirements change. Neste continues to strengthen its due diligence system towards compliance with the EU Corporate Sustainability Due Diligence directive.
 
@@ -3896,9 +3846,7 @@ Risks of corruption and bribery are typically treated as inherent risks in the o
 
 Employees are encouraged and required to report their concerns, or observed or suspected violations of Neste's Code of Conduct or Anti-Corruption Principle to their own manager, Neste's HR, and the Compliance or Internal Audit functions. The Code of Conduct e-learning course includes guidelines on how to report observed or suspected violations of Neste's Code of Conduct, other Neste policies or principles or applicable legislation or regulations. In addition to other reporting channels, Neste has an externally operated misconduct reporting system, Ethics Online, available to all Neste's internal and external stakeholders, including various actors in its supply chains. Ethics Online serves as a grievance mechanism and enables Neste's stakeholders to anonymously raise concerns related to alleged misconduct in Neste's operations. The Ethics Online can be used by phone or via the website. To assess the effectiveness of Neste's reporting channels, the number of reports submitted through the channels is followed regularly. Neste may seek feedback from its employees on the channels, for example, through employee engagement surveys.
 
-Neste's Investigation Group is responsible for evaluating and investigating reported cases in a professional, objective, confidential and prompt manner. The Investigation Group will decide on the investigation lead and approach to investigate depending on the nature of the reported allegation and/or concern. All investigations
-
-shall be impartial, unbiased and based on fact finding and managed by appropriate resources. Upon need and depending on the nature of the investigation, Neste Investigation Group regularly retains independent external forensic and/or legal expertise to conduct the investigation. Misconduct investigations and their outcome are regularly reported to Neste's Ethics and Compliance Committee and at least annually to the Neste Board Audit Committee.
+Neste's Investigation Group is responsible for evaluating and investigating reported cases in a professional, objective, confidential and prompt manner. The Investigation Group will decide on the investigation lead and approach to investigate depending on the nature of the reported allegation and/or concern. All investigations shall be impartial, unbiased and based on fact finding and managed by appropriate resources. Upon need and depending on the nature of the investigation, Neste Investigation Group regularly retains independent external forensic and/or legal expertise to conduct the investigation. Misconduct investigations and their outcome are regularly reported to Neste's Ethics and Compliance Committee and at least annually to the Neste Board Audit Committee.
 
 Neste has a strict non-retaliation policy for concerns reported in good faith. Neste's main principles and policy followed in internal misconduct investigations is described in the Company's internal Misconduct Investigation Standard. The Standard is aligned with the Directive (EU) on the protection of persons who report breaches of Union law (2019/1937).
 

@@ -14,9 +14,6 @@ Through our care for environment, social and governance topics, we aim to create
 
 For information on the role of management and supervisory bodies with regard to environmental, social, and governance (ESG) topics, the sustainability matters they address, sustainability-related performance in incentive schemes, risk management, and internal controls related to sustainability reporting, please see General Disclosures.
 
-<figure>
-<figcaption>The double materiality approach is represented by a circular two-part ring with a green left segment labeled "Impact materiality (inside-out)" and a blue right segment labeled "Financial materiality (outside-in)". The central text reads "Double materiality approach" and the ring is bridged at the top by the label "Planet and society" and at the bottom by the "Vopak" logo. The impact materiality segment includes icons of an industrial facility with emissions, a solar panel with a sun, a wind turbine, and an electricity bolt, while the financial materiality segment includes icons of a globe with two user symbols, a handshake, and two leaves. Bidirectional arrows on the inner ring indicate a continuous flow between the two segments, with a green arrow from the impact materiality side toward the top and a blue arrow returning from the financial materiality side toward the bottom, forming a closed loop. Color coding (green for impact/inside-out, blue for financial/outside-in), the labeled segments, and the placed icons establish the relationship and hierarchy between inside-out impacts on planet and society and outside-in financial considerations.</figcaption>
-</figure>
 
 Vopak is committed to transparency and sustainability. In line with the Corporate Sustainability Reporting Directive, hereinafter referred to as CSRD, we have conducted a double materiality assessment (DMA) to identify material environmental, social, and governance (ESG) issues that impact our business and to understand how our business affects the world around us.
 
@@ -686,9 +683,6 @@ The following sections outline our double materiality process.
 
 ### Double materiality assessment
 
-<figure>
-<figcaption>The Double materiality approach centers on the label "Double materiality approach" and links two complementary perspectives: Impact materiality (inside-out) and Financial materiality (outside-in). Impact materiality (inside-out) is depicted on the left in green and is accompanied by icons of an industrial facility, a sun, a solar panel, and a wind turbine; an arrow from that segment points toward "Planet and society" at the top. "Planet and society" is positioned at the top of the circle between the two perspectives. Financial materiality (outside-in) is depicted on the right in blue/purple and is accompanied by icons of a globe with people, a handshake, and a leaf; an arrow from that segment points toward the base of the circle. The elements form a continuous clockwise circular flow linking Impact materiality to Planet and society to Financial materiality and back to the Vopak logo at the bottom, indicating a reciprocal relationship and feedback loop between the inside-out and outside-in perspectives.</figcaption>
-</figure>
 
 To comply with the requirements of the CSRD, Vopak has adopted a comprehensive approach to evaluate and disclose its ESG impacts. This approach is based on the concept of double materiality, which builds on the long-standing practice of 'impact-centric' assessments and includes two dimensions that companies can consider when disclosing their ESG impacts:
 
@@ -722,8 +716,6 @@ Our approach to the materiality assessment, carried out in 2022, is explained in
 
 ##### Define impacts
 
-<figure>
-<figcaption>The materiality process describes a structured, multi-phase approach used to identify, assess, and prioritize sustainability topics based on both impact materiality and financial materiality. The objective of the process is to ensure that reported topics are comprehensive, aligned with current standards, and reflective of both external stakeholder perspectives and internal strategic priorities.
 
 The process begins with the definition of impacts. In this phase, previously reported topics are critically reviewed against updated regulatory, sectoral, and voluntary reporting requirements. This includes alignment with established frameworks and benchmarks such as CDP, SASB, DJSI, and the updated GRI Universal Standards. The review assesses whether existing topics remain relevant, complete, and appropriately scoped under the new standards. Based on this analysis, final topic definitions are refined, reclassified where necessary, and supplemented with newly identified topics. In parallel, a structured stakeholder mapping exercise is conducted to identify relevant stakeholder groups based on their potential impact on, and level of engagement with, the organization. The outcome of this phase is a gap assessment of sustainability issues, an updated and consolidated list of topics, and a clear stakeholder engagement approach.
 
@@ -783,7 +775,17 @@ For each of the double material topics, concise descriptions of the impacts, ris
 Mapping impacts and risks across our operations and value chain The illustration below indicates whether the impacts and risks occur within our own operations or across our value chain (upstream and downstream). Unless stated otherwise, the impacts described are actual rather than potential.
 
 <figure>
-<figcaption>Upstream (Contractors, suppliers), Own operation (Storage, handling, regasification and own work force), and Downstream (Customers, loaders, trucking operators, customers) are presented as three horizontally aligned domains, with Environmental, Social, and Governance themes listed vertically. Note 1: Emissions to air and Note 2: GHG reduction and climate change mitigation are located within Own operation and are depicted with directional arrows linking Own operation to both Upstream and Downstream, indicating cross-domain relevance. Note 3: Innovation and acceleration towards new energies and sustainable feedstock is positioned toward the Downstream side and connected via arrows to other domains. Note 9: Process safety and prevention of spills and Note 10: Occupational health and safety are central operational priorities shown within Own operation with arrows extending to Upstream and Downstream. Note 16: Business ethics and integrity is identified under Governance within Own operation and linked across the value chain. Overall, arrows of varying direction and extent illustrate relationships, flows of responsibility, and interactions among Upstream, Own operation, and Downstream across the Environmental, Social, and Governance categories.</figcaption>
+<figcaption>Value chain coverage across upstream, own operations and downstream activities, structured along environmental, social and governance dimensions.
+
+Upstream covers contractors and suppliers. Own operations include storage, handling, regasification and the company’s own workforce. Downstream includes customers, loaders and trucking operators.
+
+Environmental topics include emissions to air, greenhouse gas reduction and climate change mitigation, and innovation and acceleration toward new energies and sustainable feedstock across the value chain.
+
+Social topics include process safety and prevention of spills, and occupational health and safety.
+
+Governance topics include business ethics and integrity.
+
+These topics are addressed across upstream, own operations and downstream segments, reflecting value chain-wide ESG responsibilities.</figcaption>
 </figure>
 
 ### Disclosure requirements and incorporation by reference
@@ -3260,7 +3262,6 @@ Guidance and Uncertainty Management in National Greenhouse Gas Inventories
 - PM2.5 emissions: Database for particulate matter from the Dutch National Institute for
 Public Health and the Environment (RIVM)
 
-PM2.5 Emissions in metric tons
 
 <figure>
 <figcaption>Values for 2021 through 2024 are 14.4, 14.8, 15.3, and 10.2 respectively, with the 2021–2023 bars colored grey and the 2024 bar colored green. The series increased from 14.4 in 2021 to 14.8 in 2022 (an increase of 0.4) and to 15.3 in 2023 (an increase of 0.5), representing an overall rise of 0.9 (6.25%) from 2021 to 2023. In 2024 the value declines to 10.2, a decrease of 5.1 from 2023, equivalent to a 33.3% reduction relative to 2023. Compared with 2021 and 2022, the 2024 value is lower by 4.2 and 4.6 respectively, corresponding to reductions of 29.2% and 31.1%. The vertical axis scale reaches 20, establishing the upper bound for the plotted range.</figcaption>
@@ -4292,10 +4293,6 @@ Aligned with our strategy, most growth investments will focus on Grow (industria
 
 This topic refers to both hazardous and non-hazardous waste resulting from Vopak's operations and the demolition and reuse of tanks and other assets.
 
-<figure>
-<figcaption>Sustainable Development Goal number 12 is indicated by the numeral "12" and the uppercase title "RESPONSIBLE CONSUMPTION AND PRODUCTION." The design uses a solid orange background with all typography and the graphic element rendered in white. The white numeral "12" is positioned in the upper-left area, with the title text aligned to its right on a single line. A white infinity-style loop icon is centered below the title and occupies the lower portion of the square, directly associated with the goal label. Only the single numeric value "12" is displayed; no percentages, dates, or other numeric data are present.</figcaption>
-</figure>
-
 ### Circularity
 
 Responsible management of waste and wastewater are important aspects of responsible business conduct. By minimizing our waste streams, we reduce the demand for natural resources and decrease our GHG emissions, particularly indirect Scope 3 emissions resulting from our value chain.
@@ -4472,9 +4469,6 @@ The significant increase in recycling is attributed to recycled steel from demol
 
 The topic refers to the potential threat of physical climate-related impacts and other natural disasters on Vopak's tanks and terminals.
 
-<figure>
-<figcaption>Sustainable Development Goal 12 is identified by the numeral 12 and is titled "RESPONSIBLE CONSUMPTION AND PRODUCTION." The goal label is presented in uppercase text and is associated with a white infinity-loop emblem, which serves as the visual symbol for circularity and ongoing processes. The numeral 12 appears distinct from the title, establishing a hierarchy where the goal number functions as the primary identifier and the title provides the thematic description. The white emblem is positioned below the title, linking the textual label to a simple graphical representation without additional numerical or percentage data. The overall presentation is set against a solid orange background, with all elements rendered in white to emphasize legibility and cohesive branding.</figcaption>
-</figure>
 
 ### Introduction
 
@@ -5375,14 +5369,6 @@ Seawater utilization, in particular during regasification, renewable electricity
 
 In 2024, renewable energy consumption accounted for 73% of the total energy consumed by Vopak and renewable electricity consumption was 69% of the total electricity consumed by Vopak. In 2025, we will explore additional avenues to further increase renewable energy electricity consumption. Our estimated share of consumption from nuclear sources in total energy consumption in 2024 was 2%, based on IEA country energy mix data.
 
-<figure>
-<figcaption>Annual values are 545 for 2021, 666 for 2022, 656 for 2023, and 450 for 2024. The vertical scale is shown up to 700 at the top of the axis. The value increased by 121 units (22.2%) from 545 in 2021 to the peak of 666 in 2022, then decreased by 10 units (1.5%) to 656 in 2023, and declined by 206 units (31.4%) to 450 in 2024. Overall, the 2024 value of 450 is 95 units lower than the 2021 value, a 17.4% reduction. The highest value is 666 in 2022, the second highest is 656 in 2023, and the lowest is 450 in 2024; the 2024 value is highlighted in green while the 2021–2023 values are presented in grey.</figcaption>
-</figure>
-
-<figure>
-<figcaption>Annual values by year are 7.6 for 2021, 8.0 for 2022, 7.3 for 2023, and 4.9 for 2024, plotted against a vertical scale with a maximum labeled value of 9.0. The highest value is 8.0 in 2022 and the lowest value is 4.9 in 2024. Trends show an increase from 7.6 in 2021 to 8.0 in 2022, followed by a decline to 7.3 in 2023 and a further decrease to 4.9 in 2024. The 2024 value of 4.9 is lower than each of the prior years and 2.7 units below the 2022 peak. Bars for 2021–2023 are rendered in gray while the 2024 bar is highlighted in green, indicating a categorical distinction for 2024 relative to previous years. Overall, the series peaks in 2022, exhibits a moderate decline in 2023, and a pronounced reduction in 2024.</figcaption>
-</figure>
-
 Energy efficiency is an important driver to achieve a continual reduction in our carbon footprint at Vopak's terminals. Having a standardized approach and maximizing the learning and sharing potential for each terminal, we have implemented the following in 2024:
 
 - We started the energy assessment program to analyze terminals' operations and to
@@ -5730,10 +5716,6 @@ If handled incorrectly, these can potentially be harmful to the environment and 
 <td>DECENT WORK AND ECONOMIC GROWTH</td>
 </tr>
 </table>
-
-<figure>
-<figcaption>Goal 8 is labeled "DECENT WORK AND ECONOMIC GROWTH" and is identified by the numeral 8. The emblem is presented on a square maroon-red background with white iconography, featuring four vertical bars of increasing height from left to right and an ascending arrow that starts at the leftmost bar and rises above the rightmost bar. The four bars form a bar-chart motif indicating a progressive increase, with the arrow reinforcing an upward trend. The numeral 8 and the title are positioned at the top of the square, establishing a hierarchy where the goal identifier and label precede the graphical symbol in the lower portion. No additional numeric values, percentages, or dates are provided.</figcaption>
-</figure>
 
 #### Note 9. Process safety and prevention of spills
 
@@ -7527,10 +7509,6 @@ Since 2020, we have seen a significant drop in the number of odor-related compla
 
 Respect for human rights is fundamental to the way we operate at Vopak. Our commitment to human rights applies to all our employees and contractors. Guided by our Code of Conduct, we empower everyone to make ethical decisions that align with our core values and principles.
 
-<figure>
-<figcaption>Goal 8 is labeled "DECENT WORK AND ECONOMIC GROWTH" and is identified by the numeric "8". A white icon contains three vertical bars arranged left to right with increasing heights: the left bar is the shortest, the center bar is taller, and the right bar is the tallest. A white arrow originates near the left bars and rises diagonally to the top right, intersecting above the tallest bar. The textual label "DECENT WORK AND ECONOMIC GROWTH" appears in uppercase beneath the numeric identifier. All elements are presented in white on a solid magenta/dark red square background, forming the standardized Goal 8 branding.</figcaption>
-</figure>
-
 We respect the rights of our employees and contractors by working in accordance with the International Labor Organization Declaration on Fundamental Principles and Rights at Work and the UN Global Compact. Vopak respects the principles of freedom of association, the right to collective bargaining, the abolition of forced and child labor and the elimination of discrimination in the workplace. Furthermore, we champion equal opportunities, fair working conditions, competitive remuneration, and a safe, healthy working environment.
 
 While this topic is not material, some information required by ESRS - as mentioned under Disclosure requirements and incorporation by reference in the Materiality and stakeholder engagement note is reported to ensure compliance with CSRD.
@@ -8578,15 +8556,7 @@ Finally, following careful deliberation, the Management and SB of Vopak WeConnec
 
 "Vopak WeConnect aims to foster volunteering for Vopak communities, to create a better future for young people and a more sustainable environment in which they can thrive."
 
-Vopak colleagues in Indonesia launched an inspiring project to increase awareness about plastic pollution and waste management. Young people in the Koda District of Jakarta are learning about the circular economy and receiving training and equipment to collect, shred, and sell plastic waste. This project not only empowers young people with entrepreneurial skills but also contributes to a cleaner environment. A big thank you to everyone who contributes to this inspiring project. wwerconnect
-
-rogran ngelolaan Bank Sampah imbeh Plastik
-
-duli ke' ılas
-
-creating a sustainable future
-
-Empowering young people
+Vopak colleagues in Indonesia launched an inspiring project to increase awareness about plastic pollution and waste management. Young people in the Koda District of Jakarta are learning about the circular economy and receiving training and equipment to collect, shred, and sell plastic waste. This project not only empowers young people with entrepreneurial skills but also contributes to a cleaner environment. A big thank you to everyone who contributes to this inspiring project.
 
 ## Governance
 
@@ -8621,14 +8591,6 @@ In our pursuit of ethical governance, we strive to ensure that all our entities 
 <td></td>
 </tr>
 </table>
-
-<figure>
-<figcaption>Under the heading "Impact", three Sustainable Development Goal tiles are aligned horizontally and labeled with the numerals 7, 0, and 12. Tile 7 is titled "AFFORDABLE AND CLEAN ENERGY", colored yellow, and displays a sun icon. The center tile labeled 0 is colored maroon, titled "DECENT WORK AND ECONOMIC GROWTH", and features an upward-trending bar chart with an arrow icon. Tile 12 is colored yellow, titled "RESPONSIBLE CONSUMPTION AND PRODUCTION", and shows a circular infinity-style loop icon. Beneath the top row, a second maroon tile labeled 8 repeats the title "DECENT WORK AND ECONOMIC GROWTH" with the same upward-trending bar chart and arrow icon, creating an explicit duplication of that goal. The visual uses a green header bar for "Impact", yellow for goals 7 and 12, and maroon for the Decent Work and Economic Growth tiles, with a horizontal top-row alignment and a single repeated maroon tile positioned below.</figcaption>
-</figure>
-
-<figure>
-<figcaption>The counts are 6 breaches of the Code of Conduct, 5 cyber attacks, and 27 institutional memberships. The number of institutional memberships (27) is the highest of the three metrics, exceeding breaches of the Code of Conduct by 21 and cyber attacks by 22. Breaches of the Code of Conduct (6) slightly exceed cyber attacks (5) by a margin of 1. In relative terms, institutional memberships are 4.5 times the breaches count and 5.4 times the cyber attacks count. The three labeled categories — "Breaches of the Code of Conduct," "Cyber attacks," and "Number of institutional memberships" — therefore show institutional membership count as numerically dominant compared with the recorded incident counts of 6 and 5.</figcaption>
-</figure>
 
 ## Note 16. Business ethics and integrity
 

@@ -1897,10 +1897,6 @@ In 2024, Scope 1 emissions were 0.118 Mt CO2eq higher than in 2023 at constant s
 
 While 2023 was a record low activity year, Scope 1 and 2 emissions decreased from 2021 to 2024 thanks to structural reduction driven by decarbonization projects delivery.
 
-<figure>
-<figcaption>Emissions are measured in MtCO2e on a vertical axis scaled from 0 to 10. The baseline year 2021 is labeled at approximately 9 MtCO2e. A labeled category "PROGRESS MADE FROM 2021 TO 2023" reduces emissions to reach the 2023 level of about 7.5–7.6 MtCO2e. Subsequent categories show an "ACTIVITY" increase (small orange bar) and "NEW GHG REDUCTION PROJECTS" (small green bar) that together produce a 2024 emissions level of about 7.6–7.7 MtCO2e. A dashed horizontal line marks the 2021 level near 9 MtCO2e and a lower dashed line marks the 2023/2024 level near 7.6–7.7 MtCO2e. The net change from 2021 to 2024 is annotated as -17%.</figcaption>
-</figure>
-
 The expected GHG Scope 1 and 2 emissions reductions are as follows (considering financial consolidated perimeter):
 
 <table>

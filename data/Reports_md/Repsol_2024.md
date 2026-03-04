@@ -1536,7 +1536,7 @@ Information on the main stakeholders is detailed below:
 </tr>
 </table>
 
-I II
+
 
 ## Stakeholder engagement processes
 
@@ -4145,7 +4145,7 @@ To define this objective, the methodology recommended by the CEO Water Mandate i
 
 " The targets defined are not based on conclusive scientific evidence and the stakeholders have not been involved in target setting.
 
-I II
+
 
 #### Water-related targets
 
@@ -5088,7 +5088,7 @@ The following table contains information relating to sites located within or adj
 
 \* ha: hectares
 
-I II
+
 
 ### Sites within or adjacent to protected areas or areas of high biodiversity value
 
@@ -5454,7 +5454,7 @@ The production capacity of renewable fuels stood at 1.2 million tons at the end 
 
 Progress towards this goal acts as a lever for the reduction of the Company's CO2 emissions in all its scopes.
 
-I II
+
 
 #### Objectives related to the use of resources and the circular economy
 
@@ -5573,8 +5573,6 @@ The metrics in the above table have been calculated using a different scope than
 </table>
 
 Materials that enter a Repsol business area for the first time are considered in the calculation of resource inputs, avoiding accounting for those that are transferred to another business area once they have been transformed, as is the case, for example, with fuels sold by the Client's business and which are manufactured by Refining. Packaging data are also not included because the calculations indicate that their quantities are not significant. For more information on the considerations for each business, see chapter 5.3 Additional information from metrics methodology of this Appendix V.
-
-I II
 
 ## Resource outflows (E5-5)
 
@@ -5749,7 +5747,7 @@ Repsol assumes the responsibility of prioritizing the development and well-being
 
 With the aim of generating positive impacts for its employees, Repsol focuses on promoting employability, training and professional development. In addition, it promotes the attraction and loyalty of talent, hiring talent on the basis of diversity criteria, with attention to young and female talent.
 
-The impacts2, risks and opportunities shown below are widespread in the sector and environment in which the Company operates and in general terms, they are common to the entire group of salaried employees:
+The impacts, risks and opportunities shown below are widespread in the sector and environment in which the Company operates and in general terms, they are common to the entire group of salaried employees:
 
 - Improve the living conditions of employees through a
 value proposition that includes benefits and well-being programs, fosters inclusion, maintains a constant dialogue with workers' representatives and promotes an environment of respect for human rights.
@@ -6081,7 +6079,7 @@ In 2024, the largest increase in employees has occurred in Europe: in Spain, due
 
 Gestor de Carga de Vehículo Eléctrico, S.A., Klikin Deals Spain, S.L.U., Energía Distribuida del Norte S.A., Gaolania Servicios, S.L. Note 4.5 of the financial statements contains information on the cumulative average headcount at December 31, 2024.
 
-I II
+
 
 #### Employees who have left the Company and rate of employee turnover
 
@@ -8755,7 +8753,6 @@ Repsol's People Management Policy focuses on attracting, developing, and retaini
 
 Workforce Well-being, Labor Rights, and Employee Satisfaction (I+) Development and training (I+-) Talent attraction and retention (I+) Diversity, Equity, and Inclusion (I+-) Workforce Health Management (I+)
 
-I II
 
 <table>
 <tr>
@@ -8824,7 +8821,7 @@ In order to achieve the occupational health and safety goal, this policy include
 
 Industrial Safety Management (R) ESG criteria in value chain management (I+)
 
-I II
+
 
 ### Human Rights and Community Relations Policy
 
@@ -8872,7 +8869,7 @@ Repsol is committed to protecting the environment, the sustainable use of resour
 
 Water (I-) Effect on marine ecosystems (I-) Impact on terrestrial ecosystems and inland waters (I-) Water pollution (I-) Air pollution (I-) Soil contamination (I-) Renewable and non-renewable energy consumption (1+ -; R) Energy transition and decarbonization (I+ -; R; O) Resource Input (I+-) Resource output (I -; O)
 
-I II
+
 
 #### Sustainability Policy
 
@@ -8924,7 +8921,7 @@ This policy includes the commitment to guide activities, processes and decision-
 
 ESG criteria in value chain management (+) Well-being of workers in the value chain (I+-) Dialogue and commitment with the community and affected groups (I+ -; R) Whistleblowing channel (Ethics and Compliance Channel) (I+) Corruption, bribery and money laundering (I+) Regulatory Compliance (R)
 
-I II
+
 
 <table>
 <tr>
@@ -14676,7 +14673,7 @@ The table set out below presents the non-financial and diversity information req
 </tr>
 </table>
 
-I II
+
 
 <table>
 <tr>
