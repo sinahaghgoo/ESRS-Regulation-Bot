@@ -1,5 +1,7 @@
+<!-- Report Page 32 -->
 # Annual report 2024
 
+<!-- Report Page 33 -->
 ## Sustainability statement
 
 <table>
@@ -78,6 +80,7 @@
 
 <table>
 <tr>
+<!-- Report Page 34 -->
 <td>Reporting practices</td>
 <td>></td>
 </tr>
@@ -107,6 +110,7 @@
 
 Aker BP is a pure-play oil and gas company. Our operations relate to upstream activities, including exploration, development, production and decommissioning, as illustrated in figure 3. In 2024, we produced 439 mboepd and advanced our major development projects, including Yggdrasil and Valhall PWP-Fenris. As a reliable energy supplier to Europe, we are committed to ensuring consistent oil and gas deliveries for decades to come through our ongoing development projects. Throughout this sustainability statement, we outline our value chain and describe our collaborative approach with our own workforce, suppliers and partners to achieve our strategic goals.
 
+<!-- Report Page 35 -->
 #### 1.1 REPORTING PRACTICES
 
 Aker BP's sustainability statement for the 2024 fiscal year (1 January 2024 through 31 December 2024) is prepared in accordance with the Norwegian Accounting Act and the related European Sustainability Reporting Standards (ESRS), which entered into force for the 2024 reporting year. The report also includes the required reporting under the EU Taxonomy Regulation, which became mandatory for the 2023 fiscal year.
@@ -119,6 +123,7 @@ This report has been reviewed by an internal review committee consisting of seni
 
 ##### 1.1.1 Sources of estimation and outcome uncertainty
 
+<!-- Report Page 36 -->
 The metrics are based on actual data whenever possible. However, some figures were not available and have therefore been estimated. Metrics with high level of measurement uncertainty are related to non-operated assets in the environment section of the report, as well as metrics related to our value chain. Estimations are based on the best available techniques, but indicate that the disclosed figures are generally subject to a certain level of measurement uncertainty. We are working to better understand and measure this data to improve accuracy where deemed possible.
 
 Forward-looking statements in this report reflect current views about future events and are, by their nature, subject to significant uncertainties because they relate to events and depend on circumstances that may or may not occur in the future and may not be within Aker BP's control.
@@ -131,6 +136,7 @@ For the reporting year 2023, Aker BP prepared a sustainability report in accorda
 <figcaption>Aker BP's inputs to the upstream value chain begin with its own workforce, described as diverse and consisting of more than 4,000 individuals. Infrastructure comprises 6 field centres (5 operated and 1 partner-operated) with offshore installations and 5 office locations across Norway. Suppliers include 1,600 tier 1 suppliers worldwide, a significant number of yards in Norway and worldwide involved in Aker BP projects, and strategic alliances with key suppliers. Partners collaborate on operated and partner-operated fields to leverage shared expertise and resources. Energy inputs are split such that 3 field centres are connected to power from shore while 3 field centres generate power from gas turbines. Materials inputs list essential materials such as steel, concrete, chemicals and equipment. Data and technology inputs include advanced technologies and digital solutions for seamless collaboration and data from various sources to enable data-driven insights and informed decision-making.</figcaption>
 </figure>
 
+<!-- Report Page 37 -->
 #### 1.2 OUR SUSTAINABILITY STRATEGY AND APPROACH
 
 ##### 1.2.1 Sustainability in our corporate strategy
@@ -231,6 +237,7 @@ A dedicated performance management system is used throughout the company to repo
 
 **Key performance indicators:**
 
+<!-- Report Page 38 -->
 Safety (serious incidents/1 mill. work hours)
 
 Net production from operated assets (mboepd)
@@ -267,6 +274,7 @@ The framework includes environmental, social and governance (ESG) domains as ill
 
 #### 1.3 GOVERNANCE
 
+<!-- Report Page 39 -->
 ##### 1.3.1 Board of directors
 
 The BoD oversees the company's overall management, including supervision of the day-to-day management. A key responsibility is sanctioning the corporate strategy and overseeing Aker BP's ESG performance. This includes overseeing the company's material IROs and related policies, actions, metrics and targets. Additionally, the BoD ensures that the company has sound internal control and risk assessment in place. The BoD's responsibilities are further detailed in rules and procedure for the BoD of Aker BP, which is a governing document approved by the BoD.
@@ -344,6 +352,7 @@ Aker BP has an internal audit and compliance department. The head of the departm
 
 The 'three lines of assurance' model has been established as Aker BP's assurance framework. The compliance function, as a second line of assurance, comprises an independent team that governs processes, requirements and governing documents at a corporate level. The internal audit (IA) function, as a third line, provides effective independent assurance and oversight of the integrity of the internal control framework for all operations. IA evaluates whether the business management system operates effectively to respond to significant risks that could affect Aker BP's values, objectives and strategic priorities. Internal audit reports are provided directly to the EMT and presented to the BoD through committees such as the audit and risk committee.
 
+<!-- Report Page 40 -->
 ##### 1.3.5 Overall responsibility for managing impacts, risks and opportunities
 
 The responsibility for IROs is reflected in the applicable terms of reference for the BoD, ARC and EMT. In particular, the ARC mandate has been updated to reflect the significantly increased responsibility around sustainability reporting, including reported IROs.
@@ -358,6 +367,7 @@ To further address the increased responsibility around sustainability reporting,
 <figcaption>General meeting is the top-level authority and is directly linked to the Board of directors (BoD). The Board of directors (BoD) connects horizontally to External audit and has a Nomination committee associated with it. The BoD connects downward to the Chief executive officer (CEO), who in turn is linked to Internal audit, the Compliance officer, and the Executive management team (EMT). The Executive management team (EMT) connects to three operational committees: Safety and environmental assurance committee (SEAC) on the left, Organisational development and compensation committee (ODCC) in the center, and Audit and risk committee (ARC) on the right. External audit, Internal audit, and the Compliance officer each have lines leading to the Audit and risk committee (ARC). The structure establishes a clear hierarchy from General meeting to Board of directors (BoD), through Chief executive officer (CEO) and Executive management team (EMT), with specialized committees including Nomination committee, SEAC, ODCC, and ARC and with Internal and External audit functions linked into the ARC.</figcaption>
 </figure>
 
+<!-- Report Page 41 -->
 ##### 1.3.6 Internal controls over sustainability reporting
 
 Aker BP is exposed to risks related to inconsistent or incomplete reporting on sustainability topics, including the risk of greenwashing. Additionally, there are risks associated with the accuracy of data inputs and the high degree of manual processes involved in aggregating data from multiple systems into the sustainability statement.
@@ -380,6 +390,7 @@ We strive to achieve the best possible solution by involving relevant stakeholde
 
 We recognise that sustainability is an integral part of our decision-making processes and is therefore also integrated in our risk management process. We consider the environmental, social and governance aspects of our IROs and how they may affect our long-term value creation and stakeholder expectations.
 
+<!-- Report Page 42 -->
 #### 1.5 DOUBLE MATERIALITY ASSESSMENT
 
 In 2023, we conducted our first double materiality assessment based on the EU's Corporate Sustainability Reporting Directive (CSRD) and the European Sustainability Reporting Standards (ESRS). In 2024, we revised the assessment based on new information, implementation guidance and the draft oil and gas sector standard from the European Financial Reporting Advisory Group (EFRAG).
@@ -394,6 +405,7 @@ Activities, business relationships and geographies are considered when evaluatin
 <figcaption>The materiality assessment positions sustainability topics based on their relative impact materiality and financial materiality, distinguishing between strategic priorities, compliance-driven topics, and lower-priority issues. Topics with both high impact and high financial relevance are identified as strategic and highest priority, including climate change, own workforce, pollution, business conduct, and resource use and circular economy. Topics such as affected communities, biodiversity and ecosystems, and workers in the value chain are also considered material, reflecting significant impacts and compliance relevance, though with comparatively lower financial materiality. Water and marine resources are assessed as having lower overall materiality relative to other topics. Overall, the matrix provides a structured view of how sustainability topics are prioritized to guide strategic focus, risk management, and reporting.</figcaption>
 </figure>
 
+<!-- Report Page 43 -->
 ##### 1.5.1 Stakeholder engagement
 
 Our stakeholders are those affected by or impacting Aker BP's activities and business relationships - whether in our role as an energy provider, employer, customer or as a business that helps stimulate local and national economies through jobs, investments and taxes paid. Maintaining an open and proactive dialogue with key stakeholders helps us identify risks, opportunities and actual or potential impacts of our activities.
@@ -437,6 +449,7 @@ Special attention is given to the dependencies between impacts and their potenti
 
 The IRO assessments (severity x likelihood) are similar to risk assessments (consequence x probability) and use company scales similar to the company matrix as per the enterprise risk management process. These assessments are documented in the same tool (risks and opportunities) where they are prioritised and handled together with other company risks. The materiality of the different sustainability topics is evaluated from an impact perspective, a financial perspective or both.
 
+<!-- Report Page 44 -->
 ##### 1.5.3 Topic specific processes related to the DMA
 
 This section details the additional requirements related to the double materiality assessment as specified in the topic-specific chapters. It includes specific methods and considerations for the DMA of those topics, in addition to the overall process previously described.
@@ -473,6 +486,7 @@ Thorough planning and execution of our operational, project and drilling activit
 
 For producing fields within own operations, regular environmental evaluations ensure identification of key environmental IROs and related actions. Hence, the identified material pollution-related impacts and risks, as provided in section 3 Pollution, are the result of thorough and continuous screening of sites and activities at producing fields, fields under development, projects and exploration drilling.
 
+<!-- Report Page 45 -->
 ##### 1.5.3.3 E3 - Water and marine resources
 
 Aker BP's own operations are located on the NCS. We do not withdraw water from areas in waterstressed regions and none of our own operations are in water-stressed environments. The use of natural resources, such as water, is assessed as part of the DMA process. Water is not considered a material topic for Aker BP in our own operations. Activities in our upstream and downstream value chain could possibly be located in water-stressed areas or in areas where water withdrawal could prove to be a material topic.
@@ -493,6 +507,7 @@ The value chain considerations are based on a preliminary screening, which will 
 
 Material IROs related to resource use and circular economy are summarised in section 6 Resource use and circular economy.
 
+<!-- Report Page 46 -->
 ##### 1.5.3.6 G1 - Business conduct
 
 When identifying material IROs related to business conduct, considering the risk context of the oil and gas sector we operate in, our work follows our risk methodology. We assess an IRO's potential operational, financial, legal and reputational risks for Aker BP based on its likelihood of occurrence. Different IROs necessitate evaluating different criteria, but factors such as location and sector-specific considerations are always taken into account. Aker BP mainly operates in Norway, and generally, we consider the risks related to activities in the Nordic countries to be lower regarding business conduct, with correspondingly higher risks associated with activities in countries that have a lower score on the Corruption Perception Index (CPI). Sector-specific IROs relevant to the oil and gas sector, such as health and safety, anti-discrimination, digitalisation and access to grievance mechanisms, are also assessed in each case.
@@ -524,6 +539,7 @@ In table 3, we have identified those risks and opportunities that are deemed to 
 does not automatically impose restrictions on industrial activity. In 2024, the SVO areas were extended to cover approximately 55 percent of the Norwegian marine areas, compared to the previous 42 percent.
 
 <table>
+<!-- Report Page 47 -->
 <caption>Table 3: Material topics and related impacts, risks and opportunities</caption>
 <tr>
 <th colspan="2">Topic and sub-topics</th>
@@ -588,6 +604,7 @@ does not automatically impose restrictions on industrial activity. In 2024, the 
 
 <table>
 <tr>
+<!-- Report Page 48 -->
 <th colspan="2">Topic and sub-topics</th>
 <th>Impacts</th>
 <th>Risks</th>
@@ -660,6 +677,7 @@ Resilience planning is an essential part of our annual strategy work, encompassi
 
 We have conducted resilience analyses on our material IROs related to climate change and biodiversity. Further information on these analyses can be found in the climate change chapter and the biodiversity and ecosystems chapter. However, we have not performed resilience analyses on IROs related to other topics.
 
+<!-- Report Page 49 -->
 ##### 1.5.4.3 Topics not reported on
 
 ##### Consumers and end-users
@@ -670,6 +688,7 @@ Not material sub-sub topics
 
 Some of the sub-topics or sub-sub-topics defined in ESRS are deemed not material even though the related topic is material. These topics will not be further described in the report.
 
+<!-- Report Page 50 -->
 #### 1.6 SUSTAINABILITY DUE DILIGENCE
 
 It is our responsibility to have systems and procedures in place to identify actual or potential adverse impacts and to take measures to cease, prevent and mitigate such impacts where we are involved. Our sustainability due diligence process is based on the OECD's due diligence guidance for responsible business. This risk-based process aims to avoid and address adverse impacts associated with our business, supply chain and other business relationships.
@@ -767,6 +786,7 @@ We strive to integrate the sustainability due diligence process into relevant bu
 <td>></td>
 </tr>
 <tr>
+<!-- Report Page 51 -->
 <td>Water and marine resources</td>
 <td>></td>
 </tr>
@@ -780,6 +800,7 @@ We strive to integrate the sustainability due diligence process into relevant bu
 </tr>
 </table>
 
+<!-- Report Page 52 -->
 ## ENVIRONMENTAL MANAGEMENT AND COMPLIANCE
 
 Environmental compliance and safeguarding the environment are key priorities for Aker BP. Aker BP's environmental management system is an integral part of the company's sustainability framework and management system. The system covers all our own operations at all locations. Our environmental management system is not certified according to ISO 14001; however, it follows the guiding principles in ISO 14001 and is regularly audited to promote compliance with the standard. Aker BP's external environment policy describes our commitment to safeguarding and avoiding harm to the environment.
@@ -799,6 +820,7 @@ Internal and external audits are subject to compliance evaluation against extern
 Climate change is a material topic for Aker BP as we are a consumer and supplier of energy, which leads to greenhouse gas (GHG) emissions both in our own operations and in our upstream and downstream value chain. GHG emissions contribute to global climate change, which affects the environment and society. Climate change poses both risks and opportunities for Aker BP, and we strive to reduce climate-related risks and materialise climate-related opportunities. Material climate-related impacts, risks and opportunities are presented in table 5.
 
 <table>
+<!-- Report Page 53 -->
 <caption>Emissions factors for calculating CO2e:</caption>
 <tr>
 <th>Greenhouse gas</th>
@@ -830,6 +852,7 @@ Climate change is a material topic for Aker BP as we are a consumer and supplier
 value chain of the company, including both upstream and downstream emissions
 
 <table>
+<!-- Report Page 54 -->
 <caption>Table 5: Material impacts, risks and opportunities: Climate change</caption>
 <tr>
 <th>Material matters</th>
@@ -925,6 +948,7 @@ value chain of the company, including both upstream and downstream emissions
 
 The Task Force on Climate-related Financial Disclosures (TCFD) has been embedded in Aker BP's climate change disclosure since 2018. The TCFD recommendations have now been fully integrated into the ESRS E1, and we continue to follow the recommended practice for climate-related financial disclosure as prescribed by the ESRS.
 
+<!-- Report Page 55 -->
 ### 2.1 POLICIES AND PROCEDURES
 
 Our climate and energy policy is built on the following core beliefs:
@@ -967,6 +991,7 @@ Aker BP has identified GHG emissions from own operations as a material impact, a
 <table>
 <tr>
 <td>2030 target:</td>
+<!-- Report Page 56 -->
 <td>No current target</td>
 <td>50% reduction</td>
 </tr>
@@ -984,6 +1009,7 @@ Aker BP has identified GHG emissions from own operations as a material impact, a
 
 <figure><figcaption>Operational control greenhouse gas emissions are distributed across the full value chain, with the largest share arising downstream from the use and processing of sold products (Scope 3 categories 10 and 11), which dominate total emissions. Upstream Scope 3 emissions from purchased goods, capital goods, fuel- and energy-related activities, transportation, and business travel are material but significantly smaller, while Scope 1 emissions from operated assets and Scope 2 emissions from purchased energy represent a comparatively limited share. Midstream emissions related to downstream transportation and distribution are also modest relative to end-use emissions. Current reduction targets are defined primarily for Scope 1 and 2 emissions, including a 50% reduction by 2030 and a near-zero ambition by 2050, while no specific targets are yet set for most Scope 3 categories, highlighting the challenge and importance of addressing value-chain emissions beyond direct operational control.</figcaption></figure>
 
+<!-- Report Page 57 -->
 ##### 2.3.1.1 GHG and energy emission reductions in 2024
 
 Achieving reductions in energy consumption and pursuing energy-efficient solutions and technology through energy management is an integral part of Aker BP's strategy to be the best-in-class producer of oil and gas with an industry-leading equity share scope 1 and 2 GHG emission intensity. Our approach to energy efficiency is embedded in how we work and includes our governing principles, performance and reward framework. Aker BP's climate and energy policy formalises our commitment to energy management and energy efficiency in all aspects of our operations, and it enables us to deliver on our performance goals.
@@ -1047,6 +1073,7 @@ infrastructure will perform feasibility studies for power from shore or power tr
 
 All references to future costs are estimates based on current projections and are hence subject to uncertainties. Costs related to the future retirement of assets between 2025 and 2050 are estimated to represent 49 percent of the abandonment liabilities presented in note 22 on page 184 of the 2024 financial statements. Costs related to changes in output and performance between 2025 and 2050 are estimated to be insignificant. All costs related to future energy management initiatives are assumed to be capex and are calculated based on an assumed one percent cumulative emission reductions with lasting effect per year towards 2050. We assume an abatement cost equal to Aker BP's internal carbon price assumptions for each year. Capex related to energy management initiatives between 2025 and 2050 is estimated to be USD 28 million.
 
+<!-- Report Page 58 -->
 ## Actions to achieve 50 percent reduction in operational control scope 1 and 2 GHG emissions by 2030
 
 Aker BP will continue to seek cost-effective, energy-efficient emission reduction measures to reduce GHG emissions from our operated assets. Investments in electrification constitute the most important lever for reducing scope 1 emissions under our 'avoid' and 'reduce' pillars. In 2028, we plan to retire our Ula asset, as well as bring new electrified production on stream mainly through our Yggdrasil and Valhall PWP-Fenris projects. Based on current projections, around 85 percent of Aker BP's equity share production is estimated to be electrified by 2030, enabling us to maintain our portfolio with industry-leading low scope 1 and 2 GHG emission intensities.
@@ -1145,6 +1172,7 @@ As stated in our policy, our ambition is to enhance the quality of our upstream 
 </tr>
 </table>
 
+<!-- Report Page 59 -->
 Key activities performed during 2024:
 
 - Certification of low-carbon steel and copper
@@ -1174,6 +1202,7 @@ Aker BP has a strategic partnership with Höegh Evi to develop a comprehensive C
 Aker BP's CCS activities currently have three focus areas. Firstly, we are capturing high-quality subsurface opportunities and assessing their suitability for carbon storage through subsurface studies. Secondly, we are evaluating field development concepts to mature projects towards development decisions. Thirdly, we are establishing strategic partnerships across the CCS value chain to develop a viable business model, while collaborating with the industry and authorities to establish a regulatory and fiscal framework for CCS.
 
 2.3.4.2 Research and development related to climate and external environment One of the stated ambitions in our climate and energy policy is to contribute to the development and sharing of technology to enable new industries. As of now, we do not have any targets related to research and development (R&D).
+<!-- Report Page 60 -->
 
 Aker BP continuously invests and participates in R&D activities. Our prioritised areas of R&D include digitalisation and technology development within emission and discharge control, Health, safety, security, environment and quality (HSSEQ) and other operational disciplines. Our total R&D budget in 2024 was NOK 396 million, while our allocated spending on low emission solutions was NOK 51 million.
 
@@ -1204,6 +1233,7 @@ All decarbonisation levers visualised in figure 12 are reductions in scope 1 GHG
 ### 2.4.2 Target 2
 
 Aker BP aims to achieve equity share scope 1 and 2 GHG emission neutrality from 2030. This target is closely interlinked with our emission reduction target presented in section 2.4.1, and our approach to decarbonisation, depicted in A figure
+<!-- Report Page 61 -->
 13. Our approach to decarbonisation emphasises
 that we will prioritise scope 1 and 2 GHG emission reductions where feasible, leading up to and after
 
@@ -1224,6 +1254,7 @@ This is a continuous target and thus has no baseline value or applicability peri
 The share of equity share scope 1 emissions compared to scope 2 emissions for this target varies slightly from year to year but scope 2 emissions have historically constituted less than five percent of the total scope 1 and 2 GHG emissions. However, this share is expected to increase going forward as a higher percentage of our own operations is powered with power from shore. Based on current projections, the share will increase to around 10 percent by 2030, and around 20 percent by 2050. Location-based method is used for calculation of scope 2 emissions.
 
 Our equity share scope 1 and 2 GHG emission intensity in 2024 was 2.6 kg CO2e/boe, meaning that we are well below our target of below 4 kg CO2e/boe. This is in line with our expectations and is lower than previous years due to enhanced electrification of our assets and implemented energy management initiatives.
+<!-- Report Page 62 -->
 
 The target is a long-term commitment from the company to maintain an industry-leading scope 1 and 2 GHG emission intensity, in line with our vision of becoming the E&P company of the future. The decarbonisation levers described in A section 2.3 along with continued high production from our assets in our own operations will help us reach this target.
 
@@ -1243,6 +1274,7 @@ In 2024, our methane emission intensity was 0.018 percent. This is in line with 
 
 Except for emissions covered by EU ETS, no metrics presented in this section were validated by an external body other than the assurance provider.
 
+<!-- Report Page 63 -->
 ### 2.5.1 Scope 1 emissions
 
 Our scope 1 consolidated GHG emissions include CO2, CH4 and N2O emitted throughout the year. Our 2017 emission baseline for operational control is 1.250 million tonnes of CO2e, of which 1.245 million t CO2e are scope 1 and 5,000 t CO2e are scope 2 emissions. Aker BP's operational control scope 1 GHG emissions were 838,200 t CO2e in 2024. Our equity share scope 1 GHG emissions were 405,400 t CO₂e. Further details around our scope 1 emissions are presented in AP section 2.5.5.
@@ -1257,6 +1289,7 @@ All scope 1 CO2 emissions are monitored and measured in accordance with EU ETS M
 <figcaption>Operational control Scope 1 GHG emissions show a clear downward trend, decreasing from about 1,066 kt CO₂e in 2022 to 906 kt CO₂e in 2023 and further to 838 kt CO₂e in 2024, indicating sustained emissions reductions year over year. At the same time, the gas stream breakdown highlights that operational efficiency is high, with 96.7% of the 8.7 billion m³ of produced gas marketed, while only small shares are combusted (3.1%), flared (0.2%), or vented (less than 0.1%), underscoring limited losses and relatively low-emission handling of produced gas.</figcaption>
 </figure>
 
+<!-- Report Page 64 -->
 ### 2.5.2 Scope 2 emissions
 
 Aker BP's own operations consume a significant amount of electrical energy, as we have several assets electrified with power from shore. We have committed through our climate and energy policy, presented in section 2.1, to reduce energy consumption and related emissions to air. We also have targets covering both operational control and equity share scope 2 emissions, as presented in A section 2.4.
@@ -1273,6 +1306,7 @@ Our collective work on energy management, electrification of the Valhall area an
 <figcaption>Operational control Scope 2 emissions on a location-based basis remain low in absolute terms, increasing from 8 kt CO₂e in 2022 to 13 kt CO₂e in 2023 (restated) and reaching 14 kt CO₂e in 2024, indicating a modest year-on-year rise while overall emissions levels stay relatively limited compared with Scope 1.</figcaption>
 </figure>
 
+<!-- Report Page 65 -->
 ### 2.5.3 Scope 3 emissions
 
 Aker BP's own operations consume materials and services which have associated GHG emissions. Aker BP can influence upstream scope 3 emissions through contracts, as well as cooperation with suppliers and alliance partners to reduce GHG emissions in our upstream value chain. As a result of our ability to influence these emissions, we have identified emissions in our upstream value chain as a material topic for Aker BP. As of 2024, we do not have any targets related to upstream scope 3 emissions but have completed several actions related to these emissions, as presented in section 2.3. This is in line with our climate and energy policy, as presented in section 2.1.
@@ -1356,6 +1390,7 @@ a financial institution and does not have any investments deemed relevant for th
 </table>
 
 <table>
+<!-- Report Page 66 -->
 <caption>Table 9: Data sources, calculation methodologies and emission factors used for material scope 3 categories</caption>
 <tr>
 <th>Category</th>
@@ -1419,6 +1454,7 @@ a financial institution and does not have any investments deemed relevant for th
 </tr>
 </table>
 
+<!-- Report Page 67 -->
 ### 2.5.4 Energy consumption and mix
 
 Aker BP's own operations consume a significant amount of energy, and we have thus identified energy use in own operations as a material impact. Our assets connected to power from shore consume electric energy, and non-electrified generate power using gas turbines. Current projections indicate that 100% of Aker BP's production will be electrified with power from shore by the 2040s. We have committed through our climate and energy policy, presented in AP section 2.1, to reduce energy consumption and related emissions to air. We have no targets directly related to energy consumption, but all our climate-related targets will encompass energy consumed on assets thus reducing energy generation and demand within our own operations. For more information, see section 2.4.
@@ -1509,6 +1545,7 @@ Climate- and energy-related metrics are reported in the tables below.
 <figure><figcaption>GHG emission intensity indicators show a Scope 1 and 2 intensity of 6.0 kg CO₂e/boe under operational control and 2.6 kg CO₂e/boe on an equity share basis, alongside a low Scope 1 methane intensity of 0.018%, while emissions per net revenue amount to 5.861 kg CO₂e/USD on a location-based basis and 5.911 kg CO₂e/USD on a market-based basis, reflecting relatively contained intensity levels across operational and financial metrics.</figcaption></figure>
 
 <table>
+<!-- Report Page 68 -->
 <caption>Table 11: Total GHG emissions by source</caption>
 <tr>
 <th rowspan="2">Emission source/category 1) 2) 3)</th>
@@ -1762,6 +1799,7 @@ Climate- and energy-related metrics are reported in the tables below.
 
 <table>
 <tr>
+<!-- Report Page 69 -->
 <th rowspan="2">Emission source/category 1) 2) 3)</th>
 <th rowspan="2">Unit</th>
 <th colspan="3">Operational control</th>
@@ -1997,6 +2035,7 @@ Climate- and energy-related metrics are reported in the tables below.
 3) All Global Warming Potential (GWP) factors used are from IPCC AR6.
 
 <table>
+<!-- Report Page 70 -->
 <caption>Table 12: Other consolidation methods for scope 1 and 2 GHG emissions</caption>
 <tr>
 <th>Method</th>
@@ -2043,6 +2082,7 @@ Several energy management initiatives were carried out in 2024, yielding an esti
 
 The carbon price is used for assessing the feasibility of reduction initiatives for operational control scope 1 CO2 emissions only, which in 2024 comprised around 805,800 tCO2, or approximately 95 percent of our total scope 1 and 2 GHG emissions.
 
+<!-- Report Page 71 -->
 ### 2.5.7 Our approach to carbon dioxide removals (CDR)
 
 Our first and foremost priority within our approach to decarbonisation is to avoid and reduce scope 1 and 2 GHG emissions from our own operations. However, we further intend to invest in carbon removal projects equal to our remaining equity share scope 1 and 2 GHG emissions from 2030 onwards. This means that for each tonne of scope 1 and 2 GHG emissions from our own operations we aim to sequester the same amount of CO2 using high-quality CDR projects. This commitment is voluntary and costs related to the purchase of CDR credits come in addition to mandatory acquisition of European ETS quotas and payment of Norwegian CO2 taxes. As such, our plan to secure high quality CDR credits means that we voluntarily assign a higher internal cost for each tonne of equity share scope 1 and 2 GHG emissions that we emit from 2030. This has a positive impact on the business cases for emission reduction initiatives.
@@ -2055,6 +2095,7 @@ While no credits were retired in 2024, we intend to neutralise around 4 million 
 
 <figure><figcaption>The chart shows the projected need for carbon dioxide removals (CDRs) through 2050, expressed in verified carbon units (VCUs), highlighting a sharp increase in required removals from around 2030, where demand peaks at roughly 350,000–360,000 VCUs per year, followed by a gradual decline towards about 70,000–80,000 VCUs by 2050; in the early 2030s, most of the required removals are covered by the current portfolio of carbon dioxide removal projects (green bars), but from the mid-2030s onward this contribution decreases significantly, creating a growing gap that must be filled through additional purchases of carbon dioxide removals (pink bars), which dominate the mix from around 2037 onwards; the blue line illustrates total removals required each year, clearly showing that while reliance on purchased removals increases in the medium term, overall removal needs decline over time as emissions fall, resulting in a lower but still persistent requirement for external carbon dioxide removals by 2050.</figcaption></figure>
 
+<!-- Report Page 72 -->
 ## 2.6 SCENARIO ANALYSIS
 
 The path toward the future energy system is uncertain and, as reflected by the IEA's forecasts and scenarios, there is a wide range of different outcomes for oil and gas demand. Aker BP's commitment to evaluate and manage climate-related risks and opportunities is described in our climate and energy policy.
@@ -2093,6 +2134,7 @@ In addition, we assess the physical climate risks relevant for our business usin
 
 The results were used to provide an ensemble of future predictions for wave conditions across the NCS. These have further been used as input into a structural reliability analysis where the uncertainty in the future wave models has been contrasted with those in the existing climate model. Ten CMIP-5 atmosphere coupled climate models have been run for the RCP (representative concentration pathway) 4.5 and RCP 8.5 projections for near term-term (up to 2040) and long-term (up to 2100) prediction. This means that some of our existing assets will still be in production for the near-term projections. We do not have anticipated activity going to 2100.
 
+<!-- Report Page 73 -->
 ### 2.6.2 Sensitivity to oil and gas prices
 
 figure 25 illustrates the changes in the net present value (NPV) of Aker BP's portfolio when Aker BP's planning assumptions for oil and gas prices are replaced with those from the selected scenarios, while keeping carbon price and FX unchanged in all scenarios. As shown in the graph, under the IEA's STEPS, the NPV of Aker BP's portfolio is five percent higher, reflecting the higher oil and gas price assumptions in this scenario compared with Aker BP's planning assumptions. When tested using the assumptions from the APS, the NPV of the portfolio is seven percent lower.
@@ -2109,6 +2151,7 @@ An International Monetary Fund (IMF) working paper from October 2023 illustrates
 
 The NPV of Aker BP's portfolio under the selected scenarios is compared to the NPV of the portfolio valued at Aker BP's latest economic assumptions (NPV10 as of 01.01.2025). Same FX (foreign exchange rates) and carbon prices are used for all scenarios. Portfolio consists of producing assets and non-sanctioned projects.
 
+<!-- Report Page 74 -->
 ### 2.6.3 Sensitivity to carbon prices
 
 In Aker BP, we believe that carbon pricing is an important tool needed to help drive a positive change. Setting a price on carbon creates financial incentives for companies to invest in reducing their own emissions, to drive innovation and scale technologies. Aker BP's internal carbon price assumptions significantly exceed prices assumed under the IEA's scenarios. In addition to the national Norwegian carbon tax, petroleum operations on the NCS are subject to the EU ETS (Emissions Trading System). The combination of the national carbon tax and the EU Allowances (EUAs) traded under EU ETS means that companies operating in Norway pay a substantially higher price per tonne of CO2 emissions compared with most other countries with petroleum activities. Read more about our internal carbon price assumptions in section 2.5.6.
@@ -2148,6 +2191,7 @@ Resilience testing is an integrated part of our business model, and our portfoli
 
 As reflected in the previous sections, Aker BP considers its strategy, emission reduction pathway and portfolio to be resilient to the projected oil and gas prices, as well as carbon prices, under the various IEA scenarios. As we continue to reduce our emissions going forward, we will also reduce our exposure to risks of increased carbon prices.
 
+<!-- Report Page 75 -->
 ## 2.7 EU TAXONOMY REPORTING
 
 Aker BP has prepared its EU Sustainable Finance Taxonomy (EU taxonomy) disclosure in compliance with EU Regulation 2020/852 and the Delegated Acts, as well as the regulation to implement the EU taxonomy and publication requirements in Norwegian law. These regulations came into effect in Norway on 1 January 2023, with the first taxonomy reporting required for annual reports with a balance sheet date of 31 December
@@ -2200,6 +2244,7 @@ The carbon capture and storage activity described in section 2.3 could qualify a
 
 Finally, by adding financial data to each activity in the reporting unit, the proportion of Aker BP's taxonomy-eligible and taxonomy-aligned activities were calculated. This is done by calculating the three key performance indicators (KPIs): turnover, capital expenditures (capex) and operational expenditures (opex).
 
+<!-- Report Page 76 -->
 ##### 2.7.1.1 Complying with minimum social safeguards
 
 Our understanding is that defined requirements on minimum social safeguards need to be placed on the company and the activities in question to assess activity-alignment. The minimum social safeguards include all procedures implemented to ensure that economic activities are carried out in alignment with:
@@ -2242,6 +2287,7 @@ regulations. Our approach includes adhering to all applicable tax laws and regul
 
 We carry out our activities in a manner consistent with all applicable competition laws and regulations, considering the competition laws of all jurisdictions where our activities might have anti-competitive effects. In line with our code of conduct and our guidelines for ethical business conduct, we strive to avoid any anti-competitive practices, and provide our employees with assistance to prevent, detect and address any competition violations. Additionally, we promote a culture of fair competition within our organisation through training and awareness programmes. In 2024, there were no signs of non-compliance with minimum safeguards, and Aker BP has not been convicted of violating competition laws.
 
+<!-- Report Page 77 -->
 ## 2.7.2 Accounting principles and calculation of KPIs
 
 The definitions of the turnover, capex and opex KPIs are set out in Annex I to the Disclosures Delegated Act. The proportions of taxonomy-eligible and taxonomy-aligned turnover, capex and opex are calculated by dividing a numerator by a denominator. The following sections provide further information on how the denominators and numerators were derived for each KPI. There are no changes in the definitions of the KPIs compared with last year's reporting.
@@ -2270,6 +2316,7 @@ The numerator for eligibility and alignment is zero, as no relevant activity has
 
 The templates for the three KPIs mentioned above, are included in table 15, table 16 and table 17 on the next pages.
 
+<!-- Report Page 78 -->
 <table>
 <caption>Table 13: Capex KPI</caption>
 <tr>
@@ -2298,6 +2345,7 @@ The templates for the three KPIs mentioned above, are included in table 15, tabl
 </tr>
 <tr>
 <td>Less goodwill additions through business acquisitions</td>
+<!-- Report Page 79 -->
 <td>13</td>
 <td>-</td>
 <td>-</td>
@@ -2325,6 +2373,7 @@ The templates for the three KPIs mentioned above, are included in table 15, tabl
 <td>NO</td>
 </tr>
 <tr>
+<!-- Report Page 80 -->
 <td>3. The undertaking carries out, funds or has exposures to safe operation of existing nuclear installations that produce electricity or process heat, including for the purposes of district heating or industrial processes such as hydrogen production from nuclear energy, as well as their safety upgrades.</td>
 <td>NO</td>
 </tr>
@@ -2353,6 +2402,7 @@ The templates for the three KPIs mentioned above, are included in table 15, tabl
 As all Aker BP's own operations are located on the Norwegian continental shelf (NCS), our activities leading to actual or potential pollution by emissions to air, discharges to sea as well as use and discharge of chemicals containing substances of concern or very high concern, are strictly regulated by Norwegian law and discharge permits. We acknowledge the environmental impact from our activities and our efforts to prevent, minimise and remediate the impacts, are anchored in our comprehensive environmental management system. Pollution is a material topic for Aker BP and the process to determine the materiality is described in A section 1 General. Material pollution impacts and risks are presented in table 18.
 
 <table>
+<!-- Report Page 81 -->
 <caption>Table 18: Material impacts, risks and opportunities: Pollution</caption>
 <tr>
 <th>Material matters</th>
@@ -2401,6 +2451,7 @@ As all Aker BP's own operations are located on the Norwegian continental shelf (
 </tr>
 </table>
 
+<!-- Report Page 82 -->
 ## 3.1 POLICIES AND PROCEDURES
 
 Aker BP acknowledges the environmental footprint arising from our own operations, and we are committed to working systematically to ensure environmental protection as a central part of our operational activities on the NCS, and for activities onshore under our operational control. We work actively together with our alliances, contractors and suppliers to reach the same goal. These principles form the core of our external environment policy.
@@ -2430,6 +2481,7 @@ Aker BP's material risks related to acute pollution to sea and blowout are cover
 3\. Emergency preparedness and response policy
 
 The second principle in the external environmental policy states that we shall avoid the occurrence of incidents and emergency situations by establishing, monitoring and maintaining barriers for the prevention of major accidental events, such as acute spills and blowouts, and if they occur, control and limit their impact on people and the environment. We shall implement asset-specific oil spill preparedness plans to be able to manage any situation that may occur. Through our risk and barrier policy we are committed to establishing, monitoring and maintaining barriers for the prevention of major accidental events, such as acute spills and blowouts, and for the reduction of potential environmental impact. Monitoring the performance and integrity of our technical, operational and organisational barriers is an important part of our risk and barrier management. Details on actions to limit the impact from acute spills are provided in section 3.2.
+<!-- Report Page 83 -->
 
 In addition, our emergency preparedness and response policy specifies our core principles for mitigation and remediation of acute spills. Aker BP commits to initiate, lead and combat acute spills and full blowouts, and minimise potential environmental impact through:
 
@@ -2458,6 +2510,7 @@ There are preventive actions in place to avoid unplanned incidents such as chemi
 All actions executed during the reporting year are reported to the Norwegian Environment Agency.
 
 <table>
+<!-- Report Page 84 -->
 <caption>Table 19: Overview of actions taken in 2024</caption>
 <tr>
 <th>Material IRO</th>
@@ -2555,6 +2608,7 @@ Our annual process for setting asset-specific key performance indicators for mat
 
 Our asset-specific metrics for pollution to air in 2024 included SOx, NOx and nmVOC emissions. For pollution to sea, the 2024 metrics included oil concentration in discharges from produced water to sea as well as the percentage of produced water re-injection. We continuously review and assess the degree to which environmental expectations are met by monitoring our performance against these KPIs, and implementing the lessons learned from previous successes and failures. Necessary actions to comply with targets are defined and followed up per asset.
 
+<!-- Report Page 85 -->
 ### 3.4.1 Pollution to air
 
 Emissions of NOK, SOx and nmVOC occur during combustion of fuel gas and diesel, as well as flaring. In addition, fugitive emissions of nmVOC arise from unburned gas leaking from sources such as flanges, valves and vents.
@@ -2572,6 +2626,7 @@ Consolidated amounts of material pollutants to air from own operations, are prov
 NOx emissions under operational control increased by 11 percent due to increased drilling activity in 2024 compared to 2023. Additionally, changes in measurement and calculation methodology for nmVOC in 2024 render these emissions not directly comparable to those of 2023.
 
 <table>
+<!-- Report Page 86 -->
 <caption>Table 20: Emissions of NOx, SOx and nm-VOC</caption>
 <tr>
 <th>Pollutants to air</th>
@@ -2599,6 +2654,7 @@ NOx emissions under operational control increased by 11 percent due to increased
 </tr>
 </table>
 
+<!-- Report Page 87 -->
 ### 3.4.2 Pollution to sea
 
 All producing fields under Aker BP's own operations have discharge of treated produced water. The treatment is carried out using best available techniques to ensure the lowest possible concentration of dispersed oil and associated organic compounds. The produced water stream contains pollutants such as metals, hydrocarbons, phenols and polycyclic aromatic hydrocarbons as listed in Annex II of Regulation (EC) No 166/2006 European Pollutant Release and Transfer Register. A figure 31 illustrates the volumetric balance of produced water in 2024, highlighting that only 31 percent of the produced water generated was discharged to sea. The majority of the produced water containing pollutants was reinjected back into the wells.
@@ -2732,6 +2788,7 @@ During 2024, Aker BP did not perform any sand blasting thus we did not identify 
 <figcaption>Produced water totaled 19.3 million cubic meters (19.3 mill m^3) of produced water. Of this total, 67% was injected as produced water. A small portion, 2%, was exported with oil. The remaining 31% constitutes the balance of the total and is depicted as a lighter-colored segment without an explicit label. The injected category (67%) is the largest single allocation, representing more than two-thirds of the 19.3 million m^3, while oil export (2%) represents a very small fraction.</figcaption>
 </figure>
 
+<!-- Report Page 88 -->
 ### 3.4.4 Substances of concern and substances of very high concern
 
 Aker BP uses chemicals during our production, drilling and well operations. Some of these chemicals contain substances of concern (SOC) and substances of very high concern (SVHC).
@@ -2753,6 +2810,7 @@ Amounts of chemicals used and discharged in 2024 are registered in Aker BP's env
 SOC and SVHC data from non-operated fields and exploration wells in 2024 has been estimated. Edvard Grieg and Valhall chemicals have been utilised to estimate Johan Sverdrup SOC and SVHC. Drilling and well chemical data from operated exploration wells in 2024 have been used to estimate SOC and SVHC for non-operated exploration wells.
 
 <table>
+<!-- Report Page 89 -->
 <caption>Table 22: Substances of very high concern in chemicals used and discharged</caption>
 <tr>
 <th>CAS number</th>
@@ -2858,6 +2916,7 @@ SOC and SVHC data from non-operated fields and exploration wells in 2024 has bee
 </tr>
 </table>
 
+<!-- Report Page 90 -->
 ## 4 Water and marine resources
 
 Water and marine resources are not a material topic for Aker BP's own operations. We have identified one material impact within this topic, as we believe that water consumption in our value chain could potentially prove to be material. We are in the process of conducting necessary mappings and assessments on the level of materiality for water and marine resources in our value chain. As we have not yet been able to obtain the necessary data and insight into our value chain related to water and marine resources, we do not have any related policies, actions, targets or metrics to report.
@@ -2881,6 +2940,7 @@ Water and marine resources are not a material topic for Aker BP's own operations
 </tr>
 </table>
 
+<!-- Report Page 91 -->
 ## 5 Biodiversity and ecosystems
 
 Aker BP acknowledges the objectives of the Convention on Biological Diversity and welcomes the goals of the Kunming-Montreal Global Biodiversity Framework to halt and reverse biodiversity loss. We recognise that climate change and biodiversity loss are complex and deeply interconnected challenges, and we strive to address both in our business practices.
@@ -2940,6 +3000,7 @@ Aker BP's measurable biodiversity footprint results mainly from the discharges o
 
 In 2024, Aker BP did not undertake activities which had a measurable negative effect on biodiversity-sensitive areas or biodiversity features of importance, such as species registered as threatened on the Norwegian Red List for Species.
 
+<!-- Report Page 92 -->
 ## Resilience of the strategy and business model
 
 The resilience of Aker BP's strategy and business model in relation to biodiversity and ecosystem services is qualitatively assessed with involvement of internal stakeholders, taking into consideration the company's biodiversity-related physical, transition and systemic risks. The analysis presented in table 27 considers risks over short-, medium- and long-term horizons in which they are likely to materialise, as well as considerations related to Aker BP's resilience in relation to biodiversity. The material risks are summarised in table 26 and are briefly discussed below.
@@ -3013,6 +3074,7 @@ Aker BP's potential expansion into environmentally sensitive areas represents a 
 
 This resilience analysis of Aker BP's biodiversity-related risks concludes that Aker BP's strategy and business model are resilient to the identified biodiversity and ecosystems-related physical, transition and systemic risks. These risks are not likely to have major implications for our business over short-, medium- and long-term horizons.
 
+<!-- Report Page 93 -->
 ## 5.1 POLICIES AND PROCEDURES
 
 Through our biodiversity policy, Aker BP aims to manage and reduce our biodiversity footprint across our operated assets and supply chain and is available to stakeholders on Aker BP's website.
@@ -3035,6 +3097,7 @@ Key actions undertaken in 2024 and plans to achieve objectives of our biodiversi
 
 Aker BP identifies and manages biodiversity impacts in its own operations through a comprehensive programme which is implemented in accordance with Norway's regulations for petroleum activities across all assets, where applicable dependent on the nature of the activities, including:
 
+<!-- Report Page 94 -->
 - Baseline surveys or assessments of the seabed
 and benthic fauna prior to drilling operations and new field developments
 
@@ -3082,6 +3145,7 @@ Aker BP has not set measurable biodiversity-related targets as of 31 December 20
 
 Measurements of the biodiversity metrics are not validated by an external body other than the assurance provider
 
+<!-- Report Page 95 -->
 ### 5.4.1 Oil contaminated areas and biodiversity impacts
 
 Aker BP's biodiversity footprint at sites in our own operations are largely associated with the historical oil-contaminated drill cuttings piles that accumulated in the 1980s during the drilling of the first wells on the Ula and Valhall fields. While a large percentage of the oil has naturally degraded over the years, some remains present in the sediments surrounding the production installations. Regular environmental monitoring has documented that the total oil-contaminated area around the Ula and Valhall fields has decreased from 160 km2 in 1996 to below 20 km2 as of 2023.
@@ -3177,6 +3241,7 @@ The site-specific biodiversity impacts and oil-contaminated areas are summarised
 
 Environmental monitoring of the offshore oil and gas operations in Norway is strictly regulated, and the monitoring programmes and methodologies require pre-approval from the respective authorities. The detailed requirements are outlined in the Guidelines for environmental monitoring of petroleum activities on the NCS1). These guidelines specify the requirements for sample collection, analytical methods and parameters, necessary accreditation, quality control of the measurements, estimation of the affected areas and reporting. Areas contaminated with oil hydrocarbons shall be conservatively estimated based on the assumption that the affected areas are elliptical, and that the entire area within the innermost unaffected stations is considered contaminated.
 
+<!-- Report Page 96 -->
 ### 5.4.2 Sites in biodiversity-sensitive areas
 
 Reporting the locations of Aker BP's own operations in biodiversity-sensitive areas (table 29) is guided by the internal mapping tool, MapInsight, which contains information about these areas and allows for precise pinpointing of operational sites relative to them. Measures to mitigate biodiversity impacts of exploration drilling in SVOs are described in section 5.2.1.
@@ -3224,6 +3289,7 @@ At the time of submitting this sustainability statement, no measurable negative 
 </tr>
 </table>
 
+<!-- Report Page 97 -->
 ## 6 Resource use and circular economy
 
 Aker BP's circular economy model emphasises sustainable practices, allowing us to increase resource efficiency and reduce waste generation in every phase of the lifecycle. We consider the introduction of circular economy principles into our business model to be important to reduce the consumption of and dependency on virgin resources, reduce scope 3 emissions and biodiversity footprint, and achieve financial benefits.
@@ -3233,6 +3299,7 @@ Circular economy is material for Aker BP due to the amount of materials used in 
 The material impacts associated with major projects, such as decommissioning of oil and gas installations, are evaluated in impact assessments that are available for public consultation with the affected communities. Aker BP will evaluate the assumptions made for the current value chain assessment as we progress with the value chain mapping and understanding the resource and material flows beyond our own operations.
 
 <table>
+<!-- Report Page 98 -->
 <caption>Table 30: Material impacts, risks and opportunities: Resource use and circular economy</caption>
 <tr>
 <th>Material matters</th>
@@ -3301,6 +3368,7 @@ The material impacts associated with major projects, such as decommissioning of 
 </tr>
 </table>
 
+<!-- Report Page 99 -->
 ## 6.1 POLICIES AND PROCEDURES
 
 Aker BP's circular economy policy outlines our ambition to optimise material use and reduce waste at the assets under our operational control and in our upstream value chain were relevant. The policy is available at Aker BP's website.
@@ -3325,6 +3393,7 @@ Aker BP has installed a thermal cuttings treatment unit on the Noble Invincible 
 <figcaption>The circular economy hierarchy prioritises actions that keep resources in use for as long as possible by first reducing resource consumption and waste through operational efficiency, optimisation, and sustainable design choices, followed by reusing materials and equipment through repair, refurbishment, and repurposing to extend their functional lifetime, then recycling materials at end of use to substitute virgin raw materials and retain value within the system, and finally recovering energy from residual waste streams where material recovery is no longer feasible, ensuring that energy recovery remains a last option after reduction, reuse, and recycling opportunities have been exhausted.</figcaption>
 </figure>
 
+<!-- Report Page 100 -->
 ### 6.2.2 Reuse of drilling fluids
 
 To prevent the occurrence of hazardous waste, both oil-based and water-based drilling fluids are reused as long as their technical quality meets drilling specifications or can be cost-efficiently treated to meet these standards. This ensures that the fluids remain part of the value chain for as long as feasible. Most of the oil-based drilling fluids Aker BP uses are reused when drilling between sections or returned to the drilling fluids supplier, who reconditions the drilling fluids for reuse. The reuse rate in 2024 was approximately 79 percent for oil-based drilling fluids. The calculation is based on extraction of numbers from NEMS Analytics on January 29th, 2025. Oil-based drill cuttings and drilling fluids that are not treated at the rig site are sent onshore for further treatment.
@@ -3350,6 +3419,7 @@ P&A operations were conducted on the Gaupe field in the summer of 2024 as a part
 
 Abandonment spend during 2024 was USD 227 million. Future decommissioning costs are included in the overall abandonment liabilities, which are disclosed in note 22 to the 2024 financial
 
+<!-- Report Page 101 -->
 ### 6.2.4 Engagement with supply chain
 
 In 2023, Aker BP integrated circular economy requirements into new contracts and invitations to tender, and has been updating existing contracts in 2024.
@@ -3409,6 +3479,7 @@ The oil and gas extracted by Aker BP are virgin raw materials, which do not cont
 </tr>
 </table>
 
+<!-- Report Page 102 -->
 ### 6.4.2 Resource outflows
 
 Our material resource outflows comprise waste from drilling and production activities, waste and recyclable metals from decommissioning of the offshore installations. The oil and gas produced by Aker BP is mainly combusted by the end users. These products are not durable or repairable and do not contain recycled content.
@@ -3440,6 +3511,7 @@ The outcome of the disposal works in 2024 will be documented in the final dispos
 </figure>
 
 <table>
+<!-- Report Page 103 -->
 <caption>Table 31: Generation and handling of waste</caption>
 <tr>
 <th>Category</th>
@@ -3615,6 +3687,7 @@ The outcome of the disposal works in 2024 will be documented in the final dispos
 <td>></td>
 </tr>
 <tr>
+<!-- Report Page 104 -->
 <td>Workers in the value chain</td>
 <td>></td>
 </tr>
@@ -3630,6 +3703,7 @@ Aker BP's own workforce consists of 4,067 employees and non-employees (3,673 in 
 
 Policies are in place to manage adverse impacts and reduce the risk of human rights violations within our own workforce, workers in the value chain and affected communities. The code of conduct serves as the primary governance tool and includes references to additional policies, such as Aker BP's human rights policy, which offers more detailed guidance. For more information about our code of conduct see section 10.1.1.
 
+<!-- Report Page 105 -->
 ### Commitment to respecting human rights of individuals
 
 Aker BP aims to conduct its business in a manner that respects the human rights and dignity of all people. We acknowledge all internationally recognised human and labour rights standards as set out in the International Bill of Human Rights and the International Labour Organisation's Declaration on Fundamental Principles and Rights at Work. Aker BP's human rights policy describes the company's approach to managing human rights risks in our operations. The policy is aligned with the United Nations (UN) Guiding Principles on Business and Human Rights and the Organisation for Economic Co-operation and Development (OECD) Guidelines for Multinational Enterprises, as well as applicable laws, including regulations related to engagement with our own workforce. The CEO is the owner of the human rights policy, which applies to all Aker BP employees and non-employees, as well as suppliers, contractors and business partners.
@@ -3674,6 +3748,7 @@ Full-time employment is offered to all of Aker BP's permanent employees. Tempora
 
 Our part-time employees are employees who have applied for and been granted reduced working hours. We do not hire employees on zero-hour contracts.
 
+<!-- Report Page 106 -->
 ### Own workforce in Aker BP:
 
 Employees: People who are in an employment relationship with Aker BP
@@ -3690,6 +3765,7 @@ at Aker BP's offices or installations, and by use of Aker BP's equipment
 at least three months
 
 <table>
+<!-- Report Page 107 -->
 <caption>Table 33: Material impacts, risks and opportunities: Own workforce</caption>
 <tr>
 <th>Material matters</th>
@@ -3728,6 +3804,7 @@ at least three months
 </tr>
 <tr>
 <td>Material risks</td>
+<!-- Report Page 108 -->
 <td></td>
 <td></td>
 </tr>
@@ -3765,6 +3842,7 @@ at least three months
 
 <figure><figcaption>Aker BP’s workforce at year-end 2024 comprised 4,067 people under own workforce, including 2,962 employees and 1,105 non-employees, representing 44 nationalities, an average age of 46, and full employment in Norway, with the employee population dominated by the 30–49 age group (1,564 employees), followed by those aged 50+ (1,162) and 18–29 (236), and a gender split of 2,231 men and 731 women; during the year, 299 new hires were made (10.9% of employees), primarily aged 30–49 (188), with 90 women and 209 men, while total turnover amounted to 76 employees (2.6%), concentrated mainly in the 30–49 age group (27) and employees aged 50+ (47), and skewed toward male departures (55 versus 21 female); organisationally, the workforce consisted of 13 board members, 103 senior managers, 1,832 managers and senior professionals, 272 professionals, and 755 tariff workers, with notable gender imbalances across categories—particularly among managers and senior professionals (1,350 men versus 482 women)—and average ages ranging from 33 among professionals to 52 at senior management level, complemented by 51 temporary employees and 36 part-time employees, together underscoring a mature, highly skilled workforce with moderate renewal and relatively low overall turnover.</figcaption></figure>
 
+<!-- Report Page 109 -->
 ### 7.1 WORKING CONDITIONS
 
 The working conditions can significantly impact the satisfaction and overall well-being of our own workforce, thereby affecting our capacity to execute planned activities effectively. Therefore, it is crucial for Aker BP to provide good working conditions, which aligns with our ambition to create the most attractive place to work.
@@ -3812,6 +3890,7 @@ Aker BP covers the gap between the salary provided by the National Insurance Sch
 - In cases of parental leave, Aker BP covers
 the gap between the salary provided by the National Insurance Scheme and the employee's regular salary for 49 weeks. As an alternative, the employees may choose to take 80 percent salary for 59 weeks
 
+<!-- Report Page 110 -->
 ##### 7.1.1.3 Work-life balance
 
 Aker BP facilitates a healthy work-life balance in accordance with Norwegian legislation. Onshore employees have flexible working hours and a flexible hybrid working policy that allows for remote work, whereas offshore personnel normally work for two weeks and are off for four weeks. All employees are entitled to parental and family-related leave per Norwegian law. During paid family-related leave, employees remain covered by Aker BP's insurance plans and continue to participate in the company's compensation and benefits processes to ensure no negative impact on salary development.
@@ -3824,6 +3903,7 @@ We use our quarterly pulse survey to identify which actions to implement for our
 
 For 2025, we will continue conducting our quarterly pulse surveys, monitor the results closely and implement measures where necessary. This will continue being our key activity to identify actions for our impacts, risks and opportunities related to working conditions.
 
+<!-- Report Page 111 -->
 #### 7.1.3 Targets and metrics
 
 At Aker BP, we have not yet set any time-bound, outcome-oriented targets related to working conditions, as we have not identified any targets that are likely to result in changes for our workforce.
@@ -3838,6 +3918,7 @@ At Aker BP, we aim to create a culture where differences are valued and utilised
 <figcaption>A total of 213 employees are taking parental leave, representing 7% of 2,962 employees. Of those 213 leave-takers, 157 are male and 56 are female. Males therefore account for approximately 74% (157 of 213) and females approximately 26% (56 of 213) of parental leave participants. Male parental leave takers exceed female takers by 101 employees. All employees (100%) are entitled to take parental leave.</figcaption>
 </figure>
 
+<!-- Report Page 112 -->
 #### 7.2.1 Policies and procedures
 
 Our commitments to ensuring diversity and equal opportunities are stated in our code of conduct and underpinning policies such as our human rights policy and diversity, equity and inclusion policy. The policies are available on our external website. For more information about our code of conduct and human right policy, see section 10.1.1 and A Commitment to respecting human rights of individuals, page 105.
@@ -3853,6 +3934,7 @@ In 2023, all employees were invited to participate in a diversity index survey, 
 We also believe that monitoring and understanding the current state and development of diversity and inclusion are essential to achieving our goal of having 30 percent female employees by 2030. To secure this, the EMT has received updates on relevant metrics during 2024. Additionally, the topic has been integrated into e-learning available to all employees and leadership training programmes. We believe focusing on gender equality and diversity will enhance talent attraction and retention, helping us reach our target.
 
 To mitigate the risk of losing skilled workers due to a poor reputation for diversity and inclusion, we have revised our recruitment procedure in 2024. These revisions aim to prevent discrimination and ensure an inclusive recruitment process that promotes gender equality. Additionally, we have enhanced our branding efforts to attract a broader and more diverse talent pool. We also support initiatives that promote education and careers for girls.
+<!-- Report Page 113 -->
 
 Regarding training and education, we have maintained our commitment to providing a diverse range of learning and development opportunities for our own employees, both internally and externally. We believe that the opportunity for developing skills and knowledge not only enhances employee satisfaction but also increases productivity and prepares our workforce for future demands. At Aker BP, a key principle is that each employee is responsible for their own learning and development, and we expect leaders to facilitate and support the development of their team members. The annual career development dialogue forms a good basis for further developing our employees. We monitor employees' perception of development opportunities over time through our quarterly pulse survey. The results serve as a basis for identifying areas for improvement and determining where additional actions are needed. In 2024, none of the pulse survey results indicated a need for further cross company actions. For details about the pulse survey, see section 7.1.1.1 and figure 41 for the pulse survey results.
 
@@ -3868,6 +3950,7 @@ The gender base pay ratio for tariff workers is 100 percent when adjusted for eq
 
 <figure><figcaption>Across Aker BP’s workforce in 2024, women’s average pay relative to men remains below parity in all employee categories, with the total base pay ratio at 91.2% and total pay ratio at 87.2%, reflecting both role distribution and representation effects, as women constitute only 24.7% of the overall employee population; pay ratios vary by level, with executive management (excluding the CEO) showing lower relative pay at around 83% of male pay and a female representation of roughly one-third, while senior management is closer to parity at about 95% for both base and total pay but with women making up only 22.5% of the group; among managers and senior professionals, base and total pay ratios range from approximately 88–93% across subsurface and drilling, technical, and business support functions, with female representation increasing from around 21% in technical roles to 38% in business support, indicating that gaps are influenced both by pay differences and occupational segregation; professionals show relatively strong pay parity, particularly in business support where women’s base and total pay slightly exceed male averages (around 98–99%), supported by the highest female representation in this group at 63.1%, while subsurface and drilling professionals remain below parity at around 97% base pay and 89% total pay with 43.7% women; offshore roles display pronounced contrasts, with management showing high pay ratios (around 94%) but very low female representation (6.8%), and tariff roles combining relatively high pay ratios (around 96% base pay) with only 11% women, collectively highlighting that observed gender pay differences are closely linked to workforce composition by role, function, and seniority rather than uniform pay disparities within comparable positions.</figcaption></figure>
 
+<!-- Report Page 114 -->
 ### 7.3 HEALTH AND SAFETY
 
 The oil and gas industry involves activities and conditions that, if not properly managed, may potentially lead to adverse health and safety impacts on workers, including major accidents, minor incidents and illnesses. Therefore, health and safety is Aker BP's top priority in all activities. Additionally, impacts present a risk of financial penalties and damage to reputation.
@@ -3890,6 +3973,7 @@ The management system, including related policies, is continuously revised based
 
 Our emergency preparedness and response policy describes Aker BP's commitment to maintain and further develop a highly competent, robust and effective emergency response organisation to manage incidents and crisis related to Aker BP. Our priorities during any incidents are to prevent and limit harm to people, or damage to the environment, assets and reputation. This policy is owned by the HSSEQ manager for emergency preparedness. We systematically conduct training and exercises for all parts of our emergency response organisation to prepare for situations that may occur. Our health and safety management system includes processes and procedures for how to prepare for and respond to emergencies.
 
+<!-- Report Page 115 -->
 #### 7.3.1.2 Work-related illness
 
 Aker BP is committed to and acknowledges that health is more than absence of sickness for the individual. Aker BP defines health as the presence of full mental, physical and social well-being and this is what we aim to achieve for personnel working for us. Aker BP provides health services to prevent, identify and monitor work-related health risks, and provides employee benefits such as regular health checks and health care insurance. Additionally, risk-exposed offshore personnel are required to undergo a comprehensive health check-up every three years.
@@ -3906,6 +3990,7 @@ In 2024, Aker BP conducted a significant health and safety project by enhancing 
 
 To identify areas of concern related to work-related illness, we invited all employees to participate in a survey on how they perceive their psychosocial work environment (OPA). The aim of this action was to get a deeper understanding of factors impacting our daily experiences at the workplace, which may result in work-related illness and dissatisfaction. Additionally, we wanted to use the results to identify teams with a low score and implement measures to improve. The results of the survey provided a better understanding of the factors that challenge, motivate and engage us in the workplace. All teams were asked to review their results, and we adopted a structured approach to follow up with teams that had low scores. This included additional measures to identify the causes and determine necessary actions to enhance the psychosocial work environment. The aim was to mitigate adverse impacts on employees resulting from work-related illnesses and associated risks. In 2025, we will monitor the results of these actions through quarterly pulse surveys.
 
+<!-- Report Page 116 -->
 #### 7.3.3 Targets and metrics
 
 Aker BP tracks the effectiveness of its policies, procedures and actions through metrics and sets annual targets for key performance indicators (KPIs) for our own workforce. These targets include our most important health and safety impacts, including major accidents and minor incidents, and have been approved by the BoD where employee representatives are included. The 2024 targets and our performance are summarised in figure 44. We do not have targets for work-related illness. However, performance is monitored using metrics.
@@ -3952,6 +4037,7 @@ In addition, we monitor work-related illness. In 2024, Aker BP registered seven 
 1) These targets include value chain workers on Aker BP opperated offshore facilities (including mobile drilling units).
 
 <table>
+<!-- Report Page 117 -->
 <caption>Table 34: Safety performance last two years</caption>
 <tr>
 <th>Category 2024 2023</th>
@@ -4055,6 +4141,7 @@ In addition, we monitor work-related illness. In 2024, Aker BP registered seven 
 
 4) As per the API Recommended Practice 754: Process Safety Performance Indicators for the Refining and Petrochemical Industries.
 
+<!-- Report Page 118 -->
 ## 8 Workers in the value chain
 
 In 2024, we had approximately 1,600 tier 1 suppliers, some of whom operate in countries associated with a high risk1) of human rights violations, such as child-labour, forced or compulsory labour, as well as poor working, health and safety conditions. As a result, through our suppliers, Aker BP has the potential to negatively impact workers within our value chain. If we fail to manage these adverse impacts, we may also face the risk of reputational damage.
@@ -4114,6 +4201,7 @@ Workers in the value chain includes all individuals working for our suppliers an
 
 On the other hand, Aker BP has the opportunity to positively impact workers in the value chain by using leverage to improve working conditions in countries prone to human rights violations and poor labour standards. By actively engaging with our suppliers and promoting best practices, we can help ensure that workers' rights are respected, and that health and safety standards are upheld. This proactive approach does not only mitigate risks but can also contribute to the overall well-being of workers in our value chain.
 
+<!-- Report Page 119 -->
 ## 8.1 POLICIES AND PROCEDURES
 
 Our code of conduct and human rights policy addresses material topics such as working conditions, human rights (including child, forced and compulsory labour), violence and harassment, and health and safety. See Wsection 10.1.1 and A Commitment to respecting human rights of individuals, page 105, for more information about our code of conduct and human rights policy.
@@ -4124,6 +4212,7 @@ To reduce adverse impacts on workers in our value chain and reduce associated ri
 <figcaption>Aker BP remains dependent on a geographically diversified group of international suppliers spanning Europe, Asia, the Middle East, and South America, reflecting the globalized nature of its value chain and exposure to cross-border supply risks: in Europe, key supplier dependencies are concentrated in countries with established industrial and offshore energy capabilities, including Sweden, Scotland, England, the Netherlands, Germany, Switzerland, Spain, Finland, Estonia, Poland, Romania, and Italy; in Asia, dependencies extend to Japan and several Southeast Asian manufacturing and logistics hubs—Thailand, Malaysia, Singapore, and Indonesia—while India represents an additional critical sourcing location; outside Europe and Asia, Brazil and the United Arab Emirates are highlighted as important supplier countries, underscoring reliance on both advanced industrial economies and emerging markets; collectively, this distribution indicates that while Aker BP benefits from access to specialized competencies and cost-efficient production across regions, it is also exposed to geopolitical developments, trade disruptions, regulatory differences, and logistical vulnerabilities across multiple continents.</figcaption>
 </figure>
 
+<!-- Report Page 120 -->
 - Before establishing or amending any business
 relationship, we must follow Aker BP's business partner integrity procedure to assess legal and ethical risks and include contractual obligations on ethics and compliance where applicable. This process pays special attention to material topics for value chain workers
 - To clearly communicate our expectations
@@ -4156,6 +4245,7 @@ As of 2024, outside the audit programme, we have not received any reports or ide
 
 In 2024, we strengthened our efforts to address actual and potential impacts on workers in the value chain. Additionally, we used our leverage to enhance working conditions for these workers. Details of the actions we have taken are outlined below.
 
+<!-- Report Page 121 -->
 ### 8.2.1 Strengthened internal processes
 
 In 2024, we improved our internal processes to better identify areas of concern related to workers in the value chain, which is a crucial initial step towards implementing actions that mitigate potential and actual adverse impacts, reduce risks and capitalise on identified opportunities. The actions taken include:
@@ -4194,6 +4284,7 @@ Aker BP expects the suppliers to address the findings and monitor their progress
 
 In addition to the seven on-site audits, three human rights desktop assessments have been conducted on tier 1 suppliers through Magnet JQS, where audit findings are shared among the major operators on the NCS. These audits provide an overview of the governance systems in place to address potential human rights risks and ensure all labour standards are considered. However, they are not as detailed as the on-site audits and are usually conducted as an initial step in human rights due diligence. By utilising a network of operators across the NCS, the ability to contribute to improving working conditions in the value chain is enhanced. Audited suppliers are required to address findings, develop corrective action plans, record and close findings in Magnet JQS. Aker BP follows up findings from these desktop assessments with the suppliers through meetings as part of contract management.
 
+<!-- Report Page 122 -->
 ### 8.2.4 Forward-looking plans
 
 In 2025, we plan to follow up the findings from the audits conducted in 2024 to assess the effectiveness of measures intended to mitigate adverse impacts on value chain workers and reduce associated risks. New audits will be conducted with an increased focus on suppliers located in Norway. This focus aligns with the current state of development projects, which will primarily be ongoing in Norway from 2025. Engaging closely with workers in the value chain remains a priority to identify and mitigate any actual and potential adverse impacts that we may cause or contribute to. This approach aims to ensure that our commitment to human rights and sustainable practices is both steadfast and effective.
@@ -4206,6 +4297,7 @@ While we are focusing on improving our efforts towards workers in the value chai
 <figcaption>On-site audits identified a total of 144 findings across a broad range of human rights and labour-related topics, with the most frequent issues relating to remuneration (26 findings), employment, recruitment and subcontractor management (21), and health and safety (21), followed by disciplinary and grievance mechanisms (20), freely chosen employment (15), management systems (12), discrimination (9), freedom of association (8), working hours (8), and child labour and young workers (4), indicating that most findings concern core employment conditions and management practices rather than the most severe forms of abuse; in terms of severity, half of all findings were classified as moderate (50%), meaning temporary but noticeable deterioration in quality of life, while one third were minor (33%), associated with limited and temporary impacts, and 17% were assessed as serious, reflecting potentially permanent or long-lasting negative effects on individuals, with no findings classified in the most extreme “severe” category involving fatal or life-shortening outcomes, suggesting that while issues are relatively widespread, they are predominantly non-severe and concentrated in systemic and operational compliance areas rather than acute human rights violations.</figcaption>
 </figure>
 
+<!-- Report Page 123 -->
 ## 9 Affected communities
 
 Aker BP acknowledges the potential impact we may have on communities, both through our operations, but also through our upstream and downstream value chain. Our primary focus is on local communities as well as those affected by our tier 1 suppliers, as they represent the group where we have the most significant impact potential.
@@ -4269,6 +4361,7 @@ Refers to both Aker BP's local communities and the communities affected by our s
 
 There are both risks and opportunities related to affected communities. If Aker BP fails to manage its relationship with these communities, for example through poor stakeholder management or by damaging their well-being, we may face both reputational and legal risks. On the other hand, our focus on local job creation, investments, donations and sponsorships may impact these communities positively. This can further result in community support, strengthening Aker BP's reputation, and enhancing access to skilled local workforce.
 
+<!-- Report Page 124 -->
 ## 9.1 POLICIES AND PROCEDURES
 
 Aker BP strives to ensure that our activities, as well as those within our value chain, do not cause any harm to affected communities. Our code of conduct and human rights policy thoroughly address this concern. For further details, please refer to section 10.1.1 and A Commitment to respecting human rights of individuals, page 105.
@@ -4277,6 +4370,7 @@ We aim to create positive impacts on affected communities through investments an
 
 Additionally, we are leveraging our role to positively impact communities, particularly in areas where we conduct business activities, by supporting various causes we believe in. We also believe this presents opportunities to build a positive reputation in these areas, collaborate with affected communities and access a skilled local workforce. Some of the initiatives are 'one-offs', whereas others have a more strategically aligned approach and a multi-year perspective, such as our sponsorships within sports, culture and learning. Our sponsorship and donation strategy is grounded in our sponsorship policy which is further aligned with our code of conduct, anti-corruption policy, and applicable rules and laws. The sponsorship policy is overseen by the CFO and is available on our internal website. The policy outlines the framework for all Aker BP sponsorship activities. When evaluating potential sponsorship recipients, we seek partners who share our core values and where the relationship will yield mutual benefits. We prioritise organisations, institutions, teams or athletes that make a positive impact on society. To mitigate potential risks associated with sponsorship activities, we adhere strictly to the policy and internal procedures, ensuring transparency and that the funds are utilised for their intended purpose. All sponsorships and charitable donations shall be made in accordance with this policy and shall be approved by the VP communications.
 
+<!-- Report Page 125 -->
 ### 9.1.1 Engagement with affected communities
 
 Aker BP sets high expectations for our understanding of the society in which we operate. The oil and gas resources on the Norwegian continental shelf, where Aker BP operates, belong to the Norwegian society at large. Aker BP's role is to create value based on these resources. We are, amongst other things, guided by the OECD's due diligence guidance for responsible business. Engaging with affected communities, through formal consultation and day-to-day dialogue, is essential to identify our actual and potential impacts, risks and opportunities concerning those communities, as well as to monitor compliance with UN Guiding Principles in Business and Human Rights, ILO Declaration on Fundamental Principles and Rights at Work and OECD Guidelines for Multinational Enterprises. It also provides insight into how different groups may be at greater risk of harm.
@@ -4292,6 +4386,7 @@ During this process, we carefully adhere to the public consultation procedures t
 We use informal communication with affected communities daily to foster open dialogue and collaboration, addressing concerns and ensuring well-being. These efforts also help anticipate potential grievances. For example, we meet with local municipalities, politicians and other stakeholders in areas affected by high activity levels and ripple effects from our investments, focusing on Aker BP's project portfolio. The frequency of this type of engagement depends on the activities. The feedback we receive through continuous dialogue and follow-ups is used to achieve effective processes. A designated role within the company is responsible for ensuring that this engagement occurs.
 
 Moreover, Aker BP's integrity channel, which is available to all on our external website, serves as a platform for affected communities and individuals to raise their concerns. Through our website, code of conduct and sustainability statement, we provide information needed to ensure trust in the processes for raising concerns. For further details on the integrity channel, refer to section 10.2. To facilitate that our suppliers engage with affected communities, we require them to maintain transparency in their interactions, as outlined in our integrity due diligence (IDD) process and supplier declaration.
+<!-- Report Page 126 -->
 
 ## 9.2 ACTIONS
 
@@ -4307,6 +4402,7 @@ In 2024, we did not receive any reports of human rights issues or incidents affe
 
 ## Governance
 
+<!-- Report Page 127 -->
 ## 10 Business Conduct
 
 ## 10.1 CORPORATE CULTURE
@@ -4318,6 +4414,7 @@ Aker BP strives to conduct its business in an ethical and transparent manner and
 Our code of conduct is our main governance tool and is intended to be a source to help Aker BP representatives act in accordance with Aker BP's core values. It provides guidance for conducting our business ethically and transparently, in compliance with applicable rules and regulations related to anti-corruption, money laundering, fraud, modern slavery, human rights and labour standards, environment and other applicable rules. It also includes a separate chapter on speaking up and protection of whistleblowers.
 
 <table>
+<!-- Report Page 128 -->
 <caption>Table 37: Material impacts, risks and opportunities: Business conduct</caption>
 <tr>
 <th>Material matters</th>
@@ -4372,6 +4469,7 @@ Our code of conduct is our main governance tool and is intended to be a source t
 <tr>
 <td>Risk of financial impact and reputation damage due to insufficient ESG screening of suppliers</td>
 <td>Own operations, upstream value chain</td>
+<!-- Report Page 129 -->
 <td>Risks associated with not properly screening current and new suppliers for environmental and social aspects. This is because Aker BP risks having, or entering, business relationships with business partners where social and/or environmental misconducts takes place. This may represent a financial risk if it loses critical suppliers or needs to replace them over a short time horizon. Reputational risk is due to negative publicity because of lack of proper screening and thus doing business with companies where environmental and social misconduct occur.</td>
 </tr>
 <tr>
@@ -4425,6 +4523,7 @@ The compliance training plan will be updated annually based on a revised complia
 
 In 2024, Aker BP conducted several awareness campaigns related to the topics of conflict of interest, gifts and hospitality and speaking up. To address legal and reputational risks related to bribery and corruption, Aker BP's compliance department plans to conduct several compliance verification activities in 2025.
 
+<!-- Report Page 130 -->
 ### 10.1.3 Targets and metrics
 
 We have not set any time bound outcome-oriented targets for business ethics and corporate culture, including corruption and bribery. However, we have two ambitions: Firstly, we aim to maintain zero incidents of corruption, in compliance with Norwegian anti-corruption legislation. In 2024, there were no reported incidents of corruption, and no convictions or fines for violation of anti-corruption and antibribery laws. Secondly, we aim for all employees to complete the annual code of conduct refresher course. In 2024, 93 percent1) of Aker BP's own workforce and 100 percent of the board members, completed the course.
@@ -4459,6 +4558,7 @@ A separate awareness initiative was held for the offshore organisation to addres
 
 We provide regular training related to handling of integrity reports for managers as potential receivers of integrity reports as part of our training programme for new leaders. The training on speaking up provides managers with knowledge of the main principles of the speaking up policy, how integrity reports shall be handled, and how to help maintain an open culture for speaking up. In 2024, similar training was provided to all functional and line managers as potential receivers of whistleblowing reports. Additionally, our annual code of conduct training, which is mandatory for Aker BP's own workforce, includes a module on speaking up which provides details of the internal mechanisms to raise concerns.
 
+<!-- Report Page 131 -->
 ### 10.2.2.3 Improvement of internal processes related to whistleblowing
 
 We regularly conduct evaluations of the effectiveness of our integrity channel and endeavour to include lessons learned in our further work.
@@ -4491,6 +4591,7 @@ The supply chain management policy is available for Aker BP's own workforce thro
 
 We work closely with our suppliers through formalised processes. These processes are part of Aker BP's business management system and are therefore mandatory for all workers as stated in our governance processes. We believe that supplier engagement and close collaboration through formalised processes allows us to leverage our influence and engage in dialogue to improve our suppliers' social and environmental performance.
 
+<!-- Report Page 132 -->
 ### 10.3.1.1 Payment practices
 
 We recognise the potential impact our actions may have on our suppliers and strive to always conduct ourselves in a fair manner. We have standard payment terms of 30 days for all suppliers. Our payment practice is consistent across all our suppliers, regardless of size, scope of deliveries or geographical location. The only exceptions to this rule are vendors where we have limited impact, such as governmental bodies or monopolists within infrastructure for oil and gas transportation. Including the mentioned exceptions, the average time from the receipt of correct invoice to payment was 29.9 days in 2024. The company does not have a separate policy to prevent late payments, as it complies in all material respects with the standard payment terms for all vendors. There are no legal proceedings currently outstanding in relation to late payments.
@@ -4523,6 +4624,7 @@ These HSSEQ audits were selected based on evaluations of risk and criticality. T
 
 Overall, the findings were regarded as having only small to moderate risk and criticality. The most recurring findings were non-conformities and improvement areas in the following broad categories:
 
+<!-- Report Page 133 -->
 1\. Management of non-conformities and changes
 
 2\. Management of risk
@@ -4590,6 +4692,7 @@ Offshore Norge is Aker BP's primary network for reviewing and addressing relevan
 
 Data on public affairs and lobbying is gathered from Aker BP's communication department. This unit covers all consolidated activities. Approximately one full-time equivalent was dedicated to public affairs and public policy development in 2024. In the past two years, no members of the executive management team or the board of directors have held a comparable position in public administration.
 
+<!-- Report Page 134 -->
 ### 10.4.3 Targets and metrics
 
 We do not currently have specific metrics or targets related to political influence and lobbying activities. In accordance with our policies, we provided zero financial and in-kind contributions to political parties in 2024.
@@ -4636,6 +4739,7 @@ We have observed an increase in the percentage of individuals failing to recogni
 
 In 2024, Aker BP experienced no critical incidents due to cyber attacks. The ambition is to maintain this record in the future. We have not set any time bound and outcome-oriented targets related to cyber security. However, one of our alliance partners was the victim of a cyber attack. Measures were implemented to ensure that Aker BP was not directly affected by this attack.
 
+<!-- Report Page 135 -->
 ## ESRS reference index
 
 <table>
@@ -4960,6 +5064,7 @@ In 2024, Aker BP experienced no critical incidents due to cyber attacks. The amb
 
 <table>
 <tr>
+<!-- Report Page 136 -->
 <th>Disclosure requirement</th>
 <th>Relevant section</th>
 </tr>

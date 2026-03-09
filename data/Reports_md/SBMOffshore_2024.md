@@ -1,3 +1,7 @@
+<!-- Report Page 79 -->
+<!-- Report Page 80 -->
+<!-- Report Page 81 -->
+<!-- Report Page 82 -->
 ## 3 SUSTAINABILITY STATEMENT
 
 In line with the EU Corporate Sustainability Reporting Directive (CSRD), SBM Offshore is committed to comply with European Sustainability Reporting Standards (ESRS) requirements.
@@ -26,6 +30,7 @@ Voluntarily, SBM Offshore started the CSRD/ESRS implementation at the beginning 
 
 Instead of the five-year period mentioned generically by ESRS, as permitted, SBM Offshore has adopted intervals of 1 year, 1 to 6 years and more than 6 years, for short-, medium- and long-term respectively, in order to align with the existing processes of identification and management of material impacts, risks and opportunities.
 
+<!-- Report Page 83 -->
 ## EMISSIONS ACROSS THE VALUE CHAIN
 
 This sustainability statement includes the disclosure of emissions across the value chain in section 3.4.2 - scope 3 GHG emissions. Among the fifteen different categories of scope 3 GHG emissions defined by GHG Protocol, three are the most relevant and significant to SBM Offshore: Category 13 - Downstream Leased Assets, which covers more than 95% of the total; Category 1 - Purchased Goods and Services and Category 6 - Business Travel.
@@ -111,6 +116,7 @@ The Management Board remuneration policy includes a short-term incentive based o
 
 key elements of the Management Board remuneration policy, the integration of sustainability-related performance therein and the proportion of variable remuneration dependent on sustainability related targets, see sections 2.3.1, 2.3.2 and 2.3.4.
 
+<!-- Report Page 84 -->
 ### 3.2 STAKEHOLDER ENGAGEMENT
 
 Following its stakeholder engagement policy, SBM Offshore actively engages with stakeholders in dialogues on daily activities to enhance its performance and business management. One of SBM Offshore's core values is collaboration (see section 1.3.2) within the business and externally, enabling value-sharing across the value chain. SBM Offshore is motivated to increase the opportunities to develop an inclusive approach, with open interactions to gather the stakeholders' insights in different ways. Employees, clients, suppliers, shareholders, lenders (banks), regulators, class society organizations, yards, partners, local communities, civil society organization and non-governmental organizations (NGOs) are recognized as the main stakeholders.
@@ -172,6 +178,7 @@ Analyst webcast presentations. ESG ratings. Engagement with representative group
 <table>
 <tr>
 <th></th>
+<!-- Report Page 85 -->
 <th>How engagement is organized</th>
 <th>Purpose of engagements</th>
 <th>Examples of outcomes from the engagements</th>
@@ -219,6 +226,7 @@ Analyst webcast presentations. ESG ratings. Engagement with representative group
 </table>
 
 ### 3.3 DOUBLE MATERIALITY ASSESSMENT
+<!-- Report Page 86 -->
 
 Over the years, SBM Offshore has matured the performance management, data control, target setting and reporting - most notably from 2014 - using Global Reporting Initiative (GRI) as the main framework, which integrates business and ESG topics in one materiality assessment.
 
@@ -266,6 +274,7 @@ does not provide separate disclosures on these topics under the ESRS framework.
 
 SBM Offshore is confident that the reporting structure appropriately fosters a clearer understanding of the business, management approach and performance. The Management Board and Supervisory Board members were consulted on the new reporting structure and gave their validation.
 
+<!-- Report Page 87 -->
 ### A brief description of 2023 Double Materiality Assessment
 
 The following steps were conducted to assess both materiality perspectives, in order to ensure a broad and accurate picture of SBM Offshore's most relevant impacts, risks and opportunities.
@@ -304,6 +313,7 @@ The material impacts, risks, and opportunities resulting from the above DMA are 
 <tr>
 <th>IRO</th>
 <th>IRO description</th>
+<!-- Report Page 88 -->
 <th>Value chain position</th>
 <th>Time horizon</th>
 </tr>
@@ -428,6 +438,7 @@ Value chain position Time horizon
 
 <table>
 <tr>
+<!-- Report Page 89 -->
 <th colspan="4">Health, Safety and Security</th>
 </tr>
 <tr>
@@ -476,6 +487,7 @@ the effectiveness of the actions and achievement of the goals is provided below.
 <tr>
 <th>Key policies</th>
 <th>Targets</th>
+<!-- Report Page 90 -->
 <th colspan="2">Key Performance Indicators</th>
 </tr>
 <tr>
@@ -565,6 +577,7 @@ f. Providing input to IOGP guidelines for design and operation to minimize/avoid
 
 g. Participating in the Joint Industry Program - Standardizing Procurement Specifications and Capital Facilities Information Handover Specification (see more details in section 3.4.2).
 
+<!-- Report Page 91 -->
 ##### 2. International Marine Contractors Association (IMCA)
 
 a. Member of the Environmental Sustainability Committee and chaired the Life Below Water Workgroup (see more details in section 3.7).
@@ -607,6 +620,7 @@ Between 2019 and 2021, SBM Offshore ran workshops with business, risk management
 
 The outcome of this assessment is used to future-proof the current strategy against physical and transitional climate change-related risks and opportunities. Identified risks and opportunities are embedded in SBM Offshore's riskmanagement approach. Based on the 2024 assessment, SBM Offshore has identified no significant financial impact, despite that cannot yet quantify the exact financial amount related to physical risks, transition risks, and potential benefits. According to the scenario analysis, SBM Offshore's current business model and strategy remain strongly resilient and there are no significant financial impacts on the consolidated financial statements resulting from climate risks anticipated under the different climate scenarios. See more information on the financial climate-related impact analysis in the financial statements, section 4.3.27.
 
+<!-- Report Page 92 -->
 ##### SCENARIO PLANNING
 
 SBM Offshore assesses potential material, physical and transitional climate change risks and opportunities as part
@@ -645,6 +659,7 @@ The possibility of cyclones is an ongoing risk for offshore assets in areas wher
 
 Heat stress is the hazard identified with the largest levels of change. Heat stress can affect workers on offshore assets, potentially preventing necessary work outside of controlled conditions (where air conditioning is not possible). This is especially true for offshore assets in Angola, Equatorial Guinea, Malaysia and the United States, where the greatest level of change is expected. Work is currently being done on protective equipment that could mitigate the risk from heat stress.
 
+<!-- Report Page 93 -->
 #### Physical Risks Hazards Parameters
 
 <table>
@@ -708,6 +723,7 @@ Both the effects of river and coastal flooding were assessed for onshore assets,
 Landslides, wildfires and avalanches have the highest level of uncertainty in their results. Available tools assess risk by determining if conditions will allow for the occurrence of these hazards. For example, if an area might be conducive to a wildfire, it will be marked as at risk, regardless of proximity to forest cover. In total, five assets were determined to be at risk from these three hazards. If they occur, these three hazards could cause physical damage to assets or people and could delay construction projects. In the future, additional investigation will be performed to lower the level of uncertainty and determine the likelihood of the risk from these hazards.
 
 <table>
+<!-- Report Page 94 -->
 <caption>Climate scenario RCP 8.5</caption>
 <tr>
 <th>Risk</th>
@@ -770,6 +786,7 @@ Landslides, wildfires and avalanches have the highest level of uncertainty in th
 </tr>
 </table>
 
+<!-- Report Page 95 -->
 ## TRANSITION CLIMATE RISKS
 
 As the world faces increasing difficulty in aligning with the IEA's Net Zero Emissions (NZE) scenario, the path to limiting global warming to 1.5 degrees has become more challenging. Although renewable energy expansion remains critical, market headwinds - including robust global demand for hydrocarbons and barriers to renewable project scalability - complicate this transition. Without enhanced mitigation measures, the UN projects that warming could highly likely exceed 2.5 degrees over the course of this century, posing substantial implications for energy companies navigating the shift to a low-carbon economy.
@@ -786,6 +803,7 @@ Another transition risk lies in the potential for delays in new energy project d
 
 Further data on transition climate risk analysis is provided in the table below. SBM Offshore's scenario analysis continue as an iterative process to critically assess and prepare for evolving climate and market conditions, serving as a tool to explore potential transition pathways rather than predict specific outcomes.
 
+<!-- Report Page 96 -->
 ### Climate scenario RCP 2.6
 
 <table>
@@ -848,6 +866,7 @@ SBM Offshore's success will depend on partnering with other companies similarly 
 
 ### OUR APPROACH
 
+<!-- Report Page 97 -->
 #### Policies and Governance
 
 Despite the challenges inherent in its business, SBM Offshore is committed to driving the energy transition through innovation, product development and reducing emissions. This commitment is embedded in SBM Offshore's promise of True. Blue. Transition. and Code of Conduct, guiding SBM Offshore toward a sustainable role in society.
@@ -878,6 +897,7 @@ SBM Offshore is committed to a strategy and actions compatible with its ambition
 
 SBM Offshore has established the following intermediate targets by 2030:
 
+<!-- Report Page 98 -->
 · 100% green energy for scope 1 and 2 emissions12;
 
 · 50% reduction of GHG intensity13 and zero routine flaring14 for scope 3 - Downstream leased assets.
@@ -907,6 +927,7 @@ For scope 3, SBM Offshore has used Science-Based Targets initiatives (SBTi) guid
 6\. Responsible decommissioning of downstream leased assets at end-of-contract.
 
 7\. In addition to decarbonizing the oil and gas business, SBM Offshore explores new ocean infrastructure solutions and develops strategic partners to expand into attractive growing sectors such as power, ammonia and hydrogen, and carbon capture and storage.
+<!-- Report Page 99 -->
 
 The above approaches support SBM Offshore setting targets and actions in light of the global guidance from the Paris Agreement. These ambitions reflect the current understanding of the business and are subject to further development in the future.
 
@@ -937,6 +958,7 @@ SBM Offshore reports on CDP and uses IOGP statistics to steer its ambitions, eff
 
 During 2024, a total of 7.2 million tonnes of GHG emissions are reported.
 
+<!-- Report Page 100 -->
 ##### Scope 1 - Direct Emissions
 
 The Scope 1 emissions in 2024 represented a total of 169 tonnes of CO2e, a reduction of 65% compared to 2023. This reduction was related with a decrease in natural gas consumption in Carros Workshop and Schiedam Office. In 2024, there was a transition process from Schiedam office to Rotterdam where the natural gas consumption is replaced by district heating from the city network.
@@ -953,6 +975,7 @@ In 2024, SBM Offshore achieved 100% renewable energy in 4 offices (Amsterdam, Ri
 
 Scope 2 market-based emissions accounted for 839 tonnes of CO2e, 33% lower than in 2023.
 
+<!-- Report Page 101 -->
 ##### Scope 3 - Purchased Goods and Services
 
 SBM Offshore projects are constructed over several years. As required by the GHG protocol, SBM Offshore uses an allocation method to account for emissions. To derive the total GHG emission related to projects under construction, SBM Offshore uses the completion rates for Hull (MPF) and topsides each year. The percentage completed in a given year determines the total allocated emissions.
@@ -1002,6 +1025,7 @@ Demonstrating a clear understanding of energy consumption and resource efficienc
 </tr>
 </table>
 
+<!-- Report Page 102 -->
 ### Gross scopes 1, 2, 3 and total GHG emissions
 
 The table below shows the status on GHG emissions versus baseline and targets, as per end of 2024. Other scope 3 categories were not included in the scope 3 target setting,
@@ -1060,6 +1084,7 @@ SBM Offshore aims to become GHG neutral by 2025 and to utilize 100% renewable en
 In 2024, SBM Offshore canceled 1,009 tonnes of CO2e through the Ganges Mangrove Project in India, which accounted for 100% of the total remaining office-related emissions for scope 1 and 2. This project, certified by the Verified Carbon Standard (VCS16) and aligned with the International Carbon Reduction and Offset Alliance (ICROA) guidelines, focuses on conserving and restoring coastal ecosystems through the verified methodology. The project's carbon sequestration claims and reported cobenefits for biodiversity and communities have received independent verification and are subject to regular thirdparty audits under VCS requirements. SBM Offshore continues to prioritize emissions reduction while investing in independently verified carbon credits that deliver measurable environmental and social benefits.
 
 SBM Offshore does not currently apply an internal carbon pricing mechanism. At this stage, SBM Offshore evaluates carbon-related risks and opportunities without integrating an internal price on carbon into financial or operational decision-making. SBM Offshore continues to monitor regulatory developments and industry best practices to assess the potential relevance of internal carbon pricing as a tool for future climate-related risk management and strategy development.
+<!-- Report Page 103 -->
 
 ## FUTURE
 
@@ -1117,6 +1142,7 @@ SBM Offshore has taken part in various decommissioning and recycling forums aime
 
 During 2025, SBM Offshore will continue the execution of the safe and environmentally sound recycling of FPSO Capixaba in Denmark. SBM Offshore has the ambition, to continue improving fleet decommissioning and recycling performance through planning and preparation for the next wave of decommissioning, whilst continuously developing and applying industry best practices.
 
+<!-- Report Page 104 -->
 ### 3.4.4 EU TAXONOMY DISCLOSURES
 
 #### Disclosures pursuant to Article 8 of Regulation 2020/852/EU (Taxonomy Regulation)
@@ -1198,6 +1224,7 @@ Maintenance and repair costs for leased and/or operated FPSOs are part of servic
 <th>2023</th>
 </tr>
 <tr>
+<!-- Report Page 105 -->
 <td>TAXONOMY-ELIGIBLE ACTIVITIES (%)</td>
 <td>0.4%</td>
 <td>0.9%</td>
@@ -1302,6 +1329,7 @@ In addition to the reported Eligible Activities, SBM Offshore is actively engage
 
 Furthermore, SBM Offshore is a leader in the decarbonization of the O&G industry, with its investments in the development of near zero emission FPSOs. While these investments are crucial for accelerating the energy transition and aiding the transition of a high-emitting sector, they do not qualify as Taxonomy-eligible activities because O&G activities are currently outside the scope of the regulation. SBM Offshore expects future developments of the Delegated Acts to consider more transitional activities in hard-to-abate sectors, such as O&G. These activities are not only relevant to the global economy and the value chains of other industries but can also provide a significant source of income for emerging and developing countries when developed responsibly, thereby supporting a fair transition toward climate neutrality. More details on SBM Offshore's decarbonization initiatives are presented in section 3.4.2.
 
+<!-- Report Page 106 -->
 ### Significant contribution to environmental objectives
 
 SBM Offshore understands that, by definition, activities related to the construction of electricity generation facilities that produce electricity from wind power substantially contribute to climate change mitigation once they are qualified as eligible. The Provence Grand Large FOW project was successfully commissioned and started generating electricity in 2024 - it represents near-totality of turnover from this activity.
@@ -1328,6 +1356,7 @@ equipment and components of high durability and recyclability and that are easy 
 
 The main gaps lie in ensuring that each eligible economic activity comply with the criteria for DNSH related to climate change adaptation and confirming that R&D initiatives align with the DNSH criteria for transition to a circular economy by utilizing equipment and components that are highly durable, recyclable, and easy to dismantle and refurbish. In 2025, SBM Offshore plans to enhance the implementation of climate risk and vulnerability assessments for R&D activities. SBM Offshore will also maintain its efforts to engage with clients and the supply chain to gather evidence on the circularity attributes of the components and raw materials used in R&D projects.
 
+<!-- Report Page 107 -->
 ### Minimum Safeguards
 
 As outlined in section 3.5.3, SBM Offshore is committed to conducting all operations in conformity with the Minimum Safeguards, implementing appropriate policies and procedures to ensure this objective is achieved in every economic activity undertaken.
@@ -1357,6 +1386,7 @@ The governance of the policies and processes related to Our People is the respon
 SBM Offshore strives to understand and manage both the positive and adverse impacts on Our People through a combination of key initiatives and regular engagement:. HR Cycle: this cycle ensures that employee needs are aligned with business goals and career development.
 
 · Employee Engagement: SBM Offshore gathers feedback through regular employee pulse surveys and the Speak Up program. Engagement is also supported through one-on-one meetings, team discussions and town hall meetings held throughout the year. For example, the global town hall meeting is twice per year, one after the financial-year results and one after half-year results. Local town halls depend on each country, but are held, at a minimum, twice per year, one face-to-face and one virtual meeting.
+<!-- Report Page 108 -->
 
 · Performance and Career Development: Formal talent development and performance management processes encourage continuous check-ins between managers and employees to foster career growth and development.
 
@@ -1386,6 +1416,7 @@ Our People initiatives are continuously developed and adapted to evolving needs.
 
 In 2024, SBM Offshore launched two major projects to align with its strategic objectives.
 
+<!-- Report Page 109 -->
 ## Job and Competency Referential
 
 The first project, the Job and Competency Referential, is an opportunity for SBM Offshore to advance its competencybased approach, aligned with SBM Offshore's strategy to attract and retain talent and expertise.
@@ -1434,6 +1465,7 @@ In order to meet the goals of the IDE policy, SBM Offshore set up a global commu
 
 In 2023, SBM Offshore developed and piloted an initiative to promote women in engineering disciplines and to encourage younger generations to take an interest in the energy transition business, as part of SBM Offshore's SDG 10, Reducing Inequalities for All. SBM Offshore scaled up this initiative in 2024, deploying 57 programs for over 2,700 students in 7 countries. SBM Offshore recruited a full-time Diversity and Inclusion Specialist in 2024. Additionally, the 2024 SBM Offshore talent review campaign focused on enhancing diversity in gender and nationality.
 
+<!-- Report Page 110 -->
 ### Key Performance Highlights
 
 The development of the Corporate Business Solutions Center (CBSC) continued in 2024 as per plan. The transactional HR activities of the European entities are covered from Porto (Portugal) and include a workforce of 150 people. The same now applies to the activities in Brazil. By the end of 2024, the Asian entities will also be integrated into the CBSC.
@@ -1450,6 +1482,7 @@ Key performance highlights in 2024:
 
 · SBM Offshore had a turnover rate of 12%, decreasing 6.7% compared to 2023.
 
+<!-- Report Page 111 -->
 · The global gender pay gap is 0.97 globally in 2024.
 
 · The pay ratio comparison showing the developments in the annual total remuneration of the CEO compared to employees over the period can be found in section 2.3.2.
@@ -1466,6 +1499,7 @@ Through the rolling out of a Job and Competency Referential project, learning pr
 
 In 2025, the CBSC HR activities will be extended to Angola and Guyana.
 
+<!-- Report Page 112 -->
 ### 3.5.2 HEALTH, SAFETY AND SECURITY
 
 #### OUR APPROACH
@@ -1502,6 +1536,7 @@ The following table provides the targets set for 2024 and the performance achiev
 <th>Details</th>
 </tr>
 <tr>
+<!-- Report Page 113 -->
 <td>Total Recordable Injury Frequency Rate (TRIFR)</td>
 <td><0.10</td>
 <td>0.101</td>
@@ -1581,6 +1616,7 @@ The quantity of oil discharged to sea per hydrocarbon production was 3.73 tonnes
 
 ### FUTURE
 
+<!-- Report Page 114 -->
 SBM Offshore has defined the following 2025 targets:
 
 · Zero Fatality or Permanent Impairment Injury.
@@ -1643,6 +1679,7 @@ The governance of human rights is the responsibility of the Group HSSEQS Directo
 
 · Monitoring and reporting the due diligence progress.
 
+<!-- Report Page 115 -->
 #### Due Diligence Process
 
 Key to SBM Offshore's approach to human rights is the due diligence process. Demonstrated in the illustration below,
@@ -1668,6 +1705,7 @@ For human rights, SBM Offshore's key stakeholders include workers in SBM Offshor
 #### Assessment
 
 Since 2022, SBM Offshore has enhanced its supplier and yard qualification process to go beyond basic standards. The updated process now includes a questionnaire which includes environmental, human rights and governance information. In 2023, these questionnaires were made accessible in four languages - English, French, Portuguese, and Chinese - to further improve inclusion.
+<!-- Report Page 116 -->
 
 In 2024, SBM Offshore hired ABS to perform a gap analysis between the current Supply Chain Management System and the requirements of the ISO 20400 Sustainable Procurement Guidance. Starting with dedicated training for the supply chain community, the action plan derived from the gap analysis will enhance the management of Supply
 
@@ -1693,6 +1731,7 @@ SBM Offshore started social impact assessments in Brazil, Guyana and Angola in 2
 
 · be able to deliver better impacts for value chain workers.
 
+<!-- Report Page 117 -->
 #### Act and Close Out
 
 If there are potential human rights risks identified, SBM Offshore will reach out to the supplier or yard to understand, raise awareness and seek improvement, to prevent and mitigate the risk. This could entail, for example, embedding human rights topics in contract agreements, aiming at making improvements in suppliers' internal process.
@@ -1750,6 +1789,7 @@ In 2024, 100% of suppliers qualified had been signed the SBM Offshore Supply Cha
 <th>2021</th>
 </tr>
 <tr>
+<!-- Report Page 118 -->
 <td>Percentage of new</td>
 <td>100%</td>
 <td>100%</td>
@@ -1849,6 +1889,7 @@ In 2024, SBM Offshore continued to promote a Speak-Up culture and adherence to t
 
 For further details on SBM Offshore's compliance management approach, purpose and assessment, refer to section 2.5.2.
 
+<!-- Report Page 119 -->
 ### Target and Metrics
 
 In 2024, the targeted completions of e-Learning have been updated to encompass a larger audience. An internal enhancement of the Compliance Program has been launched and several initiatives were implemented:
@@ -1971,6 +2012,7 @@ In 2024, the targeted completions of e-Learning have been updated to encompass a
 <th colspan="2">2024</th>
 </tr>
 <tr>
+<!-- Report Page 120 -->
 <th>Compliance trainings completed during the year and hours - worldwide</th>
 <th>Number of Completion</th>
 <th>Training hours</th>
@@ -2111,6 +2153,7 @@ In the next years, SBM Offshore aims to improve its Speak Up program by implemen
 
 · Investigation techniques training for all individuals involved in the Speak Up process.
 
+<!-- Report Page 121 -->
 #### 3.7 OTHER ESG-RELATED TOPICS
 
 ##### BIODIVERSITY
@@ -2127,6 +2170,7 @@ Through stakeholder engagement and collaboration, SBM Offshore is continuously m
 
 Data initiative, SBM Offshore supports scientific research and environmental conservation activities, developing a platform to host the environmental and biodiversity data collected by its offshore assets. This data will become openly available to research centers, universities and NGOs.
 
+<!-- Report Page 122 -->
 ### AFFECTED COMMUNITIES
 
 SBM Offshore has embedded social impact to affected communities across its operations, with the help of dedicated sustainability ambassadors and professionals in Brazil, Guyana, Malaysia, China, India, the Netherlands, Monaco, the United States, Switzerland, Angola and Portugal. These teams actively engage local employees and organize SDG-aligned initiatives, creating a positive impact through community-focused actions.
@@ -2177,6 +2221,7 @@ The FPSO Liza Unity, operated by SBM Offshore, has been awarded the Sustain 2 No
 
 Shipping (ABS), making it the first FPSO unit to achieve this advanced notation. This recognition highlights SBM Offshore's commitment to environmental protection, energy efficiency and the adoption of innovative technologies that align with global decarbonization and biodiversity protection goals. The Sustain 2 Notation reflects the FPSO adherence to rigorous sustainability standards, including emissions reduction, pollution management and life cycle sustainability practices, further cementing SBM Offshore's role as a pioneer in responsible offshore operations.
 
+<!-- Report Page 123 -->
 #### 3.8 ESG MAIN INDICATORS
 
 ##### 3.8.1 ENVIRONMENTAL INDICATORS
@@ -2347,6 +2392,7 @@ Shipping (ABS), making it the first FPSO unit to achieve this advanced notation.
 </tr>
 </table>
 
+<!-- Report Page 124 -->
 ### Scope 1 and 2 Breakdown per region
 
 <table>
@@ -2744,6 +2790,7 @@ Shipping (ABS), making it the first FPSO unit to achieve this advanced notation.
 <table>
 <tr>
 <th></th>
+<!-- Report Page 125 -->
 <th colspan="3">Total (per year)</th>
 <th colspan="5">2024 (per region)</th>
 </tr>
@@ -3124,6 +3171,7 @@ Shipping (ABS), making it the first FPSO unit to achieve this advanced notation.
 <td></td>
 </tr>
 <tr>
+<!-- Report Page 126 -->
 <td>Total Scope 3 GHG</td>
 <td rowspan="2"></td>
 <td rowspan="2">7,174,752</td>
@@ -3208,6 +3256,7 @@ Shipping (ABS), making it the first FPSO unit to achieve this advanced notation.
 <table>
 <tr>
 <th></th>
+<!-- Report Page 127 -->
 <th colspan="3">Total (per year)</th>
 <th colspan="5">2024 (per region)</th>
 </tr>
@@ -3487,6 +3536,7 @@ Shipping (ABS), making it the first FPSO unit to achieve this advanced notation.
 </tr>
 </table>
 
+<!-- Report Page 128 -->
 ### Energy onshore breakdown per region
 
 <table>
@@ -3750,6 +3800,7 @@ Shipping (ABS), making it the first FPSO unit to achieve this advanced notation.
 </tr>
 </table>
 
+<!-- Report Page 129 -->
 ### Energy onshore breakdown per office country
 
 <table>
@@ -4805,6 +4856,7 @@ TOTAL (A+B)
 #### A.2 Taxonomy-eligible but
 
 
+<!-- Report Page 130 -->
 ### 3 SUSTAINABILITY STATEMENT
 
 Proportion of CAPEX from products or services associated with Taxonomy-aligned economic activities - disclosure covering year 2024
@@ -4815,6 +4867,7 @@ Proportion of CAPEX from products or services associated with Taxonomy-aligned e
 <th></th>
 <th>Year</th>
 <th></th>
+<!-- Report Page 131 -->
 <th colspan="2">Substantial Contribution Criteria</th>
 <th>DNSH criteria ('Does Not Significantly Harm')</th>
 <th colspan="2"></th>
@@ -5196,6 +5249,7 @@ Harm')</th>
 <td></td>
 <td></td>
 <td></td>
+<!-- Report Page 132 -->
 <td></td>
 <td></td>
 <td></td>
@@ -5576,6 +5630,7 @@ Harm')</th>
 <td></td>
 </tr>
 <tr>
+<!-- Report Page 133 -->
 <td>(Taxonomy-aligned) (A.1)</td>
 <td></td>
 <td>0</td>
@@ -6105,6 +6160,7 @@ Harm')</th>
 </tr>
 </table>
 
+<!-- Report Page 134 -->
 ### Nuclear and fossil gas related activities
 
 <table>
@@ -6201,6 +6257,7 @@ Harm')</th>
 </tr>
 </table>
 
+<!-- Report Page 135 -->
 ### Employees by employment relationship and country
 
 <table>
@@ -6683,6 +6740,7 @@ Harm')</th>
 </tr>
 </table>
 
+<!-- Report Page 136 -->
 ### Employees by gender, contract type and country
 
 <table>
@@ -7086,6 +7144,7 @@ Harm')</th>
 <th></th>
 <th></th>
 <th>Singapore</th>
+<!-- Report Page 137 -->
 <th>Equatorial Guinea</th>
 <th>States</th>
 <th>Switzerland</th>
@@ -7291,6 +7350,7 @@ Harm')</th>
 </tr>
 </table>
 
+<!-- Report Page 138 -->
 ### New Hire Employees and turnover rate by country
 
 <table>
@@ -7743,6 +7803,7 @@ Harm')</th>
 </tr>
 </table>
 
+<!-- Report Page 139 -->
 ### Employees performance appraisals completed by operating segment and gender
 
 <table>
@@ -7980,6 +8041,7 @@ Harm')</th>
 </table>
 
 <table>
+<!-- Report Page 140 -->
 <caption>Employees pay gap and equal remuneration by gender, age range, organizational level and function</caption>
 <tr>
 <th></th>
@@ -8199,6 +8261,7 @@ Harm')</th>
 </tr>
 </table>
 
+<!-- Report Page 141 -->
 ### HEALTH, SAFETY AND SECURITY INDICATORS
 
 #### Health, safety and security
@@ -8468,6 +8531,7 @@ Harm')</th>
 <table>
 <tr>
 <th></th>
+<!-- Report Page 142 -->
 <th colspan="2">Total (per year)</th>
 <th colspan="5">2024 (regional breakdown)</th>
 </tr>
@@ -8695,6 +8759,7 @@ Complementing sections 1.5 and 2.7, the below tables map the compliance and cert
 
 <table>
 <tr>
+<!-- Report Page 143 -->
 <th>OFFICES AND WORKSITES</th>
 <th>ISO 9001</th>
 <th>ISO 14001</th>
@@ -8845,6 +8910,7 @@ Complementing sections 1.5 and 2.7, the below tables map the compliance and cert
 
 <table>
 <tr>
+<!-- Report Page 144 -->
 <th>OFFSHORE PRODUCTION FLEET</th>
 <th>ISO 9001</th>
 <th>ISO 14001</th>
@@ -9139,6 +9205,7 @@ Complementing sections 1.5 and 2.7, the below tables map the compliance and cert
 </tr>
 </table>
 
+<!-- Report Page 145 -->
 ### 3.9 REPORTING BOUNDARIES
 
 This section describes the boundaries of SBM Offshore's sustainability statement which, aligned with the financial statements scope, discloses information from January 1 to December 31, 2024 on a consolidated basis for SBM Offshore N.V. and subsidiaries.
@@ -9209,6 +9276,7 @@ In calculating the relevant KPIs, SBM Offshore incorporates supplier data to rep
 <table>
 <tr>
 <th></th>
+<!-- Report Page 146 -->
 <th colspan="2">Key indicators per ESG Material Topics</th>
 </tr>
 <tr>
@@ -9338,6 +9406,7 @@ For all reported emissions, the CO2 equivalency is the quantity that describes, 
 
 #### GHG Emissions
 
+<!-- Report Page 147 -->
 ##### Direct (scope 1) GHG emissions
 
 For site emissions related to gas consumed and use of diesel for back-up power generators, SBM Offshore takes an operational control view and uses conversion factors from the Dutch Emission Authority, the website Co2emissiefactoren.nl and the Greenhouse Gas Conversion Factors by the UK Government. The conversion factors are reviewed every year with the most recent data available.
@@ -9370,6 +9439,7 @@ related activities. This includes emissions from flights invoiced via SBM Offsho
 
 Business travel is determined based on flight data communicated by travel agencies, including mileage per invoice date and a calculated extrapolation of data for the last two weeks of the year. In a few cases where mileage data is missing, it is completed with mileage from a similar route. The GHG emissions relating to business flights are thus based primarily on supplier provided travel distance converted to CO2-equivalents using factors from CO2emissiefactoren.nl.
 
+<!-- Report Page 148 -->
 Category 13 - Downstream Leased Assets
 
 SBM Offshore reports on emission from assets producing and/or storing hydrocarbons under lease contracts. GHG emissions come from the energy consumed (steam boilers, gas turbines and diesel engines) and from gas flared.
@@ -9404,6 +9474,7 @@ Total energy consumption scope 1, 2 and 3 Demonstrating a clear understanding of
 
 related (Total Energy consumption from scope 1 and 2) and from downstream leased assets (Total energy consumption from downstream leased assets).
 
+<!-- Report Page 149 -->
 #### Total energy consumption from scope 1 and 2
 
 Energy use associated with scope 1 and scope 2 GHG emissions. Consumption data was partially verified through meter readings, energy provider reports and landlord confirmations. For offices shared with other tenants, where only the total building energy consumption was available, SBM Offshore allocated energy usage to its office spaces based on the proportion of square meters occupied.
@@ -9458,6 +9529,7 @@ materiality in SBM Offshore's emissions reporting efforts. These ongoing efforts
 
 comprehensiveness of emissions reporting in line with SBM Offshore's sustainability objectives.
 
+<!-- Report Page 150 -->
 ### Emission factors for scope 1 and 2
 
 <table>
@@ -9739,6 +9811,7 @@ When referencing all SBM Offshore workforce collectively, this report uses the t
 
 ##### Headcount, turnover, equal remuneration and nationalization
 
+<!-- Report Page 151 -->
 Human Resources considers:
 
 · a 'Direct hire' employee is a staff member holding a labor contract for either an unlimited or a defined period (or an offer letter for an unlimited period in the USA). Direct hires are recorded on the payroll, directly paid by one entity of SBM Offshore (including joint ventures). Direct hires perform mainly managerial, engineering and support activities.
@@ -9774,6 +9847,7 @@ Until 2021, HSS incidents were reported and managed through SBM Offshore's incid
 system that is used to collect data on all incidents occurring in all locations where SBM Offshore operates. In 2021, SBM Offshore developed and began using the IFS Incident Management/Corrective Action Preventive Action (IM/ CAPA) module for Brazil operations. In 2022, the IFS IM/ CAPA module was rolled out to Guyana, Angola and Malaysia operations as well as projects. In 2023, it was further rolled out to the remaining company locations, with the exception of FPSO Serpentina.
 
 Safety incidents are reported based on the incident classifications as defined by the IOGP Report 2022s-June
+<!-- Report Page 152 -->
 2023. Occupational injuries and illnesses are reported
 based on the Occupational Safety and Health Administration (OSHA) definition and described in IOGP Report Number 393 2023 - Health Performance Indicators. The main type of work-related injury categories are related to line of fire and slips, trips and falls. Investigations, based on the type, criticality and severity of the event, are performed by specifically identified personnel using methods such as TapRoot® and 5 Whys. SBM Offshore is ISM certified for offshore production fleet and operation offices, as well as being compliant with ISO 45001 as per certification and classification table (section 5.5).
 
@@ -9803,6 +9877,7 @@ For the purposes of incident reporting, SBM Offshore reports against the three l
 
 SBM Offshore reports on significant fines paid by SBM Offshore and all affiliate companies. To define a significant fine the following threshold is considered (subject to final assessment by the Management Board on acase-by-case basis): operational fines of a regulatory and/or administrative nature which exceed US$500,000.
 
+<!-- Report Page 153 -->
 ## 3.10 ESG CONTENT INDEX
 
 This annual report has been prepared to comply with the European Sustainability Reporting Standards principles and disclosure requirements, prioritizing and emphasizing the
@@ -9962,6 +10037,7 @@ The ESG content index includes the ESRS references.
 <tr>
 <th>Material Topic</th>
 <th colspan="2">ESRS Reference</th>
+<!-- Report Page 154 -->
 <th>Disclosure Requirement</th>
 <th>Section</th>
 </tr>
@@ -10128,6 +10204,7 @@ The ESG content index includes the ESRS references.
 <tr>
 <th>Material Topic</th>
 <th colspan="2">ESRS Reference</th>
+<!-- Report Page 155 -->
 <th>Disclosure Requirement</th>
 <th>Section</th>
 </tr>
@@ -10312,6 +10389,7 @@ The ESG content index includes the ESRS references.
 <tr>
 <th>Material Topic</th>
 <th colspan="2">ESRS Reference</th>
+<!-- Report Page 156 -->
 <th>Disclosure Requirement</th>
 <th>Section</th>
 </tr>
@@ -10408,6 +10486,7 @@ The ESG content index includes the ESRS references.
 <tr>
 <th>Disclosure Requirement and related datapoint</th>
 <th>SFDR reference</th>
+<!-- Report Page 157 -->
 <th>Pillar 3 reference</th>
 <th>Benchmark Regulation reference</th>
 <th>EU Climate Law reference</th>
@@ -10776,6 +10855,7 @@ The ESG content index includes the ESRS references.
 </tr>
 <tr>
 <td>Sustainable land/ agriculture practices or policies paragraph 24 (b)</td>
+<!-- Report Page 158 -->
 <td>11 Table #2 of Annex 1</td>
 <td></td>
 <td></td>
@@ -10804,6 +10884,7 @@ The ESG content index includes the ESRS references.
 </tr>
 <tr>
 <td>Policies to address deforestation paragraph 24 (d)</td>
+<!-- Report Page 159 -->
 <td>15 Table #2 of Annex 1</td>
 <td></td>
 <td></td>
@@ -10836,6 +10917,7 @@ The ESG content index includes the ESRS references.
 <td>1.4.2; 3.3; 3.5.1;</td>
 </tr>
 <tr>
+<!-- Report Page 160 -->
 <td>Risk of incidents of</td>
 <td rowspan="2">13 Table #3 of Annex I</td>
 <td rowspan="2"></td>
@@ -11121,6 +11203,7 @@ Annex I</td>
 </tr>
 <tr>
 <td>ESRS S3-1</td>
+<!-- Report Page 161 -->
 <td>Indicator number</td>
 <td></td>
 <td>Delegated</td>
@@ -26013,3 +26096,4 @@ J.A. de Bruin
 
 
 
+<!-- Report Page 162 -->

@@ -2,6 +2,7 @@
 
 <table>
 <tr>
+<!-- Report Page 82 -->
 <td>3.1 General disclosures</td>
 <td>83</td>
 </tr>
@@ -79,6 +80,7 @@
 </tr>
 </table>
 
+<!-- Report Page 83 -->
 ## 3.1 General disclosures
 
 The Sustainability statement includes disclosures for material sustainability matters under the environmental, social and governance (ESG) categories. In addition, two Equinor entity-specific (EQN) disclosures are included.
@@ -147,6 +149,7 @@ The time horizon applied for the identified material impacts, risk and opportuni
 
 The preparation of the consolidated Sustainability statement requires management to apply judgements, estimates and assumptions. Information about judgements made in applying the reporting policies that have the most significant effects on the amounts and metrics recognised in the sustainability statement is described in the following sections.
 
+<!-- Report Page 84 -->
 ### Terms and definitions
 
 In determining the disclosures to be included in the sustainability statement, management has to interpret undefined legal and other terms. Undefined legal and other terms may be interpreted differently by companies, including the legal conformity of the interpretation and accordingly subject to uncertainty.
@@ -189,6 +192,7 @@ Data points in cross cutting and topical standards that derive from other EU leg
 
 <table>
 <tr>
+<!-- Report Page 85 -->
 <th colspan="2">Incorporation by reference</th>
 <th></th>
 </tr>
@@ -232,6 +236,7 @@ Data points in cross cutting and topical standards that derive from other EU leg
 <tr>
 <td colspan="2">ESRS 2 SBM-1 40 d-i) Strategy, business model and value chain</td>
 <td>Section 4.1 note 5 Segments</td>
+<!-- Report Page 86 -->
 </tr>
 <tr>
 <td>ESRS 2 SBM-3 48 d)</td>
@@ -275,6 +280,7 @@ Information provided to and sustainability matters addressed by the undertaking'
 
 Equinor's governance framework is further described in section 1.7 Governance and risk management and aims to ensure that sustainability considerations are embedded in corporate oversight and decisionmaking. The corporate executive committee (CEC), board of directors (BoD) and its subcommittees are systematically informed about material sustainability related impacts, risks, and opportunities (IROs) across Equinor's activities. This ensures that issues are prioritised and addressed effectively as part of strategy, ambitions, risk and performance management across the company. See the illustration below for further details.
 
+<!-- Report Page 87 -->
 ## Information flow of sustainability matters to governing bodies
 
 <figure><figcaption>Sustainability-related information flows through a structured, multi-level governance process from operations to the board. First-line employees collect and report operational data and observations, including emissions events, safety incidents, and regulatory compliance issues, forming the foundation of sustainability reporting. Site-level roles review and assess this data, identify operational or compliance risks, and escalate critical issues, trends, or incidents when needed. Interdisciplinary collaboration across the organization supports consistent identification and management of sustainability matters beyond formal reporting lines.
@@ -283,6 +289,7 @@ At management levels, vice presidents analyze trends, assess regulatory complian
 
 During 2024, the governing bodies addressed, among others, the following sustainability matters:
 
+<!-- Report Page 88 -->
 - Climate change and energy transition: Reviewed
 ambitions, risks and performance with regards to progress on our 2022 Energy transition plan and updated ambitions in the 2025 Energy transition plan. This includes greenhouse gas (GHG) and methane emissions reduction, alongside investments in low-carbon solutions like renewable energy and carbon capture and storage (CCS), ensuring alignment with Equinor's climate ambitions and regulatory requirements.
 
@@ -431,6 +438,7 @@ The global ICOFR function, which is responsible for governing Equinor's internal
 
 We have applied a top-down approach to assessing inherent risk of misstatements in the sustainability reporting, using experience from previous years' GRI reporting combined with new requirements. Key identified risks are related to:
 
+<!-- Report Page 89 -->
 - Accuracy and completeness of raw data and
 manually transferred data
 
@@ -510,6 +518,7 @@ The work requirement is implemented within our management system, is owned by th
 
 ### SBM-1
 
+<!-- Report Page 90 -->
 #### Strategy, business model and value chain
 
 Equinor's strategy reflects our ambition to be a leading company in the energy transition. Our strategy and Energy transition plan describe our strategic pillars (Always safe; High value; Low carbon) and our strategic beliefs. Our strategy, values and governance guide our actions and support the effective management of material sustainability impacts, risks and opportunities (IROs). This approach applies to all identified material topics disclosed in the Sustainability statement.
@@ -553,6 +562,7 @@ Our employees worldwide are divided across the following geographic areas:
 <td>Other countries</td>
 <td>Headcount</td>
 <td>1,101</td>
+<!-- Report Page 91 -->
 </tr>
 <tr>
 <td>Total Employees</td>
@@ -596,6 +606,7 @@ Incorporating these varied stakeholder perspectives helps us create a robust and
 <table>
 <tr>
 <th>Stakeholders</th>
+<!-- Report Page 92 -->
 <th>How engagement is organised</th>
 <th>Purpose of engagements</th>
 <th>Outcomes of engagements</th>
@@ -666,6 +677,7 @@ Incorporating these varied stakeholder perspectives helps us create a robust and
 <table>
 <tr>
 <th colspan="2">Stakeholders</th>
+<!-- Report Page 93 -->
 <th colspan="2">How engagement is organised</th>
 <th>Purpose of engagements</th>
 <th>Outcomes of engagements</th>
@@ -846,6 +858,7 @@ Equinor's strategy and business model are designed to manage the evolving energy
 
 An overview of this strategy is found in section 1.4 Our strategy and transition ambitions.
 
+<!-- Report Page 94 -->
 #### Equinor's general approach
 
 Equinor's approach integrates sustainability considerations across its strategy and business model to ensure our continued resilience in effectively managing our material IROs. This strategy is built upon a wellestablished enterprise risk management (ERM) framework described in section 1.7 Governance and risk management. An overview of Equinor's risk factors is included in section 5.2 Risk factors.
@@ -860,6 +873,7 @@ An overview of all Equinor's IROs is presented below, with a more detailed descr
 <tr>
 <th>Sustainability matter</th>
 <th>ESRS topic</th>
+<!-- Report Page 95 -->
 <th>Material impact, risk or opportunity</th>
 <th>Category</th>
 <th>Up- stream</th>
@@ -1100,6 +1114,7 @@ An overview of all Equinor's IROs is presented below, with a more detailed descr
 <tr>
 <th>Sustainability matter</th>
 <th>ESRS topic</th>
+<!-- Report Page 96 -->
 <th>Material impact, risk or opportunity</th>
 <th>Category</th>
 <th>Up- stream</th>
@@ -1410,6 +1425,7 @@ Relevant impacts were pre-identified and pre-scored to serve as a starting point
 
 In the assessment, we applied a "top-down" approach, conducting the DMA at a group level encompassing subsidiary activities and related sustainability matters. As part of this process an assessment of additional potential material topics was undertaken. No additional topics were identified.
 
+<!-- Report Page 97 -->
 #### Value chain mapping
 
 To understand the context, and frame the 2024 materiality assessment, we mapped our broad value chain to inform identification of material impacts and risks across the whole value chain. Given the complexity of our value chain, the focus of the 2024 assessment was tier 1 upstream (covering approximately 7,500 suppliers). Nevertheless, some impacts and risks were also assessed further down the value chain where sufficient basis for assessment existed. A detailed value chain description is found in General disclosures SBM-1.
@@ -1434,6 +1450,7 @@ To ensure appropriate threshold level for the inclusion of the positive impacts,
 
 The scoring method is based on ESRS 1 requirements of severity (scale, scope and remediability) and likelihood. To enable easier and more informed assessment, both qualitative and quantitative thresholds for severity and likelihood were developed for each sustainability topic. In the impact materiality assessment, severity takes precedence over the likelihood score. This allowed for an unlikely yet significantly severe impact to nonetheless be deemed material. Additionally, the assessment of impacts for the social topics was informed by the results of a comprehensive human rights saliency assessment conducted in early 2024. An overall materiality score was given, enabling a ranking of the topics for further discussion and calibration to ensure consistency across all topics at a group level.
 
+<!-- Report Page 98 -->
 ##### Financial materiality
 
 Financial materiality was assessed together with our corporate risk experts, informed by the impact materiality assessment and use of cross company risk assessments. The assessment was broadly aligned with the enterprise risk framework and thresholds. Certain risks or opportunities, particularly those with high levels of uncertainty but potentially high material strategic impact, were assessed qualitatively. Materiality of identified risks and opportunities was assessed considering the potential magnitude of financial effects for Equinor (absolute monetary thresholds) and the likelihood of occurrence over the assigned time horizon (the same as in impact materiality). The assessment considered financial risks and opportunities stemming from identified impacts or dependencies.
@@ -1496,6 +1513,7 @@ While not covered by the ESRS, security (covering both physical and cyber securi
 
 ##### IRO-2 Disclosure Requirements in ESRS covered by the the business's sustainability statement
 
+<!-- Report Page 99 -->
 The disclosure requirements in the ESRS covered by Equinor's Sustainability statement are mapped in section 3.5 ESRS index.
 
 ##### Use of phase-in provisions
@@ -1619,8 +1637,10 @@ The following phase-in provisions in accordance with ESRS 1 are applied for 2024
 
 ## 3.2 Environment
 
+<!-- Report Page 100 -->
 Hywind Tampen turbines behind rigs in Skipavika, Norway.
 
+<!-- Report Page 101 -->
 ## E1 - Climate change
 
 ### Material impacts, risks and opportunities
@@ -1772,6 +1792,7 @@ Deployment of renewable energy is needed to decarbonise global energy systems. W
 
 According to all recognised scenarios aligned with the goals of the Paris Agreement, including those of the IPCC, capturing CO2 where it is emitted and storing it safely and permanently is crucial to reducing greenhouse gas emissions from hard-toabate industrial sources such as cement, steel, chemicals, power plants and for producing lowcarbon hydrogen. We aim to be a leading CO2 transport and storage provider to reduce emissions.
 
+<!-- Report Page 102 -->
 #### Material impact: Energy production
 
 We provide reliable energy to around 170 million people every day. Our involvement in energy production is mainly direct in the regions we operate, through our own energy production activities. We also provide energy indirectly, through third party sales volumes and ownership shares in other companies such as Ørsted A/S and Scatec ASA, and we sell our energy products globally.
@@ -1822,6 +1843,7 @@ The plan provides details on how Equinor will reduce its own emissions while red
 
 To guide our progress, we have set out the following ambitions and milestones.
 
+<!-- Report Page 103 -->
 #### Emissions reductions from our operations
 
 We aim to reduce our net operated (scope 1+2) emissions by 50% from 2015 to 2030, a pace and scale consistent with a science based, 1.5℃-aligned trajectory as defined by IPCC pathways'
@@ -1872,6 +1894,7 @@ Equinor's transition plan is strongly embedded in the strategy: optimised oil an
 
 Forecasts for greenhouse gas emissions from our operations and net carbon intensity metric and double materiality analysis inform the annual overall strategy and financial planning process.
 
+<!-- Report Page 104 -->
 ### Approval of the transition plan
 
 The transition plan is approved by the board and the CEO in Equinor.
@@ -1952,6 +1975,7 @@ We have also established expectations towards our suppliers related to climate. 
 
 ## E1-IRO-1 Description of the processes to identify and assess material climate-related impacts, risks and opportunities
 
+<!-- Report Page 105 -->
 ### Climate-related resilience assessment
 
 Our strategy is informed by continuous internal and external analysis, stakeholder engagement, and robust risk management processes. We assess the resilience of our business to both transition risk and risks to our assets from the physical effects of climate change.
@@ -2031,6 +2055,7 @@ Our capital allocation is designed to provide flexibility to optimise and re-opt
 
 Within our oil and gas development portfolio, projects coming on stream in the next 10 years have a payback time of around 2.5 years and an average break-even price of below 40 USD/bbl. Accordingly. our oil and gas portfolio is expected to remain robust even to a sharp decline in prices. IEA's NZE scenario projects an increasing market size of carbon capture, utilisation and storage and a global growth in electricity generation from renewables of more than 600 percent by 2050, which in could reflect a potential upside for Equinor's renewable and low carbon solution portfolio.
 
+<!-- Report Page 106 -->
 ### Physical climate risk
 
 Changes in physical climate parameters, such as extreme weather events or chronic physical impacts, as e.g. rising sea level and increased temperatures could impact our assets, resulting in disruption to operations, increased costs, or incidents. By assessing our portfolio against the physical climate risk exposure and implementing mitigation measures as required, we aim to ensure that our portfolio is resilient to different climate scenarios. We have addressed the physical climate risks of our assets for a several years and gradually matured our understanding of the uncertainties and relevant parameters to be included. Equinor has not identified physical climate risk as a material impact based on our current assessment of our portfolio. However, as our methodology is under development and with a portfolio in transition, this may change. We will anyway need to assess the physical climate risks and evaluate adaptation measures, as required, on an asset-by-asset level to protect our assets and people and respond to regulations and financial institutions.
@@ -2080,6 +2105,7 @@ Our ambitions have not been assessed by the Science-Based Targets Initiative (SB
 </tr>
 </table>
 
+<!-- Report Page 107 -->
 ## Energy production and emissions in our value chain in 2024
 
 <table>
@@ -2245,6 +2271,7 @@ Not included: Leased assets (buildings leased by Equinor)
 
 Not included: Downstream leased assets, downstream transportation and distribution and franchises
 
+<!-- Report Page 108 -->
 ## Operated greenhouse gas emissions ambition
 
 Equinor has established ambitions, which covers 100% of our operated CO2 and CH4 emissions for assets where we have operational control. Equinor's ambition is to reduce operated (scope 1 and 2) greenhouse gas emissions by net 50% by 2030 relative to 2015. We aim for 90% of these reductions to be met by absolute reductions and will use maximum 10% carbon credits. This equals a gross greenhouse gas emission reduction target, where the company aims to achieve 45% absolute emissions reductions by 2030. By setting a baseline year that corresponds to the year of the Paris Agreement, we can chart our emissions reduction progress according to a Paris-defined pathway.
@@ -2260,6 +2287,7 @@ Equinor is an industry leader in emission reductions: The upstream CO2 intensity
 Our 2030 ambition for group-wide operated emissions is science-based and compatible with a 1.5℃ pathway, as defined by the interquartile range of C1 (low or no overshoot) scenarios for 1.5℃ developed by the Intergovernmental Panel on Climate Change Sixth Assessment (AR 6. This is shown in the figure to the right.
 
 The corporate ambition for operated greenhouse gas emissions is not fully aligned with the ESRS boundaries. The boundaries for this ambition is in accordance with our reporting to authorities, the GHG protocol" and industry practice and reflect a scope where we have a strong influencing power. It includes our equity emissions (included in ESRS E1 50a) and our partner's equity emissions (included in ESRS E1 50b) from the assets Equinor operates.
+<!-- Report Page 109 -->
 
 <figure>
 <figcaption>Scope 1 and 2 greenhouse gas emissions follow a declining trajectory from a 2015 baseline of 16.6 Mt CO₂e, with reductions accelerating after 2020. Historical emissions decrease faster than the median IPCC 1.5°C pathway in the early years, but temporarily diverge below the interquartile range before converging again toward 2030. Forecast emissions indicate continued reductions through the second half of the 2020s.
@@ -2275,6 +2303,7 @@ Our ambition is to reduce NCI by 15-20% by 2030 and by 30-40% by 2035, on a path
 
 Absolute scope 3-related emissions associated with our NCI metric in 2030 are estimated to be between 255 and 260 million tonnes, similar to the level in
 2024. Estimates for gross, total absolute scope 3related emissions in 2050 are not available as it falls
+<!-- Report Page 110 -->
 outside the time horizon of current business planning.
 
 ## Maritime decarbonisation ambition
@@ -2311,6 +2340,7 @@ Offshore, the energy efficiency of power production is about 25-35%, whereas in 
 
 Electrification projects are capital intensive, and as about 95% of the costs associated with our decarbonisation actions are related to electrification projects, only capex for electrification is included in the costs presented.
 
+<!-- Report Page 111 -->
 #### Energy efficiency measures
 
 Energy efficiency measures are also important drivers for reducing emissions, and we have cut around 2 million tonnes CO2 since 2015 through implementation of an energy management process for all assets, and with nearly one hundred further actions in implementation or planning. Further initiatives are in the planning or an implementation phase. The costs for energy efficiency measures are more difficult to quantify, as improved energy management has many positive outcomes in addition to reducing greenhouse gas emissions. As the costs for energy efficiency measures are estimated to <5% of the total capex spent on decarbonisation actions, these costs are not included in the table below.
@@ -2409,6 +2439,7 @@ Equinor is a founding member of OGMP 2.0, the Oil and Gas Climate Initiative (OG
 
 We share our knowledge and experience with the industry through OGCI, OGMP, MGP and OGDC, and through peer-to -peer meetings and conferences, e.g the 2024 Methane Mitigation Summit conference. We have also signed MoUs with several key national oil company partners to support their decarbonisation initiatives, including Petrobras, Sonangol, Sonatrach, and YPF.
 
+<!-- Report Page 112 -->
 ## Net-zero ambition - actions and resources
 
 Achieving our net carbon intensity reduction ambition will require a variety of actions related to different parts of our value chain, including reducing emissions from our oil and gas operations, increasing transport and storage of CO2 via CCS, investing in highquality carbon sinks, increasing production of renewable power and increasing production of low-carbon hydrogen and biofuels. In the longer term, a likely decline in oil and gas production will drive reductions in net carbon intensity towards net zero in 2050.
@@ -2441,6 +2472,7 @@ Building commercial markets for CCS will highly depend on policy frameworks that
 
 Hydrogen can be a key contributor to the energy transition as an energy carrier in sectors that are difficult to decarbonise, such as shipping, industrial processes and long-distance transport. We are participating in several low carbon hydrogen projects in the UK and Belgium to show how hydrogen can provide scalable and profitable growth in the future.
 
+<!-- Report Page 113 -->
 ## Net-zero ambition - actions and resources: 2024
 
 In 2024, we moved forward with a range of projects and initiatives that contributed to the reduction of Equinor's NCI of 2% compared to 2019.
@@ -2493,6 +2525,7 @@ In the longer term, a decline in oil and gas production will drive reductions in
 <figcaption>Net Carbon Intensity reductions deepen further by 2035 as additional decarbonization measures are implemented. Starting from the 2019 baseline and the improved 2024 level, continued optimisation of oil and gas operations and further Scope 1 and 2 emissions reductions contribute incremental intensity decreases. Larger impacts are achieved through expanded use of renewable energy and CO₂ storage, followed by a growing contribution from decarbonised energy solutions and other measures. By 2035, the combined effect of these actions results in an overall Net Carbon Intensity reduction of approximately 30–40% relative to earlier levels, reflecting a strengthened and broader deployment of energy transition technologies over time.</figcaption>
 </figure>
 
+<!-- Report Page 114 -->
 ## Renewables and Low Carbon Solutions projects and pipeline
 
 We believe that the need for renewable energy will grow significantly over this time, driven primarily by broader societal moves towards electrification. Furthermore, we expect an increase in the demand for CCS, hydrogen and other low carbon products in the hard to abate sectors.
@@ -2543,6 +2576,7 @@ The most significant cost for maritime decarbonisation will continue to be relat
 
 In 2024 Equinor's reported capex in oil- and gasrelated activities were USD 13 billion, please see section 4.1 note 5 Segments for E&P Norway, E&P International, and E&P USA investments. Equinor had no investments in coal related economic activities.
 
+<!-- Report Page 115 -->
 ### Exclusion from EU Paris-aligned Benchmarks
 
 Equinor is excluded from EU Paris-aligned benchmarks, as we derive 10% or more of our revenues from the exploration, extraction, distribution or refining of oil fuels.
@@ -2557,6 +2591,7 @@ As the net carbon intensity metric measures net emissions divided by net energy 
 
 ## E1-5
 
+<!-- Report Page 116 -->
 ### Energy consumption and mix
 
 Power and heat generation represents the largest source of direct greenhouse gas emissions (scope 1) from own operations. In addition, we purchase electricity from the grid with associated indirect greenhouse gas emissions (scope 2).
@@ -2757,6 +2792,7 @@ The greenhouse gas emissions table does not follow the exact structure of the ex
 <th>2024</th>
 </tr>
 <tr>
+<!-- Report Page 117 -->
 <td>Scope 1 GHG Emissions</td>
 <td></td>
 <td></td>
@@ -2951,6 +2987,7 @@ The greenhouse gas emissions table does not follow the exact structure of the ex
 </tr>
 </table>
 
+<!-- Report Page 118 -->
 - Gross scope 1 greenhouse gas emissions are
 estimated to be 8.6 and 7.4 million tonnes CO2e in 2025 and 2030, respectively (Boundary: own operations - Equinor equity share).
 
@@ -3077,6 +3114,7 @@ Equinor follows the accounting principles outlined in the Greenhouse Gas Protoco
 
 The greenhouse gas and energy methodology descriptions apply to Equinor operated licenses. This information is currently not collected from our partners. Reported figures are a combination of own data and collected data/estimates from our partners. Gathering of data from our partners and our approach for estimates are further described in General disclosures BP-2.
 
+<!-- Report Page 119 -->
 ### Direct greenhouse gas emissions (scope 1)
 
 Approximately 85% of Equinor's CO2 emissions for assets under operational control results from the combustion of gas in equipment such as turbines and heaters used for power and heat generation. The emissions are calculated by measuring the volumes of fuel gas consumed and multiplying it with fuel-specific CO2 emissions factors (Tier 2). Fuel gas flow is determined by automatic metering and the emission factors determined by sampling and analysing the fuel gas composition. For refinery operations, CO2 concentrations are commonly measured in the stack and multiplied with flue gas volumes (Tier 3).
@@ -3119,6 +3157,7 @@ emissions from the processing of Equinor's equity liquid and gas volumes at thir
 
 #### from the International Energy Agency (IEA) are used.
 
+<!-- Report Page 120 -->
 - Category 11- Use of sold products: Activity data is
 based on equity liquid and gas production volumes. The distribution of refined end products is determined using statistics from the International Energy Agency (IEA). Emissions from the use phase of final products, excluding nonenergy products, are calculated using emission factors from the Intergovernmental Panel on Climate Change (IPCC).
 
@@ -3146,6 +3185,7 @@ Activity data for electricity, heat, and cooling are derived from metered or inv
 
 The energy mix is determined by integrating data on energy consumption, fuel types used in our operations, along with electricity, heat and cooling purchased from third parties, and market-based grid mix information obtained from national authorities or Association of Issuing Bodies (AIB).
 
+<!-- Report Page 121 -->
 ## EU Taxonomy for sustainable activities
 
 Equinor prepares EU Taxonomy disclosure in accordance with EU Regulation 2020/852 and the Delegated Acts. The regulation establishes criteria to determine whether an economic activity qualifies as environmentally sustainable and specifies quantitative economic performance indicators to disclose the degree of sustainability as defined in the Taxonomy regulation. The activities defined to be eligible under the EU Taxonomy regulations are listed within the delegated acts and continue to evolve with review.
@@ -3273,6 +3313,7 @@ The total capex growth is related to noneligible investments. The investments in
 
 <table>
 <tr>
+<!-- Report Page 122 -->
 <th rowspan="2">Proportion of taxonomy - eligible economic activities:</th>
 <th colspan="2">2024</th>
 <th colspan="2">2023</th>
@@ -3383,6 +3424,7 @@ The total capex growth is related to noneligible investments. The investments in
 </tr>
 </table>
 
+<!-- Report Page 123 -->
 ### Our eligible activities - a development portfolio
 
 Equinor’s offshore wind activities consist of the the development of the Empire Wind farm in US which after the swap with BP, is consolidated into Equinor group financial statement and the Hywind/Tampen floating wind farm which provides electricity for the Snorre and Gullfaks offshore oil and gas fields. In addition, Equinor is engaged in offshore wind projects conducted through equity accounted investment in UK, Germany and Poland.
@@ -3481,6 +3523,7 @@ Alignment testing in 2024 consisted of "Electricity generation using solar photo
 <td>☒</td>
 </tr>
 <tr>
+<!-- Report Page 124 -->
 <td>Environmental impact assessments have been conducted and the activities are conducted within normal lawful operations.</td>
 <td></td>
 <td></td>
@@ -3517,6 +3560,7 @@ Alignment testing in 2024 consisted of "Electricity generation using solar photo
 
 ## E2 - Pollution
 
+<!-- Report Page 125 -->
 ### Material impact, risk and opportunity
 
 <table>
@@ -3596,6 +3640,7 @@ Our core business activities, including the production and processing of oil and
 
 Relevant provisions to this section include guidance on how we manage our material impacts within pollution, by mitigating negative impacts and going beyond the "do-no-harm" principle and contributing to positive impacts on the natural environment. It also outlines our commitment to fostering a proactive safety culture to prevent major accidents.
 
+<!-- Report Page 126 -->
 The Equinor Book applies to all material E2 impacts.
 
 ### Code of Conduct
@@ -3662,6 +3707,7 @@ We have developed a web application that visualises real time barrier integrity 
 
 We are also engaged in several research and development projects relating to environmental risk analysis and oil spill preparedness that will benefit both our own operations and our upstream and downstream global value chain. They aim to improve oil spill preparedness and oil collection efficiency, enable subsea mechanical dispersion and develop more precise oil spill modelling and environmental risk assessment. These projects are being undertaken in collaboration with several other organisations and companies, and receive funding from internal and external research and development funds, such as the Norwegian research council, Norwegian universities and research institutions, and other oil and gas companies.
 
+<!-- Report Page 127 -->
 ### Establishing our Environmental Policy
 
 In 2024, we established our Environmental Policy, committing to mitigating potentially negative impacts from our business activities and contributing to positive nature impacts. The policy covers all Equinoroperated assets and Equinor-controlled companies. In partner-controlled activities we are working actively to influence governance in line with our best practices in joint-operated entities. Our suppliers are expected to manage their environmental duties in compliance with applicable laws and contractual frameworks.
@@ -3710,6 +3756,7 @@ Air quality monitoring programmes were developed together with third parties and
 
 Our emissions to air and discharge to sea from operated assets in Norway, US, UK, Brazil and Angola that exceed the thresholds in Annex II of the E-PRTR (European Pollutant Release and Transfer Register) are shown in the table below.
 
+<!-- Report Page 128 -->
 ### Pollutants emitted to air
 
 <table>
@@ -3814,6 +3861,7 @@ Our emissions to air and discharge to sea from operated assets in Norway, US, UK
 <td>Cadmium and compounds (as Cd)</td>
 <td>Kg/ year</td>
 <td>–</td>
+<!-- Report Page 129 -->
 <td>11</td>
 </tr>
 <tr>
@@ -3918,6 +3966,7 @@ For onshore assets in Norway the reported amounts of pollutants to air and water
 
 Disclosure of sampling, measurements, calculation, estimation and accounting methodologies of pollutants to air and water is provided in E2-4.
 
+<!-- Report Page 130 -->
 ### E4 - Biodiversity and ecosystems
 
 #### Material impact, risk and opportunity
@@ -4043,6 +4092,7 @@ Identifying material sites started with a geographic information system (GIS) an
 </tr>
 </table>
 
+<!-- Report Page 131 -->
 Impact 1: Material impact - Land and sea use change
 
 Impact 2: Material impact - Impacts on sensitive species
@@ -4077,6 +4127,7 @@ biodiversity and ecosystems, refer to mitigating negative impacts, and our aim t
 
 #### Code of Conduct
 
+<!-- Report Page 132 -->
 The full overview of the Code of Conduct can be
 
 Relevant provisions to this section include reference to Equinor's environmental management in context of relevant international practices and principles, and applicable environmental laws and regulations. It also pertains to a precautionary approach and the principle of continual improvement of our environmental performance to protect nature and support nature conservation and restoration initiatives.
@@ -4129,6 +4180,7 @@ In 2022, we developed a methodology for preparing net-positive impact (NPI) plan
 
 Equinor is developing new projects in jurisdictions which have regulatory requirements related to positive contributions to nature. Measures can take the form of plans for biodiversity compensation or plans for biodiversity net gain. These plans have been approved by relevant authorities and dedicated projects to deliver these positive measures have been established. This action contributes to the achievement of the environmental policy and biodiversity position's objectives to mitigate our negative impacts and develop net-positive approach. The action will span over the short- and medium-term and will require biodiversity offsets.
 
+<!-- Report Page 133 -->
 #### Research and innovation
 
 In 2024, we have launched several research initiatives, aiming at identification and maturing nature-positive contributions in the areas where we operates. Using the site-specific inventory methodology, we are able to identify areas important for biodiversity that are close to our assets. We can further search actively for opportunities which will contribute towards an aim of enhancement of nature around our sites. This work is undertaken in collaboration with local research institutions and local authorities.
@@ -4157,6 +4209,7 @@ We track the effectiveness of the actions to address material impacts and measur
 
 ### E4-5 Impact metrics related to biodiversity and ecosystems
 
+<!-- Report Page 134 -->
 #### Sites located in or near biodiversity-sensitive areas
 
 The table below shows the number of Equinor sites, owned, leased or managed, that are located in or near biodiversity-sensitive areas with potential negative impacts on said areas (see E4-SBM-3). The level of impact will vary from significant to negligible depending upon the type of asset, type of activities and time since asset was installed/became operational.
@@ -4261,6 +4314,7 @@ Developing site specific inventories for our operational sites has included mapp
 
 Biodiversity offsets relate to the last phase of the mitigation hierarchy and the mitigation actions taken in this phase to manage adverse impacts. Within this context, we treat both offset and compensatory measures interchangeably, as strategies aiming to counterbalance any remaining environmental negative impact by enhancing biological diversity in other areas.
 
+<!-- Report Page 135 -->
 ## E5 - Resource use and circular economy
 
 ### Material impact, risk and opportunity
@@ -4346,6 +4400,7 @@ Currently, our policies do not directly address the transitioning away from use 
 
 resource use and circular economy, including how we aim to go beyond the do-no-harm principle by making a positive impact on the natural environment, in support of relevant international conventions and agreements.
 
+<!-- Report Page 136 -->
 This policy applies to all material E5 impacts.
 
 ### Environmental Policy
@@ -4392,6 +4447,7 @@ This procedure is mandated within the Functional Requirement on Sustainability, 
 
 In 2024, we made efforts to incorporate circular economy principles into our business. Since the policies remain in an early stage of implementation, we do not yet have quantitative data available to assess progress for most actions on circularity.
 
+<!-- Report Page 137 -->
 ### Framework to foster a circular economy
 
 To support the objectives of our environmental policy which came into place in 2024, we have established a framework of guiding principles to foster the adoption of circular economy practices throughout our business. These principles build upon the R-strategies (refuse, rethink, reduce, reuse, repurpose, remanufacture, repair, refurbish, recycle) and focus on sustainable sourcing, extension of product lifespan, effective end-of-life resource management and industrial symbiosis. These guidelines apply to our own operations and will span over the short to long term.
@@ -4436,6 +4492,7 @@ In 2024, we concentrated our reporting on steel products which was identified as
 
 <table>
 <tr>
+<!-- Report Page 138 -->
 <th rowspan="2">Type of material</th>
 <th rowspan="2">Unit</th>
 <th>2024</th>
@@ -4472,6 +4529,7 @@ For waste data from previous years, please see the Sustainability data hub at su
 
 In the reporting year, approximately 818 tonnes waste fractions from decommissioning activities was sent to landfill. We have highlighted the impact associated with quantities sent to landfill since this is the least favoured option according to circular economy principles. The waste fractions sent to landfill are primarily comprised of wet insulation material, which are hard to recycled due to contamination. We are actively engaging with suppliers to find solutions on how to minimise these waste fractions.
 
+<!-- Report Page 139 -->
 ## Total amount of waste
 
 <table>
@@ -4735,6 +4793,7 @@ Equinor exercises the right, as per the ESRS Phase-in option, to begin reporting
 
 ### Methodologies and measurements (E5)
 
+<!-- Report Page 140 -->
 #### Resource inflows
 
 The data on amount of steel products is reported based on an operational control and calculated using a combination of direct measurements and estimations. The figures include low- and high-alloyed steel from projects and operations. The applied methodology draws on procurement records for accurate data, and supplements with estimates that are considered reliable as they also serve as the foundation for CAPEX calculations. Double counting is avoided through dialogue between data providers to ensure coordination across.
@@ -4751,8 +4810,10 @@ Data on resource outflows related to the decommissioning of our facilities are b
 
 Northern Lights
 
+<!-- Report Page 141 -->
 Northern Lights, Norway
 
+<!-- Report Page 142 -->
 ## S1 - Own workforce
 
 ### Material impacts, risks and opportunities
@@ -4842,6 +4903,7 @@ We acknowledge that incidents of workplace harassment occur, and we take all suc
 
 As stated in our Code of Conduct, we maintain a firm zero tolerance policy for harassment. We do not tolerate any form of harassment or other inappropriate, intimidating or offensive conduct, including any form of unwanted and troublesome attention of a sexual nature. We have implemented actions to prevent harassment at the workplace including complaint mechanisms, sanctions against violence and harassment, and specific management training for prevention. Additional focus was made towards ensuring measures are extended to all Equinor workplaces regardless of location. More information on our actions to address this impact can be found in S1-3 and S1-4. Workplace harassment metrics are found in S1-17. We remain dependent on a respect-based global workforce where individuals feel safe at work.
 
+<!-- Report Page 143 -->
 ## Material impact: Training and skills development
 
 We strive for a learning culture recognised by curiosity, continuous feedback, psychological safety, and peer coaching in line with our values. Training and skills development have positive impact for all Equinor employees, enabling a culture of continued learning, career growth, and upskilling. Furthermore, training and skills development is considered a key strategic enabler for Equinor. We believe in a blended approach to learning and takes responsibility for providing a good framework for learning and development to all employees.
@@ -4900,6 +4962,7 @@ The Functional Requirement for People and Organisation outlines the purpose of t
 
 This functional requirement is implemented within our management system, is owned by the executive vice president of people and organisation, and applies to all material S1 impacts.
 
+<!-- Report Page 144 -->
 ## Functional Requirement - Sustainability
 
 Relevant provisions within this requirement related to our own workforce include the management of social specific sustainability aspects, including requiring the identification, mitigation, and remediation of impacts on people related to Equinor group's activities.
@@ -4973,6 +5036,7 @@ We have made agreements on equality, equity and diversity in Equinor ASA with th
 
 These agreements apply to our own workforce in Equinor ASA. They are jointly owned by the Head of Employee Relation and respective unions.
 
+<!-- Report Page 145 -->
 ## Employees resource groups
 
 Our employee resource groups (ERGs) are voluntary. employee-led groups, open to all employees. The aim is to create a diverse and inclusive workplace, with a particular focus on a common diversity characteristic, cause, or goal. ERGs have the mandate to build awareness, share knowledge and engage on topics through events and communication that can be local or global. ERG members may also engage on the topics at external events. The establishment and support for ERGs is important for us to learn about opportunities and challenges linked to equality and equity, and to ensure that we set actions that remove barriers for individuals who identify as part of underrepresented groups.
@@ -5015,6 +5079,7 @@ Acting on material impacts on own workforce, and approaches to managing material
 
 We strive to ensure a healthy work-life balance for our employees so that our people are not subject to excessive working hours and associated negative impacts. To enable our leaders to prevent excessive working hours for employees, we have developed a reporting tool, the Line Manager Dashboard, The tool covers all Equinor employees who are required to track their hours and ensures working hours remain within the applicable legal frameworks.
 
+<!-- Report Page 146 -->
 ## Time management in Workday
 
 In 2024, we began the process of transferring time management to Workday, a new human resources management software that is being implemented globally for all employees. Time management functionality in Workday is expected to be implemented early 2026 and will further strengthen line managers' ability to monitor and follow up employees workload. Depending on the nature of the case, role and the local requirements, line managers will work with employees to reassess workload.
@@ -5059,6 +5124,7 @@ We are committed to the principle of gender neutrality in pay. This commitment a
 
 We are investing substantially into organisational and employee training and skills development. The Equinor internal Corporate University is mandated to deliver all formal training worldwide with a clear value proposition to enable stronger safety, operational and commercial performance through high impact learning and to use learning and training as a tool to strengthen our values-based performance culture. We are continuously adapting the training programme portfolio to reflect current and emerging training and skills needs in line with our strategy. Several initiatives were launched to develop critical skills enabling Equinor to drive the energy transition, including:
 
+<!-- Report Page 147 -->
 - Renewal and launch of the sustainability
 programme portfolio in 2024 to all employees
 
@@ -5087,6 +5153,7 @@ We aim to continuously track the effectiveness of our policies as part of many o
 Equinor's workforce comprises over 25,000 employees in more than 20 countries across five continents. Place of work differs from offshore and onshore facilities and offices. See section 4.1 Note 8.
 
 <table>
+<!-- Report Page 148 -->
 <caption>Number of employees by gender</caption>
 <tr>
 <th>Gender</th>
@@ -5251,6 +5318,7 @@ Netherlands, Nigeria, Poland, Russian Federation, Singapore, South Korea, Tanzan
 
 ## S1-7
 
+<!-- Report Page 149 -->
 ### Characteristics of non-employees in the undertaking's own workforce
 
 Non-employees in Equinor's workforce primarily comprise of individuals employed by third parties/self-employed individuals who perform work in various capacities for Equinor or our subsidiaries.
@@ -5431,6 +5499,7 @@ Inclusion Index: The inclusion index was introduced in 2019 and is made up of 9 
 
 The inclusion index has remained steady since 2019, and a long-term stretch target was set to be clear on our expectation of driving a safe and inclusive work-environment. In 2024, our inclusion index remained at a score of 78, against the short-term target of 80, and long term-target of 85.
 
+<!-- Report Page 150 -->
 ## Diversity in leadership and early talent programmes
 
 Our systematic focus on developing female leaders is reflected in the continued increase in female leadership over the years. In 2024 Equinor has 36% female leaders.
@@ -5514,6 +5583,7 @@ Family-related leave includes maternity leave, paternity leave, parental leave, 
 
 ## S1-16
 
+<!-- Report Page 151 -->
 ### Compensation metrics (pay gap and total remuneration)
 
 Total annual remuneration ratio for Norway is 1627%. The annual total remuneration ratio is calculated by taking the highest paid individual divided by the median employee annual total remuneration (excluding the highest-paid individual).
@@ -5641,6 +5711,7 @@ Family related leave metrics are available in the SAP HR system based on specifi
 
 Remuneration metrics are available in the SAP Analytics Cloud for Norway and in country specific payroll systems for US, UK, and Brazil.
 
+<!-- Report Page 152 -->
 ## S2 - Workers in the value chain
 
 ## Material impacts, risks and opportunities
@@ -5712,6 +5783,7 @@ High risk geographies for forced labour within our supply chain include Southeas
 
 The following salient human rights issues are considered a priority within this material topic:
 
+<!-- Report Page 153 -->
 - Unethical recruitment of migrant workers in the
 
 These negative impacts predominantly occur in our upstream supply chain. Our business model necessitates large-scale construction projects and the use of international maritime shipping, and general engagement with a large and globalised value chain. Certain renewable supply chains, particularly solar, have widely reported risks of forced labour. Thus, these impacts are considered systemic, requiring ongoing mitigation and due diligence.
@@ -5794,6 +5866,7 @@ Supply chain workers have access to various forms of grievance mechanisms outlin
 
 ##### S2-3 Processes to remediate negative impacts and channels for value chain workers to raise concerns
 
+<!-- Report Page 154 -->
 ##### Our approach to remedy
 
 Although we seek to apply a zero-harm philosophy, there are occasions where, despite our best efforts, actual adverse impact on human rights might occur. In these instances, remediation is important, both to seek that those having suffered or are still suffering from adverse impacts are remediated as appropriate and to avoid potential future similar harms. Where necessary and natural based on our role, we seek to actively cooperate with other potential non-judicial and judicial remedy processes, such as the OECD National Contact Points and Ombudsman offices. Our policies make clear that we do not tolerate any forms of recrimination or retaliation against those who raise a concern with us. We recognise and respect the right of human rights defenders to advocate for and defend human rights in a peaceful manner on behalf of those whose rights may be at risk. Remedial actions vary from case to case. Our commitment to remedy is anchored in our Human Rights Policy and Working
@@ -5830,6 +5903,7 @@ Where suppliers are identified as being higher risk, we regularly engage with ex
 
 Our supply chain management-process has requirements to include, where relevant, commercial elements of addressing human rights risks in the contract evaluation phase. The requirements include confirmation that bids account for costs associated with meeting human rights expectations and that commercial consequences related to human rights, such as the cost of closing identified gaps, are included in commercial evaluation.
 
+<!-- Report Page 155 -->
 ### Supplier training
 
 In addition to internal training on human rights topics, we conduct various trainings and awareness sessions with key suppliers on relevant human rights topics in order to build competence across our value chain and to better equip our suppliers to independently manage their own human rights impacts. We continue to assess where such trainings would best facilitate competence building across our supply chain.
@@ -5876,6 +5950,7 @@ On-site supplier assessments at another construction yard identified adverse fin
 
 On-site supplier assessments at two additional construction yards used in one of our projects identified adverse findings, namely related to the prevalence of recruitment fees paid by foreign workers. For the first yard, several mitigating and remedial actions were taken including the improvement of workplace facilities, accommodations and transportation, ensuring worker's access to personal identification documents, engagements in native languages, and establishment of externally-managed grievance mechanisms. Additionally, we participate in a task force set up with the contractor on the topic of providing progressive wages. Another on-site assessment led by external experts was conducted in 2024 with focus on ethical recruitment by the yard and subcontractors. Based on the findings, follow up actions will be outlined for 2025. For the second yard, an on-site supplier assessment was concluded at the end of 2024, with corresponding follow up actions being assessed with the relevant parties.
 
+<!-- Report Page 156 -->
 ### . Industry Collaboration - Construction yards
 
 We continued to work with BP, Ørsted, Shell, TenneT and Petrobras to further develop the Worker Welfare Group, our partnership focused on labour rights and worker welfare requirements within the marine construction sector. The group has developed a set of principles and guidelines to initially support the Singapore marine construction sector to meet international standards for worker rights and worker welfare, particularly focusing on responsible recruitment, improved accommodation, better transport, and improved access to grievance mechanisms. The group has also engaged with key stakeholders to advocate for systemic improvements and, additionally, is working with local organisations to facilitate access to remedy for workers.
@@ -5907,6 +5982,7 @@ During an on-site supplier assessment of a manufacturing supplier, we identified
 discrimination within supplier workforces We have identified various instances and degrees of harassment and discrimination in our supply chain through on-site assessments. In such cases, we have engaged in tailored actions often including engaging with suppliers to establish corrective action plans, enhancing and promoting existing preventative programmes, reinforcing expectations on diversity and harassment training, and reminding workers of relevant reporting channels.
 
 ### · Addressing instances of wage withholding at a supplier subsidiary
+<!-- Report Page 157 -->
 
 In 2023, we were made aware of late payment of salaries and other benefits at a subsidiary of one of our suppliers. In response, we engaged with the supplier, resulting in implementation of new relevant policy measures. In late 2024, we conducted an on-site assessment to verify conditions, which confirmed that workers had been repaid and were receiving full payments. We maintain open communication with the supplier with the aim to prevent future delays in employee compensation.
 
@@ -5938,6 +6014,7 @@ We aim to continuously track the effectiveness of our policies and actions as pa
 
 In 2024, we continued to pilot a set of internal human rights monitoring indicators.
 
+<!-- Report Page 158 -->
 These two indicators focus on:
 
 - Tracking remediation of identified priority forced
@@ -6090,6 +6167,7 @@ Establishing relevant, quantitative human rights related targets is often challe
 </tr>
 </table>
 
+<!-- Report Page 159 -->
 ## S3 - Affected communities
 
 ### Material impacts, risks and opportunities
@@ -6179,6 +6257,7 @@ Relevant provisions to affected communities include that all our business activi
 
 that we will continuously strive to conduct our business consistently with the UNGPs and our commitment to timely and meaningful engagement with potentially affected stakeholders. The Code of Conduct is available online.
 
+<!-- Report Page 160 -->
 ##### Human Rights Policy
 
 The full overview of Equinor's Human Rights Policy is found in S1-1. provisions related to managing human rights impacts in the communities we operate in and respect of indigenous and tribal people's rights. Our approach towards engaging with affected communities and enabling remedy is further detailed in S3-2 and S3-3. Actual cases of known impacts on affected communities are further detailed in S3-4. The Human Rights Policy is available online.
@@ -6225,6 +6304,7 @@ Risk-based community grievance mechanisms are set up for our projects when appli
 
 We aim that our community-level grievance mechanisms are:
 
+<!-- Report Page 161 -->
 - Prompt, consistent, and respectful
 
 - Simple, local and culturally appropriate
@@ -6293,6 +6373,7 @@ Our offshore wind projects in the United States have identified concerns regardi
 
 It has also been identified that the construction of these planned projects may potentially impact activities significant to traditions and cultures of tribal nations. In response, we have worked to avoid, minimise, and mitigate such impacts. This includes regular meetings with known parties.
 
+<!-- Report Page 162 -->
 ##### Ongoing instability - Libya
 
 Equinor has a long history of onshore exploration and oil production in Libya, where there remain wider risks pertaining to ongoing political instability. Across these partner-operated assets, the most significant potential impacts for our activities are towards the health, safety and security of workers, contractors and local communities. In 2024, we continued our efforts to strengthen engagement with our local partners by delivering anti-corruption and human rights training to our suppliers, and through discussions with external security-governance experts. Unfortunately, ongoing political tensions present challenges to implement human rights actions related to security. No actual findings related to our activities were reported, nor are there any indications of such instances through informal channels.
@@ -6416,6 +6497,7 @@ Safety is our number one priority and is embedded in "Always Safe" as one of our
 
 ## Material impacts (S3)
 
+<!-- Report Page 163 -->
 ### Material impact: Major accidents
 
 Our operations include activities that carry inherent risks and potential for major accidents. Equinor defines major accidents as an HSE incident or security incident causing:
@@ -6441,6 +6523,7 @@ Due to a variety of factors associated with work environment and/or executing wo
 
 These impacts apply to our own workforce (including own employees, non-employees, and on-site contractors) and are considered systemic.
 
+<!-- Report Page 164 -->
 ### Material impact: Work-related injuries
 
 Due to our global presence and wide range of operations, our workforce face a diverse range of risks, including risk of work-related injuries and fatality. This is due to the nature of the work being conducted, the working environment, transportation to remote locations and/or exposure to various factors such as heavy machinery, pressurised systems, and harmful or flammable materials
@@ -6501,6 +6584,7 @@ The Human Rights Policy includes specific human rights provisions related to hea
 
 This policy applies to all material health and safety impacts and financial risk.
 
+<!-- Report Page 165 -->
 ## Functional Requirement - Safety and Security
 
 The Functional Requirement on Safety and Security establishes the purpose of the safety and security function, which is to regulate safety, security and health and working environment and major accident prevention.
@@ -6597,6 +6681,7 @@ Listening to our people and acting on their feedback is crucial to ensure a work
 
 We have various formal processes, arenas and tools to engage directly with own employees or via workers representatives on issues related to health and safety:
 
+<!-- Report Page 166 -->
 - Psychosocial Risk Indicator (PRI) which is an
 annual survey conducted within the annual GPS tool. It is to be used in addition to other types of data to provide an overview of how the psychosocial working environment is perceived by the employees and units.
 
@@ -6643,6 +6728,7 @@ To achieve our goal of Always Safe and to ensure compliance, we integrate health
 
 Our approach to a proactive safety culture is founded on the Human and Organisational Principles (HOP) that is incorporated in the Framework for Major Accident Prevention. The HOP principles underpin the way in which we develop a proactive and visible safety culture. The HOP approach provides guidance on how people, technology, organisations and processes interact as a system, and how these conditions can influence the causes of human errors. HOP is implemented in leadership training across the company.
 
+<!-- Report Page 167 -->
 ## Implementation of leading safety indicators
 
 In 2024 we launched Leading Safety Indicators as part of the I Am Safety Roadmap. The Leading Safety Indicator Dashboard is structured in accordance with our Framework for Major Accident Prevention with the goal of strengthening a proactive leadership and safety culture. The indicators include the status of human, organisational and technical barriers, and may give valuable insight towards preventing major accidents. We will monitor and respond to leading safety indicators on an ongoing basis, to drive improvements.
@@ -6681,6 +6767,7 @@ With regards to the physical work environment risk factors (ergonomics, noise, c
 
 We actively manage human rights impacts within our value chain as part of our risk-based human rights due diligence, where health and safety is an important factor. More information on actions taken to manage human rights in our value chain can be found in S2-4.
 
+<!-- Report Page 168 -->
 ## Safety industry collaboration
 
 We work closely with suppliers and contractors to achieve a standardised approach across our operations. During 2024, we hosted regular joint meetings, agreed priorities and targets, and signed collaboration charters to formalise our respective commitments. Key continuous actions in 2024 include:
@@ -6713,6 +6800,7 @@ Targets related to managing material negative impacts, advancing positive impact
 
 In Equinor, key performance indicators (KPIs) and monitoring indicators are essential tools for measuring and managing our health and safety performance. KPIs are specific, quantifiable metrics used to evaluate the success of achieving our strategic objectives. Monitoring indicators are used for ongoing oversight of performance within specific areas. We set targets for all our KPIs and selected monitoring indicators if appropriate. Key detail on the methodologies, data sources and key assumptions of the targets are set out in "Methodologies and measurements".
 
+<!-- Report Page 169 -->
 ### Overall performance evaluation
 
 Our overall safety results related to our corporate performance indicators improved in 2024. This positive trend demonstrated the effectiveness of our systematic efforts over time. While we recognise the progress shown by our safety indicators, we acknowledge the ongoing need for further enhancement in our safety performance. Ensuring the highest safety standards remains a top priority for Equinor's management.
@@ -6811,6 +6899,7 @@ Our overall safety results related to our corporate performance indicators impro
 <td>100</td>
 </tr>
 <tr>
+<!-- Report Page 170 -->
 <td>Number of recordable work-related accidents</td>
 <td>Number per year</td>
 <td>79</td>
@@ -6866,6 +6955,7 @@ The total recordable injury frequency (TRIF) ended at 2.3, an improvement from 2
 
 Work related illness reporting was a key focus area since the pandemic and continues to remain so. This has led to increased reporting, improved quality of recording and better follow-up. 252 cases were recorded in 2024.
 
+<!-- Report Page 171 -->
 ### Supplier findings related to health and safety
 
 Where suppliers are identified as being higher risk, Equinor regularly engages external human rights experts to conduct on-site supplier assessments. The number of adverse supplier findings specifically related to "provision of a safe, healthy, and secure workplace/accommodation" identified through these assessments can be found in S2-5.
@@ -6910,6 +7000,7 @@ security incidents and exposure values (work hours):
 - Transport of oil and gas and other
 maritime activities (if long term contract(>6 months)),
 
+<!-- Report Page 172 -->
 - Business travel and transport of people
 
 - Supply bases
@@ -6955,6 +7046,7 @@ If Equinor's company doctors receive information about a work-related illness ca
 
 ## 3.4 Governance
 
+<!-- Report Page 173 -->
 ## G1 - Business conduct
 
 Material impact, risk and opportunity
@@ -7060,6 +7152,7 @@ We utilise our leverage as a significant customer in the energy sector to expect
 
 Impact, risk and opportunity management G1-1
 
+<!-- Report Page 174 -->
 ## Corporate culture and business conduct policies
 
 material impacts business conduct and apply to
@@ -7110,6 +7203,7 @@ We have a non-retaliation policy, contained in our Code of Conduct, and does not
 
 We are committed to investigating business conduct incidents promptly, independently and objectively. Potential misconduct may either be investigated by corporate audit & investigation, or other relevant internal or external resources. We will pursue remedial measures or other follow up of personnel if breaches are substantiated. The same applies to leaders who disregard or tolerate such breaches either through negligence or actual knowledge. The remedial measures may include termination of employment contract and reporting to relevant authorities. Incidents of ethical misconduct shall be registered and reported in accordance with our governing documents. An overview of ethics helpline cases can be found in the Metrics and Targets section below.
 
+<!-- Report Page 175 -->
 ## Training and awareness
 
 Training and awareness raising are central elements of Equinor's compliance programme and they also strengthen corporate culture. The annual sign-off to the Code of Conduct, referred to in the Code of Conduct section above, involves an e-learning course and multiple-choice test to ensure that all required personnel understand the central provisions of the Code of Conduct.
@@ -7140,6 +7234,7 @@ Relevant provisions to political engagement specify Equinor's approach to public
 
 Our supplier management is governed by a structured management system that includes directives, guidelines, and governing documents applicable to all suppliers. Payment processes are designed to ensure that suppliers, regardless of their size, are paid accurately and on time, adhering to the company's standard 30-day payment terms.
 
+<!-- Report Page 176 -->
 ### Social and Environmental Selection Criteria
 
 We integrate social and environmental criteria into supplier selection and contract management processes. These criteria are used as part of the overall risk assessment and are reflected in contractual templates, ensuring that suppliers meet our sustainability expectations. A global category management approach facilitates structured portfolio management, with regular meetings at all contract and management levels to engage with key suppliers and address sustainability-related risks and opportunities.
@@ -7178,6 +7273,7 @@ As part of our commitment to high ethical standards we require all personnel to 
 
 The table below shows the percentage of required personnel who, as of 31 December 2024, have completed the applicable training within the required time frame.
 
+<!-- Report Page 177 -->
 ## Anti-corruption and anti-bribery training
 
 <table>
@@ -7245,6 +7341,7 @@ Main Position: Recognising the critical importance of security in the energy sec
 
 Alignment with our material IROs: Equinor's involvement in security policy discussions, around digital and cyber security, physical protection, and incident prevention, is aligned with our material impacts and risks related to security. For details on security IROs, please see EQN-Security. This engagement allows Equinor to contribute to shared industry insights on resilience-building, focusing on safeguarding critical infrastructure and advancing security strategies that protect societal interests. Through targeted initiatives and collaboration, Equinor seeks to enhance readiness and response protocols, reducing vulnerability to security incidents that could impact operational continuity, environmental health, and broader community safety.
 
+<!-- Report Page 178 -->
 ## 3. Projects implementation
 
 Main Position: Access to energy and solutions for the energy transition is dependent on public authorities supporting the development of key projects. Equinor actively engages with authorities in processes and dialogue for the realisation of such projects on their territories.
@@ -7267,6 +7364,7 @@ Incidents of corruption or bribery includes fines, and convictions for violation
 
 ## EQN - Security
 
+<!-- Report Page 179 -->
 ## Material impacts, risks and opportunities
 
 <table>
@@ -7350,6 +7448,7 @@ We prioritise focus on effective management of this risk though the short-term, 
 
 ## EQN-Security-1
 
+<!-- Report Page 180 -->
 ### Policies related to security
 
 material impacts and risks on security and apply to where applicable. All Equinor employees can access the policies through the management system. The following policies apply to all material security-related impacts and risks.
@@ -7434,6 +7533,7 @@ We aim to continuously track the effectiveness of our policies and actions as pa
 
 ## Metrics
 
+<!-- Report Page 181 -->
 ### Security incidents
 
 <table>
@@ -7484,6 +7584,7 @@ When tracking the number of physical, digital or cyber security incidents that h
 <th>Page</th>
 </tr>
 <tr>
+<!-- Report Page 182 -->
 <td colspan="3">General information</td>
 <td></td>
 </tr>
@@ -7781,6 +7882,7 @@ When tracking the number of physical, digital or cyber security incidents that h
 <tr>
 <td>ESRS E5</td>
 <td>E5 SBM-3</td>
+<!-- Report Page 183 -->
 <td>Material impacts, risks and opportunities and their interaction with strategy and</td>
 <td></td>
 </tr>
@@ -8103,6 +8205,7 @@ When tracking the number of physical, digital or cyber security incidents that h
 <tr>
 <td rowspan="13">EQN Health and safety</td>
 <td>EQN-H&S</td>
+<!-- Report Page 184 -->
 <td>Material impacts, risks and opportunities and their interaction with strategy and</td>
 <td>163</td>
 </tr>

@@ -1,3 +1,6 @@
+<!-- Report Page 104 -->
+<!-- Report Page 105 -->
+<!-- Report Page 106 -->
 # 6. Sustainability statements
 
 <table>
@@ -200,6 +203,7 @@
 <th>Pages</th>
 </tr>
 <tr>
+<!-- Report Page 107 -->
 <td colspan="2">E4 Biodiversity & Ecosystems</td>
 <td></td>
 </tr>
@@ -435,6 +439,7 @@
 </tr>
 </table>
 
+<!-- Report Page 108 -->
 ## 6.1. ESRS 2 GENERAL DISCLOSURES
 
 ### 6.1.1. Basis of preparation
@@ -483,6 +488,7 @@ The ESRS S1 social indicators include all employees with an employment contract 
 
 Operations sold or demerged during the year are excluded unless specified. Climate and environmental metrics for new or acquired operations during the reporting year are included for the full year unless otherwise mentioned. Data from discontinued or closed operations are included for the part of the reporting period when they were operational, unless otherwise stated.
 
+<!-- Report Page 109 -->
 #### BP-1 (c) Upstream and Downstream Value Chain
 
 The sustainability statements covers material upstream and downstream information related to non-Solvay entities in the value chain, as well as that which is inclusive of our own operations.
@@ -549,6 +555,7 @@ None of the disclosed quantitative metrics or monetary amounts in our sustainabi
 
 We have aligned our sustainability report with the ESRS requirements, incorporating national legal and regulatory requirements implementing the EU CSRD. While we believe Solvay is prepared to report on sustainability matters, we have identified opportunities to enhance sustainability reporting throughout the process. Our commitment to transparent and responsible reporting includes providing stakeholders with company-specific interpretations or uncertainties in our sustainability statements. By doing so, we aim to ensure that users of our sustainability statements can understand the key interpretations, materiality judgments, uncertainties, and areas for improvement throughout the report. This transparency does not diminish our commitment to compliance with ESRS and applicable legislation. As additional implementation guidance becomes available, we will refine our understanding of requirements to enhance the comparability and quality of information in future reporting cycles.
 
+<!-- Report Page 110 -->
 ##### Changes in preparation or presentation of sustainability information
 
 This year, we changed the preparation and presentation of Solvay's sustainability information to comply with the reporting requirements of the CSRD. These changes make the disclosure of comparative figures for the previous reporting period impracticable due to differences in the disclosed metrics, definitions, or reporting perimeter.
@@ -579,6 +586,7 @@ We have applied the following phased-in disclosure requirements as permitted in 
 
 #### Action plans (CapEx and OpEx) related to ESR Standards (except E1) and Entity specific:
 
+<!-- Report Page 111 -->
 Solvay allocated financial resources toward its actions but is not equipped to report the CAPEX and OPEX with the granularity required by CSRD. Solvay will investigate opportunities to improve this situation for future reporting.
 
 Please note that the definition of CSRD allocated resources is based on different scoping compared to IFRS accounting standards. A reference has been made to the respective note in the financial statements.
@@ -609,6 +617,7 @@ We have set up a team of experts, structured into three different groups - one o
 
 Although the Board of Directors approved the DMA result and corresponding material IROs, which are managed as part of Solvay's overall ERM approach, the oversight of the IROs is done collectively in accordance with the following diagram:
 
+<!-- Report Page 112 -->
 ### GOV-2 Sustainability matters addressed by management
 
 Please refer to the Sustainability Statements and topical section with list of IROs, Corporate governance statement point 4.4 and 4.5 and Risk management Section 5.
@@ -680,6 +689,7 @@ The terms of the incentive schemes are approved and updated at various levels wi
 
 Similarly, the Long-term Incentive scheme is set up every year for a period of three years, with the KPIs defined in line with the Company's long-term objectives and ambition. The approval process involves the Global Incentive Committee, the ELT, the Compensation Committee, and the Board of Directors.
 
+<!-- Report Page 113 -->
 ### GOV-4 Sustainability statements about due diligence process
 
 The following table indicates where in our sustainability statements we provide information about our due diligence process, including the main aspects and steps of our due diligence process.
@@ -732,6 +742,7 @@ We have established the same governance for our financial and sustainability rep
 
 #### 6.1.3. Strategy
 
+<!-- Report Page 114 -->
 ##### SBM-1 Strategy business model and value chain
 
 ##### Our business model
@@ -782,6 +793,7 @@ Depending on our different business models, we are involved upstream in the valu
 
 Please refer to the stakeholder engagement in SBM2 in the section below for a description of the main business actors and the benefits to them.
 
+<!-- Report Page 115 -->
 ##### Solvay Value Chain
 
 <figure>
@@ -789,6 +801,7 @@ Please refer to the stakeholder engagement in SBM2 in the section below for a de
 
 </figure>
 
+<!-- Report Page 116 -->
 ### Company characteristics
 
 8,905 employees (headcount) at the end of December with 895 in North America, 1,489 in Latin America, 5,356 in Europe and 1,165 in Asia and the rest of the world.
@@ -857,6 +870,7 @@ Please refer to GOV-2 with respect to how administrative, management, and superv
 
 ## SBM-3 Disclosure of material impacts, risks, and opportunities and how they interact with its strategy and business model
 
+<!-- Report Page 117 -->
 The full list and description of material IROs can be seen in the corresponding ESRS sections of this Sustainability Statements.
 
 ### DMA results
@@ -906,6 +920,7 @@ Solvay's potential positive and negative impacts can affect, for example:
 
 \> Land degradation and land-use change under Biodiversity.
 
+<!-- Report Page 118 -->
 ### Financial effects
 
 In accordance with the transitional provisions outlined in Appendix C "List of phased-in Disclosure Requirements," our company will be phasing-in the quantitative disclosure. However, for this initial reporting period, we have focused on providing qualitative information.
@@ -969,6 +984,7 @@ As a result, a tailored list of mutually exclusive and collectively exhaustive E
 
 An IRO evaluation was also defined, based on the consolidated list of IROs and inspired by Solvay's ERM process, but further distinguishing impact materiality from the financial materiality. This framework assessed each IRO's materiality. Considering Solvay's ERM evaluation and materiality thresholds, IROs were classified as material or not. A topic was identified as material when at least one underlying IRO was classified as such. Outcomes of the DMA were reviewed by internal and external experts and the CSRD Readiness Project Steering Committee, recommended for approval by the ELT, Audit & Risk Committee, ESG Committee, and approved by the Board.
 
+<!-- Report Page 119 -->
 #### Overview of the Process for impacts
 
 The creation of a value chain map in the first phase of the DMA process ensured full coverage of Solvay's operations, value chain, and geographies. Based on the value chain, stakeholders and experts involved with different activities were consulted, as well as the different geography and end-market leads within Solvay.
@@ -1013,6 +1029,7 @@ ESG risks are treated in the same way as other risks in the ERM framework.
 
 The results of the risk and opportunities assessments are further considered in Solvay's strategic planning and decision-making.
 
+<!-- Report Page 120 -->
 #### Input Parameters
 
 The DMA covered all of Solvay's operations and geographies with value chains. Company-specific sources of information were collected via consultation with key internal and external. Publicly available data and documents are also taken into account, such as media coverage, sector reports, and research papers. Whenever no direct information is available, estimates and/or assumptions are used, accurately described, and explained.
@@ -1044,6 +1061,7 @@ When information is deemed material for stakeholders, it is disclosed according 
 <th>Scope</th>
 </tr>
 <tr>
+<!-- Report Page 121 -->
 <td>Corporate Social Responsibility</td>
 <td>Our commitment to fostering a sustainable and responsible value chain.</td>
 <td>Value chain</td>
@@ -1145,6 +1163,7 @@ When information is deemed material for stakeholders, it is disclosed according 
 </tr>
 </table>
 
+<!-- Report Page 122 -->
 ## 6.2. ENVIRONMENTAL INFORMATION
 
 ### 6.2.1. Climate change
@@ -1283,6 +1302,7 @@ In addition to the GHG emission-reduction targets set out above, other climate-r
 
 Please refer to GOV-3 section for more details.
 
+<!-- Report Page 123 -->
 #### E1-1 Transition plan for climate change mitigation
 
 Solvay's transition plan for climate change mitigation is designed to ensure that its strategy and business model are compatible with the transition to a sustainable economy.
@@ -1335,6 +1355,7 @@ In addition to the above, Solvay is studying other decarbonization levers:
 
 \> responsible offsets, such as carbon capture and sequestration projects outside its value chain, including initiatives like forest growth, to compensate and neutralize hard-to-abate emissions.
 
+<!-- Report Page 124 -->
 ##### Locked-in GHG emissions from assets
 
 Solvay has conducted a qualitative assessment of potential locked-in GHG emissions from its key assets.
@@ -1394,6 +1415,7 @@ These financial allocations and reporting structures support Solvay's broader su
 
 Solvay has identified several material climate-related risks and opportunities, which are categorized into two main types: climate-related physical risks and climaterelated transition risks and opportunities that have strategic implications for the Group.
 
+<!-- Report Page 125 -->
 ##### Climate-Related Physical Risks
 
 Physical risks are associated with the direct impacts of climate change on Solvay's operations and assets. These risks include acute risks such as cyclones, hurricanes, floods, droughts, and fires, as well as chronic risks like heat waves and sea level rise.
@@ -1438,6 +1460,7 @@ The analysis evaluated the potential impacts of new technology adoption (investm
 
 <table>
 <tr>
+<!-- Report Page 126 -->
 <th colspan="2">Financial impact drivers</th>
 <th>1.5°℃ scenario</th>
 <th>3°℃ scenario</th>
@@ -1698,6 +1721,7 @@ Following these assessments, FM has issued 26 active recommendations aimed at ma
 
 Additionally, all site projects undergo early-stage review by FM risk engineers to incorporate adequate protection, and the location of green field projects and acquisitions are assessed in the early stages.
 
+<!-- Report Page 127 -->
 ##### Climate related transition risks and opportunities
 
 On top of the transition risk & opportunity analysis performed in 2022 and 2023, Solvay has developed and runs a recurring process called Sustainable Portfolio Management (SPM) to assess and manage notably climate-related transition risks and opportunities.
@@ -1714,6 +1738,7 @@ The SPM process identifies "solutions", "potentials", "transitions" or "challeng
 
 \> Challenges get strong negative signals from sustainability market trends or manufacturing footprint, reducing expected revenues over time.
 
+<!-- Report Page 128 -->
 The breakdown of Solvay sales by SPM in 2024 is shown below:
 
 <table>
@@ -1793,6 +1818,7 @@ The accountability for these policies is allocated to the ELT as described in th
 
 Solvay is committed to complying with external standards, regulations, and initiatives which support our climate change and energy management objectives. For the MDR-P's, regarding scope, publicity, and stakeholder engagement we refer to table MDR-P.
 
+<!-- Report Page 129 -->
 #### E1-3 Actions and resources in relation to climate change policies
 
 Solvay has established a robust climate action plan targeting carbon neutrality for GHG Scope 1 and 2 emissions by 2050, along with a selective reduction of these emissions and GHG Scope 3- focus 5 categories - emissions by 30% and 20% respectively by 2030, against the 2021 baseline (considering financial consolidated perimeter).
@@ -1845,6 +1871,7 @@ In 2024, energy efficiency projects implemented across all our sites have brough
 
 \> At the Dombasle site, pilot testing of the new e.Solvay soda ash manufacturing process is underway, with a projected 50% reduction in CO2 emissions compared to the current process, along with other sustainable benefits.
 
+<!-- Report Page 130 -->
 ##### Climate change mitigation: GHG Scope 3 emissions
 
 ##### 1. Reducing emissions
@@ -1885,6 +1912,7 @@ At the end of April 2024, the southern region of Brazil went through the worst c
 
 Looking forward, the statutes of the historical philanthropic "Hannon fund for employees" were enlarged to be able to support employees and communities that suffer hardships due to climate change impact near our industrial sites. We have committed to inject EUR 2 million over 5 years in this new "Solvay Solidarity Fund".
 
+<!-- Report Page 131 -->
 ##### Achieved and expected CO2 emission reductions
 
 ##### GHG Scope 1+2 emissions
@@ -1965,6 +1993,7 @@ The expected GHG Scope 1 and 2 emissions reductions are as follows (considering 
 </tr>
 </table>
 
+<!-- Report Page 132 -->
 ##### GHG Scope 3 emissions
 
 In 2024, we continued Solvay's commitment to improving Scope 3 emissions reporting by aligning our calculation methodologies with market best practices and GHG Protocol recommendations. A significant refinement was made to the Scope 3.1 Purchased Goods and Services methodology, incorporating procurement database integration for enhanced data accuracy and granularity. Furthermore, Solvay has begun independently calculating categories 3.4 Upstream Transportation and 3.5 Waste Generated in Operations, which were previously included within category 3.1. This provides a more comprehensive and transparent view of the company's Scope 3 emissions profile.
@@ -2059,6 +2088,7 @@ Solvay's Scope 1 and 2 emission reduction targets are defined for the same perim
 
 Our Scope 3 emissions reporting encompasses Solvay's global operational perimeter, including all physical locations and activities under the company's direct control. It includes the proportion from investees for which Solvay has operational control. Solvay's Scope 3 emissions target concerns five focus categories representing 90% of Solvay's Scope 3 GHG emissions in 2021. The five focus categories are upstream (Category 1: Purchased Goods & Services, Category 3: Fuel & energy-related Activities) and downstream in our value chain (Category 10: Processing of sold products, Category 11: Use of sold products, Category 12: End of life treatment of sold products). Our decarbonization levers in achieving our ambitious targets are disclosed in our action roadmap in section E1-3.
 
+<!-- Report Page 133 -->
 ##### Changes in baseline year and methodologies
 
 Following the partial demerger of the Group into two publicly traded companies, Solvay SA/NV and Syensqo SA/NV, in December 2023, the baseline year for emission reduction targets shifted from 2018 to 2021. The selection of 2021 as the new baseline ensures a more accurate representation of Solvay's activity levels following the COVID period, reflecting both internal operations and external influences.
@@ -2117,6 +2147,7 @@ To maintain consistency in reporting, baseline data may be recalculated in respo
 
 In 2024, the baseline year remains 2021, with restatements only for scope changes. The shift of baseline from 2018 to 2021 means that progress achieved before 2021 is no longer reported. While these recalculations affect absolute target values for 2030, they do not alter Solvay's reduction commitments expressed as percentages. This approach ensures a transparent and consistent framework for tracking emissions and reinforces Solvay's commitment to achieving its decarbonization goals.
 
+<!-- Report Page 134 -->
 The table, outlining our CO2-emissions for 2021, 2023 and 2024 are shown below per scope and category.
 
 <table>
@@ -2425,6 +2456,7 @@ The table, outlining our CO2-emissions for 2021, 2023 and 2024 are shown below p
 
 <table>
 <tr>
+<!-- Report Page 135 -->
 <th>Scope 1, 2, 3 GHG emissions</th>
 <th>2021 (Baseline)</th>
 <th>2023 (Comparative)</th>
@@ -2673,6 +2705,7 @@ The table, outlining our CO2-emissions for 2021, 2023 and 2024 are shown below p
 
 <table>
 <tr>
+<!-- Report Page 136 -->
 <th>Scope 1 emissions GHG other than CO2</th>
 <th>Units</th>
 <th>2021</th>
@@ -2828,6 +2861,7 @@ The table, outlining our CO2-emissions for 2021, 2023 and 2024 are shown below p
 </tr>
 </table>
 
+<!-- Report Page 137 -->
 ### E1-5 Energy consumption and mix
 
 The different components of Solvay's energy consumption are converted into primary energy sources as follows:
@@ -3116,6 +3150,7 @@ The different components of Solvay's energy consumption are converted into prima
 
 \* Energy production for third party is mainly heat production for third party supply and co-produced power due to the use of high-efficiency co-generation of heat/cool and power from fossil gaseous fuels assets.
 
+<!-- Report Page 138 -->
 ## High climate impact sectors used to determine energy intensity
 
 All activities are considered as high climate impact.
@@ -3290,6 +3325,7 @@ Solvay's approach to addressing GHG emissions reflects their commitment to compl
 
 Scope 3 emissions are calculated by multiplying the activity data (e.g., purchased goods and services, business travel, etc.) by relevant emission factors. Emission factors can come directly from the supplier or from databases (e.g., Ecoinvent).
 
+<!-- Report Page 139 -->
 #### 1. Purchased goods and services
 
 Starting in 2024, Solvay leverages procurement databases to calculate Scope 3.1 emissions. For purchased raw materials and other goods & services, we utilize invoiced quantities and, when not available, spend-based calculations. Emission factors are derived from trusted sources, including the Ecoinvent database and, increasingly, primary data obtained directly from our suppliers' Product Carbon Footprints (PCFs). This category currently uses 86% primary activity data and 22% primary emission factor data.
@@ -3328,6 +3364,7 @@ Upstream leased asset emissions (Category 8) cover Solvay's leased car fleet. Da
 
 This category covers the transportation of Solvay products from its sites to customers. Activity data, comprising all transportation legs, is extracted from Solvay's ERP (Enterprise Resource Planning) system. A certified external service provider performs the calculations using the latest version of the GLEC emission factors.
 
+<!-- Report Page 140 -->
 ### 10. Processing of sold products: 11. Use of sold products; and 12. End-of-life treatment of sold products
 
 The computation principles for these three categories are the same. The emissions due to product processing and transformation by third parties subsequent to sale by Solvay are calculated according to product chemical composition and expected chemical reactions likely to generate emissions during the transformation, the usage, and end-of-life of our product.
@@ -3430,6 +3467,7 @@ Power purchase agreement and steam based on biomass purchases are considered in 
 
 Biogenic CO2 emissions from the combustion or biodegradation of biomass are included in Scope 3 upstream emissions. Category 3.3 of Scope 3 specifically covers the upstream emissions associated with the production of purchased biomass. Additionally, biogenic emissions are also accounted for at the end-of-life stage when biomass waste is sent to landfill. However, at this stage, only methane (CH4) emissions from biomass degradation are considered, while N2O emissions are not included.
 
+<!-- Report Page 141 -->
 ### E1-7 GHG Removals and GHG mitigation projects financed through carbon credits
 
 Solvay does not use in its own operations, nor in its upstream nor its downstream value chain, removals or carbon credits to compensate for emissions reported here.
@@ -3473,6 +3511,7 @@ The share of gross Scope 1, Scope 2 and Scope 3 greenhouse gas emissions covered
 </tr>
 </table>
 
+<!-- Report Page 142 -->
 #### 6.2.2. Reporting according to EU Taxonomy
 
 The EU taxonomy (2020/852) is a classification system, establishing a closed list of environmentally sustainable economic activities. It is intended to play an important role in helping the EU scale up sustainable investment and implement the European Green Deal. The EU taxonomy provides companies, investors, and policymakers with appropriate definitions under which economic activities can be considered environmentally sustainable.
@@ -3527,6 +3566,7 @@ Given the current organization of our reportable segments and the limitation due
 
 The right-of-use assets related to the "6.2 freight rail transport" and "6.3 urban and suburban transport, road passenger transport" eligible activities are included in the capital expenditures indicators.
 
+<!-- Report Page 143 -->
 ##### Results of Solvay's taxonomy-eligible and taxonomy-aligned economic activities in 2024
 
 <table>
@@ -3634,6 +3674,7 @@ The Group works hard to constantly improve our share of economic activities cons
 
 \* Solvay does not publish the tables as per template 4 (taxonomy-eligible but not taxonomy-aligned economic activities) as Solvay is not in a position to segregate the information to that level of detail due to the organization of its reportable segments and the corresponding structure of its finance data systems.
 
+<!-- Report Page 144 -->
 ##### EU Taxonomy Indicators: 2024 Sales (Turnover)
 
 <table>
@@ -3686,6 +3727,7 @@ The Group works hard to constantly improve our share of economic activities cons
 <th>T</th>
 </tr>
 <tr>
+<!-- Report Page 145 -->
 <td colspan="2">A. Taxonomy-eligible activities</td>
 <td></td>
 <td></td>
@@ -4012,6 +4054,7 @@ N/EL = non-eligible
 <th>Category: Transitional Activities</th>
 </tr>
 <tr>
+<!-- Report Page 146 -->
 <th>Economic activities</th>
 <th></th>
 <th>k€</th>
@@ -4487,6 +4530,7 @@ N/EL = non-eligible
 
 ##### 6.2.3. Pollution
 
+<!-- Report Page 147 -->
 ##### E2-IRO-1 Pollution related IROs
 
 Please refer to ESRS 2 IRO-1 Description of the process to identify its impacts, risks, and opportunities and to assess which ones are material.
@@ -4621,6 +4665,7 @@ An overview of the Environmental Management Policy can be found in the table in 
 
 During the production process, we prioritize cleaner approaches, implement pollution-abating technologies, and strive to decrease emissions. We focus on identifying substances of high concern, aiming to substitute them with safer equivalents. Employees participate in training on pollution control techniques and proper management of hazardous substances. Our policy also covers a comprehensive emergency response program prioritizing human health, environmental conservation, and community safety.
 
+<!-- Report Page 148 -->
 ##### Scope of the policy
 
 This policy applies universally across all Solvay Group enterprises under operational control and relates to active sites across all regions. Closed site management, reported separately by the Remediation team, falls outside of this policy's scope.
@@ -4663,6 +4708,7 @@ Solvay's key actions were launched together with the STAR factory program in 202
 
 As for the resource allocation and monitoring of the actions related to pollution, the STAR Factory program provides a framework to efficiently implement improvements across Solvay's sites and prioritize resources to support. The site HSE manager and STAR Factory leader are the main contacts for environmental topics and resources are allocated on a case-by-case basis in collaboration with the HSER department and GBU Sustainable Development Champions. Those actions result in Capex and Opex when it comes to ongoing activities. Where Solvay has an obligation to remediate, provisions have been recognize based on the future remediation costs to be incurred (see note F31 - Provisions, and note F36 - Contingent Liaibilities)
 
+<!-- Report Page 149 -->
 #### Actions monitoring
 
 A digital portfolio management tool, managed at a corporate level, has been deployed for monitoring the progress and impact of STAR Factory initiatives in all dimensions, with Sustainability being one of the key pillars.
@@ -4703,6 +4749,7 @@ Solvay excels in flue gas treatment using our innovative SOLVAir@ solutions to e
 
 Case study available online: https://www.solvairsolutions.com/en/case-study-solvay-plant-spain
 
+<!-- Report Page 150 -->
 ##### SoC and SVHC in marketed products and supply chain
 
 We identify SoC and SVHC substances and run risk monitoring processes to update our risk studies and strive to substitute them with safer alternatives. In our supply chain, we engage with suppliers to look for opportunities to prevent, reduce, and/or remediate pollution.
@@ -4789,6 +4836,7 @@ In compiling this report, we have utilized the highest quality information avail
 </tr>
 </table>
 
+<!-- Report Page 151 -->
 ## Water Pollution Data:
 
 <table>
@@ -4916,6 +4964,7 @@ Solvay decided to use the threshold value of 0.1% w/w for SoC as it is reference
 </tr>
 </table>
 
+<!-- Report Page 152 -->
 Amount of SoC that are marketed as products or as part of products by hazard class category, as defined at the end of this chapter:
 
 <table>
@@ -5051,6 +5100,7 @@ Amount of SoC procured products in 2024 by main hazard class category (European 
 
 There is no amount of SoC that enters Solvay's European production facilities as a procured product in the hazard class categories 2, 3, 4, 5, 6 and 7.
 
+<!-- Report Page 153 -->
 ##### Hazard class categories used for Marketed products and Raw materials
 
 \> Category 1:
@@ -5166,6 +5216,7 @@ With water scarcity and frequent droughts intensifying globally, the Paulínia s
 
 At Qingdao in China, by capturing condensation water from the production process and reusing it, the site has achieved 14,000 m3 of water saved annually - equivalent to six Olympic-sized swimming pools, reducing water withdrawal from the Yellow River. This project was financed by our new Travel Carbon Fund, a Solvay initiative that charges business units based on their travel emissions. This encourages responsible travel practices while financing sustainability projects that deliver both environmental and economic benefits.
 
+<!-- Report Page 154 -->
 ##### E3-3 & E3-4 Targets and Metrics related to water consumption
 
 We are committed to reducing and responsibly managing water use, particularly in water-scarce areas. This commitment is supported by our action plan, which is implemented through the STAR Factory Program.
@@ -5213,6 +5264,7 @@ The impact of our water management initiatives is tracked using a centralized pr
 
 (*)Water intensity ratio calculated as the total water consumption over sales (as reported in the consolidated income statement in the financial statements).
 
+<!-- Report Page 155 -->
 ## Contextual information
 
 Water management encompasses the management of water flows and water quality, from extraction from the natural environment to restitution in the same or another part of the environment.
@@ -5315,6 +5367,7 @@ Following the EFRAG guidelines on DMA, we identified land-use change and land de
 
 To better understand Solvay's potential impacts on biodiversity, we conducted a detailed analysis of assets located near or in biodiversity-sensitive areas, presence of threatened species, and potential biodiversity-related risks across all global business units.
 
+<!-- Report Page 156 -->
 ##### E4 IRO-1 Process to identify and assess material biodiversity and ecosystem-related IROs
 
 Please refer to ESRS 2 IRO-1 Description of the process to identify its impacts, risks, and opportunities and to assess which ones are material.
@@ -5355,6 +5408,7 @@ A key priority for Solvay is to engage in a thorough baselining exercise. As suc
 
 Another significant effort is the development of roadmaps with detailed action plans for the 16 priority sites and facilitate coordination at each site, forming a critical step in realizing the broader target. Solvay aims to identify, through these action plans, site-specific blockers to ensure proactive management of potential issues that could hinder progress. These plans are already underway.
 
+<!-- Report Page 157 -->
 Further contributing to the biodiversity policy, Solvay has started implementing defined actions across its priority sites such as:
 
 \> Paulina (Brazil), which renewed its Wildlife Habitat Council (WHC) gold certification in November 2024 and where Solvay runs a reforestation project, planting native Atlantic Forest seedlings and taking care of all forest management activities to assure good-quality forest growth.
@@ -5435,6 +5489,7 @@ Along with their ancillary sites extracting and supplying raw materials to the m
 
 By engaging in ecosystem conservation and restoration, we will work toward a better management and reduction of Solvay's material impacts on biodiversity and ecosystems on these sites. Internal and external stakeholders, including biodiversity experts and local site managers, will be involved to ensure a comprehensive approach to conservation and restoration activities.
 
+<!-- Report Page 158 -->
 ##### 6.2.6. Circular Economy
 
 ##### E5-IRO-1 Resource use and circular economy-related IROs
@@ -5492,6 +5547,7 @@ We have long been taking actions to reduce waste. We promote circular economy pr
 
 In 2024, projects were deployed at more than 20 plants across the world to address non-sustainable industrial waste and this is expected to continue growing through the STAR Factory program in order to reduce the impact on the environment. Key actions were launched together with the STAR Factory program in 2022 and are currently ongoing, with 2030 as the time horizon by which Solvay aims to complete each action.
 
+<!-- Report Page 159 -->
 ##### 2. Recycling wastewater treatment sludges at the Paulínia plant, Brazil
 
 At the Paulínia site, Brazil, Solvay is committed to a sustainable approach for managing industrial waste. As a result of partnering and innovation, Paulínia achieved its goal of Zero Non-Recoverable Industrial Waste in May 2024. This means that no waste was sent to landfill or incineration without energy recovery, thereby reducing the pressure on the environment. This milestone has been realized by repurposing part of the waste as fuel or raw material in the cement industry's co-processing. The site continues to collaborate with partners to identify additional alternatives, including the reuse of materials in the ceramic industry for brick production.
@@ -5647,6 +5703,7 @@ The impact of our waste management initiatives is tracked using a centralized pr
 </tr>
 </table>
 
+<!-- Report Page 160 -->
 #### 6.3. SOCIAL INFORMATION
 
 ##### 6.3.1. Own Workforce
@@ -5758,6 +5815,7 @@ Impact materiality:
 </tr>
 </table>
 
+<!-- Report Page 161 -->
 ##### S1-SBM-2 Interest and views of stakeholders
 
 The interests, views, and rights of our workforce are considered in our Better Life and Social Dialogue strategies:
@@ -5804,6 +5862,7 @@ Through thorough evaluations of Solvay's production sites with manufacturing and
 
 We have developed a comprehensive understanding of the potential risks faced by specific segments of Solvay's workforce. This understanding has been cultivated through a combination of risk assessments, employee engagement, and data analysis. To develop this understanding, we employ ongoing risk monitoring through an ESG risk management platform, Dow Jones, which identifies factors such as socio-economic conditions, local regulatory frameworks, and the specific nature of the work being performed. Furthermore, our Internal Audit team assesses the effectiveness of site-specific policies and worker engagement processes, ensuring that all workers have access to grievance channels and that their concerns are promptly addressed. Material own workforce-related risks and opportunities apply to all of Solvay's workforce (no specificity for any particular group of employees). However, applicable mitigation actions are adjusted to specific groups of people when needed. For example, in view of retaining knowledge and upskilling, learning programs are adjusted to the needs of specific groups (e.g. onboarding of starters, lifelong learning of experienced people).
 
+<!-- Report Page 162 -->
 Please refer to the IRO table for the material risks and opportunities.
 
 #### S1-1 Policies related to own workforce
@@ -5840,6 +5899,7 @@ The DEI policy also emphasizes the significance of equity and inclusion within S
 
 Our DEI and Non-Discrimination Policy is designed to prevent, mitigate, and respond to discrimination within Solvay. It emphasizes that all employees have a shared responsibility to treat others with dignity and respect, and to collectively fulfill the company's objectives. This policy applies worldwide and requires employees to embody DEI principles in their behavior at work, company functions, and off-site events. We provide regular awareness training to enhance employees' understanding of DEI, encourage them to build a culture of trust and respect, and empower them to challenge non-inclusive or discriminatory behaviors.
 
+<!-- Report Page 163 -->
 ### Compliance, ethics & human Rights:
 
 We are strongly committed to upholding human rights within our own workforce. In relation to the Code of Business Integrity and the Social Dialogue Policy, we have implemented a comprehensive Human Rights in Business Policy, which includes strict adherence to labor rights, safety, and non-discrimination across all our operations. Our approach includes grievance mechanisms and continuous engagement with stakeholders to address any concerns related to human rights.
@@ -5864,6 +5924,7 @@ The frequency of engagement varies depending on the type and level of interactio
 
 Solvay's Global Framework Agreement (GFA) with IndustriALL is a key component of our commitment to respecting global human rights and provides mechanisms for gaining insights into the workforce perspectives. This involves annual site visits by IndustriALL representatives, fostering open communication channels, and actively involving employee representatives in collaborative policy development. We have also implemented various indicators and mechanisms, such as periodic policy reviews, compliance monitoring, feedback mechanisms like the Pulse Survey and Speak Up program, as well as collective bargaining agreements and other commitment outcomes to evaluate and address the needs and concerns of our workforce. We have further established general mechanisms and commitments like Employee Resource Groups, the Speak Up Policy, the Global Framework Agreement, and the Human Rights Policy, which contribute to understanding the needs of vulnerable or marginalized groups.
 
+<!-- Report Page 164 -->
 ### S1-3 Processes to remediate negative impacts and channels for own workers to raise concerns
 
 We emphasize Solvay's commitment to sustainability and employee well-being. We have implemented processes and an accessible helpline that allow employees, including from the workforce, to raise concerns, ensuring that any negative impacts are promptly addressed. This includes grievance mechanisms whereby employees can safely and confidentially report grievances or unethical practices. These channels are integral for fostering an environment in which our workforce can voice concerns without fear of retaliation, supporting a culture of transparency.
@@ -5882,6 +5943,7 @@ The Ethics Helpline, an external third-party helpline accessible 24/7 throughout
 
 See G1-3 in the Sustainability Statements for more details on investigation and reporting.
 
+<!-- Report Page 165 -->
 ### S1-4 Taking action on material impacts on own workforce, and approaches to mitigating material risks
 
 #### Action plans
@@ -5923,6 +5985,7 @@ We place a strong emphasis on regularly reviewing various metrics to ensure the 
 
 Continuous monitoring and improvement are integral parts of our approach, utilizing key performance indicators (KPIs), audits, and other tools to monitor our performance and identify areas for enhancement. This approach ensures that our actions remain effective and relevant, demonstrating our strong commitment to prioritizing the well-being and satisfaction of Solvay's workforce.
 
+<!-- Report Page 166 -->
 Solvay has a robust mechanism to mitigate risks and pursue opportunities for employees at the identified material impact areas:
 
 <table>
@@ -5967,6 +6030,7 @@ By continuously monitoring, consulting, and adapting our approach, we strive to 
 
 To implement ambitious policies and action plans, Solvay has dedicated Health and Safety, DEI, well-being, learning, and labor relations teams, with annual budgets that allow effective implementation.
 
+<!-- Report Page 167 -->
 Dedicated resources:
 
 <table>
@@ -6005,6 +6069,7 @@ Solvay's global travel policy reflects our commitment to sustainability and effi
 <th>Description</th>
 </tr>
 <tr>
+<!-- Report Page 168 -->
 <td colspan="3">a) reducing negative impacts on its own workforce</td>
 </tr>
 <tr>
@@ -6057,6 +6122,7 @@ Solvay's global travel policy reflects our commitment to sustainability and effi
 
 We involved our workforce through various Employee Resource Groups to establish these targets, while the central representative body played a significant role in defining the programs and targets for the Employee Share Purchase Program (ESPP) and Better Life strategy, including pay equity and fair living wage. We engaged our workforce by organizing town halls with the ELT in different Solvay countries and through the Solvay+ ELT broadcast, where progress on various metrics was shared, and workforce representative bodies, such as the EWC, were consulted for performance tracking. We actively engaged our workforce to identify lessons learned following the pulse surveys and provided a manager toolkit to identify action points from team-level results, with the involvement of workforce representative bodies like the EWC to help identify lessons learned.
 
+<!-- Report Page 169 -->
 #### S1-6 Characteristics of Solvay's Employees
 
 ##### Gender distribution
@@ -6229,6 +6295,7 @@ Average number of Active Internal Workforce (headcount): For the year of 2024, w
 
 In Solvay HRIS system the non-guaranteed hours employees cannot be identified and reportable.
 
+<!-- Report Page 170 -->
 #### Employment characteristics by region 2024
 
 <table>
@@ -6364,6 +6431,7 @@ Furthermore, Solvay reports a low total employee turnover rate, with the uptick 
 
 In the 2024 Annual Integrated Report, Solvay provides a clear cross-reference to the most representative figures concerning our workforce. The total headcount is prominently displayed in the key figures of the introduction section of the report, offering stakeholders a snapshot of the company's size and scale. Further insights into the workforce composition are revealed in "S1-6 Characteristics of Solvay employees" of the report, where a breakdown by region is presented.
 
+<!-- Report Page 171 -->
 ## S1-8 Collective bargaining coverage and social dialogue
 
 The percentage of our employees covered by collective bargaining is 74.83% (6,664 out of 8,905 of total employees).
@@ -6471,6 +6539,7 @@ As illustrated in the table below, the data includes the number of employees (he
 
 Note: The total number of employees does not match the number of employees in section S1-6 because we have employees categorized in the age range "Not assigned". Top Management (S23+) classification is based on the pay grade of the employees. Having S23+ pay grade determines who is under this level.
 
+<!-- Report Page 172 -->
 ## S1-10 Adequate wages
 
 In our analysis of 2024, all employee data including Annual Basic salary and guaranteed bonuses/allowances were scrutinized against city-regional benchmarks provided by our external provider, WageIndicator, to ensure alignment with adequate wage standards.
@@ -6607,6 +6676,7 @@ The figures in the table above relate to recordable work-related illnesses contr
 
 The figures in the table above relate to recordable work-related illnesses contracted by Solvay former employees who are retired or have left the company.
 
+<!-- Report Page 173 -->
 ## S1-16: Remuneration metrics
 
 ### Gender pay gap
@@ -6669,6 +6739,7 @@ The topic Process Safety and Transport Safety Management is an entity-specific t
 </tr>
 </table>
 
+<!-- Report Page 174 -->
 ## Policies to manage IROs related to Process Safety and Transport Safety
 
 Please refer to the ESRS 2 - MDR-P policy table (Health & Safety Policy).
@@ -6719,6 +6790,7 @@ Below is a description of the key elements of the Process Safety Management Syst
 
 \> Process safety performance is regularly measured by conducting regulatory compliance and Solvay HSE Group Requirement audits according to Solvay's HSE Compliance and Group Requirements Audit procedure.
 
+<!-- Report Page 175 -->
 ## Actions performed on ad hoc basis (pending occurrence of an incident or specific event):
 
 \> Safety study during the design phase of new installations or changes to existing equipment.
@@ -6783,6 +6855,7 @@ The incidents are categorized as per the following scale of severity:
 
 \> Low severity incident: none of the high or medium severity criteria is met.
 
+<!-- Report Page 176 -->
 Process safety indicators for 2024 are summarized in the table below:
 
 <table>
@@ -6922,6 +6995,7 @@ We have subscribed to a third-party risk management platform for adverse media s
 
 In 2024, all suppliers doing business with Solvay in Germany were added to the screening. The batch screening results highlighted four suppliers with eight adverse media alerts regarding human rights during 2023 and 2024, but none of the alerts concerned direct and proven involvement in forced labor or child labor practices. None of the eight alerts condemn our suppliers. These are articles about widespread, systemic impacts, not individual ones.
 
+<!-- Report Page 177 -->
 ##### S2-1 Policies to manage IROs related to value chain workers
 
 We are committed to meeting our responsibility to respect human rights and act with due diligence to avoid any infringement of human rights or any adverse impact on or abuses of such rights, according to Solvay's Human Rights in Business Policy (see MDR-P table for more information). Solvay's Human Rights in Businesss policy is publicly available to all stakeholders who may potentially be impacted by our operations. This Policy serves as a foundation for integrating the responsibility to respect human rights into Solvay's business activities. It outlines the human rights that are most relevant to our operations and value chain, including health and safety; the right to a clean, healthy, and sustainable environment; freedom of association and collective bargaining; non-discrimination; and the prohibition of child labor, forced labor, or human or sex trafficking.
@@ -6966,6 +7040,7 @@ Our engagement strategy includes several key components:
 
 We are committed to continuously improving our approach to human rights remediation. The company regularly reviews and updates the policy and practices based on emerging best practices, changes in the legal and regulatory landscape, and stakeholder feedback, if any. If updates are made to the policy, alterations are also reflected in the version available to our stakeholders via our website. Currently, there are no additional mechanisms in place except those already mentioned to make this policy available to potentially affected stakeholders or those involved in its implementation.
 
+<!-- Report Page 178 -->
 ##### S2-2 Processes for engaging with value chain workers about impact
 
 Under the Global Framework Agreement on social responsibility and sustainable development between Solvay Group and IndustriALL Global Union, Solvay demonstrates a strong commitment to human rights across all operations.
@@ -7000,6 +7075,7 @@ Solvay's Speak Up Policy upholds three key principles: confidentiality, anonymit
 
 The management of investigations into human rights issues falls under the direct responsibility of the Ethics & Compliance Department, which is an independent function within Solvay, as indicated in the Code of Business Integrity. This department oversees all aspects of the investigation process, from initial assessment to final resolution, ensuring strict confidentiality and compliance with Solvay's internal policies and legal standards. High-risk and impact cases are reported by the Chief Ethics & Compliance Officer to the Business Ethics & Compliance Board, the Sustainability Committee and to the Audit & Risk Committee of Solvay's Board of Directors.
 
+<!-- Report Page 179 -->
 ##### S2-4 Action plans and resources to manage its material IROs related to value chain workers
 
 We are committed to preventing, mitigating, and remediating material negative impacts on workers throughout our value chain. As part of this commitment, we are planning to organize targeted training sessions for contractors to be rolled out in March 2025. Additionally, a comprehensive project on Responsible Value Chain Due Diligence is currently underway. Its objective is to consolidate the Group's Responsible Value Chain Due Diligence Policy (see MDR-P table for more information), with a particular focus on areas such as Human Rights, among other critical topics. The final objective is to take measures by the end of 2025 to strengthen prevention or mitigation of any potential and real impacts on the above topics, which could arise from Solvay's own operations and business relationships across the value chain.
@@ -7020,6 +7096,7 @@ Currently, we are still in the process of developing targets externally. We have
 
 For more details on all our actions, please refer to paragraph S2-4.
 
+<!-- Report Page 180 -->
 ## 6.4. GOVERNANCE INFORMATION
 
 ## 6.4.1. Business conduct
@@ -7121,6 +7198,7 @@ The Chief Ethics & Compliance Officer chairs the Business Ethics & Compliance Bo
 
 The Ethics & Compliance Disciplinary Committee oversees the investigation and approves the outcome and potential sanctions of cases with a high risk and impact from a people or reputational perspective, such as all reports related to allegations of corruption, antitrust, human rights violations, or reports related to senior management. The Disciplinary Committee is composed of senior leaders with specific expertise in governance, legal affairs, human resources, and business operations, ensuring a comprehensive and informed approach to evaluating serious Ethics & Compliance cases. The Disciplinary Committee is constituted by the Group General Counsel, Chief People Officer, and Chief Ethics & Compliance Officer, who are the voting members. Invitees, such as the GBU President/Functional Head and the Investigating Ethics & Compliance Officer, provide business input and perspectives, with the latter offering insights but not participating in the decision-making process.
 
+<!-- Report Page 181 -->
 ## G1- IRO-1 Description of the processes to identify and assess material IROs
 
 The process to identify and assess material IROs is described in the General Disclosure section 1.4 IROs management.
@@ -7159,6 +7237,7 @@ In an environment of increasing trade complexity, we have implemented a Group Tr
 
 The Human Rights in Business Policy states Solvay's strong commitment to Corporate Social Responsibility, including the protection and advancement of Human Rights, establishing the principles to ensure respect for human rights.
 
+<!-- Report Page 182 -->
 This policy is further detailed in section S1-1: Policies related to own workforce, as well as in the MDR-P table.
 
 Solvay's Code of Business Integrity and the policies and procedures adopted to enhance good governance apply to all employees wherever they are located. Majority-owned joint ventures are held to the Solvay Code of Business Integrity, or to a separate code adopted based on similar principles. We expect Solvay's business partners to comply with all laws and regulations governing their activities, both within their own worksites and at the Group, and to encourage adherence to the spirit of this Code of Business Integrity throughout their operations.
@@ -7181,6 +7260,7 @@ We demonstrate Solvay's commitment to accountability through our approach to res
 
 Employees receive training and information on the speak-up culture, internal reporting channels, and grievance system through specific modules included in the Code of Business Integrity training, ad-hoc classroom and remote training, regular internal communications, and information available and accessible on the company intranet (Solvay ONE).
 
+<!-- Report Page 183 -->
 ### G1-3 Prevention and detection of corruption and bribery
 
 Solvay's framework for preventing and detecting corruption and bribery is built on several key policies, which ensure ethical behavior across the organization. Our action plan involves implementing and maintaining a robust framework to prevent, detect, and address potential violations of anti-corruption and commercial bribery laws. At the core of this framework is the Code of Business Integrity, which defines the company's ethical principles and is complemented by more specific policies, such as the Anti-Bribery and Anti-Corruption Policy, the Policy on Gifts, Entertainment, Charitable Donations, and Sponsorship, the Conflict-of-Interest Policy, and the Speak Up Policy. Together, these policies create a comprehensive approach to mitigating risks related to unethical behavior.
@@ -7219,6 +7299,7 @@ The Code of Business Integrity training is web based, offered in 16 languages, a
 
 Although business conduct and detection and prevention of corruption and bribery are a top priority for us - and we already have a dedicated Ethics & Compliance team in place as part of our internal resources- we have not yet assigned any financial resources, such as Capex and Opex, to our action plan. Because of this, we cannot connect our financial resources with the amounts shown in the financial statements.
 
+<!-- Report Page 184 -->
 ### G1-4 Confirmed incidents of corruption or bribery
 
 Solvay employees or stakeholders have various channels through which they can report their concerns to the company about unlawful behavior or behavior breaching the company's Code of Business Integrity and additional business conduct policies. Through the Speak Up Program, any concerns are reviewed, followedup on, and investigated by Ethics & Compliance, as appropriate. In keeping with our commitment to transparency, Solvay's grievance system - available and easily accessible to employees and third parties through our website or a toll-free number - is used to report progress on investigations and give feedback to those concerned, where appropriate.
@@ -7229,6 +7310,7 @@ For the 2024 period, Solvay had no convictions for violations of anti-corruption
 
 At Solvay, we have not established specific targets relating to business conduct, anti-corruption, anti-bribery, or other ethics and compliance aspects, although we continuously monitor these areas. We remain committed to upholding best practices and adhering to our stringent business conduct framework to safeguard our integrity and ethical standards.
 
+<!-- Report Page 185 -->
 ## 6.5. APPENDIX 1: DATA POINTS DERIVING FROM OTHER EU LEGISLATION
 
 <table>
@@ -7420,6 +7502,7 @@ At Solvay, we have not established specific targets relating to business conduct
 
 <table>
 <tr>
+<!-- Report Page 186 -->
 <th>Disclosure Requirement and related datapoint(*)</th>
 <th>SFDR</th>
 <th>Pillar 3</th>
@@ -7639,6 +7722,7 @@ At Solvay, we have not established specific targets relating to business conduct
 
 <table>
 <tr>
+<!-- Report Page 187 -->
 <th>Disclosure Requirement and related datapoint(*)</th>
 <th>SFDR</th>
 <th>Pillar 3</th>

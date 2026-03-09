@@ -4,6 +4,8 @@
 
 This chapter provides a summary of the Consolidated Statement of Non-Financial Information and Sustainability Information included in Appendix V of this document. This Appendix complies with the requirements of both the new EU Corporate Sustainability Reporting Directive (CSRD) and the Spanish Law 11/2018 on non-financial reporting and diversity, which remains in force.
 
+<!-- Report Page 48 -->
+<!-- Report Page 49 -->
 The information contained in Appendix V has been verified (limited assurance) by an independent third party.
 
 ### 6.1 General disclosures
@@ -28,6 +30,7 @@ In the social sphere, they are largely positive and relate to talent management,
 
 Repsol has defined objectives and taken steps to mitigate risks and seize opportunities, as described in the following sections of this chapter.
 
+<!-- Report Page 50 -->
 ### 6.2 Environmental information
 
 <table>
@@ -96,6 +99,7 @@ Repsol's target of achieving a 20% reduction in its absolute Scope 1, 2 and 3 em
 
 Repsol's decarbonization objectives are supported by a strategy predicated on the following pillars:
 
+<!-- Report Page 51 -->
 ##### Pillar 1: Operational excellence and portfolio management
 
 Energy efficiency, process electrification, reducing direct emissions from operations and adapting production levels and the Upstream portfolio toward less carbon-intensive assets are key to the decarbonization of the Company's assets and a lever for reaching its goal of achieving a 55% reduction in Scope 1 and 2 emissions by 2030. Meanwhile, capital allocation to the Upstream business is consistent with maintaining production levels in the vicinity of 550-600 kboe/d throughout this decade, below the 2019 peak, which exceeded 700 kboe/d. Priority is given to investment in assets and projects with higher economic margin and lower greenhouse gas emissions, which, together with the contribution of decarbonization levers (energy efficiency, process electrification, reduction of methane intensity below 0.2% by 2025 and reduction of over 50% in routine flaring by 2025) aims to reduce carbon intensity in the coming years, from < 15 kgCO2e/boe in 2023 to 10 kgCO2e/boe in 2027, in accordance with the Company's strategic update. At the industrial businesses (Refining and Chemicals), the Company plans to reduce its direct Scope 1 and 2 emissions by 1.6 Mt CO2e between
@@ -126,6 +130,7 @@ The following table shows the main decarbonization metrics, their targets and th
 
 <table>
 <tr>
+<!-- Report Page 52 -->
 <th colspan="8">Repsol's decarbonization targets and degree of progress</th>
 </tr>
 <tr>
@@ -207,6 +212,7 @@ During the year, Repsol established a new commitment related to the pollution of
 - See chapter 2.2 Pollution prevention in Appendix V of this
 report.
 
+<!-- Report Page 53 -->
 #### 6.2.3. Water and marine resources
 
 Repsol uses its own internal Repsol Water Tool (RWT) to assess the material impacts, risks and opportunities related to water in relation to the Company's own operations. It also relies on the Aqueduct Water Risk Atlas tool of the World Resource Institute (WRI) to identify physical risks related to water stress.
@@ -254,6 +260,7 @@ Looking at the key metrics, the total weight of technical and biological product
 - See chapter 2.5 Resource use and circular economy in
 Appendix V of this report.
 
+<!-- Report Page 54 -->
 ### 6.3 Social information
 
 <figure>
@@ -293,6 +300,7 @@ Repsol has defined objectives for the coming years with the aim of strengthening
 - See chapter 3.2 Workers in the value chain in Appendix V
 of this report.
 
+<!-- Report Page 55 -->
 #### 6.3.3. Affected communities
 
 2025-2027 Action Plan to comply with the Corporate Sustainability Due Diligence Directive [CSDDD]
@@ -345,6 +353,7 @@ Repsol views safety as a non-competitive priority, in which it promotes collabor
 
 In terms of security, Repsol has reviewed and updated its security plans in all its countries and at all assets it operates. These plans include risk mitigation measures and are based on a continuous analysis of safety conditions at each site. The Company has worked closely with its asset partners and local security forces, when necessary, to promote the protection of its assets, operations and people.
 
+<!-- Report Page 56 -->
 - See chapter 3.5 Safety and security in this Appendix V.
 
 ### 6.4 Governance information
@@ -371,6 +380,7 @@ The Committee makes the Ethics and Compliance Channel available to employees and
 
 In 2024, a total of 298 communications were received through the Ethics and Compliance Channel, 90 of which the Committee decided to investigate.
 
+<!-- Report Page 57 -->
 ##### Integrated Compliance Model
 
 The Compliance function has a specific remit and a highly specialized team tasked with entrenching a culture of compliance across the Group and making it better able to identify and monitor ethics and compliance risks. The main focal points are integrity, anti-money laundering and counterterrorist financing, crime prevention, international sanctions and embargoes, competition, privacy and personal data protection.
@@ -404,6 +414,7 @@ Meanwhile, the Cybersecurity Strategic Plan 24-26 remains in force, with notable
 
 - See chapter 4.3 Cybersecurity of this Appendix V.
 
+<!-- Report Page 79 -->
 ### Regulatory and litigation risks
 
 <table>
@@ -438,6 +449,7 @@ Meanwhile, the Cybersecurity Strategic Plan 24-26 remains in force, with notable
 
 <table>
 <tr>
+<!-- Report Page 80 -->
 <td>Operational risks</td>
 <td></td>
 </tr>
@@ -459,6 +471,7 @@ Various risks materialized in 2024, including regulatory and litigation risks. I
 
 At the same time, the supplier was asked to apply additional measures to prevent situations like this from happening again. Additionally, cybersecurity measures have been further reinforced and the incident has been reported to the competent authorities. The incident in no case affected sensitive data, financial data (current account or credit card), passwords or electricity consumption data that compromised its security. The affected data were name and surname, ID, address, contact details and the unique codes for identifying power supply points.
 
+<!-- Report Page 81 -->
 ### Appendix V. Consolidated Statement of Non-Financial Information and Sustainability Information
 
 ## Contents
@@ -469,6 +482,7 @@ At the same time, the supplier was asked to apply additional measures to prevent
 <th>Page.</th>
 </tr>
 <tr>
+<!-- Report Page 82 -->
 <td>1. General disclosures</td>
 <td>83</td>
 </tr>
@@ -602,6 +616,7 @@ At the same time, the supplier was asked to apply additional measures to prevent
 </tr>
 </table>
 
+<!-- Report Page 83 -->
 ## 1. General disclosures
 
 ### 1.1 Basis for preparation
@@ -658,6 +673,7 @@ Repsol's focus on sustainability is deployed through the leadership of the Board
 
 Committee, the supervision of the Sustainability and Audit and Control Committees, and the coordination of the Sustainability Department, across all businesses and corporate areas so that social, environmental, and governance issues are integrated into decision-making at all levels.
 
+<!-- Report Page 84 -->
 #### Sustainability Governance
 
 ## Board of Directors
@@ -676,6 +692,7 @@ Without prejudice to the statutory capacity of the Board of Directors to create 
 
 <table>
 <tr>
+<!-- Report Page 85 -->
 <th colspan="2">Composition of Board Committees</th>
 </tr>
 <tr>
@@ -780,6 +797,7 @@ companies in the sector, experience in monitoring corporate policies and updatin
 - Knowledge of the relevant regulations related to
 ESG matters.
 
+<!-- Report Page 86 -->
 - The ability to think strategically and evaluate strategic
 options and business plans/budgets.
 
@@ -803,6 +821,7 @@ In terms of competencies in the energy and sustainability sector, Repsol's direc
 
 Repsol offers training and continuous updating programs, including sessions related to sustainability aspects. Among other issues, throughout the 2024 financial year, training and information sessions have been held related, among others, to the following content, both for all directors and specific sessions for the members of the Audit and Control and Sustainability5 Committees:
 
+<!-- Report Page 87 -->
 ## Board of Directors
 
 - Energy transition and technological aspects
@@ -918,6 +937,7 @@ of 2023.
 - The Committee's 2023 Activity Report.
 
 - Sustainability information in the 2023 Integrated
+<!-- Report Page 88 -->
 Management Report.
 
 - The greenhouse gas emissions map for the 2023 financial
@@ -1019,6 +1039,7 @@ alignment with the energy transition and evaluating investment proposals and the
 - Approving any changes in decarbonization metrics and the
 monitoring, at least once a year, of progress towards achieving the energy transition and decarbonization targets.
 
+<!-- Report Page 89 -->
 ## Integration of sustainability-related performance in incentive schemes (GOV-3)
 
 To facilitate the alignment of the Organization, employee remuneration is reviewed annually by the Executive Committee, the Remuneration Committee and the Board of Directors, the body that approves it, and is linked to compliance with sustainability and decarbonization objectives. In the case of employees with annual variable remuneration9, this remuneration is based on both the individual objectives of each employee and on the objectives of the business units. By 2024, objectives related to environmental, social and governance (ESG) issues have been integrated into all the objectives of each business unit, reaching a weight between 20% and 45%. In the particular case of the CEO, the weight of the objectives related to decarbonization and sustainability represents, in 2024, 25% of his annual variable remuneration. Plus, in the Long-Term Incentive (ILP) for the period 2024-2027, 40% of the objectives are linked to the energy transition, and this applies to all management staff, including the CEO, and other employees. Each type of objective has different associated metrics for its measurement and each metric has an associated achievement scale defined based on its variability and strictness. These scales have a minimum attainment threshold below which no right to incentive is generated and a maximum level set at 100%10.
@@ -1033,6 +1054,7 @@ As regards executive directors, the Remuneration Policy establishes items of fix
 The long-term incentive plan for the 2024–2027 period shows a more balanced distribution across strategic priorities. Company performance, value creation, and energy transition objectives each contribute similar proportions to the total incentive weighting. This structure indicates a stronger integration of long-term value creation and energy transition goals into executive remuneration over the multi-year horizon.</figcaption>
 </figure>
 
+<!-- Report Page 90 -->
 ## Objectives and metrics set out in the CEO's 2024 Annual Variable Remuneration in relation to sustainability
 
 <table>
@@ -1105,6 +1127,7 @@ The Repsol Group has been working in recent years, since the entry into force of
 
 The ICSR is defined at Repsol following the same principles as the Internal Control System over Financial Reporting, and following the guidelines of the COSO framework (mainly the COSO Integrated framework and COSO ESG). It has the following elements: governance model, risk identification and assessment process, materiality assessment and scope model, inventory of controls, including those of information technology, etc. With regard to the differentiated responsibility of the Company's units and bodies involved in risk management, the ICSR is based on the three-line model, being a standard recommended by the Global Institute of Internal Auditors. The Audit, Control and Risk Division (DAC&R) evaluates the design and operation of controls, processes and other components of the Group's ICSR, reporting on this work to the Audit and Control Committee (A&CC).
 
+<!-- Report Page 91 -->
 ### Responsible bodies
 
 The Board of Directors (BOD) reserves the power to approve the risk control and management policy, and oversight of internal information and control systems. In accordance with the Regulations of the Board of Directors, the Audit and Control Committee supervises and evaluates the preparation process and the integrity of the financial and non-financial information of Repsol, S.A. and its Group, periodically reviewing compliance with regulatory requirements, the definition of the consolidation perimeter, the effectiveness of the internal control systems, the internal audit and the financial and non-financial risk management systems, so that the main risks are identified, managed and made known.
@@ -1187,6 +1210,7 @@ The main risks that could affect the Group's sustainability information objectiv
 - Errors or omissions in the reporting of sustainability
 information.
 
+<!-- Report Page 92 -->
 ## Scope and updating
 
 The process of identifying and assessing the causal factors of sustainability reporting risks covers all the objectives of sustainability information, which could impact its reliability.
@@ -1239,6 +1263,7 @@ Repsol's set of policies is available to employees on the Company's intranet and
 
 The description of the content of the sustainability different policies is provided, including their general objectives, as well as the material sub-topics that these policies include, defined by the main impacts, risks or opportunities of Repsol, as well as the date of approval/review, is reported in chapter 5 Sustainability notes of this Appendix V.
 
+<!-- Report Page 93 -->
 In addition, chapters 2 Environmental information,
 
 Appendix V include the policies related to the specific topic of each standard.
@@ -1372,6 +1397,7 @@ The 2024 breakdown of ordinary income2 by product and segment type is as follows
 
 One of the main pillars of the Strategic Plan is the Company's decarbonization, which has a fundamental impact on climate change and circular economy issues. . See chapters 2.1 Climate change and 2.5. Resource use and circular economy of this Appendix V.
 
+<!-- Report Page 94 -->
 ## Sustainability-related goals
 
 Repsol prepares its Global Sustainability Plan annually, which is submitted and approved by the Executive Committee and supervised by the Sustainability Committee.
@@ -1444,6 +1470,7 @@ Contribute to the 2030 agenda through Repsol's social projects and benefit 10 mi
 
 Lack of highly serious incidents in relation to the safety of the products marketed by Repsol
 
+<!-- Report Page 95 -->
 #### Business model and value chain
 
 Repsol's activities are structured into four segments:
@@ -1476,6 +1503,7 @@ One of Repsol's main distribution channels are service stations, which offer fue
 
 Repsol also supplies industries and companies through the direct sale of chemical products and fuels.
 
+<!-- Report Page 96 -->
 ### Interests and views of stakeholders (SBM-2)
 
 Repsol annually reviews the stakeholder map and its prioritization, taking into account nature of the interested parties. For this hierarchy, internal knowledge (stakeholder management areas, and cross-cutting areas) and context analysis are taken into account. The current map identifies 9 stakeholders and 40 subgroups.
@@ -1538,6 +1566,7 @@ Information on the main stakeholders is detailed below:
 
 
 
+<!-- Report Page 97 -->
 ## Stakeholder engagement processes
 
 <table>
@@ -1604,6 +1633,7 @@ In section 5.2.2 Material impacts of this Appendix V, detailed information is re
 
 The positive or negative material impacts are found in the three areas, environment, social and governance, with the highest number of positive impacts and most of these concentrated in the social sphere (talent management and working conditions, health, value chain, customer satisfaction) and governance in the issue of ethics and integrity. Most of the negative material impacts are in the field of the environment, focused on the issues of climate change, pollution, water and biodiversity, and positive impacts on the use of resources and the circular economy. For all of them, the actions that the Company is carrying out to reduce negative impacts and enhance positive ones are specified.
 
+<!-- Report Page 98 -->
 ### 1.4 Materiality assessment
 
 #### Description of the processes to identify and assess material impacts, risks, and opportunities (IRO-1)
@@ -1630,6 +1660,7 @@ II
 
 <table>
 <tr>
+<!-- Report Page 99 -->
 <th colspan="3">Material topics / sub-topics</th>
 </tr>
 <tr>
@@ -1755,6 +1786,7 @@ Chapter 6.1 Index of disclosure requirements of this Appendix V includes a list 
 
 The description of the process used for the double materiality assessment is found in section Description of the processes to identify and assess material impacts, risks and opportunities (IRO-1) of this Appendix V.
 
+<!-- Report Page 100 -->
 ## 2. Environmental information
 
 ### 2.1 Climate change
@@ -1797,6 +1829,7 @@ Repsol thus has two complementary indicators that incorporate Scope 3 emissions 
 On the other hand, Repsol has set specific targets to reduce methane intensity to 0.20% in its operated E&P assets by 2025 and to reduce emissions from routine gas flaring by 50% by the same year, which in turn contribute to the Scope 1 and 2 emissions reduction target.
 
 - See section Targets related to climate change mitigation and
+<!-- Report Page 101 -->
 adaptation (E1-4) of this Appendix V.
 
 ## 1.5°C alignment
@@ -1817,6 +1850,7 @@ In the case of Repsol, as a company with emissions coming from oil and gas, its 
 
 While C1 scenarios are designed to be technically feasible and achieve the climate goal with a probability greater than 50% if implemented, this does not imply that all scenarios can be implemented, as their feasibility depends on external factors such as political commitment, international cooperation, effective implementation of mitigation measures, the availability of technologies or, ultimately, the real reduction of emissions. These scenarios should be considered to represent a set of possible trajectories, the success of which depends on the effective implementation of concrete measures. In addition, C1 scenarios involve uncertainties inherent in climate modeling and the current limitations of climate science.
 
+<!-- Report Page 102 -->
 ## Global fossil fuel production under C1 scenarios
 
 <figure>
@@ -1839,6 +1873,7 @@ Repsol's goal for 2030 of reducing absolute Scope 1, 2 and 3 emissions by 20%, c
 
 The following is a description of the Company's main lines of action in terms of energy transition. Among these, the levers that contribute to the reduction of Repsol's Scope 1, 2 and 3 emissions are those that have an impact on the reduction of direct emissions from our operations (Scope 1 and 2), as well as reductions in sales of natural gas and petroleum products (Scope 3), as discussed further in sections E1.3 and E1.4. These levers are embedded in the pillars within which other strategic and commercial actions are carried out, which drive the Company's energy transition, although they do not generate a gross reduction in emissions. These pillars are as follows:
 
+<!-- Report Page 103 -->
 #### Pillar 1. Operational excellence and portfolio management
 
 Energy efficiency, process electrification, reducing direct emissions from current operations, and optimizing the Upstream portfolio to include fewer carbon-intensive assets are key to the decarbonization of the Company's assets and a lever for achieving the goal of a 55% reduction in Scope 1 and 2 emissions by 2030 compared with the base year of 2016.
@@ -1895,6 +1930,7 @@ During 2024, investments related to oil and gas activities (in accordance with N
 
 With respect to the income from these activities, Repsol is excluded from the EU Paris-aligned benchmarks in accordance with the exclusion criteria laid down in articles 12.1 (d) to (g) and 12.2 of the Commission Delegated Regulation (EU) 2020/1818.
 
+<!-- Report Page 104 -->
 #### Locked-in emissions
 
 The concept of locked-in emissions is directly related to the carbon intensity of assets and their useful life, such that these emissions can come into conflict with a low-emission future and, if this future were to become a reality, would affect the value of the Company's assets. In the case of Repsol, the assets for the production, transformation and sale of oil and gas products are considered for evaluation, including both the emissions generated directly by those that are operated (Scope 1 and 2) and those derived from the use of the products sold (Scope 3).
@@ -1929,6 +1965,7 @@ The EU regulation also promotes the reduction of Scope 1 and 2 emissions through
 
 If the Company were to fail to transform at the pace required, there would be a risk of part of its legacy assets losing economic value. For this reason, Repsol makes medium and long-term projections of the demand for energy products in the EU and develops strategies to expand its commercial hinterland to adapt its refinery production to demand, and to prioritize profitable investments in low-carbon technologies and products, as enabled by regulation.
 
+<!-- Report Page 105 -->
 ## Evaluation of assets and investments for mitigation of blocked emissions
 
 Repsol assesses the resilience of its asset portfolio, including new material investments, through scenario analysis that considers market trends and future regulatory conditions. In turn, it analyzes how these investments and their potentially locked-in emissions can impact the fulfillment of their decarbonization objectives, prioritizing assets that adapt to a model of transition toward low-carbon energies. This approach reduces exposure to stranded assets and manages risks and opportunities, ensuring that investment decisions are aligned with its decarbonization objectives.
@@ -1976,6 +2013,7 @@ Repsol has made concrete progress in the implementation of its energy transition
 
 These advances have been achieved by applying the Company's key decarbonization levers and pillars, such as:
 
+<!-- Report Page 106 -->
 - The energy efficiency actions and electrification of the
 Company's operated assets have resulted in a reduction of 0.5 MtCO2e in the last year.
 
@@ -2022,6 +2060,7 @@ As part of the resilience analysis, the necessary capital allocation in each of 
 
 This shows the Company's ability to adapt to different future scenarios, evolving business models to the needs of society at any given time. For the 2030-2050 horizon, it has been estimated that the allocation of capital21 under the different scenarios analyzed will be as follows:
 
+<!-- Report Page 107 -->
 ### Projected % capex in low-carbon businesses over total capex (average for the period)
 
 <table>
@@ -2100,6 +2139,7 @@ Firstly, an identification of the climate hazards to which Repsol's assets are p
 
 b. Acute: Glacial lake outburst, avalanche.
 
+<!-- Report Page 108 -->
 The following natural phenomena are considered:
 
 <table>
@@ -2207,6 +2247,7 @@ The main risks, which can be turned into opportunities through mitigation measur
 - See section Transition plan for climate change mitigation
 (E1-1) and Material impacts, risks and opportunities and their interaction with strategy and business model (ESRS 2 SBM-3) in this Appendix V.
 
+<!-- Report Page 109 -->
 ## Transition risk assessment
 
 <table>
@@ -2348,6 +2389,7 @@ The main risks, which can be turned into opportunities through mitigation measur
 </tr>
 </table>
 
+<!-- Report Page 110 -->
 ## Policies related to climate change mitigation and adaptation (E1-2)
 
 The management of the impacts, risks and opportunities arising from climate change is included in the Sustainability Policy, which establishes as priority objectives the promotion of a fair energy transition that takes into account its impact on workers, local communities and society at large, the reduction and avoidance of greenhouse gas emissions, the transition to low-carbon business models that reduce or mitigate the adverse effects of climate change and the integration of sustainability into all businesses.
@@ -2413,6 +2455,7 @@ In 2024, energy efficiency actions have achieved a reduction of 0.2 MtCO2e.
 
 The reductions planned for 2030 are estimated at o.6 MtCO,e, contributing to the Company's decarbonization goal.
 
+<!-- Report Page 111 -->
 ## 2. Process electrification
 
 The replacement of steam turbines with electric motors to drive pumps and compressors is enabling greater energy efficiency in refining and chemical plants in Spain and Portugal.
@@ -2463,6 +2506,7 @@ CCS projects are also included in Repsol's energy transition strategy. These pro
 
 The reductions expected to 2030 are estimated at 0.5 MtCO2e, in line with the Company's decarbonization goals.
 
+<!-- Report Page 112 -->
 ## Scope 3 emissions
 
 ### 1.Sales of oil products
@@ -2551,6 +2595,7 @@ The following table describes the metrics that the Company employs to assess the
 All decarbonization goals are based on contrasted data and company projections that have been shared with our stakeholders and contribute directly to the objectives of the Sustainability Policy and the Environment Policy, guiding actions towards optimizing the use of resources, improving energy efficiency and achieving climate neutrality.
 
 - See section Repsol's policies related to sustainability in
+<!-- Report Page 113 -->
 chapter 1.2 Governance of this Appendix V.
 
 <table>
@@ -2658,6 +2703,7 @@ For 2030, Repsol has set a goal of reducing absolute Scope 1, 2 and 3 GHG emissi
 
 For 2050, the goal is to reach net zero-emissions. The Company's projections show a 92% reduction in absolute emissions with the levers and technologies currently considered, leaving the remaining 8% to be offset with carbon capture credits or natural solutions. The evolution of this metric depends on the following factors:
 
+<!-- Report Page 114 -->
 ## Scope 1 and 2 emissions reduction:
 
 - Implementation of energy efficiency initiatives,
@@ -2767,6 +2813,7 @@ For Scope 1 and Scope 2, emissions reductions are driven mainly by improvements 
 Scope 3 reductions are achieved primarily through lower sales of oil and natural gas products, with oil contributing the larger share of downstream emissions reductions. Overall, the chart highlights that reaching the 2030 emissions target depends on a combination of operational decarbonization measures and changes in product sales composition.</figcaption>
 </figure>
 
+<!-- Report Page 115 -->
 ## 2. Carbon Intensity Indicator (gCO2e/MJ)28
 
 In 2019, Repsol defined the Carbon Intensity Indicator (CII) in gCO2e/MJ as a reference metric to measure the Company's progress toward decarbonization, as it is sensitive to key variables of the decarbonization strategy, such as oil and gas production, renewable electricity generation and renewable fuel production. This does not occur with an absolute emissions metric with Scope 3 emissions based on sales, as is the case with the new metric for absolute Scope 1, 2 and 3 emissions established by Repsol. Both metrics are considered useful and complementary in assessing the Company's progress in its decarbonization, on the path to becoming a net zero emissions company by 2050.
@@ -2779,6 +2826,7 @@ The CII also reflects the positive impact of renewable electricity generation an
 
 Finally, the capture of emissions from carbon sinks is contemplated in the numerator and the positive impact of producing emission-free energy is incorporated into the denominator, so that the evolution of the CII provides a clear and complete view of the Company's progress in relation to its decarbonization goals.
 
+<!-- Report Page 116 -->
 The formula for calculating the CII is expressed as follows:
 
 CII = (Scope 1+2 operational + Scope 3 E&P production - Carbon Sinks) / (Energy products from E&P + Low-carbon energy sources). Measures emissions intensity per unit of total energy output including low-carbon energy carriers.
@@ -2833,6 +2881,7 @@ With regard to the time horizon until 2030, the CII's reduction target of 28% is
 <figcaption>Carbon Intensity Indicator (CII) reduction between 2024 and 2030 is driven by a combination of operational efficiency measures and energy transition technologies. Starting from a reduction level of 13% in 2024, the total reduction reaches 28% by 2030. Efficiency improvements and portfolio management contribute a small but positive share, followed by additional reductions from the increased use of renewable fuels. The largest contribution comes from renewable electricity generation, accounting for the majority of the incremental reduction over the period. Carbon capture and storage provides a smaller, complementary contribution. Overall, the chart shows that achieving the 2030 CII target relies primarily on scaling renewable electricity, supported by efficiency gains, renewable fuels, and CCS.</figcaption>
 </figure>
 
+<!-- Report Page 117 -->
 ## 3. Absolute emissions Scope 1 and 2 (MtCO2e)28
 
 These are the direct emissions from facilities in which Repsol is the operator (Scope 1) and the indirect emissions related to the consumption of electricity, heat or steam acquired for Repsol's operations (Scope 2), where the Company has the greatest capacity to undertake decarbonization actions.
@@ -2857,6 +2906,7 @@ These reductions also contribute to the objective of reducing absolute emissions
 
 34 Net zero will be achieved by reducing numerator emissions by at least 90% (emissions covering 42% of the Company's current total emissions) and neutralizing residual emissions.
 
+<!-- Report Page 118 -->
 ### Scope 1 and 2 emission reduction levers
 
 <figure>
@@ -2891,6 +2941,7 @@ In addition, Repsol has signed the Oil and Gas Decarbonization Charter (OGDC), a
 
 By 2024, emissions from hydrocarbons sent for routine flaring have reached 95 ktCO2e.
 
+<!-- Report Page 119 -->
 ## Energy consumption and mix (E1-5)
 
 <table>
@@ -3067,6 +3118,7 @@ The quantitative data of the emissions inventory for Scope 1, 2 and 3, as well a
 
 <table>
 <tr>
+<!-- Report Page 120 -->
 <th colspan="7">Emissions inventory for Scope 1, 2 and 3 Hindsight Milestones and target years 2018 2023 2024 % 2024 / 2023 2030 2050</th>
 </tr>
 <tr>
@@ -3353,6 +3405,7 @@ Emissions reported as operated are calculated under the operational criteria est
 </tr>
 </table>
 
+<!-- Report Page 121 -->
 ### Direct and indirect emissions (Scope 1 and 2)
 
 <table>
@@ -3551,6 +3604,7 @@ Verra's39 VCS4º (Verified Carbon Standard), with additional CCB+ Gold41 certifi
 
 It should be noted that these credits are not used to offset GHG emissions under the E1-6 requirement, nor as a means to achieve the Company's emissions reduction goals outlined in the E1-4.
 
+<!-- Report Page 122 -->
 ### Internal carbon pricing (E1-8)
 
 Repsol has internal mechanisms to promote the allocation of capital to low-carbon investments, such as the internal carbon price and the investment qualification methodology for their alignment with the energy transition. . See section Transition plan for climate change mitigation (E1-1) of this Appendix V.
@@ -3593,6 +3647,7 @@ In this analysis, environmental experts from each business area have participate
 
 The following aspects have been identified as the material IROs for the Company with respect to pollution:
 
+<!-- Report Page 123 -->
 - The negative environmental impacts derived from the air
 emissions of its production processes, as well as the emissions generated by third parties due to the use of the fuel products offered by the Company.
 
@@ -3638,6 +3693,7 @@ The following table provides information on the actions developed and planned by
 
 Its implementation contributes to the achievement of the commitments established in the Environmental Policy, specifically to the prevention and control of the impacts associated with the emissions of polluting substances derived from its operations into the air, water and the soil.
 
+<!-- Report Page 124 -->
 #### Actions relating to the prevention and control of pollution
 
 <table>
@@ -3700,6 +3756,7 @@ In the case of emissions to soil and groundwater, the Company has developed both
 
 regarding the prevention and control of impacts associated with emissions into the air, water, and soil of polluting substances derived from its operations:
 
+<!-- Report Page 125 -->
 ### Objectives relating to pollution prevention and control
 
 Objective 1 Define within a period of less than 12 months action plans for the management and remediation of soil or groundwater in the event of contamination
@@ -3733,6 +3790,7 @@ Committee of the Board of Directors of Repsol on corporate social responsibility
 - The activities of the Audit, Control and Risk function to
 identify, measure, prioritize and control risks appropriately, carry out operations with criteria of effectiveness and efficiency and in accordance with applicable laws, regulations and contracts, as well as with current policies, standards or procedures.
 
+<!-- Report Page 126 -->
 #### Air, water, and soil pollution metrics4 (E2-4)
 
 Metrics methodologies are reported in chapter 5.3 Additional insights from metrics methodologies of this Appendix V.
@@ -3938,6 +3996,7 @@ to the conservation and sustainable use of freshwater aquatic ecosystems, as wel
 - With the use of resources and circular economy
 (ESRS E5) in terms of the extraction of non-renewable resources and the recycling of wastewater.
 
+<!-- Report Page 127 -->
 #### 2.3.2 Management of impacts, risks and opportunities
 
 ## Description of the processes to identify and assess material impacts, risks and opportunities related to water management (ESRS 2 IRO-1)
@@ -4003,6 +4062,7 @@ The Policy also promotes and requires environmental commitments in line with one
 
 Repsol's Executive Committee is responsible for the approval and implementation of this policy. The Audit, Control and Risk function monitors its implementation, which is also supervised by the Sustainability Committee of the Board of Directors.
 
+<!-- Report Page 128 -->
 ## Actions and resources related to water management (E3-2)
 
 The following table provides information on the actions developed and planned by Repsol related to water management.
@@ -4052,6 +4112,7 @@ These actions do not require significant capital expenditures (capex) and/or ope
 </tr>
 </table>
 
+<!-- Report Page 129 -->
 ### List of actions related to water management
 
 <table>
@@ -4093,6 +4154,7 @@ These actions do not require significant capital expenditures (capex) and/or ope
 </tr>
 </table>
 
+<!-- Report Page 130 -->
 #### 2.3.3 Metrics and targets
 
 ## Water management targets (E3-3)
@@ -4147,6 +4209,7 @@ To define this objective, the methodology recommended by the CEO Water Mandate i
 
 
 
+<!-- Report Page 131 -->
 #### Water-related targets
 
 #### Progress and performance
@@ -4213,6 +4276,7 @@ Note: The 2024 data for water consumption is not comparable to that of 2023 due 
 
 The Company avails itself of the transitional provision on the information requirements gradually introduced.
 
+<!-- Report Page 132 -->
 ### 2.4 Biodiversity and ecosystems
 
 2.4.1 Interaction with other reporting standards The topic of biodiversity and ecosystems (ESRS E4) is related to other environmental issues:
@@ -4302,6 +4366,7 @@ To manage these risks, the Company establishes commitments in its Environmental 
 
 The Company is prepared for the most unfavorable scenarios thanks to its Strategic Plan, the decarbonization roadmap and the actions it carries out to manage its dependencies, impacts, risks and opportunities related to biodiversity and ecosystems.
 
+<!-- Report Page 133 -->
 ### 2.4.3 Management of impacts, risks and opportunities
 
 #### Description of the processes to identify and assess biodiversity- and ecosystem-related impacts, risks and opportunities (ESRS 2 IRO-1)
@@ -4351,6 +4416,7 @@ Finally, the third evaluation component of the LEAP approach (A for Assess) aims
 
 According to the process described above, sites with a material impact on biodiversity and ecosystems are identified, as well as whether they affect biodiversity-sensitive areas as they are located in or near them, as can be seen in the following table:
 
+<!-- Report Page 134 -->
 #### Sites with a material impact on biodiversity and ecosystems
 
 <table>
@@ -4471,6 +4537,7 @@ According to the process described above, sites with a material impact on biodiv
 </tr>
 </table>
 
+<!-- Report Page 135 -->
 #### Sites with a material impact on biodiversity and ecosystems
 
 <table>
@@ -4627,6 +4694,7 @@ On the other hand, Repsol takes into account the conservation and protection of 
 
 Repsol analyzes the potential presence of threatened species included in the Red List of the International Union for the Conservation of Nature in the area of influence of its facilities using the Integrated Biodiversity Assessment Tool (IBAT), concluding that its operations may affect them. The results of this analysis are made public at www.repsol.com. To minimize and compensate for this impact, Repsol implements different management measures that can be consulted in the table Actions related to biodiversity and ecosystems included later in this chapter.
 
+<!-- Report Page 136 -->
 #### Policies related to biodiversity and ecosystems (E4-2)
 
 Repsol has established commitments in its Environmental Policy that govern its actions in all its activities and places where it operates, along the value chain, as well as in the products and services it offers. These commitments emanate the actions to manage environmental impacts, dependencies, risks and opportunities related to biodiversity and ecosystems. · See section Repsol's policies related to sustainability in chapter 1.2 Governance of this Appendix V.
@@ -4667,6 +4735,7 @@ The following table provides information on the actions developed and planned by
 
 Its implementation contributes to the achievement of the commitments established in the Environmental Policy, specifically to the protection and conservation of biodiversity, ecosystems and associated ecosystem services and the management of impacts and dependencies on them.
 
+<!-- Report Page 137 -->
 #### List of actions relating to biodiversity and ecosystems
 
 <table>
@@ -4692,6 +4761,7 @@ Its implementation contributes to the achievement of the commitments established
 
 Alternative performance measures
 
+<!-- Report Page 138 -->
 #### List of actions relating to biodiversity and ecosystems
 
 <table>
@@ -4729,6 +4799,7 @@ Alternative performance measures
 
 Alternative performance measures
 
+<!-- Report Page 139 -->
 #### List of actions relating to biodiversity and ecosystems
 
 <table>
@@ -4764,6 +4835,7 @@ Alternative performance measures
 </tr>
 </table>
 
+<!-- Report Page 140 -->
 #### List of actions relating to biodiversity and ecosystems
 
 <table>
@@ -4825,6 +4897,7 @@ Alternative performance measures
 </tr>
 </table>
 
+<!-- Report Page 141 -->
 #### List of actions relating to biodiversity and ecosystems
 
 <table>
@@ -4879,6 +4952,7 @@ Alternative performance measures
 </tr>
 </table>
 
+<!-- Report Page 142 -->
 ## List of actions relating to biodiversity and ecosystems
 
 <table>
@@ -4929,6 +5003,7 @@ This information is obtained and analyzed with the Integrated Biodiversity Asses
 
 The following table contains information relating to sites located within or adjacent to biodiversity-sensitive areas for the Company's own operations. The surface areas of the hydrocarbon production sites correspond to the concession blocks of geomining domain, irrespective of the precise location of the operation within that area. The areas for photovoltaic and wind power plants comprise the entire perimeter of these sites. The remaining areas have been determined from official sources, such as the Cadastral Registry, and, only in isolated cases, digital measurement on aerial photography was used (e.g. fuel distribution facilities in seaports), with this approach being less accurate. It should be stressed that the location of sites with respect to sensitive areas has been visually checked, and digitally documented, except for service stations, where conservative size assumptions were made (assigning a larger size to each site, i.e. cadastral parcel) and an automatic relative location assignment was applied, which could be subject to some degree of error, albeit irrelevant compared to the total area given for all other activities in the table.
 
+<!-- Report Page 143 -->
 ## Sites within or adjacent to protected areas or areas of high biodiversity value
 
 <table>
@@ -5090,6 +5165,7 @@ The following table contains information relating to sites located within or adj
 
 
 
+<!-- Report Page 144 -->
 ### Sites within or adjacent to protected areas or areas of high biodiversity value
 
 <table>
@@ -5273,6 +5349,7 @@ At those sites whose main driver of impact on biodiversity is land use change, f
 
 .See actions 8, 13 and 15 to 17 in table List of actions relating to biodiversity and ecosystems in section 2.4.3 Management of impacts, risks and opportunities of this Appendix V.
 
+<!-- Report Page 145 -->
 #### Anticipated financial effects from biodiversity and ecosystem-related risks and opportunities (E4-6)
 
 The Company avails itself of the application of the transitional provision on the information requirements gradually introduced.
@@ -5306,6 +5383,7 @@ impacts associated with the reduction of stocks of natural and non-renewable res
 
 associated with the promotion of the use of residual and renewable raw materials of sustainable origin are material.
 
+<!-- Report Page 146 -->
 - In relation to products and services, the negative
 environmental impacts derived from the offer of products made with non-renewable or recycled materials and positive impacts associated with the promotion of the durability of the products and the possibility of recycling them are material. Repsol also identifies the opening up of new markets through the new products developed by the Strategic Plan (renewable fuels, biomethane, and circular or biological origin products) as a material opportunity.
 
@@ -5339,6 +5417,7 @@ Its implementation contributes to the achievement of the commitments established
 
 <table>
 <tr>
+<!-- Report Page 147 -->
 <th colspan="5">Actions related to the use of resources and the circular economy</th>
 </tr>
 <tr>
@@ -5396,6 +5475,7 @@ Significant capital expenditures (capex) or operating expenses (opex) are indica
 
 <table>
 <tr>
+<!-- Report Page 148 -->
 <th colspan="4">Financial resources allocated to actions related to the use of resources and the circular economy</th>
 </tr>
 <tr>
@@ -5456,6 +5536,7 @@ Progress towards this goal acts as a lever for the reduction of the Company's CO
 
 
 
+<!-- Report Page 149 -->
 #### Objectives related to the use of resources and the circular economy
 
 ## Objective 2
@@ -5504,6 +5585,7 @@ Repsol has acquired 40% of the shareholding of Genia Bioenergy in 2024. The agre
 
 Progress towards this goal acts as a lever for the reduction of the Company's CO2 emissions in all its scopes.
 
+<!-- Report Page 150 -->
 ## Resource inflows (E5-4)
 
 Repsol's activities are structured into four business segments that are reported in chapter 1.3 Business model and strategy of this Appendix V. The resources used include hydrocarbons of mineral and biological origin, as well as other materials necessary for the manufacture of its products, such as steel, cement, chemical products. It also uses water captured from both natural sources of saltwater (oceans and seas) and freshwater (surface and underground resources), as well as from other alternative sources of water (effluent from wastewater treatment plants or effluent from oil and gas production processes).
@@ -5574,6 +5656,7 @@ The metrics in the above table have been calculated using a different scope than
 
 Materials that enter a Repsol business area for the first time are considered in the calculation of resource inputs, avoiding accounting for those that are transferred to another business area once they have been transformed, as is the case, for example, with fuels sold by the Client's business and which are manufactured by Refining. Packaging data are also not included because the calculations indicate that their quantities are not significant. For more information on the considerations for each business, see chapter 5.3 Additional information from metrics methodology of this Appendix V.
 
+<!-- Report Page 151 -->
 ## Resource outflows (E5-5)
 
 Among the criteria that define the circularity capacity of products, their durability, reusability, repairability, ability to be disassembled, remanufactured, restored, reintroduced into natural biological cycles or their ability to optimize their consumption are distinguished. These concepts in most cases are not applicable to energy products such as fuels, although they are applicable to other product ranges as explained below.
@@ -5661,6 +5744,7 @@ Finally, the recyclable content of Repsol's product groups and their packaging i
 
 The recyclable content in the Company's products, calculated as a division of the tons of recyclable products (asphalt bitumen and lubricants) amounts to 1.77% of all the products generated by the production process and marketed.
 
+<!-- Report Page 152 -->
 #### Anticipated financial effects from resource use and circular economy-related impacts, risks and opportunities (E5-6)
 
 The Company avails itself of the application of the transitional provision on the gradual introduction of information requirements.
@@ -5733,6 +5817,7 @@ In terms of its energy transformation and transition, capex is the most relevant
 <figcaption>In terms of Environmentally sustainable capex according to the EU Taxonomy allocation is divided into two categories: Aligned (40%) and Non-aligned (60%), together summing to 100%. Non-aligned constitutes the majority at 60%, exceeding Aligned by 20 percentage points and representing 1.5 times the Aligned share. Category labels are "Aligned" for the 40% portion and "Non-aligned" for the 60% portion, and each category is distinguished by color coding (Aligned in yellow, Non-aligned in brown). The relative sizes indicate a clear predominance of Non-aligned compared with Aligned.</figcaption>
 </figure>
 
+<!-- Report Page 153 -->
 ## 3. Social information
 
 ### 3.1 Own workforce
@@ -5791,6 +5876,7 @@ Repsol's labor management norm establishes the structure for managing labor rela
 
 Application of the Total Rewards and Well-Being Policy and the aforementioned norms is the responsibility of the People and Organization function. All of them are available to employees on the Repsol intranet where the person responsible is identified, and employees may provide comments or suggestions to it.
 
+<!-- Report Page 154 -->
 #### . See chapter 1.3 Business model and strategy of this Appendix V. Processes for engaging with own workers and workers' representatives about impacts (S1-2). Processes to remediate negative impacts and channels for own workers to raise concerns (S1-3)
 
 Repsol has different own channels for hearing employee interests and perspectives and to elicit both favorable engagement and incident remediation. These channels are common to both cases and are designed to ensure that any opinions, interests or issues are addressed effectively.
@@ -5826,6 +5912,7 @@ Repsol's policies are designed to ensure that the well-being of employees is not
 
 In 2024, a talent program has been defined as an enabler of the Strategic Plan, which addresses the entire employee development cycle, from talent attraction, leadership, training and development, among other aspects. This evolution of the people management model incorporates initiatives implemented throughout 2024 and 2025. Repsol has provided the human, financial and technological means to carry out the initiatives discussed below.
 
+<!-- Report Page 155 -->
 #### Attracting and retaining talent
 
 Repsol contributes to improving employability through different programs:
@@ -5870,6 +5957,7 @@ For employee advancement and professional development, Repsol is committed to a 
 
 A key process in talent management and employee growth is the annual performance process. 87% of Repsol's employees participate in this process worldwide. This demonstrates the Company's commitment to professional development and pay equity, assessing employees according to homogeneous known criteria, recognizing effort and contribution, and rewarding achievements differentially.
 
+<!-- Report Page 156 -->
 ## Well-being, labor rights, and employee satisfaction
 
 As indicated in the section Policies related to own personnel (S1-1) of this Appendix V, a relevant element in the value proposition that contributes to guaranteeing the quality of life and satisfaction of employees is the total compensation offered. In relation to remuneration, the salary references of all countries are reviewed annually to ensure external competitiveness and internal equity, so that all employees have an adequate salary, i.e. in line with the best practices in the energy sector, ensuring that there are competitive salaries, incentives aligned with performance and a solid social benefits package. To ensure loyalty in disciplines in high demand in the market, Repsol has implemented new elements in the general Remuneration Policy in line with the best practices in the market.
@@ -5911,6 +5999,7 @@ training, offering specific workshops and online training to
 
 raise awareness of how these biases impact the way we interpret the world and to understand the impact of diversity management on the organization. In 2024, more than 400 people have taken part in this training, which more than 10,000 people have received since it was initiated. In 2025, it will be extended to more groups.
 
+<!-- Report Page 157 -->
 - Lastly, in terms of the inclusion of people with disabilities,
 in 2024, the analysis of positions in industrial complexes has been completed, with the collaboration of Fundación Once, to facilitate the identification and adaptation of new positions for people with disabilities.
 
@@ -5962,6 +6051,7 @@ Finally, all these initiatives, objectives and goals will help us to advance tow
 
 Repsol has also established itself as the only energy sector company in the IBEX stock market index to stay among the top 10 companies since 2006, and it has been recognized as the Company with the fourth best human resources team out of the 200 included in the Merco Talent analysis.
 
+<!-- Report Page 158 -->
 #### Characteristics of the undertaking's employees (S1-6)6
 
 The characteristics of employees and their evolution compared to 2023, presented below, are influenced by the change in the corporate perimeter between the two years.
@@ -6089,6 +6179,7 @@ Gestor de Carga de Vehículo Eléctrico, S.A., Klikin Deals Spain, S.L.U., Energ
 <th>2024</th>
 </tr>
 <tr>
+<!-- Report Page 159 -->
 <td>Employees who leave the job</td>
 <td>4,825</td>
 </tr>
@@ -6266,6 +6357,7 @@ Gestor de Carga de Vehículo Eléctrico, S.A., Klikin Deals Spain, S.L.U., Energ
 
 The existence of agreements and the percentage of employees covered by collective bargaining agreements is disclosed in S1-2 and S1-3 of Appendix V.
 
+<!-- Report Page 160 -->
 ## Social relations
 
 SPAIN
@@ -6337,6 +6429,7 @@ SPAIN
 </tr>
 </table>
 
+<!-- Report Page 161 -->
 ### Social relations
 
 <table>
@@ -6486,6 +6579,7 @@ Repsol focuses its performance process on assessment and continuous development 
 
 <table>
 <tr>
+<!-- Report Page 162 -->
 <th rowspan="2">Occupational categories</th>
 <th colspan="4">2024</th>
 </tr>
@@ -6647,6 +6741,7 @@ Comparing similar situations, i.e. employees with the same seniority/age and bel
 
 <table>
 <tr>
+<!-- Report Page 163 -->
 <th>Remuneration ratio in countries(1)</th>
 <th>2024</th>
 </tr>
@@ -6753,6 +6848,7 @@ with Tier 1 suppliers are known as Tier 2, and suppliers who do so with Tier 2 s
 
 In addition to managing negative impacts, Repsol works to generate positive impacts, creating opportunities for improvement for staff, such as job creation in the countries in which it operates, or training and raising awareness among its own staff and suppliers on ESG aspects (see S2-4).
 
+<!-- Report Page 164 -->
 #### 3.2.2 Management of impacts, risks and opportunities
 
 ## Policies related to value chain workers (S2-1)
@@ -6792,6 +6888,7 @@ The Code's reference material sub-topics are:
 - Dialogue and commitment with the community and
 affected groups (I+ -; R).
 
+<!-- Report Page 165 -->
 ## Human Rights and Community Relations Policy
 
 The Human Rights and Community Relations Policy is aligned with the main international treaties and standards on the subject. Repsol expects its partners, suppliers, contractors, distributors, and other agents with whom it maintains business relationships to respect commitments and human rights in the development of its activities anywhere in the world and, consequently, to address the negative impacts in which they have some participation.
@@ -6855,6 +6952,7 @@ identify risk situations that may require corrective actions, termination or tha
 
 The evaluation of the effectiveness of the collaboration process is carried out in two phases: For the duration of the contract, by the person responsible for the contract and the supplier; and in the performance evaluation, by the person responsible for the contract (see section S2-4 of this Appendix V).
 
+<!-- Report Page 166 -->
 ## Collaboration with suppliers on safety
 
 Within the framework of the Safety Excellence Program, Repsol holds one-on-one meetings with key contractors, in which they share their challenges, expectations, and proposals for improving the safety of operations. In addition, group communication actions are developed on specific aspects of interest to relevant contractors, and plenary actions to transmit key messages to all contractors.
@@ -6902,6 +7000,7 @@ Repsol has a supply chain risk management model to identify, assess, and minimiz
 
 " The Trading and Wholesale Gas businesses have integrated Compliance departments that have autonomy in the decisions regarding the due diligence of the third parties involved in their operations.
 
+<!-- Report Page 167 -->
 ### Supply Chain Risk Management
 
 <figure>
@@ -6943,6 +7042,7 @@ compliance report, in the event that significant evidence is identified that may
 - Safety and Environment Function: Responsible for defining
 which activities and purchases are of high risk in safety and environment, as well as evaluating the risk and other relevant aspects of suppliers prior to contracting.
 
+<!-- Report Page 168 -->
 - Procurement and Contracts Function: Responsible for
 ensuring that the procurement process is executed as established in the Company's internal regulations, and for defining mitigation actions together with the Compliance area when deemed necessary. It uses information systems to support the actions of the process and its result in each of the phases.
 
@@ -6986,6 +7086,7 @@ In 2024, 85%16 of the Company's total purchase volume has been made locally, cov
 </tr>
 <tr>
 <th>Region</th>
+<!-- Report Page 169 -->
 <th>Vol. Local Purchase (%)</th>
 <th>No. Local Suppliers (%)</th>
 <th>No. Total Suppliers</th>
@@ -7072,6 +7173,7 @@ This objective aligns with the goal to "Establish guidelines for action in accor
 
 The objective is that 85%21 of the volume awarded to suppliers that provide materials or services in high-risk activities in safety and environment are evaluated in these matters prior to purchase through the new process that improves the current one, so that only the relationship with suppliers that have passed the evaluation is formalized.
 
+<!-- Report Page 170 -->
 ### 3.3 Affected communities
 
 #### 3.3.1 Strategy
@@ -7106,6 +7208,7 @@ This assessment is fed from the findings made during the implementation of the h
 
 consulting mechanisms to allow local communities to participate in the process, as well as channels for reporting and resolving conflicts.
 
+<!-- Report Page 171 -->
 This process includes the following actions:
 
 - Comprehensive analysis of the context and the specific
@@ -7206,6 +7309,7 @@ The commitment to human rights is manifested by the Board of Directors and the E
 - See section Material impacts, risks and opportunities and
 their interaction with strategy and business model (SBM-3) in chapter 1.3 Business model and strategy of this Appendix V.
 
+<!-- Report Page 172 -->
 #### 3.3.2 Impacts, risk and opportunity management Policies related to affected communities (S3-1)
 
 Repsol incorporates respect for human rights as a fundamental principle of its policy, which guides its actions in all the countries where it operates, and recognizes its responsibility to prevent, mitigate, and repair the possible negative impacts of its activities on the communities that may be affected.
@@ -7260,6 +7364,7 @@ disposal a grievance mechanism, be suitably informed of it, which allows them to
 
 Repsol has been a signatory of the United Nations Voluntary Principles on Security and Human Rights since 2013 with the aim of guaranteeing the security of operations in sensitive or conflict zones through working procedures that support respect for human rights.
 
+<!-- Report Page 173 -->
 ## Processes for engaging with affected communities about impacts (S3-2)
 
 Repsol applies the Environmental, Social, and Health Impact Assessment (ESHIA) standard, so that environmental, social, and health impacts are properly identified and mitigated. This allows our businesses to engage in inclusive dialogue with stakeholders during the impact assessment process, provide them with relevant information and involve them in the actions to be undertaken as specified in the prevention, mitigation and monitoring plan. The measures to be implemented to repair environmental, social and health impacts consider the needs and priorities of stakeholders beyond just direct monetary compensation.
@@ -7285,6 +7390,7 @@ In the particular case of the management of indigenous communities, a key aspect
 
 Repsol requires private security companies so that the 100% employees who provide services at its facilities are trained in human rights. In accordance with the Voluntary Principles on Security and Human Rights to which the Company adheres, this training is guaranteed or courses are held for security personnel.
 
+<!-- Report Page 174 -->
 ### Processes to remediate negative impacts and channels for affected communities to raise concerns (S3-3)
 
 Repsol has grievance mechanisms in place and promotes them to be the preferred channel for communities to express their concerns and claims related to the Company's activities or those of its partners or contractors. Repsol undertakes to verify the reports or complaints received and to act and cooperate to repair the possible impact caused. This allows us to respond to minor incidents before they escalate and provide an early avenue of remediation to affected parties.
@@ -7322,6 +7428,7 @@ Repsol develops social investment initiatives with the aim of sharing value with
 
 Social investment is monitored based on the Company's contractual agreements and commitments. It also participates in different initiatives and forums to find objective methodologies to evaluate their impact.
 
+<!-- Report Page 175 -->
 ## Promotion of local hiring and generation of value in the territories where the facilities are located.
 
 Repsol is focused on the development of local suppliers, the hiring of local labor, professional training and providing support for business initiatives that generate shared value for the Company and for communities.
@@ -7391,6 +7498,7 @@ With this approach, the purpose is to continue developing new products and servi
 
 development and digitalization, taking into account the relevance of the human factor in the relationship.
 
+<!-- Report Page 176 -->
 #### Material impacts, risks and opportunities3 and their interaction with the strategy and business mode (ESRS 2 SBM-3)
 
 The double materiality assessment4 carried out includes the assessment of impacts, risks and opportunities based on their interaction with their customers and consumers. This analysis establishes both positive and negative impacts of the Company. Specifically, in relation to customers and end users, the positive impacts related to platforms such as Waylet or Customer Area stand out, which allow responsible marketing and communication, as well as efficient customer service management.
@@ -7440,6 +7548,7 @@ recognized in international treaties6 and standards7 on business and human right
 In 2024, there have been no severe human rights impacts related to consumers or end users.
 
 - For more information on these policies, see chapter 1.2
+<!-- Report Page 177 -->
 Governance of this Appendix V.
 
 ## Processes for engaging with consumers and end-users about impacts (S4-2)
@@ -7480,6 +7589,7 @@ The interactions that are recorded through the different Customer Service channe
 
 Based on these ratings, Repsol implements actions with its customers that have allowed the overall satisfaction index (CSAT) to improve by between 2 and 4% compared to the 2023 ratings, thus meeting the objective of improving satisfaction in 2024. This information also allows us to have a battery of initiatives to be implemented continuously to improve the experience.
 
+<!-- Report Page 178 -->
 #### Voice of the Customer Platform
 
 These communication channels are complemented by a customer voice platform in the different businesses, initially deployed in 2023 at service stations in Spain. The purpose of this is to know in real time the perception and assessment that customers have from the experience received in order to manage and improve it.
@@ -7524,6 +7634,7 @@ processes or the results of root cause analysis, quantitative follow-ups are car
 
 In 2024, the complaints registered in Spain and Portugal totaled 213.307, of which 96% were closed. If compared to 2023, this year there has been a 14% variation in the claims received and registered.
 
+<!-- Report Page 179 -->
 The following are the complaints according to their type:
 
 As for the complaints received in Mexico, a total of 4,439 have been registered, the vast majority (about 85% of calls and emails) are related to billing at service stations, the remaining 15% include matters such as requests from suppliers, job applications or complaints about specific issues, for example, complaints about sound at service stations.
@@ -7554,6 +7665,7 @@ Through the labelling of packaged products, transmission is supported throughout
 
 information consists of safety instructions (pictograms and safety information for the use or handling of substances and a 24-hour emergency telephone number). This information reaches end users as long as the packaging is not tampered with and remains unaltered.
 
+<!-- Report Page 180 -->
 ## Taking action on material impacts on consumers and end- users, and approaches to managing material risks and pursuing material opportunities related to consumers and end-users, and effectiveness of those actions (S4-4)
 
 Repsol relies on digitalization as a lever for its customer management strategy, in this specific context as a means of accessing the information they need, which is why it actively works to improve the experience of searching for information and managing or purchasing products or services for customers through the transparency and breadth of information available on platforms such as Waylet, the www.repsol.es website or the Customer Area based on the Company's regulatory framework. In the quest to improve the experience offered to Repsol customers in digital channels, a comprehensive approach is implemented that combines both quantitative and qualitative analytics techniques.
@@ -7594,6 +7706,7 @@ On the other hand, the Company has a security protocol for businesses such as El
 
 15 Privacy and Data Protection Policy
 
+<!-- Report Page 181 -->
 ### Product Safety Assessment
 
 Managing the safety of the products sold is a priority for Repsol and is present through all stages of the life cycle of products. In addition to the applicable legislation in force, the Company has internal16 regulations that set out the requirements to support adequate risk management, from the beginning of research to design a product until it is marketed.
@@ -7652,6 +7765,7 @@ For the evaluation of the service in Peru, taking 2024 as the base year, the fol
 
 It is planned to define new indicators throughout 2025, for example one related to productivity per person and/or area related to the level of service.
 
+<!-- Report Page 182 -->
 ## Metrics and targets related to product security
 
 Regarding safety throughout the life cycle of the products sold by Repsol, the base year has been established in 2022 and the goal for 2024 of not having any high incidence (serious injuries to people, leaks or major spills, significant damage to buildings, vehicles, etc. and/or significant reputational risk).
@@ -7760,6 +7874,7 @@ Repsol annually conducts an annual review of its stakeholders, as well as a prio
 The Company seeks to promote safety in operations through constant and coordinated communication with contractors, addressing challenges and best practices, and promoting continuous improvement in work processes aligned with the principles of the Safety Excellence Program.
 
 - For more information on interaction with key stakeholders,
+<!-- Report Page 183 -->
 see chapter_1.3 Business model and strategy of this Appendix V.
 
 ### Material impacts, risks and opportunities and their interaction with strategy and business model (ESRS 2 SBM-3)
@@ -7808,6 +7923,7 @@ Excellence Program aims to deepen the knowledge of incidents, to control them an
 
 management of corporate security and cybersecurity incidents and those Joint Operation Agreements (JOAs) within the scope of the E&P, where Repsol is not an operator of the consortium. All Repsol employees, regardless of the type of contract that determines their employment relationship, the position they occupy, and the place of work, are obliged, when they witness or suffer an incident, to report it. In addition, those responsible for contracts must confirm that Repsol's suppliers and contractors, as well as all Group Companies in which Repsol has direct or indirect management control, are aware of this standard and promote practices consistent with it in their relations with Repsol.
 
+<!-- Report Page 184 -->
 #### Actions and resources related to safety Safety Excellence Program
 
 Keeping everyone involved in Repsol's operations safe requires the involvement of all employees and contractors and the deployment of numerous processes and resources. Repsol's focus on safety extends beyond compliance with the legal obligations that apply in the businesses and countries in which it operates and obtaining the certifications that facilitate robust management of the processes involved. At Repsol, the operational areas are primarily responsible for managing safety risks in their areas of operation, and there are supervisory and auditing areas that act as second and third lines, respectively, following the principles of the Three Lines of the IIA'.
@@ -7831,6 +7947,7 @@ potential assessments carried out by the different units to support an accurate 
 - To evaluate the severity of process incidents, recommended
 process 754 of the American Petroleum Institute (API), Process Safety Performance Indicators for the Refining and Petrochemical Industries, continues to be used. In this regard, the number of incidents classified as Tier 1 and Tier 2 is reported.
 
+<!-- Report Page 185 -->
 ### Fair culture. Keys to safety
 
 <figure>
@@ -7853,6 +7970,7 @@ From the corporate area of the Excellence Program, Repsol continues to carry out
 The safety management system is structured around a central foundation supported by leadership, culture, and continuous improvement. It integrates policies, standards, and objectives with organizational capabilities, contractor management, stakeholder engagement, and risk management. Core processes include implementation and control of activities, asset integrity, monitoring and reporting, learning from experience, and assurance through verification and review. The system is designed as a continuous cycle that embeds safety into governance, operations, and improvement processes.</figcaption>
 </figure>
 
+<!-- Report Page 186 -->
 #### Improvement of the management system
 
 The second objective of the Safety Excellence Program focuses on improving safety management, adapting to the diversity of the Company's businesses, activities and environments and placing an emphasis on its efficiency.
@@ -7888,6 +8006,7 @@ Subcommittee and sponsoring and contributing to the EI Toolbox initiative, which
 issues of integrity management, risks in new energies and digital applications.
 
 - Center for Chemical Process Safety (CCPS), participating
+<!-- Report Page 187 -->
 in the development of guides and support documents.
 
 ## Emergency preparedness and crisis management
@@ -7926,6 +8045,7 @@ Through the intranet, the Company makes available to employees the policy and re
 
 The scope of the Policy for the Protection of Tangible and Intangible Assets and the Repsol Security Management regulations, as well as the metrics associated with corporate security, extends to all activities and operations carried out by the Company in which Repsol has management control, and also covers all employees, regardless of the type of contract that determines their employment relationship, the position they occupy, and the location of the workplace, as well as all people who provide professional services in our facilities on a temporary basis (secondees) and interns.
 
+<!-- Report Page 188 -->
 #### Actions and resources related to security
 
 #### Security Plans
@@ -7968,6 +8088,7 @@ The metrics5 used to assess safety performance are based on accident result indi
 
 The Company has a consolidated Environmental and Safety Management System (EMA)6 in place, establishing a common framework for risk and impact management and being applicable to all Repsol employees.
 
+<!-- Report Page 189 -->
 ### Repsol employees covered by the Safety and Environmental Management System (SEMS)
 
 <table>
@@ -8059,6 +8180,7 @@ In 2024, all the security plans of countries and operated assets have been revie
 </tr>
 </table>
 
+<!-- Report Page 190 -->
 ## 4. Governance information
 
 ### 4.1 Business conduct
@@ -8096,6 +8218,7 @@ Repsol is focused on a culture of compliance and ethical integrity and understan
 
 The Company complies with Law 2/2023, regulating the protection of persons who report regulatory breaches and the fight against corruption, which transposes Directive (EU) 2019/1937. The Board of Directors of Repsol, S.A. has approved a single internal information system for the Repsol Group, and appointed the Ethics and Compliance Committee as its head, including the applicable general principles of the internal information system in its own Code. The system has been designed to support confidentiality throughout the process and the people carrying out the investigation will be obliged to maintain secrecy about the information they know and about personal data. Repsol is obliged to preserve the identity of the person submitting the communication and of the person whose facts are reported. Researchers, interviewees or participants in the process, sign confidentiality agreements when they participate in an investigation.
 
+<!-- Report Page 191 -->
 #### Communications Management Process
 
 <figure>
@@ -8145,6 +8268,7 @@ ambassador network, People Compliance (a voluntary network of more than 250 empl
 
 In addition, in line with what has been done in previous years, other events have also been held to promote the culture of compliance at a regional or local level in different countries, including the Compliance Day in North America, with the intervention of the local front line, the Chief Compliance Officer and external experts.
 
+<!-- Report Page 192 -->
 ### Comprehensive Compliance Model (ccc]
 
 #### Phases
@@ -8184,6 +8308,7 @@ The Company reiterates its focus on compliance with the current regulations for 
 
 Repsol carries out an annual update of its compliance risk map, which includes a theoretical qualitative assessment of the risks inherent at the country and area level. This process focuses on identifying and assessing, among others, risks related to corruption and bribery, ensuring compliance with the Company's global objectives. Repsol's compliance risk map covers various categories, such as country and corporate function. This theoretical analysis detects the areas and positions of greatest risk within the Company, providing an essential guide for the management and mitigation of these risks. In particular, the positions at risk are found in the Exploration and Production businesses in Algeria, Bolivia, Brazil, Colombia, Indonesia, Libya, Peru and Venezuela, in the Trading business in the United States, and in the Mobility and Exploration and Production businesses in Mexico. The coverage of training in the fight against corruption and bribery for these positions at risk has been 88% in 2024.
 
+<!-- Report Page 193 -->
 ## Crime prevention
 
 The Ethics and Compliance Committee is Repsol's crime prevention body in Spain, for the purposes of the provisions of article 31 bis section 2.2 of the Spanish Criminal Code. Repsol has a standard that regulates the framework of action and the responsibilities of the different areas involved in the Crime Prevention Model and a Crime Prevention Manual, which serve as guides to facilitate the understanding of criminal risks and the actions and behaviors expected by employees, and have been updated this year to adapt to the latest regulatory changes.
@@ -8200,6 +8325,7 @@ Internal regulations are configured as a management tool, whose main objectives 
 
 The General Directorate of People and Organization is responsible for keeping the Company's regulatory body up to date, through a process that supports the participation of the affected areas in the preparation of the different regulatory documents, their coherence with the hierarchy and structure of the regulatory body and their approval at the appropriate level. It also promotes the internal dissemination of the regulations and their availability to all employees.
 
+<!-- Report Page 194 -->
 #### 4.1.3 Metrics and targets
 
 ## Confirmed incidents of corruption or bribery (G1-4)
@@ -8294,6 +8420,7 @@ Repsol periodically evaluates and updates its FCM against other internationally 
 Any employee or third party may report potential breaches of the Code of Ethics and Business Conduct or the Crime Prevention Model, including potentially unethical or illegal conduct that affects the integrity of the organization in relation to taxation. The communication can be made in an absolutely confidential and anonymous manner through the whistleblowing channel permanently managed by an independent third party appointed for this purpose.
 
 - See chapter 6.3. Index of essential elements of the due
+<!-- Report Page 195 -->
 diligence process of this Appendix V.
 
 ## Risk management and internal controls over sustainability reporting (ESRS 2 GOV-5)
@@ -8339,6 +8466,7 @@ Tax payments by country are detailed in chapter 5.6 Consolidated Statement of No
 
 <table>
 <tr>
+<!-- Report Page 196 -->
 <th colspan="12">Taxes paid in 2024(1)</th>
 </tr>
 <tr>
@@ -8476,6 +8604,7 @@ Note: The financial data in the table has been prepared in accordance with Repso
 <table>
 <tr>
 <td rowspan="2">60%</td>
+<!-- Report Page 197 -->
 <td>Tax payable on profits</td>
 </tr>
 <tr>
@@ -8538,6 +8667,7 @@ It is noteworthy to reiterate Repsol's commitment not to have a presence in tax 
 
 Repsol's presence in these non-cooperating jurisdictions is immaterial and any presence it does have is not intended to conceal its business activities or make them less transparent. The revenues obtained there do not reach 0.01% of our turnover and there is only one active company in the Group that has a presence, through a permanent establishment, in one of these territories (Trinidad and Tobago), where it carries out hydrocarbon exploration and production activities.
 
+<!-- Report Page 198 -->
 - See chapter 5.5 GRI 207 - Taxation of this Appendix V and
 www.repsol.com
 
@@ -8590,6 +8720,7 @@ Therefore, issues of interest are raised annually to the Executive Committee, an
 
 - See chapter 1.2 Governance of this Appendix V.
 
+<!-- Report Page 199 -->
 #### Integration of sustainability-related performance in incentive schemes (ESRS 2 GOV-3)
 
 The main incentive in terms of cybersecurity is that you do not suffer any attack that could involve operational disruptions, theft of intellectual property or sensitive information, fraud, etc.
@@ -8664,6 +8795,7 @@ intelligence service that continuously detects, analyzes, reports and corrects i
 
 In terms of cybersecurity, we ensure that there is security in terms of information and infrastructure protection, so confidence is provided for all the Company's stakeholders referred to in chapter 1.3 Business model and strategy of this Appendix V.
 
+<!-- Report Page 200 -->
 #### Material impacts, risks and opportunities and their interaction with strategy and business model (ESRS 2 SBM-3)
 
 In the field of cybersecurity, there are risks associated with cyberattacks that affect the availability of critical systems and their information in industrial or digital assets, those that affect the confidentiality of our data, such as theft and strategic or sensitive information, or those that impact the privacy of the information we hold on personal data. whether they are customers, employees or other third parties.
@@ -8704,6 +8836,7 @@ The monitoring of the effectiveness of the actions is specified in the monitorin
 
 To this end, a quarterly operational monitoring of each line is carried out to ensure its progress according to the plan and every 18 months, the situation of the capabilities is reevaluated to confirm that the plan has the expected effect on them. The ambition is the full deployment of all workstreams over its three-year duration.
 
+<!-- Report Page 201 -->
 ## 5. Sustainability Notes
 
 ### 5.1 Repsol policies related to sustainability
@@ -8756,6 +8889,7 @@ Workforce Well-being, Labor Rights, and Employee Satisfaction (I+) Development a
 
 <table>
 <tr>
+<!-- Report Page 202 -->
 <td colspan="2">Integrity Policy</td>
 </tr>
 <tr>
@@ -8823,6 +8957,7 @@ Industrial Safety Management (R) ESG criteria in value chain management (I+)
 
 
 
+<!-- Report Page 203 -->
 ### Human Rights and Community Relations Policy
 
 <table>
@@ -8871,6 +9006,7 @@ Water (I-) Effect on marine ecosystems (I-) Impact on terrestrial ecosystems and
 
 
 
+<!-- Report Page 204 -->
 #### Sustainability Policy
 
 <table>
@@ -8925,6 +9061,7 @@ ESG criteria in value chain management (+) Well-being of workers in the value ch
 
 <table>
 <tr>
+<!-- Report Page 205 -->
 <td>Corporate Tax Policy</td>
 <td></td>
 </tr>
@@ -8987,6 +9124,7 @@ Reference sub-topics '
 
 Industrial Safety Management (R) Cybersecurity of internal platforms (R) Privacy and security of stakeholders' personal data (R)
 
+<!-- Report Page 206 -->
 ### 5.2 Double materiality
 
 #### 5.2.1 Methodology
@@ -9021,6 +9159,7 @@ The results of the materiality assessment have been evaluated by the Sustainabil
 
 Materiality is integrated into the global and local sustainability plans. The actions set out in these plans aim to maximize the positive impacts and opportunities identified and minimize risks and negative impacts. This allows strategic reflections and decisions to be made that evolve the business model toward economic, environmental and social sustainability.
 
+<!-- Report Page 207 -->
 ### Disclosure requirements set out in the ESRS covered by the undertaking's sustainability statement (IRO-2)
 
 Chapter 6.1 Index of disclosure requirements of this Appendix V includes a list of the disclosure requirements complied with when preparing the sustainability statement, following the result of the double materiality assessment, indicating where the corresponding information is found in the sustainability statement.
@@ -9031,6 +9170,7 @@ The material impacts are then detailed in aggregated form, classified by each to
 
 The current and potential effects of the impacts detailed in the table below are directly or indirectly related to the achievement of the objectives of the Company's Strategic Plan. Climate change and the circular economy have a direct effect on decarbonization. In the social sphere, the effects are mainly linked to attracting talent in order to meet the objectives of the Strategic Plan and establishing relationships of trust with the different agents in the value chain.
 
+<!-- Report Page 208 -->
 #### Material impacts
 
 <table>
@@ -9112,6 +9252,7 @@ The current and potential effects of the impacts detailed in the table below are
 
 NFIS users: are the main users of financial information in general (existing and potential investors, lenders and other creditors, including asset managers, credit institutions and insurance companies) and other users of sustainability statements, including the Organization's business partners, trade unions and social partners, civil society organizations and non-governmental organizations, governments, analysts and academics
 
+<!-- Report Page 209 -->
 #### Material impacts
 
 <table>
@@ -9201,6 +9342,7 @@ NFIS users: are the main users of financial information in general (existing and
 
 NFIS users: are the main users of financial information in general (existing and potential investors, lenders and other creditors, including asset managers, credit institutions and insurance companies) and other users of sustainability statements, including the Organization's business partners, trade unions and social partners, civil society organizations and non-governmental organizations, governments, analysts and academics
 
+<!-- Report Page 210 -->
 #### Material impacts
 
 <table>
@@ -9300,6 +9442,7 @@ NFIS users: are the main users of financial information in general (existing and
 
 NFIS users: are the main users of financial information in general (existing and potential investors, lenders and other creditors, including asset managers, credit institutions and insurance companies) and other users of sustainability statements, including the Organization's business partners, trade unions and social partners, civil society organizations and non-governmental organizations, governments, analysts and academics
 
+<!-- Report Page 211 -->
 #### Material impacts
 
 <table>
@@ -9348,6 +9491,7 @@ NFIS users: are the main users of financial information in general (existing and
 
 NFIS users: are the main users of financial information in general (existing and potential investors, lenders and other creditors, including asset managers, credit institutions and insurance companies) and other users of sustainability statements, including the Organization's business partners, trade unions and social partners, civil society organizations and non-governmental organizations, governments, analysts and academics
 
+<!-- Report Page 212 -->
 ### 5.3 Additional insights from metrics methodologies
 
 ## Energy transition and climate change risks
@@ -9437,6 +9581,7 @@ The energy consumed that is generated by third parties (Scope 2) is calculated f
 - Steam consumed from outside: In the case of Repsol, it
 has fossil origins since it is generated in hydrogen production facilities by reforming natural gas or other hydrocarbons.
 
+<!-- Report Page 213 -->
 - Electricity consumed from outside: Depending on the
 marketer and the type of contract, this energy can be fossil, renewable or nuclear.
 
@@ -9500,6 +9645,7 @@ The calculation of contracted services is based on the spenddatabase methodology
 
 the Environment calculates and publishes its own carbon footprint.
 
+<!-- Report Page 214 -->
 #### Category 2: Capital goods
 
 Calculation based on data on the Company's economic activity of purchasing capital goods (mainly production equipment) and emission factors from the document "Huella de Carbono 2020 2021 Evolución 2018-2021. Febrero 2023. Ministerio para la Transición Ecológica y el Reto Demográfico", in which the Ministry of the Environment calculates and publishes its own carbon footprint.
@@ -9550,6 +9696,7 @@ All products are taken into account with the exception of chemical products, lub
 
 The end-of-life emissions of the polymer obtained from our products are calculated according to category 10, which accounts for the majority of sales of non-combustible products. The calculation is based on the Reshaping plastics study : Pathways to a circular, climate neutral plastics system in Europe by SYSTEMIQ 2022 (14% recycled, 50% incineration and landfill for the rest), and emission factors from DEFRA 2024.
 
+<!-- Report Page 215 -->
 #### Category 13: Downstream leased assets
 
 Repsol has obtained an average emission factor per m3 sold at service stations owned by Repsol. This category is calculated using this factor and the quantities sold in 2023 by service stations owned by Repsol and leased to other entities. For the estimate in 2024, the ratio of total sales of diesel and gasoline in 2024 compared to 2023 is used.
@@ -9600,6 +9747,7 @@ The reporting criteria for water metrics are set out in a specific internal guid
 
 For the calculation of the metrics, the information must be reported in a segregated manner by categories, depending on the type of water (fresh or non-fresh), type of withdrawal source and type of effluent receiver, additionally indicating the use of water for the particular cases in which it is reused or recycled or, for example, if it is used for cooling processes in specific circuits. The segregation of the parameters is based on the water standard of the Global Reporting Initiative (GRI), and allows the calculation of the requested metrics from the granularity of the Company's water management.
 
+<!-- Report Page 216 -->
 Regarding the methodology for calculating the metrics:
 
 - Water consumption is calculated as the difference
@@ -9647,6 +9795,7 @@ The results obtained for the consolidation of all non-operated own operations re
 
 Once the estimated pollutant data for non-operated own operations have been obtained, the data has been compared with the threshold set out in Appendix II of Regulation (EC) No 166/2006 of the European Parliament and of the Council (European Pollutant Release and Transfer Register, E-PRTR Regulation) emitted into the atmosphere, water and soil, with only NOx exceeding the threshold in some assets. Therefore, the NOx data is reported but not added to the consolidated figure on an operational control basis.
 
+<!-- Report Page 217 -->
 ## More information about the water consumption table note
 
 On the other hand, in order to comply with Law 11/2018 in relation to water data, the CSRD incorporates two new metrics, reused water and recycled water, which have changed the criteria with which reused water was being reported until 2023. Therefore, these two metrics have not been reported for fiscal year 2023, as they are not comparable. As for stored water and changes in storage and water intensity, no data for 2023 are reported because they are new metrics.
@@ -9694,6 +9843,7 @@ to an accident at work with sick leave accumulated in the year.
 - Number of Tier 1 and Tier 2: process safety incidents
 recorded at Synergi and classified according to severity as Tier 1 or Tier 2 according to API754 (American Petroleum Institute) in its third edition updated in August 2021.
 
+<!-- Report Page 218 -->
 ### 5.4 Taxonomy Regulation
 
 On June 18, 2020, the European Parliament adopted Regulation (EU) 2020/852 on establishing a framework to facilitate sustainable investments (also called Taxonomy of Sustainable Finance, and hereafter also TFS).
@@ -9740,6 +9890,7 @@ The following table summarizes the degree of compliance with the criterion of ma
 <table>
 <tr>
 <th></th>
+<!-- Report Page 219 -->
 <th>Nature of the activity</th>
 <th>GHG emissions savings</th>
 <th>GHG emissions generation</th>
@@ -9903,6 +10054,7 @@ The Company has evaluated compliance with each of the DNSH criteria for all the 
 
 - Adaptation to climate change. Repsol has developed a
 semi-quantitative methodology to analyze in detail the physical risks of climate change at existing facilities, and especially at new facilities that have been added to the Company's portfolio. To carry out this long-term analysis, the global warming scenarios described by the Intergovernmental Panel on Climate Change (IPCC) RCP 8.5, RCP 4.5 and RCP 2.6 have been considered, with the temporal scope 2030, 2040 and 2050. At the moment, the physical risk examination work shows a low impact in general, due to the engineering design bases of these facilities and the mitigation measures implemented.
+<!-- Report Page 220 -->
 - See chapter 2.1 Climate change of this Appendix V.
 
 - Sustainable use and protection of water and marine
@@ -9942,6 +10094,7 @@ The information is presented in accordance with the templates set out in Annex V
 <table>
 <tr>
 <th colspan="4">Turnover</th>
+<!-- Report Page 221 -->
 <th colspan="6">Substantial contribution criteria</th>
 <th colspan="6">DNSH criteria ("Do Not Significantly Harm")</th>
 <th></th>
@@ -10637,6 +10790,7 @@ The information is presented in accordance with the templates set out in Annex V
 <table>
 <tr>
 <th colspan="4">Capex</th>
+<!-- Report Page 222 -->
 <th colspan="6">Substantial contribution criteria</th>
 <th colspan="6">DNSH criteria ("Do Not Significantly Harm")</th>
 <th colspan="4"></th>
@@ -11331,6 +11485,7 @@ The information is presented in accordance with the templates set out in Annex V
 <table>
 <tr>
 <th colspan="4">Opex</th>
+<!-- Report Page 223 -->
 <th colspan="6">Substantial contribution criteria</th>
 <th colspan="6">DNSH criteria ("Do Not Significantly Harm")</th>
 <th colspan="4"></th>
@@ -11977,6 +12132,7 @@ The information is presented in accordance with the templates set out in Annex V
 </tr>
 </table>
 
+<!-- Report Page 224 -->
 ### Determination and calculation of indicators
 
 The turnover indicator corresponds to revenue from ordinary activities, i.e. from sales and provision of services in accordance with IFRS-EU.
@@ -12078,6 +12234,7 @@ Repsol carries out the dismantling activities of the E&P assets in accordance wi
 
 The information in this section meets the public disclosure requirements listed in Delegated Regulation (EU) 2022/1214, of March 9, 2022.
 
+<!-- Report Page 225 -->
 ### Specific templates on activities related to fossil gas
 
 ### Template 1 Activities related to nuclear energy and fossil gas
@@ -12227,6 +12384,7 @@ The information in this section meets the public disclosure requirements listed 
 
 (1)Where applicable, expressed in millions of euros.
 
+<!-- Report Page 226 -->
 ### Template 2 Economic activities that fit the taxonomy (denominator)
 
 <table>
@@ -12427,6 +12585,7 @@ The information in this section meets the public disclosure requirements listed 
 </tr>
 </table>
 
+<!-- Report Page 227 -->
 (1)Where applicable, expressed in millions of euros.
 
 <table>
@@ -12530,6 +12689,7 @@ The information in this section meets the public disclosure requirements listed 
 
 (1)Where applicable, expressed in millions of euros.
 
+<!-- Report Page 228 -->
 ### Template 3 Economic activities that fit the taxonomy (numerator)
 
 <table>
@@ -12736,6 +12896,7 @@ Alternative performance measures
 
 (1)Where applicable, expressed in millions of euros.
 
+<!-- Report Page 229 -->
 ### Template 4 Economic activities eligible according to the taxonomy, but not in line with the taxonomy
 
 <table>
@@ -13042,6 +13203,7 @@ Alternative performance measures
 
 (1)Where applicable, expressed in millions of euros.
 
+<!-- Report Page 230 -->
 ### Template 5 Economic activities not eligible according to the taxonomy
 
 <table>
@@ -13245,6 +13407,7 @@ Alternative performance measures
 
 (1)Where applicable, expressed in millions of euros.
 
+<!-- Report Page 231 -->
 ### Template 5 Economic activities not eligible according to the taxonomy
 
 <table>
@@ -13347,6 +13510,7 @@ Alternative performance measures
 
 (1)Where applicable, expressed in millions of euros.
 
+<!-- Report Page 232 -->
 ### 5.5 Taxation [GRI 207]
 
 The proper management of the tax obligations to which a business group is subject has a direct effect on the social and environmental spheres, since the payment of taxes in accordance with the legal framework in force has a significant impact on the development and growth of countries.
@@ -13424,6 +13588,7 @@ In order to graphically illustrate the degree of compliance of the Repsol Group 
 
 " Repsol assumes the principles of the B-team, a group of companies (including Repsol) that aim to promote sustainable development and, in particular, responsible taxation and good governance in tax matters. More information at www.bteam.org.
 
+<!-- Report Page 233 -->
 ### GRI 207 Compliance summary table
 
 <table>
@@ -13471,6 +13636,7 @@ In order to graphically illustrate the degree of compliance of the Repsol Group 
 <tr>
 <th>GRI 207/CSRD</th>
 <th>Requirements</th>
+<!-- Report Page 234 -->
 <th>Evidence of compliance by the Repsol Group</th>
 </tr>
 <tr>
@@ -13508,6 +13674,7 @@ In order to graphically illustrate the degree of compliance of the Repsol Group 
 <tr>
 <th>GRI 207/CSRD</th>
 <th>Requirements</th>
+<!-- Report Page 235 -->
 <th>Evidence of compliance by the Repsol Group</th>
 </tr>
 <tr>
@@ -13546,6 +13713,7 @@ Only two entities of the Repsol Group have a presence in non-cooperative jurisdi
 
 <table>
 <tr>
+<!-- Report Page 236 -->
 <th colspan="8">Repsol Group in non-cooperative jurisdictions</th>
 </tr>
 <tr>
@@ -13592,6 +13760,7 @@ Representativeness and the countries included there have been called "controvers
 <tr>
 <th rowspan="3">€ Million</th>
 <th colspan="3">Revenue</th>
+<!-- Report Page 237 -->
 <th rowspan="3">Profit/ (loss) before corporate tax</th>
 <th rowspan="3">Corporate tax paid (cash basis)</th>
 <th rowspan="3">Income tax accrued Current year</th>
@@ -14080,6 +14249,7 @@ Representativeness and the countries included there have been called "controvers
 
 Notes: In accordance with OECD and Spanish GAAP, the scope of the CBCR includes fully and proportionally consolidated entities, which coincides with the scope and criteria used for the preparation of the financial information in the Consolidated Financial Statements.
 
+<!-- Report Page 238 -->
 ### 5.6 Consolidated Statement of Non-Financial Information
 
 #### 5.6.1 Non-financial information and diversity required by Law 11/2018
@@ -14247,6 +14417,7 @@ The table set out below presents the non-financial and diversity information req
 <table>
 <tr>
 <th>Contents</th>
+<!-- Report Page 239 -->
 <th>Reference in Appendix V of the Management Report</th>
 <th>Page</th>
 <th>Comments</th>
@@ -14457,6 +14628,7 @@ The table set out below presents the non-financial and diversity information req
 <table>
 <tr>
 <th>Contents</th>
+<!-- Report Page 240 -->
 <th>Reference in Appendix V of the Management Report</th>
 <th>Page</th>
 <th>Comments</th>
@@ -14678,6 +14850,7 @@ The table set out below presents the non-financial and diversity information req
 <table>
 <tr>
 <th>Contents</th>
+<!-- Report Page 241 -->
 <th>Reference in Appendix V of the Management Report</th>
 <th>Page</th>
 <th>Comments</th>
@@ -14882,6 +15055,7 @@ Below is non-financial information and diversity not included in the report unde
 
 <table>
 <tr>
+<!-- Report Page 242 -->
 <th rowspan="2">Professional classification</th>
 <th colspan="2">Temporary</th>
 <th colspan="2">Regular/Fixed</th>
@@ -15157,6 +15331,7 @@ Below is non-financial information and diversity not included in the report unde
 <td>76</td>
 </tr>
 <tr>
+<!-- Report Page 243 -->
 <td>Professional/specialist</td>
 <td>5</td>
 <td>4</td>
@@ -15491,6 +15666,7 @@ Below is non-financial information and diversity not included in the report unde
 </tr>
 </table>
 
+<!-- Report Page 244 -->
 Average remuneration in 2024, overall, is similar to that of
 2023. The differences are due mainly to factors such as the
 rejuvenation of the staff, lower variable remuneration tied to business results and changes in the corporate scope of reporting: 1) inclusion of the United Kingdom, Norway and Mexico, 2) addition of companies to the scope of Spain with more restrained wage markets of reference, 3) new businesses in the US and the impact of the low interest rate on average remuneration, 4) larger increases at low levels in Peru due to the application of new collective bargaining agreements and an increase in the distribution of profits in businesses with a larger female presence.
@@ -15668,6 +15844,7 @@ Brazil is not included due to a change in the reporting boundary as a result of 
 In the evolution of the data on training hours by professional category, a decrease on 2023 is seen in the training hours in the administrative/operative and junior staff category. This is because, in 2023, an extensive training deployment was carried out at the SINES industrial complex, with more than 100,000 hours of training in Safety, Operations and Maintenance, mainly for the complex's operative and junior staff. In 2024, a significant increase is recorded in practically all other categories due to the deployments during the year in areas of digital knowledge, sustainability and leadership programs, which will be extended to the rest of the groups in 2025 with the creation of Repsol University.
 
 <table>
+<!-- Report Page 245 -->
 <caption>[404-1] Average number of training hours per employee Average number of training hours per employee category(1)</caption>
 <tr>
 <th>Employee category</th>
@@ -15768,6 +15945,7 @@ In 2024, operating and capital grant aid was recorded in the Group's consolidate
 <th>2023</th>
 <th>TOTAL</th>
 <th>Income tax</th>
+<!-- Report Page 246 -->
 <th>Other income tax (3)</th>
 <th>TOTAL</th>
 <th>VAT</th>
@@ -16384,6 +16562,7 @@ Note: The financial data in the table has been prepared in accordance with Repso
 
 ## 6. Contents
 
+<!-- Report Page 247 -->
 ### 6.1 Index of disclosure requirements
 
 <table>
@@ -16567,6 +16746,7 @@ Note: The financial data in the table has been prepared in accordance with Repso
 
 <table>
 <tr>
+<!-- Report Page 248 -->
 <th rowspan="2">2.4 Biodiversity and ecosystems</th>
 <th>Page.</th>
 </tr>
@@ -16745,6 +16925,7 @@ Note: The financial data in the table has been prepared in accordance with Repso
 <th>Page.</th>
 </tr>
 <tr>
+<!-- Report Page 249 -->
 <th>Interests and views of stakeholders (ESRS 2 SBM-2)</th>
 <th>170</th>
 </tr>
@@ -16930,6 +17111,7 @@ Note: The financial data in the table has been prepared in accordance with Repso
 <th>Page.</th>
 </tr>
 <tr>
+<!-- Report Page 250 -->
 <td>Risk management and internal controls over sustainability reporting (ESRS 2 GOV-5)</td>
 <td>195</td>
 </tr>
@@ -17015,6 +17197,7 @@ Note: The financial data in the table has been prepared in accordance with Repso
 </tr>
 </table>
 
+<!-- Report Page 251 -->
 ### 6.2 List of data points included in rules derived from other EU legislation
 
 <table>
@@ -17096,6 +17279,7 @@ Note: The financial data in the table has been prepared in accordance with Repso
 
 <table>
 <tr>
+<!-- Report Page 252 -->
 <th>Disclosure requirement And related data point</th>
 <th>Reference to secondary rules Of other EU legislation (1)</th>
 <th></th>
@@ -17199,6 +17383,7 @@ Note: The financial data in the table has been prepared in accordance with Repso
 
 <table>
 <tr>
+<!-- Report Page 253 -->
 <th>Disclosure requirement And related data point</th>
 <th>Reference to secondary rules Of other EU legislation (1)</th>
 <th></th>
@@ -17297,6 +17482,7 @@ Note: The financial data in the table has been prepared in accordance with Repso
 
 <table>
 <tr>
+<!-- Report Page 254 -->
 <th>Disclosure requirement And related data point</th>
 <th>Reference to secondary rules Of other EU legislation (1)</th>
 <th></th>
@@ -17369,6 +17555,7 @@ Regulations (EC) No 401/2009 and (EU) 2018/1999 ('European Climate Law') (OJ L 2
 
 3.12.2020, p. 1).
 
+<!-- Report Page 255 -->
 ### 6.3 Index of essential elements of the due diligence process
 
 <table>

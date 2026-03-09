@@ -1,231 +1,185 @@
-# 📘 ESRS RAG – Retrieval-Augmented Generation for Corporate Sustainability Reports
-Master Thesis — *Sina Haghgoo*
-### **Optimizing RAG pipelines for analyzing corporate sustainability reports under the European Sustainability Reporting Standards (ESRS)**  
+# ESRS RAG — Retrieval-Augmented Generation for Corporate Sustainability Reports
+
+**Master's Thesis** — Sina Haghgoo
+
+**Optimizing RAG Pipelines for Analyzing Corporate Sustainability Reports under the European Sustainability Reporting Standards (ESRS)**
 
 ---
 
-## 🔍 Project Overview
+## Project Overview
 
-This project develops and evaluates a **domain-adapted Retrieval-Augmented Generation (RAG) system** for analyzing long corporate sustainability reports and answering ESRS-related questions in a **transparent, reproducible, and auditable** way.
+This repository contains the implementation of a Master's thesis that develops and evaluates a **domain-adapted Retrieval-Augmented Generation (RAG) system** for analyzing corporate sustainability reports. The system answers ESRS-related questions in a transparent, reproducible, and auditable manner.
 
-The system integrates:
+The project pursues two complementary goals. First, it provides an **experimental research pipeline** that benchmarks different RAG configurations to identify optimal strategies for ESRS-aligned disclosure analysis. Second, it delivers a **deployable analysis tool** (Streamlit application) that implements the best-performing pipeline configuration for interactive use.
 
-- Retrieval from company sustainability reports  
-- ESRS regulatory context extraction  
-- LLM-based answer generation  
-- Evaluation against a **Golden Standard** (expert-verified answers)  
-- A Streamlit frontend for interactive analysis  
-
-The goal is to **benchmark different RAG configurations** and identify optimal strategies for ESRS-aligned disclosure analysis and implementing the best performing one into a streamlit application
+The system integrates retrieval from company sustainability reports, ESRS regulatory context extraction, LLM-based answer generation, and evaluation against a Golden Standard of expert-verified answers.
 
 ---
 
-## Objectives
+## Thesis Objective
 
+The central objective of this thesis is to design, implement, and systematically evaluate a RAG pipeline that can analyze long-form corporate sustainability reports and assess their compliance with ESRS disclosure requirements.
 
-## Information Retrieval
+Specifically, the system is designed to:
 
-- Identify the relevant ESRS disclosure requirements related to the user query and create a concise summary of these requirements.
-- Retrieve semantically relevant chunks from the selected company reports that correspond to the user query.
+1. **Retrieve** semantically relevant passages from sustainability reports and identify the applicable ESRS disclosure requirements for a given user query.
+2. **Generate** structured answers that include a direct response, an ESRS compliance assessment (Low / Medium / High), and — when multiple companies are selected — a comparative analysis.
+3. **Evaluate** retrieval and generation quality against a predefined Golden Standard, using both quantitative metrics and qualitative analysis, to determine which pipeline configuration yields the best results.
+4. **Deploy** the best-performing pipeline configuration in a Streamlit-based interactive application for end-user analysis.
 
-## Answer Generation
+---
 
-- Provide the retrieved report excerpts together with the summarized ESRS disclosure requirements to the LLM for answer generation.
+## Research Questions
+
+The experimental evaluation is structured around three research questions, each targeting a distinct stage of the RAG pipeline.
+
+**RQ1 — Impact of Chunking Strategy on Retrieval Quality**
+To what extent do domain-specific chunking strategies — such as structure-aware segmentation based on section headers and hierarchical document layout — improve the retrieval of relevant ESRS disclosure passages compared to fixed-size chunking approaches?
+
+This question investigates whether preserving the semantic structure of sustainability reports during chunking (e.g., respecting section boundaries and heading hierarchies) leads to measurably better retrieval performance than treating reports as unstructured text.
+
+**RQ2 — Effectiveness of Hybrid Search and Reranking**
+How does hybrid retrieval — combining dense vector search with sparse keyword matching (BM25) and Reciprocal Rank Fusion — compare to standalone dense or sparse retrieval in terms of precision, recall, and ranking quality for ESRS-specific queries?
+
+This question examines whether the technical and regulatory vocabulary found in ESRS standards and sustainability reports requires keyword-level matching to complement semantic similarity search, and whether reranking via score fusion yields meaningful improvements.
+
+**RQ3 — Downstream Impact of Retrieval Quality on Answer Generation**
+To what extent does improved retrieval quality translate into higher-quality generated answers, and does the language model compensate for suboptimal retrieval through its parametric knowledge?
+
+This question assesses the end-to-end relationship between retrieval performance and generation quality, specifically examining whether gains in retrieval metrics (Recall@k, Precision@k) correspond to measurable improvements in answer faithfulness, completeness, and hallucination reduction.
+
+---
+
+## System Architecture
+
+The RAG pipeline consists of five stages, from document ingestion through to answer generation.
+
+### 1. Data Ingestion and Preprocessing
+
+Source documents (PDF sustainability reports) are processed using **Azure Document Intelligence** with the `prebuilt-layout` model, which extracts text while preserving the structural layout of the document (headings, tables, paragraphs). Charts and figures are enriched through **multimodal processing using a Vision Language Model (GPT-5-mini Vision)**, which generates textual descriptions that replace raw image content with semantic context. A regex-based cleaning step removes artifacts such as repeated page numbers, headers, and footers. The resulting output is structured Markdown that retains the original document hierarchy.
+
+### 2. Chunking
+
+The preprocessing stage produces structured Markdown for each report, which is then segmented into chunks suitable for embedding and retrieval. The pipeline supports multiple chunking strategies that are compared in the evaluation:
+
+- **Fixed-size chunking**: segments the text into chunks of a predefined token length with configurable overlap, without regard for document structure.
+- **Semantic chunking**: segments the text based on semantic coherence, grouping sentences or paragraphs that share topical context into the same chunk.
+- **Structure-aware chunking**: leverages the heading hierarchy and section boundaries extracted during preprocessing to produce chunks that respect the logical structure of the report.
+
+Each chunking strategy is evaluated independently to answer RQ1.
+
+### 3. Embedding and Indexing
+
+Text chunks are embedded using OpenAI's `text-embedding-3-large` model (3072 dimensions). The resulting vectors are stored in **Qdrant**, an open-source vector database configured with local persistence for reproducibility. Each vector entry is stored alongside rich metadata including company name, reporting year, source file, header hierarchy, and associated ESRS identifiers, enabling fine-grained metadata filtering during retrieval.
+
+### 4. Retrieval (Hybrid Fusion)
+
+The retrieval stage combines two complementary search strategies:
+
+- **Dense retrieval**: semantic vector search over the Qdrant index, matching user queries to report chunks based on embedding similarity.
+- **Sparse retrieval**: BM25 keyword matching, which captures exact term overlap — particularly important for specific ESRS terminology and regulatory references.
+
+Results from both strategies are merged using **Reciprocal Rank Fusion (RRF)** with a constant k=60, producing a unified ranked list. Metadata filters allow retrieval to be scoped to specific companies and reporting years.
+
+### 5. Generation and Domain Adaptation
+
+The generation stage constructs the final answer through a multi-step process:
+
+- **ESRS context extraction**: a dedicated module queries the LLM with the full text of the relevant ESRS standard to extract only those disclosure requirements that pertain to the user's specific question.
+- **Answer generation**: the retrieved report passages and the extracted ESRS requirements are provided to the LLM as context for generating a structured answer.
+- **Anti-hallucination constraints**: system prompts explicitly instruct the model to ground its answers in the retrieved context and to refrain from introducing information not present in the source material.
+- **Compliance assessment**: an automated evaluation step compares the generated answer against the full set of applicable ESRS requirements to assign a fulfillment level (Low / Medium / High) and identify disclosure gaps.
+- **Cross-company comparison**: when multiple companies are selected, specialized generation logic produces a comparative analysis highlighting relative strengths, weaknesses, and differences in ESRS alignment.
+
+---
 
 ## Output Structure
 
-The generated output should follow this structure:
+For each query, the system produces a structured response consisting of three parts:
 
-### 1. Direct Answer
-Provide a clear and concise answer to the user’s query, based on the content of the company reports.
+**1. Direct Answer** — A clear and concise response to the user's question, grounded in the content of the selected sustainability reports.
 
-### 2. ESRS Compliance Evaluation
-Assess how well the company’s disclosures align with the relevant ESRS requirements:
+**2. ESRS Compliance Evaluation** — An assessment of how well the company's disclosures align with the relevant ESRS requirements, including a compliance level (Low / Medium / High), an explanation of which aspects are well covered, and an identification of gaps or missing disclosures.
 
-- ## 2.1 **Compliance level:** Low / Medium / High  
-- ## 2.2 **Reasoning:**  
-  - What aspects are well covered?  
-  - What information is missing or insufficient (identified gaps or “white spots”)?
-
-### 3. Company Comparison 
-If multiple companies are selected, include a comparative analysis that highlights:
-
-- Strengths and weaknesses of each company
-- Differences in how well they address the ESRS disclosure requirements
-- Reasons for stronger or weaker alignment with ESRS 
-
-2. **Evaluate quality**  
-   Benchmark retrieval and answer quality against a predefined **Golden Standard**, based on qualitative and quantitative metrics.
-
-3. **Implementation of best performing Pipeline into Streamlit Frontend**  
-   The evaluation forms the basis, for implementing the best performing pipeline into a streamlit chatbot
----
-
-## Research Questions for the Evaluation part
-
-**RQ1 — The Input (Data Structure)**
-How do domain-specific chunking strategies impact the retrieval of relevant reporting standards?
-
-Focus: Is understanding the document structure (Parent-Child, Section headers) more important than the raw semantic content?
-
-**RQ2 — The Retrieval (Search Logic)**
-To what extent does Hybrid Search (Keyword + Vector) and Reranking improve accuracy over standard Sparse and Dense Retrieval in technical reporting?
-
-Focus: Does the vector database need "keyword help" to find specific ESRS terms?
-
-Metrics: Recall@k, Precision@k, Latency.
-
-**RQ3 — The Validation (Downstream Impact)**
-How does the choice of retrieval pipeline affect the generation quality and hallucination rate of the final answer?
-
-Focus: Does better retrieval actually lead to better answers, or does the LLM compensate for bad retrieval?
+**3. Company Comparison** (when applicable) — A comparative analysis across selected companies, highlighting differences in how each company addresses the relevant ESRS disclosure requirements and the reasons for stronger or weaker alignment.
 
 ---
 
-## Data & Resources
+## Data Sources
 
-### **Sustainability Reports**  
-- Corporate sustainability reports (2024) from Oil & Gas companies  
-- All aligned with ESRS
+### Sustainability Reports
 
-### **ESRS Regulation Dataset**  
-Folder: `Regulation_Split_JSON/`  
-Contains 12 JSON files covering:  
-- ESRS 1–2  
-- ESRS E1–E5  
-- ESRS S1–S4  
-- ESRS G1  
+The dataset comprises 17 corporate sustainability reports (reporting year 2024) from European energy and chemical sector companies: Aker BP, BASF, Eni, Equinor, Galp, Helleniq, MOL, Motoroil, Neste, OMV, Petrom, Repsol, SBM Offshore, Shell, Solvay, TotalEnergies, and Vopak. All reports are aligned with the ESRS framework. Source PDFs are stored in `data/Reports_Pdf/`, and their preprocessed Markdown representations in `data/Reports_md/`.
 
-Each file includes disclosure requirements, objectives, and application requirements of the corresponding ESRS chapter.
+### ESRS Regulation Dataset
 
-### **Golden Standard** (`golden_standard.json` NOTE: STILL NEEDS TO BE CREATED!!)  
-Contains:  
-- ESRS-related prompts/questions  
-- Required ESRS disclosures  
-- Ground-truth answers
-- Which pages of the report contain the answer  
-- Disclosure fulfillment levels per company
+The folder `data/ESRS_Standards_JSON/` contains 12 structured JSON files covering the full scope of the ESRS framework: ESRS 1 (General Requirements), ESRS 2 (General Disclosures), ESRS E1–E5 (Environment), ESRS S1–S4 (Social), and ESRS G1 (Governance). Each file includes the disclosure requirements, objectives, and application requirements of the corresponding standard.
 
-### **Models (from `.env`)**
-- Embeddings: **text-embedding-3-large**  
-- LLM: **gpt-5.2**
+### Golden Standard
 
-### **Vector Database**
-- **[Qdrant](https://qdrant.tech/)**  
-  - Used as the core vector search engine for storing and retrieving embeddings.
-  - configured with local persistence for reproducibility.
+The Golden Standard is a manually curated evaluation dataset containing ESRS-related questions, the required ESRS disclosures for each question, expert-verified ground-truth answers, page references within the source reports, and expected disclosure fulfillment levels per company. It serves as the reference benchmark against which retrieval and generation quality are measured.
 
----
+### Models
 
-## Technical Architecture
+- **Embedding model**: `text-embedding-3-large` (OpenAI)
+- **Language model**: `gpt-5.2` (OpenAI)
+- **Vision language model**: `gpt-5-mini` (OpenAI, used for figure descriptions during preprocessing)
 
-### 1. Data Ingestion & Preprocessing (Azure)
-- **Source**: Azure Blob Storage (`raw-reports`).
-- **Engine**: Azure Document Intelligence with the `prebuilt-layout` model.
-- **Multimodal Enrichment**: Integration of **GPT-5-mini Vision (VLM)** to generate textual descriptions for charts and figures, replacing raw images with semantic context.
-- **Cleaning**: Regex-based post-processing to remove artifacts (page numbers, headers).
+### Vector Database
 
-### 2. Chunking
-- **Strategy**: Decision on what strategies is open!!
-
-### 3. Embedding & Indexing
-- **Embeddings**: `text-embedding-3-large` (3072 dimensions).
-- **Vector Database**: **Qdrant** (Local/Docker).
-- **Schema**: Stores text vectors alongside rich metadata (Company, Year, Source File, Header Hierarchy, ESRS IDs).
-
-### 4. Retrieval (Hybrid Fusion)
-- **Hybrid Search**: Combines **Dense Retrieval** (Semantic vector search) and **Sparse Retrieval** (BM25 keyword matching).
-- **Fusion**: Uses **Reciprocal Rank Fusion (RRF)** (k=60) to merge and re-rank results.
-- **Filtering**: Supports metadata filtering by Company and Year.
-
-### 5. Generation & Domain Adaptation
-- **ESRS Extraction**: Specialized module that queries the LLM with the full ESRS regulation text to extract only requirements relevant to the user's specific question.
-- **Anti-Hallucination**: System prompts explicitly constrain answers to retrieved context.
-- **Fulfillment Assessment**: Automated evaluator (`Low/Medium/High`) that compares the generated answer against the full ESRS requirements to detect coverage gaps.
-- **Cross-Company Comparison**: specialized generation logic for comparing multiple companies.
-
----
-
-## Jupyter Notebooks --> STILL NEED TO BE CREATED AFTER ALL THE MODULES AND EVEFYTHING ELSE IS CREATED
-
-### **1. Preprocessing & Indexing Notebook**
-Responsible for:  
-- Loading reports  
-- Running different chunking strategies  
-- Computing embeddings  
-- Building Qdrant index  
-- Saving all artifacts for later evaluation and the Streamlit UI  
-
-Heavy logic lives inside `rag/*.py`.
-
----
-
-### **2. Evaluation Notebook**
-Runs systematic benchmarking on the **Golden Standard**:
-
-- Loads chunks, indices, embeddings  
-- Runs each RAG configuration  
-- Measures retrieval and answer quality  
-- Computes similarity metrics  
-- Stores evaluation results  
-
-This produces analysis for **RQ1–RQ4**.
-
----
-
-## Streamlit Frontend
-
-A simple & interactive interface for analysts:
-
-### **Features**
-- Select one or multiple companies  
-- Select ESRS chapter (required)  
-- Ask a question  
-- System returns:  
-  - Final answer  
-  - Supporting report chunks  
-  - ESRS disclosure requirements  
-  - Disclosure fulfillment (low/medium/high)
-
-### **Backend**
-Uses Qdrant for persistent per-company embeddings with metadata filtering.
+- **Qdrant** — open-source vector search engine, configured with local persistence. Used for storing and retrieving embeddings with metadata-based filtering.
 
 ---
 
 ## Evaluation Framework
 
-### **Retrieval Metrics**
-- Recall@k  
-- Precision@k  
-- MRR@k  
-- Coverage ratio  
+The evaluation benchmarks different RAG pipeline configurations against the Golden Standard across four metric categories. The framework itself works per pipeline configuration. Each configuration is designed to isolate a specific variable that corresponds to one of the research questions. In practice, this means multiple pipeline configurations run through the same evaluation harness (Golden Standard comparison, retrieval metrics, answer quality metrics, etc.), and then the results by research question are compared.
 
-### **Answer Quality Metrics**
-- Token-Level F1  
-- BERTScore  
-- LLM-as-a-judge scoring  
-- Citation correctness  
+### Retrieval Metrics
 
-### **Hallucination Metrics**
-- Faithfulness score  
-- Supported claim ratio  
-- Hallucination rate  
+Recall@k, Precision@k, MRR@k (Mean Reciprocal Rank), and coverage ratio. These metrics quantify how effectively the retrieval stage surfaces the correct passages from the sustainability reports.
 
-### **Efficiency Metrics**
-- Latency  
-- Prompt size  
-- Token cost  
-- retrieved chunks  
+### Answer Quality Metrics
+
+Token-level F1 score, BERTScore, LLM-as-a-judge scoring, and citation correctness. These metrics assess the factual accuracy, semantic similarity, and source attribution quality of the generated answers relative to the Golden Standard.
+
+### Hallucination Metrics
+
+Faithfulness score, supported claim ratio, and hallucination rate. These metrics evaluate whether the generated answers remain grounded in the retrieved context or introduce unsupported claims.
+
+### Efficiency Metrics
+
+Latency, prompt size, token cost, and number of retrieved chunks. These metrics capture the computational and financial cost of each pipeline configuration.
 
 ---
 
-## Development Guidelines
+## Notebooks
 
-- Python-first modular design  
-- Jupyter for experimentation  
-- Streamlit for frontend  
-- Easy configuration switching via dictionaries  
-- Transparent, explainable, auditable RAG pipeline  
+The experimental workflow is organized into two Jupyter notebooks that orchestrate the core pipeline modules.
+
+### 1. Preprocessing and Indexing Notebook
+
+This notebook handles loading sustainability reports, applying the different chunking strategies under evaluation, computing embeddings, building the Qdrant index, and saving all intermediate artifacts for downstream use in evaluation and the Streamlit application. The underlying logic resides in the modular Python files within the project.
+
+### 2. Evaluation Notebook
+
+This notebook runs the systematic benchmarking against the Golden Standard. It loads the precomputed chunks and indices, executes each RAG configuration, computes retrieval and answer quality metrics, and stores evaluation results. The analysis addresses RQ1 through RQ3.
+
+---
+
+## Streamlit Application
+
+The Streamlit frontend provides an interactive interface for analyzing sustainability reports using the best-performing RAG pipeline configuration identified during evaluation.
+
+**Features:**
+
+- Select one or multiple companies from the available reports.
+- Select the relevant ESRS chapter to scope the analysis.
+- Submit a natural-language question about sustainability disclosures.
+- View the generated answer alongside supporting report passages, applicable ESRS disclosure requirements, and the compliance fulfillment assessment (Low / Medium / High).
+- View the concrete pages from where the info is from!!
+
+The application uses Qdrant for persistent per-company embeddings with metadata-based filtering.
 
 ---
 
@@ -237,16 +191,25 @@ Uses Qdrant for persistent per-company embeddings with metadata filtering.
 pip install -r requirements.txt
 ```
 
-### 2. Configure Environment
+### 2. Configure Environment Variables
 
-Create a `.env` file in the project root containing:
+Create a `.env` file in the project root with the following entries:
 
 ```
-OPENAI_API_KEY=your_api_key_here
+OPENAI_API_KEY=your_openai_api_key
+AZURE_DOCUMENT_INTELLIGENCE_ENDPOINT=your_azure_endpoint
+AZURE_DOCUMENT_INTELLIGENCE=your_azure_key
 EMBEDDING_MODEL=text-embedding-3-large
-LLM_MODEL=gpt-5.2/ gpt 5 mini
+LLM_MODEL=gpt-5.2
 ```
 
+### 3. Start Qdrant (if using Docker)
+
+```bash
+docker run -p 6333:6333 qdrant/qdrant
+```
+
+Alternatively, Qdrant can be configured for local file-based persistence without Docker.
 
 ---
 
@@ -254,80 +217,77 @@ LLM_MODEL=gpt-5.2/ gpt 5 mini
 
 ### Step 1: Preprocessing and Indexing
 
-Run the preprocessing notebook to process reports and build indices:
+Run the preprocessing notebook to process reports and build the vector index:
 
 ```bash
 jupyter notebook notebooks/01_preprocessing_indexing.ipynb
 ```
 
-Alternatively, use the Python script:
+Alternatively, use the command-line script:
 
 ```bash
 python run_preprocessing.py
 ```
 
-This will:
-- Load and preprocess PDF reports from OMV, Repsol, and Shell
-- Apply fixed-size and semantic chunking
-- Generate embeddings using OpenAI
-- Build Qdrant index for retrieval
-- Save all artifacts to `data/artifacts/`
+This step loads the PDF reports, applies the configured chunking strategies, generates embeddings via the OpenAI API, builds the Qdrant index, and saves all artifacts to `data/artifacts/`. Note that this step requires API access and may take considerable time depending on report sizes.
 
-**Note:** This step requires OpenAI API access and may take some time depending on report sizes.
+### Step 2: Evaluation
 
-### Step 2: Evaluation (Optional)
-
-Run the evaluation notebook to benchmark RAG configurations:
+Run the evaluation notebook to benchmark the different RAG configurations:
 
 ```bash
 jupyter notebook notebooks/02_evaluation.ipynb
 ```
 
-Alternatively, use the Python script:
+Alternatively:
 
 ```bash
 python run_evaluation.py
 ```
 
-This will:
-- Load the Golden Standard
-- Evaluate different chunking strategies
-- Compute retrieval and answer quality metrics
-- Save results to `data/artifacts/evaluation_results.json`
+This step loads the Golden Standard, evaluates each pipeline configuration across the defined metrics, and saves results to `data/artifacts/evaluation_results.json`.
 
-### Step 3: Interactive Chatbot
+### Step 3: Interactive Analysis
 
-Launch the Streamlit app:
+Launch the Streamlit application:
 
 ```bash
 streamlit run streamlit_app/app.py
 ```
 
-Then open the URL shown in the terminal (typically http://localhost:8501)
-
-**Features:**
-- Select one or more companies (OMV, Repsol, Shell)
-- Select ESRS chapter (e.g., ESRS E1)
-- Ask questions about sustainability reports
-- View answers with ESRS fulfillment assessment
-- See supporting passages and ESRS requirements
+Open the URL displayed in the terminal (typically `http://localhost:8501`) to access the interactive analysis interface.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 ESRS-Regulation-Bot/
-├── rag/                    # Core RAG modules
-├── notebooks/              # Jupyter notebooks
-├── streamlit_app/          # Streamlit frontend
-├── config/                 # Configuration
 ├── data/
-│   ├── company reports/    # PDF reports (OMV, Repsol, Shell)
-│   ├── Regulation_Split_JSON/  # ESRS regulation JSON files
-│   └── artifacts/         # Generated indices and chunks
-└── Golden Standard/        # Evaluation golden standard
+│   ├── Reports_Pdf/              # Source sustainability reports (PDF)
+│   ├── Reports_md/               # Preprocessed reports (Markdown)
+│   ├── ESRS_Standards_JSON/      # ESRS regulation files (JSON)
+│   └── artifacts/                # Generated indices, chunks, embeddings
+├── notebooks/                    # Jupyter notebooks for experiments
+├── rag/                          # Core RAG pipeline modules
+├── streamlit_app/                # Streamlit frontend application
+├── config/                       # Configuration files
+├── golden_standard/              # Evaluation Golden Standard
+├── extract_report.py             # PDF preprocessing script
+├── pdf_to_json.py                # ESRS regulation parsing script
+├── requirements.txt              # Python dependencies
+├── .env                          # Environment variables (not tracked)
+└── README.md
 ```
 
+---
 
+## Development Guidelines
 
+- Modular Python-first design: core logic resides in reusable modules, not in notebooks.
+- Jupyter notebooks serve as orchestration layers for experimentation and evaluation.
+- Streamlit provides the user-facing frontend.
+- Pipeline configurations are defined via dictionaries for easy switching between experimental conditions.
+- All pipeline outputs are designed to be transparent, explainable, and auditable.
+
+---

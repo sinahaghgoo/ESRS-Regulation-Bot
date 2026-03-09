@@ -1,3 +1,5 @@
+<!-- Report Page 68 -->
+<!-- Report Page 69 -->
 # Our responsible business conduct
 
 Vopak fosters a culture of trust, collaboration, and courage, creating a responsible and inclusive environment where employees, contractors, and suppliers feel valued and empowered. This commitment extends to the communities where we operate, reflecting our dedication to ethical and sustainable practices.
@@ -25,6 +27,7 @@ After mapping essential topics to the European Sustainability Reporting Standard
 
 Vopak considers the notes for these essential topics as its "sustainability statements", prepared in accordance with the requirements of the CSRD. Additionally, where any data points related to essential topics are published in other parts of the report, Vopak has incorporated them by reference.
 
+<!-- Report Page 70 -->
 ## Operational safety and health
 
 Vopak prioritizes the safe handling of all products within our global terminal network. We maintain high safety standards, promote a culture of safety awareness and responsibility amongst our workforce, and actively mitigate workplace risks to ensure the safety of our employees, contractors, and neighboring communities. Our commitment to safety is embedded in our global standards, including our "Fundamentals on Safety", and is applicable to all employees and contractors.
@@ -47,6 +50,7 @@ We are committed to reducing our environmental impact as part of our ambition to
 
 We are taking measures to reduce our greenhouse gas emissions in line with our ambition to reduce our Scope 1 and 2 CO2 emissions by 30% by 2030 (compared with 2021) and be net zero by 2050. We have implemented a program of improvements at our terminals to further reduce emissions of volatile organic compounds (VOCs) and substances of very high concern (SVHCs). VOCs and SVHCs can contribute to air pollution and potential health concerns, and we conduct assessments not only on our emissions but also on their broader impact on society.
 
+<!-- Report Page 71 -->
 ## Governance and risk management
 
 Vopak is committed to conducting business with integrity, including anti-corruption, anticompetitive behavior, anti-bribery, and compliance with laws and regulations. The company has a comprehensive Code of Conduct that covers various topics, including antibribery and anti-corruption, honest business conduct, conflicts of interest, health and safety, and human rights.
@@ -54,6 +58,7 @@ Vopak is committed to conducting business with integrity, including anti-corrupt
 Vopak has implemented a third-party speak-up software system that allows employees, contractors, value chain workers, and other stakeholders to report ethical concerns or dilemmas. Vopak's rules and procedures related to anti-corruption or anti-bribery are set out in its Anti-Bribery & Corruption (ABC) Policy, which is accessible to all employees. Vopak actively engages with stakeholders at local, national, and European levels to support developing essential energy infrastructure, particularly for new energies and sustainable feedstocks.
 
 Doing business involves taking risks. We strive to be a successful and respected company and seek to take a balanced risk approach. Risk management is an essential element of our corporate governance and strategy development. Our risk management framework is in line with the Enterprise Risk Management - Integrated Framework of COSO and the Corporate Governance Code.
+<!-- Report Page 72 -->
 
 Overall the risk profile of the company has not materially changed. The energy transition comes with both opportunities and risks to Vopak. Solid growth in global manufacturing end markets is driving continued demand for Vopak's services in industrial terminal configurations and LPG. LNG remains as a key value pool of interest because of longer term affordability of natural gas and increased imbalances in energy supply and demand. The "Accelerate" part of the strategy has good potential for converting storage capacity to low-carbon products.
 
@@ -61,6 +66,7 @@ Geopolitical risks have increased. Particularly the likelihood of a trade war be
 
 Market risk remains an inherent aspect of Vopak's business model. The physical effects of climate change are neutral, but posing potential risks to a number of terminals. Risk trends related to safety, health, environment, laws & regulations, people, and cyber security are evaluated as neutral, with measures in place to mitigate risks. Supported by a strong consolidated balance sheet, Vopak's access to capital is safeguarded, but the longer-term risks remain.
 
+<!-- Report Page 73 -->
 ## Sustainability performance and notes
 
 1 FPT
@@ -88,6 +94,7 @@ Market risk remains an inherent aspect of Vopak's business model. The physical e
 </tr>
 </table>
 
+<!-- Report Page 74 -->
 ## Sustainability at Vopak
 
 For Vopak, sustainability is about meeting the needs of the present while safeguarding the ability of future generations to meet their own requirements. Guided by our purpose - we help the world flow forward - we actively work towards fostering a more sustainable economy and ecology by delivering the safe, reliable, and efficient storage of essential products for everyday life. At the same time, we strive to be a responsible member of society and the communities in which we operate - a company that our employees and contractors are proud to work for.
@@ -115,6 +122,7 @@ regulations.
 
 The Vopak sustainability notes included in this section of Annual Report thoroughly examine the impact on society and the environment, as well as the reciprocal influence of these factors on the business. Beyond this, various sections in our Annual Report provide valuable insights into our commitment to ESG. For instance, the Remuneration section outlines how our incentive programs reward employees and management for actively contributing to GHG reduction and safety initiatives.
 
+<!-- Report Page 75 -->
 ## General disclosures
 
 At Vopak, we are committed to clear and concise corporate reporting that provides a comprehensive view of how we create value for all of our stakeholders. Our Annual Report follows the principles of the Integrated Reporting Framework developed by the International Integrated Reporting Council (IIRC). In line with these principles, we integrate our sustainability statements and notes directly into the Annual Report to present a comprehensive narrative of our performance. Our report has been prepared following two reporting standards:
@@ -170,6 +178,7 @@ Vopak's sustainability reporting adopts the operational control principle. This 
 
 The reporting period for the sustainability information in this Annual Report is for the 2024 financial year, covering Vopak's activities from January 1, 2024 to December 31, 2024.
 
+<!-- Report Page 76 -->
 ## Total storage capacity
 
 <table>
@@ -342,6 +351,7 @@ representation.
 
 - Voting rights: Voting power to impact the entity's actions.
 
+<!-- Report Page 77 -->
 #### Management control
 
 - Standards and policies: Authority to set and enforce operational standards and policies.
@@ -432,6 +442,7 @@ The divested entities include:
 
 During the period 2021-24, there were no notable acquisitions that require material restatements to ESG KPIS.
 
+<!-- Report Page 78 -->
 ##### Restatements to emissions data due to misstatements
 
 Vopak retroactively adjusts its base year and subsequent/intervening years' data upon discovering significant individual or cumulative errors that exceed materiality thresholds. For instance, if incorrect fuel consumption or emission factors lead to a material impact (exceeding the threshold) on a terminal's emissions, adjustments are made to ensure accurate reporting. This principle applies across all ESG KPIs included in external disclosures, including health and operational safety metrics.
@@ -536,6 +547,7 @@ The recalculated Scope 1 and 2 emissions illustrate a steady year-on-year reduct
 
 The change in reporting boundary resulted in emissions from assets and entities that are now out-of-scope being accounted for under Scope 3 - category 15 based on our equity share in those operations. Whilst there has been a resulting reduction in Scope 1 and 2 emissions, there has been a corresponding increase in 2024 in our Scope 3 - category 15 emissions (investment-related emissions), as described in Note 2: GHG reduction and climate change mitigation.
 
+<!-- Report Page 79 -->
 ### Key accounting estimates and judgments
 
 Vopak uses estimates and judgments to report certain data points, such as VOCs, benzene, fugitive emissions, and Scope 3 emissions. These estimates and judgments are regularly reviewed and updated based on experience, evolving ESG reporting practices and other relevant factors. Any changes in estimates are reflected in the period in which they are revised. We also apply best judgments in the implementation of accounting policies, for instance in our approach to reassessing operational control and reporting boundaries. Despite management's best efforts in quantifying these metrics, there remains a level of estimation uncertainty in the above data. We will continue to look into ways to reduce this by developing more sophisticated estimations and models.
@@ -570,6 +582,7 @@ KPIs and information on key sustainability topics are reported to the Strategic 
 
 For further details on the governance and control framework, please refer to the Governance, risk & compliance section.
 
+<!-- Report Page 80 -->
 ### Governance of sustainability reporting and performance
 
 Vopak's governance structure ensures the effective implementation of our sustainability roadmap, reporting, and related policies, procedures and standards with the EB holding formal responsibility for key aspects. The EB defines Vopak's purpose, strategy, business conduct, and sustainability goals. This responsibility cascades through the organization, with BU management and terminals entrusted to carry out these directives.
@@ -610,6 +623,7 @@ The targets linked to Vopak's strategic framework and sustainability roadmap hav
 
 These are based on: Total Injury Rate (TIR), Process Safety Event Rate (PSER), gender diversity, and GHG emissions reduction. These targets are reviewed periodically to ensure alignment with our double materiality analysis.
 
+<!-- Report Page 81 -->
 ##### Statement on due diligence
 
 Vopak is committed to conducting its global operations and managing its supply chain in adherence to the highest standards of responsible business practice. Robust due diligence is essential for effectively managing our social and environmental impact. The findings from our due diligence processes directly inform the identification of material impacts, risks, and opportunities as part of our double materiality assessment, as referenced in the General Disclosures, and Materiality and Stakeholder Engagement sections.
@@ -675,6 +689,7 @@ As part of our GHG reduction roadmaps, Vopak has conducted asset mapping and scr
 - For further details, refer to Note 1: Emissions to air, Note 2: GHG reduction and climate
 change mitigation and Note 3: Innovation and acceleration towards new energies.
 
+<!-- Report Page 82 -->
 ## Materiality and stakeholder engagement
 
 In preparation for the EU CSRD, Vopak conducted a Double Materiality Assessment (DMA) in 2024, aligning with ESRS 1 General Requirements. This assessment evaluates the impacts, risks, and opportunities (IROs) associated with Vopak's material environmental, social, and governance (ESG) topics, considering both their financial significance and broader societal impact. By engaging key internal and external stakeholders, the DMA provides a holistic perspective on material IROs across our operations and value chain, strengthening the integration of sustainability into our strategy and business model.
@@ -698,6 +713,7 @@ In 2022, we conducted a materiality assessment aligned with the Global Reporting
 
 Impact materiality refers to the significance of a sustainability topic or information within a company, sector, or across sectors. A topic is material from an impact perspective if it is associated with significant actual or potential impacts on people or the environment that are relevant to the sustainability topic. In practice, for most topics, impacts may initially occur in the short-term, and for some, the full effect may only be felt in the long-term.
 
+<!-- Report Page 83 -->
 ### Stakeholder engagement
 
 As part of Vopak's impact materiality assessment, Vopak engaged with a variety of individual and institutional stakeholders. The table included at the end of this note summarizes the expectations and interests of our engaged stakeholders and the sustainability matters they deem linked to the social, environmental, and business impact of Vopak. It reflects the outcome of the official stakeholder engagement conducted in 2022, which included input from a wide variety of countries in which we operate, and forms our due diligence procedures.
@@ -712,6 +728,7 @@ memberships, and lobbying.
 
 Our approach to the materiality assessment, carried out in 2022, is explained in the illustration below.
 
+<!-- Report Page 84 -->
 #### Materiality process
 
 ##### Define impacts
@@ -730,6 +747,7 @@ The assessment enabled Vopak to identify and prioritize topics that represent th
 
 Building on the outcome and in preparation for it's first DMA, Vopak compiled a comprehensive long list of topics comprising sector-agnostic "sustainability matters" included in Application Requirement 16 of the ESRS 1. Through internal discussions, we refined the list to a shortlist, evaluating actual and potential impacts across the value chain including our upstream and downstream activities as well as our internal operations. These prioritized topics were then plotted on the x-axis of our preliminary materiality matrix, using 2022 materiality scores (adapted to a 5-point scale) as a starting point.
 
+<!-- Report Page 85 -->
 ### Financial materiality assessment
 
 A topic becomes financially material if it presents significant risks or opportunities that affect future cash flows and enterprise value in the short-, medium-, or long-term. To establish the financial materiality of sustainability topics, Vopak conducted an internal assessment to determine the attributed risks and opportunities of the aforementioned short-listed topics. Internal stakeholders were instrumental in identifying and scoring risks and opportunities. The Internal Audit team focused on assessing risks, while contributors from business development, financial analysis, global operations and customer care, and the Strategic Committee played key roles in identifying opportunities.
@@ -742,6 +760,7 @@ In the final phase, the results of the assessment were presented to the EB and v
 
 Subsequently, the EB was consulted to validate the outcomes or modify the scores based on their insights into the risks and opportunities linked to each topic. These discussions also helped to define the thresholds, resulting in a matrix categorized into three levels: 1) "essential", 2) "relevant", and 3) "enabler". A threshold of 3 was used to distinguish between essential double material topics, from relevant and enablers.
 
+<!-- Report Page 86 -->
 ## Double materiality matrix
 
 ### Essential
@@ -766,6 +785,7 @@ However, as the market continues to evolve and stakeholders become more familiar
 
 We believe that balancing comprehensive reporting with adherence to regulatory standards will facilitate informed decision-making for all our stakeholders.
 
+<!-- Report Page 87 -->
 #### Linking DMA topics with ESRS and material disclosure requirements
 
 Vopak's DMA guided the alignment of key topics with applicable European Sustainability Reporting Standards (ESRSs) and corresponding disclosure requirements (DRs). A gap analysis and operational readiness assessment evaluated Vopak's reporting preparedness. Resulting action plans, with defined timelines for gap closure, were disseminated to relevant internal departments including Human Resources, Internal Audit, Global Operations & Customer Care, and Finance & Procurement.
@@ -802,6 +822,7 @@ The topical standards E3, E4, E5, S3, and S4, including the corresponding DRs ar
 <tr>
 <th colspan="2">ESRS reference</th>
 <th colspan="2">ESRS details</th>
+<!-- Report Page 88 -->
 <th>Annual Report 2024</th>
 </tr>
 <tr>
@@ -1021,6 +1042,7 @@ The topical standards E3, E4, E5, S3, and S4, including the corresponding DRs ar
 <th colspan="2">ESRS reference</th>
 <th></th>
 <th>ESRS details</th>
+<!-- Report Page 89 -->
 <th>Annual Report 2024</th>
 </tr>
 <tr>
@@ -1214,6 +1236,7 @@ The topical standards E3, E4, E5, S3, and S4, including the corresponding DRs ar
 </tr>
 </table>
 
+<!-- Report Page 90 -->
 ### Data points derived from other EU legislation
 
 The following table, which is aligned with ESRS 2, Appendix B, details all the data points derived from other EU legislation, including Sustainable Finance Disclosure Regulation (SFDR), Pillar 3 DRs (P3), Benchmarks Regulation (BMR), and EU Climate Law (EUCL).
@@ -1426,6 +1449,7 @@ Cross references to the corresponding sections of the annual report are provided
 
 <table>
 <tr>
+<!-- Report Page 91 -->
 <th>Standard/Disclosure requirement</th>
 <th>Data point</th>
 <th>Description</th>
@@ -1649,6 +1673,7 @@ Cross references to the corresponding sections of the annual report are provided
 </tr>
 </table>
 
+<!-- Report Page 92 -->
 ## Stakeholder engagement: Topics & expectations - impact materiality assessment 2022
 
 <table>
@@ -1908,6 +1933,7 @@ Cross references to the corresponding sections of the annual report are provided
 </tr>
 </table>
 
+<!-- Report Page 93 -->
 ## GRI content index
 
 <table>
@@ -2025,6 +2051,7 @@ Cross references to the corresponding sections of the annual report are provided
 
 <table>
 <tr>
+<!-- Report Page 94 -->
 <th>Disclosure title</th>
 <th>Cross reference</th>
 </tr>
@@ -2143,6 +2170,7 @@ Cross references to the corresponding sections of the annual report are provided
 
 <table>
 <tr>
+<!-- Report Page 95 -->
 <th>Disclosure title</th>
 <th>Cross reference</th>
 </tr>
@@ -2254,6 +2282,7 @@ Cross references to the corresponding sections of the annual report are provided
 
 <table>
 <tr>
+<!-- Report Page 96 -->
 <th>Disclosure title</th>
 <th>Cross reference</th>
 </tr>
@@ -2385,6 +2414,7 @@ Cross references to the corresponding sections of the annual report are provided
 
 <table>
 <tr>
+<!-- Report Page 97 -->
 <th>Disclosure title</th>
 <th>Cross reference</th>
 </tr>
@@ -2509,6 +2539,7 @@ Cross references to the corresponding sections of the annual report are provided
 </tr>
 </table>
 
+<!-- Report Page 98 -->
 ## Consolidated sustainability performance
 
 <table>
@@ -2666,6 +2697,7 @@ Cross references to the corresponding sections of the annual report are provided
 <td></td>
 <td></td>
 <td></td>
+<!-- Report Page 99 -->
 <td></td>
 <td></td>
 <td>9</td>
@@ -2822,6 +2854,7 @@ Simultaneously, we are assisting our customers in reducing their environmental a
 
 <table>
 <tr>
+<!-- Report Page 100 -->
 <th>Value creation capital</th>
 <th>Input</th>
 <th>Output & Outcome</th>
@@ -2863,6 +2896,7 @@ Process Safety Events Rate (PSER)
 
 38% Reduction in the impact of VOC emissions (vs 2016 baseline)
 
+<!-- Report Page 101 -->
 ## Note 1. Emissions to air
 
 ### 1 Emissions to air
@@ -2941,6 +2975,7 @@ Vopak acknowledges the potential benefits of reducing VOC emissions. Utilizing e
 
 Customers and stakeholders are increasingly prioritizing environmental performance and our commitment to reducing emissions can enhance our reputation and strengthen our relationships. Investments in emissions control can mitigate the risks associated with future regulatory changes and potential penalties. By embracing innovative solutions and best practices, Vopak can minimize its environmental impact, protect public health, and ensure the long-term sustainability of our operations.
 
+<!-- Report Page 102 -->
 ## Reporting approach
 
 Vopak takes a comprehensive approach to the management of VOC emissions. This multifaceted approach reflects Vopak's commitment to environmental responsibility and transparency in managing VOC emissions. The features are as follows:
@@ -2987,6 +3022,7 @@ In 2024, we calculated VOC emissions, totaling 28,334 metric tons, and SVHC usin
 
 This tool calculates emissions by terminal and by product, taking into account sources such as:
 
+<!-- Report Page 103 -->
 - Roof landings: Emissions that occur when an empty tank is filled with vapors
 
 - Loading and unloading (ship, truck, and rail): Emissions during product transfer
@@ -3029,6 +3065,7 @@ emissions, such as flares and Residual Thermal Oxidizers (RTO).
 
 This comprehensive standard guides the design and operation of our terminals and ensures that we actively manage and reduce VOC emissions.
 
+<!-- Report Page 104 -->
 ## VOC abatement technologies, measures, and design effectiveness
 
 <table>
@@ -3174,6 +3211,7 @@ Substances of Concern and Substances of Very High Concern per BU
 
 From the products we store, approximately 85% of our total VOC emissions is generated through the handling of the following six major products:
 
+<!-- Report Page 105 -->
 ## VOCs and Annex II substances per product stored
 
 <table>
@@ -3254,6 +3292,7 @@ Approximately 75% of our NOx emissions originate from the combustion of natural 
 
 The NOx, SOx, and PM2.5 emissions are calculated based on our energy consumption and are reported in metric tons. We have used the following conversion factors for these emissions.
 
+<!-- Report Page 106 -->
 - NOx emissions: Intergovernmental Panel on Climate Change (IPCC) Good Practice
 Guidance and Uncertainty Management in National Greenhouse Gas Inventories
 
@@ -3279,6 +3318,7 @@ The reported reduction in NOx, SOx, and PM2.5 is primarily due to a decrease in 
 2024. Previously, natural gas usage at the aforementioned assets and associated
 emissions were included in Vopak's emission inventory.
 
+<!-- Report Page 107 -->
 ## Note 2. GHG reduction and climate change mitigation
 
 ### 2 GHG Reduction and climate change mitigation
@@ -3332,6 +3372,7 @@ Climate change presents substantial risks to Vopak 's business, including potent
 
 As part of the group-wide roadmaps for reducing GHG emissions, Vopak carried out asset mapping and screening. This process identified and linked GHG emission sources to specific assets and more accurately identified key opportunities for GHG reduction measures. In addition to identifying potential reduction projects, energy efficiency measures and a purchasing strategy for renewable electricity, the screening process enables Vopak to achieve greater accuracy in carbon accounting and reporting. This asset mapping also complemented our analysis of the physical risks of climate change, the results of which are detailed in Note 5. Climate change adaptation. Where any new assets are developed or acquired, additional asset mapping and screening will be completed as necessary.
 
+<!-- Report Page 108 -->
 Key features of the asset mapping:
 
 - Identification of asset types, including vehicles, vapor treatment units (VTUs), flares,
@@ -3400,6 +3441,7 @@ For the intervening years (2022 and 2023) data, as prescribed by the GHG Protoco
 
 The methodology for calculating the adjusted base year, restatements, and the reporting impact of the revised operational control principle are detailed in General disclosures.
 
+<!-- Report Page 109 -->
 #### GHG emission metrics and targets
 
 <table>
@@ -3527,6 +3569,7 @@ The methodology for calculating the adjusted base year, restatements, and the re
 
 While we report emissions using operational control methodology, our GHG reduction targets apply only to operationally controlled entities.
 
+<!-- Report Page 110 -->
 ## Scope 1 and 2 GHG emissions by type
 
 <table>
@@ -3678,6 +3721,7 @@ In the context of obtaining more reliable value chain data, Vopak's 2024 Reporti
 
 Our transition plan is a continuous journey, balancing energy security with the drive for a sustainable energy future. While our sustainability reporting is already transparent and forward-looking, we are committed to further strengthening our plans and disclosures to align with the latest science and evolving regulations. With a goal of achieving net-zero by 2050, we set a 2030 interim target to reduce Scope 1 and 2 GHG emissions by 30% from our 2021 baseline, covering our operationally controlled assets. Since then, we have been refining our emissions reduction strategies and transition plan to accelerate meaningful impact.
 
+<!-- Report Page 111 -->
 Vopak's environmental transition plan focuses on two key areas:
 
 - Achieving net-zero emissions by 2050: This is a core element of our sustainability
@@ -3734,6 +3778,7 @@ The cost of renewable electricity tariffs is subject to significant variability 
 
 A comprehensive energy assessment has been conducted, identifying potential energy savings. These savings are only achievable through capital investments. On our locked-in assets such as boilers, vapor treatment units, and flares, we have adopted the principle that we install electric and/or renewable-powered assets, both newly installed or replacements, instead of gas- or diesel-fired options. This will also have an impact on capital expenditures and the exact figures will depend on location, type of asset and the impact on operational expenses in running these often electronically powered assets.
 
+<!-- Report Page 112 -->
 ## Reduce the emissions of our growth
 
 In general, we have two primary levers to reduce the footprint of our growth: electrification of fuel-consuming assets and utilization of renewable electricity wherever possible. These measures will increase capital and operating expenditures. Recognizing that costs vary significantly by country, project type, and growth trajectory, we do request project teams to calculate the emission intensity of their project and design mitigation scenarios, including the impact on capital and operational expenditure. The inclusion of low-carbon scenarios facilitates deciding on low-emission options as part of the investment proposal review process.
@@ -3742,6 +3787,7 @@ An example of a cost implication of reducing GHG emissions of our growth is that
 
 Another example of the necessity of financial resources to support the transition plan when it comes to our growth portfolio is in renewable energy storage. For example, a Battery Energy Storage System causes energy losses and uses energy to maintain the system. Even when the battery runs on energy from a renewable source, RECs must be purchased to prove the renewable source of this energy use. Purchasing renewable electricity certificates to mitigate these emissions will increase operating costs.
 
+<!-- Report Page 113 -->
 ### Locked-in GHG emissions from key assets and products
 
 Some of our essential equipment and processes currently rely on technologies that generate GHG emissions. These emissions are "locked-in" over the operating lifetime of the assets and pose a challenge to our decarbonization efforts. Here is a breakdown:
@@ -3769,6 +3815,7 @@ Consequently, Vopak is currently unable to confirm that any of its activities fu
 
 Further details on Vopak's approach to EU Taxonomy reporting can be found in EU taxonomy.
 
+<!-- Report Page 114 -->
 ## Transition plan, business strategy, and financial planning
 
 Our transition plan is integral to our business strategy and daily operations. As a key part of our sustainability roadmap, and with management endorsement, it translates sustainability priorities-such as GHG reduction, VOC treatment, energy efficiency, and climate adaptation-into concrete goals. These goals inform our decision-making at every level.
@@ -3812,6 +3859,7 @@ In 2024, our total (absolute) GHG emissions (Scope 1 and 2) were reduced by 43% 
 
 This year, we are exceeding our goal of a 30% reduction. Our GHG reduction performance is not linear, as planned growth projects can add emissions. However, with our current reduction portfolio, we are confident that we can maintain our target of a 30% reduction. We will continue to monitor our emissions trajectory and invest in reductions.
 
+<!-- Report Page 115 -->
 #### Scope 1 and 2 GHG emissions per BU
 
 <table>
@@ -4008,6 +4056,7 @@ complete data. In the coming years, we will work closely with our supply chain p
 
 This approach will provide a deeper understanding of our emissions footprint and reduction potential, and allow us to move beyond spend-based methods to more precise activity-based data where possible. This will involve a closer examination of spend categories and more detailed emissions estimates for key materials such as concrete and steel used in major projects.
 
+<!-- Report Page 116 -->
 ### Scope 3 GHG emissions per category
 
 <table>
@@ -4084,6 +4133,7 @@ We have continued implementing mitigation actions over the past year. As per the
 - Selected three high-impact projects for an in-depth assessment using a supplier-specific
 methodology and asked suppliers to minimize their Scope 3 impact.
 
+<!-- Report Page 117 -->
 - Investigated the use of blast-furnace cement, green steel, and low-carbon piping, with
 the aim of updating our standards to use lower-carbon materials in our construction projects.
 
@@ -4130,6 +4180,7 @@ The topic focuses on the acceleration toward 'new energies and sustainable fuels
 </figure>
 
 <table>
+<!-- Report Page 118 -->
 <caption>Mapping of material topics with ESRS and attributed impact, risks, and opportunities</caption>
 <tr>
 <td>Indicative mapping to ESRS topic</td>
@@ -4196,6 +4247,7 @@ Contributing to the acceleration of the energy and feedstock transition is a cru
 
 As the world moves towards a more sustainable future, our talented workforce is at the forefront, fostering partnerships that drive the development of infrastructure solutions for new energies.
 
+<!-- Report Page 119 -->
 ## Standards and positions
 
 The EB and SB are informed on progress and developments in this area through reporting on a regular basis. Although a variety of data elements are included, the main metrics used to monitor the progress on these strategic pillars are the estimated CapEx spend and the returns for the projects in the identification, selection, and definition phase and their expected final investment decision date, as well as the projects in the execution phase. For the projects that have been commissioned, we monitor their performance compared to the original business case. The report provides insight into the current achievement of the externally disclosed targets (EUR 1 billion Vopak spent in both Grow and Accelerate in the period up to 2030), of the mid-term proportionate CapEx targets, which are part of the LTIP Plans for senior management, and the long-term outlook.
@@ -4215,6 +4267,7 @@ a clear plan for repurposing our oil assets in the period up to 2035, where the 
 - Industrial terminals and chemicals: In addition to moving to renewable fuels, our Grow
 pillar focuses on industrial terminals. In 2020, we acquired three Dow Chemical industrial terminals on the US Gulf Coast, and developed a greenfield industrial terminal in Huizhou, China. Additionally, we have announced the expansion of our industrial terminal in Qinzhou, China.
 
+<!-- Report Page 120 -->
 ## Facilitate the energy transition
 
 To deliver on our commitment to facilitate the energy transition, we are developing infrastructure solutions for new energies and sustainable fuels and feedstocks, centering on four focus areas:
@@ -4287,6 +4340,7 @@ Aligned with our strategy, most growth investments will focus on Grow (industria
 <figcaption>For 2021 through 2024 the portfolio is divided among four terminal categories that total 100% each year. In 2021 the breakdown was Oil terminals 33%, Chemicals terminals 32%, Industrial terminals 19%, and Gas terminals 16%. In 2022 the breakdown was Oil terminals 30%, Chemicals terminals 34%, Industrial terminals 19%, and Gas terminals 17%. In 2023 the breakdown was Oil terminals 30%, Chemicals terminals 34%, Industrial terminals 18%, and Gas terminals 18%. In 2024 the breakdown was Oil terminals 33%, Chemicals terminals 28%, Industrial terminals 18%, and Gas terminals 21%. Industrial terminal shares were nearly stable at 19%, 19%, 18%, 18%; Gas terminals showed a steady increase from 16% to 21%; Chemicals rose from 32% to 34% in 2022–2023 then declined to 28% in 2024; Oil terminals declined from 33% to 30% in 2022–2023 and returned to 33% in 2024, with the largest category by year being Oil at 33% in 2021 and 2024 and Chemicals at 34% in 2022 and 2023.</figcaption>
 </figure>
 
+<!-- Report Page 121 -->
 ## Note 4. Waste and circularity
 
 ### Topic no.4
@@ -4403,6 +4457,7 @@ The corresponding Scope 3 emissions for waste are reported in Note 2. GHG reduct
 
 For every source of waste, Vopak currently has the following specific standards or procedures:
 
+<!-- Report Page 122 -->
 - Spills to soil: Every spill that occurs at a terminal must be cleaned immediately and the
 contaminated soil disposed.
 
@@ -4463,6 +4518,7 @@ All waste is treated according to the Vopak Way Standard on Waste Management and
 
 The significant increase in recycling is attributed to recycled steel from demolished tanks at our VEPA site in Belgium.
 
+<!-- Report Page 123 -->
 ## Note 5. Climate change adaptation
 
 ### Topic no.5
@@ -4522,6 +4578,7 @@ In our sensitivity analyses, we have assessed the following acute and chronic cl
 
 Heavy rainfall and river flooding: Terminals situated in low-lying coastal regions or near rivers face heightened flood risks due to rising sea levels, storm surges, and increased rainfall intensity.
 
+<!-- Report Page 124 -->
 - Impact: Poses a threat to terminals located near major rivers, such as those in the
 Netherlands (Gate, Vlaardingen, Europoort), Pakistan, Vietnam (Mekong River), and United States (Mississippi River).
 
@@ -4550,6 +4607,7 @@ Increasing wind force: Higher wind speeds, even under normal weather conditions,
 
 - Impact: Increased wind force in normal weather conditions poses a risk to all our
 terminals globally. Recent experiences in Belgium and the Netherlands, where a single storm in 2022 caused 55% of total asset damage, highlight this growing concern. In 2024, we experienced two major storms at Singapore and the Netherlands accounting for 15% of the total asset damage.
+<!-- Report Page 125 -->
 
 - Mitigation measures: We are reinforcing existing infrastructure to withstand higher wind
 loads, implementing wind monitoring systems, and developing protocols for safe operations during high wind events.
@@ -4578,6 +4636,7 @@ The below risk analysis uses the IPCC AR6 report to assess the physical impacts 
 <th>Coastal erosion</th>
 <th>Wind gusts & storms</th>
 <th>Sea level rise</th>
+<!-- Report Page 126 -->
 <th>Coastal flooding</th>
 </tr>
 <tr>
@@ -4918,6 +4977,7 @@ The below risk analysis uses the IPCC AR6 report to assess the physical impacts 
 <th colspan="11">Hazards Changing Extreme rain Changing Wind gusts & Heat stress Hot days Precipitation events windspeeds Draught Coastal erosion storms Sea level rise Coastal flooding</th>
 </tr>
 <tr>
+<!-- Report Page 127 -->
 <th>Terminal/region terminals</th>
 <th>Chronic</th>
 <th>Acute</th>
@@ -5120,6 +5180,7 @@ on climate-related risks and opportunities.
 - Stakeholder engagement: Actively engaging with investors and stakeholders to
 address concerns and improve disclosures.
 
+<!-- Report Page 128 -->
 ## Vopak's climate change resilience planning
 
 Vopak has an ongoing process to evaluate the resilience of its strategy and business model in relation to climate change.
@@ -5156,6 +5217,7 @@ changes to the future.
 
 - Competitive cost curves accelerate growth in energy generated by solar and wind.
 
+<!-- Report Page 129 -->
 - For oil, the outlook is mixed per region.
 
 The analysis complements Vopak's strategy to grow in gas, chemicals, and industrial terminals. On an ongoing basis, we seek to further enhance this resilience analysis to identify in more detail the effects of material physical and transition risks on our future business strategy, based on the latest IEA scenarios. In reporting on the results of this analysis, we will explain any areas of uncertainty and any measures that are required to adjust or adapt our business strategy to climate change over the short-, medium-, and long-term time horizons.
@@ -5193,6 +5255,7 @@ Physical risks were considered under SSP2 and SSP4, whereas transition risks wer
 
 On a group level, we confirm that no impairments have been taken in relation to the physical or transition risks identified as relevant to our terminals and other assets.
 
+<!-- Report Page 130 -->
 ## Note 6. Energy use
 
 ### Topic no.6
@@ -5239,6 +5302,7 @@ Based on joules of energy, the corresponding CO2 emissions are calculated in tCO
 emission factors, published by the Netherlands Enterprise Agency.
 
 <table>
+<!-- Report Page 131 -->
 <caption>Global energy production and consumption mix</caption>
 <tr>
 <th>In terajoules (TJ)</th>
@@ -5382,6 +5446,7 @@ drive energy efficiency.
 
 Please note that adjustments for divestments, and the revised reporting boundary based on the operational control principle have not been made in energy consumption and revenue for base and intervening years data.
 
+<!-- Report Page 132 -->
 ## Note 7. Water use
 
 ### Topic no.7
@@ -5402,6 +5467,7 @@ In total, Vopak used 282,963,033 cbm in 2024, of which 95% was process water use
 
 <table>
 <tr>
+<!-- Report Page 133 -->
 <th colspan="7">Vopak annual water usage</th>
 </tr>
 <tr>
@@ -5564,6 +5630,7 @@ In total, Vopak used 282,963,033 cbm in 2024, of which 95% was process water use
 </tr>
 </table>
 
+<!-- Report Page 134 -->
 ## Note 8. Biodiversity
 
 ### Topic no.8
@@ -5627,6 +5694,7 @@ Vopak will continue its approach to biodiversity in the years ahead. We remain c
 
 Given its importance, we intend to adopt a more protective, reserved, and restorative approach for terminals that significantly impact the three key biodiversity drivers:
 
+<!-- Report Page 135 -->
 - Threatened species - as listed under the IUCN Red list of threatened species
 
 - Protected areas - as listed in IUCN protected area management categories
@@ -5666,6 +5734,7 @@ Where appropriate we will establish ecological impact related KPI's, based on IB
 <tr>
 <td>Execution and Commissioning phase</td>
 <td>Need for construction of areas that enable environmental compensation</td>
+<!-- Report Page 136 -->
 <td>When endangered species are present at the location, relocation of these species will occur. New areas should be adapted (sometimes reconstructed) for the new inhabitants</td>
 </tr>
 <tr>
@@ -5704,6 +5773,7 @@ If handled incorrectly, these can potentially be harmful to the environment and 
 
 <table>
 <tr>
+<!-- Report Page 137 -->
 <th>Value creation capital</th>
 <th>Input</th>
 <th>Output & Outcome</th>
@@ -5717,6 +5787,7 @@ If handled incorrectly, these can potentially be harmful to the environment and 
 </tr>
 </table>
 
+<!-- Report Page 138 -->
 #### Note 9. Process safety and prevention of spills
 
 #### Process safety and prevention of spills
@@ -5776,6 +5847,7 @@ Reporting and tracking of process safety incidents are mandatory for all staff a
 
 Effective handling of stored products is ensured through detailed safety documentation. Customers are required to provide safety data sheets (SDS), which are used to create product-specific safety information cards. These cards are integrated into work instructions to guarantee safe operations. The SDSs are also included in Vopak's global product catalog, making them readily accessible to all operationally controlled Vopak entities.
 
+<!-- Report Page 139 -->
 ##### Internal audit and asset integrity
 
 In 2024, we finalized the multi-year cycle of our internal audit program Terminal Health Assessment (THA) 2.0, in line with the Chemical Distribution Institute - Terminal (CDI-T) requirements. It is a key governance tool within Vopak's integrated management system, providing the leadership with the assurance that terminals are implementing and maintaining their assets, processes, procedures, and knowledge following the legal regulations, Vopak standards, and best practices. In 2024, we audited a total of 10 terminals. Findings of the audits are registered, followed up, and closed out through Enablon or similar systems. Preparations for the next audit cycle are in progress, which includes updates to the content of the cycle, to continuously improve this governance tool.
@@ -5820,6 +5892,7 @@ This standard outlines the prevention and mitigation of spills to land, water, a
 
 The policy aligns with API RP 754 and other Vopak standards related to tank design, pipeline inspection, hazard assessment, and incident reporting.
 
+<!-- Report Page 140 -->
 Responsibility for spill response is divided between the BU and terminal levels:
 
 - BU Level: Focuses on the adaptation and implementation of the spill response standard.
@@ -5892,6 +5965,7 @@ This systematic approach enables early identification and mitigation of high-ris
 
 In 2024, we introduced a templated risk assessment tool specifically tailored to address complex scenarios, such as those that occurred at the ITC tank pit fire in Houston, Texas in 2019. This was a major fire at one of our neighbors, and we have based our work on the incident investigation report by the Chemical Safety Board (CSB). By applying this uniform method, we ensure a consistent and effective approach to managing previously challenging risk scenarios.
 
+<!-- Report Page 141 -->
 ##### Process safety performance
 
 <table>
@@ -6024,6 +6098,7 @@ Reportable Process Safety Event Rate (PSER) and count, own workforce and general
 
 In 2024, Vopak sustained our good process safety performance with a PSER of 0.08, which is well below the target of 0.13 and the three-year rolling average target of 0.13. The total number of Tier 1 and Tier 2 LOPCs decreased from 11 in 2023 to 8 in 2024.
 
+<!-- Report Page 142 -->
 Reportable process safety events by categories
 
 <table>
@@ -6318,6 +6393,7 @@ of tanks, pipelines, and pumps that help ensure the integrity of our operations.
 - Second layer - spill response program: it demonstrates how to act in the event a spill
 occurs, applicable to water. We measure the effectiveness of the prevention of spills to surface and sewage water as part of our THA program.
 
+<!-- Report Page 143 -->
 Pollution of surface water including sea, harbors, and estuaries
 
 <table>
@@ -6479,6 +6555,7 @@ Number and volume of reportable, uncontained spills to soil and ground water
 </tr>
 </table>
 
+<!-- Report Page 144 -->
 ##### Performance metrics
 
 In 2024, Vopak recorded 29 metric tons of uncontained spills to soil and groundwater, compared to 35 metric tons in 2023. The most substantial ones in 2024 were the 20 tons of contaminated water and 8.9 tons of olefines.
@@ -6564,6 +6641,7 @@ Uncontained spills are spills directly released to the environment: Soil and gro
 <td>2,500</td>
 <td>Water</td>
 <td>Fuel oil</td>
+<!-- Report Page 145 -->
 <td>No</td>
 </tr>
 <tr>
@@ -6649,6 +6727,7 @@ Besides prevention, Vopak is also engaged in a process of remediation at six ter
 
 The cost of remediation is reported as part of environmental, safety, and cleaning expenses under Note 2.6 Other operating expenses of the Consolidated Financial Statements.
 
+<!-- Report Page 146 -->
 ### Note 10. Occupational health and safety
 
 ### 10 Occupational health and safety
@@ -6704,6 +6783,7 @@ Value chain workers, who perform tasks such as maintenance on verified clean equ
 
 The PDCA process requires input from many different people at various stages. To assess risks, we bring together teams with a variety of skills and experience. These teams might include subject-matter experts and those who work directly in the value chain. Regular awareness training and engagement activities, such as toolbox talks, lessons learned sharing, and general risk mitigation discussions, involve value chain workers to assess implemented controls. In addition, there are formal meetings where safety, health, and environmental (SHE) matters are addressed, involving both SHE committees and management review, where active participation is required to receive feedback from the organization on specific SHE topics.
 
+<!-- Report Page 147 -->
 ##### Reporting approach and boundaries
 
 OHS is managed according to international best practices, such as ISO 45001, 14001, and
@@ -6740,6 +6820,7 @@ Our Vopak Way standards cover key design, construction, personal and process saf
 
 In the daily operation and maintenance of our terminals, we carry out routine and nonroutine activities that are managed through our control of work standards and procedures. Every Vopak employee, general contingent worker, and service provider is required to adhere to our SHE policies and standards. These requirements are formalized through employment and service contracts and supported by training and procedures at all locations.
 
+<!-- Report Page 148 -->
 ##### Policies related to own workforce and to value chain workers
 
 Vopak's global SHE policy outlines our commitments as a company relating to OHS as outlined below:
@@ -6788,6 +6869,7 @@ and target management process, and the T&V performance reviews, including the EB
 
 Vopak's own workforce and general contingent workers are encouraged to engage with their team leaders regularly. At each of its location, we encourage active engagement in OHS by providing all on-site personnel with opportunities to contribute. This includes ways for everyone to raise concerns about risks and suggest improvements through the following:
 
+<!-- Report Page 149 -->
 - Daily shift meetings
 
 - Participation in SHE committees
@@ -6840,6 +6922,7 @@ individuals reintegrate into the workforce.
 
 With the aim of being a learning organization, Vopak learns from its incidents, including high potential near misses. We have identified incidents that require a TRIPOD method level of investigation, root cause/Tripod lite, and where it can provide useful insights - a human factor analysis. The learnings are shared throughout the organization in different formats and where required procedures and standards are adjusted.
 
+<!-- Report Page 150 -->
 #### Targets, action plans, and resources
 
 Globally, Vopak has a safety vision that is updated periodically. This determines the longterm vision of the organization in terms of OHS.
@@ -6918,6 +7001,7 @@ We continue to implement our global "E-permit to work" process and system at loc
 
 Leading and lagging KPIs for all entities where Vopak has operational control and include own workforce and value chain workers where applicable, are tracked monthly with regular performance reviews at all levels of the organization. Data relating to value chain workers only relates to incidents occurring on Vopak premises. Annual performance analysis and target setting for the following year ensure meaningful improvement plans that translate into improved OHS results.
 
+<!-- Report Page 151 -->
 ##### Occupational safety performance
 
 ##### Personal safety performance
@@ -6971,6 +7055,7 @@ While we had no fatalities in 2024, there was one tragic, life-altering incident
 
 This incident was thoroughly investigated to determine the root causes and the lessons learned have been implemented across our terminal network to help prevent similar occurrences in the future and mitigate the risk of this type of injury.
 
+<!-- Report Page 152 -->
 ##### Key performance indicators for personal safety
 
 <table>
@@ -7132,6 +7217,7 @@ TIR, as depicted above, includes TIC divided by 200,000 hours. It is important t
 <th>2023</th>
 </tr>
 <tr>
+<!-- Report Page 153 -->
 <td>Asia & Middle East</td>
 <td>0.11</td>
 <td>0.07</td>
@@ -7250,6 +7336,7 @@ While the target of zero life-changing injuries was not achieved, the TIR target
 <figcaption>Sickness rate, measured in percent, was 2.4% in 2021, 2.7% in 2022, 2.5% in 2023, and 2.5% in 2024. The highest recorded rate was 2.7% in 2022 and the lowest was 2.4% in 2021, yielding an observed range of 0.3 percentage points across the four-year period. From 2021 to 2022 the rate increased by 0.3 percentage points, then declined by 0.2 percentage points to 2.5% in 2023 and remained stable at 2.5% in 2024. The 2023 and 2024 values are equal and are 0.1 percentage point higher than 2021 and 0.2 percentage point lower than the 2022 peak. The vertical axis is scaled to 3.0% and the data are presented for the consecutive years 2021 through 2024.</figcaption>
 </figure>
 
+<!-- Report Page 154 -->
 ### Note 11. Human capital development and talent attraction
 
 #### Topic no.11
@@ -7292,6 +7379,7 @@ As part of our Employee Value Proposition, we advance careers and promote intern
 
 This is also why we recruit, as much as possible, from within the company to fill open and new vacancies:
 
+<!-- Report Page 155 -->
 - Throughout 2024, we had an average of 95 open, internally published vacancies.
 
 - 33% of all published vacancies were filled by internal candidates.
@@ -7350,6 +7438,7 @@ In 2024, we expanded our learning platform to provide additional online training
 
 - Basics of Job Grading
 
+<!-- Report Page 156 -->
 ### Training hours for own employees and specific contingent workers
 
 <table>
@@ -7402,6 +7491,7 @@ In 2024, we expanded our learning platform to provide additional online training
 
 Furthermore, we offer online training tailored for specific functional domains including a series of training for Asset Management and Global IT. To continue advancing the professional growth of our employees and provide them with state-of-the-art knowledge in their roles, we have expanded our online learning platform with more e-learning options.
 
+<!-- Report Page 157 -->
 ### Note 12. Nuisance
 
 #### Topic no.12
@@ -7503,6 +7593,7 @@ Since 2020, we have seen a significant drop in the number of odor-related compla
 </tr>
 </table>
 
+<!-- Report Page 158 -->
 ### Note 13. Human rights and decent work
 
 #### Topic no.13
@@ -7566,6 +7657,7 @@ In 2024, all of our entities were found compliant with the living wage principle
 
 ### indicators to measure basic work and living standards. No other material issues were noted.
 
+<!-- Report Page 159 -->
 Living wage rate for own employees
 
 <table>
@@ -7603,6 +7695,7 @@ In line with the recommendations of the Monitoring Committee Corporate Governanc
 - The average annual remuneration of the employees is determined by dividing the total
 wage costs in the financial year (as included in the consolidated annual accounts on an IFRS basis) by the average number of FTEs during the financial year; in addition, the hiring of external employees is taken into account pro-rata, insofar as they are hired for at least three months during the financial year.
 
+<!-- Report Page 160 -->
 - The value of the share-based component of the remuneration is determined at the time
 of assignment following the applicable rules under IFRS.
 
@@ -7640,6 +7733,7 @@ manage the risks related to human rights and decent work with our contractors we
 
 Vopak prioritizes suppliers who align with their societal and environmental values. They have a two-step qualification process that includes screening suppliers for generic and work-specific requirements. Vopak actively manages supplier performance and relationships for continuous improvement. For more details on our supplier screening approach, please see Note 16. Business ethics and integrity.
 
+<!-- Report Page 161 -->
 ### Vopak employee classification
 
 In following ESRS S1 and S2, Vopak has classified its workers as own workforce and value chain workers:
@@ -7834,6 +7928,7 @@ Employee count by country of operation
 </table>
 
 <table>
+<!-- Report Page 162 -->
 <caption>Headcount and gender breakdown of own employees</caption>
 <tr>
 <th></th>
@@ -8066,6 +8161,7 @@ General contingent worker: A person engaged by one of Vopak's operationally cont
 
 Third parties: External entities involved in the supply chain that are not classified as customers or Vopak workforce but play a defined role in operations.
 
+<!-- Report Page 163 -->
 Below are examples to illustrate these classifications:
 
 - General Contingent Worker: An externally hired receptionist, catering staff, or security
@@ -8240,6 +8336,7 @@ Non-guaranteed hours contract
 </tr>
 </table>
 
+<!-- Report Page 164 -->
 ## Employment type for own employees per BU
 
 <table>
@@ -8346,6 +8443,7 @@ events affecting employment numbers).
 - The variation in headcount in 2023 vs 2024 is due to the divestment of the Vopak
 chemical distribution terminal in Shandong Lanshan.
 
+<!-- Report Page 165 -->
 ## Note 14. Inclusion and diversity
 
 ## Topic no.14
@@ -8479,6 +8577,7 @@ As part of our global succession planning for strategically critical roles, our 
 
 Women also represent 28% of Talent Pool 2, which consists of individuals with the potential to advance into senior management roles within Vopak. The "A2Lead" development program has been rolled out to support and accelerate their career growth, preparing them for these leadership positions.
 
+<!-- Report Page 166 -->
 #### Ethnic diversity
 
 Regional origin in senior management
@@ -8514,6 +8613,7 @@ Our senior talent pools, which feed our most senior executive and key roles, alr
 
 For more details on Vopak's talent pools, see Note 11: Human capital development and talent attraction.
 
+<!-- Report Page 167 -->
 ## Note 15. Community engagement
 
 ## Topic no.15
@@ -8532,6 +8632,7 @@ Vopak, with 400 years of international trade experience, recognizes the crucial 
 
 Vopak WeConnect strives to support the organization of at least one WeConnect project or event in every Vopak community, encouraging employees to actively engage with and contribute to their local environments. Around the globe, Vopak colleagues are partnering with local schools, community groups, and NGOs to establish sustainable projects that empower young people and create lasting impact. Since its founding in 2017, Vopak WeConnect has focused on broadening young people's horizons, enhancing their opportunities, and fostering collaboration across cultures, languages, and social backgrounds.
 
+<!-- Report Page 168 -->
 In 2024, Vopak WeConnect refined its mission and goals to maximize project impact. The new mission statement states:
 
 "Vopak WeConnect 's core mission is to encourage and support employees from Vopak and its joint ventures in volunteering for their local communities. It supports them in setting up events and projects that either help empower young people or otherwise contribute to more sustainable communities, in cooperation with local schools, community groups or other partner organizations."
@@ -8550,6 +8651,7 @@ Vopak WeConnect launched a pilot program in collaboration with SpaceBuzz, a non-
 
 In 2024, Vopak WeConnect achieved significant milestones, driven by the collective efforts of Vopak and Joint Venture. During the year, 28 WeConnect projects and events were approved, bringing the total to 119 projects and events since the initiative's launch in 2017.
 
+<!-- Report Page 169 -->
 Finally, following careful deliberation, the Management and SB of Vopak WeConnect have decided to transition the Vopak WeConnect activities from the current foundation structure to an internal Vopak WeConnect organization. This new structure will operate with a dedicated budget while preserving the existing mission and governance framework to support, fund, and manage Vopak WeConnect activities.
 
 ## Vopak WeConnect addressing plastic pollution in Indonesia
@@ -8568,6 +8670,7 @@ In our pursuit of ethical governance, we strive to ensure that all our entities 
 
 <table>
 <tr>
+<!-- Report Page 170 -->
 <th>Value creation capital</th>
 <th>Input</th>
 <th>Output & Outcome</th>
@@ -8592,6 +8695,7 @@ In our pursuit of ethical governance, we strive to ensure that all our entities 
 </tr>
 </table>
 
+<!-- Report Page 171 -->
 ## Note 16. Business ethics and integrity
 
 ### 16 Business ethics and integrity
@@ -8669,6 +8773,7 @@ The Vopak Code of Conduct serves as a comprehensive guide, offering context and 
 
 Vopak's Code of Conduct forbids gifts to political parties or religious groups. The Code of Conduct also strictly limits gifts and entertainment. The functions that have the highest likelihood of being exposed to corruption and bribery are Procurement and Maintenance, together making up approximately 14% of the workforce. Furthermore, the Code of Conduct states that "When dealing with governments or other governmental agencies, Vopak companies are encouraged to promote and defend their legitimate business objectives, within the limits set by this Code of Conduct. They may do so directly or through bodies such as trade associations".
 
+<!-- Report Page 172 -->
 ## Completion of Code of Conduct training
 
 <table>
@@ -8717,6 +8822,7 @@ breach of the Code of Conduct or cyber crime had taken place, more in particular
 
 - There were five confirmed incidents related to cyber crime, including spoofing
 
+<!-- Report Page 173 -->
 - Excluding the cyber crime incidents, for the size Code of Conduct breaches, appropriate
 measures were taken in the form of disciplinary actions and/or strengthening of the control environment.
 
@@ -8772,6 +8878,7 @@ The BUs are required to perform annual bottom-up fraud risk assessments as part 
 
 Boundaries Data in this note includes information for all in-scope entities as noted in General disclosures.
 
+<!-- Report Page 174 -->
 Confirmed incidents [1] and financial consequences of Code of Conduct breaches
 
 <table>
@@ -8904,6 +9011,7 @@ The following instruments and policies support Vopak's engagements with stakehol
 - The Vopak Project Management standard (VPM) requires active and structured
 stakeholder management.
 
+<!-- Report Page 175 -->
 - Internal guidance on stakeholder engagement and lobbying, strengthened through the
 adoption of a company-wide Stakeholder Engagement Policy.
 
@@ -8959,6 +9067,7 @@ As a result of this policy, Vopak made no financial or in-kind political contrib
 
 This policy is in line with Vopak's commitment to ethical and responsible business practices. By avoiding any involvement in politics, Vopak can maintain its focus on its core business activities and avoid any potential conflicts of interest. This policy also helps to ensure that Vopak's business decisions are based on merit and not on political considerations.
 
+<!-- Report Page 176 -->
 Amount of financial and in-kind political contributions and lobbying expenses
 
 <table>
@@ -9028,6 +9137,7 @@ Vopak is registered in the EU Transparency Register (number 285948740901-10) and
 
 Members of senior management across all levels and BUs- the EB, BU Presidents, EVPs, SVPs, SHEQ Managers, Communications Managers, BD Managers, and Project Managers
 
+<!-- Report Page 177 -->
 ## Note 17. Cybersecurity
 
 ### Topic no.17
@@ -9071,6 +9181,7 @@ community
 
 Additionally, we executed Security Maturity assessments on all our operating companies and a majority of our subsidiaries and JVs.
 
+<!-- Report Page 178 -->
 ## Note 18. Responsible taxation
 
 ### Topic no.18
@@ -9115,6 +9226,7 @@ Management of Vopak's tax affairs requires good governance. The EB is ultimately
 
 The Global Tax team advises management and the business on the tax implications, performs tax planning, and ensures compliance with tax laws, seeking external advice when needed. Local finance managers are responsible for tax positions and filings in their country and are assisted by the Global Tax team and local external tax advisors.
 
+<!-- Report Page 179 -->
 ##### Tax control and risk management
 
 Vopak operates internationally and is subject to taxation in many countries, with differing and complex tax legislation. Continuous developments in international tax added uncertainty. Vopak has tax management guidelines available to ensure that decisionmaking considers tax implications, compliance transparency, and minimization of (unforeseen) tax impact of changes.
@@ -9141,6 +9253,7 @@ The Global Tax Department meets regularly with its majority shareholder HAL Hold
 
 Vopak is a member of and participates in tax meetings at the Confederation of Netherlands Industry and Employers (VNO-NCW) to advocate and support tax transparency and fair taxation. Vopak signed and complied with the VNO-NCW Tax Governance Code when introduced in 2022. Vopak participates in the sustainability benchmark published by the Dutch Association of Investors for Sustainable Development (VBDO). This benchmark provides a comparative study of European and Dutch stock listed companies' fiscal transparency. Following this benchmark, Vopak is within the top 15 of European stock listed companies being most transparent on their overall tax position. Vopak strives to improve its tax transparency reporting each year.
 
+<!-- Report Page 180 -->
 ### Tax developments in 2024
 
 #### Pillar 2
@@ -9157,6 +9270,7 @@ Following the implementation of the European Directive Mandatory Disclosure Rule
 
 Vopak was not involved in transactions that are reportable under the Mandatory Disclosure Rules / DAC6 in 2024.
 
+<!-- Report Page 181 -->
 ##### Country-by-country 2024
 
 The below table provides an overview of the tax jurisdictions Vopak is present in and our country-by-country reporting following disclosure note 207-4 of the GRI tax standard. Please note that the data provided below only includes Vopak consolidated companies.
@@ -9424,6 +9538,7 @@ The below table provides an overview of the tax jurisdictions Vopak is present i
 </tr>
 </table>
 
+<!-- Report Page 182 -->
 ## Explanatory notes:
 
 The data presented in the above table reconciles with the data stated in the audited consolidated financial statements in this report as follows:
@@ -9526,6 +9641,7 @@ B.V., Vopak Terminal Europoort B.V., Vopak Terminal Laurenshaven B.V., , Vopak T
 
 Vlaardingen B.V., Vopak Terminal Vlissingen B.V., CO2next Terminal B.V., Vopak Hydrogen Plant B.V.
 
+<!-- Report Page 183 -->
 - Dormant: Vopak Real Estate B.V.
 
 - Panama:
@@ -9589,6 +9705,7 @@ Bulk Terminals, Inc., Vopak Logistics Services USA Inc., Van Ommeren North Ameri
 
 - Storage and handling services: Vopak (Vietnam) Co. Ltd.
 
+<!-- Report Page 184 -->
 ## Effective tax rate overview
 
 Please find below an overview of the effective tax rate per jurisdiction excluding
@@ -10279,6 +10396,7 @@ Please find below an overview of the effective tax rate per jurisdiction includi
 <td>0.0%</td>
 </tr>
 <tr>
+<!-- Report Page 185 -->
 <td>United Arab Emirates</td>
 <td>–</td>
 <td>9.7%</td>
@@ -10338,6 +10456,7 @@ Please find below an overview of the effective tax rate per jurisdiction includi
 
 State taxes included in statutory tax
 
+<!-- Report Page 186 -->
 ## Assurance on tax and tax related matters
 
 We see taxation and/or tax related matters as an integral part of our business. In this respect, the EB gives a full in-control statement in the Financial Statements section of this Report of which taxation and tax related matters are an integral part. Nonetheless, we find it valuable in light of being transparent to make a separate tax in-control statement in this note.
@@ -10362,6 +10481,7 @@ Vopak Horizo affittah Limited
 
 25"JUNE 2024
 
+<!-- Report Page 187 -->
 F: Vopak
 
 "My Role and Behavior as
@@ -10386,6 +10506,7 @@ EU Regulation 2020/852, commonly referred to as the EU Taxonomy, constitutes one
 
 For an economic activity to be identified as environmentally sustainable, it must contribute to the achievement of at least one of the following six environmental objectives:
 
+<!-- Report Page 188 -->
 - Objective 1: Climate change mitigation (CCM)
 
 - Objective 2: Climate change adaptation (CCA)
@@ -10411,6 +10532,7 @@ as Commission Delegated Regulation 2023/2486 of 27 June 2023), which includes ac
 
 The EU Taxonomy can be considered a "living document" that may be expanded to include additional activities and sectors of the economy, as part of the future publication of further Delegated Acts or amendments. This will imply that companies subject to the Regulation, such as Vopak, will have to adapt to possible future changes, and all the FAQs available up until this day.
 
+<!-- Report Page 189 -->
 ##### Reporting requirements 2024
 
 Vopak, subject to the Non-Financial Reporting Directive ('NFRD') via Part 9 of Book 2 of the Dutch Civil Code, was required to apply the EU Taxonomy Regulation for the Annual Report 2022.
@@ -10451,6 +10573,7 @@ Step 2: Review of the short list of potentially Taxonomy-eligible activities
 
 We further investigated the activities in the preliminary shortlist from Step 1. This involved a close review of activity descriptions, and preliminary consultations with relevant stakeholders to identify potential turnover, CapEx, or OpEx associated with these activities at Vopak. The review resulted in the exclusion of certain activities from the preliminary shortlist where no confirmed turnover, CapEx, or OpEx was identified.
 
+<!-- Report Page 190 -->
 ##### Step 3: Qualification and quantification of potentially Taxonomy-eligible activities
 
 After confirming the completeness, accuracy, and relevance of activities in the previous steps, a questionnaire - including the refined shortlist of potentially eligible activities - was developed to collect the essential financial data. The questionnaire, developed by the concerned in Global Finance and Control, and Global Operations and Customer Care assisted with the following:
@@ -10497,6 +10620,7 @@ Tables 1, 2 and 3 present Vopak's taxonomy-eligible turnover, CapEx, and OpEx ba
 
 Tables 4, 5 and 6 present Vopak's Taxonomy-eligible turnover, CapEx, and OpEx that includes investments in equity accounted in joint ventures and associates, pursuant to IFRS 11 or IAS28, on a pro-rata basis corresponding to the share in the equity of the joint venture.
 
+<!-- Report Page 191 -->
 ### Calculation of turnover indicator
 
 <table>
@@ -10587,6 +10711,7 @@ Tables 4, 5 and 6 present Vopak's Taxonomy-eligible turnover, CapEx, and OpEx th
 </tr>
 </table>
 
+<!-- Report Page 192 -->
 ### Description of eligible activities as carried out by Vopak
 
 <table>
@@ -10694,6 +10819,7 @@ Tables 4, 5 and 6 present Vopak's Taxonomy-eligible turnover, CapEx, and OpEx th
 <tr>
 <th>Nr.</th>
 <th>Activity name</th>
+<!-- Report Page 193 -->
 <th>Description of the corresponding activity carried out by Vopak</th>
 <th>IFRS 10 consolidated financial statement basis</th>
 <th>Investment proportionate basis (IAS 28 / IFRS 11)</th>
@@ -10777,12 +10903,14 @@ Tables 4, 5 and 6 present Vopak's Taxonomy-eligible turnover, CapEx, and OpEx th
 </tr>
 </table>
 
+<!-- Report Page 194 -->
 ### Determining Taxonomy-eligibility
 
 At this juncture, Vopak cannot confirm full compliance with the alignment criteria, particularly those outlined in Appendix A of the Climate Delegated Act concerning physical climate risks. These criteria are pertinent to all eligible activities under CCM, CE, and PPC as part of the Do No Significant Harm criteria, as well as activities under CCA as part of the Substantial Contribution criteria. The uncertainty arises from potential inconsistencies between our adaptation measures and local, sectoral, regional, or national adaptation plans and strategies. Consequently, Vopak has chosen a conservative approach, reporting no alignment for any of its Taxonomy-eligible activities.
 
 As a result, Vopak does not comply with the Disclosure Requirement ESRS E1-16e. However, Vopak uses the CapEx and OpEx attributed to eligible activities under climate change mitigation in order to substantiate the implementation of decarbonisation levers, as required by ESRS E1-16c. For further details, please see Note 2. GHG reduction and climate change mitigation.
 
+<!-- Report Page 195 -->
 ### Mandatory EU Taxonomy table 1: Turnover for taxonomy-aligned activities on IFRS consolidated financial statement basis from products and services of subsidiaries.
 
 <table>
@@ -11334,6 +11462,7 @@ As a result, Vopak does not comply with the Disclosure Requirement ESRS E1-16e. 
 </tr>
 </table>
 
+<!-- Report Page 196 -->
 ### Mandatory EU Taxonomy table 2: OpEx for taxonomy-aligned activities on IFRS consolidated financial statement basis from products and services of subsidiaries.
 
 <table>
@@ -12188,6 +12317,7 @@ As a result, Vopak does not comply with the Disclosure Requirement ESRS E1-16e. 
 </tr>
 </table>
 
+<!-- Report Page 197 -->
 ### Mandatory EU Taxonomy table 3: CapEx for taxonomy-aligned activities on IFRS consolidated financial statement basis from products and services of subsidiaries.
 
 <table>
@@ -12913,6 +13043,7 @@ CapEx of Taxonomy-non-eligible activities
 
 100%
 
+<!-- Report Page 198 -->
 ### Voluntary EU Taxonomy table 4: Turnover on an investment-proportionate basis (IAS 28/IFRS 11), including total revenues from the joint ventures, associates, and subsidiaries.
 
 <table>
@@ -13454,6 +13585,7 @@ CapEx of Taxonomy-non-eligible activities
 
 100%
 
+<!-- Report Page 199 -->
 ### Voluntary EU Taxonomy table 5: OpEx on an investment-proportionate basis (IAS 28/IFRS 11), including total revenues from the joint ventures, associates, and subsidiaries.
 
 <table>
@@ -14390,6 +14522,7 @@ CapEx of Taxonomy-non-eligible activities
 </tr>
 </table>
 
+<!-- Report Page 200 -->
 ### Voluntary EU Taxonomy table 6: CapEx on an investment-proportionate basis (IAS 28/IFRS 11), including total revenues from the joint ventures, associates, and subsidiaries.
 
 <table>
@@ -15286,6 +15419,7 @@ CapEx of Taxonomy-non-eligible activities
 </tr>
 </table>
 
+<!-- Report Page 201 -->
 ### Nuclear energy and fossil gas related activities
 
 The following table, which is aligned with Annex XII of the Disclosures Delegated Act under Article 8 of the EU Taxonomy Regulation, indicates the activities that are applicable to Vopak.
@@ -15338,6 +15472,7 @@ The following table, which is aligned with Annex XII of the Disclosures Delegate
 </tr>
 </table>
 
+<!-- Report Page 202 -->
 ### External Benchmarks
 
 Engaging in sustainability ratings and benchmarks offers a valuable opportunity to gauge our disclosures and performance relative to other companies, fostering a culture of continuous improvement in data quality and quantity for stakeholders. With numerous ratings and benchmarks available, it's impractical to participate in all of them actively.

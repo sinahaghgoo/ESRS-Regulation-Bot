@@ -3,6 +3,7 @@
 <table>
 <tr>
 <th>5.1</th>
+<!-- Report Page 275 -->
 <th>General information (ESRS 2)</th>
 <th>276</th>
 </tr>
@@ -134,6 +135,7 @@
 </tr>
 </table>
 
+<!-- Report Page 276 -->
 ## 5.1 General information (ESRS 2)
 
 ### 5.1.1 Basis for preparation (BP1 and BP2)
@@ -196,6 +198,7 @@ In some cases, difficulties in accessing certain data within the establishment d
 
 The estimates used by the Company for the publication of sustainability indicators are based, as far as possible, on recognized databases. However, these estimates may prove to be erroneous or inaccurate, as the underlying data are not always available. The nature and scope of the estimates implemented or limitations of the data collection perimeter applied on a case-by-case basis are explained by the methodological indications in the relevant sections. The Company continues to work on improving data collection and associated estimates for future exercises.
 
+<!-- Report Page 277 -->
 ### Transition strategy for climate change mitigation
 
 Current trends indicate that the evolution of the global energy mix is not compatible with limiting global warming to 1.5℃ and with the objective of achieving climate neutrality by 2050 (International Energy Agency's STEPS scenario). Similarly, there is currently no consensus on greenhouse gas (GHG) emission reduction targets or trajectories applicable at the scale of a company in a given sector and which would be compatible with a given global temperature target.
@@ -226,6 +229,7 @@ TotalEnergies SE and its subsidiaries undertake to use their best efforts to upd
 
 TotalEnergies assumes no responsibility for the accuracy, completeness or veracity of information and data provided by or sourced from third parties contained in this document or used for assumptions, estimates or more generally for forward-looking data published in this document. TotalEnergies shall not be liable for any errors, omissions or inaccuracies in the information and data provided by or sourced from third parties contained in this document or used for assumptions, estimates or, more generally, forward-looking statements published in this document. Users are advised to verify them independently before relying on them.
 
+<!-- Report Page 278 -->
 ### CHANGE IN THE PREPARATION OR PRESENTATION OFTHE SUSTAINABILITY REPORTING UNDER THE CSRD
 
 Unless otherwise specified, historical data has been restated according to the ESRS perimeter to allow for comparison with the data for the year 2024.
@@ -366,6 +370,7 @@ With 14 directors, including 9 independent members, one director representing em
 
 <table>
 <tr>
+<!-- Report Page 279 -->
 <th>Board composition</th>
 <th>Financial year 2024</th>
 </tr>
@@ -445,6 +450,7 @@ The Strategy & CSR Committee examines the Company's overall strategy as proposed
 
 More detailed information on the composition, role and work of the Board of Directors and its Committees is provided in point 4.1 of Chapter 4.
 
+<!-- Report Page 280 -->
 #### General management
 
 The Executive Committee, chaired by the Chairman and Chief Executive Officer, ensures that climate-related issues are taken into account and built into operational roadmaps. The Executive Committee is responsible for identifying and analyzing risks that could affect the achievement of TotalEnergies' objectives.
@@ -474,6 +480,7 @@ The main activities of the Board of Directors and/or committees in relation to s
 <table>
 <tr>
 <th>Risks/Audit</th>
+<!-- Report Page 281 -->
 <th>Strategy/Climate/Environment</th>
 </tr>
 <tr>
@@ -550,6 +557,7 @@ The Board of Directors has a proactive approach to this issue. The compensation 
 
 Details of compensation for fiscal year 2024 and the compensation policy for the Chairman and Chief Executive Officer for fiscal year 2025 are provided in point 4.3.2 of chapter 4. Directors' remuneration policy is described in point 4.3.1 of chapter 4.
 
+<!-- Report Page 282 -->
 Variable compensation aligned with the Company's strategic objectives
 
 ### ANNUAL VARIABLE COMPENSATION and PERFORMANCE SHARE PLAN:
@@ -612,6 +620,7 @@ Overall, the compensation system integrates sustainability and financial perform
 
 <table>
 <tr>
+<!-- Report Page 283 -->
 <th>Essential elements of due diligence</th>
 <th>Paragraphs in the Sustainability Report</th>
 </tr>
@@ -736,6 +745,7 @@ The main features of the risk management system for consolidated sustainability 
 - IT tools to automate data collection;
 
 - validation of data consistency and reliability at each relevant level of
+<!-- Report Page 284 -->
 the organization (entity, segment, functional line, holding company);
 
 - monitoring of new sustainability standards in preparation as well as
@@ -808,6 +818,7 @@ TotalEnergies continues to implement its integrated multi-energy strategy, which
 
 To execute this strategy, TotalEnergies plans to invest $14 to $18 billion per year across cycles, including $4 to $5 billion per year in low-carbon energies. With its broad portfolio of assets, the Company can remain selective when it comes to external growth in oil & gas. Moreover, it retains the flexibility to arbitrate projects in response to market conditions should the need arise.
 
+<!-- Report Page 285 -->
 #### OUR AMBITION OF CARBON NEUTRALITY BY 2050, TOGETHER WITH SOCIETY
 
 The energy transition is underway and the growth in renewable electricity production across the world is paving the way for the decarbonization of energy. However, energy demand trajectories are still a long way from the scenarios compatible with the Paris Agreement.
@@ -872,6 +883,7 @@ At the same time, the company commits to a substantial reduction in greenhouse g
 In parallel, the company aims to lower the lifecycle carbon intensity of the energy products it sells. Measured across Scopes 1, 2, and 3, lifecycle carbon intensity is expected to decline materially by 2030 relative to a 2015 baseline. This reflects not only cleaner operations, but also changes in the sales mix toward electricity, gas, and low-carbon molecules, which carry lower downstream emissions than oil-based products.</figcaption>
 </figure>
 
+<!-- Report Page 286 -->
 ### BUSINESS MODEL AND VALUE CHAINS
 
 TotalEnergies' value-creation model is based on integration across the entire energy value chain (refer to point 1.1.3 of chapter 1): from oil and gas exploration and production, power generation, refining, natural gas liquefaction, petrochemicals, energy trading, transportation and storage, to energy distribution to end-users.
@@ -903,6 +915,7 @@ TotalEnergies aims to increase its production by Upstream +3%/year oil & gas an 
 
 </figure>
 
+<!-- Report Page 287 -->
 ### Liquefied Natural Gas activities
 
 Within the gas markets, TotalEnergies' priority is to position itself across the entire liquefied natural gas value chain (including upstream and LNG activities, midstream, gas trading, transport and sales), a global market expected to grow by 5 to 6% a year between 2023 and 2030(2).
@@ -921,6 +934,7 @@ Faced with the challenge of climate change, TotalEnergies is committed to promot
 
 3ª the world's largest LNG player, with a diversified sales portfolio of ~40 Mt in 2024 and a market share of around 10% in 2024, TotalEnergies is the leading importer in Europe. TotalEnergies' LNG sales reached 13.8 Mt in 2024, compared with 22.8 Mt in 2023 and 26.5 Mt in 2022, and it has a regasification capacity of almost 21 Mt/year. The Company is also the leading exporter to the United States (with more than 10 Mt in 2024(4).
 
+<!-- Report Page 288 -->
 #### A diversified, integrated portfolio, resilient through cycles
 
 TotalEnergies is strengthening its presence upstream, through stakes in liquefaction plants located in major production zones. LNG volumes managed by TotalEnergies (excluding volumes from Russia and spot volumes) are set to grow by 50% between 2023 and 2030, with the commissioning of North Field East in Qatar, Nigeria LNG T7 and ECA in Mexico in 2026. From 2027 to 2028 will follow the start-ups of other projects currently under construction: Qatar North Field South, Rio Grande LNG in the United States and Marsa LNG in Oman.
@@ -947,6 +961,7 @@ TotalEnergies' Downstream business has been a steady contributor to the Company'
 The Company is addressing the sustainability challenges of its downstream activities through 3 levers:
 
 - Lowering the breakeven point of its refining-petrochemicals assets in a
+<!-- Report Page 289 -->
 cyclical industry,
 
 - Reducing GHG emissions from its operations,
@@ -972,6 +987,7 @@ and develop more sustainable products to meet growing demand for circular produc
 - Electric mobility: expand our footprint in high-power charging in Europe
 and develop a low-equity business model (partnerships and leverage).
 
+<!-- Report Page 290 -->
 #### Global presence in Marketing & Services as of 31 December 2024(a)
 
 <figure>
@@ -1006,6 +1022,7 @@ through strategic partnerships with local players.
 
 The key levers for achieving profitable growth with an average of return on capital reaching 12% include selectivity in project choices, integration across the entire electricity value chain, cost control by leveraging the Company's expertise in project management and offshore development, mobilization of external financing at competitive rates and farm-downs to accelerate cash flow generation and diversify portfolio exposure.
 
+<!-- Report Page 291 -->
 ### BREAKDOWN OF SALES FROM HYDROCARBON ACTIVITIES
 
 <table>
@@ -1100,6 +1117,7 @@ Those stakeholder liaisons also provide advice and support to Company subsidiari
 
 Additionally, preparing and holding the Shareholders' Meeting feeds the dialogue that the Company maintains with its various stakeholders (investors, shareholders, NGOs). It is one of the ways in which the Board of Directors is informed of the views and interests of stakeholders.
 
+<!-- Report Page 292 -->
 The table below gives a non-exhaustive list of the main channels for dialogue with stakeholders:
 
 Sections S-1 and 3.6
@@ -1478,6 +1496,7 @@ Sections G1-2, 3.6, S-2
 <td>- Alert mechanism including internal mediator</td>
 </tr>
 <tr>
+<!-- Report Page 293 -->
 <td rowspan="4">Main entities/teams involved</td>
 <td>- TotalEnergies Global Procurement</td>
 </tr>
@@ -1523,6 +1542,7 @@ Sections G1-2, 3.6, S-2
 
 <table>
 <tr>
+<!-- Report Page 294 -->
 <th>Professional associations</th>
 <th></th>
 <th></th>
@@ -1576,6 +1596,7 @@ Sections G1-2, 3.6, S-2
 
 <table>
 <tr>
+<!-- Report Page 295 -->
 <th>Professional associations</th>
 <th></th>
 <th></th>
@@ -1777,6 +1798,7 @@ Sections G1-2, 3.6, S-2
 <th>Civil society</th>
 <th></th>
 <th></th>
+<!-- Report Page 296 -->
 <th>More information</th>
 </tr>
 <tr>
@@ -1972,6 +1994,7 @@ The Company has not identified any material current financial effect related to 
 
 <table>
 <tr>
+<!-- Report Page 297 -->
 <th colspan="3">The value chain is represented by the following signs:</th>
 <th>The time horizon is represented by the following abbreviations:</th>
 </tr>
@@ -2037,6 +2060,7 @@ The Company has not identified any material current financial effect related to 
 
 <table>
 <tr>
+<!-- Report Page 298 -->
 <td>Climate change (E1)</td>
 <td></td>
 </tr>
@@ -2063,6 +2087,7 @@ The Company has not identified any material current financial effect related to 
 
 <table>
 <tr>
+<!-- Report Page 299 -->
 <th>Climate change (E1)</th>
 <th></th>
 </tr>
@@ -2104,6 +2129,7 @@ The Company has not identified any material current financial effect related to 
 
 IRO type
 
+<!-- Report Page 300 -->
 Impact on strategy, business model and value chain
 
 Negative impact
@@ -2139,6 +2165,7 @@ Damage to the Company's reputation in the event of water, air or soil pollution 
 </tr>
 </table>
 
+<!-- Report Page 301 -->
 ### Water and marine resources (E3)
 
 <table>
@@ -2210,6 +2237,7 @@ Medical support for the Company's employees through regular medical checkups
 
 As a responsible employer, TotalEnergies is committed to preserving the health of its employees. The Company offers its employees regular medical check-ups. It also supports health promotion in its host countries through vaccination and screening campaigns. Through these measures, TotalEnergies contributes to the continuity of its operations and participates in the development of the territories in which it operates.
 
+<!-- Report Page 302 -->
 #### Own workforce (S1)
 
 Harm to the health and safety of personnel (on site or during transportation) in the event of a major industrial accident or during activities related to operations
@@ -2279,6 +2307,7 @@ As a responsible employer, the Company is convinced that the well-being of its e
 </tr>
 </table>
 
+<!-- Report Page 303 -->
 #### Own workforce (S1)
 
 Deterioration of mental health and well- Negative being in the event of repeated discriminatory impact practices, violence or harassment in the workplace
@@ -2317,6 +2346,7 @@ In application of its Code of Conduct, the Company is committed to respecting fu
 
 Damage to the Company's reputation in the Risk event of allegations of non-compliance with fundamental labor rights as defined by the ILO (forced and child labor, discrimination, fair, satisfactory and safe working conditions)
 
+<!-- Report Page 304 -->
 ## Value chain workers (S2)
 
 <table>
@@ -2387,6 +2417,7 @@ Damage to the Company's reputation in the Risk event of allegations of non-compl
 
 <table>
 <tr>
+<!-- Report Page 305 -->
 <td>Affected communities (S-3)</td>
 <td></td>
 </tr>
@@ -2441,6 +2472,7 @@ Damage to the Company's reputation in the Risk event of allegations of non-compl
 </tr>
 </table>
 
+<!-- Report Page 306 -->
 ## Business management (G1)
 
 <table>
@@ -2513,6 +2545,7 @@ Damage to the Company's reputation in the Risk event of allegations of non-compl
 </tr>
 </table>
 
+<!-- Report Page 307 -->
 ### 5.1.4 Impact, risk and opportunity management (IRO-1 and 2)
 
 #### 5.1.4.1 Description of the processes to identify and assess material impacts, risks and opportunities (IRO-1)
@@ -2572,6 +2605,7 @@ These assessments incorporate the local context and the regulatory requirements 
 In addition to this work and the risk maps, the relevance of the IROs identified was corroborated by comparing them with various internal and external sources of analysis, in particular:
 
 - the list of sustainability matters established by the ESRS standards
+<!-- Report Page 308 -->
 (delegated regulation (EU) 2023/2772 - AR 16- ESRS 1);
 
 - the Company's internal standards and reference frameworks, in
@@ -2645,6 +2679,7 @@ Climate change and the energy transition are considered in preparing the consoli
 
 ### B. Environment
 
+<!-- Report Page 309 -->
 #### a. Specific environmental aspects
 
 To identify and assess material IROs related to the environment, TotalEnergies relied on the mapping of its Dependencies, Impacts, Risks and Opportunities (DIRO) linked specifically to nature together with the recommendations of the TNFD (Task Force on Nature-related Financial Disclosure), which highlighted in particular:
@@ -2751,6 +2786,7 @@ TotalEnergies, a major actor in the energy sector, has an industrial and retail 
 
 In identifying and assessing material IROs relating to business conduct issues, the Company took into account its size, its business segment in which the amounts invested can be very substantial, its strategic positioning and its geographical presence in more than 120 countries, some of which are perceived to have high levels of corruption according to the Transparency International index.
 
+<!-- Report Page 310 -->
 #### 5.1.4.2 Disclosure Requirements in ESRS covered by the Sustainability Report (IRO-2)
 
 The Company conducted its double materiality analysis based on the list of sustainability matters covered by the ESRS. The sustainability matters identified were assessed as material using the assessment process described in point 5.1.4.1.
@@ -2928,6 +2964,7 @@ In accordance with the disclosure requirement IRO 2, § 56 of ESRS 2, the table 
 <th>Section</th>
 </tr>
 <tr>
+<!-- Report Page 311 -->
 <td>ESRS E4 - Biodiversity and ecosystems</td>
 <td>5.2.4</td>
 </tr>
@@ -3121,6 +3158,7 @@ In accordance with the disclosure requirement IRO 2, § 56 of ESRS 2, the table 
 <th>Section</th>
 </tr>
 <tr>
+<!-- Report Page 312 -->
 <td>ESRS S3 - Affected communities</td>
 <td>5.3.3</td>
 </tr>
@@ -3225,6 +3263,7 @@ In application of disclosure requirement IRO 2, § 56 of ESRS 2, the following t
 <table>
 <tr>
 <th>Disclosure requirement and related datapoint</th>
+<!-- Report Page 313 -->
 <th>SFDR(1) reference</th>
 <th>Pillar 3(2) reference</th>
 <th>Benchmark Regulations(3) reference</th>
@@ -3316,6 +3355,7 @@ In application of disclosure requirement IRO 2, § 56 of ESRS 2, the following t
 <table>
 <tr>
 <th>Disclosure requirement and related datapoint</th>
+<!-- Report Page 314 -->
 <th>SFDR(1) reference</th>
 <th>Pillar 3(2) reference</th>
 <th>Benchmark Regulations(3) reference</th>
@@ -3407,6 +3447,7 @@ In application of disclosure requirement IRO 2, § 56 of ESRS 2, the following t
 <table>
 <tr>
 <th>Disclosure requirement and related datapoint</th>
+<!-- Report Page 315 -->
 <th>SFDR(1) reference</th>
 <th>Pillar 3(2) reference</th>
 <th>Benchmark Regulations(3) reference</th>
@@ -3530,6 +3571,7 @@ In application of disclosure requirement IRO 2, § 56 of ESRS 2, the following t
 <table>
 <tr>
 <th>Disclosure requirement and related datapoint</th>
+<!-- Report Page 316 -->
 <th>SFDR(1) reference</th>
 <th>Pillar 3(2) reference</th>
 <th>Benchmark Regulations(3) reference</th>
@@ -3653,6 +3695,7 @@ In application of disclosure requirement IRO 2, § 56 of ESRS 2, the following t
 <table>
 <tr>
 <th>Disclosure requirement and related datapoint</th>
+<!-- Report Page 317 -->
 <th>SFDR(1) reference</th>
 <th>Pillar 3(2) reference</th>
 <th>Benchmark Regulations(3) reference</th>
@@ -3752,6 +3795,7 @@ In application of disclosure requirement IRO 2, § 56 of ESRS 2, the following t
 <table>
 <tr>
 <th>Disclosure requirement and related datapoint</th>
+<!-- Report Page 318 -->
 <th>SFDR(1) reference</th>
 <th>Pillar 3(2) reference</th>
 <th>Benchmark Regulations(3) reference</th>
@@ -3800,6 +3844,7 @@ In application of disclosure requirement IRO 2, § 56 of ESRS 2, the following t
 </tr>
 </table>
 
+<!-- Report Page 319 -->
 ### 5.2 Environmental information
 
 #### 5.2.1 Climate change (E1)
@@ -3877,6 +3922,7 @@ TotalEnergies also devotes more than $1 billion in 2024 to R&D, industrial innov
 
 Pursuant to European Union regulations, TotalEnergies publishes the proportion of eligible activities and aligned activities in the CapEx indicator(1). Eligible or aligned CapEx represent respectively 30% and 25% of investments on proportional view(2) in 2024, confirming the dynamic initiated since 2020 (refer to point 5.2.6).
 
+<!-- Report Page 320 -->
 - CAPEX Eligibility
 
 <figure>
@@ -3894,6 +3940,7 @@ In 2024, the Company's net investments amounted to approximately $13 billion in 
 
 TotalEnergies has not made any investments in coal-related economic activities. In 2015, TotalEnergies ceased its coal production activities and it stopped selling and trading coal in 2016.
 
+<!-- Report Page 321 -->
 ## How TotalEnergies' 2030 targets compare to the IEA scenarios
 
 From a scientific perspective, there are a multitude of transition scenarios and there is currently no consensus on GHG emission reduction targets or trajectories applicable at the scale of a company in a given sector and which would be compatible with a given global temperature target.
@@ -3976,6 +4023,7 @@ In 2024, operated methane emissions were 29 kt CH4, a decrease of 55% compared t
 
 ## B. MATERIAL IMPACTS, RISKS AND OPPORTUNITIES AND THEIR INTERACTION WITH STRATEGY AND BUSINESS MODEL (ESRS2 SBM-3)
 
+<!-- Report Page 322 -->
 In carrying out its double materiality analysis, the Company identified eight material climate-related risks, which are described in the table below:
 
 <table>
@@ -4017,6 +4065,7 @@ In carrying out its double materiality analysis, the Company identified eight ma
 </tr>
 </table>
 
+<!-- Report Page 323 -->
 ### Resilience analysis: scope, analysis and results
 
 The scope of the resilience analysis covers the Company's transition and physical risks. It was updated at the end of 2024.
@@ -4066,6 +4115,7 @@ its assets (Upstream and Downstream) by around 10% compared with its reference s
 
 In addition, to ensure robust accounting of its assets in the balance sheet, for the purposes of calculating asset impairment, the Company assumes oil price trajectory that remains sustained at $202470/b until 2030, then decreases linearly to reach $202450/b in 2040 and then decreases from 2040 onwards to the price adopted in 2050 by the IEA's NZE scenario, ie. $202425.8/b. Gas prices used in Europe and Asia decrease and stabilize from 2027 until 2040 at respectively $20248/Mbtu and $20249/Mbtu at levels lower than current prices; the Henry Hub price remaining at $20243/MBtu over the period 2025-2040. They then all then converge towards the prices in the IEA's NZE scenario in 2050. The impairment tests also retain an internal carbon price (refer to point 5.2.1.3 (E1-8)).
 
+<!-- Report Page 324 -->
 #### D. Physical risks
 
 The results of the physical risk assessment carried out in 2024 for around 300 onshore and offshore assets for the SSP5-8.5 scenario(1) are presented in the graphs below based on net book value at end 2024(2).
@@ -4103,6 +4153,7 @@ The table below summarizes them, mentioning the areas concerned, their scope in 
 <th colspan="2">Principles of action and management/ Policy</th>
 <th colspan="2">Policy content</th>
 <th>Areas covered</th>
+<!-- Report Page 325 -->
 <th>Material IRO involved</th>
 <th>I/R/O</th>
 <th>Scope of the policy</th>
@@ -4297,6 +4348,7 @@ The table below summarizes them, mentioning the areas concerned, their scope in 
 </tr>
 <tr>
 <td>- Embark upon and maintain constructive dialogue with them, including the careful handling of complaints - Anticipate dialogue right from the design stage of a new project</td>
+<!-- Report Page 326 -->
 <td>Cross-functional</td>
 <td>Stakeholders recognition of the balanced transition strategy</td>
 <td>Opportunity</td>
@@ -4359,6 +4411,7 @@ Firstly, at the Anguille facility, the flare system has been redesigned to allow
 
 At the beginning of 2024, the Ile Mandji asset saw its compression capacity increased, enabling the gas - previously routinely flared - to be sent for treatment and compression in order to be recovered. The elimination of routine flaring has reduced the subsidiary's GHG emissions by around 120 kt CO2e/year, including more than 1 kt CH4/ year, while helping to increase production by 7% between 2023 and 2024.
 
+<!-- Report Page 327 -->
 #### Actions on vents
 
 Venting is the release of methane into the atmosphere without combustion. TotalEnergies has reduced its vents since 2020 by rerouting the gas going to the vents to the gas export system or to the flare. Some equipment - such as pneumatic actuators - also uses methane as an instrumentation gas, and the replacement of this equipment with innovative solutions using compressed air instead of methane has significantly reduced vents.
@@ -4422,6 +4475,7 @@ through:
 - or tolling contracts for electrons supplied by TotalEnergies,
 
 - long-term third-party purchases of green hydrogen from local
+<!-- Report Page 328 -->
 electrolyzers or via green hydrogen imports.
 
 ## Action 5: Developing Carbon Capture and Storage to reduce our emissions and those of our customers
@@ -4460,6 +4514,7 @@ At COP28, a major initiative between national and international companies was la
 
 This initiative now brings together more than 55 companies representing almost 45% of the world's oil and gas production. On November 12, 2024, at the opening of COP29 in Baku, the OGDC published its first report to baseline, prioritize and track progress on emissions reductions. Over the past 12 months, the OGDC has established a governance framework and launched a survey of its signatories' emission reduction ambitions and implementation plans, in order to establish a baseline against which future progress can be measured. The OGDC has also rolled out a program called Collaborate & Share, designed to share solutions, promote peer-to-peer collaboration and encourage the adoption of best practices to reduce emissions.
 
+<!-- Report Page 329 -->
 ## Sharing best practices and AUSEA technology with partners
 
 At the end of 2024, as part of the OGDC's Collaborate & Share program, TotalEnergies shared with OGDC members the latest information on its AUSEA campaigns and continuous methane monitoring plan, and at the end of 2025 will share the lessons learned from deploying continuous, real-time detection equipment on all its operated Upstream assets.
@@ -4508,6 +4563,7 @@ The Company has estimated the enabled emissions reductions to which its 2024 sal
 
 A similar approach has been taken to estimate the enabled emissions reductions by renewable electricity generation: following IRENA's approach, the methodology compares the emissions of the country's alternative non-renewable mix to those from solar and wind generation. The applied emission factors (published by the IEA) cover the entire life cycle of power generation(5). Non-renewable generation mixes are based on historical data published by Enerdata(6) for each country or continent(7).TotalEnergies estimates that its renewable power generation may have enabled reduced emissions by around 18 Mt CO2e in 2024.
 
+<!-- Report Page 330 -->
 ## Estimates for 2030
 
 By 2030, the enabled emissions reductions could amount to 150 Mt CO2e (around 90 Mt CO2e for LNG sales and around 60 Mt CO2e for renewable production), compared with a Scope 3(8) maintained below 400 Mt CO2e. These enabled emissions reductions that will result from the customers' decision to substitute carbon-based energy products
@@ -4534,6 +4590,7 @@ communication and measures to be implemented, depending on the thresholds reache
 - a contract with a meteorological company allows us to supplement the
 information provided by the authorities and make it more reliable, by providing site-specific monitoring in real time.
 
+<!-- Report Page 331 -->
 ### 5.2.1.3 Metrics and targets
 
 #### A. TARGETS RELATED TO CLIMATE CHANGE MITIGATION AND ADAPTATION (E1-4)
@@ -4636,6 +4693,7 @@ categories considered as significant by the Company.
 - Reduce the lifecycle carbon intensity of the energy products sold by more than 25% compared to 2015. By 2025, the target reduction is at least
 17% (Scope 1+2+3).
 
+<!-- Report Page 332 -->
 #### Decarbonization levers used to achieve reduction targets
 
 The decarbonization levers enabling the Company to reach the reduction target of net(1) Scope 1+2 GHG emissions of operated facilities are described in the graph below.
@@ -4752,6 +4810,7 @@ taken into account on the same basis as market-based Scope 2 GHG emissions. For 
 
 Moreover, in 2024, the non-renewable energy production of the Company reached 1,429 TWh (hydrocarbons and electricity produced by flexible
 
+<!-- Report Page 333 -->
 ##### Energy intensity based on net revenue
 
 In the table below, the Company has estimated its ratio of energy intensity to net revenues(1). The net revenue corresponds to the Revenues from sales as presented in the consolidated statement of income, i.e. sales minus excise taxes (refer to point 8.2 of chapter 8). However, it is important to note that TotalEnergies' revenue is largely gas-powered capacities) and its renewable energy production reached 30 TWh (electricity from renewable sources, biofuels and biogas). correlated with oil and gas prices, which are volatile and over which it has no influence. Consequently, the energy intensity ratio per net revenue is not a relevant indicator for assessing changes in the Company's energy consumption.
@@ -5076,6 +5135,7 @@ In the table below, the Company has estimated its ratio of energy intensity to n
 
 <table>
 <tr>
+<!-- Report Page 334 -->
 <th rowspan="3">Significant Scope 3 GHG emissions</th>
 <th colspan="3">Retrospective</th>
 </tr>
@@ -5298,6 +5358,7 @@ Lifecycle Carbon intensity of energy products sold: this indicator measures the 
 - for the numerator:
 
 - emissions connected to the production and conversion of energy
+<!-- Report Page 335 -->
 products used by the customers of the Company;
 
 - emissions connected to the end use of energy products sold to the
@@ -5345,6 +5406,7 @@ In accordance with ESRS, biogenic CO2 emissions from the combustion or biodegrad
 
 ##### Accounting for Scope 3 Category 11 emissions Considering the largest volume in the oil and gas value chains
 
+<!-- Report Page 336 -->
 ##### Upstream oil & gas operations
 
 Upstream oil and gas exploration and production operations of the Exploration & Production and Integrated LNG segments. Facilities for power generation from renewable sources or natural gas, such as combined-cycle natural gas power plants are therefore excluded from this perimeter.
@@ -5488,6 +5550,7 @@ The Company has estimated the ratio of its GHG intensity per net revenue in the 
 
 (b) Volumes estimated upon historical data.
 
+<!-- Report Page 337 -->
 #### GHG REMOVALS AND GHG MITIGATION PROJECTS FINANCED THROUGH CARBON CREDITS (E1-7)
 
 ##### GHG removal and storage in TotalEnergies' own activities and its upstream and downstream value chain
@@ -5531,6 +5594,7 @@ Carbon credits used in the reference year (2024)
 <td>13 700 000</td>
 </tr>
 <tr>
+<!-- Report Page 338 -->
 <td>Part relating to removal projects (%)</td>
 <td>0.43%</td>
 </tr>
@@ -5636,6 +5700,7 @@ For its non-operated sites, TotalEnergies strives to share and promote best prac
 
 For the upstream part of its value chain (purchases of goods and services), the Company has a responsible purchasing program detailed in point 5.4.3.1.
 
+<!-- Report Page 339 -->
 #### A. MANAGEMENT OF CHRONIC AND ACCIDENTAL POLLUTION AT OPERATED FACILITIES
 
 To prevent accidental risks and in particular spills able to reach the environment, TotalEnergies implements risk management policies described in point 5.3.1.2.B.
@@ -5660,6 +5725,7 @@ The Company's standards require compliance with specifications for the design of
 
 TotalEnergies fully shares the desire to replace and/or minimize the use of substances of concern and to phase out the use of substances of very high concern in the industry. The Company regularly monitors product safety in order to eliminate and/or replace, where possible, substances of concern and extremely high concern that may be present in its industrial processes.
 
+<!-- Report Page 340 -->
 ##### C. AIR AND WATER EMISSIONS MANAGEMENT, SOIL PROTECTION OF OPERATED SITES
 
 In addition to complying with applicable legislation, TotalEnergies has drawn up rules and guidelines on which the Company's operated sites can rely to limit the quantities discharged into the atmosphere or water.
@@ -5742,6 +5808,7 @@ For hydrocarbon exploration-production activities, measurements of control to av
 
 In the event of an incident on a well in very deep water, seabed well closure equipment (subsea capping) and leak capture (subsea containment), mobilizable by air or maritime, have been positioned since 2014 in different parts of the world (South Africa, Brazil, Norway, Singapore). They allow you to have access to solutions more quickly in the event of an oil blowout or gas during underwater drilling. From these locations, these equipment can thus benefit TotalEnergies' operations all over the world. These devices come from the work of a group of nine oil companies including TotalEnergies part and are managed by the cooperative organization for the fight against pollution Marine Oil Spill Response Ltd (OSRL). Moreover, since 2018, a system intended to facilitate capping operations by shallow water depth, the Offset Installation Equipment (OIE), is positioned in Trieste (Italy). Managed by OSRL, it can be transported by plane or boat anywhere in the world if necessary. In addition, TotalEnergies has designed and developed its
 
+<!-- Report Page 341 -->
 #### B. CONTROLLING EMISSIONS TO AIR AND WATER
 
 In addition to local regulations and based on its long-term plan, TotalEnergies has set the following voluntary environmental targets for its operated sites:
@@ -5786,6 +5853,7 @@ Tables below show the evolution of discharges which are the subject of an target
 
 <table>
 <tr>
+<!-- Report Page 342 -->
 <td>Atmospheric chronic emissions</td>
 <td>2024</td>
 <td>2023</td>
@@ -5944,6 +6012,7 @@ provide for similar monitoring. The Company has asked its operated sites located
 
 The Company has also questioned the operators of its non-operated sites to collect their information concerning SoC and SVHC. The operators of these sites are mainly located in countries not subject to European regulations and have no obligation to collect and make this information public. In 2024, less than 15% of third-party operated entities provided SoC and SVHC data, and the Company is therefore unable to publish this information. The Company has not identified any reasonable scientific basis for making estimates of these missing data at this stage.
 
+<!-- Report Page 343 -->
 ##### 5.2.3 Water and marine resources (E3)
 
 ##### 5.2.3.1 Policies related to water and marine resources (E3-1)
@@ -6064,6 +6133,7 @@ Targets related to operated site discharges to surface waters are dealt with in 
 
 The freshwater withdrawal increase in 2024 is essentially linked to the acquisition of a new site.
 
+<!-- Report Page 344 -->
 #### 5.2.3.4 Actions and resources (E3-2)
 
 The various types of action shown in the chart below are expected to enable the Company to achieve its 2030 target.
@@ -6141,6 +6211,7 @@ In the course of its operated activities, the Company does not store any signifi
 
 The company has implemented a collection of data relating to water resources from its non-operated sites operators for the 2024 financial year. This collected data made it possible to compile data relating to the water resources of 73% of these sites. However, only 3 of the 9 non-operated sites located in water stress areas provided their data. Therefore, the information collected from non-operated sites is not representative. The Company is therefore unable to publish this information for 2024. Furthermore, in the absence of information from non-operated sites, calculation of water intensity as per the ESRS scope cannot be carried out. The Company will reiterate its requests for information from operators of non-operated sites to improve collection rates for the 2025 financial year. However, 94% of the Company's non-operated production comes from operators not subject to European regulations which have no obligation to provide this data.
 
+<!-- Report Page 345 -->
 ##### 5.2.4 Biodiversity and ecosystems (E4)
 
 #### 5.2.4.1 Transition plan and consideration of biodiversity and ecosystems in strategy and business model (E4-1)
@@ -6199,6 +6270,7 @@ In the table below, potential impacts are essentially generated by the sites and
 <th>Comments</th>
 </tr>
 <tr>
+<!-- Report Page 346 -->
 <td>1 EP Gladstone LNG (onshore/offshore)</td>
 <td>Australia</td>
 <td>OBO</td>
@@ -6326,6 +6398,7 @@ mitigation hierarchy.
 
 For other projects, a company rule requires the identification of impacts on biodiversity and ecosystem services, the implementation of the Avoid - Reduce/Restore - Offset mitigation hierarchy and the management of implementation performance. It also requires the implementation of a Biodiversity Action Plan for sites located in sensitive areas and recalls the Company voluntary exclusion zones.
 
+<!-- Report Page 347 -->
 ##### B. MANAGING THE RISKS AND IMPACTS ASSOCIATED WITH BIODIVERSITY IN PROJECTS AND OPERATIONS
 
 ##### In operated projects
@@ -6395,6 +6468,7 @@ and research actions concerning the ocean and coastal environments as part of To
 of the TotalEnergies Foundation's "Action!" program, by offering employees dedicated workdays to conduct actions in favour of biodiversity.
 
 These commitments and targets meet the SMART criteria(1) required by the Act4nature initiative promoted by the French Association 'Entreprises pour l'Environnement', to which TotalEnergies has been a signatory since
+<!-- Report Page 348 -->
 2018. These commitments have been the subject of detailed public
 annual reporting since the first quarter of 2021. This reporting indicates the number of sites concerned by the various commitments.
 
@@ -6435,6 +6509,7 @@ project (Iraq), partially located in a Ramsar area, is completed; Biodiversity n
 - furthermore, with regard to the zero net deforestation target, in 2024 a
 total of 186 ha of forest have been replanted for a deforestation of 156 ha. The reforestation balance is therefore 30 ha.
 
+<!-- Report Page 349 -->
 ## Axis 3: Existing Sites
 
 Since 2021, all 77 material sites for the environment led a biodiversity survey, i.e. 100% of the 2025 target (the 5 newly acquired sites have 2 years to conduct their biodiversity survey and design their Biodiversity Action Plan). The BAPs resulting from these surveys have been prepared, and some are in the process of being deployed. The BAPs consist in the implementation of Avoid - Reduce/Restore - Offset mitigation hierarchy measures which include the avoidance of key habitats for biodiversity (e.g. avoidance of approximately 16 ha of tropical secondary forest as part of the Ubeta site project in Nigeria), the protection of sensitive species (e.g. installation of protective barriers around the nests of oystercatchers against predators at the Zeeland refinery in the Netherlands), reducing light pollution (e.g. adjustments of light intensity and direction of lighting on natural areas of the Castejón CCGT in Spain), nature-based solutions (e.g. planting reeds for water treatment at certain sites of Marketing & Services), the salvaging of sensitive species (e.g. collection and relocation of reptiles as part of a soil remediation project at the Donges refinery in France), the management of invasive species (e.g. eco-grazing by goats to combat Himalayan knotweed on the Landivisiau CCGT in France), the restoration of natural habitats (e.g. restoration of a 3 ha meadow area as part of a green belt around the Leuna refinery in Germany; revegetating of former 1 ha well pad and restoration of a 1.5 ha quarry by the Aguada Pichana EP site in Argentina), the restoration of ecological connectivity at the landscape level (e.g. creation of biodiversity rich hedges along the highway at the Feyzin refinery in France), enhancement of existing habitats (e.g. creation of nesting boxes for birds and bats, planting of hedges, fruit bearing groves and flowering meadows on the Marchienne-au-Pont CCGT in France), the protection of sensitive species through the development of partnerships with key stakeholders locally (e.g. monitoring of a sea turtle spawning area adjacent to the Djeno Congo site with a partner NGO). These measures are complemented by Additional Conservation Actions (ACA) such as the contribution to a scientific publication on the discovery of a new species of tree frog (Litoria: Pelodryadidae) in Papua New Guinea as part of the Papua LNG project, or external awareness actions conducted by the Tempa Rossa oil site (Italy) regarding biodiversity education/awareness in schools (organization of visits in partnership with the Gallipoli Cognato Piccole Dolomiti Lucane park). The breakdown of mitigation actions is as follows: 7% of the actions are Avoidance actions, 37% of the actions concern Reduction actions, 11% are Restoration actions, 19% of the actions lead to Offsetting and the remaining 26% are dedicated to ACA. The 10 most used levers of action by the sites are: 1) the implementation of awareness and training actions (internal/external), 2) the reduction of pollution (sound, light), 3) the creation of micro-habitats and refuges for species (bird nests, bat roosts, hibernacula, pollard trees), 4) the implementation of monitoring indicators and the acquisition of new biodiversity data, 5) the implementation of measures to control invasive species, 6) the development of partnerships or sponsorships in connection with key local stakeholders for biodiversity, 7) the implementation of a differentiated management of green spaces, 8) the avoidance, restoration, creation or maintenance of wetland/pond type of natural habitat, 9) planning activities outside sensitive periods for species,
@@ -6452,6 +6527,7 @@ By the end of 2024, the Action! Program of the TotalEnergies Foundation has rais
 
 The biodiversity and ecosystems actions are spearheaded out by the Corporate HSE Environment & Social Department with the affiliates teams support.
 
+<!-- Report Page 350 -->
 ### 5.2.4.6 Impact indicators related to biodiversity and ecosystems change (E4-5)
 
 TotalEnergies uses available indicators or those required by various reporting frameworks, while recognizing that, in a constantly evolving field, there is currently no commonly accepted and shared impact indicator.
@@ -6526,6 +6602,7 @@ recyclable waste;
 - biopolymers derived from the processing of biofeedstock (vegetable
 oils and used cooking oils).
 
+<!-- Report Page 351 -->
 ## Producing more responsibly
 
 TotalEnergies has adopted a waste management policy that sets out the minimum requirements to be met by the Company's operated sites. Waste management is carried out in four basic stages: waste identification (technical and regulatory); waste storage (soil protection and emissions management); waste traceability, from production to disposal (e.g., transfer notes, waste manifests, statements); and waste treatment, with technical and regulatory knowledge of the relevant processes, under the site's responsibility. A Company rule requires subsidiaries to control the processing of the waste produced by all operated sites, at every stage of their operations. This approach is based on the following four principles, listed in decreasing order of priority:
@@ -6593,6 +6670,7 @@ The quantities of circular raw materials and circular sales are monitored and re
 <table>
 <tr>
 <th rowspan="2"></th>
+<!-- Report Page 352 -->
 <th colspan="5">Circular Economy - Company's global commitment (equity share view)</th>
 </tr>
 <tr>
@@ -6676,6 +6754,7 @@ In China, TotalEnergies strengthened its partnership with SINOPEC to develop a 2
 
 In 2024, TotalEnergies signed partnerships with major players in the aviation industry: in February, it signed an agreement with Airbus to supply SAF for more than half of its needs in Europe and launched a programme to develop 100% sustainable aviation fuels; in July, it signed an agreement with Air France-KLM to supply up to 1.5 Mt of SAF over 10 years.
 
+<!-- Report Page 353 -->
 ## B. Offering customers a range of circular polymers
 
 ### Mechanically recycled polymers
@@ -6726,6 +6805,7 @@ As conflict minerals may potentially be present in electrical and electronic com
 
 Lastly, in 2024, the Company analysed its exposure to the critical materials needed for renewable projects, battery chemistry and distribution networks (lithium, copper, aluminum, rare earths, nickel, cobalt, etc.). The study focused on the outlook for supply and demand, the technical and economic fundamentals of upstream mining, the concentrations and value chains associated with processing, the projected recycling capacities of the main user industries and the regulatory framework in the main countries or regions where these materials are produced and consumed. The transverse affiliate in charge of purchasing which is responsible for developing a better understanding of the Company's supply chain and analysing the risks associated with it, continues to monitor these critical materials.
 
+<!-- Report Page 354 -->
 #### 5.2.5.4 Raw materials used by TotalEnergies for its activities (E5-4)
 
 In 2024, the main raw materials used by TotalEnergies were:
@@ -6858,6 +6938,7 @@ Since 2022, TotalEnergies has set itself a target of 70% in terms of waste recov
 <th>2022</th>
 </tr>
 <tr>
+<!-- Report Page 355 -->
 <td>Waste recovery rate(a)</td>
 <td>%</td>
 <td>71</td>
@@ -7022,6 +7103,7 @@ The delegated regulation (EU) 2021/2139 of 4 June 2021 supplementing regulation 
 
 The delegated regulation (EU) 2023/2486 of 27 June 2023 supplementing regulation (EU) 2020/852 of the European Parliament and of the Council establishes the technical screening criteria relating to the four other environmental objectives (the sustainable use and protection of water and marine resources; the transition to a circular economy; the
 
+<!-- Report Page 356 -->
 ## REPORTING FRAMEWORK
 
 Article 8 of the Regulation requires undertakings(2) to include in their "consolidated non-financial statement information on how and to what extent the undertaking's activities are associated with economic activities that qualify as environmentally sustainable under Articles 3 and 9 of this Regulation".
@@ -7135,6 +7217,7 @@ Given the size of the Company and the adopted development model using partnershi
 </tr>
 </table>
 
+<!-- Report Page 357 -->
 ## ELIGIBLE ACTIVITIES OF TOTALENERGIES
 
 TotalEnergies' Eligible Activities focus mainly on the climate change mitigation objective.
@@ -7205,6 +7288,7 @@ The Ratios calculated using the proportional view are based on the Turnover and 
 
 An internal procedure documents the methodology for determining Eligible Activities and Aligned Activities, the precise definition of financial indicators and all the criteria and assumptions used. Methodology and definitions may evolve depending on future changes in regulations and interpretations.
 
+<!-- Report Page 358 -->
 ### 5.2.6.2 Alignment of TotalEnergies' activities
 
 The tables below present the proportion of the Eligible Activities and the proportion of the Aligned Activities on the Turnover and CapEx indicators, on the scope of the entities controlled by TotalEnergies, as well as a proportional view, proposed by the delegated regulation of 6 July 2021, including the contribution of joint-ventures and associates in which
@@ -7377,6 +7461,7 @@ that criterion if it is (i) fully manufactured by mechanical recycling of plasti
 - the manufacture of biogas by anaerobic digestion of bio-waste [CCM
 5.7] complies with that criterion if the methane leakage and the traceability of the feedstock and digestates are under control and if the share of food-and feed crops is lower than 10%.
 
+<!-- Report Page 359 -->
 ## "DO NO SIGNIFICANT HARM" CRITERION
 
 With regard to the regulatory criterion named "Do no significant harm" any of the environmental objectives, TotalEnergies relies on the HSE division and the HSE departments within the Company's entities which seek to ensure that applicable local regulations, internal requirements of One MAESTRO reference framework and the Company's additional commitments are respected (refer to point 5.1.4) to analyze if its Eligible Activities comply with this criterion.
@@ -7423,6 +7508,7 @@ CapEx related to CapEx Plans are part of a plan to expand Aligned Activities or 
 
 TotalEnergies is maintaining an annual capital expenditures target of $16-18 billion over the next 5 years. Since several years, TotalEnergies has consistently maintained a significant investment effort in low carbon energies, mainly in low-carbon electricity. However, the Company maintains a downward flexibility of $2 billion per year in case of a sharp decrease of prices. Through cycles, TotalEnergies expects net investments of between $14 billion and $18 billion per year. Net investments in low-carbon energies are expected to amount to 4 to 5 billion dollars a year. They include investments in Integrated Power (approximatively $4 billion), low-carbon molecules (including biofuels, biogas, recycled plastic, biopolymers, synthetic fuels, hydrogen and CCS) as well as the nature-based carbon sinks projects allowing, from 2030, to contribute to reduction of the Company's carbon footprint, (refer to point 1.5 of chapter 1).
 
+<!-- Report Page 360 -->
 ### 5.2.6.3 Key performance indicators within the taxonomy
 
 ## Proportion of Turnover from products or services associated with Taxonomy-aligned economic activities
@@ -8441,6 +8527,7 @@ TotalEnergies is maintaining an annual capital expenditures target of $16-18 bil
 </tr>
 </table>
 
+<!-- Report Page 361 -->
 Proportion of CapEx from products or services associated with Taxonomy-aligned economic activities
 
 <table>
@@ -9150,6 +9237,7 @@ Proportion of CapEx from products or services associated with Taxonomy-aligned e
 <th>Transitional (T) activity</th>
 </tr>
 <tr>
+<!-- Report Page 362 -->
 <td>A. Taxonomy-eligible activities</td>
 <td></td>
 <td></td>
@@ -10050,6 +10138,7 @@ Proportion of CapEx from products or services associated with Taxonomy-aligned e
 </tr>
 </table>
 
+<!-- Report Page 363 -->
 ## Key performance indicators by environmental objective
 
 The tables below are required by the delegated regulation (EU) 2023/2486 of 27 June 27 2023. They make it possible to declare the degree of eligibility and alignment by environmental objective, including alignment with each of the environmental objectives for activities contributing substantially to several objectives including: climate change mitigation (CCM), climate change adaptation (CCA), sustainable use and protection of water and marine resources (WTR), transition to a circular economy (CE), pollution prevention and control (PPC) and protection and restoration of biodiversity and ecosystems (BIO).
@@ -10183,6 +10272,7 @@ The tables below are required by the delegated regulation (EU) 2023/2486 of 27 J
 </tr>
 </table>
 
+<!-- Report Page 364 -->
 ## Key performance indicators on the activities related to natural gas and nuclear energy
 
 The tables below are required by supplementing delegated regulation (EU) 2022/1214 of 9 March 2022 on the activities related to natural gas and nuclear energy. The scope of Eligible Activities related to natural gas is limited and therefore does not acknowledge the role of natural gas as an important technology in reducing greenhouse gas emissions. For information and in addition to European regulations, the share of Eligible Activities and noneligible activities related to natural gas, on the scope of the entities controlled by TotalEnergies, stands in 2024 at 10% of Turnover, 25% of CapEx and 10% of OpEx. In 2023, it stood at 12% of Turnover, 14% of CapEx and 26% of OpEx.
@@ -10328,6 +10418,7 @@ The tables below are required by supplementing delegated regulation (EU) 2022/12
 </tr>
 </table>
 
+<!-- Report Page 365 -->
 ## Taxonomy-aligned economic activities (denominator)
 
 <table>
@@ -10533,6 +10624,7 @@ The tables below are required by supplementing delegated regulation (EU) 2022/12
 </tr>
 </table>
 
+<!-- Report Page 366 -->
 ## Taxonomy-aligned economic activities (numerator)
 
 <table>
@@ -10737,6 +10829,7 @@ The tables below are required by supplementing delegated regulation (EU) 2022/12
 </tr>
 </table>
 
+<!-- Report Page 367 -->
 ## Taxonomy-aligned economic activities (numerator)
 
 <table>
@@ -10941,6 +11034,7 @@ The tables below are required by supplementing delegated regulation (EU) 2022/12
 </tr>
 </table>
 
+<!-- Report Page 368 -->
 ### Taxonomy-eligible but not taxonomy-aligned economic activities
 
 <table>
@@ -11145,6 +11239,7 @@ The tables below are required by supplementing delegated regulation (EU) 2022/12
 </tr>
 </table>
 
+<!-- Report Page 369 -->
 ## Taxonomy non-eligible economic activities
 
 <table>
@@ -11271,6 +11366,7 @@ The tables below are required by supplementing delegated regulation (EU) 2022/12
 </tr>
 </table>
 
+<!-- Report Page 370 -->
 ## Taxonomy non-eligible economic activities
 
 <table>
@@ -11389,6 +11485,7 @@ The tables below are required by supplementing delegated regulation (EU) 2022/12
 
 \* Other adjustments include investment grants and capitalized financial expenses.
 
+<!-- Report Page 371 -->
 ### 5.3 Social information
 
 #### 5.3.1 Company workforce (S1)
@@ -11491,6 +11588,7 @@ At December 31, 2024, the Company had 102,887 employees belonging to 350 employi
 
 (a) Certain local regulations do not allow the categories "other" and "not reported". The corresponding data are not collected in these countries.
 
+<!-- Report Page 372 -->
 #### Employees in countries with at least 50 employees representing at least 10% of the Company's total workforce
 
 France is the only country representing at least 10% of the total number of the employees of the Company.
@@ -11823,6 +11921,7 @@ In 2024, the regions where Company's workforce is most represented were Europe (
 <table>
 <tr>
 <th rowspan="3"></th>
+<!-- Report Page 373 -->
 <th colspan="12">Employees as of December 31</th>
 </tr>
 <tr>
@@ -12232,6 +12331,7 @@ In 2023, in the context of the Collectif d'entreprises pour une économie plus i
 
 At the end of 2024, over 2,400 work-study students were working within the Company throughout France.
 
+<!-- Report Page 374 -->
 ### D. Departures from the workforce
 
 <table>
@@ -12378,6 +12478,7 @@ This HSE reference framework applies to all controlled subsidiaries within the s
 
 It is based on ten fundamental principles: (1) Management Leadership & Commitment, (2) Compliance with Laws, Regulations and Company requirements, (3) Risk Management, (4) Operational Accountability, (5) Contractors and Suppliers, (6) Competencies & Training, (7) Emergency Preparedness, (8) Learning From Events, (9) Monitoring, Audit & inspection, and (10) Performance Improvement.
 
+<!-- Report Page 375 -->
 ### Key principles of the One MAESTRO reference framework
 
 <figure>
@@ -12415,6 +12516,7 @@ The HSE division is responsible for the ongoing management of HSE issues, workin
 
 Health and safety issues are an important part of social dialogue, as described in chapter 5.3.1.4.
 
+<!-- Report Page 376 -->
 ## Health and safety objectives
 
 Our main health and safety objectives are:
@@ -12463,6 +12565,7 @@ The Company is actively represented in international associations in the field o
 
 In 2024, World Safety Day focused on technological risks with "Accidents and Feedback: Let's learn from our experiences".
 
+<!-- Report Page 377 -->
 ### Major accident prevention indicators
 
 In the prevention of major industrial accidents, TotalEnergies monitors the number of Tier 1 and Tier 2 losses of primary containment as defined by the American Petroleum Institute (API) and the International Association of Oil & Gas Producers (IOGP).
@@ -12524,6 +12627,7 @@ The proper implementation of the One MAESTRO reference framework, and more gener
 
 The Company's HSE division includes specialists in high-risk operations (work at height, lifting, electricity, confined spaces, etc.), whose purpose is to consolidate in-house knowledge and relations with contractors, and to issue the relevant One MAESTRO rules. The HSE division also provides support for subsidiaries in their own voluntary approach to strengthen their safety culture. This division also develops and disseminates tools to improve human performance by identifying the Organizational and Human Factors (OHF) of a work situation and defining appropriate measures. Since 2020, a digital platform has hosted these different tools, as well as examples of how to apply them, fact sheets and information about OHF fundamental concepts. It also includes the principles covered by two guides of the One MAESTRO reference framework, dealing respectively with OHF and Integrated Safety Culture approaches. The implementation of these principles is promoted within the Company through dedicated modules integrated into the training programs for different populations and through specific training programs at the request of the subsidiaries.
 
+<!-- Report Page 378 -->
 ### Security of operations
 
 Concerning security, the policy aims to protect the Company's people and property from malicious intentions or acts. To achieve this, TotalEnergies relies on its Security division, which draws up the Company's reference framework and oversees the security situation in the countries in which it operates in order to determine general security measures to be adopted (such as authorization to travel). The Company's security reference framework applies to all subsidiaries controlled by TotalEnergies. It provides that the security management system for subsidiaries must include the following stages: analysis of the threat, risk assessment, choice of a security posture, implementation of preventive or protective measures, control and reporting and then regular reviews. It must also comply with the requirements of local regulations. The framework requires each subsidiary to develop a security plan, operating procedures and an action plan. Within the framework of developing new activities, the Company's Security division recommends the organization and resources to be deployed in connection with the business segments.
@@ -12722,6 +12826,7 @@ The Company's efforts on safety allowed it to reduce the TRIR by more than 58% b
 This improvement is attributable to constant efforts in safety and, specifically:
 
 - preventing the risks of serious and fatal accidents through campaigns
+<!-- Report Page 379 -->
 addressing road transport and high-risk work;
 
 - the implementation of the HSE rules and guides, which are regularly
@@ -12763,6 +12868,7 @@ as well as the contractors' dedicated light vehicles, to be equipped with the sa
 
 The third part of the 2023-2024 SafeDriver video campaign, entitled "All SafeDrivers", took place in November 2024, with the theme "I'm attentive to others when driving". Other topics covered during the campaign included: "I'm always in control of my vehicle", and "I don't drive if I'm tired and I avoid distractions while driving".
 
+<!-- Report Page 380 -->
 ## Transportation accident prevention indicators
 
 To measure the results of its policy for the prevention of road transportation accidents, TotalEnergies has for many years monitored the number of severe road accidents involving its own employees and those of its contractors. Over the past five years (2019-2024), the 61% reduction in the number of severe road accidents testifies to the efforts made, thanks, in particular, to prevention campaigns for heavy goods truck drivers.
@@ -12849,6 +12955,7 @@ The program is managed by the People & Social Engagement division, the Company's
 
 #### Action plan
 
+<!-- Report Page 381 -->
 The program is based on three levels:
 
 - primary prevention consists of systematically assessing the mental
@@ -12876,6 +12983,7 @@ These physical and mental health commitments are included in the Health pillar o
 
 <table>
 <tr>
+<!-- Report Page 382 -->
 <th>Indicators for prevention of risks to health in the workplace</th>
 <th>2024</th>
 <th>2023</th>
@@ -13023,6 +13131,7 @@ The People & Social Engagement division coordinates the promotion and deployment
 
 ##### Action plan
 
+<!-- Report Page 383 -->
 ##### Social protection
 
 Ensure a living wage and quality social protection for all employees, regardless of their location (refer to point 5.3.1.3-C)
@@ -13090,6 +13199,7 @@ In 2023, an agreement in favor of employee caregivers(1) was unanimously signed 
 
 <table>
 <tr>
+<!-- Report Page 384 -->
 <th>Family sphere Indicators - WHRS</th>
 <th>2024</th>
 <th>2023</th>
@@ -13237,6 +13347,7 @@ In 2024, the TotalEnergies' score(4) is 83.1%, while the benchmark(5) is 71%.
 
 <table>
 <tr>
+<!-- Report Page 385 -->
 <th>Care Index TotalEnergies</th>
 <th>2024</th>
 <th>2023</th>
@@ -13415,6 +13526,7 @@ Employees who had a performance and development appraisal
 <td>−</td>
 </tr>
 <tr>
+<!-- Report Page 386 -->
 <td>Managers (JL ≥ 10)(b)</td>
 <td>96.2%</td>
 <td>95.2%</td>
@@ -13522,6 +13634,7 @@ The Company's training catalog offers nearly 5,800 training content (on-site and
 
 After each training session, participants, and their managers where applicable, receive a satisfaction survey designed to assess the impact of the training and its results in the light of the stated objectives.
 
+<!-- Report Page 387 -->
 #### Skills development programs
 
 #### a) Global "upskilling" program
@@ -13648,6 +13761,7 @@ The training provided to the unit's operators to help them make the best start i
 </tr>
 </table>
 
+<!-- Report Page 388 -->
 ## C. COMPENSATION AND BENEFITS
 
 The Company's compensation and benefits policy is an integral part of our Better Together people ambition. It aims to offer our employees a competitive, transparent and fair compensation package, linked to individual performance and in line with the Company's corporate social responsibility commitments.
@@ -13726,6 +13840,7 @@ reference salary
 
 Since 2021, TotalEnergies assesses any discrepancies between direct remuneration(1) and the living wage(2) in all its subsidiaries(3). The result of the studies carried out show that, since the end of 2022, the Company had reached its target, as 100% of employees received direct remuneration at least equal to the living wage in the country or region in which they work.
 
+<!-- Report Page 389 -->
 A living wage is defined as an income that allows employees:
 
 - to provide a decent life for their family,
@@ -13765,6 +13880,7 @@ Since 2023, employees in French companies can finance their subscription to the 
 
 ### Share capital increases indicators
 
+<!-- Report Page 390 -->
 #### Employee savings
 
 The development of employee savings schemes enables each employee, with the help of TotalEnergies, to build up and then develop medium or long-term savings, in order to retire or to support major life events.
@@ -13831,6 +13947,7 @@ In addition to the guides and training courses available on the TotalEnergies tr
 
 Moreover, in France, TotalEnergies is a signatory of the Charter developed by an organization called l'Autre Cercle, which provides a framework for combating workplace discrimination in France based on an individual's sexual orientation or identity.
 
+<!-- Report Page 391 -->
 ##### Remediation procedure
 
 The Ethics Committee plays a key role in listening and providing assistance. It can be contacted by employees on the e-mail address: ethics@totalenergies.com (refer to point 5.3.1.5).
@@ -13892,6 +14009,7 @@ In 2018, TWICE launched the TWICE@Digital initiative to encourage networking amo
 
 Initiatives are also being launched at branch level to promote women's career development. Within Exploration & Production, a 100-day training program called "The A effect", was launched in 2023 for talented women who wish to fully realize their potential. Since its launch, 130 women employees have joined the program from headquarters and 25 subsidiaries.
 
+<!-- Report Page 392 -->
 ## Diversity indicators
 
 ## Representation of diversity in management and governing bodies
@@ -14201,6 +14319,7 @@ Since 2019, consistent with French Act 2018-771 of September 5, 2018, on the fre
 
 In November 2023, the Company and all the representative trade union organizations within the scope of the Socle Social Commun(1) in France unanimously signed a new agreement relating to professional equality. Through this agreement, the parties reaffirm their commitment to respecting the principle of equal treatment between women and men.
 
+<!-- Report Page 393 -->
 ## Pay gap indicators
 
 The ratio of total annual compensation is presented in point 4.3.2.1.
@@ -14323,6 +14442,7 @@ As a partner of the Conférence des Grandes Ecoles, TotalEnergies finances an in
 
 Internationally, the Company aims to support employees with disabilities whatever the legal obligations in each country. This ambition is reflected in the signing of the International Labour Organization's (ILO) Global Business and Disability Network Charter in October 2018. At the end of 2024, 41 subsidiaries had voluntarily signed up to the policy and set themselves goals based on the five principles identified as priorities by the Company: respect and promotion of rights, non-discriminatory policies and practices, accessibility, job retention and confidentiality. This new dynamic is reflected in the regular exchange of best practices and the supply of awareness-raising tools.
 
+<!-- Report Page 394 -->
 ## Disability indicators
 
 <table>
@@ -14394,6 +14514,7 @@ As a responsible employer, TotalEnergies manages organizational changes responsi
 In 2024, 35 subsidiaries worldwide underwent organizational changes that could have impact on employees, and 33 (94.3%) of them implemented measures to support their employees. They included:
 
 - 14 subsidiaries that took supporting measures for retirement or early
+<!-- Report Page 395 -->
 retirement. This represents 40.0% of the subsidiaries concerned,
 
 - 30 subsidiaries that resorted to redeployment or mobility as supporting
@@ -14513,6 +14634,7 @@ France is the only country representing at least 10% of the total number of the 
 <td>91.8%</td>
 </tr>
 <tr>
+<!-- Report Page 396 -->
 <td>in the EEA(a)(b)</td>
 <td>100%</td>
 <td>–</td>
@@ -14587,6 +14709,7 @@ Secondly, each business segment, as well as the TotalEnergies Global Procurement
 
 ## D. ACTION PLAN
 
+<!-- Report Page 397 -->
 ### Awareness-raising and training
 
 In order to disseminate the Company's commitments, TotalEnergies raises its employees' awareness via internal communication channels such as intranet sites and events such as the Business Ethics Day, which is held each year at the headquarters and in subsidiaries. In 2024, the Business Ethics Day was held on December 10 and dealt with returning to the basics of the Code of Conduct. The Chairman & Chief Executive Officer of TotalEnergies speaking in a live event reminded to all the personnel of the Company the cardinal values of the Code of Conduct, notably to respect each other and the zero tolerance on fraud and corruption.
@@ -14648,6 +14771,7 @@ In 2024, seven ethics and human rights assessments were conducted. They concerne
 
 The follow-up of the action plans put in place further to the 2023 assessments in Vietnam, Morrocco, South Africa and Republic of the Congo subsidiaries was also carried out in 2024.
 
+<!-- Report Page 398 -->
 ## E. COMBATTING FORCED LABOR AND CHILD LABOR
 
 In accordance with ILO standards, it is forbidden to hire people under the age of 15. The minimum age for access to any type of employment or work considered dangerous must not be less than 18. TotalEnergies is concerned about the risk of forced labor and child labor. Such situations are a challenge, but also an opportunity to use our skills to promote respect for human rights in the workplace.
@@ -14728,6 +14852,7 @@ Beyond the incidents reported to the Ethics Committee above, the Company is not 
 
 In 2024, TotalEnergies was not aware of any serious incidents related to human rights (such as forced labor, human trafficking, or child labor, for example).
 
+<!-- Report Page 399 -->
 ### 5.3.2 Value chain workers (S2)
 
 TotalEnergies' activities generate hundreds of thousands of direct and indirect jobs worldwide. Workers in the value chain likely to be affected by material impacts related to the Company's activities or its value chain include:
@@ -14763,6 +14888,7 @@ For more information on upstream value chain worker policies, refer to point 5.4
 
 In addition, preventing risks related to working conditions is a major challenge and a commitment for the Company. In this context, TotalEnergies is rolling out a program to engage and assess its priority suppliers. In 2024, supplier assessments carried out via onsite audits (refer to point 5.4.3) identified situations of non-compliance with the principles of the Company's Code of Conduct and the Fundamental Principles of Purchasing. These are mainly related to safety in the workplace, the absence of supplier reporting mechanisms, and working conditions (e.g. vacation entitlement under local laws). Action plans to address identified deficiencies are implemented by suppliers and monitored by TotalEnergies, as well as verified by the external service provider in charge of carrying out these audits.
 
+<!-- Report Page 400 -->
 ## Minerals policies
 
 The origin, extraction and refining conditions as well as the use of certain minerals, ores and raw materials are the subject of particular attention, given the potential risks to human rights like forced labour, child labour and inadequate working conditions, and the environment. In 2022, TotalEnergies conducted an internal study to identify the Company's priorities in this area. This study, based on a materiality analysis and a risk analysis, identified three priorities: cobalt, polysilicon and conflict minerals (gold, tungsten, tin and tantalum).
@@ -14796,6 +14922,7 @@ At the global level, TotalEnergies signed in 2015 a four-year agreement with Ind
 
 In December 2017, TotalEnergies also joined the worldwide Global Deal initiative, a multi-stakeholder partnership whose goal is to encourage governments, companies, unions and other organizations to make concrete commitments to improve dialogue with employee on all levels and to propose concrete solutions to reconcile economic performance and social progress. The Global Deal promotes the idea that effective
 
+<!-- Report Page 401 -->
 ## UPSTREAM VALUE CHAIN
 
 The Company assesses its priority suppliers in terms of human rights and environment through on-site audits carried out by an independent third party. These audits include systematic interviews with suppliers' employees. In the event of a deficiency observed, the supplier must put in place an action plan, monitored by the TotalEnergies teams and whose effectiveness is verified by an independent external service provider. Among the 600 suppliers audited on site since 2023, more than 260 of them have implemented verified improvements concerning the right to a weekly day off, access to grievance mechanism and overtime pay.
@@ -14830,6 +14957,7 @@ IRMS is a mechanism that could be deployed on other projects.
 
 For more information, refer to point 5.4.3. "Supplier Relationship Management" describes the Company's Sustainable program for workers in the upstream value chain.
 
+<!-- Report Page 402 -->
 ## DOWNSTREAM VALUE CHAIN
 
 Please refer to the "Downstream value chain" section in point 5.3.2.2 "Dialogue process with value chain workers" regarding impacts. Salient human rights issues in the workplace, including forced labor, child labor, and safe and satisfactory working conditions, have been identified for several years by the Company in all its activities, including those of service stations in the M&S segment. The Company has integrated these risks into its approach to human rights, enabling it to better assess them and, where necessary, implement actions to avoid or reduce the impact on workers in the value chain. In addition, the M&S segment set up a Human Rights Committee since 2022, which ensures the proper deployment of the segment's human rights roadmap. Audits carried out by the Ethics Committee with the assistance of GoodCorporation within the M&S segment, include service stations; in this context, station dealers are systematically interviewed.
@@ -14886,6 +15014,7 @@ specifies that TotalEnergies implements periodic risk assessments and appropriat
 - The One MAESTRO (Management and Expectations Standards
 Toward Robust Operations) reference framework, comprising rules, guides and manuals, specifications, video tutorials and a community of practice, accessible online to all TotalEnergies subsidiaries, and which facilitates the structuring and implementation of an operational societal approach adapted to the local specificities of territories and communities. It includes a rule dedicated to the management of stakeholders and local impacts, which describes the approach to be followed in managing the societal risks and impacts of the Company's operations.
 
+<!-- Report Page 403 -->
 ## SPECIAL PROVISIONS FOR INDIGENOUS AND TRIBAL PEOPLES
 
 TotalEnergies, aware of the particularities of Indigenous Peoples, recognizes Convention 169 of the International Labour Organization (ILO) adopted in 1989, the 2007 United Nations Declaration on the Rights of Indigenous Peoples and various World Bank standards, including the International Finance Corporation (IFC) performance standards. A Charter of Principles and Guidelines regarding Indigenous and Tribal Peoples has been issued to conduct projects with careful consideration for their rights, while respecting applicable laws.
@@ -14949,6 +15078,7 @@ business and human rights (UNGP) Reporting Framework relating to the impact thro
 - right to health and to an adequate standard of living,
 
 - and the risk to human rights in security activities in the event of
+<!-- Report Page 404 -->
 disproportionate use of force.
 
 To address these key human rights issues, the Company's stakeholder and local impact management policy is based on:
@@ -14983,6 +15113,7 @@ Each subsidiary within the One MAESTRO scope reports the number of grievances as
 
 Finally, these grievance and alert mechanisms can also be used in the context of the implementation of the Voluntary Principles on Security and Human Rights. In the event of an incident, a reporting process requires the Security division to be informed and an internal analysis to be performed to establish the facts, resulting in a final report. This allows the Subsidiary to re-assess its VPSHR process and to take measures to reduce the risk of incidents.
 
+<!-- Report Page 405 -->
 #### 5.3.3.4 Actions to manage material impacts and opportunities for affected communities
 
 ## Human rights of local communities whose territories are affected by the Company's activities
@@ -15039,6 +15170,7 @@ In the Africa Marketing & Services Department, the Young graduate program has be
 
 The Exploration & Production segment's international scholarship programs contribute both to the promotion of French higher education around the world and to the development of the skills of students from host countries. The beneficiaries of international scholarships, selected in their country of origin by the TotalEnergies subsidiary concerned, join multi-year academic programs in France, from bachelor level to PhD in highly diverse fields of study. In 2024, TotalEnergies financed and supported 136 scholarship students from 10 different countries (Angola, Azerbaijan, Congo,EAU, Iraq, Mozambique, Nigeria, Uganda, Rwanda, Sao Tome, etc.).
 
+<!-- Report Page 406 -->
 ### Fair, multi-energy energy transition
 
 TotalEnergies also supports producer countries in making a just energy transition, by implementing programs to diversify energy sources and reduce dependence on fossil fuels, in particular with the ambition of giving 100 M people in Africa and India access to clean cooking by 2030 (refer to point 5.3.4 (S4)).
@@ -15078,6 +15210,7 @@ The Tilenga and EACOP projects have developed of a detailed national and local c
 
 In terms of training, these projects aim to provide three million hours of training to local employees in Uganda and Tanzania. Approximately 40% of the technical skills acquired through these training courses can be used in other industrial projects (e.g. truck driving, welding, etc.).
 
+<!-- Report Page 407 -->
 ### 5.3.4 Consumers and end-users (S4)
 
 ## RESPONSIBLE BUSINESS PRACTICES
@@ -15133,6 +15266,7 @@ listening and,
 year with the French national energy ombudsman.
 
 In its relations with its customers, as with all other stakeholders, TotalEnergies is committed to respecting internationally recognized human rights, in particular the United Nations Guiding Principles on Business and Human Rights (UNGPs), the principles set out in the fundamental conventions of the International Labour Organization and the OECD Guidelines for Multinational Enterprises. These commitments apply, in particular, to the safety of our products sold and to our customers' personal data. environment. These include the identification and assessment of the risks inherent to these products and their use, as well as providing information to consumers. The material safety data sheets that accompany the petroleum or chemical products marketed by the Company, including those not classified as dangerous, available in at least one of the languages used in the relevant country, as well as product labels, are two key sources of information.
+<!-- Report Page 408 -->
 
 The implementation of these requirements is monitored by teams of regulatory experts, toxicologists and ecotoxicologists within the Refining & Chemicals and Marketing & Services segments of the Company. These teams' assignment is the preparation of safety documentation for the marketed petroleum and chemical products so that they correspond to the applications for which they are intended and to the applicable regulations. These teams therefore draw up the material safety data sheets and compliance certificates (contact with food, toys, pharmaceutical packaging, etc.) and carry out REACH registration(1) (or equivalent in other geographical regions) if necessary. Thanks to their scientific and regulatory monitoring, they support the development of future commercial products and monitor updates of safety data sheets, certificates and registrations so that they remain compliant with regulations in force.
 
@@ -15188,6 +15322,7 @@ In addition to these key elements, the Company develops and relays rules to be f
 
 The Audit Committee oversees the implementation of the cybersecurity risk management program. The Committee reviews the cybersecurity risk control system and the deployment of the multi-year program that covers the Company's information systems. The Committee is informed of the results of audit missions conducted, self-assessments, and, if necessary, any significant cybersecurity incidents. The Committee periodically reports on its activities, including those related to cybersecurity, to the Board of Directors.
 
+<!-- Report Page 409 -->
 ## ACCESS TO MORE SUSTAINABLE ENERGY (OR JUST TRANSITION)
 
 TotalEnergies aims to address the challenges of the energy transition by providing energy to the less developed countries, meeting the needs of their growing populations aspiring to improve their standard of living. To achieve this, the Company supports its customers' transition towards the consumption of low-carbon and affordable energy.
@@ -15216,6 +15351,7 @@ TotalEnergies conducts an internal opinion survey (TotalEnergies Survey) every t
 
 The latest edition of the 2024 survey (TotalEnergies Survey) was conducted among more than 90,000 employees(2) across 122 countries. The results(3) indicate that employees have an engagement rate of 83.7%, with 90% expressing pride in working for TotalEnergies. These high results are an improvement compared to the survey conducted in 2022.
 
+<!-- Report Page 410 -->
 #### 5.4.1.2 A collective ethics
 
 The Company considers adopting ethical conduct essential to its operational activities with its internal and external stakeholders, its reputation, and its performance.
@@ -15282,6 +15418,7 @@ dedicated to ethics and compliance, including the Code of Conduct, which repeate
 
 The Company ensures the dissemination and promotion of its ethical approach to its stakeholders by making available on its website the information and documents specifying its commitment and the actions implemented.
 
+<!-- Report Page 411 -->
 #### 5.4.1.4 Awareness-raising and training on ethics and business conduct
 
 TotalEnergies conducts awareness and training initiatives for employees on issues related to ethics.
@@ -15342,6 +15479,7 @@ The compliance program applies to all companies controlled by the Company, in ac
 
 An Anti-Corruption Compliance Directive recaps the main principles and organizes the roll-out of the anti-corruption program. It is complemented by rules that deal with more specific subjects.
 
+<!-- Report Page 412 -->
 #### Corruption risk mapping
 
 The corruption risk mapping is carried out at two-tier mapping: that of entities coordinated by the Compliance Officer and that of business segments coordinated by the Branch Compliance Officers. At the business segment level, the assessment needs to examine the main types of risk (purchasing, sales, conflicts of interest, gifts and hospitality, human resources, representatives dealing with public officials, mergers and acquisitions, joint-ventures, donations and sponsoring, and influence peddling). This two-tier analysis is aimed at establishing action plans that are appropriate to the risks identified and the realities on the ground.
@@ -15400,6 +15538,7 @@ Board of Directors. This presentation provides an opportunity to report the resu
 
 The Company processed reports and proven cases of corruption, and in accordance with the "zero tolerance" principle, proven cases were subject to disciplinary sanctions and remediation measures.
 
+<!-- Report Page 413 -->
 ## 5.4.3 Supplier relationship management (G1-2)
 
 Present in about 120 countries, the Company works with a network of over 100,000 suppliers of goods and services. In 2024, the Company's purchases of goods and services (excluding petroleum products and vessel chartering by Trading & Shipping) represented approximately $31 billion worldwide. The allocation of purchasing expenditures at Company level is approximately 25% for goods (products, materials, etc.) and 75% for services (such as consulting services, materials supply operations, transportation, etc.). TotalEnergies' activities generate hundreds of thousands of direct and indirect jobs worldwide.
@@ -15482,6 +15621,7 @@ commercial relations with the Company (amount of purchasing expenditure, irrepla
 - 800 suppliers selected on the basis of the risks they present in terms
 of human rights and/or the environment due to the business segment and the country in which they operate. These 800 suppliers represent approximately 10% of the Company's purchasing expenditure.
 
+<!-- Report Page 414 -->
 ### PROGRAM OBJECTIVES AND ACHIEVEMENTS
 
 #### Axe 1: Strengthen the Sustainable procurement culture within the Company
@@ -15556,6 +15696,7 @@ In order to support its suppliers in improving their practices, the Company has 
 
 Finally, the Company encourages its main suppliers to reduce their emissions and has set itself the objective that 90% of the 400 most emitting suppliers have adopted reduction objectives for their Scope 1+2 in 2025. At the end of 2024, the objective had been achieved, with 90% of them having adopted targets for reducing their emissions. Suppliers who responded that they have set reduction targets are subject to regular monitoring. Suppliers who have not adopted targets for reducing their emissions are also monitored and the Company asks them for an action plan aimed at ensuring that they adopt targets by the end of 2025.
 
+<!-- Report Page 415 -->
 #### 5.4.3.3 Specific actions in favor of certain categories of suppliers
 
 ##### LOCAL ECONOMIC DEVELOPMENT
@@ -15602,6 +15743,7 @@ average with a ratio of 83%.
 
 There are no ongoing legal proceedings reported after questioning the subsidiaries at the end of December 2024 regarding late payments.
 
+<!-- Report Page 416 -->
 ## 5.5 Certification reports of the statutory auditors
 
 ## 5.5.1 Report on the certification of sustainability information and verification of the disclosure requirements under Article 8 of Regulation (EU) 2020/852
@@ -15658,6 +15800,7 @@ opportunities related to sustainability matters, and to identify the material im
 
 We also checked the compliance with the requirement to consult the social and economic committee.
 
+<!-- Report Page 417 -->
 ### Conclusion of the procedures carried out
 
 On the basis of the procedures we have carried out, we have not identified any material errors, omissions or inconsistencies regarding the compliance of the process implemented by TotalEnergies SE with the ESRS.
@@ -15730,6 +15873,7 @@ We set out below the elements that have been the subject of particular attention
 
 Information reported in relation to climate change (ESRS E1) is mentioned in section 5.2.1 of the sustainability report.
 
+<!-- Report Page 418 -->
 Our work consisted primarily of assessing:
 
 - through interviews conducted with management, in particular the « Sustainability & Climate > department, whether the description of the policies,
@@ -15804,6 +15948,7 @@ Based on the procedures we have carried out, we have not identified any material
 
 We set out below the elements that have been the subject of our particular attention in relation to the compliance with the information publication requirements of Article 8 of Regulation (EU) 2020/852.
 
+<!-- Report Page 419 -->
 ### Concerning the alignment of eligible activities
 
 Information on the alignment of activities is set out in section 5.2.6.2 of the sustainability report.
@@ -15882,6 +16027,7 @@ Moreover, some information is sensitive to the choice of methodologies and the a
 
 In addition, greenhouse gas emissions quantification is subject to inherent uncertainty given the state of available scientific knowledge used to determine emissions factors and the values needed to combine emissions of different gases.
 
+<!-- Report Page 420 -->
 ##### STATUTORY AUDITORS' RESPONSIBILITIES
 
 Our responsibility is to plan and perform the assurance engagement to obtain reasonable assurance about whether the Climate Indicators are free from material misstatement, whether due to fraud or error, and to issue an assurance report that includes our opinion. These misstatements are considered material if, individually or in the aggregate, they could reasonably be expected to influence decisions of users taken on the basis of the Climate Indicators.

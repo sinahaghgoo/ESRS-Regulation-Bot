@@ -1,3 +1,5 @@
+<!-- Report Page 76 -->
+<!-- Report Page 77 -->
 ## Sustainability Statement
 
 How to read this statement General disclosures Environmental information Social information Governance information Annexes
@@ -117,6 +119,7 @@ Metrics and targets include the key performance indicators we use to manage our 
 
 At the beginning of each paragraph, you will find the coding of the respective ESRS Disclosure Requirement that it addresses.
 
+<!-- Report Page 78 -->
 ## General disclosures
 
 
@@ -150,6 +153,7 @@ reviews of historical financial information (ISAE 3000 (Revised)).
 
 [ESRS 2-BP-2.13a, b, c] Where changes in the preparation and presentation of sustainability information occurred compared to the previous reporting period, such changes are disclosed alongside the respective metrics.
 
+<!-- Report Page 79 -->
 [ESRS 2-BP-2.15] For entity-specific topics, OMV Petrom has considered the application requirements (AR) provided by the ESRS, while also relying on GRI standards for disclosures. The references to the Taskforce on ClimateRelated Financial Disclosures (TCFD) were discontinued, due to the overlap of these disclosures with the European Sustainability Reporting Standards. For the Double Materiality Assessment, SASB and GRI were used as a reference to identify potentially relevant topics. This Sustainability Statement also serves as our Communication on Progress for the United Nations Global Compact (UNGC).
 
 #### [ESRS 2-BP-2.16] OMV Petrom has incorporated by reference the following data points:
@@ -182,6 +186,7 @@ Central and Eastern Europe (CEE) region and, for part of the members, on Romania
 
 The five members of the Executive Board of OMV Petrom have a vast experience in the energy sector. Two of them have worked across several geographies, while the other three have worked mainly in Romania or the CEE area. All Executive Board members have a deep understanding of the local markets in which the company is active. For more information on their professional qualifications, please also see the relevant section in the Corporate Governance Report.
 
+<!-- Report Page 80 -->
 ##### [ESRS 2-GOV-1.21d]
 
 #### Percentage by gender and other aspects of diversity for Supervisory Board members
@@ -231,6 +236,7 @@ The five members of the Executive Board of OMV Petrom have a vast experience in 
 </tr>
 </table>
 
+<!-- Report Page 81 -->
 #### Percentage by gender and other aspects of diversity for Executive Board members
 
 <table>
@@ -279,6 +285,7 @@ The five members of the Executive Board of OMV Petrom have a vast experience in 
 </table>
 
 [ESRS 2-GOV-1.21e] 33% of Supervisory Board members are independent.
+<!-- Report Page 82 -->
 
 For more information on the independence of Supervisory Board members please also see the relevant section in the Corporate Governance Report.
 
@@ -328,6 +335,7 @@ In cases where the Executive Board needs to gain a deeper understanding of the r
 
 [ESRS 2-GOV-1.23b] The skills and experience available in the company are related to sustainability impacts, risks and opportunities through the actual qualifications and expertise of the people involved in proposing and reviewing policies, actions and targets.
 
+<!-- Report Page 83 -->
 ### [DR GOV-1 G1 ] Business conduct matters
 
 [G1.GOV-1.5a] Business conduct topics are regularly included in discussions at Supervisory Board level, in Audit Committee meetings, ensuring ethical considerations are a constant focus in financial and operational oversight. This also ensures access to expertise on business conduct matters.
@@ -371,11 +379,13 @@ For more information regarding the Remuneration Policy, please see the Corporate
 Various Safety KPIs, including Zero-work related fatalities and Process Safety Event Rate and Total Recordable Injury Rate are included in the 2024 annual bonus scheme with a cumulated 15% weighting.
 
 [ESRS 2-GOV-3.29e] The Remuneration Policy in place applies to the Executive Board and Supervisory Board since
+<!-- Report Page 84 -->
 2021. The Supervisory Board remuneration is fixed.
 Following the launch of the Strategy 2030, an updated Remuneration Policy was prepared by the Presidential and Nomination Committee and approved by the Ordinary General Meeting of Shareholders in April 2022, with a majority of 92% of votes cast.
 
 The definition of the climate-related consideration is based on the reduction of direct GHG emissions (Scope 1) and indirect GHG emissions from energy purchased (Scope 2) from operated and/or majority owned assets in 2024 against 2019.
 
+<!-- Report Page 85 -->
 ### [DR GOV-4] Statement on due diligence
 
 [ESRS 2-GOV-4.30; 32] OMV Petrom's mapping of the information provided in its sustainability statement about the due diligence process is provided in the table below:
@@ -435,6 +445,7 @@ A yearly presentation to the Executive Board and to the Audit Committee of the S
 
 ## Strategy
 
+<!-- Report Page 86 -->
 ### [DR SBM-1] Strategy, business model and value chain
 
 [ESRS 2-SBM-1.40a i, ESRS 2-SBM-1.40a ii] OMV Petrom's ambition is to lead the energy transition in Romania and South-East Europe, capitalizing on emerging markets opportunities, while delivering value for all its stakeholders. Our goal is to become a partner of choice for all the customer groups we serve: from retail customers of our filling stations, to gas and power wholesale customers represented by small, medium and large businesses in various industries, such as construction, aviation or oil companies.
@@ -481,6 +492,7 @@ The planned sustainability-related business portfolio goals are outlined in sect
 
 Our sustainability-related goals address both internal and external stakeholders and they are reflected in our 2030 targets.
 
+<!-- Report Page 87 -->
 For targets and progress related to:
 
 Health and safety, training and development, human rights and level of engagement for own workforce, please see Own Workforce and Business conduct chapters.
@@ -543,6 +555,7 @@ Own operations: More information on our own operations can be found in this chap
 
 Downstream value chain: All the sales volumes of oil and gas from E&P are distributed to own operations in R&M and G&P segments. External customers of G&P and R&M range from energy companies and wholesalers to industry and, indirectly, through our retail partners, to end customers.
 
+<!-- Report Page 88 -->
 ### [DR SBM-2] Interests and views of stakeholders
 
 [ESRS 2-SBM-2.45a i-iv] Our commitment is to respect our entire range of stakeholders, and to engage with them
@@ -621,6 +634,7 @@ Purpose: identifying and addressing concerns, identifying impacts, risks and opp
 
 Social projects for communities, vulnerable people
 
+<!-- Report Page 89 -->
 Stakeholder dialogue and grievance mechanisms
 
 ##### Government/central authorities
@@ -699,6 +713,7 @@ Informing Supervisory Board members takes place via the Executive Board.
 
 [ESRS 2-SBM-2.45c iii] We do not foresee a change in the relationship with and views of stakeholders.
 
+<!-- Report Page 90 -->
 ### [DR SBM-2 S1] Interests and views of Own Workforce
 
 [SBM-2 S1.12] OMV Petrom's commitment is to explicitly integrate human rights in its engagement with affected stakeholders - own employees, workers in the value chain and communities. Respect for human rights is a core principle in all our business activities and relations, as also reflected in OMV Petrom's Code of Conduct and Human Rights Policy Statement. These policies also affirm the values and rules the company acts by, in line with the United Nations Guiding Principles on Business and Human Rights.
@@ -723,6 +738,7 @@ We have not yet identified a need to adjust our strategy or business model as a 
 
 [DR SBM-3] Material impacts, risks and opportunities and their interaction with strategy and business model
 
+<!-- Report Page 91 -->
 ## [ESRS 2-SBM-3.48a, ESRS 2-SBM-3.48c iii]
 
 <table>
@@ -801,6 +817,7 @@ We have not yet identified a need to adjust our strategy or business model as a 
 <table>
 <tr>
 <th>Sustainability Matter</th>
+<!-- Report Page 92 -->
 <th>Material Impact, Risk or Opportunity</th>
 <th>Type</th>
 <th>Value chain</th>
@@ -888,6 +905,7 @@ We have not yet identified a need to adjust our strategy or business model as a 
 <table>
 <tr>
 <th>Sustainability Matter</th>
+<!-- Report Page 93 -->
 <th>Material Impact, Risk or Opportunity</th>
 <th>Type</th>
 <th>Value chain</th>
@@ -989,6 +1007,7 @@ We have not yet identified a need to adjust our strategy or business model as a 
 <table>
 <tr>
 <th>Sustainability Matter</th>
+<!-- Report Page 94 -->
 <th>Material Impact, Risk or Opportunity</th>
 <th>Type</th>
 <th>Value chain</th>
@@ -1078,6 +1097,7 @@ financial effects of material risks and opportunities for which there is a signi
 
 Other impacts, risks and opportunities which are not covered by the ESRS Disclosure Requirements, are entity specific and they are included in the following chapters: Process safety, Economic value and Cybersecurity.
 
+<!-- Report Page 95 -->
 ### Impact, risk and opportunity management
 
 ### [DR IRO-1] Description of the processes to identify and assess mateial impacts, risks and opportunities
@@ -1109,6 +1129,7 @@ The impacts were assessed throughout the company's own operations and as a resul
 potential impacts). The evaluation took place based on the predominant positive or negative impact and various time horizons.
 
 We applied a threshold of 8 for environmental topics, and 5 for social and governance topics.
+<!-- Report Page 96 -->
 
 [ESRS 2-IRO-1.53c i, ESRS 2-IRO-1.53c ii, ESRS 2-IRO1.53c iii, ESRS 2-IRO-1.53e, ESRS 2-IRO-1.53f] The assessment of risks and opportunities as part of our Double Materiality Assessment followed the 5-step process described above.
 
@@ -1141,6 +1162,7 @@ externally that could result in changes to its list of material impacts, risks a
 [E1-IRO-1.20a, E1-IRO-1.AR 9] The assessment of climaterelated impacts, risks and opportunities, as part of the Double Materiality Assessment, followed the 5-step process described above.
 
 The impact assessment for the climate change topic was performed by the environmental management team. Leveraging expert judgement and historical experience within the company, OMV Petrom's own operations were screened for current and planned activities to identify actual and potential climate change and energy impacts. Related GHG emissions and their sources are described in DR E1-6 \- Gross Scopes 1, 2, 3 and Total GHG emissions section. The process of identification and assessment is following the internal policy framework, as described in DR E1-2 - Policies, which is based on industry specific guidelines and applicable legislation, including but not limited to Intergovernmental Panel on Climate Change (IPCC), IEA, IOGP, IPIECA and Concawe reports.
+<!-- Report Page 97 -->
 
 The Strategy department, in collaboration with the environmental management team, assessed the risk and opportunities following the same approach as for impacts.
 
@@ -1172,6 +1194,7 @@ Materiality Assessment followed the 5-step process described above.
 
 The assessment has been concluded based on industry specifics and considering the internal formal assessment for environmental risks, which are done under the provisions of Environmental Management Standard. During the process, OMV Petrom's site locations and business activities were assessed for identification of actual and potential impacts, risks and opportunities. This screening is grounded in past experiences with incidents, meaning particular attention was given to activities and sites where impacts have occurred before, incidents which are recorded in the company's reporting system. The impacts, risks and opportunities were assessed based on the environmental governance framework, with business division-level information considered for the top-down qualitative assessment.
 
+<!-- Report Page 98 -->
 The value chain was also included in the assessment.
 
 [E2-IRO-1.11b] We used the conclusions of our consultations with affected communities, to understand their concerns, needs and priorities. These consultations are conducted through various communication channels, including public forums and/or direct discussions, to ensure transparent and inclusive communication. In addition, affected communities, through their proxies, were also involved during the Double Materiality Assessment process, as described in ESRS 2-IRO-1.53a.
@@ -1199,6 +1222,7 @@ Worldwide Fund for Nature (WWF) Water Risk Filter, evaluation tool for areas at 
 Risk assessments conducted so far indicate a minimum to medium water risk level. The assessment process to scientifically delimit areas at water risk, is ongoing, with further details to be analysed also in other tools such as the WWF Water Risk Filter.
 
 [E3-IRO 1.8b] We used the conclusions of our regular consultations with affected communities, to understand their concerns, needs and priorities. Our engagement process with the affected communities is described in the Affected communities chapter. In addition, affected communities through their proxies were also involved during the Double Materiality Assessment process.
+<!-- Report Page 99 -->
 
 [E3-IRO.1.AR 15] The Double Materiality Assessment results will be consolidated with a more specific approach in the next years.
 
@@ -1227,6 +1251,7 @@ When significant impacts are observed or predicted, the mitigation hierarchy is 
 prioritizes the avoidance and minimization of impacts rather than restoration and offsetting.
 
 [E4-IRO-1.AR 4-6] The Double Materiality Assessment was performed at sub-topic level, as described in ESRS 1.AR16. Details are included in ESRS 2-IRO-1 section.
+<!-- Report Page 100 -->
 
 ### [DR IRO-1 E5] Description of the processes to identify and assess material resource use and circular economy-related impacts, risks and opportunities
 
@@ -1254,6 +1279,7 @@ the reporting requirements that are mandatory starting with the first year of re
 
 All disclosure requirements and data points corresponding to topics and sub-topics that resulted as immaterial during the Double Materiality Assessment, are not included in this statement.
 
+<!-- Report Page 101 -->
 ## Environmental information
 
 <table>
@@ -1291,6 +1317,7 @@ In June 2023, the European Commission adopted the Taxonomy Environmental Delegat
 
 ### OMV Petrom's process for identifying and assessing EU Taxonomy activities
 
+<!-- Report Page 102 -->
 #### EU Taxonomy eligibility assessment
 
 An economic activity is eligible for the EU Taxonomy if it matches the specified activity description provided in the EU Taxonomy Delegated Acts. OMV Petrom undertook a comprehensive screening of its portfolio of activities for comparison against the descriptions of the economic activities outlined in Annex I or II of the EU Taxonomy Climate Delegated Act and in Annexes I-IV of the EU Taxonomy Delegated Acts. This assessment used both bottom-up and top-down approach, involving interdisciplinary teams (both corporate and business segments) for effective identification of eligible activities, assets, projects, and their corresponding capital and operational expenditure and turnover.
@@ -1335,6 +1362,7 @@ Direct costs for training and human resources improvements are excluded due to i
 
 In cases where joint production occurs (e.g., fuels and organic basic chemicals), allocations are made using specific keys that reflect plant yield, size, and operational complexity (Activity 3.14).
 
+<!-- Report Page 103 -->
 #### EU Taxonomy - Overview KPIs 2024
 
 <table>
@@ -1393,6 +1421,7 @@ In cases where joint production occurs (e.g., fuels and organic basic chemicals)
 </table>
 
 <table>
+<!-- Report Page 104 -->
 <caption>EU Taxonomy - Overview KPIs 2023</caption>
 <tr>
 <th></th>
@@ -1510,6 +1539,7 @@ The activities contributing most to aligned CAPEX for climate change mitigation 
 
 ## 6.15) and public transport and manufacture of hydrogen (Activity 3.1).
 
+<!-- Report Page 105 -->
 ### EU Taxonomy - Taxonomy-eligible and taxonomy-aligned CAPEX (in mn RON)
 
 <table>
@@ -1612,6 +1642,7 @@ For more taxonomy related tables, please see the Annexes section, after the Gove
 
 #### Climate change
 
+<!-- Report Page 106 -->
 At OMV Petrom, the commitment to transitioning to a lower carbon future is aligned with our Strategy 2030, as well as our dedication to achieve long-term growth by capitalizing on higher demand for green energy and on investment opportunities across the value chain while reducing the transition risks.
 
 Our 2030 GHG emissions reduction targets were developed with focus on reducing our impact and the carbon footprint of our operations and portfolio.
@@ -1715,6 +1746,7 @@ transition pace (market trends vs. EU targets); Disruptions in the</td>
 <td>GHG Management Framework</td>
 </tr>
 <tr>
+<!-- Report Page 107 -->
 <td>downstream value chains</td>
 <td>Enterprise-Wide Risk Management (EWRM)</td>
 </tr>
@@ -1814,6 +1846,7 @@ transition pace (market trends vs. EU targets); Disruptions in the</td>
 
 ### Strategy
 
+<!-- Report Page 108 -->
 #### [DR E1-1] Transition plan for climate change mitigation
 
 [E1-1-AR.1] As the largest integrated energy producer in the SEE region, we recognize climate change as one of the most important global challenges today and we support the goals set forth by the Paris Climate Change Agreement; we therefore developed a transition plan for climate change mitigation for 2030 ("Transition Plan") to align our strategy and business model with the transition to a sustainable economy, as follows:
@@ -1834,6 +1867,7 @@ In 2024, our updated Strategy 2030 reinforced our commitment to transform for a 
 
 Our commitment to sustainability and our Strategy 2030 are supported in our business model as an integrated energy player (DR 42, General disclosures chapter). We operate across the entire energy value chain, from exploration and production of oil and gas, to refining and marketing of refined petroleum products, as well as to power generation and marketing of gas and power. Our 2030 strategic pillars also enhance vertical integration across the energy value chain, reducing both our own and our clients' carbon footprint. For instance, the renewable energy we generate will not only be sold to our clients, but also used in our own operations. Additionally, it will power our EV charging network and be converted into green hydrogen in our electrolyzers for use by our refinery.
 
+<!-- Report Page 109 -->
 Exposure to coal and oil and gas-related activities
 
 Natural gas is expected to play a pivotal role as a transition fuel in the power mixxxv of Romania's, with more than 50% lower CO2 emissions than coal in power generation. A game-changer for OMV Petrom and Romania, Neptun Deep is foreseen to come on stream in 2027, increasing Romania's and the region's long-term security of energy supply, while contributing to a lower carbon economy through its low carbon intensity footprint. In addition, the flexibility of gas-fired power plants, such as Brazi, support the integration of additional renewable capacities into the power system.
@@ -1857,6 +1891,7 @@ xxvii Carbon Intensity of operations (Scopes 1 and 2) is calculated as GHG emiss
 XXVill Paris Agreement goal: limiting global temperature rise this century well below 2 degrees Celsius above pre-industrial levels and to pursue efforts to limit the temperature increase even further to 1.5 degrees Celsius.
 
 In the sectoral report on The Oil and Gas Industry in Net Zero Transitions (2023), IEA states that globally, Scopes 1 and 2 emissions from oil and gas operations should fall by more than 60% in the NZE scenario by 2030 and by 35% in the APS (Announced Pledges Scenario) scenario versus
+<!-- Report Page 110 -->
 2022. IEA acknowledges however that achieving these
 targets could be challenging for companies which have already undertaken major emissions reduction efforts in the past. OMV Petrom is committed to a reduction of Scope 1&2 emissions of 30% by 2030 (vs. 2019) which places our target closer to the APS reduction trajectory (and above NZE reduction trajectory).
 
@@ -1884,6 +1919,7 @@ Improve operational efficiency: this decarbonization lever includes initiatives 
 
 Increase in zero carbon energy sales: with impact on the achievement of our carbon intensity of energy supply
 
+<!-- Report Page 111 -->
 (Scope 1, 2, 3) target. This will be achieved by increasing sales of sustainable fuels and renewable power. Additionally, we are assessing the potential for other new low and zero carbon energy technologies (including hydrogen, geothermal energy, and biogas).
 
 Portfolio changes: implementing strategic portfolio changes through acquisitions and investments, decommissioning, divesting assets, and optimizing our oil and gas portfolio focusing on gas as a transition fuel will help us reduce emissions and achieve our climate targets.
@@ -1911,6 +1947,7 @@ The locked-in emissions associated with the products OMV Petrom sells are repres
 
 directly related to the combustion of the sold oil and gas products for energy use.
 
+<!-- Report Page 112 -->
 The locked-in emissions stemming from our key assets and products do not jeopardize the achievement of our emission targets, as their emissions profile over the coming years is accounted for in our Strategy 2030 (see details on decarbonization levers and key actions that support the achievement of our GHG targets 2030 in section E1-1.16b)
 
 [E1-1.16e, E1-3.29c.iii] More than half of planned Sustainability CAPEX will go to zero carbon products. Planned projects considered within the Increase in zerocarbon energy sales lever mostly comprise of activities that have been aligned in 2023 and 2024.
@@ -1938,6 +1975,7 @@ Our 2030 GHG reduction targets and Net Zero operations in 2050 ambition remain u
 #### [ESRS 2 SBM-3] Interaction with strategy and business model
 
 [E1-SBM-3.18] OMV Petrom's overall risk management process also covers climate change-related risks. These are analysed and addressed in a systematic way, according to adopted sustainability-related policies and targets. Climate change risk identification and assessment at OMV Petrom
+<!-- Report Page 113 -->
 
 consider various sources of uncertainty associated with physical and transition risks for our own operations and along the value chain.
 
@@ -1966,6 +2004,7 @@ OMV Petrom continues to be in close dialogue with financial institutions and the
 While aligning with ESRS requirements and enhancing sustainability practices, OMV Petrom is targeting a broad diversification of its investor base. OMV Petrom fosters investor confidence and assesses ESG-aligned funding options to ensure access to funding and liquidity at attractive rates, if needed, in line with market developments.
 
 ##### Impact, Risk and opportunity management [DR E1-2] Policies
+<!-- Report Page 114 -->
 
 [E1-2.24,.25. E1-MDR-P] Key objectives addressing climate change mitigation and energy IROs include continuously improving carbon efficiency, supporting and accelerating the energy transition and achieving net-zero operations by 2050. We actively engage with stakeholders to develop and comply with the highest operating standards. Our monitoring process ensures transparency and continuous improvement in our sustainability efforts, aligning with our broader commitment to building a sustainable world for everyone.
 
@@ -1993,6 +2032,7 @@ MDR-P-65a]. The HSSE Directive establishes the principles and rules for managing
 
 [MDR-P-65a]. The Greenhouse Gas (GHG) Management Framework outlines the commitment to achieving net-zero operational emissions by 2050, covering all GHG scopes, with specific targets set for 2025 and 2030. It includes systematic monitoring, reporting, and auditing of emissions, ensuring that operations are screened for GHG reduction and energy efficiency opportunities, implementing all financially viable measures. The framework mandates the quantification and documentation of impacts on GHG emissions (Scope 1-3) and energy efficiency potential, with a
 
+<!-- Report Page 115 -->
 commitment to achieving net-zero for operations (i.e. Scope 1-2) by 2050 and developing a pathway for Scope 3. It also addresses the identification, analysis, and evaluation of climate change risks and opportunities, following the HSSE Risk Management Standard, and ensures that all climaterelated risks are assessed in investments and M&A activities. The overarching objective is to systematically reduce emissions, enhance energy efficiency, and manage climate-related risks and opportunities through rigorous monitoring and adherence to best practices. [MDR-P 65b] The framework is applicable at OMV Petrom Group. [MDR-P 65c] Specific responsibilities are laid down for line management and senior management. [MDR-P e] Input and interests of key internal stakeholders were considered during the setting of the policy. [MDR-P 65e] The document is made available to the employees through the internal regulations' platform on company's intranet. For other interested parties such as authorities and auditors, the document is made available on request.
 
 ### Environmental Management Standard
@@ -2020,6 +2060,7 @@ impacts related to GHG emissions from our operations and products sold. These ef
 [ESRS 2 MDR-A.69a; AR21] Projects selection and prioritization could be influenced also by regulatory and market developments and might end up in different allocation between technologies. The overall planning of relevant investments for the implementation of the action plan includes non reimbursable financial support.
 
 [E1-3.29 c; ESRS 2 MDR-A69b] The CAPEX required to implement the actions taken in 2024 as shown in the table below is included in the Group total CAPEX; for the Group's total CAPEX and its reconciliation to the investments shown in the cash flow statement, refer to Director's Report chapter, section "Capital Expenditure (CAPEX)" and the Consolidated Financial Statements, Consolidated statement of cash flows".
+<!-- Report Page 116 -->
 
 Key actions are defined as those requiring CAPEX of EUR > 5 mn for their implementation. CAPEX includes additions to property, plant and equipment and to intangible assets (including IFRS 16 right-of-use assets) and expenditures for acquisitions as well as equity-accounted investments and other interest for pre-defined Sustainability CAPEX categories. Decommissioning assets, government grants and other additions that by definition are not considered capital expenditure are not included in gross CAPEX figures. Within the boundaries of applicable accounting standards, expenditure incurred during project implementation is generally capitalized, thus included in the CAPEX figures. Figures are not validated by external bodies. For the material topic Climate change, the key actions mainly refer to activities in Europe, the majority of them in Romania.
 
@@ -2047,6 +2088,7 @@ Due to the threshold of > EUR 5 mn per project, the CAPEX figures in the table b
 <td rowspan="10">Increase zero carbon energy sales</td>
 <td>Electricity</td>
 <td>Actual &</td>
+<!-- Report Page 117 -->
 <td>Increase in zero</td>
 <td></td>
 <td></td>
@@ -2364,6 +2406,7 @@ supply target</td>
 <td></td>
 </tr>
 <tr>
+<!-- Report Page 118 -->
 <td>efficiency resulting</td>
 <td></td>
 <td></td>
@@ -2418,6 +2461,7 @@ supply target</td>
 
 ## Metrics and targets [DR E1-4] Targets related to climate change mitigation
 
+<!-- Report Page 119 -->
 [E1-4.33, E1-4.34a, b, c,d, f, AR 23, MDR-T-d, j]
 
 ### GHG Emission Reduction Targets
@@ -2466,6 +2510,7 @@ supply target</td>
 <td>(20)</td>
 </tr>
 </table>
+<!-- Report Page 120 -->
 
 [MDR-T-80a, e ] Mitigating climate change is a strategic priority for our business. To this end, we have set decarbonization targets to support our strategic objective to decarbonize our operations and reduce our environmental impact on climate. The decarbonization targets are part of OMV Petrom's Strategy 2030, reflecting our commitment to driving the energy transition in Southeastern Europe (SEE) and achieving Net Zero operations by 2050. This commitment and subsequent targets are in line with the objectives of our GHG Management Framework and Code of Conduct.
 
@@ -2513,6 +2558,7 @@ Scope 1-2 GHG emissions target - which refers to OMV Petrom's Scope 1 direct & S
 
 [MDR-T-80d] The baseline year is 2019, with a recorded baseline value of 4.7 million tCO2e, encompassing Scope 1 and Scope 2 emissions as per IPCC AR6 guidelines (2019 AR4: 4.5 million tCO2e). This baseline provides a reference point from which progress is measured and evaluated over time.
 
+<!-- Report Page 121 -->
 [MDR-T-80f] Achieving Net-zero operations (Scopes 1 and
 removals (acc. to ESRS definitions), avoided emissions, carbon credits or any other feasible neutralization measure. GHG removals (acc. to ESRS definitions), avoided emissions and carbon credits are excluded as a means of achieving 2030 GHG emission reduction targets.
 
@@ -2572,6 +2618,7 @@ R&M, G&P) Scope 3 indirect GHG emissions from category 11 (3.11) "use of sold pr
 
 [MDR-T-80j] The responsibility for target definition and performance against disclosed targets monitoring lies with OMV Petrom corporate HSSE-Environmental Management and CFO Controlling, with an annual monitoring frequency.
 
+<!-- Report Page 122 -->
 ## [DR E1-5] Energy consumption and mix
 
 We monitor on a yearly basis the energy produced, purchased, consumed and sold, in order to evaluate the business performance and to identify areas for further improvements. Energy data is used in and by the company to describe performance, enable informed decision making and provide information to internal and external stakeholders according to pre-defined criteria.
@@ -2635,6 +2682,7 @@ Consumption of purchased or acquired electricity, heat, steam, or cooling from f
 
 <table>
 <tr>
+<!-- Report Page 123 -->
 <th>Total energy sold - thereof from non-renewable source</th>
 <th>2024</th>
 <th>2023</th>
@@ -2695,6 +2743,7 @@ non-fuel renewable sources, such as photovoltaic or wind. It is defined as the e
 <th>2024</th>
 <th>2023</th>
 <th>% 2024 / 2023</th>
+<!-- Report Page 124 -->
 <th>Base year (2019)</th>
 </tr>
 <tr>
@@ -2767,6 +2816,7 @@ non-fuel renewable sources, such as photovoltaic or wind. It is defined as the e
 <td>n.a.</td>
 <td>Not reported</td>
 </tr>
+<!-- Report Page 125 -->
 <tr>
 <td>2 Capital goods</td>
 <td>72,980</td>
@@ -2840,6 +2890,7 @@ All third party sales are considered for Scope 3 category 10 and 11. When a comp
 
 We are following our GHG Management Framework standard (in line with GHG Protocol) and actively working to mitigate the GHG emissions along the value chain. To ensure that the approach for GHG accounting and reporting is properly implemented, we perform regular data quality checks.
 
+<!-- Report Page 126 -->
 [MDR-M.77b] The emissions value for the EU-ETS installations, covered by Scope 1, are verified by a thirdparty accredited company, according to legal requirements. Other metrics are not verified by an external body, except for our assurance provider.
 
 [MDR-M.77c] Total GHG emissions: The total GHG emissions are calculated as the sum of 100% of gross Scope 1, 100% gross Scope 2 (market-based) emissions and 100% of gross Scope 3 GHG emissions (all categories relevant for oil and gas industry that cross the materiality threshold, as defined in our internal regulation). The relevant categories are listed as metrics. Some data included in this metric undergoes verification by an external body when GHG emissions are regulated under an EU-ETS system.
@@ -2912,6 +2963,7 @@ Emissions are calculated by multiplying activity data with emission factors. Act
 
 Category 15 Investments: Scope 3 Category 15 are defined as emissions associated with OMV Petrom's investments in the reporting year, not already included in scope 1 or scope 2 including emissions from subsidiaries and joint ventures where OMV Petrom does not have operational control. Emissions quantification follows the equity approach.
 
+<!-- Report Page 127 -->
 Justification for exclusion of certain Scope 3 categories
 
 Category 4 "Upstream transportation and distribution" is excluded based on IPIECA guidelines, which suggest that upstream transportation and distribution emissions should not be counted separately, as the fuels used are already accounted for in Scope 3 Category 11, "Use of sold products". This prevents double counting.
@@ -2932,6 +2984,7 @@ Category 14 Franchises: Scope 3 Category 14 are defined as emissions from the op
 
 [E1-6.53]
 
+<!-- Report Page 128 -->
 ### GHG Emissions intensity per sales revenue
 
 <table>
@@ -2997,6 +3050,7 @@ The metric concerning total carbon credits to be canceled in the future is deter
 
 The metrics are validated by an external body other than the assurance provider in line with the respective recognized quality standards.
 
+<!-- Report Page 129 -->
 ### [DR E1-8] Internal Carbon Pricing
 
 [DR E1-8 63 a,b; AR 65] OMV Petrom applies internal carbon pricing for investment decisions across all business segments. In the base case, the costs of CO2 emissions are included wherever carbon pricing schemes are in place. Additionally, a stress test based on a "net zero emissions by 2050" scenario is conducted, applying shadow prices to all of OMV Petrom's Scope 1 emissions, except for certain activities in OMV Petrom, which fall outside of the EU ETS until 2030.
@@ -3018,6 +3072,7 @@ Air pollutants other than GHG emissions generated from our supplier's activities
 are attributed to various activities such as flaring, venting, fuel combustion for powering machinery, and transportation. In addition to these activities, air emissions can result from evaporation losses, fugitive emissions from tanks, equipment leakages and failures, and process safety incidents.
 
 Health, Safety, Security, and protection of the Environment are embedded in all activities, according to OMV Petrom Group HSSE Policy and also in line with our HSSE Strategy
+<!-- Report Page 130 -->
 2030. We aim at preventing spills and appropriately
 managing the response in case of occurrence and minimizing our non GHG emissions.
 
@@ -3062,6 +3117,7 @@ In 2024, we updated our Code of Conduct and reinforced our focus on environmenta
 
 ### Human Rights Policy
 
+<!-- Report Page 131 -->
 [MDR-P-65a] Our commitments under this policy include enhancing carbon efficiency, supporting the energy transition, and achieving net-zero operations by 2050. We also prioritize responsible management of natural resources and aim to minimize environmental impacts through the reduction of soil pollution and emissions.
 
 [MDR_P 65 b-f] For more details, please refer to Climate change chapter.
@@ -3105,6 +3161,7 @@ The Major Accident Prevention Policy is an Annex to the HSSE Directive and sets 
 [E2-2.18a, MDR-A 68-a-d] To prevent and, wherever applicable, mitigate the negative impacts and risks identified for the material topic E2 Pollution, such as the negative impact associated with non-GHG emissions, originating from our own operations, as well as soil pollution resulting from spills, OMV Petrom has defined key actions to address negative impacts regarding pollution.
 
 [MDR-A 69b,c]
+<!-- Report Page 132 -->
 
 <table>
 <tr>
@@ -3149,6 +3206,7 @@ In addition, OMV Petrom implements continuous measures that contribute to the mi
 
 [E2-2.18a] We monitor emissions of pollutants in compliance with European and national regulations. If emissions exceed legal or permit limits, we take corrective measures.
 
+<!-- Report Page 133 -->
 Prevention and Treatment
 
 [E2-2.18a, MDR-A68-a-c,e] The LDAR (Leak Detection and Repair) program focuses on reducing air pollution by minimizing losses of containment and the associated air emissions. The program aims to prevent and control air pollution through proactive measures to detect and address leaks. This initiative contributes to environmental policy
@@ -3169,6 +3227,7 @@ In this sense, as we have not set specific targets for pollution, we track the e
 
 We evaluate our progress on an yearly basis, by assessing the evolution of these metrics and analyzing any abnormalities in the values recorded. This practice enables us to track the effectiveness of our actions for minimizing our environmental impact and to develop new actions where the need arises. While minimization of our environmental impact is a complex and multifactorial topic, it is directly impacted and supported by other actions developed to reach the specific targets our organization has set up on the topics of process safety, energy and GHG emissions reductions.
 
+<!-- Report Page 134 -->
 #### [DR E2-4] Metrics related to pollution of air and soil
 
 [E2-4.26, E2-4.AR 22] The main air pollutants emitted during OMV Petrom's operations are sulfur oxides (SOx), nitrogen [E2-4.28a, ESRS 2 MDR-M.75]
@@ -3242,6 +3301,7 @@ c) Pollution-related data is gathered in the company's reporting system on a con
 <th>2023</th>
 </tr>
 <tr>
+<!-- Report Page 135 -->
 <td>Spills occurred2</td>
 <td>Number</td>
 <td>2,194</td>
@@ -3290,6 +3350,7 @@ As such, the impact of OMV Petrom, across its operations, including E&P, R&M, an
 <th>Value chain</th>
 <th>Policies</th>
 </tr>
+<!-- Report Page 136 -->
 <tr>
 <td>Water</td>
 <td>Impact on water resources due to high volumes of freshwater extracted that can negatively impact the availability of water resources for other uses</td>
@@ -3338,6 +3399,7 @@ environmental sustainability across the supply chain and contract lifecycle.
 
 [E3-1.14] OMV Petrom has not adopted any specific policies or practices related to sustainable oceans and seas.
 
+<!-- Report Page 137 -->
 [DR E3-2] Actions
 
 [E3-2.17] In recent years, we have implemented several Best Available Technology (BAT) measures to minimize freshwater withdrawal and sustainably treat water. These include reducing operational complexity, increasing water recirculation (e.g., at Brazi power plant), using desalinated seawater instead of freshwater (e.g., Petromar), installing recirculating cooling systems, and using alternative cooling agents (air or glycol) instead of water, upgrade and continuous maintenance of equipment to reduce water loss and optimization of pipeline routes for water supply.
@@ -3368,6 +3430,7 @@ withdrawal and enhance the quality of wastewater in traditional businesses.
 
 We are committed to treat water as a valuable, limited resource and to use it sustainably and efficiently. We respect the right to water of our stakeholders, especially local communities, and strive to reduce the impact of our water use and discharge. To measure our progress, we track the year-on-year reduction in freshwater withdrawal within our operations, as well as internally assess our overall freshwater intensity against industry benchmarks (eg. IOGP, Refinery BREF, etc).
 
+<!-- Report Page 138 -->
 # [DR E3-4] Water consumption
 
 [E3-4.28a, c, AR 32] We use the following metrics to monitor our performance & effectiveness in relation to our material impact related to water consumption:
@@ -3413,6 +3476,7 @@ We are committed to treat water as a valuable, limited resource and to use it su
 <tr>
 <td>Water recycled and reused</td>
 <td>307,954,451</td>
+<!-- Report Page 139 -->
 <td>248,268,528</td>
 </tr>
 <tr>
@@ -3458,6 +3522,7 @@ Water intensity = Total water consumption (cubic meters) / Net revenue (million 
 
 The Net revenue used to calculate the water intensity is disclosed in the consolidated financial statements, note 19 "Sales revenues", line "Total sales revenues", using the average EUR FX rate from Note 6.
 
+<!-- Report Page 140 -->
 # Biodiversity and ecosystems
 
 We acknowledge that some of our operations are located within one-kilometer buffer to Natural Protected Areas (NPAs) and can have impacts on biodiversity. The specific impacts of our industry include habitat loss and alteration through land use for exploration, production, disposal of drilling wastes and associated by-products, and
@@ -3489,6 +3554,7 @@ decommissioning of onshore/ offshore wells. In the long term, oil and gas indust
 
 [E4-1.11] We are aware that our operations have the potential to generate impacts on biodiversity.
 
+<!-- Report Page 141 -->
 Our approach to biodiversity management is in line with our HSSE Strategy 2030, launched in the last quarter of 2023. The strategy sets a goal to protect people and nature and respect the planetary boundaries. In this direction, the specific biodiversity aim is for net positive impact in new operated projects in sensitive areas. We also commit to restore the used land and bring it back to its original condition at the end of our operations, as outlined in our HSSE Policy and in accordance with have the legal obligations.
 
 [E4-1.13a-f] An understanding of our biodiversity impacts, dependencies, risks, and opportunities, as expected to be revealed through our TNFD (Taskforce for Nature Financial Disclosure) LEAP (Locate, Evaluate, Assess, Prepare) assessment, is essential to inform a resilience analysis of
@@ -3520,6 +3586,7 @@ and primary treatment of oil, through decommissioning of production infrastructu
 [MDR-P 65a] At OMV Petrom Group, we are committed to ensuring sustainable and responsible behaviour towards the environment, and society, recognizing the significant impact of our operations and value chain. We are dedicated to conducting our business responsibly, with respect for the environment and a focus on adding value to the communities where we operate. Guided by high ethical standards, we apply these principles in all aspects of our operations and expect the same from our collaborators.
 
 In December 2024, we updated our Code of Conduct to underpin our commitment to preserving and restoring biodiversity and land and marine ecosystems in alignment with the post-2020 Global Biodiversity Framework (GBF). We apply the mitigation hierarchy, with priority given to avoidance and minimization over restoration and offsetting
+<!-- Report Page 142 -->
 
 [MDR_P 65 b-f] For more details, refer to the Climate change chapter.
 
@@ -3551,6 +3618,7 @@ ecosystem protection. However, dependencies and the physical and transition risk
 
 [E4-2.24a-d] OMV Petrom has not yet adopted a biodiversity and ecosystem protection policy covering operational sites owned, leased, or managed in or near biodiversity sensitive areas. However, our EMS and Code of Conduct apply to all our operational sites, regardless of their proximity to biodiversity sensitive areas. Policies explicitly covering sustainable land or sustainable seas practices, or that addresses deforestation have not been developed. Based on the results of the LEAP assessment on our sites, we will assess whether and how to incorporate this detailed information into our policies.
 
+<!-- Report Page 143 -->
 #### [DR E4-3] Actions
 
 [E4-3.25, ESRS 2 MDR-A 68] Our Environmental Management Standard defines measures to manage the negative impact on biodiversity and ecosystems from various impact drivers, such as GHG emissions, land use change, water and resource use, pollutant release, and disturbances. Key measures include site-level assessments and biodiversity action plans. These measures represent the starting point for future improvements and upgrades
@@ -3590,6 +3658,7 @@ comprehensive understanding of the materiality of impacts and dependencies at th
 biodiversity-sensitive areas, regardless of the impact on the area. The metrics below are disclosed voluntarily as they contribute to our overall ambition of preserving and restoring biodiversity and ecosystems.
 
 <table>
+<!-- Report Page 144 -->
 <caption>Sites located in or near biodiversity-sensitive areas in aggregated form</caption>
 <tr>
 <th>Location</th>
@@ -3629,6 +3698,7 @@ In summary, PSM is fundamental to our company's moral and business obligations. 
 <th>Impacts, Risks & Opportunities</th>
 <th>Actual / Potential</th>
 <th>Type</th>
+<!-- Report Page 145 -->
 <th>Value chain</th>
 <th>Policies</th>
 </tr>
@@ -3668,6 +3738,7 @@ maintaining effective process safety regulations, supporting the development, ex
 
 [MDR-P-a, b, c, f] This procedure specifies required HSSE, process safety and technical safety related deliverables/activities in the phases of project life cycle. The regulation covers both 'greenfield' and 'brownfield' major capital projects within OMV Petrom and all its fully consolidated subsidiaries. The project owner is accountable for the implementation of the procedure. We communicate the procedure requirements through internal channels, such as our internal regulations platform, including training whenever a major revision of the procedure appears and during the tendering process in pre-awarding phase as part of Minimum HSSE Requirements and through Bridging Document during the Contract Execution phase.
 
+<!-- Report Page 146 -->
 # [MDR-A] Actions and resources
 
 [ESRS 2-MDR-A.68] OMV Petrom has various actions in place to address material impacts related to Process Safety:
@@ -3714,6 +3785,7 @@ Process safety incidents may result in loss of containment. As such, other actio
 <th>Progress 2024</th>
 </tr>
 <tr>
+<!-- Report Page 147 -->
 <td>Maintain leading position in Process Safety Event Rate</td>
 <td>0.16</td>
 </tr>
@@ -3727,6 +3799,7 @@ reporting scope. E&P includes hours worked for operated assets, R&M includes all
 
 approach without stakeholder involvement and OMV Petrom benchmarks its performance against IOGP data.
 
+<!-- Report Page 148 -->
 ## [MDR-M] Metrics related to process safety
 
 [ESRS 2 MDR-M.75] Process Safety Events (PSEs) of Tier 1 and Tier 2 hold the utmost significance and are reported externally for industry benchmarking purposes.
@@ -3764,6 +3837,7 @@ approach without stakeholder involvement and OMV Petrom benchmarks its performan
 
 steam, hot water, nitrogen, compressed CO, or compressed air) from a process, or events that could have led to such a release under slightly different conditions. The classification follows a tier system, where Tier 1 represents incidents with greater consequences, indicating the most significant lagging performance indicators, and Tier 2 reflects incidents of lesser consequence.
 
+<!-- Report Page 149 -->
 # Social information
 <table>
 <tr>
@@ -3804,6 +3878,7 @@ Our personnel policy centers on long-term employment, flexible working condition
 <tr>
 <td>Working conditions (Health)</td>
 <td>Exposure to chemicals, pollutants, constant noise, light, other stressors as well as low to severe injuries, with short to long term effect or even fatalities, due to operational profile</td>
+<!-- Report Page 150 -->
 <td>Pot</td>
 <td>Negative impact</td>
 <td>OO </td>
@@ -3844,6 +3919,7 @@ Our personnel policy centers on long-term employment, flexible working condition
 <td></td>
 </tr>
 <tr>
+<!-- Report Page 151 -->
 <td>Working conditions</td>
 <td>Providing opportunities for the workforce and increased employment and retention through career opportunities, long-term employment, flexible working conditions, upskilling, various benefits and well- paid employment</td>
 <td>Act</td>
@@ -3880,6 +3956,7 @@ Our personnel policy centers on long-term employment, flexible working condition
 </tr>
 <tr>
 <td>and skills development</td>
+<!-- Report Page 152 -->
 <td>knowledgeable workforce</td>
 <td></td>
 <td></td>
@@ -3915,6 +3992,7 @@ whether onsite or remotely. The company cultivates a pipeline of young experts t
 Investing in employee training represents an opportunity for enhanced efficiency, safety and operational performance, leading to streamlined processes, reduced waste, and optimized resource utilization, contributing to a sustainable and resilient business model. Continuous learning fosters innovation, enabling employees to introduce creative solutions that positively impact the business and society, address market demands, solve environmental and social challenges.
 
 A highly skilled workforce enhances customer experience by delivering exceptional service and effectively meeting customer needs. This expertise fosters long-lasting client relationships, strengthens brand loyalty, and elevates the company's reputation.
+<!-- Report Page 153 -->
 
 The nature of OMV Petrom's industry exposes employees to chemicals, pollutants, constant noise, light, and other stressors, as well as the risk of injuries ranging from minor to severe, with potential long-term effects or fatalities. Such impacts arise from the company's operational profile and can lead to decreased employee commitment, lost workdays, and reduced productivity. As such, the company's strategy and business model embed clear health and safety considerations, based on rigorous safety protocols, continuous training, implementation of advanced safety technologies and provision of comprehensive healthcare services.
 
@@ -3951,6 +4029,7 @@ Please refer to paragraph S1-SBM 3.13b within this chapter for more information 
 The risk of injuries (both high and low consequence) is linked to the dependency that the company has on its workforce, namely, on the employees' commitment and productivity. For this reason, OMV Petrom implements health and safety measures to safeguard its employees and maintain the continuity and effectiveness of its operations.
 
 [S1-SBM 3.14e] The energy transition comes with a gradual change in the profile of OMV Petrom's business, necessitating new skills for emerging lines of business, while leveraging existing expertise for areas such as CCS or hydrogen.
+<!-- Report Page 154 -->
 
 Recognizing the significance of job security, the company engages in thorough contingency planning. When workplace
 
@@ -3986,6 +4065,7 @@ In its efforts to understand and mitigate risks of harm to employees with specif
 
 ## Human Rights Policy Statement
 
+<!-- Report Page 155 -->
 The Human Rights Policy Statement sets out OMV Petrom's commitment to adhere to the highest standards in order to provide its employees safe workplaces, as well as the company's commitment to ensure a high level of care for employees' well-being, physical and mental health across the Group [MDR-P-a].
 
 [MDR-P (b-f)] For more details, please refer to the Climate change chapter.
@@ -4022,6 +4102,7 @@ Members are accountable for the implementation of these regulations [MDR-P-c], w
 
 The Standard addresses job opportunities driven by the enterprise or employees, supported by relocation and commuting benefits for employees and their family members [MDR-P-a]. This Standard supports all employees meeting certain conditions [MDR-P-b]. All senior managers are mainly accountable for implementing this Standard [MDR-Pc], which aligns with market best practices [MDR-P-d]. The method for making the Standard available to stakeholders is the same as for the CLA & related processes, Internal Regulation and Related Guidelines [MDR-P-f].
 
+<!-- Report Page 156 -->
 ## Teleworking Procedure
 
 The Procedures address the implementation of new ways of working, including the possibility of working remotely from home locations, and aims to increase labour relations flexibility and enhance work-life bal-ance [MDR-P-a] for all employees [MDR-P-b]. Responsibility for the implementation of this procedure lies with the EB member [MDR-P-c]. The procedure adheres to market best practices and European standards [MDR-P-d]. The method for making the Procedure available to stakeholders is the same as for the CLA & related processes, Internal Regulation and Related Guidelines [MDR-P-f].
@@ -4057,6 +4138,7 @@ The company is committed to a rightsholders' perspective, ensuring that any genu
 [S1-1.21] OMV Petrom respects human rights as outlined in the Universal Declaration of Human Rights and globally recognized treaties, including the International Labor Organization (ILO) core treaties. Having signed the UN Global Compact, we are fully committed to the UN Guiding Principles on Business and Human Rights and the OECD Guidelines for Multinational Enterprises.
 
 [S1-1.22, S1-1.23] The HSSE Directive provides a framework for how OMV Petrom manages all HSSE aspects in order to protect people, environment, assets and reputation in line with its HSSE Policy and Major Accident Prevention Policy and in view of its HSSE Vision and Mission "Committed to Zero Harm Protect People, Environment and Assets".
+<!-- Report Page 157 -->
 
 [S1-1.24a] Principles on non-discrimination, equal opportunities, and prevention of harassment are subject to multiple regulations that establish interdictions, specific obligations and corrective measures and non-retaliation. Such regulations include the P&C Directive which is managed at local level through the CLA & Internal Regulation. Any misconduct related to the above aspects can be reported by employees claims via the Integrity Platform and are treated under established grievance mechanisms. When necessary, such cases may lead to disciplinary measures in accordance with existing processes.
 
@@ -4093,6 +4175,7 @@ The Pulse Check is one of the company's most important tools to receive direct f
 People and Culture (P&C) local teams actively keep leaders and employees informed. The P&C operating model and integrated project approach involves concept proposal by relevant function, followed by feedback integration from various stakeholders, ensuring both co-creation of tools and high adaption to organizational needs, thus resulting in more efficient people processes.
 
 [S1-2.27c] Social dialogue within the company is conducted at multiple organizational levels, including the Supervisory Board (SB), Executive Board (EB), individual EB members, or specific business areas. This dialogue is facilitated by a dedicated organizational structure within the People & Culture function and occurs on a regular basis or in response to specific events.
+<!-- Report Page 158 -->
 
 In terms of health and safety, it is the duty of line management at every level of the organization to engage in transparent communication with employees about safety performance, insights gained from past experiences, potential risks and opportunities for enhancement, within their respective areas of responsibility.
 
@@ -4128,6 +4211,7 @@ Feedback mechanisms
 
 [S1-3.32, S1-3.32a] The aim of OMV Petrom is to assess all complaints received and to handle them with the involvement of dedicated roles and experts. Health & Safety is a subcategory of the social category defined under the grievance mechanism.
 
+<!-- Report Page 159 -->
 All complaints are treated in a serious manner, whether they are based on real or perceived issues, irrespective of the identity of the complainant, following the UN Effectiveness Criteria. For more details regarding OMV Petrom's Human Rights Due Diligence Process, please refer S1-1.20c. For information regarding as-sessment and investigation, resolution and remediation, as well as follow-up and feedback, please refer to the Affected communities chapter.
 
 [S1-3.32b, c] There are multiple categories of grievances, including human rights issues, health and safety claims, and complaints, which are addressed through channels such as the Work Health and Safety Committee (CSSM), Synergi, and PetrOmbudsman.
@@ -4164,6 +4248,7 @@ Info-screen messages were posted to encourage people to report observed miscondu
 
 OMV Petrom's internal Whistleblowing Directive & P&C Directive stipulate the "no retaliation" policy aiming at protecting individuals who report misconducts in good faith and outline methods for employees and external workers to make confidential and anonymous whistleblower complaints.
 
+<!-- Report Page 160 -->
 ## [DR S1-4] Actions
 
 [S1-4-37] OMV Petrom takes actions to address material negative and positive impacts, and to manage material risks
@@ -4197,6 +4282,7 @@ The main expected outcome is to identify hazards, assess the risks and establish
 [S1-4-38d, MDR-A-e] Risk registers are updated following changes in working conditions.
 
 ### Road Safety - In Vehicle Monitoring System and Defensive Driving Training
+<!-- Report Page 161 -->
 
 In 2024, we continued to monitor our employees' driving performance and increase the Road Safety awareness via IVMS (In Vehicle Monitoring System), which was again enhanced in 2024 when speed geofences were updated.
 
@@ -4230,6 +4316,7 @@ The main expected outcome is to address medical necessity based on symptomatolog
 
 [S1-4-38d] The progress is tracked monthly and quarterly through statistical data provided by the insurer regarding number of employees who accessed the private health insurer. Monitoring the claims data periodically ensures transparency and adherence to insurance industry standards, leads to quicker resolutions and better customer satisfaction and helps in identifying patterns and trends in claims, allowing an up-to-date health statistical information regarding our own workforce [MDR-A-e].
 
+<!-- Report Page 162 -->
 ## People and culture
 
 [S1-4-38a] OMV Petrom has adopted actions to advance the company's positive impacts and opportunities on employees' working conditions and equal treatment and opportunities.
@@ -4280,6 +4367,7 @@ employability, personal branding, and critical thinking, equipping participants 
 
 [MDR-A-a,b,c].The action is meant to help OMV Petrom to deliver its 2030 Low Carbon Business targets through staffing in all divisions by 2025. Short- to mid-term, LCB resources are secured mostly through a mixture of internal and external hires in order to ensure the right skillset and mindset. Mid to long-term, the company plans to secure capabilities through build up and upskilling of existing personnel and by leveraging existing partnerships, such as through fresh graduates from InnoEnergy programs and universities.
 
+<!-- Report Page 163 -->
 [MDR-A-b] covers OMV Petrom's own operations
 
 ## My SF Learning
@@ -4304,6 +4392,7 @@ the management representatives at different organizational levels, guiding the c
 
 In response to the health profiles of OMV Petrom's employees, the company designed and implemented health services, programs, and campaigns that target and address major health concerns. These initiatives aim to increase awareness, promote health, and prevent health complications, thereby mitigating actual or potential negative impacts on the well-being of its workforce.
 
+<!-- Report Page 164 -->
 [S1-4-40, S1-4-40a] The risk of injuries (both high and low consequence) is linked to the dependency that the company has on its workforce, namely, on its employees' commitment and productivity. In order to mitigate any Health and Safety risk, as part of HSSE Risk Management Standard implementation, occupational health and safety hazards are promptly identified, assessed, and control measures are implemented as per the standard guide-lines. These guidelines, derived from international standards set by IOGP/IPIECA, aim to assess various risks including chemical exposures, psychological strain, and physical injuries. The medical team collaboratively works with the local HSSE team to develop and maintain comprehensive and up-to-date occupational risks records at each site.
 
 [S1-4-40b] Refer to the list of actions above for the actions planned or taken by OMV Petrom to pursue material opportunities for its own employees.
@@ -4328,6 +4417,7 @@ In this respect, trade unions are engaged early in the process to identify vulne
 
 compliance with the legislation and collective labour agreement, OMV Petrom provides protection for vulnerable categories, offers time off for affected employees for job searching, gives prior notice and financial compensations, as well as administrative assistance to facilitate access to public unemployment services.
 
+<!-- Report Page 165 -->
 ### Metrics and targets
 
 [DR S1-5] Targets related to managing material negative impacts, advancing positive impacts, and managing material risks and opportunities
@@ -4389,6 +4479,7 @@ Increase share of women at management level at 35% by 2030
 
 checking and action towards the indicators which directly impacts their engagement. [MDR-T 80b] A specific target level has not been established, aiming to maintain a satisfactory scores of engagement, results being interpreted considering the context. [MDR-T 80c] This target includes all own employees at consolidated group level. [MDR-T 80d] The baseline value and year is the previous Pulse Check year. [MDR-T 80e] We will measure Pulse Check and other engagement surveys until 2030. [MDR-T 80f, i] Pulse check is implemented via an external partner (Kincentric/Mercer) and contains questions aligned at group level, based on a standard understanding using international similar industry and top quartile organization benchmarks. Company history data is used for comparison. [MDR-T 80h] The Pulse check questionnaire is aligned with EB members. [MDR-T 80j] Pulse Check results are disseminated via the organization to Executive Board Members and all line managers in target to access results. P&C is owner of the initiative.
 
+<!-- Report Page 166 -->
 ## [DR S1-6] Characteristics of the undertaking's employees
 
 [S1-6.50a]
@@ -4473,6 +4564,7 @@ The methodology for data collection is the same as for the data reported in Tabl
 <caption>[S1-6.50b] Employees headcount broken down by gender* and type of employment</caption>
 <tr>
 <th></th>
+<!-- Report Page 167 -->
 <th colspan="5">December 31, 2024</th>
 <th colspan="5">December 31, 2023</th>
 </tr>
@@ -4568,6 +4660,7 @@ Total number of employees who have left and employee turnover rate</caption>
 
 [S1-8-60 a] The percentage of total OMV Petrom group (Romania and other countries) employees covered by collective bargaining agreements is 98%.
 
+<!-- Report Page 168 -->
 ### Collective Bargaining Coverage
 
 <table>
@@ -4649,6 +4742,7 @@ training (with both physical and online participation) hours, registered in the 
 
 [S1-14.88] All the people in our own workforce are covered by the health and safety management system based on legal requirements and/or recognised standards or guidelines.
 
+<!-- Report Page 169 -->
 ### [DR S1-14] Health and safety metrics
 
 [S1-14.88b,c] Health and safety metrics1
@@ -4693,6 +4787,7 @@ training (with both physical and online participation) hours, registered in the 
 <tr>
 <td>Number of days lost to work-related injuries</td>
 <td>Number</td>
+<!-- Report Page 170 -->
 <td>454</td>
 <td>184</td>
 </tr>
@@ -4737,6 +4832,7 @@ Number of days lost to work related injuries. [MDR-M 77a,c] Lost workdays, as la
 <td>Number of severe human rights issues and incidents connected to own workforce</td>
 <td>Number</td>
 <td>0</td>
+<!-- Report Page 171 -->
 <td>-</td>
 </tr>
 <tr>
@@ -4781,6 +4877,7 @@ Furthermore, we have integrated sustainability requirements throughout our suppl
 <td>Positive Impact</td>
 <td>UVC</td>
 <td>Code of Conduct Code of Business Ethics Corporate Procurement Directive</td>
+<!-- Report Page 172 -->
 </tr>
 <tr>
 <td>Working conditions</td>
@@ -4826,6 +4923,7 @@ Furthermore, we have integrated sustainability requirements throughout our suppl
 <th>Policies</th>
 </tr>
 <tr>
+<!-- Report Page 173 -->
 <td></td>
 <td>the activities of the upstream own operations, for contractors on OMV Petrom sites</td>
 <td></td>
@@ -4870,6 +4968,7 @@ Safety hazards associated with the activities of the upstream own operations, fo
 Fair payment practices provide greater job security and better working conditions for upstream value chain workers.
 
 OMV Petrom has implemented continuous monitoring of payment terms, to ensure compliance with the 60-day payment term through the SAP system, analysing and addressing any payment blocks.
+<!-- Report Page 174 -->
 
 Compliance with minimum human & labor rights for upstream value chain workers is ensured through OMV Petrom's policies (e.g. standards laid out in the OMV Petrom Code of Conduct are part of the General Purchasing Conditions). This impact is addressed through multiple actions, such as:
 
@@ -4914,6 +5013,7 @@ Young and elderly workers
 Workers in Hazardous Roles
 
 The methodology for identifying risks related to vulnerable categories includes employee surveys and data analysis such as: supplier risk report and monitoring and the company's incident reporting system Synergi.
+<!-- Report Page 175 -->
 
 Monitoring and continuous improvement are achieved through regular assessments such as workplace audits, supplier and contractor audits and employee feedback.
 
@@ -4958,6 +5058,7 @@ levels of stakeholders (both management and on-site workers).
 Some examples of this engagement are:
 
 Supplier audits and assessments
+<!-- Report Page 176 -->
 
 Service Quality meetings
 
@@ -5002,6 +5103,7 @@ organization and its business partners in implementing responsible and sustainab
 ## [DR S2-2] Processes for engaging with value chain workers about impacts
 
 [S2-2.22, S2-2.22a] OMV Petrom regularly engages with value chain workers to gain insight into their perspectives.
+<!-- Report Page 177 -->
 
 [S2-2.22b] The company engages with these stakeholders as follows:
 
@@ -5046,6 +5148,7 @@ and confidential Integrity Platform. The platform is available to both OMV Petro
 [S2-3.27d] The grievance mechanisms ensure the systematic receipt, investigation, documentation, addressing, and resolution of grievances across all operating countries in a timely, fair, and consistent manner, establishing the foundation for its social license to operate.
 
 All grievances are promptly responded to within a specified time period, with complainants informed about the procedure, indicative time frame for each stage and progress.
+<!-- Report Page 178 -->
 
 The management of grievances aligns with the IPIECA best practice guidelines and with the Effectiveness Criteria of the UN Guiding Principles on Business and Human Rights, aiming for legitimacy, accessibility predictability, equity, transparency, rights-compatibility, continuous learning, and engagement and dialogue. OMV Petrom has set a target to assess the grievance mechanisms at all sites against the UN Effectiveness Criteria for Non-Judicial Grievance Mechanisms by 2025.
 
@@ -5090,6 +5193,7 @@ By 2025, OMV Petrom aims to conduct sustainability evaluations (EcoVadis) and Tf
 [S2-4-32d, MDR-A-e] In terms of progress, in 2024, in OMV Petrom there were 24 supplier audits performed with external auditors (vs 16 in 2023), 2 TfS audits, 130 EcoVadis (re)assessments (vs. 53 in 2023) and a total of 162 suppliers with valid EcoVadis scorecards (no more than 3 years old).
 
 Improvement of subcontractor management with the implementation of a new online subcontractors' approval process (SAP BTP).
+<!-- Report Page 179 -->
 
 [S2-4-32a, S2-4-32c, MDR-A-68a] This action has been undertaken to advance the company's positive impacts regarding compliance with minimum human, labor rights & safety conditions and supplier engagement, pre-qualification, supplier assessments and audits and to prevent the negative impact related to ineffectiveness in supplier relationships management. The main expected outcome is to have a transparent overview of subcontractors approved to work for OMV Petrom for specific service contracts and to ensure the subcontractors meet OMV Petrom requirements in terms of HSSE, Compliance, Human Rights etc.
 
@@ -5134,6 +5238,7 @@ ramp-up phase, aligning with strategic development objectives [MDR-A-68a]. This 
 Forums with contractors
 
 [S2-4-32a, S2-4-32c, MDR-A-a] OMV Petrom organizes regular forums with contractors aiming at sharing safety related day-to-days practices, challenges and lessons learnt, thus reinforcing the fundamental need of living the Life Saving Rules.
+<!-- Report Page 180 -->
 
 [MDR-A-b, c] The meetings are organized on a quarterly or bi-annual basis, and apply to contractors with HSSE relevance, which includes those contractors with mediumhigh risk as per the Contractor Management Standard.
 
@@ -5179,6 +5284,7 @@ For more information regarding the audits performed by OMV Petrom with regards t
 
 [S2-4-38] Since 2022, the Sustainable Procurement and Supplier Innovation Department organizes webinars and training sessions with the aim to increase awareness on sustainability for the value chain workers. Also, when a supplier is invited to complete an EcoVadis assessment, it gains access to an e-learning platform containing a catalogue of courses on sustainable business practices (including labour practices and human rights). Furthermore, suppliers can also register to the TfS Academy platform, where a variety of courses are available on topics like discrimination and harassment, human trafficking, modern slavery, child labour, recognizing and preventing forced labour etc. OMV Petrom's own employees also receive training on value chain workers' rights through programs like mandatory Human Rights e-Learning or additional tailored classroom training modules.
 
+<!-- Report Page 181 -->
 In 2023, OMV Petrom introduced a new initiative for developing Life Saving Rules Training Centres. 6 out of 8 locations were finalized in 2024. In 2024, Following the "Train the trainers" principle, contractors' representatives received practical application and examples to ensure compliance with each of the nine OMV Petrom Life Saving Rules in order to further roll-out these sessions to the larger population of contractors' workers. This is part of our commitment to support our contractors in reaching similar levels of safety culture maturity.
 
 ## Metrics and targets [DR S2-5] Targets related to workers in the value chain
@@ -5223,6 +5329,7 @@ Achieve zero work-related fatalities: This target covers own employees, contract
 Additionally, engagement for target-setting has been ensured through:
 
 HSSE Walk arounds, audits and inspections, fostering open dialogue and encouraging workers to disclose their safety-related concerns
+<!-- Report Page 182 -->
 
 Quarterly meetings with key contractors under the Initiative Partners for a safer Future, aimed at improvement through common initiatives and working groups
 
@@ -5267,6 +5374,7 @@ For Metric 2, which refers to the TfS commitments, TfS audit reports are collect
 <th></th>
 <th>M.U.</th>
 <th>2024</th>
+<!-- Report Page 183 -->
 <th>2023</th>
 </tr>
 <tr>
@@ -5311,6 +5419,7 @@ For Metric 2, which refers to the TfS commitments, TfS audit reports are collect
 
 methodologies). For hours worked, contractor hours worked should include all hours worked by contractor personnel on company premises and all work-related activities.
 
+<!-- Report Page 184 -->
 ## Affected communities
 
 At OMV Petrom, the commitment to transitioning to a lower carbon future is intertwined with a dedication to working closely with local communities to mitigate or prevent direct or indirect impacts of the company's operations, while maintaining our social license to operate. By prioritizing local issues, accounting for regional variances, and taking the necessary steps to guarantee long-term, sustainable development, OMV Petrom ensures that the path to a lower
@@ -5380,6 +5489,7 @@ For an overview of OMV Petrom's value chain, showing where its key material sust
 
 OMV Petrom has identified three material negative impacts on affected communities, displayed at the beginning of this chapter.
 
+<!-- Report Page 185 -->
 ##### [S3-SBM 3.9b] Community dependence on OMV Petrom
 
 OMV Petrom is aware of the dependence of local suppliers and community members on its operations and products. More specifically, social and economic impacts could include job loss and impacts on livelihoods, while a lack of relevant skills, knowledge, or accessible training programs could affect community economic health and overall quality of life. The implementation of OMV Petrom's Strategy 2030, with a strong commitment to the energy transition, will also bring a transformation to the jobs it offers, many of which employ people from the company's local communities. The impact is limited to the operational areas in which OMV Petrom operates, and from which the company employs members of the communities.
@@ -5424,6 +5534,7 @@ For more details, please refer to the section Actions of this chapter.
 
 [MDR-P 65b-f] For more details, please refer to the E1 Climate change chapter.
 
+<!-- Report Page 186 -->
 ## Social Investments Standard
 
 [MDR-P 65a, b, c, d] The Social Investments Standard is aimed at advancing the company's positive impact related to creating opportunities for communities around suppliers and own operations, and at preventing the negative impacts on community dependence on OMV Petrom. The Social Investments Standard ensures transparency in the effective use of financial resources allocated for sponsorships, both monetary and in-kind. It provides clear guidance over the process through which OMV Petrom gets involved with the communities where it currently operates, plans to develop or intends to conduct future activities. The Social Investments Standard's implementation is overseen by the Head of
@@ -5467,6 +5578,7 @@ does not have impacts on indigenous peoples and has no particular policy provisi
 The company is committed to upholding salient human rights and expects its employees and business partners to adhere to the same principles. Based on audits performed, no noncompliance cases were identified.
 
 [S3-1.AR9] There have been no changes to the policies pertaining to affected communities, or to OMV Petrom's approach to engagement, due diligence and remedy processes compared to the previous year, with the exception of the Social Investments Standard which was adopted in
+<!-- Report Page 187 -->
 2024. The changes were necessary to increase integration
 of our social involvement projects and to better respond to communities' needs. The contents of this standard are described in the beginning of the Policies section of this chapter.
 
@@ -5494,6 +5606,7 @@ Grievance Mechanisms to ensure that the concerns of all community members, inclu
 
 For information regarding how the company gains insight into the perspectives of vulnerable communities, please refer to the Our approach to community relations section of this chapter.
 
+<!-- Report Page 188 -->
 ## [S3-3] Remediation and channels to raise concerns
 
 [S3-3.27a] OMV Petrom aims to provide remedy through its Grievance Mechanism, which is integrated into the Compliance Management System. This approach is meant to enhance the efficiency and effectiveness of dialogue with stakeholders and communities, enabling remedies where needed and reducing non-compliance risks and financial consequences for the company. The Grievance Mechanism is designed to be transparent, credible, and equitable, fostering trust and advancing OMV Petrom's social performance in community relations.
@@ -5538,6 +5651,7 @@ The effectiveness of the provided remedies is assessed by evaluating the resolut
 
 [S3-3.27d] OMV Petrom employs a systematic approach to tracking and monitoring issues raised through its grievance mechanisms. The company maintains a detailed record of all grievances, which allows for:
 
+<!-- Report Page 189 -->
 Registering the number of grievances by category
 
 Measuring the number of received grievances versus the number of resolved grievances
@@ -5581,6 +5695,7 @@ In 2024, OMV Petrom invested RON 8 mn to continue the partnership with HOSPICE C
 OMV Petrom Foundation coordinated projects that address neonatal and prenatal care, ensuring better care and a healthier start for the next generation. The "Baby Box" program implemented together with Save the Children Romania and SAMAS spans 1,300 nation-wide communities, with a significant investment of RON 20 mn in
 
 2024, providing critical support to more than 15,300 mothers and newborns. Through the "First Step to Health" program, the OMV Petrom Foundation and Save the Children Romania expanded access to medical services for 22,000 pregnant women, mothers and children nationwide and equipped another 60 general practitioners' facilities with medical equipment with a total investment of RON 5 mn in
+<!-- Report Page 190 -->
 2024. Through the "Together from the first day" program, the
 OMV Petrom Foundation and Save the Children Romania equipped 16 additional medical units reaching a total of 60 medical units with state-of-the-art medical equipment for monitoring the health of newborns with a total investment of RON 8 mn in 2024.
 
@@ -5610,6 +5725,7 @@ For more information regarding the grievance mechanism, please refer to the "Rem
 
 [S3-4-34] OMV Petrom has not identified material risks and opportunities arising from impacts and dependencies on affected communities, in line with its double materiality process.
 
+<!-- Report Page 191 -->
 [S3-4-35] OMV Petrom is dedicated to ensuring that its practices do not cause or contribute to material negative impacts on affected communities. To achieve this, the company engages in ongoing dialogue with local communities to identify, mitigate, or prevent impacts and other repercussions that may arise from its operations.
 
 OMV Petrom has established an internal regulation for conducting Environmental and Social Impact Assessments (ESIAs) for its business projects. This regulation allows the company to understand the types of impacts its operations may cause and the mitigation measures that need to be implemented. Public consultations, which are part of the EIA process, ensure that the perspectives and concerns of affected communities and stakeholders are incorporated into the assessments.
@@ -5638,6 +5754,7 @@ relation to the company. However, affected communities have not been directly in
 
 [S3-5-42b] The company communicates its performance against these targets on an annual basis through its sustainability statement, which is publicly accessible on the corporate website, as part of the Annual Report.
 
+<!-- Report Page 192 -->
 # [ESRS 2 MDR-M] Metrics related to affected communities
 
 OMV Petrom monitors and discloses a series of metrics used to track the effectiveness of its actions to manage the affected communities topic. These are presented in the table below:
@@ -5669,6 +5786,7 @@ The total amount of social investments in local communities is annually reported
 
 Controlling reports. [MDR-M-a] The metrics for affected communities are not validated by an external body other than the assurance provider [MDR-M-b].
 
+<!-- Report Page 193 -->
 # Governance information
 
 ## Business conduct
@@ -5687,6 +5805,7 @@ As of May 2023, we launched our new Group Values: We care | We're curious | We p
 <th>Policies</th>
 </tr>
 <tr>
+<!-- Report Page 194 -->
 <td>Corporate Culture</td>
 <td>Defining OMV Petrom's values and behaviours is supporting the company's purpose and strategy</td>
 <td>Act</td>
@@ -5731,6 +5850,7 @@ As of May 2023, we launched our new Group Values: We care | We're curious | We p
 </tr>
 </table>
 
+<!-- Report Page 195 -->
 ## [DR G1-1] Business conduct and corporate culture
 
 ### Policies
@@ -5757,6 +5877,7 @@ without any exclusions. The OMV Petrom Board of Directors is accountable for the
 
 [MDR-P-65a, b,c,d,f] The OMV Petrom Whistleblowing Platform Directive outlines the framework and principles for the Integrity Platform, a third-party managed whistleblowing system. It sets out OMV Petrom's policy for protecting whistleblowers, ensuring confidentiality and anonymity if chosen by the whistleblower. Monitoring is done through training and business ethics surveys. The policy covers all operations and employees without exclusions. The OMV
 
+<!-- Report Page 196 -->
 Petrom Board of Directors, supported by the Compliance department, is accountable for its implementation. The directive aims to implement principles from Directive (EU) 2019 on the protection of persons who report breaches of Union law and Romanian law 361/2022. The Whistleblowing Directive is available to employees on the intranet and through compliance trainings, and to external stakeholders on our website. Additionally, the Pocket Guide "If you see something, say something!" is available on the intranet under the "Compliance/Integrity Platform" section.
 
 ### Occupational Safety Management Standard
@@ -5783,6 +5904,7 @@ potential financial distress due to late payments and improve working conditions
 
 purchases within OMV Petrom and its fully consolidated subsidiaries. The implementation of this policy is overseen by Procurement & Finance, who continuously monitor payment terms to ensure the 60-day payment terms are met, whereas the highest level of accountability for the Purchase to Pay Standard is held by the Chief Information Officer, who reports directly to the CFO. The standard is developed through extensive alignment with internal stakeholders, including accounts payable and business representatives, and based on information gained in our collaboration with external partners like CDP and EcoVadis. Even though the Purchase to Pay Standard is only published for internal use, the payment terms are included in Frame Contracts or Purchase Orders signed by suppliers and contractors.
 
+<!-- Report Page 197 -->
 ## Actions related to Corporate Culture
 
 [MDR-A.68 a, b, c, d, e] For promoting a healthy corporate culture, guiding all actions and supporting strategic goals, in 2023, the OMV Petrom Group established a set of core values: We care, We're curious, We progress [MDR-A-a]. These values apply to all operations and employees without exclusions [MDR-A-b]. "Our Values" Intranet page is continuously updated with relevant content. Our People processes were updated in June 2024, while our Learning & Development offer can be accessed at any time during the year by the employees and leaders. Additionally, we continuously embed Values in People processes, Projects and in the Learning & Development offer at OMV Petrom level [MDR-A-c].
@@ -5801,6 +5923,7 @@ thorough understanding of our ethical framework. This training is mandatory and 
 
 OMV Petrom's compliance management system has been audited in 2023 by external auditors according to the IDW PS 980 standard. The conclusion was that OMV Petrom's compliance management system is considered as best practice and suitable for identifying, controlling, and managing all significant competition law risks.
 
+<!-- Report Page 198 -->
 ## Actions related to Safety culture
 
 [MDR-A-a, b, c, e] To foster a culture in which the value of safety is embedded in every level of the workforce, OMV Petrom has developed Safety culture plans, which have been formulated and are being executed at every operational tier of the organization. These plans were developed, approved by the Local Safety Committees, and are being rolled out to all OMV Petrom divisions in a phased approach, to improve the safety culture components: open reporting, intervention, recognition and award, training and development, communication. The plans are revised annually based on operational site needs, with quarterly follow-ups on the defined plans. To track progress, OMV Petrom offers periodical recognition and awards at operational level, an annual Safety Award Event, and a monthly analysis of reported hazards and feedback to the end user. Additionally, Safety Centers have been established to provide practical training on Life Saving Rules, and they are available to both Petrom employees and contractors' staff.
@@ -5841,6 +5964,7 @@ systems, with certifications achieved in 2013, 2017, and 2023
 
 [G1-1.10a] OMV Petrom has implemented a comprehensive system for reporting and investigating potential violations of our Code of Business Ethics, policies related to corruption and bribery, and any unlawful behaviour. The internal Whistleblowing Platform Directive outlines the detailed process for identifying and investigating concerns. A detailed description of this directive can be found in the Policies section above.
 
+<!-- Report Page 199 -->
 Our reporting channels include:
 
 The Integrity Platform: An independent, third-party operated system accessible via the internet, allowing for anonymous reporting by both internal and external stakeholders. The reports received are directed to the relevant departments, with business ethics concerns handled by the Compliance department.
@@ -5879,6 +6003,7 @@ Through the Integrity Platform, whistleblowers can report violations confidentia
 
 [G1-1.10g] OMV Petrom ensures integrity and ethical behavior through mandatory training programs on business ethics and antitrust law. These programs align employees with ethical standards and equip them to identify potential issues, with completion rates tracked.
 
+<!-- Report Page 200 -->
 Our training program includes:
 
 Mandatory in-person or virtual business ethics training for managers level 1-4 and top management every three years. The course duration is 1 hour.
@@ -6018,6 +6143,7 @@ We assess all newly introduced IT components from a cybersecurity perspective. T
 
 [MDR-A.69] Financial resources allocated to actions in relation to Cybersecurity is considered sensitive information, thus they will not be disclosed.
 
+<!-- Report Page 201 -->
 Metrics and targets
 
 [MDR-T] Tracking effectiveness of policies and actions through targets [ESRS 2 MDR-T 81b] We set the following ambitions to
@@ -6026,6 +6152,7 @@ ensure a thorough, automated, and continuous process for identifying, assessing 
 
 Reach the process maturity level for IT Security to level 4.0.
 
+<!-- Report Page 202 -->
 [MDR-T 81 b ii] Utilizing advanced monitoring tools and analytics, the security team actively identifies potential risks and suspicious activities in real-time. This enables early threat detection and swift, coordinated actions to contain and mitigate incidents before they escalate, reducing the impact on business operations and strengthening the overall security posture.
 
 Due to confidentiality reasons, we cannot disclosure more details regarding our ambitions.
@@ -6035,6 +6162,7 @@ Achieve the highest level of maturity on IT-OT (Information Technology - Operati
 [MDR-T 81 b ii] The collaboration between IT and OT teams ensure alignment of strategies and operational practices, incorporating security, performance, and scalability into infrastructure design and management. This results in more resilient and efficient systems across the organization. We monitor the target through dedicated metric on maturity level, however, for confidentiality reason we cannot disclose more details.
 
 [MDR-M] Metrics in relation to cybersecurity [MDR-M.75]
+<!-- Report Page 203 -->
 
 <table>
 <tr>
@@ -6043,6 +6171,7 @@ Achieve the highest level of maturity on IT-OT (Information Technology - Operati
 <th>2023</th>
 </tr>
 <tr>
+<!-- Report Page 204 -->
 <td>Number of awareness campaigns</td>
 <td>57</td>
 <td>75</td>
@@ -6096,6 +6225,7 @@ created value for stakeholders. Economic value is entityspecific information sin
 
 ## Impact, risk and opportunity management [MDR-P] Policies
 
+<!-- Report Page 205 -->
 Positive impact: High tax contributions to Romanian State
 
 OMV Petrom has adopted policies and defined a workflow to ensure compliance with legal requirements in force regarding the calculation, declaration and payment of direct and indirect taxes.
@@ -6122,6 +6252,7 @@ Risk: Regulatory changes resulting in higher taxes impacting the company's finan
 
 ## [MDR-A] Actions
 
+<!-- Report Page 206 -->
 Positive impact: High tax contributions to Romanian State
 
 [MDR-A- a, b, c] The computation, payment, transparency, and publication of information on tax contributions to the Romanian State are listed as main priorities of the OMV Petrom Group (OMV Petrom SA and its Romanian subsidiaries). The taxes contributed by the foreign subsidiaries of the OMV Petrom Group are not in scope for this disclosure, as they are due to each state budget of each foreign subsidiary. Typical business taxes as well as industry-specific taxes (e.g. royalties, exploitation of natural resources tax, tax on additional revenues offshore, etc.) are within the scope. Romania is the stakeholder. OMV Petrom releases annual and quarterly reports to facilitate understanding of tax contributions and policies. These actions ensure transparency and compliance with tax obligations, enhancing stakeholder trust and demonstrating OMV Petrom Group's commitment to responsible tax practices. The actions are conducted quarterly or annually, depending on the type of tax and its related legally binding deadline for assessment and payment.
@@ -6141,6 +6272,7 @@ Positive impact: Investments' multiplier effect (direct & indirect) in the Roman
 Total Capex allocated in 2024 in addressing the action above regarding OMV Petrom's support in Romania's energy transition through the 2030 Strategy, having a multiplier effect on Romania's economy, is disclosed in the 2024 Annual Report in the Director's Report Section.
 
 ## Metrics and Targets [MDR-T] Targets
+<!-- Report Page 207 -->
 
 [MDR-T.81 b i,ii] Target related to high tax contribution: No measurable outcome oriented-target has been set. The policies and actions presented above related to tax contributions have proved to be effective since we have contributed high amounts of taxes to the Romanian State. Our ambition is to keep on being a reliable contributor to the Romanian State by always paying our taxes in time. The amount of total contributions (the metric used to measure progress year on year) is published annually in the CFO presentation that is included in the Annual GMS.
 
@@ -6161,6 +6293,7 @@ direct taxes amounting to RON 4,257 mn (December 31, 2023: RON 5,968 mn), mainly
 indirect taxes amounting to RON 10,830 mn (December 31, 2023: RON 9,072 mn) mainly related to excise and VAT
 
 dividends amounting to RON 846 mn (December 31, 2023: RON 979 mn).
+<!-- Report Page 208 -->
 
 [MDR-M-b, a] Neptun Deep's multiplier effect was assessed independently by Consilium Policy Advisors Group. The economic impact considered the GDP, employment, and state revenues. The scenario developed in this assessment is based solely upon publicly available data and Consilium Policy Advisors Group's expertise and analysis. Although the information compiled in this assessment is considered reliable, its accuracy is not guaranteed and is not to be taken in substitution for the exercise of judgement by any recipient. This assessment includes forward-looking statements, such as forecasts or expectations that are based on views and assumptions at the date of the assessment, and subject to known and unknown risks and uncertainties. Given the large degree of volatility and uncertainty in natural gas markets,
 
@@ -6180,6 +6313,7 @@ In the same period, Neptun project could create or maintain 9,100 jobs throughou
 
 # Annexes
 
+<!-- Report Page 209 -->
 EU Taxonomy - Turnover
 
 <table>
@@ -6489,6 +6623,7 @@ EU Taxonomy - Turnover
 <table>
 <tr>
 <th colspan="4">2024</th>
+<!-- Report Page 210 -->
 <th colspan="6">Substantial contribution criteria</th>
 <th colspan="10">DNSH criteria (Do no significant harm)</th>
 </tr>
@@ -6623,6 +6758,7 @@ EU Taxonomy - Turnover
 </tr>
 </table>
 
+<!-- Report Page 211 -->
 # EU Taxonomy - CAPEX
 
 <table>
@@ -7042,6 +7178,7 @@ EU Taxonomy - Turnover
 <th></th>
 <th></th>
 <th colspan="2">2024</th>
+<!-- Report Page 212 -->
 <th colspan="2">Substantial contribution criteria</th>
 <th colspan="10">DNSH criteria (Do no significant harm)</th>
 </tr>
@@ -7099,6 +7236,7 @@ Y; N; Y; N; N/EL N/EL</th>
 <td></td>
 </tr>
 <tr>
+<!-- Report Page 213 -->
 <td>Renovation of existing buildings</td>
 <td>CCM 7.2.</td>
 <td>7.59</td>
@@ -7219,6 +7357,7 @@ Y Yes, Taxonomy-eligible and Taxonomy-aligned activity with the relevant environ
 
 N/EL Not eligible, Taxonomy-non-eligible activity for the relevant environmental objective
 
+<!-- Report Page 214 -->
 ## EU Taxonomy - OPEX
 
 <table>
@@ -7533,6 +7672,7 @@ N/EL Not eligible, Taxonomy-non-eligible activity for the relevant environmental
 <tr>
 <th colspan="2"></th>
 <th colspan="2">2024</th>
+<!-- Report Page 215 -->
 <th colspan="3">Substantial contribution criteria</th>
 <th colspan="9">DNSH criteria (Do no significant harm)</th>
 </tr>
@@ -7687,6 +7827,7 @@ Y; N; N/EL</th>
 
 <table>
 <tr>
+<!-- Report Page 216 -->
 <th colspan="7">EU Taxonomy Data - Overview of EU Taxonomy KPIs for 2024 and 2023</th>
 </tr>
 <tr>
@@ -7844,6 +7985,7 @@ Y; N; N/EL</th>
 </tr>
 </table>
 
+<!-- Report Page 217 -->
 ### EU Taxonomy - Nuclear and fossil gas related activities
 
 <table>
@@ -7893,6 +8035,7 @@ Y; N; N/EL</th>
 </tr>
 </table>
 
+<!-- Report Page 218 -->
 # EU Taxonomy - Taxonomy-aligned economic activities (denominator) - Turnover
 
 <table>
@@ -7978,6 +8121,7 @@ mitigation</th>
 </tr>
 </table>
 
+<!-- Report Page 219 -->
 # EU Taxonomy - Taxonomy-aligned economic activities (denominator) - CAPEX
 
 <table>
@@ -8073,6 +8217,7 @@ mitigation</th>
 </tr>
 </table>
 
+<!-- Report Page 220 -->
 ## EU Taxonomy - Taxonomy-aligned economic activities (denominator) - Operating Expenses (OPEX)
 
 <table>
@@ -8161,6 +8306,7 @@ mitigation</th>
 </tr>
 </table>
 
+<!-- Report Page 221 -->
 ## EU Taxonomy - Taxonomy-aligned economic activities (numerator) - Turnover
 
 <table>
@@ -8236,6 +8382,7 @@ Climate change (CCM) adaptation (CCA)</th>
 </table>
 
 <table>
+<!-- Report Page 222 -->
 <caption>EU Taxonomy - Taxonomy-aligned economic activities (numerator) - Capital expenditure (CAPEX)</caption>
 <tr>
 <th></th>
@@ -8332,6 +8479,7 @@ Climate change (CCM) adaptation (CCA)</th>
 </tr>
 </table>
 
+<!-- Report Page 223 -->
 # EU Taxonomy - Taxonomy-aligned economic activities (numerator) - OPEX
 
 <table>
@@ -8429,6 +8577,7 @@ Climate change (CCM) adaptation (CCA)</th>
 </tr>
 </table>
 
+<!-- Report Page 224 -->
 # EU Taxonomy - Taxonomy-eligible but not taxonomy-aligned economic activities - Turnover
 
 <table>
@@ -8533,6 +8682,7 @@ Climate change (CCM) adaptation (CCA)</th>
 </tr>
 </table>
 
+<!-- Report Page 225 -->
 # EU Taxonomy - Taxonomy-eligible but not taxonomy-aligned economic activities - CAPEX
 
 <table>
@@ -8631,6 +8781,7 @@ Climate change (CCM) adaptation (CCA)</th>
 </tr>
 </table>
 
+<!-- Report Page 226 -->
 ## EU Taxonomy - Taxonomy-eligible but not taxonomy-aligned economic activities - OPEX
 
 <table>
@@ -8725,6 +8876,7 @@ Climate change (CCM) adaptation (CCA)</th>
 </tr>
 </table>
 
+<!-- Report Page 227 -->
 ### EU Taxonomy Data - Taxonomy-non-eligible economic activities - Turnover
 
 <table>
@@ -8843,6 +8995,7 @@ Climate change (CCM) adaptation (CCA)</th>
 </tr>
 </table>
 
+<!-- Report Page 228 -->
 ### EU Taxonomy Data - Taxonomy-non-eligible economic activities - OPEX
 
 <table>
@@ -8908,6 +9061,7 @@ Climate change (CCM) adaptation (CCA)</th>
 <tr>
 <th>(Sustainability Statement) Chapter</th>
 <th colspan="2">Reporting area</th>
+<!-- Report Page 229 -->
 <th>Disclosure Requirement</th>
 </tr>
 <tr>
@@ -9007,6 +9161,7 @@ Climate change (CCM) adaptation (CCA)</th>
 <th>(Sustainability Statement) Chapter</th>
 <th>Reporting area</th>
 <th></th>
+<!-- Report Page 230 -->
 <th>Disclosure Requirement</th>
 </tr>
 <tr>
@@ -9087,6 +9242,7 @@ Climate change (CCM) adaptation (CCA)</th>
 <tr>
 <th>(Sustainability Statement) Chapter</th>
 <th colspan="2">Reporting area</th>
+<!-- Report Page 231 -->
 <th>Disclosure Requirement</th>
 </tr>
 <tr>
@@ -9179,6 +9335,7 @@ Climate change (CCM) adaptation (CCA)</th>
 <th>(Sustainability Statement) Chapter</th>
 <th>Reporting area</th>
 <th></th>
+<!-- Report Page 232 -->
 <th>Disclosure Requirement</th>
 </tr>
 <tr>
@@ -9266,6 +9423,7 @@ Climate change (CCM) adaptation (CCA)</th>
 <th>(Sustainability Statement) Chapter</th>
 <th>Reporting area</th>
 <th></th>
+<!-- Report Page 233 -->
 <th>Disclosure Requirement</th>
 </tr>
 <tr>
@@ -9376,6 +9534,7 @@ Climate change (CCM) adaptation (CCA)</th>
 <tr>
 <th>(Sustainability Statement) Chapter</th>
 <th colspan="2">Reporting area</th>
+<!-- Report Page 234 -->
 <th>Disclosure Requirement</th>
 </tr>
 <tr>
@@ -9463,6 +9622,7 @@ Climate change (CCM) adaptation (CCA)</th>
 <th>(Sustainability Statement) Chapter</th>
 <th>Reporting area</th>
 <th></th>
+<!-- Report Page 235 -->
 <th>Disclosure Requirement</th>
 </tr>
 <tr>
@@ -9504,6 +9664,7 @@ Climate change (CCM) adaptation (CCA)</th>
 <th>Disclosure Requirement and related datapoint</th>
 <th>SFDR</th>
 <th>Regulation Benchmark EU Climate Law Pillar 3</th>
+<!-- Report Page 236 -->
 <th>Inclusion (chapter, section) / Relevance (not material and/or phased-in)</th>
 </tr>
 <tr>
@@ -9648,6 +9809,7 @@ x x</td>
 <th>SFDR</th>
 <th>Benchmark
 EU Climate Law Regulation Pillar 3</th>
+<!-- Report Page 237 -->
 <th>Inclusion (chapter, section) / Relevance (not material and/or phased-in)</th>
 </tr>
 <tr>
@@ -9808,6 +9970,7 @@ EU Climate Law Regulation Pillar 3</th>
 <th>SFDR</th>
 <th>Benchmark Regulation Pillar 3</th>
 <th>EU Climate Law</th>
+<!-- Report Page 238 -->
 <th>Inclusion (chapter, section) / Relevance (not material and/or phased-in)</th>
 </tr>
 <tr>

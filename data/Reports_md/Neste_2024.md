@@ -2,6 +2,7 @@
 
 <table>
 <tr>
+<!-- Report Page 100 -->
 <td>General information</td>
 <td>101</td>
 </tr>
@@ -61,6 +62,7 @@
 
 ## Sustainability statement General information
 
+<!-- Report Page 101 -->
 ### ESRS 2 General disclosures
 
 #### General basis for preparation of the Sustainability statement
@@ -105,6 +107,7 @@ During 2024, the Audit Committee and the Board had specific focus on the new sus
 
 <table>
 <tr>
+<!-- Report Page 102 -->
 <th>Specification of administrative, management and supervisory bodies</th>
 <th>2024</th>
 </tr>
@@ -156,6 +159,7 @@ Internal Control function monitors the control performance and assesses control 
 
 #### Strategy, business model and value chain
 
+<!-- Report Page 103 -->
 ##### Neste's business model and value chain
 
 Neste is the world's leading producer of sustainable aviation fuel (SAF) and renewable diesel and a forerunner in developing renewable and circular feedstock solutions for polymers and chemicals. Neste's businesses are grouped into three reporting segments: Renewable Products (RP), Oil Products (OP) and Marketing & Services (M&S).
@@ -204,6 +208,7 @@ Practices related to the collection and development of inputs are further descri
 
 <table>
 <tr>
+<!-- Report Page 104 -->
 <th>Total revenue by segment, MEUR</th>
 <th>2024</th>
 </tr>
@@ -300,6 +305,7 @@ Neste has operations in the fossil fuels sector and revenues from these sectors 
 
 Reporting principles for headcount are included under S1 Own workforce
 
+<!-- Report Page 105 -->
 #### Interests and views of stakeholders
 
 Neste aims for continuous, active and open dialog with its stakeholders and regularly seeks external views on its operations. The company's key stakeholders include stakeholders who the business can influence as well as those that have the opportunity to influence Neste; including suppliers, employees, customers, investors, policymakers, non-governmental organisations (NGOs), academic institutions, and the media.
@@ -395,6 +401,7 @@ The table below summarizes Neste's engagement with its key stakeholders:
 <table>
 <tr>
 <th>Stakeholders</th>
+<!-- Report Page 106 -->
 <th>Purpose and key topics</th>
 <th>How engagements are organized</th>
 <th>How outcomes are taken into account by Neste</th>
@@ -466,6 +473,7 @@ Growing pressure to combat climate change and reduce greenhouse gas emissions is
 <table>
 <tr>
 <th>Material topics</th>
+<!-- Report Page 107 -->
 <th colspan="2">Summary of material impacts, risks and opportunities for Neste as evaluated in the double materiality assessment</th>
 </tr>
 <tr>
@@ -557,6 +565,7 @@ Material opportunities regarding climate change, biodiversity or circular econom
 
 The disclosed sustainability information is based on Neste's double materiality assessment. The double materiality assessment (DMA) was divided into four phases based on general steps outlined in ESRS 1 General principles. This is the first time that Neste has undertaken a double materiality assessment in line with ESRS requirements.
 
+<!-- Report Page 108 -->
 ## 1. Value chain mapping
 
 The purpose of the value chain mapping was to describe Neste's value chain and related business activities in both upstream, own operations and downstream. The focus was on specific activities, business relationships, geographies or other factors that could give rise to a heightened risk of adverse impacts. The value chain mapping was conducted by internal stakeholders for a comprehensive knowledge and understanding of Neste's business. The results of the mapping were validated internally.
@@ -600,6 +609,7 @@ The thresholds set in the double materiality assessment are not static and may b
 
 Neste Leadership Team and Board of Directors reviewed the outcomes of the double materiality assessment. Each double materiality process step was also validated with a group of internal subject matter experts, and Neste Leadership Team and Board of Directors were kept informed throughout the assessment. During 2024, Neste has defined specific internal controls to ensure the fulfillment of relevant requirements when conducting the double materiality assessment. The controls aim to ensure valid, complete and accurate results. Through the controls, it is ensured that the views of key experts, stakeholders and decision-makers are taken into account, and that a pre-defined approach is followed consistently.
 
+<!-- Report Page 109 -->
 ### Integration with Neste processes
 
 Sustainability-related risks are identified and managed in quarterly risk reviews as a part of Enterprise Risk Management (ERM) at Neste in line with the Corporate Risk Management Policy and supporting principles and standards. The assessment considers short-, mediumand long-term perspectives. The prioritization of risks is based on the risk assessment scales according to the Neste Corporate Risk Management Policy.
@@ -775,6 +785,7 @@ A summary of the relevant policies and principles at Neste to address material s
 </tr>
 </table>
 
+<!-- Report Page 110 -->
 ## Environmental information
 
 ## EU taxonomy
@@ -826,6 +837,7 @@ The relevant activity-specific DNSH criteria from Annex I have been evaluated fo
 
 Compliance with the minimum safeguards has been assessed at the group level based on the Report on Minimum Safeguards published by the EU Platform on Sustainable Finance in October 2022. Neste has assessed its operations to be compliant with the minimum safeguards as determined in the Neste Code of Conduct, which includes the topics of human rights, including workers' rights, bribery and corruption, taxation and fair competition. No violations have been identified with the safeguards. Neste's approach to human rights and anti-corruption is described in more detail in the S1 Own workforce, S2 Workers in the value chain and G1 Business conduct -sections of the Sustainability statement. More information about Neste's compliance program, including competition law compliance, is disclosed in the Annual Review. Neste also publishes a Tax Footprint annually.
 
+<!-- Report Page 111 -->
 ## Accounting policy
 
 The definitions of taxonomy key performance indicators (KPIs) are based on the Disclosures Delegated Act, which supplements the Taxonomy Regulation and follows requirements that apply to the disclosures under Article 8(2) of Regulation (EU) 2020/852. The taxonomy reporting scope is aligned with the Consolidated Financial statements and covers Neste's global operations. The calculations follow general materiality principles. Taxonomy KPIs are calculated using the financial information presented in Notes to the Consolidated Financial statements in Neste's Annual Report 2024. To avoid double counting in the reported figures, allocations were made for each activity separately based on reporting structures, and a reconciliation has been carried out for the final figures. Neste does not present a table for the extent of eligibility and alignment per environmental objective, as 100% of the KPIs are related to the climate change mitigation objective.
@@ -992,6 +1004,7 @@ Neste's taxonomy OpEx figures include expenses presented in Note 9 Other expense
 <td>Category</td>
 </tr>
 <tr>
+<!-- Report Page 112 -->
 <td>Economic activities</td>
 <td></td>
 <td></td>
@@ -1349,6 +1362,7 @@ Neste's taxonomy OpEx figures include expenses presented in Note 9 Other expense
 <td>Climate change</td>
 <td>Water</td>
 <td>Pollution</td>
+<!-- Report Page 113 -->
 <td>Circular economy</td>
 <td>Biodiversity</td>
 <td>Climate change</td>
@@ -1726,6 +1740,7 @@ Neste's taxonomy OpEx figures include expenses presented in Note 9 Other expense
 <th>transitional</th>
 </tr>
 <tr>
+<!-- Report Page 114 -->
 <td>Economic activities</td>
 <td>Codes</td>
 <td>Proportion of</td>
@@ -2050,6 +2065,7 @@ N/EL Taxonomy-non-eligible activity for the relevant objective
 ## Fossil gas related activities Template 1 Nuclear and fossil gas related activities
 
 <table>
+<!-- Report Page 115 -->
 <caption>Template 4 Taxonomy-eligible but not taxonomy-aligned economic activities</caption>
 <tr>
 <th>Row</th>
@@ -2143,6 +2159,7 @@ Taxonomy-eligible OpEx related to natural gas should cover direct expenses in ac
 
 Additionally, CapEx related to natural gas is not disclosed because the investments related to the Kilpilahti Power Plant are not included in Neste's total capital expenditure. Neste did not recognize any nuclear related activities as defined in the Complementary Climate Delegated Act.
 
+<!-- Report Page 116 -->
 ## E1 Climate change
 
 ## Material impacts, risks and opportunities
@@ -2204,6 +2221,7 @@ Climate scenarios describing different global warming outcomes are one of the ke
 - Net Zero World 2050, which is in line with the 1.5 ℃
 pathways;
 
+<!-- Report Page 117 -->
 - Net Zero EU and North America by 2050, consistent
 with a 2 ℃ trajectory; and
 
@@ -2232,6 +2250,7 @@ Neste has identified two material climate-related transition risks related to cl
 
 The transition to a lower-carbon economy will shift the energy mix from fossil fuels towards lower-carbon fuels, and the magnitude of the transition is expected to depend on technological development and growing use of a number of more sustainable solutions. Development of sustainable technologies is expected to continue to be progressive, supported by relatively stable macroeconomy in the long-term, despite temporary ups and downs. The growing global population and economic growth continue to drive increased energy demand, yet energy efficiency improvements counterbalance the net impact.
 
+<!-- Report Page 118 -->
 ### Potential implications of climate change to Neste
 
 <table>
@@ -2296,6 +2315,7 @@ Increasing the availability of renewable and circular solutions to reduce relian
 ### Targets
 
 As part of Neste's sustainability vision, Neste leads transformation toward a carbon neutral value chain by 2040, including reaching carbon neutral production by
+<!-- Report Page 119 -->
 2035. Neste has three quantifiable, time-bound targets
 for climate change mitigation (Table: Neste's targets on climate change mitigation). Neste's climate targets are linked to its overall business strategy, and considered in financial planning and resource allocation, for example, through the use of internal carbon price.
 
@@ -2398,6 +2418,7 @@ Climate change adaptation: To address the opportunity to enhance flexibility in 
 
 Climate change mitigation: Neste continues to work with the company's suppliers and partners to reduce GHG emissions across its value chain. The scope of these activities are upstream and downstream scope 3 emissions, e.g., purchased goods, services, transportation and logistics. Progress will be reflected in relevant scope 3 GHG emissions.
 
+<!-- Report Page 120 -->
 ### Progress in targets
 
 Neste's climate targets are monitored and reviewed as part of e.g., the remuneration of Neste's key personnel, as scope 1 & 2 and Handprint targets are a performance measure in Neste's long-term incentives (LTIs). Performance towards climate targets in 2024 is presented below:
@@ -2469,6 +2490,7 @@ Table below summarizes Neste's key actions to address material climate-related i
 </tr>
 </table>
 
+<!-- Report Page 121 -->
 ## Expected outcomes
 
 The expected outcomes of these actions include reduced scope 1 & 2 GHG emissions, improved energy efficiency, lower use phase emission intensity of sold products and higher carbon handprint. These actions contribute to the management of material negative impacts associated with GHG emissions from Neste's own operations and value chain, energy consumption, as well as positive impacts related to reduced GHG emissions by Neste's customers. Through these actions, Neste is contributing to the objective of the Sustainability Policy to lead transformation towards a carbon neutral value chain.
@@ -2578,6 +2600,7 @@ In 2024, Neste's internal carbon price was 100 EUR/ tCO,e in the short term. The
 
 <table>
 <tr>
+<!-- Report Page 122 -->
 <th rowspan="2">Scope 1 GHG emissions</th>
 <th colspan="2">Retrospective</th>
 </tr>
@@ -2765,6 +2788,7 @@ For a part of transportation emission (category 4 & 9) and purchased goods and s
 
 Significant scope 3 categories for Neste include category 1, 3, 4, 5, 9, 11, 12 and 15. Excluded categories include:
 
+<!-- Report Page 123 -->
 - Capital goods (category 2): Compared to Neste's
 supplier spend, capital goods spend is not relevant. Currently capital goods and other purchased materials are included in category 1 through spend data.
 
@@ -2798,6 +2822,7 @@ Neste's customer GHG emissions reduction is calculated by aggregating the custom
 
 ## E2 Pollution
 
+<!-- Report Page 124 -->
 ### Material impacts, risks, and opportunities
 
 Neste has identified the following material risk with regards to pollution:
@@ -2843,6 +2868,7 @@ General governance, including the highest level of accountability for policies, 
 
 Neste complies with regulatory requirements for product and chemical safety, as described in the Neste Operations Excellency Policy and Product and Chemical Safety principle to address impacts associated with substances of concern in its supply chain and products. Neste does not have separate targets in place with regards to substances of concern but tracks the effectiveness of its policies with e.g., the below entity-specific KPI. Neste aims to minimize the number of non-compliances related to the health and safety requirements of its products. Neste has not defined a base year for the key performance indicator.
 
+<!-- Report Page 125 -->
 ## Actions and resources
 
 ## Actions
@@ -2909,6 +2935,7 @@ Implementation of actions related to substances of concern are covered by e.g., 
 </tr>
 </table>
 
+<!-- Report Page 126 -->
 ## Reporting principles
 
 Substances of concern are recognised and tracked in Neste's internal IT systems. There are a variety of existing regulatory requirements in place for notifying manufactured and imported chemicals and their yearly volumes to the national authorities. By managing these and many other EU and national requirements Neste has gathered depositories of data on hazardous chemicals. Reporting substances of concern as defined in the ESRS are managed together with the work related to these regulatory requirements. Neste continues to develop accounting of substances of concern for CSRD reporting.
@@ -2946,6 +2973,7 @@ In Singapore the national water agency (PUB) regulates the sewerage system, as w
 
 Incidents of non-compliance concerning the health and safety requirements of products (entity-specific KPI), is an incident involving non-compliance with regulations resulting in a fine, penalty or warning. Incidents of non-compliance concerning the health and safety requirements of chemicals are reported according to the Neste management system. The metric is based on the definitions in GRI indicator 416-2. The KPI has not been validated separately by an external third party.
 
+<!-- Report Page 127 -->
 ## E4 Biodiversity and ecosystems
 
 ## Material impacts, risks and opportunities
@@ -2994,6 +3022,7 @@ Neste's materiality assessments for biodiversity have been conducted with intern
 
 The work done so far does not yet fulfill all ESRS requirements for a resilience analysis of Neste's business model to biodiversity-related transition and systemic risks.
 
+<!-- Report Page 128 -->
 ## Identified impacts, risks and opportunities
 
 Neste's crude oil supply chain and the sourcing of natural gas can lead to implications for land and marine ecosystems, habitats and species, as described in the impact descriptions under E4 Biodiversity and ecosystems Material impacts, risks and opportunities -table. Neste aims to advance circular economy and resource efficiency for example through utilising waste and residue raw materials in the production of its renewable products. As a result, the demand for virgin materials could be decreased, alleviating the pressure on natural resources and reliance on crude oil and other fossil resources.
@@ -3030,6 +3059,7 @@ Neste has utilized the SDG Compass by the United Nations Global Compact to ident
 
 As part of its sustainability vision, Neste aims to drive a positive impact on biodiversity and achieve a nature positive value chain by 2040. Neste is committed to develop its biodiversity approach and science-based methodology to assess, prioritize, mitigate and track impacts identified for land, water and pollution, in line with EU Corporate Sustainability Due Diligence Directive. This commitment supports the policy objectives of Neste Sustainability Policy, Responsible Sourcing Principle and Supplier Code of Conduct. Neste does not have separate measurable, time-bound and outcome-oriented targets specific to upstream material biodiversity impacts, risks and opportunities. Neste tracks the effectiveness of policies and actions through other relevant metrics and key performance indicators. These include for example, KPIs under the E1 Climate change and G1 Business conduct -sections of this report, which focus on the reduced reliance on fossil resources and driving environmental sustainability within the supply chain, respectively.
 
+<!-- Report Page 129 -->
 ## Actions and resources
 
 ### Actions
@@ -3054,6 +3084,7 @@ Implementation of the actions reported above are not expected to require signifi
 
 Neste follows key frameworks and engages in collaborations in developing impact metrics related to biodiversity. For example, Neste has been collaborating with Fauna & Flora and SBTN to develop a methodology for Neste.
 
+<!-- Report Page 130 -->
 ## E5 Resource use and circular economy
 
 ### Material impacts, risks and opportunities
@@ -3109,6 +3140,7 @@ Neste monitors the implementation of these principles through rigorous sustainab
 
 To address the material risks and opportunities related to resource use and circular economy, Neste continues to strengthen and expand its raw materials portfolio and global sourcing capabilities. Neste does not have separate measurable, time-bound and outcome-oriented targets in place for the material risks and opportunities related to resource use and circular economy but does nevertheless track the effectiveness of its policies and actions as described in the section below.
 
+<!-- Report Page 131 -->
 ### Actions and resources
 
 #### Actions
@@ -3186,6 +3218,7 @@ for production;
 
 The metrics described above have not been validated separately by an external third party. Neste's material risks and opportunities related to resource inflows are linked to the use of biological materials, which include renewable raw materials used by Neste, and recycled raw materials, which includes the use of liquefied waste plastics in production. Neste uses only sustainably-produced renewable raw materials that fully meet the sustainability requirements specified in the legislation in its key markets. Neste further addresses sustainability in its renewable fuel production chain through certifications such as European Commission-approved voluntary schemes like ISCC EU and national verification schemes. All Neste renewable product refineries have EU-compliant International Sustainability and Carbon Certification (ISCC) certificates. The data for resource inflows metrics are collected directly from Neste's internal source systems.
 
+<!-- Report Page 132 -->
 ## Social information
 
 ## S1 Own workforce
@@ -3282,6 +3315,7 @@ Safety topics are further discussed in team safety discussions, with the purpose
 
 ## Processes to remediate negative impacts and channels for own workers to raise concerns
 
+<!-- Report Page 133 -->
 ### Grievance channel
 
 Neste provides mechanisms for employees to express concerns or grievances without fear of retaliation, and is committed to addressing issues fairly, confidentially and promptly. Neste's process for reporting and handling grievances is described more in detail under the G1 Business Conduct -chapter. Adverse impacts are remediated by providing and promoting access to grievance mechanisms and complaints channels, and by cooperating in the remediation of the adverse impacts that Neste has caused or contributed to.
@@ -3328,6 +3362,7 @@ OpEx and CapEx: Incorporating safety into projects such as investments, change i
 <table>
 <tr>
 <th>Targets</th>
+<!-- Report Page 134 -->
 <th>Key performance indicator</th>
 <th>Performance and progress in 2024 1)</th>
 </tr>
@@ -3371,6 +3406,7 @@ Safety-related investments are part of prioritized maintenance operational or ca
 
 ### Characteristics of Neste's employees
 
+<!-- Report Page 135 -->
 #### Headcount by gender
 
 <table>
@@ -3591,6 +3627,7 @@ Safety-related investments are part of prioritized maintenance operational or ca
 
 1\) Excludes green-field expansion projects where Neste is not responsible for the construction site.
 
+<!-- Report Page 136 -->
 ## Reporting principles
 
 Headcount: The reported headcount reflects the end of the reporting period (31.12.2024) and includes all Neste employees. The headcount typically increases during the summer months due to the summer trainees. The total headcount compared to previous year has decreased due to organizational change and related change negotiations. Note 8 Employee benefit costs in the Consolidated Financial statements includes the number of personnel in the reporting year. The number in the Financial statements is reported as an average and does not include temporary hourly workers.
@@ -3645,6 +3682,7 @@ Hours worked: The hours worked by the whole personnel and contractors during the
 
 The metrics related to own workforce described above have not been validated separately by an external third party.
 
+<!-- Report Page 137 -->
 ### S2 Workers in the value chain
 
 #### Material impacts, risks and opportunities
@@ -3704,6 +3742,7 @@ Neste seeks to engage with potentially affected groups early on and before decis
 
 Neste engages with value chain workers both directly and through representatives. Examples include:
 
+<!-- Report Page 138 -->
 - Audiovisual worker voice technology: Neste has
 implemented worker voice technology to scale up the number of workers the company engages with in its operations and value chains, and to improve the company's overall understanding of workers' experiences. The technology uses an audiovisual survey to enable direct and anonymous engagement with workers via mobile devices. The surveys are designed to be easily accessible for illiterate workers, can be taken in their mother-tongue language, and function even in remote regions without internet access, allowing Neste to engage with even the most vulnerable groups of workers. The technology is used on an ongoing basis throughout the year across Neste's global sourcing regions. The worker voice surveys provide direct insights from value chain workers on a range of topics including but not limited to indicators of forced labor, recruitment fees, children's rights, living wages, inequality, living standards, and issues impacting vulnerable groups such as young workers, migrant workers, women and workers with disabilities. The insights gathered through these engagements inform the annual human rights saliency assessment, which underpins Neste's human rights policies, and approach to risk mitigation.
 
@@ -3745,6 +3784,7 @@ Monitoring: Neste annually analyzes the saliency of its human rights impacts bas
 
 <table>
 <tr>
+<!-- Report Page 139 -->
 <th>Key performance indicator</th>
 <th>Performance in 2024</th>
 </tr>
@@ -3762,6 +3802,7 @@ Monitoring: Neste annually analyzes the saliency of its human rights impacts bas
 
 1\) See description of Human Rights Due Diligence process under 'Processes'.
 
+<!-- Report Page 140 -->
 ## Actions and resources
 
 ## Actions
@@ -3813,6 +3854,7 @@ Through these actions, Neste aims to ensure respect for human rights and mitigat
 
 Implementation of the actions reported above are not expected to require significant (> 50 MEUR) financial resources.
 
+<!-- Report Page 141 -->
 ## Governance information
 
 ## G1 Business conduct
@@ -3876,6 +3918,7 @@ As a key performance indicator, Neste tracks percentages of business partners wh
 
 <table>
 <tr>
+<!-- Report Page 142 -->
 <th>Key performance indicator</th>
 <th>Performance in 2024</th>
 </tr>
@@ -3907,6 +3950,7 @@ Neste verifies suppliers' compliance with Neste's Supplier Code of Conduct with 
 
 Liquefied waste plastics sourcing: Neste requires its liquefied waste plastic suppliers to fulfill the requirements in the Neste Supplier Code of Conduct and only accept liquefied waste plastic that is traceable and complies with the ISCC Plus certification requirements.
 
+<!-- Report Page 143 -->
 Crude oil and other fossil raw material sourcing:
 
 The due diligence process for the company's crude oil and other fossil raw material suppliers includes a country risk assessment and a counterparty screening. Neste also conducts a sustainability review of all new suppliers based on publicly available information regarding topics outlined in the Neste Supplier Code of Conduct, suppliers' climate and environmental commitments, and crude oil production-specific issues such as flaring and spills. The sustainability review is renewed for fossil raw material suppliers every three years.
@@ -3939,6 +3983,7 @@ Supplier Code of Conduct: The share of renewable and recycled raw material volum
 
 ## Appendixes
 
+<!-- Report Page 144 -->
 ## Statement on due diligence
 
 <table>
@@ -4012,6 +4057,7 @@ The following table lists all ESRS disclosure requirements in ESRS 2 and the sev
 
 <table>
 <tr>
+<!-- Report Page 145 -->
 <td colspan="2">ESRS 2 General Disclosures</td>
 </tr>
 <tr>
@@ -4184,6 +4230,7 @@ The following table lists all ESRS disclosure requirements in ESRS 2 and the sev
 
 <table>
 <tr>
+<!-- Report Page 146 -->
 <th colspan="2">ESRS E5 Resource use and circular economy</th>
 </tr>
 <tr>
@@ -4332,6 +4379,7 @@ The table below includes all of the data points that derive from other EU legisl
 <th>Page reference in Sustainability statement</th>
 </tr>
 <tr>
+<!-- Report Page 147 -->
 <td>ESRS 2 GOV-1 Board's gender diversity paragraph 21 (d)</td>
 <td>X ☒</td>
 <td></td>
@@ -4529,6 +4577,7 @@ Calculation of key figures
 <th>Page reference in Sustainability statement</th>
 </tr>
 <tr>
+<!-- Report Page 148 -->
 <td>ESRS E3-1 Dedicated policy paragraph 13</td>
 <td>X ☒</td>
 <td></td>
@@ -4774,6 +4823,7 @@ Calculation of key figures
 <th>Page reference in Sustainability statement</th>
 </tr>
 <tr>
+<!-- Report Page 149 -->
 <td>ESRS S2-1 Due diligence policies on issues addressed by the fundamental International Labor Organisation Conventions 1 to 8, paragraph 19</td>
 <td></td>
 <td></td>
@@ -4875,6 +4925,7 @@ Calculation of key figures
 
 <table>
 <tr>
+<!-- Report Page 150 -->
 <th>Income statement</th>
 <th></th>
 <th>2024</th>
@@ -5210,6 +5261,7 @@ Calculation of key figures
 
 1\) Board of Directors' proposal to the Annual General Meeting. 2022 key figures include an ordinary dividend of EUR 1.02 per share, an extraordinary dividend of EUR 0.25 per share, and a discretionary second extraordinary dividend of EUR 0.25 per share.
 
+<!-- Report Page 151 -->
 ### Reconciliation of key figures to IFRS Financial Statements
 
 Reconciliation between comparable EBITDA, EBITDA and operating profit is presented in Note 4, Segment information.
@@ -5448,6 +5500,7 @@ Neste presents Alternative Performance Measures to enhance comparability between
 </tr>
 <tr>
 <td colspan="2">EBITDA =</td>
+<!-- Report Page 152 -->
 <td>Operating profit + depreciation, amortization and impairments</td>
 <td>EBITDA is an indicator to measure the operational performance and cash flow generation.</td>
 </tr>
@@ -5505,6 +5558,7 @@ Neste presents Alternative Performance Measures to enhance comparability between
 <th>Reason for use</th>
 </tr>
 <tr>
+<!-- Report Page 153 -->
 <td rowspan="2">Equity-to-assets ratio, %</td>
 <td rowspan="2">= 100 x</td>
 <td>Total equity</td>
@@ -5600,6 +5654,7 @@ Neste presents Alternative Performance Measures to enhance comparability between
 <th>Reason for use</th>
 </tr>
 <tr>
+<!-- Report Page 154 -->
 <td rowspan="2">Dividend payout ratio, %</td>
 <td rowspan="2">= 100 x ☒</td>
 <td>Dividend per share</td>

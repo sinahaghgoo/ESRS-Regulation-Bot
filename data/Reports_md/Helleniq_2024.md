@@ -1,10 +1,14 @@
+<!-- Report Page 110 -->
 # 2024 Sustainability Statement
 
+<!-- Report Page 111 -->
 HELLENIQ ENERGY is presenting its Sustainability Statement for the year 2024 in accordance with the European Sustainability Reporting Standards (ESRS), which forms part of the Corporate Sustainability Reporting Directive (CSRD). This is an excerpt from HELLENIQ ENERGY's 2024 Annual Financial Report.
 
+<!-- Report Page 112 -->
 ## Sustainability Statement
 
 
+<!-- Report Page 113 -->
 Statements of BoD members
 
 The year 2024 marks a significant milestone for HELLENIQ ENERGY's sustainability reporting. The Group publishes its inaugural Sustainability Statement (the "Statement") prepared in compliance with the European Union's Corporate Sustainability Reporting Directive (CSRD). The Statement aims at enhancing transparency, strengthening communication, and providing comprehensive insights to stakeholders regarding sustainability matters. It primarily addresses impacts, risks and opportunities (IRO) that are deemed material, both from an impact materiality and financial materiality perspective, while encompassing additional information to further increase transparency. The Statement includes information regarding strategy, policies, actions, metrics and targets across all material IRO, in accordance with the European Sustainability Reporting Standards (ESRS) under the Environmental, Social and Governance (ESG) pillars.
@@ -26,6 +30,7 @@ HELLENIQ ENERGY, considering all the Group's business activities, associated ass
 · mobility
 
 · energy (access and availability).
+<!-- Report Page 114 -->
 
 These IRO primarily relate to environmental and social matters, extending across both present and future timeframes, with their materiality generally increasing over the long-term. There is significant interconnection of those IRO throughout the value chain, predominantly within the organization's own operations. This interdependency requires the adaptation of strategy and the adoption of a comprehensive approach across multiple dimensions, including the resolution of operational challenges, the enhancement of daily operations, the restructuring of corporate governance, and the improvement of risk management protocols. The outcomes of the DMA have affirmed the necessity to progress and accelerate energy transition as outlined in the Group's strategic plan, to address the challenges and capitalize on opportunities.
 
@@ -47,6 +52,7 @@ Finally, the full disclosures relating to Article 8 of the Taxonomy Regulation a
 
 HELLENIQ ENERGY is committed to further enhancing the completeness and comprehension of the environmental, social and governance matters considered material from both an impact and financial materiality perspective. This shall serve as an ongoing effort to inform decision-making processes, refine strategic approaches, and contribute to sustainability.
 
+<!-- Report Page 115 -->
 # C.1 General Disclosures - ESRS 2
 
 ## ESRS 2
@@ -120,6 +126,7 @@ Material IRO and their Interaction with Strategy and Business Model
 
 ## ESRS 2
 
+<!-- Report Page 116 -->
 ### Basis for Preparation
 
 #### BP-1- General Basis for Preparation of Sustainability Statements
@@ -154,10 +161,12 @@ The Statement has been prepared in accordance with Laws 4403/2016 and 4548/2018,
 
 Compliance with these directives ensures that the company adheres to the highest standards of transparency and accountability. By integrating the requirements of the CSRD and ESRS, the Statement provides comprehensive insights into the company's sustainability practices and performance. This approach not only aligns with regulatory expectations but also demonstrates the company's commitment to sustainable development and responsible business conduct.
 
+<!-- Report Page 117 -->
 ##### Datapoints that derive from ESRS
 
 In several parts of the Statement, references related to other parts of the Annual Financial Report have been incorporated to avoid repetition. [ESRS 2-BP-2-16]
 
+<!-- Report Page 118 -->
 Statements of BoD members
 
 The disclosure requirement related to phase-in provisions in accordance with Appendix C of ESRS 1 is not applicable, as the Group exceeds the average number of 750 employees during the financial year. [ESRS 2-BP-2-17-(a), (b), (c), (d), (e)]
@@ -170,6 +179,7 @@ Furthermore, any sustainability-related data undergoes external assurance in acc
 
 ## Governance
 
+<!-- Report Page 119 -->
 ### GOV-1- The Role of Administrative, Management and Supervisory Bodies
 
 HELLENIQ ENERGY is governed by the Board of Directors (BoD), a body that exercises its responsibilities in accordance with Greek legislation, international best practices, the Company's Articles of Association and any resolutions passed by the General Meeting of the Company's shareholders. The BoD comprises eleven (11) members who are elected in accordance with the provisions of Article 20 of the Company's Articles of Association. The composition of the BoD includes two (2) women, two (2) executive members and nine (9) non- executive members, with 45% of the BoD members being independent. The CVs of the members of the BoD are available on the corporate website, and their related work experience and skills are detailed in the Annual Financial Report. [ESRS 2-GOV-1-21-(a), (b), (c), (d), (e)]
@@ -186,6 +196,7 @@ HELLENIQ ENERGY has instituted a comprehensive approach to ensure that the Execu
 
 The Board of Directors enhances its capability to oversee sustainability matters by evaluating its own relevant skills and expertise, through targeted training programs. The experience and core sustainability-related competencies of BoD members are detailed in the Annual Financial Report. The BoD ensures the development of necessary sustainability knowledge to effectively address the Company's material impacts, risks, and opportunities, enabling informed decision-making and the efficient management of sustainability issues within the organization. [ESRS 2-GOV-1-23-(a), (b)]
 
+<!-- Report Page 120 -->
 #### GOV-2 - Information Provided to and Sustainability Matters Addressed by HELLENiQ ENERGY's Administrative, Management and Supervisory Bodies
 
 The responsibilities of HELLENIQ ENERGY's Management and Board of Directors are specified in the Articles of Association, and the Company's Operating Regulations, which describe the role and responsibilities of the Board of Directors' Committees.
@@ -208,6 +219,7 @@ By considering the issues identified by the Double Materiality Assessment (DMA),
 
 The mission of the Strategy and Risk Management Committee is, inter alia, to approve the corporate framework for risk management and the relevant policies and methodologies, to determine the level of risk appetite and the risk tolerance levels, to monitor and approve the management of significant corporate risks, as well as to oversee the implementation of effective risk management measures. [ESRS 2-GOV-2-26-(b)]
 
+<!-- Report Page 121 -->
 ## GOV-3 - Integration of Sustainability-Related Performance in Incentive Schemes
 
 The Group has established a Remuneration Policy (hereinafter the "Policy") designed to define the remuneration framework in a manner that ensures adherence to the requirements of the prevailing legal framework and enhances transparency in the determination and disbursement of remuneration to the members of the Board of Directors in a clear and comprehensible manner. The Remuneration Policy has been approved by the Extraordinary General Meeting of the shareholders of 20/12/2019, modified by the Annual General Meeting of the shareholders of 30/06/2021 and further revised by a resolution of the Annual General Meeting of the shareholders of 27/06/2024. The Policy is valid for four (4) years following its approval date (hereinafter, "Period of Validity"), unless it is revised and/or amended earlier by virtue of another resolution of the General Meeting (hereinafter "G.M.") due to material change in the circumstances on the basis of which the Policy was drafted. [ESRS 2-GOV-3-29-(e)]
@@ -226,6 +238,7 @@ The Group is highly committed to upholding human rights in accordance with relev
 
 The Group's human rights due diligence process is aligned with the six steps of human rights due diligence as suggested by UNGPs and OECD MNEs, as it is also illustrated in a relative infographic in the EU Taxonomy section of the current Sustainability Statement. [ESRS 2-GOV-4-30]
 
+<!-- Report Page 122 -->
 ## Human Rights and Equal Opportunities For Employees And Partners
 
 The due diligence process promotes human rights and equal opportunities for employees and partners. Relations between employees and the Group are based on the principle of equal treatment. Both the integration and the career of each employee in the Group are assessed on the basis of his/her qualifications, performance and potential, without discrimination.
@@ -260,6 +273,7 @@ In addition, a 'clause of compliance' of the Group's suppliers with the principl
 
 Operations and suppliers identified in which the right to exercise freedom of association and collective bargaining may be violated or at significant risk, and measures taken to support these rights.
 
+<!-- Report Page 123 -->
 ### Measures to prevent and identify negative impacts, include:
 
 · Recruitment policy: The Group's recruitment policy states that no employees under the age of 18 can be employed.. Code of Conduct: HELLENIQ ENERGY applies a standardized Code of Conduct that defines the principles governing the Group's activities in Greece and abroad and covers principles related, among others, to human rights. In this respect, the Group is committed to the following provisions towards its people.
@@ -295,6 +309,7 @@ Due diligence is implemented in many ways and related disclosures can be found i
 </tr>
 </table>
 
+<!-- Report Page 124 -->
 ## GOV-5 - Risk Management and Internal Controls over Sustainability Reporting
 
 HELLENIQ ENERGY's system of internal control and risk management is designed to identify and manage potential threats and prevent potential failures targeted to sustainability reporting as well. It includes control activities and audit mechanisms across different organizational levels within the Group.
@@ -332,6 +347,7 @@ The Risk Monitoring and Management Division has been established to support the 
 
 ### Strategy
 
+<!-- Report Page 125 -->
 #### SBM-1- Strategy, Business Model and Value Chain
 
 HELLENIQ ENERGY is a leading energy company in Southeastern Europe, engaged in various sectors including refining, fuels marketing, petrochemicals, renewable energy, power and gas, electromobility, and hydrocarbon exploration.
@@ -341,6 +357,7 @@ Refining: HELLENIQ ENERGY operates three of the four refineries in Greece, contr
 Petrochemicals: HELLENIQ ENERGY is a major player in the production and marketing of polypropylene and its derivatives, operating a vertically integrated production complex in Greece. The company maintains a substantial position with over 50% of the domestic market share. Exports constitute more than 65% of sales, primarily to the broader Mediterranean region. The customer base includes major entities, both in Greece and on an international scale in a diverse array of sectors that use polypropylene, BOPP or solvents as primary raw materials for further processing. Applications include the textile, hygiene, solvents, colours, automotive industries as well as the construction industry.
 
 Fuels Marketing: The company leads in both wholesale and retail fuels marketing in Greece, boasting a network of 1,583 fuel stations as of 31 December 2024. Furthermore, it maintains, a substantial presence in Southeastern Europe, encompassing Cyprus, Bulgaria, Serbia, Montenegro, and the Republic of North Macedonia with an additional 329 fuel stations as of 31 December 2024. It also operates extensive storage, distribution, and production facilities, thereby reinforcing its robust operational capabilities and market influence in the region.
+<!-- Report Page 126 -->
 
 Renewable Energy Sources: HELLENIQ ENERGY is actively managing a renewable energy sources (RES) portfolio in Greece and Cyprus with a current operational capacity of 494 MW and projects totaling over 5.2 GW in development, including proects in Romania. The company aims to achieve 1 GW of operational capacity by 2026 and 2 GW by 2030, developing a material green growth pillar and significantly contributing to greenhouse gas emissions reduction. The portfolio of projects in operation produced 695 GWh of electricity in 2024, corresponding to over 346,609 tons of CO2 emissions avoidance. [ESRS 2-SBM-1-40-(a)-(ii)]
 
@@ -349,6 +366,7 @@ Power and Gas: HELLENIQ ENERGY aspires to establish a substantial position in th
 Electromobility: Through ElpeFuture, the Company is enhancing its electromobility services, including charging infrastructure and management platforms. It operates 92 fast chargers in Greece, strategically located at EKO and
 
 bp fuel stations along motorways and in urban areas. Additionally, it has deployed 262 chargers-totaling 355 charging points at parking facilities of major shopping centers, prominent buildings in Athens and Thessaloniki, and the parking lots of the Group's head offices and refinery administrative buildings. The Group plans to further expand its network in 2025 with at least another 115 DC chargers from 50 KW up to 360 KW, corresponding to 230 charging points, and 352 AC chargers, corresponding to an additional 352 charging points. For its international operations, as of 2024, the Group's subsidiaries-EKO Cyprus, EKO Bulgaria, EKO Serbia, and Jugopetrol in Montenegro-have installed a total of 33 EV charging stations at fuel stations across their respective markets, of which 18 are operational. Notably, 24 of these chargers were installed in 2024, highlighting the rapid expansion of the Group's EV charging business. These installations strengthen the Group's electromobility footprint and provide critical infrastructure to support the growing adoption of electric vehicles across the region. Looking ahead, the Group aims to further expand its EV charging network by 2025, targeting the installation of an additional 18 charging stations in these markets.
+<!-- Report Page 127 -->
 
 Technical Studies: HELLENIQ ENERGY provides technical and consulting services in the energy sector across Southeast Europe through its subsidiary ASPROFOS, which adheres to international standards and certifications.
 
@@ -358,6 +376,7 @@ For the Total number of employees by geographical areas, please refer to section
 
 No products and services are banned in certain markets, please also refer to section 'Significant sectors & activities' below. [ESRS 2-SBM-1-40-(a)-(iv)]
 
+<!-- Report Page 128 -->
 ### Strategic Pillars
 
 HELLENIQ ENERGY is dedicated to leading energy transformation by fostering innovation and developing lowcarbon energy solutions, promoting sustainability. [ESRS 2-SBM-1-40-(g)]
@@ -382,6 +401,7 @@ development of a standalone SAF production plant, highlights our innovation in r
 <th>Goals</th>
 <th></th>
 <th>Time Horizon</th>
+<!-- Report Page 129 -->
 <th>Connection to SDGs</th>
 </tr>
 <tr>
@@ -445,6 +465,7 @@ development of a standalone SAF production plant, highlights our innovation in r
 <td>SDG 3</td>
 </tr>
 <tr>
+<!-- Report Page 130 -->
 <td>15%</td>
 <td>Increase in the number of women in management positions (compared to base year 2023)</td>
 <td></td>
@@ -508,9 +529,12 @@ development of a standalone SAF production plant, highlights our innovation in r
 <td>SDG 16</td>
 </tr>
 
+<!-- Report Page 131 -->
 ## Value creation in the Economy and Employment [ESRS 2-SBM-1-40-(a)-(ii)]
 
+<!-- Report Page 132 -->
 
+<!-- Report Page 133 -->
 ### Significant sectors & activities
 
 <table>
@@ -589,6 +613,7 @@ The proportion of turnover from products or services associated with Taxonomy-al
 
 There are no additional significant ESRS sectors, including activities that generate intercompany revenues, in which HELLENIQ ENERGY carries out significant activities or is, or may be, connected to material impacts. [ESRS 2- SBM-1-40-(c)]
 
+<!-- Report Page 134 -->
 #### SBM-2 - Interests and Views of Stakeholders
 
 Stakeholders are defined as entities or individuals who may be significantly impacted by the Group's activities or who may influence the Group's ability to implement its business strategy and achieve its objectives. Engagement with stakeholders constitutes an integral component of the Group's due diligence process, as well as the assessment of material impacts, risks and opportunities pertaining to sustainability matters. Engagement is conducted throughout the year by utilizing various channels, facilitating two-way communication that informs the Group's decision-making process. Stakeholders are informed through annual reports, questionnaires, meetings, and day-to-day interactions. As part of the double materiality assessment, key stakeholders are involved in the process through targeted discussions on sustainability matters.
@@ -603,6 +628,7 @@ The table below presents the categories of stakeholders within the Group, along 
 
 <table>
 <tr>
+<!-- Report Page 135 -->
 <th>HELLENIQ ENERGY Group Stakeholder Category</th>
 <th>Communication/participation methods</th>
 <th>Communication Frequency</th>
@@ -693,6 +719,7 @@ Finally, the Group during the DMA process gathers feedback directly from interna
 
 To ensure that a company's business model remains relevant and resonates with the views of its stakeholders across geographies, HELLENiQ ENERGY has taken and plans to take some further steps to achieve that. [ESRS 2- SBM-2-45 b, AR 16]
 
+<!-- Report Page 136 -->
 ##### Additional steps in stakeholder engagement
 
 The Group applies the best operating practices for the safe handling of products, with due regard for environmental preservation. For all its production, storage and handling facilities, HELLENIQ ENERGY has a certified Quality, Occupational Health and Safety, Environmental and Energy Management System. These management systems, in particular, are evaluated and renewed annually in order to achieve a high level of performance for stakeholders.
@@ -711,6 +738,7 @@ HELLENIQ ENERGY has planned several new initiatives and projects for 2025, aimed
 
 HELLENIQ ENERGY employs a structured approach to keep the Sustainability Committee informed about stakeholder views and interests. The Committee oversees stakeholder engagement and communication strategies to understand their interests, provide insights on key issues, and it supervises the Sustainability Policy. The Sustainability Committee provides guidelines on the pillars of the sustainable development policy, including health and safety, the environment, climate change, and social impact, while assisting in managing associated risks. [ESRS 2-SBM-2-45-(d)]
 
+<!-- Report Page 137 -->
 ## SBM-3 - Material IRO and their Interaction with Strategy and Business Model
 
 ### Material impacts, risks and opportunities and their interaction with strategy and business model
@@ -733,9 +761,12 @@ agreement of up to €766m) for investments in the renewable energy sector in Gr
 
 Based on the Group's current strategic planning, prevailing market expectations, and existing insurance coverage, it is anticipated that no significant adjustments will be required within the forthcoming annual reporting period to the carrying values of assets and liabilities as reported in the associated financial statements. [ESRS 2-SBM-3-48-(e)]
 
+<!-- Report Page 138 -->
 The list of material impacts identified during the previous reporting period remains unchanged. [ESRS 2-SBM-3-48-(g)]
+<!-- Report Page 139 -->
 
 
+<!-- Report Page 140 -->
 ### Impact, Risk and Opportunity Management
 
 #### Disclosures on the Double Materiality Assessment Process
@@ -766,6 +797,7 @@ During this phase, HELLENIQ ENERGY 's DMA focused on a benchmarking analysis to 
 
 identified issues. Finally, the Group analyzed any relevant dependencies related to both people and natural capital. [ESRS 2-IRO-1-53-(b)-(ii)]
 
+<!-- Report Page 141 -->
 #### B.1 Impact Materiality - "Inside-out" Approach
 
 To identify the positive and negative (actual and potential) impacts resulting from the Group's activities and business relationships that affect people and the environment, HELLENiQ ENERGY collaborated with key stakeholder representatives, specialists, and experts in sustainable development issues through personal interviews. In addition, the following were taken into account: a) the Group's business model; b) sustainability standards, such as GRI 11-Oil & Gas Supplement, SASB, TNFD, and UNEP Impact Radar; c) internal and other external sources to understand the causes of impacts.
@@ -786,6 +818,7 @@ The assessment of impacts, risks, and opportunities was carried out in accordanc
 2. After the IROs were identified, documented, and validated, the subsequent step was to assign scores according
 to their impact and financial materiality. The classification of risks and opportunities as material was determined through the combination (multiplication) of two separate estimated scores for Likelihood and Magnitude, with the stipulation that Likelihood is considered solely for the risks and opportunities (ROs) whose Magnitude of the economic impact is assessed as material. Specifically, materiality within the Magnitude dimension is established when the Magnitude score is at least 4 on a scale ranging from 1 to 5, where 1 denotes the lowest magnitude level
 
+<!-- Report Page 142 -->
 Statements of BoD members
 
 and 5 denotes the highest magnitude level. Conversely, materiality within the Likelihood dimension is established when the Likelihood score is at least 3 out of 5, where 1 signifies the lowest likelihood level and 5 signifies the highest likelihood level.
@@ -833,6 +866,7 @@ Additionally, to address these potential risks beyond the inherent controls, the
 
 The Management Team of HELLENIQ ENERGY, comprising specialists from the Investor Relations, Health, Safety, Environment & Sustainable Development, Group Control and Risk Management divisions, was responsible for reviewing the terminology and framing of each IRO to ensure alignment with the Group's sustainability strategy and external frameworks.
 
+<!-- Report Page 143 -->
 ###### Among others the Management:
 
 · Verified that the language accurately reflected the nature and scope of each IRO.
@@ -863,6 +897,7 @@ HELLENIQ ENERGY conducts an annual assessment of its activities, including its v
 
 To quantify its impact, the Group calculates greenhouse gas emissions by collecting data from various operations and applying emission factors relevant to industry and its geographical areas. [ESRS E1.IRO-1] [ESRS E1.IRO-1,20 a, AR 9, AR 10]
 
+<!-- Report Page 144 -->
 ###### Use of Climate-Related Scenario Analysis:
 
 Climate-related scenario analysis was performed by HELLENIQ ENERGY for the first assessment of physical and transition risks associated with climate change. By modeling different climate futures, it enabled the Group to evaluate physical and transition risks across short-, medium-, long-term timeframes, as presented below:
@@ -885,6 +920,7 @@ High Emissions Scenario: This scenario represents business-as-usual, with emissi
 
 The scenarios and assumptions based on these scenarios are based on the Intergovernmental Panel on Climate Change (IPCC), NGFS (Network for Greening the Financial System) and the International Energy Agency projections and are aligned with state-of-the-art science. Additionally, Copernicus, Aqueduct, ISIMIP data were utilized among other sources when analyzing climate data projection for HELLENIQ ENERGY assets' location and modelling risk impacts under different climate scenarios. [ESRS E1.IRO-1, 21, AR 13-AR 14] [ESRS E1.IRO-1, AR 11-(d)]
 
+<!-- Report Page 145 -->
 ###### Key forces and drivers taken into consideration in each scenario
 
 <table>
@@ -944,6 +980,7 @@ Benchmark analysis was conducted to identify climate risks from industry and pee
 
 · Acute physical risks arise from short-term, extreme weather events or natural disasters. These risks can cause immediate and significant damage to assets, infrastructure, and operations, leading to financial losses and operational disruptions.. Chronic physical risks are associated with long-term, gradual changes in climatic conditions over time. These risks can have lasting impacts on asset performance, operational efficiency, and long-term financial sustainability.
 
+<!-- Report Page 146 -->
 #### HELLENIQ ENERGY categorizes transition risk and opportunities based on TCFD framework:
 
 · Policy and Legal Risks - Changes in regulations, carbon pricing, litigation, and compliance costs.
@@ -968,6 +1005,7 @@ In conducting geospatial analysis and site-specific risk assessments, HELLENIQ E
 
 The exposure analysis considered 314 assets, disruptions of which from climate hazards could impact infrastructure, transportation, energy efficiency and productivity, posing substantial risk to the business. These assets include refineries, crude terminals, plastic packaging materials, lubricants production and distribution, LPG depos, fuel terminals, PV parks, WF plants, EV chargers and fuel station rooftop solar panels, as they pose a greater risk exposure due to direct financial and operational responsibilities.
 
+<!-- Report Page 147 -->
 ### Climate-related physical hazards based on TCFD classification:
 
 <table>
@@ -1065,6 +1103,7 @@ affect the ability of employees to work due to heat stress.</td>
 </tr>
 </table>
 
+<!-- Report Page 148 -->
 The assets and business activities are sensitive to the below identified physical climate-related hazards:
 
 · Heatwave
@@ -1097,6 +1136,7 @@ The design of the stations is carried out in accordance with national legislatio
 
 comprehensive geotechnical and structural studies are carried out to ensure that the stations are capable of withstanding the environmental conditions of the area for the entire planned lifespan of the project. During operation, annual sampling checks are conducted on the tightening of the components in the photovoltaic systems, while preventive vibration monitoring systems are installed in the wind turbines. The impact of storms is thoroughly assessed in the geotechnical and hydrological studies, customized to the specific characteristics of the installation area. During the project design phase, return scenarios of 50 or 100 years (stricter standards) are adopted, and flood-prone areas are avoided. Civil engineering works are executed and inspected in compliance with national standards (e.g., ELOT). Regular inspections are also carried out to identify any new issues or findings. In addition to aforementioned measures, all assets are covered by appropriate all-risk insurance contracts.
 
+<!-- Report Page 149 -->
 ##### Climate-related transition risks based on TCFD classification:
 
 <table>
@@ -1137,6 +1177,7 @@ comprehensive geotechnical and structural studies are carried out to ensure that
 
 Transition risks are higher in the long-term in the SSP1-2.6 scenario because they align with the goals of the Paris Agreement, which calls for rapid and significant global efforts to decarbonize. Achieving these goals requires the implementation of stringent climate policies, regulations, and substantial market shifts to reduce greenhouse gas emissions. This includes higher carbon taxes, stricter energy efficiency standards, and faster transitions to renewable energy sources. Additionally, ongoing technological advancements and declining renewable energy costs increase competition in the energy market, particularly for oil and gas companies, potentially decreasing demand for fossil fuel products. As a result, these factors could impose significant economic and operational pressures on the Group. Furthermore, the oil and gas industry is highly affected by carbon pricing mechanisms (such as emissions trading systems). Higher carbon prices will raise the cost of emissions, impacting production methods and influencing the pricing of final consumer products. In contrast, in the short and medium term, the significance of both risks is lower in the SSP1-2.6 scenario, assuming that the regulatory and economic factors, as well as technological advancements related to transition risks, are less sensitive in the near term.
 
+<!-- Report Page 150 -->
 ### Climate-related opportunities
 
 The Group has also identified the following climate-related opportunities.
@@ -1182,6 +1223,7 @@ During the reporting period no critical climate-related assumptions were made in
 
 that these emissions are not expected to jeopardize the achievement of the company's GHG emission reduction targets. [ESRS E1.IRO-1, AR 12-(d), AR 13-AR 14] [ESRS E1.IRO-1, AR 15, AR 13-AR 14] [ESRS E1.IRO-1, AR 12-(d)]
 
+<!-- Report Page 151 -->
 ## ESRS 2 IRO-1 - Description of the Processes to Identify and Assess Material Pollution- Related Impacts, Risks and Opportunities
 
 For E2 Pollution, a general methodology was followed to assess the material risks and opportunities. This approach involved reviewing all relevant issues based on insights from prior engagements, as well as topics that had been identified and analyzed in previous years. After conducting a thorough validation process and in accordance with the double materiality assessment, the relevant topics were confirmed to remain material for the current analysis.
@@ -1202,6 +1244,7 @@ Regarding E3 - Water and Marine Resources, HELENIQ ENERGY assessed all facets of
 
 For matters related to Water and Marine Resources, HELLENIQ ENERGY's sustainability team collaborated with designated data owners who actively engaged with affected stakeholder groups. The data collection process included interviews and meetings with these stakeholders, as described in the other topical standards. The collected information is detailed in the respective section of the report and also informed the double materiality assessment tool, which was validated afterwards. [ESRS E3.IRO-1-8-(a)] [ESRS E3.IRO-1-8-(b)]
 
+<!-- Report Page 152 -->
 ### ESRS 2 IRO-1 - Description of Processes to Identify and Assess Material Biodiversity and Ecosystem-Related IROs
 
 For E4-Biodiversity and Ecosystem, a methodology similar to that used for E3 was applied, from the analysis performed no material actual and potential impacts on biodiversity and ecosystems at own site locations and in value chain have been identified. Additionally, the Group has no material dependencies on biodiversity and ecosystems. HELLENIQ ENERGY's refinery facilities are strategically located in industrial zone areas, the land use of which is intended for this purpose and are less frequently located near protected areas (e.g., Natura 2000, RAMSAR). [ESRS E4.IRO-1-17-(a)] [ESRS E4.IRO-1-17-(b)]
@@ -1224,10 +1267,12 @@ Nonetheless, the sustainability team collaborated with designated data owners ac
 
 ## HELLENIQ ENERGY
 
+<!-- Report Page 153 -->
 Statements of BoD members
 
 assets and activities to identify any IRO. The collected information was used to refine and inform specific thematic areas, which were then analyzed in the respective voluntary sections of the report. This approach ensured that all relevant material topics were thoroughly analyzed and accurately represented in the findings. [ESRS E5.IRO-1-11-(b)]
 
+<!-- Report Page 154 -->
 ## IRO-2 - Disclosure Requirements in ESRS Covered by HELLENIQ ENERGY's Sustainability Statement
 
 The following tables serve as a guide to locate information pertaining to specific disclosure requirements within the Sustainability Statement. The tables also highlights where related information, which is "incorporated by reference," can be found outside the Sustainability Statement, such as in the management's review, financial statements within this annual report, or the separate remuneration report.
@@ -1293,6 +1338,7 @@ The following tables serve as a guide to locate information pertaining to specif
 
 ### HELLENIQ ENERGY
 
+<!-- Report Page 155 -->
 #### Statements of BoD members
 
 <table>
@@ -1343,6 +1389,7 @@ The following tables serve as a guide to locate information pertaining to specif
 </tr>
 </table>
 
+<!-- Report Page 156 -->
 #### HELLENIQ ENERGY Statements of BoD members
 
 <table>
@@ -1394,6 +1441,7 @@ The following tables serve as a guide to locate information pertaining to specif
 </tr>
 </table>
 
+<!-- Report Page 157 -->
 #### Statements of BoD members
 
 <table>
@@ -1421,6 +1469,7 @@ HELLENIQ ENERGY Statements of BoD members
 
 <table>
 <tr>
+<!-- Report Page 158 -->
 <th colspan="2">Environmental Standards Disclosure requirements</th>
 <th>Section/ report</th>
 <th>Additional information</th>
@@ -1546,6 +1595,7 @@ HELLENIQ ENERGY Statements of BoD members
 </tr>
 </table>
 
+<!-- Report Page 159 -->
 #### HELLENIQ ENERGY Statements of BoD members
 
 <table>
@@ -1654,6 +1704,7 @@ Applicable: ESRS 2-S1-1-19, AR 16</td>
 
 ### HELLENIQ ENERGY
 
+<!-- Report Page 160 -->
 Statements of BoD members
 
 <table>
@@ -1738,6 +1789,7 @@ Statements of BoD members
 
 <table>
 <tr>
+<!-- Report Page 161 -->
 <th colspan="2">Social Standards Disclosure requirements</th>
 <th>Section/ report</th>
 <th>Additional information</th>
@@ -1898,6 +1950,7 @@ The following table indicates all the data points that derive from other EU legi
 
 ### HELLENIQ ENERGY
 
+<!-- Report Page 162 -->
 #### Statements of BoD members
 
 <table>
@@ -2167,6 +2220,7 @@ Exposure of the benchmark risks</td>
 
 ### HELLENIQ ENERGY
 
+<!-- Report Page 163 -->
 #### Statements of BoD members
 
 <table>
@@ -2368,6 +2422,7 @@ Exposure of the benchmark risks</td>
 
 # C.2 Environment
 
+<!-- Report Page 164 -->
 ## EU Taxonomy Report
 
 ### ESRS E1 - Climate change
@@ -2478,6 +2533,7 @@ Actions and Resources in Relation to Climate Change Policies
 </tr>
 </table>
 
+<!-- Report Page 165 -->
 ## ESRS E4 - Biodiversity and Ecosystems
 
 ### Impacts, Risks and Opportunities
@@ -2525,6 +2581,7 @@ Actions and Resources in Relation to Climate Change Policies
 </tr>
 </table>
 
+<!-- Report Page 166 -->
 # EU Taxonomy Report
 
 Disclosures pursuant to Article 8 of Regulation 2020/852 (Taxonomy Regulation)
@@ -2571,6 +2628,7 @@ Disclosures pursuant to Article 8 of Regulation 2020/852 (Taxonomy Regulation)
 </tr>
 </table>
 
+<!-- Report Page 167 -->
 ## EU Taxonomy Report
 
 In December 2019, the European Union (EU) presented the European Green Deal which adopts a set of initiatives covering the climate, environment, energy, transport, industry, agriculture and sustainable finance, with the aim of achieving climate neutrality by 2050.
@@ -2587,6 +2645,7 @@ An economic activity is considered Taxonomy-eligible if it is listed in the EU T
 
 2\. Climate change adaptation (CCA)
 
+<!-- Report Page 168 -->
 3\. Sustainable use and protection of water and marine resources (WTR)
 
 4\. Transition to a circular economy (CE)
@@ -2603,12 +2662,14 @@ Following the adoption of the Environmental Delegated Act and the Amended Disclo
 
 Additionally, under the Corporate Sustainability Reporting Directive (CSRD), officially titled Directive (EU) 2022/2464, companies already subject to the NFRD will be part of the first reporting batch starting in 2025. The CSRD significantly expands sustainability disclosure requirements, aligning them with the European Sustainability Reporting Standards (ESRS). Companies will also be required to produce disclosures in alignment with Article 8 of the Taxonomy Regulation.
 
+<!-- Report Page 169 -->
 ### EU Taxonomy Reporting by HELLENiQ ENERGY Group
 
 Under the Taxonomy Regulation, the HELLENIQ ENERGY Group (the "Group") is required to produce annual Taxonomy disclosures to report on the environmental objectives defined by the framework. For fiscal year 2024, which is the focus of this EU Taxonomy Report, the Group aims to fulfil its regulatory obligation by disclosing the proportion of economic activities that are Taxonomy-aligned and Taxonomy-eligible for all six environmental objectives. This report has been prepared in accordance with the requirements of with Delegated Regulation EU 2021/2178 (the "Disclosures Delegated Act") as well as its relevant amendments and several Commission Notices containing answers to frequently asked questions about taxonomy reporting issued between 2021 and 2024.
 
 The reported KPIs pertain to the consolidated entities included in HELLENIQ ENERGY Group's financial statements. Economic activities of joint ventures and associates where the Group does not have management control, are not included in this disclosure. However, the Group is actively exploring the inclusion of Taxonomy disclosures for its joint ventures and associates in future reports and has initiated efforts to gather the necessary information and data.
 
+<!-- Report Page 170 -->
 #### Process Analysis of the Group's Business Activities
 
 ##### The five-step assessment methodology process showcased below:
@@ -2627,6 +2688,7 @@ Step 4 – Alignment screening at group level against minimum safeguards require
 Step 5 – Calculation of financial metrics (KPIs) for taxonomy-aligned activities.</figcaption>
 </figure>
 
+<!-- Report Page 171 -->
 ###### 1) Eligibility Screening
 
 An evaluation of the eligibility of the Group's business activities was conducted on the basis of the Taxonomy Regulation, Delegated Regulation EU 2021/2139 (the "Climate Delegated Act", as amended), Delegated Regulation EU 2022/1214 (the "Complementary Climate Delegated Act") and Delegated Regulation EU 2023/2486 (the "Environmental Delegated Act").
@@ -2659,6 +2721,7 @@ Based on the above definition and following the eligibility screening process, t
 
 The Group has not identified economic activities that are Taxonomy-eligible for the other three objectives (i.e., WTR, PPC and BIO).
 
+<!-- Report Page 172 -->
 ##### These 14 EU Taxonomy-defined economic activities include:
 
 ###### Eligible Activities
@@ -2756,6 +2819,7 @@ The Group has not identified economic activities that are Taxonomy-eligible for 
 </tr>
 </table>
 
+<!-- Report Page 173 -->
 ####### Statements of BoD members
 
 <table>
@@ -2775,6 +2839,7 @@ The Group has not identified economic activities that are Taxonomy-eligible for 
 
 The rest of the Group activities have not been considered eligible as they are not currently considered in the Climate Delegated Act, Complementary Climate Delegated Act, or Environmental Delegated Act. These include activities in Refining, Supply & Trading, Petrochemicals, Fuels Marketing, Power Generation & Natural Gas, Exploration & Production, and other supporting activities (non-revenue generating activities). For greater details on the Group business activities, please refer to "Group Business Review".
 
+<!-- Report Page 174 -->
 ## 2. Alignment Screening - Substantial Contribution Criteria
 
 Next, each of the eligible activities (from the Group's own operations) identified in the previous phase, were analyzed against the corresponding substantial contribution criteria (SCC) for CCM and CE objectives, as outlined in the Climate Delegated Act, the Environmental Delegated Act, and any relevant amendments.
@@ -2805,6 +2870,7 @@ To support its renewable energy activities, HELLENIQ RENEWABLES, through Green P
 
 interconnection, the company is involved in the construction of critical infrastructure, including high-voltage ("HV") substations and transmission lines.
 
+<!-- Report Page 175 -->
 ### The SCC for CCM 4.9 require that SCC 2. "The activity is one of the following:
 
 2.c Installation of transmission and distribution transformers that comply with the Tier 2 (1 July 2021) requirements set out in Annex I to Commission Regulation (EU) No 548/2014 and, for medium power transformers with the highest voltage for equipment not exceeding 36 kV, with AA0 level requirements on noload losses set out in standard EN 50588-1.
@@ -2832,6 +2898,7 @@ This economic activity can be categorized as an enabling activity where it compl
 ### Economic Activities in Electromobility Services
 
 ### CCM 6.15 Infrastructure enabling low-carbon road transport and public transport
+<!-- Report Page 176 -->
 
 The Group is actively contributing to the transition to low-carbon transportation through the development, installation, and operation of EV charging infrastructure across its domestic and international operations.
 
@@ -2859,6 +2926,7 @@ The activity primarily supports the transition to low-carbon transportation by e
 
 · The EV charging network is exclusively used for recharging vehicles with zero tailpipe CO2 emissions (BEVs or PHEVs).
 
+<!-- Report Page 177 -->
 · Chargers serve various vehicle types, including passenger BEVs, <3.5T transport BEVs, e-buses, and e-trucks
 
 2\. The infrastructure is not dedicated to the transport or storage of fossil fuels:. The network is not dedicated to vehicles involved in the transport or storage of fossil fuels. While some electric heavy goods vehicles (HGVs) transporting fossil fuels may occasionally use the chargers, this is incidental, and the infrastructure primarily serves retail and passenger EVs.
@@ -2891,6 +2959,7 @@ To assess compliance with the SCC the buildings' Energy Performance Certificate 
 
 Out of all buildings evaluated, ten (10) have been assigned an EPC class supported by appropriate EPC documentation. Therefore, it was possible to verify the compliance of those buildings with the SCC, which are "for buildings built before 31 December 2020, the building has at least an EPC class A. As an alternative, the building is within the top 15 % of the national or regional building stock expressed as operational PED and demonstrated by adequate evidence, which at least compares the performance of the relevant asset to the performance of the national or regional stock built before 31 December 2020 and at least distinguishes between residential and nonresidential buildings". One building meets the SCC as it has an EPC class A+. On the other hand, for the remaining of the buildings, the absence of a study defining the top 15% of the national or regional building stock in terms of PED expressed in kWh/m2 prevents us from determining whether their PED falls within this threshold. Therefore, these buildings are unable to meet the SCC.
 
+<!-- Report Page 178 -->
 ### 8.2 Data-driven solutions for GHG emissions reductions
 
 The Group, with the support from HELLENIQ ENERGY Digital SA, leverages Visual MESA, an energy optimization modelling solution that enhances energy management systems to operate efficiently while simultaneously reducing CO2 emissions based on financial impact and economic costs. The utilization of Visual MESA has been expanded to cover all of the Group's refinery facilities.
@@ -2917,6 +2986,7 @@ Through its subsidiary HELLENIQ ENERGY Digital SA, the Group deploys IT/OT data-
 
 GE Vernova APM solution meets Criteria (a) and (c) in their full scope as it provides early warning alerts and asset diagnostic guidance through GE Vernova Predictive Analytics. It enables faster Root Cause Analysis (RCA), helping users systematically identify failure causes and develop actionable recommendations to mitigate future events (criterion (a)) and it predicts upcoming equipment failures and generates proactive maintenance recommendations to prevent downtime, reduce costs, and extend equipment life (criterion (c)).
 
+<!-- Report Page 179 -->
 #### The other SCC for CE 4.1 further requires that "all IT/OT data-driven solutions should meet the following criteria:
 
 1\. techniques are adopted that support the reuse and use of secondary raw materials and reused components, and the solutions are designed for high durability, recyclability, easy disassembly, adaptability and upgradability;
@@ -2931,6 +3001,7 @@ GE Vernova APM solution meets Criteria (a) and (c) in their full scope as it pro
 
 This economic activity can be categorized as an enabling activity where it complies with the technical screening criteria in accordance with the Environmental Delegated Act.
 
+<!-- Report Page 180 -->
 ###### 3. Alignment Screening - Do No Significant Harm (DNSH) Criteria
 
 For eligible activities that meet their respective SCC as identified in the previous phase, the Group has applied the guidance established in Article 17 of the Taxonomy Regulation and Climate Delegated Act and Environmental Delegated Act to assess them against the relevant DNSH criteria. The following sections provide an assessment of the economic activities that meet their respective DNSH criteria. The assessment of some activities that did not meet the DNSH criteria have been excluded from this report for brevity.
@@ -2971,6 +3042,7 @@ The climate risk and vulnerability assessment shall be proportionate to the scal
 
 For additional or complementary information on the Group's climate risk and vulnerability assessment, including climate adaptation plans, refer to "C.1 General Disclosures - ESRS 2" and to 'ESRS E1 - Climate change' sections.
 
+<!-- Report Page 181 -->
 ###### DNSH to Sustainable Use and Protection of Water and Marine Resources (WTR)
 
 DNSH criteria to WTR apply to EU Taxonomy-defined Activities:
@@ -2993,6 +3065,7 @@ For Activity CE 4.1, the DNSH criteria for WTR require identifying and addressin
 
 For more information on the Group's efforts related to the sustainable use and protection of water and marine resources, please refer to 'ESRS E3 - Water and Marine Resources' section.
 
+<!-- Report Page 182 -->
 ####### DNSH to Transition to a Circular Economy (CE)
 
 DNSH criteria to CE apply to EU Taxonomy-defined Activities:
@@ -3025,6 +3098,7 @@ For EKO Bulgaria, EV charger waste is incorporated into the company's general wa
 
 However, for Jugopetrol, the Group's subsidiary operating in Montenegro, no waste management plan is currently in place to address end-of-life EV charging-related equipment. As a result, while the EV charging infrastructure managed by other Group companies meets the DNSH criteria for CE, Jugopetrol's EV charging activities do not comply with these criteria.
 
+<!-- Report Page 183 -->
 ######## The circular economy DNSH criteria for CCM 8.2 require "the equipment used:
 
 · meets the requirements set in accordance with Directive 2009/125/EC for servers and data storage products;. does not contain the restricted substances listed in Annex Il to Directive 2011/65/EU;
@@ -3047,6 +3121,7 @@ DNSH criteria to PPC apply to EU Taxonomy-defined Activities:
 
 · CE 4.1 Provision of IT/OT Data-Driven Solutions.
 
+<!-- Report Page 184 -->
 The DNSH criteria for CCM 4.9 for the case of overground high-voltage lines are not applicable, to the Group's activities, as all high-voltage transmission lines under construction will be underground. By implementing underground installations, the Group eliminates potential risks associated with electromagnetic radiation, ensuring that public health impacts are avoided.
 
 The DNSH criteria for CCM 4.9 also mandate that activities do not use PCBs polyclorinated biphenyls, which are banned in the EU under Directive 96/59/EC and classified as Substances of Very High Concern (SVHCs) under the
@@ -3069,6 +3144,7 @@ The Group confirms that all equipment used to operate IT/OT data-driven solution
 
 For more information on the Group's efforts related to the prevention and management of pollution, please refer to 'ESRS E2 - Pollution' section.
 
+<!-- Report Page 185 -->
 ###### DNSH to Protection and Restoration of Biodiversity and Ecosystems (BIO)
 
 DNSH criteria to BIO apply to EU Taxonomy-defined Activities:
@@ -3105,6 +3181,7 @@ assessments suggest necessary mitigation measures to protect the ecosystems and 
 
 The DNSH criteria to BIO for CCM 6.15 include the criteria set out in the Appendix D as above, and include requirements to implement maintenance measures of vegetation along road transport infrastructure to ensure that invasive species do not spread and mitigation measures to avoid wildlife collisions. These DNSH are not applicable to the Group's EV charging activities since the installation of EV chargers is limited to pre-existing infrastructure, such as fuel stations, parking facilities, and shopping centers, where any necessary environmental impact and biodiversity assessments or mitigation measures would have been addressed during the initial construction or permitting phase of these sites. The minor, localized nature of EV charger installation poses negligible environmental impact and does not affect biodiversity-sensitive areas, as the chargers are deployed in urbanized or developed regions. Additionally, criteria related to vegetation maintenance and wildlife collision mitigation are more relevant to road transport infrastructure operators managing vegetation or roadways, which do not fall within the scope of the Group's EV charging activities. For more information on the Group's efforts related to the protection of biodiversity and ecosystems, please refer to 'ESRS E4 - Biodiversity and Ecosystems' section.
 
+<!-- Report Page 186 -->
 ###### Summary of Alignment Screening
 
 <table>
@@ -3170,6 +3247,7 @@ The DNSH criteria to BIO for CCM 6.15 include the criteria set out in the Append
 </tr>
 </table>
 
+<!-- Report Page 187 -->
 Statements of BoD members
 
 <table>
@@ -3205,6 +3283,7 @@ Statements of BoD members
 </tr>
 </table>
 
+<!-- Report Page 188 -->
 ####### 4. Alignment Screening - Minimum Social Safeguards
 
 For additional or complementary information on the Group's Due Diligence process and social safeguards, refer to 'GOV-4, Statement of Due Diligence' section.
@@ -3223,6 +3302,7 @@ Criterion 2 – Performance: absence of signals indicating inadequate implementa
 Compliance with minimum safeguards requires both the existence of appropriate processes and no evidence of significant deficiencies in their implementation.</figcaption>
 </figure>
 
+<!-- Report Page 189 -->
 Statements of BoD members
 
 Regarding Article 18(2), the recommendations suggested by the PSF Report is that companies with exposure to controversial weapons are not able to count their activities as Taxonomy-aligned because of their non-compliance with the 'do no significant harm' principle under the SFDR.
@@ -3263,6 +3343,7 @@ The Group is a proud signatory to the United Nations Global Compact (UNGC) and a
 
 To ensure the effective implementation of the Code of Conduct, the Group emphasizes communication and training. All employees are provided with the Code and receive regular updates on its principles via the Group's intranet and Sustainability Reports. Training on the Code of Conduct, which includes human rights standards, is delivered through mandatory e-learning modules and tailored onboarding sessions for new hires. These initiatives ensure that employees at all levels understand the Group's expectations, responsibilities, and ethical standards, fostering a culture of accountability and respect.
 
+<!-- Report Page 190 -->
 The subsequent sections detail the Group's procedures for enacting this commitment.
 
 2. Identify & Assess Adverse Human Rights Impacts
@@ -3281,6 +3362,7 @@ The Group's risk management system further supports the identification and manag
 
 Health and safety assessments are another cornerstone of the Group's approach to identifying adverse human rights impacts, recognizing that the access to a safe and healthy working environment is a fundamental human right to everyone. These assessments evaluate workplace conditions to ensure compliance with safety standards and focus on risks such as hazardous environments, inadequate protective measures, and overall employee wellbeing. By addressing these risks, the Group safeguards employees' human rights, including their rights to life, health, and dignity. All Group operations employ Occupational Risk Assessment Studies, which include the identification of risks and the measures taken to eliminate or control these risks to maintain them at very low levels. As per, the Group's Anti-Harassment Policy as detailed in the '3. Cease, prevent, mitigate and remediate adverse human rights impacts' below, the Group Occupational Risk Assessment also includes identification and assessment of risks of violence and harassment.
 
+<!-- Report Page 191 -->
 3. Cease, prevent, mitigate and remediate adverse human rights impacts
 
 Building on its commitment to respecting human rights and its risk assessment processes, the Group takes proactive measures to prevent, mitigate, and address adverse human rights impacts across its operations and value chain. Prevention is central to the Group's approach, prioritizing proactive measures to avoid potential human rights violations rather than addressing them after they arise. This prevention measures include providing training, applying rigorous assessment systems, and establishing clear policies and safeguards.
@@ -3297,6 +3379,7 @@ The Group upholds its commitment to human rights by maintaining a comprehensive 
 
 Regarding the Group's suppliers, the Group Procurement Regulations establish a framework for selecting and evaluating suppliers, designed to identify risks, including compliance issues and prevent adverse impacts across the supply chain. This framework ensures that suppliers who pose a high risk of human rights violations are excluded from consideration, significantly reducing the likelihood of such issues arising. As part of its digital transformation, the Group has optimized its supplier qualification and evaluation processes, making them more rigorous and transparent. Suppliers are assessed against four key pillars, one of which is Environmental & Social Framework Pillar, which covers human rights, labor issues, health and safety, conflict minerals, and unethical practices, among others. These sustainability criteria are grounded on the UNGC principles and the Greek Sustainability Code both of which consider human rights and labor rights in the supply chain.
 
+<!-- Report Page 192 -->
 ### The key steps in the supplier selection and evaluation process include:
 
 · Initial Evaluation: Suppliers are assessed during the pre-qualification stage for inclusion in the Group's approved supplier list. This includes screening for compliance with human rights standards (Moody's GRID compliance functionality).
@@ -3313,6 +3396,7 @@ forced and child labor. As explained above, as per the Group Procurement Regulat
 
 Please refer to 'Identifying, Assessing, and Remediating Negative Impacts' within the 'GOV-4 - Statement on Due Diligence' section for further details on additional taken by the Group to ensure human rights in operations and supply chain are upheld. For details on processes to remediate negative impacts, including human rights impacts, refer to 'S1-3 - Processes to Remediate Negative Impacts and Channels for Own Workforce to Raise Concerns', 'S3-3 - Processes to Remediate Negative Impacts and Channels for Affected Communities to Raise Concerns', and 'S4-3 - Processes to Remediate Negative Impacts and Channels for Consumers and End-Users to Raise Concerns' sections.
 
+<!-- Report Page 193 -->
 4. Track Implementation and Effectiveness of these actions
 
 The Group systematically monitors, measures, and discloses metrics to evaluate the effectiveness of its efforts to prevent, mitigate, and address adverse human rights impacts. These metrics are transparently presented in the 'Metrics & Targets' sections under 'ESRS 1 - Own Workforce', including key indicators such as those disclosed in 'S1-17 - Incidents, complaints, and severe human rights impacts' section. This provides a clear framework for assessing the Group's performance in managing human rights impacts.
@@ -3337,6 +3421,7 @@ In addition, the Group maintains a variety of communication channels with all it
 
 Criterion 2: During FY2024, HELLENIQ ENERGY'S top management or its subsidiaries, including the top management of its subsidiaries, has not been held liable or found to be in breach of human rights laws such as labor laws, consumer protection laws, data protection laws, humanitarian laws and criminal laws. Further, no incidents of non-compliance or fines in relation to discrimination, labour issues and disputes have been reported. Additionally, during FY2024, there was no case taken up by an OECD National Contact Point ("NCP") against the Group or its subsidiaries. Therefore, the Group or its subsidiaries was not in refusal to enter into a dialogue with the NCP or with the party which has initiated it and the Group or its subsidiaries has not been found noncompliant with the OECD guidelines by the NCP. Furthermore, in the past two years, the Business & Human Rights Resource Centre (BHRRC) has not taken up an allegation or raised any concerns against the Group or its subsidiaries. Therefore, the Group or its subsidiaries was not non-responsive to any of BHRRC concerns or allegations. Please refer to 'S1-17 - Incidents, complaints and severe human rights impacts' section for further details.
 
+<!-- Report Page 194 -->
 ### Bribery and Corruption
 
 Criterion 1: The Group is committed to conducting business in the most ethical manner and has a zero-tolerance policy toward bribery and corruption of any type. As mentioned above, anti-corruption and bribery policies are covered in the Group Code of Conduct. Further, the internal structure and corporate governance framework of the Group companies are designed with robust safeguards to prevent corruption. These include checks and balances such as dual-person partnerships for decision-making, mandatory internal approvals, and regular audits to ensure transparency and compliance with anti-corruption policies. Please refer to 'Corruption' within the 'GOV-4 - Statement on Due Diligence' section for further details of the Group's internal controls, ethics and compliance programs, and measures for preventing and detecting corruption and bribery.
@@ -3354,6 +3439,7 @@ Criterion 1: The Group is committed to ensuring full compliance with tax laws an
 Tax and customs issues across all Group companies in all jurisdictions, are centrally monitored, audited, and coordinated by the Group Tax & Customs Department (GT&CD). The GT&CD ensures compliance with tax legislation and audit requirements in Greece and all other countries where the Group operates. This is achieved in accordance with the applicable institutional framework, the Group's practices, and close cooperation with the competent authorities. The GT&CD ensures daily compliance, monitors tax and customs-related issues on a regular basis (monthly, quarterly, semi-annually, and annually), and reports directly to the Group CFO and, where necessary, to the Group CEO.
 
 #### The main tasks of the GT&CD include:. Overall tax and customs compliance, in continuous/open cooperation with the competent authorities and internal/external auditors.
+<!-- Report Page 195 -->
 
 · Advisory to all entities/functions regarding all relevant issues.. Tax planning and optimization, through active and continuous tax cashflow monitoring.
 
@@ -3371,6 +3457,7 @@ By integrating these measures into its tax governance structure and leveraging m
 
 Criterion 2: During FY2024, HELLENIQ ENERGY or its subsidiaries have not been found violating tax laws and have not been found guilty of tax evasion (including but not limited to tax avoidance through aggressive tax planning).
 
+<!-- Report Page 196 -->
 ### Fair Competition
 
 Criterion 1: Since 2018, the Group has implemented a Competition Policy and Compliance Manual, reflecting its commitment to comply with Greek and European competition laws, as well as the national laws of the countries where it operates. This Policy aims to assist the Group's management, executives, and employees in understanding the fundamental rules of fair competition and how these rules impact the Group's daily operations and business practices.
@@ -3389,6 +3476,7 @@ As minimum safeguards criteria apply at the undertaking level, it was possible t
 
 <table>
 <tr>
+<!-- Report Page 197 -->
 <th>Minimum Safeguards Areas</th>
 <th>HELLENIQ ENERGY Disclosures</th>
 </tr>
@@ -3410,6 +3498,7 @@ As minimum safeguards criteria apply at the undertaking level, it was possible t
 </tr>
 </table>
 
+<!-- Report Page 198 -->
 ## 5. Calculation of Financial KPIs
 
 The Disclosures Delegated Act particularly in Annex I (KPIs of non-financial undertakings) specifies three KPIs to be disclosed regarding the proportion of the Taxonomy-eligible and Taxonomy-aligned activities of the Group to its total activities. Namely, these KPIs are Turnover, Operating Expenses and Capital Expenditure.
@@ -3446,6 +3535,7 @@ The Group's total CapEx can be reconciled to the consolidated financial statemen
 
 To avoid double counting in the allocation in the numerator of CapEx across economic activities, the figures have eliminated intercompany transactions.
 
+<!-- Report Page 199 -->
 ### OpEx KPI (%): Oa/Ot
 
 Oa represents direct, non-capitalised costs that relate to research and development, building renovation measures, short-term lease, maintenance and repair, and any other direct expenditures relating to the day-to-day servicing of assets of property, plant and equipment by the undertaking or third party to whom activities necessary to ensure the continued and effective functioning of such assets are outsourced. The numerator equals to the part of the operating expenditure included in the denominator that either:
@@ -3464,12 +3554,17 @@ To avoid double counting in the allocation in the numerator of OpEx across econo
 
 The Group's eligible and aligned turnover, CapEx and OpEx are presented in 'Overall Results of KPIs' section in accordance with templates specified in Annex II of the Disclosures Delegated Act as amended by the Annex V of the Environmental Delegated Act. Disclosures concerning nuclear and gas-related activities are presented 'Disclosures for nuclear and fossil gas activities' section in accordance with the requirements of the Disclosures Delegated Act, Articles 8(6) and (7), including the templates specified in Annex XII.
 
+<!-- Report Page 200 -->
 ## Overall Results of EU Taxonomy Assessment
 
+<!-- Report Page 201 -->
 Following the completion of eligibility and alignment screening for all of the Group's activities, as extensively discussed in the "Process for Analyzing the Group's Business Activities" section, the following is a summary of the results.
+<!-- Report Page 202 -->
 
+<!-- Report Page 203 -->
 We aim to significantly reduce our carbon footprint, with the objective of achieving net-zero by 2050.
 
+<!-- Report Page 204 -->
 ## Proportion of turnover from products or services associated with Taxonomy-aligned economic activities - disclosure covering year 2024
 
 <table>
@@ -3806,6 +3901,7 @@ activities (Taxonomy-aligned)</td>
 <tr>
 <th>Financial year</th>
 <th colspan="3">2024</th>
+<!-- Report Page 205 -->
 <th colspan="6">Substantial Contribution Criteria</th>
 <th colspan="4">DNSH Criteria ('Do No Significant Harm')</th>
 <th colspan="4"></th>
@@ -4241,6 +4337,7 @@ Total (A+B)
 </tr>
 </table>
 
+<!-- Report Page 206 -->
 ## Proportion of CapEx from products or services associated with Taxonomy-aligned economic activities - disclosure covering year 2024
 
 <table>
@@ -4574,6 +4671,7 @@ Total (A+B)
 <tr>
 <th>Financial year</th>
 <th colspan="3">2024</th>
+<!-- Report Page 207 -->
 <th colspan="6">Substantial Contribution Criteria</th>
 <th colspan="4">DNSH Criteria ('Do No Significant Harm')</th>
 <th></th>
@@ -5039,6 +5137,7 @@ N-No, Taxonomy-eligible but not Taxonomy-aligned activity with the relevant envi
 
 EL - Eligible activity for the relevant environmental objective N/EL - non-eligible, Taxonomy-non-eligible activity for the relevant environmental objective
 
+<!-- Report Page 208 -->
 ## Proportion of OpEx from products or services associated with Taxonomy-aligned economic activities - disclosure covering year 2024
 
 <table>
@@ -5380,6 +5479,7 @@ N/EL - non-eligible, Taxonomy-non-eligible activity for the relevant environment
 <tr>
 <th>Financial year</th>
 <th colspan="3">2024</th>
+<!-- Report Page 209 -->
 <th colspan="6">Substantial Contribution Criteria</th>
 <th colspan="4">DNSH Criteria ('Do No Significant Harm')</th>
 <th></th>
@@ -5813,6 +5913,7 @@ Total (A+B)
 </tr>
 </table>
 
+<!-- Report Page 210 -->
 ## Additional Information
 
 ### Contribution to multiple objectives
@@ -5835,6 +5936,7 @@ Based on the CapEx indicator, 35.86% of the economic activities are eligible-ali
 
 Based on the OpEx indicator, 7.21% of the economic activities are eligible-aligned, 23.21% eligible-not aligned and 69.57% non-eligible in 2024. The proportion of eligible-aligned activities increased in 2024 compared to 2023, primarily because of the increase in the RES operational capacity. The Group's OpEx associated with electricity production from PV parks reached €2.8 million in 2024, while the respective figure associated with electricity production from wind parks amounted to €3.2 million.
 
+<!-- Report Page 211 -->
 ### Disclosures for nuclear and fossil gas activities
 
 The information in this section meets the public disclosure requirements listed in the Annex III of the Complementary Climate Delegated Act (Annex XII of the Disclosures Delegated Act).
@@ -5881,6 +5983,7 @@ The information in this section meets the public disclosure requirements listed 
 </tr>
 </table>
 
+<!-- Report Page 212 -->
 ## ESRS E1 - Climate change
 
 ### Strategy
@@ -5915,6 +6018,7 @@ have proceeded with the signing of a new financing framework of up to €766 mil
 
 c) Upgraded our corporate governance introducing procedures that encompass sustainability-related criteria in decision making. At the same time, ESG criteria are incorporated into Management's variable compensation.
 
+<!-- Report Page 213 -->
 ### Decarbonization actions
 
 In the renewable energy sector, the development strategy combines the maturity of a diversified portfolio of projects (PV, wind, biomass) and targeted acquisitions of matured or operating projects. Projects with a total capacity of more than 5.2 GW, mainly PV, wind parks and energy storage, are in various stages of development.
@@ -5940,6 +6044,7 @@ Although HELLENIQ ENERGY's potential locked-in GHG emissions arise from the acti
 HELLENIQ ENERGY demonstrates its commitment to Sustainable Development and addressing the challenge of climate change as integral parts of its strategy, supported by Vision 2025. As part of its energy transformation plan, the implementation of the Group's strategic plan involves expanding into green energy, with a growing share of annual capital expenditures directed towards eligible-aligned activities over the next years. The EU Taxonomy Report describes the eligibility and alignment of the Group activities under the Climate Change Mitigation
 
 Objective. The Group's priority is to develop a significant RES portfolio, diversifying its energy profile and contributing to greenhouse gas emissions avoidance. The interim targets for the Group's energy transformation include achieving an RES installed capacity of 1 GW by 2026, followed by an ambitious target of over 2 GW by
+<!-- Report Page 214 -->
 2030. These investments include the development of RES projects in PV, wind, and storage (BESS and pumped
 storage). Furthermore, the Group plans to expand materially its electric mobility network both within its own fuels marketing network and in third-party points of interest. [ESRS E1-1-16-(e)]
 
@@ -5961,6 +6066,7 @@ The financial implications and associated risks, which interacted with HELLENIQ 
 
 fossil fuels, and the tightening of the regulatory framework for controlling and limiting greenhouse gas (GHG) emissions. Other risks included ongoing technological advancements and declining renewable energy costs, which are intensifying competition in the energy market for oil and gas companies, potentially reducing demand for fossil fuel products. Additionally, as financial institutions commit to cutting emissions from their portfolios and lending activities to achieve net zero by 2050, oil and gas companies may face greater challenges in attracting capital. Furthermore, as a major source of global emissions, the oil and gas industry is particularly impacted by carbon pricing mechanisms, such as the European Emissions Trading System (EU ETS), while rising carbon prices will potentially increase the cost of emissions, affecting production methods and the pricing of consumer products.
 
+<!-- Report Page 215 -->
 ### EU ETS Considerations
 
 The EU ETS and the Carbon Border Adjustment Mechanism (CBAM)-particularly with the potential inclusion of refineries within the CBAM framework from 2026-are key factors contributing to the rising carbon cost. During the reporting period, the financial implications for HELLENIQ ENERGY were closely tied to the increasing cost of covering the emission allowance deficit, as all three of the Group's refineries in Greece are active participants in the EU ETS.
@@ -5981,6 +6087,7 @@ HELLENIQ ENERGY, following the Double Materiality Analysis, conducted a resilien
 
 The scope of the resilience analysis covers HELLENIQ ENERGY's own operations across locations. It also includes an assessment of physical risks (please refer to section 'Classification of climate-related hazards' in ESRS 2) as well as transition risks (please refer to section 'Climate-related transition events based on TCFD classification' in ESRS
 
+<!-- Report Page 216 -->
 ### (b) Methodology and Timing of the Resilience Analysis
 
 The Group's resilience analysis is conducted during the reported period through a combination of internal assessments, consultations with experts and senior executives, and the use of external data (models). This analysis incorporates both qualitative and quantitative approaches and is carried out for two climate scenarios: the Net Zero Transition Scenario and the Hot House World Scenario, as outlined in the section "Use of ClimateRelated Scenario Analysis" of ESRS 2.
@@ -6005,6 +6112,7 @@ The resilience analysis was conducted as part of the risk management assessment 
 
 While the Group faces significant transition risks as well as acute climate risks, including regulatory pressures and carbon price fluctuations, these challenges also present opportunities that drive diversification and long-term resilience (please refer to section 'Climate-related opportunities' in ESRS 2). The Group's ability to proactively adapt to these risks and leverage emerging opportunities contributes to maintaining competitiveness and ensuring future growth. [ESRS E1.SBM-3-19-(c)]
 
+<!-- Report Page 217 -->
 ## Impact, Risk and Opportunity Management
 
 ### E1-2 - Policies Related to Climate Change Mitigation and Adaptation
@@ -6027,6 +6135,7 @@ The framework agreement sets a unified perimeter of common financing terms for p
 
 (c) Flexible structure, fit-for-purpose for RES, allowing the release of resources to support the rest of the Group's activities.
 
+<!-- Report Page 218 -->
 #### Moreover, the Group has focused its actions and resources related to climate change mitigation and adaptation on the following pillars:
 
 ##### Energy Production and Storage from Renewable Sources
@@ -6051,6 +6160,7 @@ For more information, please refer to sections SBM-1 - Strategy, business model 
 
 HELLENIQ ENERGY has not yet implemented nature-based solutions (NbS) as part of its climate change mitigation strategy. [ESRS E1-3-29-(a)]
 
+<!-- Report Page 219 -->
 ### Outcome of Actions & GHG Emission Reductions
 
 The above-mentioned actions related to climate change mitigation have already led to GHG emission reductions and are expected to result in even greater reductions, as shown in the following graph.
@@ -6079,6 +6189,7 @@ The aforementioned actions are actively linked to activities such as the followi
 
 · Installation, maintenance, and repair of charging stations for electric vehicles in buildings (and parking spaces attached to buildings)
 
+<!-- Report Page 220 -->
 · Acquisition and ownership of buildings
 
 · Data-driven solutions for GHG emissions reductions [ESRS E1-3-29-(c)-(i),(ii),(iii)]
@@ -6103,6 +6214,7 @@ In 2024, the Group has reduced its greenhouse gas (GHG) emissions, as demonstrat
 
 Energy companies that derive more than 50% of revenue from sale and distribution of fossil fuels, cannot set a science-based target due to the fact that the pertinent technical paper and guidance has not been finalized by the Science Based Targets initiative yet. However, the Group monitors diligently the Science-Based Targets initiative regarding the Oil and Gas industry. Once the final methodology is finalized, it will be assessed. [ESRS E1-4-34-(e)]
 
+<!-- Report Page 221 -->
 ### E1-5 - Energy Consumption and Mix
 
 #### Fuel Consumption
@@ -6236,6 +6348,7 @@ Energy companies that derive more than 50% of revenue from sale and distribution
 
 #### HELLENIQ ENERGY
 
+<!-- Report Page 222 -->
 ##### Statements of BoD members
 
 <table>
@@ -6314,6 +6427,7 @@ The percentage of renewable energy in the energy residual mix, according to DAPE
 
 Regarding the electricity imported, the percentage of nuclear energy in the energy residual mix of every supplier is 1%. [ESRS E1-5-37-(a), (b), (c)-(i), (c)-(ii), (c)-(iii)] [E1-5-38-(a), (b), (c), (d), (e)] [ E1-5-39, E1-5-AR 34]
 
+<!-- Report Page 223 -->
 ##### Energy Intensity based on Net Revenue:
 
 <table>
@@ -6406,6 +6520,7 @@ Financial Reconciliation:
 </tr>
 </table>
 
+<!-- Report Page 224 -->
 ### GHG emissions by Substance
 
 <table>
@@ -6553,6 +6668,7 @@ Other GHGs are reported according to Kyoto Protocol. [ESRS E1-6-AR 39-(b)]
 </tr>
 </table>
 
+<!-- Report Page 225 -->
 #### Significant changes, assumptions and methodologies
 
 *Subsidiaries are entities whose financial information is included in the consolidated financial statements of the Group. [ESRS E1-6 47]
@@ -6666,6 +6782,7 @@ The Scope 3 calculation includes CO2 emissions, with no biogenic CO2 emissions. 
 
 The calculation of Scope 3 GHG emissions does not include any removals, or any purchased, sold, or transferred carbon credits or GHG allowances. [ESRS E1-6 AR 46-(k)]
 
+<!-- Report Page 226 -->
 It covers the categories presented in the table above.
 
 #### The following categories were deemed less relevant to the Group's operational boundaries, had a negligible impact on the overall carbon footprint:
@@ -6720,6 +6837,7 @@ No Disclosure of the effects of significant events and changes in circumstances 
 
 The targets and milestones are described in section E1-4 - Targets Related to Climate Change Mitigation and Adaptation.
 
+<!-- Report Page 227 -->
 ### Total GHG emissions intensity per net revenue
 
 During the reporting period, the total GHG emissions intensity was 4.364 tCO2e/k€ using the location-based method and 4.359 tCO2e/k€ using the market-based method. [ESRS E1-6 53, AR 53, AR 54]
@@ -6738,6 +6856,7 @@ a) Drive energy efficiency
 
 b) Drive low-carbon investment
 
+<!-- Report Page 228 -->
 c) Identify and seize low-carbon opportunities and
 
 d) Stress test investment
@@ -6756,6 +6875,7 @@ analysis performed as presented in section 'Results of the Resilience Analysis' 
 
 services in the medium-term time horizon and the participation in carbon market, including voluntary market and ETS2 in the short-term time horizon. [ESRS E1-9-66-(a), AR 70] [ESRS E1-9-67-(a)] [ESRS E1-9, AR 69-(a), (b)] [ESRS E1-9, AR 72-(a), (b), AR 73-(a)]
 
+<!-- Report Page 229 -->
 ## ESRS E2 - Pollution
 
 ### Impact, Risk and Opportunity Management
@@ -6782,6 +6902,7 @@ The Group's strategy is predicated upon the implementation of environmental inve
 
 standards, investing in modern production technologies (e.g. low nitrogen oxide burners) and directly reducing emissions (VOC recovery systems during the loading of petroleum products. Currently, the Group has not performed any additional initiatives, as there is no dedicated pollution target in place. The environmental impact achieved so far is deemed particularly positive, as evidenced by the substantial reduction in key air quality indicators in recent years. This is further corroborated by the corresponding decrease in quantitative air quality monitoring data from the surrounding areas. The Group has not yet adopted any actions regarding the air pollution on the downstream value chain. [ESRS E2-2-18]
 
+<!-- Report Page 230 -->
 ## Metrics and Targets
 
 ### E2-3 - Targets Related to Pollution
@@ -6792,6 +6913,7 @@ The Group adheres rigorously to both national and European legislative framework
 
 At the Group's three refineries, which constitute the principal segment of its production activities, the objective is to select the most suitable blend of fuels for internal consumption. This selection process involves the implementation of the relevant best available techniques and stringent adherence to the emission limits specified in the environmental permits. The goal is to achieve substantial reductions in key air emissions.
 
+<!-- Report Page 231 -->
 ### E2-4 - Pollution of Air, Water and Soil
 
 An analysis of air and water emissions by specific pollutants, segregated by Hellenic Petroleum RSSOPP (refining) and subsidiaries, offers a comprehensive understanding of the environmental impact across various parameters. It is pertinent to highlight that there are no discharges to the soil from the Group's Industrial facilities.
@@ -6949,6 +7071,7 @@ In 2024, the Group's refineries fuel mix consumed was appropriately adjusted, em
 
 For the remaining air pollutants listed in Annex II of Regulation (EC) No 166/2006, the applicable threshold values are not exceeded. Please note that pollutants related to GHG emissions are reported separately in section E1.
 
+<!-- Report Page 232 -->
 ##### Emissions to Water
 
 <table>
@@ -7055,6 +7178,7 @@ The process to collect data for pollution-related accounting and reporting (air 
 
 No material incidents have transpired during 2024 wherein pollution has adversely impacted the environment and/or is anticipated to detrimentally affect HELLENIQ ENERGY's financial cash flows, financial position, or financial performance across short-term, medium-term, and long-term time horizons.
 
+<!-- Report Page 233 -->
 ## ESRS E3 - Water and Marine Resources
 
 ### Impact, Risk and Opportunity Management
@@ -7083,6 +7207,7 @@ The issues assessed in the field of water management relate directly to the wate
 
 The water resource management system includes monitoring and reporting of water withdrawal, quality, and discharge at all facilities and subsidiaries of the Group in order to continuously improve efficiency and reduce not only the environmental footprint, but also operating costs. [ESRS E3-2-17]
 
+<!-- Report Page 234 -->
 ### Metrics and Targets
 
 #### E3-4 - Water Consumption
@@ -7159,6 +7284,7 @@ The water resource management system includes monitoring and reporting of water 
 
 In 2024, there was an increase in water consumption amounted to 23% compared to water consumption in 2023, mainly due to increased fresh water consumption for fire protection in Aspropyrgos refinery, while the water recycled and reused in production facilities amounted to 17%. It is noted that subsidiaries' water consumption 2024 is not comparable to 2023, mainly because a) two companies are added in EKO CYPRUS and b) OKTA updated its methodology (including additional water uses).
 
+<!-- Report Page 235 -->
 ##### Water withdrawals and discharges
 
 The total water discharges amounted to 7,229,408 m3, from which over 96% is discharged in the sea after treatment. [ESRS E3-4, AR 32]
@@ -7169,6 +7295,7 @@ The total water withdrawal amounted to 15,698,162 m3, from which 84% comes from 
 
 Water consumption and withdrawal data were obtained from direct measurements (flow meters, invoices). The majority of water discharges data (refineries and domestic marketing) come from direct measurements (flow meters). The data regarding water recycling and reuse derived either directly from flow meters, by calculation or estimation (e.g. for AIC the recycled water is used in the desalination unit of the distillation plant. It is also estimated that 10% of the water from the wastewater unit is used for internal operations - cleaning, hydraulic testing, etc.). [ESRS E3-4-28-(e)]
 
+<!-- Report Page 236 -->
 ## ESRS E4 - Biodiversity and Ecosystems
 
 ### Impact, Risk and Opportunity Management
@@ -7197,6 +7324,7 @@ The Group also takes into account marine ecosystems, pays particular attention t
 
 As part of the Environmental Monitoring and Recording of Critical Environmental Indicators of Biodiversity, such as marine mammals (cetaceans and seals), sea turtles, and seabirds, HELLENiQ UPSTREAM and its subsidiaries commissioned a specialized company to conduct a "Status Survey of Important Fauna Species". This survey represents one of the most comprehensive and integrated surveys for the systematic recording of marine mammals, sea turtles, and seabirds that have been conducted in Greece, and combines visual, acoustic, and aerial records, search for breeding areas, and visual monitoring using telemetry.
 
+<!-- Report Page 237 -->
 ##### The project includes:
 
 · Systematic monitoring of Mediterranean seals at breeding sites in the survey area conducted from inflatable boat with two field researchers equipped with infrared cameras.
@@ -7211,6 +7339,7 @@ For all the activities related to biodiversity, the Group has carried out, or is
 
 HELLENIQ ENERGY, also applies the mitigation hierarchy to manage biodiversity impacts by avoiding impacts on biodiversity-sensitive areas, when possible, carefully selecting sites based on ecological considerations. When avoidance is not feasible, the Group minimizes its negative impacts. These aforementioned actions performed aim to protect biodiversity and ecosystems and cover all relevant sites, including those in Greece and abroad, and are part of a continuous process with short-, medium-, and long-term measures based on the scale of impact and mitigation requirements.
 
+<!-- Report Page 238 -->
 ## ESRS E5 - Resource Use and Circular Economy
 
 ### Impact, Risk and Opportunity Management
@@ -7240,6 +7369,7 @@ Specifically, more than 26,898 tons of waste, more than 88% of the total, was ei
 It is noted that the quantities of solid waste per industrial facility depend, for the most part, on the cleaning of product tanks and, therefore, vary from year to year, depending on tank maintenance scheduling and, secondarily, on the availability of solid waste treatment plants, either on-site or off-site.
 
 
+<!-- Report Page 239 -->
 ##### Municipal Solid Waste (MSW) Management
 
 In addition to managing typical industrial waste, the Group continues its unremitting efforts across all activities (facilities and offices), with the active participation of employees, to recycle as many waste streams as possible, such as paper, plastic, small batteries, accumulators, fluorescent lamps, electronic equipment, aluminium, etc. Specifically, in order to achieve effective source separation of all streams - metal, plastic, batteries, paper, food waste, and common waste - and to increase the recycling rate. The implementation of this integrated Municipal Solid Waste (MSW) management system at the Aspropyrgos and Elefsina Industrial Facilities continued in 2024. In addition, in 2024, the Group continued the use of "paperless" processes, such as electronic signatures, which resulted in a reduction in hardcopy documents and envelopes and consequently in reduction of the environmental footprint.
@@ -7248,6 +7378,7 @@ In addition to managing typical industrial waste, the Group continues its unremi
 
 For the refining sector in particular, the percentage of petroleum waste recovered (oil recovered & slops) and returned to the production process as raw material for re-refining is also monitored. These quantities of waste originate from both the production process and third parties. It is noteworthy that in 2024 175.3 kt of oil were recovered while more than 2.02 million tons have been re-refined and since 2013. [ESRS E5-2 19]
 
+<!-- Report Page 240 -->
 ### Metrics and Targets
 
 #### E5-3 - Targets Related to Resource Use and Circular Economy
@@ -7274,6 +7405,7 @@ The main resource inflows are crude oil and other hydrocarbon feed processed whi
 
 The data included in the calculations is sourced from direct measurements and the Group ensured double counting was avoided. [ESRS E5-4-32, AR 25]
 
+<!-- Report Page 241 -->
 #### E5-5 - Resource Outflows
 
 ##### Waste
@@ -7482,6 +7614,7 @@ The data included in the calculations is sourced from direct measurements and th
 </tr>
 </table>
 
+<!-- Report Page 242 -->
 #### Significant changes, assumptions and methodologies
 
 *Subsidiaries are entities whose financial information is included in the consolidated financial statements of the Group.
@@ -7492,6 +7625,7 @@ The materials that are present in the waste are mainly catalysts, metals, oily s
 
 ## C.3 Social
 
+<!-- Report Page 243 -->
 ### ESRS S1 - Own Workforce
 
 <table>
@@ -7644,6 +7778,7 @@ ESRS 2 Material IROs Related to Consumers and End-Users and their SBM 3 Interact
 
 S4-5 Targets Related to Managing Material Negative Impacts, Advancing Positive Impacts and Managing Material Risks and Opportunities
 
+<!-- Report Page 244 -->
 ## ESRS S1 - Own Workforce
 
 ### Strategy
@@ -7664,6 +7799,7 @@ Furthermore, the Group has established internal contingency plans for each facil
 
 ##### It is worth noting that HELLENIQ ENERGY's four main lines of action on Health and Safety are:. Leadership and commitment.
 
+<!-- Report Page 245 -->
 · Adoption of a safety culture.
 
 · Improvement of performance and utilization of safety indexes.. Leveraging experience from incidents and implementing actions and corrective measures.
@@ -7700,6 +7836,7 @@ The reporting and investigation of incidents, near misses, and unsafe situations
 
 HELLENIQ ENERGY conducts Health and Safety programs and activities, such as preventive health monitoring of employees and regular safety awareness campaigns at facilities, as well as other activities aimed at stakeholders. These initiatives reinforce and consolidate the long-term benefits of the Occupational Health and Safety Management System, including the cultivation of a Health and Safety culture and the attainment of high performance in all relevant indicators.
 
+<!-- Report Page 246 -->
 #### Employee Health in the Workplace
 
 Ensuring the health and well-being of employees constitutes a fundamental aspect of HELLENIQ ENERGY's strategic objectives. The organization enforces the Health Supervision Procedure, whereby employees undergo periodic medical examinations tailored to their specific job roles, age categories, and gender. Furthermore, the organization engages Occupational Physicians to provide medical services to employees and partners as required, ensuring accessibility and availability in a timely and efficient manner.
@@ -7736,6 +7873,7 @@ All countries and regions where the Group operates have national laws and regula
 
 As previously noted, significant risks and opportunities are associated with health and safety impacts, emphasizing the importance of fostering a safety-focused culture and well-being among employees at all levels to prevent accidents, maintain productivity, and sustain profitability. Employees working in industrial facilities (e.g. refineries, fuel terminals, and other hydrocarbon facilities) or employees who visit those facilities to fulfill a specific task are facing a greater risk of harm. This conclusion can be retrieved from each of the above-mentioned facilities' Occupational Risk Assessment. The Holistic Safety Management System, the procedures, and the numerous initiatives provide immediately and effectively prevention and response to hazards that may impact the health and safety especially of those employees working in industrial facilities. All the identified IROs apply to all the workforce and to all external partners within the Group's facilities. [ESRS S1-ESRS 2 SBM-3-15-16]
 
+<!-- Report Page 247 -->
 ## Impacts Risk and Opportunity Management
 
 ### S1-1 - Policies Related to Own Workforce
@@ -7749,6 +7887,7 @@ health and safety of the personnel is a fundamental value, primary concern, and 
 The Sustainability Policy and the Health and Safety Management System concern everybody, i.e. the employees, the executives, the members of the management and every person providing services to the Group. The Policy and the System are compliant with the relevant Greek and European legislation, as well as with other internationally recognized, and associated with this item, Codes, and practices and, in many cases, are even stricter.
 
 The Policy applies to all activities of HELLENIQ ENERGY and its subsidiaries, including upstream and downstream value chain activities. Moreover, it covers all stakeholders, including employees, contractors, suppliers, and local communities. Thus, there are no specified exclusions, ensuring broad applicability across the company's operations. The Policy is implemented in HELLENIQ ENERGY, and the ultimate accountability for policy implementation rests with the Management of the Group and the Sustainability Committee. In addition, the Sustainability Policy commits to adhering to internationally accepted standards, such as the United Nations' Sustainable Development Goals, the European Green Deal, and other relevant environmental and social frameworks. HELLENIQ ENERGY, in order to further demonstrate its commitment to the promotion of human rights, Policy in alignment with international standards such as UN Guiding Principles on Business and Human Rights, decided to update the Code of Conduct. The revised Code of Conduct reflects on the current values and procedures of the Group and due to operational issues is expected to be approved and published in late February
+<!-- Report Page 248 -->
 2025. The Group is committed to charters and initiatives according to the UN Global Compact with an active
 membership status since 2008, and the Greek Sustainability Code, and providing publicly available data through the Communication on Progress questionnaire and according to the criteria of the Greek Sustainability Code.
 
@@ -7768,6 +7907,7 @@ The Code of Conduct as part of the corporate governance system complies with the
 
 The Group's single Code of Conduct applies to all its activities in Greece and translated into all languages spoken in the countries where the Group operates, serves as a comprehensive framework for ethical business practices abroad and defines the principles governing the operation of its subsidiaries, including those related to human rights. HELLENIQ ENERGY has conducted continuous and extensive education and training of executives and employees, including its subsidiaries, on the content, basic principles, and commitments of the Code. This training is also part of the onboarding process for new recruits.
 
+<!-- Report Page 249 -->
 In this respect, the Group is strongly committed to the following values towards its people:
 
 · Ensuring health and safety.
@@ -7795,6 +7935,7 @@ Specifically, according to the Internal Operation Regulations of the Group's com
 All countries and regions in which the Group operates have national laws and regulations on forced labor. The Group monitors relevant labor legislation (national, European, ILO) and is in full compliance with collective and relevant international conventions.
 
 To ensure effective implementation, the Group emphasizes communication and training, providing employees with regular updates and mandatory e-Learning modules on the Code of Conduct. The Group also conducts regular stakeholder engagements to record concerns and communicate information about its activities. The AntiHarassment Policy, established in 2022, provides guidelines for preventing and addressing workplace violence and harassment.
+<!-- Report Page 250 -->
 
 In addition, contracts and purchase orders for materials and services incorporate a "clause of compliance" of our suppliers with the principles of the UN Global Compact. [ESRS S1-1-22]
 
@@ -7822,6 +7963,7 @@ To summarize, The Group is highly committed to upholding human rights in accorda
 
 · The Group integrates grievance mechanisms, which include structured processes for receiving, addressing, and resolving grievances. For instance, these mechanisms enable stakeholders to submit concerns through designated email addresses or online forms ensuring accessibility and confidentiality. For external stakeholders such as business partners, customers, and communities, the Group provides accessible grievance channels such as direct email contacts, online contact forms, telephone, and fax, available on the Group's website:
 
+<!-- Report Page 251 -->
 · Contact Point for Investor Relations
 
 · Contact Point for Sustainable Development
@@ -7856,6 +7998,7 @@ Scheduled meetings and dialogue sessions with employees create opportunities for
 
 Due to the Occupational Risk Management and the comprehensive understanding of the factors affecting the identified material impacts for the working conditions, non particular group has been identified as vulnerable to impacts. [ESRS S1-2-28]
 
+<!-- Report Page 252 -->
 ### S1-3 - Processes to Remediate Negative Impacts and Channels for Own Workforce to Raise Concerns
 
 Complaints mechanisms according to internal procedure of the companies of the Group 'Reporting and investigation of health, safety and environmental incidents' are clearly identified, as well as the process of recording, reporting, evaluating, monitoring and controlling health, safety and environmental incidents. There were zero complaints reported in 2024 regarding health and safety issues. In case there is a complaint, the Group follows the official procedure for resolution.
@@ -7870,6 +8013,7 @@ At the same time, measures to protect individuals who report or disclose informa
 
 The results of each feedback of the above engagement methods are also a useful source for assessing that people in its own workforce are aware of, and trust, these structures, or processes as a way to raise their concerns or needs and have them addressed. [ESRS S1-3-33]
 
+<!-- Report Page 253 -->
 #### S1-4 - Taking Action on Material Impacts on Own Workforce and Approaches to Managing Material Risks and Pursuing Material Opportunities Related to Own Workforce and Effectiveness of those Actions
 
 The health and safety of the Group's employees is at the top of its priorities. The Group implements various training methods and procedures in order to address any material impact, risk and opportunity related to its own workforce. In this regard, it implements training sessions aimed at further strengthening and embedding the safety culture, jointly across all Group facilities. To this end, it implements a common basic training process (fire safety, rescue techniques, first aid, etc.) and organizes leadership seminars at all levels of the hierarchy. The training is also extended to those employed through external partners, customers, transporters, and service stations. Specifically, those employed through external partners attend mandatory training by Safety Engineers and then sit written examinations at accredited training centers (KEK), as only successful candidates can work in the Group's industrial facilities. In addition, guests are informed through printed and audiovisual material about the safety instructions of the respective facility. Moreover, the Group initiated in 2024, safety reviews of H&S systems across facilities in Greece, aligning with best practices, and are expected to be completed in 2025. These reviews aim to evaluate improvements in health and safety systems and employees' safety culture following previous actions, including gap analyses and enhanced outcomes. [ESRS S1-4-37]
@@ -7886,6 +8030,7 @@ The process through which HELLENIQ ENERGY identifies what action is needed and a
 
 the root cause and the severity of the issue. Following the investigation's findings, the Group formulates and executes targeted action plans aimed at mitigating the identified risks. [ESRS S1-4-39]
 
+<!-- Report Page 254 -->
 #### Addressing Material Risks and Opportunities
 
 ##### (a) Mitigating Material Risks:
@@ -7912,6 +8057,7 @@ The Group places a high priority on Occupational Risk Management. The Group's ce
 
 These all-encompassing actions not only reduces the possibility of mishaps but also cultivates a safety culture within the company. The Group maintains high standards of operational excellence while protecting the health of its employees by taking proactive measures. [ESRS S1-4-41]
 
+<!-- Report Page 255 -->
 ##### Allocation of Resources for Managing Material Impacts
 
 In 2024, HELLENIQ ENERGY allocated around €22.4 million to safety improvement projects across all its facilities, both in Greece and internationally. This amount reflects the company's commitment to enhancing workplace safety, the maintenance and procurement of safety tools and equipment, or essential firefighting materials and other consumables. These efforts demonstrate a holistic approach to safeguarding employees and operations. [ESRS S1-4-43]
@@ -7950,6 +8096,7 @@ As the health and safety targets of zero major industrial accidents and fataliti
 
 Based on the KPIs performance, the Group proceeds in necessary improvements if needed. Specifically, through the engagement with employees and the health and safety committees, helpful feedback is provided and discussed, and proposed solutions are incorporated into the decision-making process. This ensures that any lessons learned or areas for improvement are identified and addressed promptly, contributing to the continuous improvement of health and safety practices within the Group. [ESRS S1-5-47-(a)-(b)-(c)]
 
+<!-- Report Page 256 -->
 ### S1-6 - Characteristics of HELLENIQ ENERGY employees
 
 #### Dedicated to supporting and investing in our Workforce
@@ -7968,6 +8115,7 @@ By applying an integrated human resources development and management system, it 
 
 HELLENIQ ENERGY has created a corporate culture and a working environment characterized by high commitment and loyalty between employees and the Group.
 
+<!-- Report Page 257 -->
 #### Our People Insights
 
 ##### Own Workforce
@@ -8042,6 +8190,7 @@ The number of employees for 2024 is reported in head count and concerns the numb
 
 The total number of employees by headcount is mentioned in the Financial Statements in A.5 - Group Business Review, a) Financial Highlights. [ESRS S1-6-50-(f)]
 
+<!-- Report Page 258 -->
 ## S1-7 - Characteristics of Non-Employee Workers in HELLENIQ ENERGY's Own Workforce
 
 ### Non- Employee Workforce
@@ -8117,6 +8266,7 @@ The percentage of employees covered by collective bargaining agreements in the R
 
 #### Social Dialogue
 
+<!-- Report Page 259 -->
 ##### Representation by Worker's Representatives:
 
 The percentage of employees covered by workers' representatives in Greece is 80%, which is the only EEA country where the Group has significant employment. [ESRS S1-8-63-(a)]
@@ -8194,6 +8344,7 @@ All Group employees are covered by social protection, through public programs or
 
 for the company, employment injury and acquired disability, parental leave, and retirement. [ESRS S1-11-74-(a), (b), (c), (d), (e)]
 
+<!-- Report Page 260 -->
 #### S1-12 - Persons with Disabilities
 
 In the Group's workforce there are 13 individuals with disabilities, ensuring that they are provided with equal opportunities in both employment and training. This commitment reflects the Group's inclusive approach, aiming to create a supportive and equitable workplace for all employees. In 2024, the percentage of persons with disabilities is 0.3%. [ESRS S1-12-79]
@@ -8239,6 +8390,7 @@ Group employs persons with disabilities according to legal definitions of person
 
 The Group provides all employees with equal training opportunities per specialty. However, in industrial facilities, where more men are employed, the average training hours are slightly higher due to the nature of the work and the associated requirements.
 
+<!-- Report Page 261 -->
 ##### S1-14 - Health and Safety Metrics
 
 <table>
@@ -8272,6 +8424,7 @@ The Group provides all employees with equal training opportunities per specialty
 </tr>
 <tr>
 <td>Number of recordable work-related accidents for own workforce (n)</td>
+<!-- Report Page 262 -->
 <td>15</td>
 <td>2</td>
 <td>1</td>
@@ -8306,6 +8459,7 @@ In addition, the Process Safety Event Rate (PSER) - which is the key indicator o
 
 The following charts show the evolution of the most important indicators of the Group (HELPE R.S.S.O.P.P. & EKO14) compared to the corresponding CONCAWE15 indicators for the last 6 years. The data presented below encompasses all employees and external partners, as defined by the CONCAWE.
 
+<!-- Report Page 263 -->
 #### S1-15 - Work-Life Balance Metrics
 
 All employees (100%), regardless of gender, are entitled to take family-related leave. The family related leave categories include maternity leave, paternity leave, parental leave and carer's leave from work. In 2024, 10% of the Group employees made use of family related leave. The table below shows the relevant data by gender for 2024. [ESRS S1-15-94]
@@ -8342,12 +8496,14 @@ The Group does not follow any kind of differentiation between men and women in t
 
 HELLENIQ ENERGY has established, maintains, and implements a Remuneration Policy for the members of the Board of Directors, which is aligned with its business strategy, goals, and sustainability. The Policy was approved by a resolution of the Extraordinary General Meeting of HELLENIQ ENERGY's Shareholders dated 20 December 2019 and was amended by a resolution of the Ordinary General Meeting of Shareholders on 30 June 2021. The Remuneration Policy outlines the framework for total annual gross remuneration and how it is allocated between fixed and variable components. Under this framework, individual performance, and executive contribution to achieving the Group's objectives are linked to variable remuneration and thereby influence the overall level of remuneration. In addition, to ensure transparency and meritocracy, the Remuneration Policy sets predefined measurable quantitative and qualitative targets and criteria, established in accordance with HELLENIQ ENERGY's Remuneration Policy for Executives. [ESRS S1-16-97-(c)]
 
+<!-- Report Page 264 -->
 #### S1-17 - Incidents, Complaints and Severe Human Rights Impacts
 
 ##### Work-Related Incidents and Complaints & Severe Human Rights Incidents
 
 In 2024, HELLENIQ ENERGY demonstrated its strong commitment to ethical practices and respect for human rights across its operations. There were no reported incidents of discrimination, including harassment, within the Group's companies during the year. Zero (0) complaints were filed through internal channels, grievance mechanisms available for employees to raise concerns, and zero (0) additional complaints were submitted to National Contact Points for OECD Multinational Enterprises. In addition, no identified cases of severe human rights incidents (e.g., forced labor, human trafficking, or child labor) have been reported. No penalties or fines or compensation for damages were imposed as a result of identified incidents or complaints related to incidents of discrimination, harassment and severe human rights incidents. These results reflect the Group's ongoing dedication to fostering a respectful and inclusive work environment. [ESRS S1-17-103-(a), (b), (c), (d), (e)] [ESRS S1-17-104-(a), (b)]
 
+<!-- Report Page 265 -->
 ## ESRS S3 - Affected Communities
 
 ### Strategy
@@ -8392,6 +8548,7 @@ Programs are designed on a region-by-region basis, based on the outcome of an op
 
 According to the Double Materiality Assessment, no material negative impacts on affected communities have been identified, given that the economic impact pertains exclusively to positive impacts. Also, no risks and opportunities arising from impacts and dependencies on affected communities have been identified. [ESRS S3-ESRS 2 SBM-3-10-11]
 
+<!-- Report Page 266 -->
 ## Impact, Risk and Opportunity Management
 
 ### S3-1 - Policies Related to Affected Communities
@@ -8418,6 +8575,7 @@ Partners are selected and assessed for inclusion in the Group's list of supplier
 
 The Group's policies with regard to affected communities commit to adhering to internationally accepted standards, such as the United Nations' Sustainable Development Goals, the European Green Deal, and other relevant environmental and social frameworks. In addition, no cases have been reported on non-respect of the UN Guiding Principles on Business and Human Rights, ILO Declaration on Fundamental Principles and Rights at Work or OECD Guidelines for Multinational Enterprises that involve affected communities have been reported in its own operations or in its upstream and downstream value chain. [ESRS S3-1-17]
 
+<!-- Report Page 267 -->
 ### S3-2 - Processes for Engaging with Affected Communities about Impacts
 
 We define a Group stakeholder as those entities or individuals who may be significantly affected by our activities, or who may affect our ability to implement our business strategy and/or achieve our objectives.
@@ -8434,6 +8592,7 @@ The most senior role with operational responsibility for this engagement is the 
 
 Before making decisions, the Group organizes workshops and distributes surveys to gather input directly from the community. The stakeholder engagement workshops held in 2024 gathered feedback on how effectively HELLENIQ ENERGY engages with the community. It also holds regular meetings to share updates on initiative progress and provides opportunities for open dialogue. Direct engagement is prioritized by involving affected community members, including small business owners and vulnerable groups. Additionally, HELLENiQ ENERGY is in the process of implementing a dedicated hotline and online platform to enable continuous feedback, which will be available in the near future. [ESRS S3-2-21-(d)]
 
+<!-- Report Page 268 -->
 In the context of promoting social well-being and positive impact on society, HELLENiQ ENERGY continued faithfully its vision of contributing to society with actions, activities and initiatives. It builds community trust through initiatives that improve the quality of life of vulnerable social groups, advance education, support sports, provide relief to communities which face emergencies situations, enhance public health and protect the environment. Additionally, HELLENIQ ENERGY focuses on fostering a supportive and inclusive workplace culture by actively involving employees and empowering them to become ambassadors of its CSR programs. Furthermore, HELLENIQ ENERGY leverages sponsorships in the marketplace to strengthen consumer trust, acknowledging that its stakeholders are essential in driving social change and enhancing the impact of Group's initiatives.
 
 In 2024, HELLENIQ ENERGY maintained its focus on rewarding excellence and fostering youth development. This year, 20 scholarships were awarded for postgraduate studies at renowned universities in Greece and internationally, supporting academic advancement and innovation. Additionally, the program celebrated its 16th year by honoring 295 outstanding graduates from General and Vocational High Schools in the neighboring municipalities of Thriasio, West Thessaloniki, and Kozani. Especially this year, emergency support was also given to 429 excellent graduates from the region of Thessaly, which is suffering from the consequences of the floods of September 2023. Alongside, the "Earth 2030 Educational Suitcase" program travelled to schools and camps across Greece, educating and raising awareness about the UN Sustainable Development Goals among 9,555 students.
@@ -8450,6 +8609,7 @@ As an active member of the local communities in which it operates and with a ste
 
 Also in 2024, 365 employees from 6 countries took part in the 41st Athens Marathon and the 18th Thessaloniki International Marathon "Alexander the Great". Rewarding the participation of employee volunteers, as part of the Group's responsibility towards society and its people, the Group supported the work of the "Make a Wish" Greece, contributing to the realization of 3 wishes of children with serious illnesses, from the neighboring areas where the Group operates.
 
+<!-- Report Page 269 -->
 Building on its ongoing commitment to social welfare, HELLENIQ ENERGY has provided food and vital goods to vulnerable communities, by supporting social grocery stores, institutions, and food establishments across Thriasio, West Thessaloniki, and Kozani. In 2024, the company continued to prioritize community support, planning further initiatives to address emerging social challenges, strengthen partnerships, and expand its contributions to local welfare efforts.
 
 HELLENIQ ENERGY actively supports public health protection as part of its commitment to social responsibility. During the period June - December 2024, the Group, through its subsidiary EKO, covered the motor fuels of the vehicles of the Mobile Health Units (KOMY) of the National Public Health Organization (NPHO) that provide nursing services to vulnerable population groups as well as in critical periods of threats to Public Health. It is worth mentioning that KOMY vehicles, from 2020 until today, have evolved into a critical tool for the protection and promotion of Public Health. Additionally, at the local level, the Group has always supported the General Hospital of Elefsina "Thriasio". In 2024, it offered for yet another year a prefabricated building to house health services, thus enhancing the hospital's operational capabilities.
@@ -8466,6 +8626,7 @@ As mentioned above, HELLENIQ ENERGY does not operate in areas adjacent to indige
 
 The active support of society through actions and initiatives that improve everyday life and contribute to social progress and well-being, are an integral part of the HELLENIQ ENERGY 's corporate philosophy. It is worth noting that the Group's business activity is inextricably linked to the local communities in which it operates, and which supports substantially and in the long term with social programs that create value and respond to the needs of Greek society. For this reason, investing in and linking with the local communities in which the Group operates is one of its priorities and one of the essential issues on its path towards Sustainable Development.
 
+<!-- Report Page 270 -->
 ### S3-3 - Processes to Remediate Negative Impacts and Channels for Affected Communities to Raise Concerns
 
 According to the Double Materiality Assessment results, no material negative impacts on affected communities (economic impact concerns positive impacts) have been identified. [ESRS S3-3-28]
@@ -8492,6 +8653,7 @@ No severe human rights issues and incidents connected to affected communities ha
 
 In 2024, total investments in corporate responsibility actions in Greece and internationally amounted to €10.4 million, benefiting approximately more than 2,000,000 individuals. Actions are designed by thematic category and implemented at national and local level, highlighting the breadth of the Group's commitment to society. [ESRS S3-4-38]
 
+<!-- Report Page 271 -->
 ## Metrics and Targets
 
 ### S3-5 - Targets Related to Managing Material Negative Impacts, Advancing Positive Impacts and Managing Material Risks and Opportunities
@@ -8499,6 +8661,7 @@ In 2024, total investments in corporate responsibility actions in Greece and int
 #### 2024 Sustainability Targets:
 
 HELLENIQ ENERGY has established the target of > 1.5 million beneficiaries from 2024 until 2026, at a local and national level. [ESRS S3-5-41]
+<!-- Report Page 272 -->
 
 Apart from the financial metrics presented in financial statement, the key metrics used for monitoring and presenting the Group's positive impact to society (according to DMA) are the number of beneficiaries, as
 
@@ -8506,6 +8669,7 @@ mentioned above (more than 2 mil. beneficiaries in 2024) and the amount spent on
 
 This objective, related to affected communities, was formulated through a structured process that incorporates relevant IROs from the DMA. Informed by stakeholder engagement insights and with the intention of creating shared value for the affected communities, the Group has set this target. Considering the sentiments of the local affected communities, the Corporate Social Responsibility (CSR) Division implemented several initiatives during the reporting period. These actions were designed to address the genuine needs of local communities, with a focus on enhancing sustainability and overall well-being. Through these targeted efforts, the Group made a significant contribution to improving the quality of life, education, infrastructure to protect from severe weather events, and support for several social groups, including vulnerable women. With robust monitoring and reporting systems in place: the Group collects and processes data from the subsidiaries in Greece and abroad. The results are included in the Social and Economic Impact Study that is conducted by the Foundation for Economic and Industrial Research (IOBE) every year and are presented to senior management. In addition, the Sustainability Committee diligently tracks the progress of all the established sustainability targets. Based on the results, the Committee makes necessary adjustments to ensure adherence to the plan ensuring the effective management of all related impacts on affected communities. Additionally, the Board of Directors maintains oversight of the target's progress, thereby ensuring comprehensive governance and accountability. [ESRS S3-5-42-(a), (b), (c)]
 
+<!-- Report Page 273 -->
 ## ESRS S4 - Consumers and End-Users
 
 ### Strategy
@@ -8520,6 +8684,7 @@ The Group adheres to the best operating practices for the safe handling of produ
 
 · Technical information is provided, and only products that fully comply with the required specifications are placed on the market.. Only responsible and correct use of the products is supported, in accordance with their comprehensive Safety Data Sheets.. Product handling instructions are considered and recommended for customers to follow, with all products being monitored for any issues encountered by end-users, to identify any need for modifications.. Reliable partners who manage the Group's products in a responsible and ethical manner are sought.. The fundamental principles of the European REACH (Registration, Evaluation, Authorization, and Restriction of Chemicals) and CLP (Classification, Labelling, and Packaging) Regulations for the protection of human health and the environment are strictly observed, ensuring effective management of chemicals.
 
+<!-- Report Page 274 -->
 Furthermore, in all its production, storage and handling facilities, HELLENIQ ENERGY implements certified Quality, Occupational Health and Safety, Environmental and Energy Management Systems. These Management Systems are evaluated annually to ensure a high level of performance for stakeholders.
 
 The increasing demand for new products and services, such as biofuels and renewable energy sources (RES), highlights the Group's pivotal role in addressing evolving consumer needs for sustainable energy solutions. HELLENIQ ENERGY continuously monitors developments and actively contributes to promoting sustainable mobility by supporting actions that aim to change the technological structure and fuel mix of transport vehicles, facilitating the transition to a low-carbon economy. This approach not only aids in achieving climate change
@@ -8533,6 +8698,7 @@ Through its subsidiary EKO, the Group contributes to the overall reduction of CO
 The potential for new revenue streams in e-mobility, arising from the positive impact, reflects both the Group's responsiveness to consumer preferences for cleaner transportation options and its ability to capitalize on emerging market trends. [ESRS S4-ESRS 2 SMB 3-9]
 
 Electric vehicle (EV) charging services are provided by Elpe Future, a subsidiary of the Group, which, among other services, operates fast EV chargers at EKO and bp stations on motorways.
+<!-- Report Page 275 -->
 
 The renewable energy generated by the solar panels installed at an increasing number of EKO and bp fuel stations (Net Zero Energy Network) and consumed simultaneously by the EV chargers, transforms the EV charging service into a low-carbon service, thus contributing to the decarbonization of transport and the gradual reduction of the country's reliance on fossil fuels.
 
@@ -8546,6 +8712,7 @@ OKTA's commitment to being a responsible corporate citizen is further demonstrat
 
 In 2024, the company maintained its stable growth reaching 99 outlets by opening two new petrol stations and renovating 17 sites throughout the year, enhancing customer experience. EKO expanded its range of products and services by introducing new concepts, such as two new supermarkets with larger assortments, and launching additional Care Wash installations at petrol stations, including tunnel and jet wash facilities, bringing the total to 18 car wash facilities. Additionally, EKO implemented 6 photovoltaic installations at its sites, 3 of which specifically catered to the petrol stations' own energy needs.
 
+<!-- Report Page 276 -->
 The Smile loyalty program remained a priority for the company in 2024, with the introduction of new functionalities and enhancements. Regular promotions and campaigns were conducted throughout the year, offering added value to customers.
 
 The company also invested in motorsport support in the country by continuing its fruitful partnership with its brand ambassador, Martin Choy, a motorcycle athlete with an impressive record of 33 championship titles. EKO has proudly sponsored Martin for 14 consecutive years, reinforcing its commitment to promoting sports in Bulgaria. Additionally, EKO supported the karting endurance championships, further demonstrating its dedication to fostering a vibrant motorsports culture.
@@ -8560,6 +8727,7 @@ According to the results of the DMA, no material negative impacts on consumers a
 
 Moreover, there are no consumers and/ or end-users of services that potentially negatively impact their rights to privacy, personal data protection, freedom of expression and non-discrimination, as well as consumers and/ or end-users who are particularly vulnerable to health or privacy impacts or impacts from marketing and sales strategies, such as children or financially vulnerable individuals. [ESRS S4-ESRS 2 SMB 3-10-11-12]
 
+<!-- Report Page 277 -->
 ## Impact, Risk and Opportunity Management
 
 ### S4-1 - Policies Related to Consumers and End-Users
@@ -8590,6 +8758,7 @@ Communication with customers is executed through the implementation of a well-st
 
 Call center services were made available to facilitate direct communication and provide prompt information to customers. The quality of fuels was assured through the continuation of the Guarantee program in collaboration with the certified laboratory Bulgarkontrola. In 2024, the company provided Bulgarkontrola with a new fully branded bus, and conducted over 2,200 checks across the entire network, both on-site and in the laboratory.
 
+<!-- Report Page 278 -->
 EKO Bulgaria's commitment to being a responsible corporate citizen was reaffirmed by its CSR policy, which prioritized road safety and giving back to the society. In 2024, the company continued its patronage of the Pravets and Vidrare protected homes for disabled individuals, with the roof of the Vidrare home being renovated. Employees engaged in various activities with residents throughout the year, particularly during Easter and Christmas. Additionally, EKO Bulgaria maintained its road safety awareness campaign "Call When You Arrive," leveraging social media and Viber channels to reach a broader audience and strengthen the Viber channel community.
 
 ### JUGOPETROL
@@ -8620,6 +8789,7 @@ These comprehensive efforts highlight the company's leadership in sustainability
 
 The operational responsibility for ensuring effective engagement with consumers and end-users lies with the Retail Marketing Division and Responsible Sales Divisions. [ESRS S4-2-20-(c)]
 
+<!-- Report Page 279 -->
 ### Indicative results of surveys measuring customer satisfaction
 
 The indicative results of surveys measuring customer satisfaction provide valuable insights into how well a product, service, or company meets the expectations of its customers. For this reason, HELLENiQ ENERGY places great emphasis on the following surveys, as they are key to measuring customer satisfaction, understanding their needs, and improving the overall customer experience.
@@ -8646,6 +8816,7 @@ According to the findings of the Mystery Motorist survey, in the year 2024, the 
 
 Also, in 2024, OKTA's performance in the market remained constant achieving:. 93% total Brand Awareness vs 94% in 2023
 
+<!-- Report Page 280 -->
 · 83% spontaneous awareness like in 2023
 
 · 12% Top of Mind like in 2023
@@ -8663,6 +8834,7 @@ Market surveys results - EKO brand total awareness 90%, Top of mind 3%, Main cho
 
 There is no distinction between vulnerable or marginalized consumers and others. As such, all customers' perspectives are considered equally. [ESRS S4-2-21]
 
+<!-- Report Page 281 -->
 #### S4-3 - Processes to Remediate Negative Impacts and Channels for Consumers and End-Users to Raise Concerns
 
 According to the DMA results, no material negative impacts have been identified. However, there is a grievance mechanism for any stakeholder - employee, supplier, customer, local community resident, etc. - to address any incidents of negative impacts from HELLENIQ ENERGY's operations.
@@ -8695,6 +8867,7 @@ The program is designed to meticulously evaluate the services rendered, the qual
 
 across nine domains of the service station, including the forecourt and equipment, service quality, security measures, shop conditions, staff uniforms, restroom facilities, and promotional activities. In 2024, a total of 4,539 inspections of fuel stations were conducted throughout Greece. Each service station undergoes evaluation by a covert inspector between four to twelve times annually. The findings from these inspections are published monthly on an electronic platform, which is accessible to all sales executives and service station managers. This platform enables monitoring of the progress of results at fuel stations over time, as well as various other indicators that are instrumental for the enhancement and development of the network's services. The ultimate objective is to elevate customer service standards and meet customer expectations more effectively.
 
+<!-- Report Page 282 -->
 ### "Everyday, brighter" at bp fuel stations
 
 In alignment with the "Everyday, Brighter" strategy, continuous investments are made in the enhancement of consumer experiences at service stations, transforming each interaction into a pleasant and memorable encounter. The focus is on illuminating the consumer's most positive moments through various initiatives. This objective is realized by maintaining well-lit Bright Green Beacon fuel stations, ensuring easy accessibility, upholding cleanliness across all areas of the station, providing exemplary service from employees, delivering superior fuel quality, and ensuring safety during refueling and transactions. Furthermore, the official sponsorships of bp on a global scale with the BWT Alpine F1® Team significantly augment the consumer experience. Through prominent contests, consumers are afforded the opportunity to participate in unique experiences, such as visiting the BWT Alpine F1® Team factory and driving racing cars. These experiences foster a robust connection with the bp brand, allowing consumers to appreciate the superior quality of the products and their significant impact on major events.
@@ -8713,6 +8886,7 @@ During 2024, EKO announced a strategic partnership in loyalty with AEGEAN, offer
 
 Additionally, new affiliations with premium car dealerships provided exclusive and unique benefits through the EKO Exclusive VIP Club to luxury car owners. This initiative has created a new realm of privileges and benefits for the loyal customers of EKO Smile.
 
+<!-- Report Page 283 -->
 ### BPme Reward Program
 
 The BPme Rewards Program was launched in 2024 to provide imediate benefits for customers during their everyday transactions, ensuring high-quality and efficient service while creating a personalized experience at bp stations. This innovative program is designed to reward customers for their routine purchases, enhancing their overall experience with bp.
@@ -8744,6 +8918,7 @@ It should be noted that no actual impacts that require to provide for or enable 
 compensation and in cases for Health & Safety issues, there has to be a legal judgement to provide compensation. All other issues regarding consumers and end-users are being addressed by the Marketing division. [ESRS S4-4-31- (a), (b), (c)]
 
 HELLENIQ tracks and monitors issues raised and addressed through a feedback system, including regular surveys. In 2024 the call center answered 41,692 calls. The Group evaluates the effectiveness of its channels by gathering input from stakeholders, who are the intended users of them. [ESRS S4-4-31-(d)]
+<!-- Report Page 284 -->
 
 Digital Transformation represents a pivotal strategic priority for HELLENIQ ENERGY in its pursuit of sustainable growth, yielding substantial benefits at the business level and exerting a positive influence on stakeholders and society. This initiative notably enhances corporate performance in both the short and long term by augmenting turnover and profitability, elevating the skill set of the workforce, and reducing operating costs. These reductions are achieved through improved productivity and operational flexibility, the implementation of new digital tools and methodologies, heightened quality and efficiency of corporate operations, accelerated commercial responsiveness, and a personalized customer experience.
 
@@ -8775,6 +8950,7 @@ The fuel stations' personnel are trained thoroughly, among other topics, in cust
 
 No severe human rights issues and incidents connected to Group's consumers and/or end-users have been reported during 2024. [ESRS S4-4-34-35-37]
 
+<!-- Report Page 285 -->
 ## Metrics and Targets
 
 ### S4-5 - Targets Related to Managing Material Negative Impacts, Advancing Positive Impacts and Managing Material Risks and Opportunities
@@ -8787,6 +8963,7 @@ Another metric which is used is the number of products analyses per year. In 202
 
 The time-bound and outcome-oriented targets related to advancing positive impacts and managing material opportunities, are:
 
+<!-- Report Page 286 -->
 ~5,000 Electric vehicle charging points (n) at EKO/bp stations and publicly accessible charging points by 2030 (base year: 2023 and base value: 162)
 
 \>140 kta Production of sustainable fuels (biodiesel production plant through cooking oil reuse (UCO) at the Thessaloniki refinery and development of a new stand-alone SAF production plant at the Aspropyrgos refinery) by 2030 (base year: 2023 and base value: 0)
@@ -8799,6 +8976,7 @@ several departments such as the Elpe Future Division and the responsible Sales D
 
 Tel.: +30 210 2886 000 ey.com
 
+<!-- Report Page 287 -->
 ### Independent Practitioner's Limited Assurance Report on HELLENIQ ENERGY Holdings S.A. Sustainability Statement
 
 #### To the shareholders of HELLENIQ Energy Holdings S.A.
@@ -8821,6 +8999,7 @@ The procedures in a limited assurance engagement vary in nature and timing from,
 
 Our responsibilities are further described in the "Practitioner's Responsibilities" section.
 
+<!-- Report Page 288 -->
 #### Professional Ethics and Quality Management
 
 We are independent from the Company and its consolidated subsidiaries, throughout this work and have complied with the requirements of the Code of Ethics for Professional Accountants issued by the International Ethics Standards Board for Accountants (IAS Code), the ethics and independence requirements of L.4449/2017 and EU Regulation 537/2014.
@@ -8857,6 +9036,7 @@ Tel.: +30 210 2886 000 ey.com
 
 The Company's Audit Committee is responsible for supervising the drafting process of the Company's Sustainability Statement.
 
+<!-- Report Page 289 -->
 #### Inherent limitations in preparing the Sustainability Statement
 
 In reporting forward-looking information in accordance with ESRS, the Company's Management is required to prepare the forward-looking information on the basis of disclosed assumptions, about events that may occur in the future and possible future actions by the Group. The actual outcome is likely to be different since anticipated events frequently do not occur, as expected.
@@ -8887,6 +9067,7 @@ Tel.: +30 210 2886 000 ey.com
 
 · Designing and carrying out procedures related to those disclosures of the consolidated Sustainability Statement, in which a material error is likely to occur. The risk of not detecting a material misstatement arising from fraud is higher than that arising from error, as fraud may involve collusion, forgery, intentional omissions, misrepresentations or the circumvention of internal control barriers.
 
+<!-- Report Page 290 -->
 #### Scope of Work Performed
 
 Our work includes performing procedures and obtaining assurance evidence for the purpose of deriving a limited assurance conclusion and covers only the limited assurance procedures provided for in the limited assurance program issued by ELTE's decision 23.01.2025 (hereinafter "Program"), as it was formed for the purpose of issuing a limited assurance report on the Group's Sustainability Statement.
@@ -8906,3 +9087,4 @@ Distinctive title: ERNST & YOUNG
 Registered seat: Chimarras 8B, Maroussi, 15125
 
 General Commercial Registry No: 000710901000
+<!-- Report Page 291 -->

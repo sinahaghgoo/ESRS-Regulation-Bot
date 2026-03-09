@@ -1,3 +1,4 @@
+<!-- Report Page 58 -->
 # SUSTAINABILITY STATEMENT
 
 <table>
@@ -61,6 +62,7 @@
 </tr>
 </table>
 
+<!-- Report Page 60 -->
 ## 1 General disclosures [ESRS 2]
 
 ### Basis for Preparation
@@ -126,6 +128,7 @@
 </tr>
 </table>
 
+<!-- Report Page 62 -->
 ## 1 GENERAL DISCLOSURES [ESRS 2]
 
 ### 1.1 General basis for preparation of sustainability statements [BP-1]
@@ -194,6 +197,7 @@ This Statement has been prepared in accordance with Laws 4403/2016 and 4548/2018
 
 #### 1.3 Governance
 
+<!-- Report Page 64 -->
 The following information can be found in the Corporate Governance Statement 2024:
 
 1\. A detailed description of the role of the BoD and its committees (Audit Committee, Remuneration Committee and Nominations Committee).
@@ -280,6 +284,7 @@ The Chief Executive Officer (CEO) and Deputy CEOs are the highest-ranking execut
 
 The General Managers, reporting to the CEO and Deputy CEOs are responsible for executing the Group's strategy across operations and business activities, including the integration of sustainability.
 
+<!-- Report Page 66 -->
 #### Administrative bodies
 
 The Chief Sustainability Officer (CSO) leads the overall sustainability agenda and reports directly to executive leadership and the Sustainability Committee. The CSO works in close coordination with the Sustainability Committee to ensure ESG strategy aligns with the Group's overall business objectives and regulatory expectations. This role ensures that the group's ESG strategy is effectively translated into practice across all levels.
@@ -304,6 +309,7 @@ Working Groups coordinated by the Sustainability division play a pivotal role in
 
 Sustainability Representatives are appointed within each Group subsidiary or business unit to act as key intermediaries between local operations and the central Sustainability Division. This role will be enhanced to lead the implementation of ESG initiatives at the local level, collect and report data using the Group's ESG tool and ensure alignment with the Group's overall sustainability strategy and compliance obligations. They will manage local ESG activities, monitor performance and report progress to the central team.
 
+<!-- Report Page 68 -->
 ##### 1.3.2 Information provided to and Sustainability Matters addressed by the undertakings' Administrative, Management and Supervisory Bodies [GOV-2]
 
 The organizational structure of the Group reflects a clear allocation of sustainability responsibilities across supervisory, management and administrative bodies, ensuring that material impacts, risks and opportunities (IROs) are systematically addressed throughout strategic planning, risk management and operational execution.
@@ -336,6 +342,7 @@ Given the high volume and diversity of topics, these material impacts, risks and
 
 These material IROs were reviewed and addressed as follows:. Supervisory Body (Board of Directors & Sustainability Committee): Oversaw the strategic implications of the identified IROs, particularly those with potential financial consequences. The BoD reviewed risks that could impact financial performance, cash flows and access to capital and ensured appropriate mitigation strategies were incorporated into business planning and investment decisions.. Management Body (Senior Management): Evaluated and monitored the integration of these material IROs into the Group's sustainability strategy and targets. The senior management also guided the implementation of ESG risk mitigation actions, including scenario planning for climate-related impacts and opportunities.. Administrative Bodies (Sustainability Division, Risk Management Unit, Compliance Unit): Collected, assessed and tracked performance related to material IROs. These teams played a key role in operationalizing the due diligence process, populating the ESG tool with relevant data, updating the ESG risk register and advising on both negative financial impacts and positive opportunities.
 
+<!-- Report Page 70 -->
 ##### 1.3.3 Integration of Sustainability-related Performance in Incentive Schemes [GOV-3]
 
 The Remuneration Committee of MOTOR OIL Group, composed of three non-Executive Directors (two of whom are independent), oversees the Group's remuneration policy, which links executive compensation to both financial and non-financial performance criteria, including sustainability factors such as climate change and Health & Safety.
@@ -383,6 +390,7 @@ MOTOR OIL Group also leverages its due diligence framework to enhance stakeholde
 <table>
 <tr>
 <th></th>
+<!-- Report Page 72 -->
 <th>Core Elements of Due Diligence</th>
 <th>Sections in the Sustainability Statement</th>
 </tr>
@@ -465,6 +473,7 @@ Regarding Sustainability Reporting, including the double materiality assessment,
 <tr>
 <th>RISK</th>
 <th>CONTROL-A</th>
+<!-- Report Page 74 -->
 <th>CONTROL A DESCRIPTION</th>
 <th>CONTROL-B</th>
 <th>CONTROL-B DESCRIPTION</th>
@@ -612,6 +621,7 @@ Reporting obligations of the Sustainability division: As mentioned earlier, the 
 
 ## 1.4 Strategy
 
+<!-- Report Page 76 -->
 ### 1.4.1 Strategy, Business Model and Value Chain [SBM-1]
 
 MOTOR OIL Group is a diversified energy group comprising over 188 companies with a combined turnover of €12.2 billion, a workforce of more than 3,332 employees (incl. Associate companies) and a network of over 1,500 fuels stations across Greece, Cyprus and the Western Balkans. The Group's principal activities include oil refining and marketing of petroleum products both domestically and internationally, power generation across conventional and renewable energy sources and a diversified portfolio of circular activities.
@@ -635,6 +645,7 @@ MOTOR OIL Group ensures that the Group constantly evolves in order, to be in a p
 <tr>
 <th>FUELS</th>
 <th>ELECTRIFICATION</th>
+<!-- Report Page 78 -->
 <th>CIRCULAR ECONOMY</th>
 </tr>
 <tr>
@@ -694,6 +705,7 @@ The Group is committed to:. Unwavering focus on strong execution targeting opera
 
 <table>
 <tr>
+<!-- Report Page 80 -->
 <th>Retail Network Highlights</th>
 <th>Network Breakdown GREECE</th>
 </tr>
@@ -751,6 +763,7 @@ The consumption and use phase involve the utilization of the final products by c
 
 
 
+<!-- Report Page 82 -->
 ##### Main Features of Upstream and Downstream Value Chain
 
 The upstream value chain of MOTOR OIL Group encompasses the supply of raw materials, resource utilization and logistics. Key components include:. Sourcing crude oil, feedstock and essential chemicals required for refining processes. Optimizing the use of electricity, water and natural gas to enhance efficiency in production operations
@@ -945,6 +958,7 @@ This transformation has produced tangible outputs and outcomes that deliver sust
 <th>Capital Type</th>
 <th colspan="2">Key Inputs</th>
 <th colspan="2">Key Outputs</th>
+<!-- Report Page 84 -->
 <th>OUTCOMES (Stakeholder Benefits)</th>
 </tr>
 <tr>
@@ -1127,6 +1141,7 @@ MOTOR OIL Group Sustainability Policy serves as the foundation of its sustainabi
 </tr>
 <tr>
 <td>ecovadis</td>
+<!-- Report Page 86 -->
 <td>Silver medal (top 15%)</td>
 </tr>
 <tr>
@@ -1183,6 +1198,7 @@ With these initiatives, the Group emphasizes on providing high customer experien
 
 
 
+<!-- Report Page 88 -->
 ### Expansion in Renewable Energy
 
 As a response to society's increasing demand for cleaner energy, the Group has established itself as one of the largest renewable energy producers in Greece and the broader region.. Over the past four years, MOTOR OIL Group have expanded operational capacity to 839 MW and developed a robust project pipeline 2.7 GW.. The Group's objective is to further strengthen MORE renewable energy business, with a target to surpass 2.0 GW in operational capacity and exceed €250 million in EBITDA by 2030.
@@ -1344,6 +1360,7 @@ The table below outlines the activities and revenue sources in which the Group i
 
 
 
+<!-- Report Page 90 -->
 ### 1.4.3 Interests and Views of Stakeholders [SBM-2]
 
 At MOTOR OIL Group, stakeholder engagement is an ongoing and fundamental process that fosters trust, transparency and mutual value creation. The Group defines stakeholders as all individuals, groups and entities that have an influence on, or are influenced by, its operations. This engagement is continuous throughout the year and is managed across multiple functions at the Group level to ensure effective communication and collaboration.
@@ -1518,6 +1535,7 @@ Energy pricing</td>
 
 
 
+<!-- Report Page 92 -->
 ### Stakeholder Engagement and Business Model
 
 MOTOR OIL Group continuously adapts its strategy and business model to align with sustainability goals and the evolving expectations of its stakeholders. The Group assesses and refines its approach through due diligence processes and materiality evaluations to ensure long-term resilience and competitiveness.
@@ -1561,6 +1579,7 @@ The tables that follow provide brief descriptions of these significant impacts a
 <tr>
 <th rowspan="2">Topic</th>
 <th rowspan="2">Description</th>
+<!-- Report Page 94 -->
 <th rowspan="2">Characterization</th>
 <th colspan="3">Value chain</th>
 </tr>
@@ -1705,6 +1724,7 @@ The tables that follow provide brief descriptions of these significant impacts a
 <th>Topic</th>
 <th>Description</th>
 <th>Time horizon</th>
+<!-- Report Page 96 -->
 <th>Affected risk pillars</th>
 <th>Characterization</th>
 </tr>
@@ -1834,6 +1854,7 @@ The tables that follow provide brief descriptions of these significant impacts a
 <th>Topic</th>
 <th>Description</th>
 <th>Time horizon</th>
+<!-- Report Page 98 -->
 <th>Affected risk pillars</th>
 <th>Characterization</th>
 </tr>
@@ -1898,6 +1919,7 @@ This approach, which aligns with ESRS, ensures that impact assessment is not onl
 
 
 
+<!-- Report Page 100 -->
 ###### Stakeholder mapping
 
 MOTOR OIL Group developed a dynamic stakeholder map to understand the influence and impact of various stakeholders on its operations. Key groups were identified and categorized based on the ESRS requirements: Affected Stakeholders and Users of Sustainability Statements. The group employed diverse engagement methods, such as communication channels, workshops and feedback mechanisms, to facilitate ongoing dialogue with each group, across all group operations and subsidiaries. Each stakeholder group was assigned a priority level, enabling MOTOR OIL Group to allocate resources effectively for engagement; this mapping provided insights into stakeholders' concerns, expectations and potential areas of collaboration or conflict. Thus, the Group ensured that stakeholder perspectives were integrated into strategic decision-making, enhancing its overall sustainability and risk management approach, while also creating the necessary background for easier identification of impacts, risks and opportunities.
@@ -1970,6 +1992,7 @@ To uphold integrity, the Group appointed a Third Party to collect insights, anal
 
 
 
+<!-- Report Page 102 -->
 #### Step 3: Validation of Impacts, Risks and Opportunities (IROs)
 
 Before moving to the scoring phase, it was essential to validate the wording and categorization of all identified Impacts, Risks and Opportunities. This validation ensured consistency, accuracy and alignment across the Group. The process has involved cross-functional dialogue when necessary.
@@ -2014,6 +2037,7 @@ The impact materiality assessment focused on how sustainability matters affected
 
 
 
+<!-- Report Page 104 -->
 ##### Financial materiality scoring details
 
 Financial materiality scoring focused on how sustainability-related impacts, risks and opportunities affected the Group's financial performance and value creation. Through this scoring process, the Group evaluated the likelihood of financial outcomes and considered various time horizons to determine when financial benefits or losses might materialize.
@@ -2095,6 +2119,7 @@ To ensure the robustness and strategic alignment of the identified impacts, risk
 
 
 
+<!-- Report Page 106 -->
 #### Integration of Double Materiality Assessment into the ERM
 
 The Sustainability Division, in collaboration with an external consultant, successfully integrated the financial materiality process into the broader double materiality assessment framework. This was pivotal in enhancing the Group's understanding of how sustainability-related issues could have financial repercussions. In the past, the department had gathered a comprehensive collection of data on various sustainability impacts, but this effort was expanded by including both financial losses and benefits, which are categorized as risks or opportunities. By doing so, the Climate Change & Sustainability Unit aimed to ensure that the financial implications of these impacts were fully considered in the decision-making process.
@@ -2143,6 +2168,7 @@ At the same time, growing pressure from investors and financial institutions to 
 
 Among the most critical risks is the anticipated decline in oil demand, driven by electrification and improved energy efficiency. This shift may result in lower sales volumes, reduced profit margins and underutilization of refining infrastructure. It also increases the burden of regulatory compliance and exposes the Group to reputational risks, particularly as stakeholders - including NGOs, regulators and local communities - intensify scrutiny of traditional oil and gas operations.
 
+<!-- Report Page 108 -->
 #### Climate related Opportunities
 
 MOTOR OIL Group is proactively leveraging the energy transition by directing investments toward biofuels, green hydrogen, renewable energy infrastructure and circular economy platforms, alongside carbon capture and energy efficiency technologies. These strategic shifts are integral to the Group's transformation toward a low-carbon business model, reinforcing its commitment to achieving net-zero emissions by 2050. This realignment not only strengthens the Group's operational resilience but also ensures it remains aligned with evolving regulatory frameworks and growing stakeholder expectations around sustainability and climate performance.
@@ -2203,6 +2229,7 @@ Operational and Compliance Costs: Meeting increasingly stringent pollution contr
 
 With regards to the consultation with affected communities please refer to the Chapter Processes for engaging with affected communities about impacts [S3-2].
 
+<!-- Report Page 110 -->
 ### 1.5.4 Water and Marine Resources - Identification of Impacts, Risks and Opportunities [E3.IRO-1]
 
 Recognizing the importance of water as a shared and finite resource, MOTOR OIL Group prioritizes efficient water usage and wastewater management across its industrial activities. The Group monitors water consumption, reuses water where feasible and ensures that effluent discharges meet environmental standards, thereby protecting natural water systems. Investments in closed-loop systems and water treatment technologies support the goal of reducing the water footprint while maintaining operational excellence. The water-related topics that were included in the materiality assessment are analyzed below and include water usage and desalination, among others.
@@ -2243,6 +2270,7 @@ With regards to the consultation with affected communities please refer to the C
 
 Furthermore, within the process of Double Materiality assessment (Identification of material impacts, risks and opportunities [IRO-1]), the Group has incorporated the view of local communities through the Stakeholder Representatives who are employees who maintain close relationships with external stakeholders and facilitate the assessment process.
 
+<!-- Report Page 112 -->
 ### 1.5.5 Biodiversity and Ecosystems - Identification of Impacts, Risks and Opportunities [E4.IRO-1]
 
 MOTOR OIL Group identified its material impacts, risks and opportunities related to biodiversity and ecosystem matters through the double materiality process. In the double materiality process, the Group evaluated both the impact of its operations on stakeholders and the broader environment, as well as the risks and opportunities emerging from external trends, including regulatory, market and societal developments. To support this, the Group employs a robust set of criteria for materiality assessment, encompassing factors such as geographic location, operational activities and industry-specific dynamics. The geographical context of operations, the nature of refinery activities and sector-specific challenges are critical elements in identifying material risks and opportunities. The topics that were included in the materiality assessment were related to Land-use change, Species population size and Land degradation. It should be noticed that the Group has not taken into consideration transition and physical risks, or systemic risks related to biodiversity and ecosystems.
@@ -2289,6 +2317,7 @@ The accelerating shift toward circular economy practices and stricter environmen
 
 With regards to the consultation with affected communities please refer to the Chapter Processes for engaging with affected communities about impacts [$3-2]. Furthermore, within the process of Double Materiality assessment (Identification of material impacts, risks and opportunities [IRO-1]), the Group has incorporated the view of local communities through the Stakeholder Representatives who are employees who maintain close relationships with external stakeholders and facilitate the assessment process.
 
+<!-- Report Page 114 -->
 ### 1.5.7 Business Conduct - Identification of Impacts, Risks and Opportunities [G1.IRO-1]
 
 The Group identified its material impacts, risks and opportunities related to business conduct matters through a robust double materiality process. This approach ensured that the Group not only evaluated the financial implications of its activities but also considered the environmental, social and governance (ESG) factors that may influence its long-term value creation.
@@ -2301,6 +2330,7 @@ Throughout the double materiality process, the Group actively engages with as ma
 
 
 
+<!-- Report Page 116 -->
 ### 1.5.8 Disclosure requirements in ESRS covered by the undertakings' Sustainability Statement [IRO-2]
 
 #### Disclosure Requirements List
@@ -2489,6 +2519,7 @@ Throughout the double materiality process, the Group actively engages with as ma
 
 <table>
 <tr>
+<!-- Report Page 118 -->
 <th>ESRS E2 Pollution</th>
 <th>Description</th>
 <th>Section</th>
@@ -2722,6 +2753,7 @@ Throughout the double materiality process, the Group actively engages with as ma
 
 <table>
 <tr>
+<!-- Report Page 120 -->
 <th>ESRS S1 Own Workforce</th>
 <th>Description</th>
 <th>Section</th>
@@ -2975,6 +3007,7 @@ Throughout the double materiality process, the Group actively engages with as ma
 
 <table>
 <tr>
+<!-- Report Page 122 -->
 <th>ESRS G1 Business Conduct</th>
 <th>Description</th>
 <th>Section</th>
@@ -3425,6 +3458,7 @@ The table below includes all the data points arising from EU legislation as inco
 
 <table>
 <tr>
+<!-- Report Page 124 -->
 <th>Disclosure Requirement</th>
 <th>Data point</th>
 <th>Sustainability Statements | Appendix</th>
@@ -3728,6 +3762,7 @@ The table below includes all the data points arising from EU legislation as inco
 
 ## 2 EU TAXONOMY
 
+<!-- Report Page 126 -->
 ### 2.1 Introduction to the Regulation (EU) 2020/852
 
 In 2020, the European Parliament adopted the EU Taxonomy Regulation, creating an EU-wide framework that helps investors and businesses determine whether certain economic activities are environmentally sustainable. Aligned with the European Union's strategic vision of promoting resilient and sustainable economies and in accordance with the climate and energy targets for 2030 and the objectives of the European Green Deal, the European Commission introduced a classification system of sustainable activities under the Taxonomy Regulation. On 4 June 2021, the European Commission introduced the Commission Delegated Regulation (EU) 2021/2139, which defines the technical screening criteria for climate change mitigation and adaptation objectives. Later, on 6 July 2021, the Commission also adopted the Commission Delegated Regulation (EU) 2021/2178 (the "Disclosures Delegated Act"), which complements Article 8 of the Taxonomy Regulation and outlines the content, methodology and format for disclosing information on the proportion of environmentally sustainable activities in the operations, investments and lending activities of both financial and non-financial undertakings. On 15 July 2022, a Complementary Climate Delegated Act was released in the Official Journal of the EU, including, under strict conditions, specific nuclear and gas energy activities in the list of economic activities covered by the EU Taxonomy.
@@ -3758,6 +3793,7 @@ For the purposes of these disclosures, the above entities will hereinafter be re
 
 The Group's activities substantially contribute to the following environmental objectives:. Climate change mitigation (CCM). Transition to circular economy (CE). Pollution prevention and control (PPC)
 
+<!-- Report Page 128 -->
 · Sustainable use and protection of water and marine resources (WTR)
 
 ### 2.2.1 Eligibility assessment
@@ -3766,6 +3802,7 @@ The Group's business activities were evaluated for eligibility based on the Taxo
 
 
 
+<!-- Report Page 130 -->
 The Motor Oil Hellas Group's Taxonomy-eligible activities include the following:
 
 <table>
@@ -3929,6 +3966,7 @@ It is important to highlight that the Group has already been reporting under the
 
 
 
+<!-- Report Page 132 -->
 The Motor Oil Hellas Group's Taxonomy-aligned activities include the following:
 
 <table>
@@ -4070,6 +4108,7 @@ Since the activity has not been classified as a CCA enabling activity, complianc
 
 
 
+<!-- Report Page 134 -->
 ##### DNSH to Climate Change Adaptation
 
 The activity complies with the criteria set out in Appendix A of Annex I to Climate Delegated Act, which specifies the generic criteria for DNSH to climate change adaptation. For additional complementary information on the Group's climate risk and vulnerability assessment, including climate adaptation plans, refer to 'General Disclosures - ESRS 2' and to 'ESRS E1 - Climate change' sections.
@@ -4136,6 +4175,7 @@ MOTOR OIL Group has conducted an Environmental Impact Assessment (EIA) for all f
 
 
 
+<!-- Report Page 136 -->
 ### 2.4 Accounting policy
 
 The MOTOR OIL Group's consolidated financial statements for the 2024 financial year have been prepared in accordance with International Financial Reporting Standards (IFRS). The following sections present details on turnover, CapEx and OpEx for the Group's relevant subsidiaries, as previously introduced in this report. By translating the Group's environmentally friendly initiatives and outcomes into financial metrics - turnover, CapEx and OpEx - sinvestors and financial institutions gain a clearer perspective for making informed and strategic decisions. The methodology for calculating eligibility and alignment KPIs is outlined below:. Turnover reflects the share of net turnover generated from products or services that are taxonomyeligible and/or aligned. The Turnover KPI provides a static snapshot of the Group's contribution to environmental objectives.. CapEx represents the portion of capital expenditure related to activities that are already taxonomyeligible and/or aligned or are part of a credible plan to achieve taxonomy alignment. This KPI offers a dynamic and forward-looking perspective on the Group's strategy for transforming its business activities.. OpEx denotes the share of operating expenditure linked to taxonomy-eligible and/or aligned activities or the CapEx plan. It includes direct non-capitalized costs for research and development, renovation measures, short-term leases and maintenance, as well as other direct expenses necessary for the day-to-day servicing of property, plant and equipment to ensure their continued and effective use.
@@ -4170,6 +4210,7 @@ Proportion of turnover from products or services associated with Taxonomy-eligib
 
 <table>
 <tr>
+<!-- Report Page 138 -->
 <th>Financial year 2024</th>
 <th colspan="3">2024</th>
 </tr>
@@ -4966,6 +5007,7 @@ Proportion of capex from products or services associated with Taxonomy-eligible 
 
 <table>
 <tr>
+<!-- Report Page 140 -->
 <th>Financial Year 2024</th>
 <th colspan="3">2024</th>
 </tr>
@@ -5815,6 +5857,7 @@ Proportion of opex from products or services associated with Taxonomy-eligible a
 
 <table>
 <tr>
+<!-- Report Page 142 -->
 <th>Financial Year 2024</th>
 <th colspan="3">2024</th>
 </tr>
@@ -6528,6 +6571,7 @@ aligned (A.1) or Proportion of taxonomy</th>
 
 
 
+<!-- Report Page 144 -->
 Y - Yes, Taxonomy- eligible and Taxonomy-aligned activity with the relevant environmental objective
 
 N - No, Taxonomy-eligible but not Taxonomy-aligned activity with the relevant environmental objective
@@ -6757,6 +6801,7 @@ Below, in the tables, you will find the detailed breakdown of the analytical rat
 <tr>
 <th>Objective</th>
 <th>Activity</th>
+<!-- Report Page 146 -->
 <th>Eligible Opex Ratio</th>
 <th>Aligned Opex Ratio</th>
 </tr>
@@ -6836,6 +6881,7 @@ The numerator consists of the portion of OpEx included in the denominator that m
 
 If OpEx is not material to the business model of a non-financial undertaking, the following disclosures apply:. The numerator of the OpEx KPI is set to zero, as per Annex I, section 1.1.3.2 of Delegated Regulation (EU) 2021/2178.. The total OpEx denominator value is disclosed.. A qualitative explanation is provided to justify the non-materiality of operational expenditures in the business model.
 
+<!-- Report Page 148 -->
 ## Climate change [E1]
 
 <table>
@@ -6917,6 +6963,7 @@ If OpEx is not material to the business model of a non-financial undertaking, th
 
 
 
+<!-- Report Page 150 -->
 ## 3 CLIMATE CHANGE [E]]
 
 ### 3.1 Strategy
@@ -6973,6 +7020,7 @@ The long-term horizon (15 to 25 years) sees MOTOR OIL Group reaching the peak of
 
 
 
+<!-- Report Page 152 -->
 ##### Key steps and actions per Scope 1,2,3 and as per company
 
 MOTOR OIL Group demonstrates tangibly its commitment to reduce its carbon footprint and thus contribute to the sustainable protection and preservation of the environment. Through its strategic plan, it is focused on decarbonization of its own activities and its product portfolio, by undertaking and participating in the design and implementation of innovative research projects. The Group is actively working to minimize its carbon emissions across all facets of its operations through strategic investments, innovative technologies, and forward-thinking initiatives. The Group is committed to expanding its renewables business, which will lower the carbon intensity of its energy generation. Through these concerted efforts, MOTOR OIL Group remains dedicated to achieving its emissions reduction targets and advancing its sustainability goals in line with global climate objectives. The transition plan includes:. Carbon capture and storage project. Green Hydrogen production
@@ -7018,6 +7066,7 @@ MOTOR OIL Group's EU-funded decarbonization projects are built on the belief tha
 
 <table>
 <tr>
+<!-- Report Page 154 -->
 <th colspan="2">Horizon Europe Projects</th>
 <th>Duration</th>
 <th>Description</th>
@@ -7089,6 +7138,7 @@ Moreover, in 2024 capital expenditure (Capex), investments in environmentally su
 
 
 
+<!-- Report Page 156 -->
 #### Assessment of locked-in emissions
 
 Carbon Lock-in is a path-dependence phenomenon consisting of an inertial resistance to the transition process to carbon-efficient technologies as entire sectors continue relying on carbon-intensive technologies. Carbon Lock-in is the outcome of highly path-dependent decision processes related to carbon-emitting technologies, infrastructure, practices and their supporting networks that are currently constraining future paths, making it more challenging, even impossible, to subsequently pursue more optimal paths toward low-carbon objectives. In path-dependent processes, inertial resistance to large-scale systematic shifts is self-reinforced with time, due to initial favorable social and economic conditions driving increasing returns, thereby diminishing and possibly excluding more efficient alternatives, as any locked-in system aims at maintaining the status quo. As a matter of fact, Carbon Lock-in generates constant market and policy failures that discourage the implementation of carbon-saving technologies regardless of their high-cost efficiency or environmental advantages: the result is that the decarbonization process is ineffective due to the high difficulty in eroding the deep dependencies that perpetuate the lock-in state.
@@ -7117,6 +7167,7 @@ a) technical/sectoral; b) institutional; c) financial.
 
 <table>
 <tr>
+<!-- Report Page 158 -->
 <th>MOH BUSINESS ACTIVITIES</th>
 <th>Final Result</th>
 <th>MOH BUSINESS ACTIVITIES</th>
@@ -7240,6 +7291,7 @@ This year's EU Taxonomy disclosures also include data collected from the Group's
 
 · Associate Companies, on a voluntary basis. CORAL GAS Group. CORAL Group. LPC Group
 
+<!-- Report Page 160 -->
 · MOTOR OIL RENEWABLE ENERGY (MORE) Group
 
 · MOTOR OIL S.A.
@@ -7282,6 +7334,7 @@ Articles 19 and 20 define the obligated parties (companies and installations). C
 
 Respectively, installations covered from article 19 except those that are under ETS schemes, are required to reduce emissions by at least thirty percent (30%) by 2030 compared to 2019, by reference to the appropriate product and project unit, depending on the type of activity. According to competent authorities' instructions, by the end of 2025 for all existing projects and activities, a report shall be submitted to the competent environmental licensing authority to demonstrate compliance with the emission reduction target. From 2026, the operator of the project or activity shall submit to the licensing environmental authority by 31 October of each year.
 
+<!-- Report Page 162 -->
 #### Fossil fuel activities
 
 MOTOR OIL Group's goal is to create services and solutions for customers and long-term value for its shareholders by investing diligently in the energy transition, preparing for a shifting Energy market. The Group is enhancing the efficiency and sustainability of the refinery operations, leveraging digitization and innovation to minimize its carbon footprint, while ensuring the energy security of the country in a rapidly evolving geopolitical landscape.
@@ -7332,6 +7385,7 @@ Additionally, Article 12.2 states that benchmark administrators must exclude com
 
 Although the Group is currently excluded from the PAB, it recognizes the importance of aligning with global climate investment benchmarks and remains committed to achieving long-term sustainability and financial resilience.
 
+<!-- Report Page 164 -->
 ## Transition KPIs /Milestones
 
 MOTOR OIL Group has developed a robust transition plan underpinned by quantifiable KPIs and clear forward-looking milestones, reflecting its commitment to decarbonisation, renewable energy expansion and the development of sustainable fuels.
@@ -7380,6 +7434,7 @@ The Group's climate risk screening process spans nearly 100% of its operational 
 
 By integrating these scientific and policy-driven tools, MOTOR OIL Group is well-positioned to proactively identify, assess and manage climate-related risks across its portfolio. This robust approach reinforces the Group's resilience and strengthens its positioning as a leader in the energy transition. As such, no material physical or transition risks were excluded from the analysis.
 
+<!-- Report Page 166 -->
 ###### Scenario Analysis
 
 The Group conducts scenario analysis to assess the potential impacts of climate change on its operations, supply chain and market dynamics. These analyses help the Group enhance its adaptation and mitigation strategies, ensuring alignment with global climate objectives and regulatory frameworks. By evaluating different climate scenarios, including those consistent with a 1.5℃ global warming trajectory, the Group can proactively identify financial, operational and strategic risks and opportunities associated with the transition to a low-carbon economy. Further details on the scenario analysis methodology and key findings are provided in Chapter E1, IRO-1 of this report, where a comprehensive assessment of climate resilience is outlined.
@@ -7412,6 +7467,7 @@ No Additional Policy Action - Limited to 2℃ with Stronger Policies Needed: Lim
 
 <table>
 <tr>
+<!-- Report Page 168 -->
 <th colspan="4">Market outlook in 2030 according to WP, CP and NZ scenarios</th>
 </tr>
 <tr>
@@ -7765,6 +7821,7 @@ The Group's reduction plan as outlined in the "Energy Transition Strategy and Ou
 </tr>
 </table>
 
+<!-- Report Page 170 -->
 ##### Resilience of the Group's strategy
 
 The Group has already developed a multi-dimensional climate strategy that allows for a smooth adaptation to stricter regulations and carbon pricing mechanisms, reduction of financial risk and ensuring long-term resilience.
@@ -7789,6 +7846,7 @@ Long-term (15-25 years): Representing the full realization of the Group's strate
 
 Further insights into the implications of these time horizons for strategic planning can be found in the chapter titled "Transition Plan for Climate Change" within this report.
 
+<!-- Report Page 172 -->
 #### 3.2 Impact, risk and opportunity management [E1.SBM-3]
 
 ##### 3.2.1 Policies and actions related to Climate Change Adaptation [E1-2] [E1-3]
@@ -7823,6 +7881,7 @@ Engagement with stakeholders ensures transparency and awareness of mitigation ef
 
 Climate risk oversight is managed by the Sustainability Committee, which includes members of the Board of Directors and senior management. The Committee is responsible for evaluating adaptation strategies, monitoring policy implementation and ensuring that climate-related risks are addressed through structured mitigation measures. CapEx/OpEx in decarbonization actions referenced in taxonomy chapter and also E1-1.
 
+<!-- Report Page 174 -->
 ##### 3.2.2 Targets related to Climate Change Adaptation [E1-4]
 
 MOTOR OIL Group recognizes the critical importance of climate change adaptation in ensuring the long-term resilience of its operations, supply chains and the communities in which it operates. The Group acknowledges that adapting to climate-related risks, including extreme weather events and shifting environmental conditions, is essential for sustainable business continuity. While adaptation remains a key consideration in the Group's broader sustainability strategy, specific quantitative targets for climate change adaptation have not yet been formally established. MOTOR OIL Group has conducted a climate resilience analysis, but its outcome has not been fully evaluated yet in order to set specific targets. MOTOR OIL Group continues to assess the evolving regulatory landscape, industry best practices and scientific advancements to integrate adaptation measures effectively. The Group remains committed to enhancing climate resilience and will continue to evaluate and refine its approach in alignment with global frameworks and stakeholder expectations.
@@ -7855,6 +7914,7 @@ In developing its climate change mitigation targets, MOTOR OIL Group engaged pro
 
 A key target within its decarbonization strategy is to achieve a 30% reduction in Scope 1 and Scope 2 emissions by 2030, using 2021 as the baseline year This 30% reduction will come as a result of approximately 1% reduction in GHG Scope 2 emissions and the rest (approx. 29%) in GHG Scope 1 emissions. This target reflects the Group's dedication to optimizing its operations, enhancing energy efficiency and integrating cleaner energy sources into its production processes. At the end of reporting year, 1.26% of reduction is achieved. For further details, please refer below to "Total GHG Emissions Progress against Targets" table. Through investments in advanced technologies, electrification and energy efficiency improvements, MOTOR OIL Group aims to significantly lower direct emissions from its refining, power and gas operations. Additionally, the Group is actively incorporating renewable energy solutions into its facilities and securing Renewable Energy Certificates (RECs) to support its transition to a low-carbon business model.
 
+<!-- Report Page 176 -->
 On a high-level approach, each initiative's contribution in scope 1 & 2 is presented below:
 
 The above figure presents the measures to be implemented in refinery against the target, which is the major contributor for scope 1 & 2 emissions. More info about the total baseline emissions and reporting year's progress are presented in E1-6.
@@ -7925,6 +7985,7 @@ The Group's management plays an active and leading role in driving energy perfor
 
 3\. Sustainable Energy Practices in Operations and Supply Chain: The Group actively encourages suppliers, business partners and regulatory bodies to promote sustainable energy practices across its value chain. By leveraging digital transformation and smart energy solutions, the Group ensures efficient resource utilization while minimizing energy-related risks.
 
+<!-- Report Page 178 -->
 ## Energy Management System (EnMS)
 
 Central to the Group's energy performance is its Energy Management System, which governs the efficient use of energy across all facilities, with particular focus on refining operations. The EnMS is grounded in the principles of continuous improvement, enabling systematic monitoring, analysis and optimization of energy usage, while ensuring ongoing compliance with legal requirements and energy performance standards. As part of this commitment, the Group:
@@ -8056,6 +8117,7 @@ The Group's energy consumption framework is structured around multiple sources, 
 
 The total energy entering and consumed in the refinery is derived from three primary sources: (i) the import and consumption of fuels - either purchased or self-produced - classified as primary energy, (ii) electricity introduced from the national grid, converted into primary energy and (iii) fuel consumption for the Group's vehicle operations. For subsidiaries operating in Greece, energy consumption from nuclear sources is considered zero, in accordance with the National Inventory Report (Edition 2024). For subsidiaries in Cyprus, Bulgaria, Serbia, North Macedonia, Croatia and Romania, nuclear energy consumption is calculated using relevant and applicable data.
 
+<!-- Report Page 180 -->
 Refinery utilizes various fuel types, including:
 
 · Self-generated fuel oil.
@@ -8406,6 +8468,7 @@ Accordingly, GHG intensity of MOTOR OIL's Group for the reporting year is calcul
 
 <table>
 <tr>
+<!-- Report Page 182 -->
 <th>GHG intensity per net revenue</th>
 <th>2023</th>
 <th>2024</th>
@@ -8468,6 +8531,7 @@ These would include the use of the Group's own Natural Based Solutions (NBS) pro
 <th></th>
 </tr>
 <tr>
+<!-- Report Page 184 -->
 <td colspan="2">Impact, risk and opportunity management</td>
 </tr>
 <tr>
@@ -8508,6 +8572,7 @@ These would include the use of the Group's own Natural Based Solutions (NBS) pro
 
 # 4 POLLUTION [E2]
 
+<!-- Report Page 186 -->
 ## 4.1 Impact, risk and opportunity management
 
 ### 4.1.1 Policies and Actions related to Pollution [E2-1] [E2-2]
@@ -8536,6 +8601,7 @@ To maintain high environmental standards, Refinery operates Air Quality Monitori
 
 Finally, to align with a new global cap on marine fuel oils that came in force since start of 2020, having as a scope to reduce the air pollution coming from the shipping industry, refinery adapted its operational parameter and crude diet to produce this low sulfur fuel oil (0.5%) since the beginning of 2021.
 
+<!-- Report Page 188 -->
 ### Water Pollution: Refinery activities
 
 Due to nature of activities, there are not specific targets for effluent discharges from operational sites. The deployment of BAT Techniques and ISO 14001 management system support the legal compliance with subjected environmental terms.
@@ -8576,6 +8642,7 @@ The Group's commitment to water pollution prevention in RES aligns with its over
 
 
 
+<!-- Report Page 190 -->
 ### 4.1.2 Targets related to Pollution [E2-3]
 
 Regarding air and water emissions, the MOTOR OIL Group has not established measurable or resultsoriented targets. The relevant business operations in these areas are subject to regulations that define the permissible limits and specify the technologies to be employed. These regulatory requirements set specific environmental performance obligations that the Group must adhere to, ensuring alignment with legislative standards for pollution control and mitigation.
@@ -8655,6 +8722,7 @@ The KPI's presented are the pollutant emissions to air and water from refinery a
 
 ## Strategy
 
+<!-- Report Page 192 -->
 Impact, risk and opportunity management
 
 <table>
@@ -8674,6 +8742,7 @@ Impact, risk and opportunity management
 
 ### Metrics
 
+<!-- Report Page 194 -->
 # 5 WATER AND MARINE RESOURCES [E3]
 
 ## 5.1 Impact, risk and opportunity management
@@ -8716,6 +8785,7 @@ Key priorities include:. Compliance with wastewater discharge regulations at ser
 
 Specific improvements demonstrate the Group's commitment to continuous improvement in this area:. At CORAL, targeted infrastructure upgrades are underway, including the redesign of the drainage system at the Ag. Theodoroi oil terminal and the installation of new lining systems at the Alexandroupolis terminal's bunded tank farm area. These enhancements aim to reduce contamination risks and ensure safe waste handling in high-traffic, high-risk fuel storage zones.. CORAL GAS supports these efforts with systematic water consumption monitoring, helping to optimize water use even in low-intensity operations.. Across all retail sites, staff are trained in spill prevention, emergency response protocols and wastewater management, ensuring that local-level environmental protection measures are consistently applied.
 
+<!-- Report Page 196 -->
 ### Power & Gas activities
 
 In the Power and Gas segment, MOTOR OIL Group applies a precautionary and forward-looking approach to water management, recognizing the role water can play in cooling, auxiliary processes and environmental compliance - particularly in thermal power generation.
@@ -8804,6 +8874,7 @@ Total water consumption in areas at water risk, including areas of high-water st
 </tr>
 <tr>
 <td>E4-1</td>
+<!-- Report Page 198 -->
 <td>Transition Plan and consideration for Biodiversity and Ecosystems in Strategy and Business Model</td>
 </tr>
 <tr>
@@ -8835,6 +8906,7 @@ Total water consumption in areas at water risk, including areas of high-water st
 </tr>
 </table>
 
+<!-- Report Page 200 -->
 # 6 BIODIVERSITY AND ECOSYSTEMS [E4]
 
 ## 6.1 Strategy
@@ -8889,6 +8961,7 @@ These measures not only help prevent environmental harm but also reduce financia
 
 MORE's Renewable energy projects, while critical to producing green energy, also present biodiversity risks, particularly when developed in protected or ecologically sensitive areas. Wind parks, for example, can disrupt local wildlife habitats, leading to conflicts with conservation efforts. The financial implications of such risks include potential regulatory fines, costly mitigation efforts and reputational challenges among stakeholders who expect renewable energy to align with broader environmental goals.
 
+<!-- Report Page 202 -->
 ## Biodiversity sites
 
 MOTOR OIL Group's operations interact with biodiversity-sensitive areas primarily through its renewable energy subsidiary, MORE, which operates wind farms within protected areas. While Group's refinery, fuels marketing and infrastructure projects do not directly impact protected ecosystems, its renewable energy assets require structured biodiversity risk management which is integrated in the Group's ERM system and conservation measures to ensure compliance with environmental regulations.
@@ -8927,6 +9000,7 @@ By adopting biodiversity offsets, habitat restoration efforts and nature-based s
 
 Across all operational pillars, MOTOR OIL Group has implemented environmental impact mitigation plans aligned with regulatory requirements. Specific initiatives have been designed based on the nature of each business activity, ensuring that biodiversity considerations are addressed effectively.
 
+<!-- Report Page 204 -->
 ### Supply, Refining & Trading activities
 
 Although the refinery itself is located within an industrial zone and is not classified as a biodiversitysensitive area, the associated port facilities present potential biodiversity risks, particularly in relation to coastal and marine ecosystems. These ecosystems are vulnerable to impacts such as oil spills, waste discharge and habitat disturbance. As such, the Group has integrated biodiversity protection measures into both its refining operations and port-related activities.
@@ -8953,6 +9027,7 @@ Additionally, impacted forest areas from wind farm construction undergo reforest
 
 As part of the Forest program which support biodiversity, in 2024 the following initiatives took place for Renewable Energy projects:. Reforestation activities at Kellas wind farm.. Ongoing maintenance of restored forest areas in Tsamadorachi, Pournari, Korobili and Kassidiaris I & II.. Compliance with reforestation fee obligations and phytotechnical restoration requirements.. Nature-based solutions, such as utilizing native plant species for reforestation and promoting agroforestry practices are integrated into reforestation efforts, ensuring long-term ecosystem resilience.
 
+<!-- Report Page 206 -->
 ### Circular Economy & Alternative Fuels activities
 
 Within MOTOR OIL Group's circular economy and alternative fuels division, including LPC and VERD waste management and alternative fuel production is integrated. It has to be noted that all installations operate in industrial areas and do not directly affect biodiversity sensitive areas.
@@ -8997,6 +9072,7 @@ Biodiversity metrics reported derive from each operational site's licensing proc
 
 #### Strategy
 
+<!-- Report Page 208 -->
 ##### Impact, risk and opportunity management
 
 <table>
@@ -9022,6 +9098,7 @@ Biodiversity metrics reported derive from each operational site's licensing proc
 </tr>
 </table>
 
+<!-- Report Page 210 -->
 # 7 RESOURCE USE AND CIRCULAR ECONOMY [E5]
 
 ## 7.1 Waste policies, actions and targets
@@ -9072,6 +9149,7 @@ Across Group's retail operations, waste minimization remains a priority. MOTOR O
 
 Recognizing the significance of waste management at all levels, the Group has implemented an Integrated Recycling Management System within the offices at Group's HQ, ensuring that solid waste is sorted at the source and that zero quantity of waste generated is directed to disposal. Staff training plays a key role in this initiative - by empowering its teams with the knowledge and tools to manage waste efficiently, the Group enhances its collective impact on sustainability.
 
+<!-- Report Page 212 -->
 #### Circular Economy and Alternative Fuels activities
 
 Circular economic principles are integral to Group's approach to resource utilization and waste reduction, ensuring sustainability throughout the Group's operations. Through VERD, the Group contributes to sustainable energy solutions by directing sludge derived from wastewater to third parties' biogas plants, effectively eliminating solid waste. Any remaining effluents undergo a thorough oil separation process before being transferred to local treatment facilities. This focus on resource recovery is part of a broader commitment to waste minimization, ensuring that each step of waste handling - from collection to final disposal - aligns with MOTOR OIL Group's sustainability goals. By reprocessing waste materials and diverting them from landfills, the Group maximizes resource efficiency and reduce environmental impact.
@@ -9106,6 +9184,7 @@ MOTOR OIL Group recognizes that packaging - whether paper, cardboard, plastic, o
 
 Beyond industrial sites, waste from discarded electrical equipment and fluorescent tubes reflects the breadth of MOTOR OIL Group's operations. While some waste streams are expected, others, such as sulphur and bitumen byproducts, highlight the unexpected intersections between sectors. Throughout it all, the Group remains committed to tracking, documenting and diverting waste from disposal wherever possible. Managing waste is not just an obligation, it is integral to how the Group operates, balancing efficiency with environmental responsibility.
 
+<!-- Report Page 214 -->
 ### Circular Economy and Alternative Fuels activities
 
 VERD, as part of the Group's broader sustainability strategy, focuses on biofuel production by utilizing recycled materials such as used vegetable oils and animal fats. By processing these materials into biofuels, VERD furthers the Group's commitment to the circular economy. This process not only reduces waste but also promotes sustainability by lowering the environmental impact associated with traditional fuel production, reinforcing the Group's role in driving innovation in clean energy solutions.
@@ -9261,6 +9340,7 @@ Waste generated is classified according to European Waste Catalogue (Decision 20
 As far as operational sites are concerned, raw data of waste generated and presented in the above tables are submitted to the National Registry on an annual basis. During the submission process, entities that manage waste are required to submit quantities of hazardous and non-hazardous waste generated, collected, transferred and disposed/recycled. Therefore, all waste is tracked. Also, the quantities for Motor Oil refinery and LPC are validated under Eco Management and Audit Scheme (EMAS) annually. Finally, as far as Motor Oil's HQ and retail companies' offices integrated management system is concerned, waste collection, treatment and reporting are conducted by a certified third party. The KPI's presented are subjected to potential changes until final submission.
 
 
+<!-- Report Page 216 -->
 #### 8 Own Workforce [S1]
 
 ##### Strategy
@@ -9319,6 +9399,7 @@ As far as operational sites are concerned, raw data of waste generated and prese
 </tr>
 </table>
 
+<!-- Report Page 218 -->
 #### 8 OWN WORKFORCE [S1]
 
 ##### 8.1 Strategy
@@ -9353,6 +9434,7 @@ Another avenue for financial resilience lies in worker representation through th
 
 Investment in training and development further strengthens financial positioning by supporting the workforce remains equipped to meet evolving industry demands. Technical upskilling programs not only improve operational efficiency but also bridge knowledge gaps, increase productivity and quality, that could otherwise slow the Group's adaptation to emerging market trends. As sustainability imperatives reshape the industry, proactively aligning workforce capabilities with future operational needs safeguards long-term financial viability.
 
+<!-- Report Page 220 -->
 ####### Types of own workforce
 
 MOTOR OIL Group's workforce consists of both employees and non-employees who are subject to material impact due to the nature of their work. Employees include permanent staff and temporary employees, primarily engaged in office-based roles at the headquarters and operational positions across various sites (field-based). Non-employees, recorded at the end of the reporting period, mainly consist of contractors and individuals provided by Temporary Employment Agencies. These workers are predominantly engineers and their teams, as well as personnel employed at retail stations. Their work is primarily manual and field-based, involving operations within the refinery and retail locations. Given the demanding nature of these roles, workplace safety, fair employment conditions and adequate protections remain key priorities for the Group. All individuals within MOTOR OIL Group's workforce may be affected by the material impacts and opportunities previously outlined, unless otherwise indicated. The Group is dedicated to fostering an inclusive workplace where all employees have equal opportunities for professional growth and advancement.
@@ -9407,6 +9489,7 @@ Employees who report concerns through internal channels are safeguarded against 
 
 MOTOR OIL Group recognizes its responsibility to create an environment where fairness, equity and respect are non-negotiable. By integrating human rights principles into Group's daily operations, it continues to shape a workplace that values dignity and ensures a future built on ethical business practices.
 
+<!-- Report Page 222 -->
 ##### Training & Development
 
 MOTOR OIL Group recognizes that continuous learning and development are critical to maintaining a competitive and skilled workforce. The Learning & Development Policy is designed to enhance employees' knowledge, skills and career progression opportunities through educational initiatives. It ensures that employees at all levels have access to training programs tailored to business needs and individual career aspirations. The policy is applicable to all employees across the Group, except for temporary workers, interns, external contractors and refinery employees, who are covered under a separate Refinery-Specific Training Policy.
@@ -9427,6 +9510,7 @@ To ensure sustainable leadership pipelines, the Group has established the MOTOR 
 
 Training effectiveness is closely tracked through participation rates, skill development metrics and posttraining assessments. SAP SuccessFactors documents individual development plans, ensuring alignment between training efforts, employee career trajectories and organizational needs. Employees complete designated training modules within specified timeframes, while feedback mechanisms, satisfaction surveys and post-training evaluations help refine programs to maintain alignment with both business objectives and employee aspirations.
 
+<!-- Report Page 224 -->
 ##### Refinery activities
 
 Employees follow a specialized Refinery Training Policy designed to uphold high operational and safety standards. Process safety, hazardous material management, emergency response and regulatory compliance are integral to refinery training modules. Certification programs include Permit-to-Work authorization, fire safety procedures and advanced engineering skills. Periodic retraining ensures employees maintain up-to-date knowledge, covering startup/shutdown procedures, environmental compliance and risk management protocols. Compliance with ISO-18788, ISO-27001 and emergency response plans is reinforced through recertification programs developed in coordination with regulatory bodies and industry experts.
@@ -9447,6 +9531,7 @@ The Talent Management & Acquisition Policy supports a meritocratic and transpare
 
 The Performance Management and Employee Development Policy establishes a career progression framework, ensuring that employees receive clear performance evaluations, feedback and opportunities for professional growth. Additionally, one of Performance Management and Employee Development Policy is to strengthen the Group's commitment to the principles and values that govern ESG (Environment, Society, Governance) through key performance indicators, as well as to promote personal responsibility regarding its impact on society and the environment. Through SAP SuccessFactors, Group tracks performance metrics, aligning individual career development with organizational goals. Employees are provided with structured career pathways and have access to internal mobility programs through the Internal Career Opportunities Policy, ensuring career advancement and reskilling opportunities across different business units.
 
+<!-- Report Page 226 -->
 ##### 8.2.2 Policies and Actions related to Working Conditions [S1-1] [S1-4]
 
 MOTOR OIL Group is committed to promote an inclusive, fair and equitable working environment that upholds internationally recognized labor standards and human rights. Group's policies and actions support diversity, non-discrimination, fair compensation, health and safety and professional development, aligned to internationally recognized frameworks, as incorporated into Greek legislation, such as ILO Declaration on Fundamental Principles and Rights at Work.
@@ -9501,6 +9586,7 @@ An approach to product management, ensuring compliance with regulatory standards
 
 Retail Companies reinforce health-focused workplace policies by regulating smoking in designated outdoor areas. Employees and visitors share responsibility for compliance, ensuring a work environment that prioritizes well-being.
 
+<!-- Report Page 228 -->
 ##### Major Accident Prevention Policy
 
 Managing risks inherent in petroleum and chemical product storage, handling and transport, retail companies adhere to SEVESO III regulations and national laws. The Major Accident Prevention Policy upholds stakeholder safety, extending protection to employees, contractors, visitors and local communities.
@@ -9549,6 +9635,7 @@ A strong emphasis is placed on training and continuous education, equipping empl
 
 Beyond immediate emergency response, VERD & PRASINO LADI ensures the long-term protection of its workforce, infrastructure and surrounding community by continuously refining safety procedures and adapting to evolving risks. A structured approach to risk management translates into a safer workplace, reduced operational disruptions and strengthened trust among employees, partners and regulatory bodies.
 
+<!-- Report Page 230 -->
 ##### Secure employment
 
 MOTOR OIL Group fosters a work environment where opportunities, work-life balance and social protection are fundamental to employee well-being. A framework of policies (e.g. Rewards & Recognition Policy, Talent Acquisition & Recruitment) ensures transparency in hiring, equitable compensation and career development, reinforcing both national regulations and international labor standards. Fairness is embedded in every aspect of employment, from structured salary frameworks to recognition programs that celebrate contributions aligned with corporate values (Rewards & Recognition Policy).
@@ -9583,6 +9670,7 @@ With regards to the achieved positive outcomes of its actions, in 2024, the Grou
 
 Additionally, the outcomes are assessed through a biennial Employee Survey, with the most recent survey conducted in 2023. Survey results showed that,. 76% of employees agree the Group strictly adheres to Health & Safety measures.. 59% agree the Group provides sufficient job training.. 59% agree the Group has adequate performance management processes.
 
+<!-- Report Page 232 -->
 The next survey is scheduled for 2025.
 
 ##### 8.2.3 Processes for Engaging with Own Workforce and Workers' Representatives about Impacts [S1-2]
@@ -9627,6 +9715,7 @@ Transparency is also reinforced through MOTOR OIL Group's commitment to structur
 
 At the core of these efforts is a firm stance against retaliation. The Whistleblowing Policy explicitly safeguards individuals who use reporting channels, from any form of adverse action. Protection measures extend beyond formal policies, embedding anti-retaliation principles into the organization's ethical framework to uphold fairness and trust. Ultimately, integrity and accountability are not static objectives but ongoing commitments. By maintaining rigorous oversight and continuously refining whistleblowing mechanisms, the Group ensures that its governance structures remain robust. MOTOR OIL Group believes that ethical operations do not merely protect employees - they enhance long-term resilience, investor confidence and corporate sustainability.
 
+<!-- Report Page 234 -->
 ##### 8.2.5 Targets related to Health & Safety [S1-5]
 
 MOTOR OIL Group prioritizes a safe work environment, integrating rigorous Health & Safety measures designed for accident prevention and risk mitigation. These initiatives are supported by strict adherence to industry regulations, ongoing monitoring and structured programs aimed at reinforcing employee well-being and operational resilience. Central to these efforts is the Group's ongoing "Goal Zero" target, a firm commitment to achieving zero fatalities, preventing major industrial accidents and reducing workplace incidents across all operations, including refining, marketing and distribution.
@@ -9645,6 +9734,7 @@ At MOTOR OIL Group, while there is not specific setting targets related to equal
 
 ##### 8.3 Metrics
 
+<!-- Report Page 236 -->
 ###### 8.3.1 Characteristics of the undertaking's employees [S1-6]
 
 The following table discloses the total number of employees for 2024 in MOTOR OIL Group (incl. Associate companies) by headcount and breakdown by gender and type of employment contract. The following data concerns the number of employees at the end of the reporting period as 31.12.2024.
@@ -9823,6 +9913,7 @@ The percentage of employees covered by workers' representatives is calculated as
 
 All metrics have been measured as of the end of the reporting year 2024 and extracted from the HR Department's software. The top management metrics include employees at a specified grade and above - defined by the group at the company level - and commonly referred to in the market as senior management.
 
+<!-- Report Page 238 -->
 ##### 8.3.5 Adequate wages [S1-10]
 
 <table>
@@ -9922,6 +10013,7 @@ The Group provides equal training opportunities to all employees, tailored to th
 
 
 
+<!-- Report Page 240 -->
 ##### 8.3.9 Health and safety metrics [$1-14]
 
 <table>
@@ -10057,6 +10149,7 @@ The exact same components were included in last year's data. The only addition t
 
 Additionally, to the information reported in the above table, no incidents of discrimination, including harassment, were reported within the Group's companies during the reporting year. Furthermore, no cases of severe human rights violations were identified within the Group's companies. No penalties, fines, or compensation for damages were imposed as a result, of any incidents or complaints related to discrimination, harassment, or severe human rights violations.
 
+<!-- Report Page 242 -->
 #### 9 Affected Communities [S3]
 
 <table>
@@ -10098,6 +10191,7 @@ MOTOR OIL
 
 
 
+<!-- Report Page 244 -->
 #### 9 AFFECTED COMMUNITIES [S3]
 
 ##### 9.1 Strategy
@@ -10143,6 +10237,7 @@ Group's policies are rooted in internationally recognized standards, ensuring th
 
 In addition, no cases have been reported on non-respect of the UN Guiding Principles on Business and Human Rights, ILO Declaration on Fundamental Principles and Rights at Work or OECD Guidelines for Multinational Enterprises that involve affected communities in Group's own operations. Finally, there are no indigenous people as defined by the ESRS in any part of MOTOR OIL Group's operations.
 
+<!-- Report Page 246 -->
 ###### 9.2.2 Processes for Engaging with Affected Communities about Impacts [S3-2]
 
 ####### Affected communities' engagement
@@ -10186,6 +10281,7 @@ In the Refinery there is a specific process for Handling Complaints that include
 Through the whistleblowing mechanism the Group encourages the submission of confidential or anonymous reports through the existing reporting channels about illegal activities that may take place in the organization. The management and investigation of these reports is conducted objectively, independently and with respect to all implicated parties. The Group assures that those who report through whistleblowing policy channels shall be protected against retaliation, which is expressly stated to be prohibited against the affected persons and that the personal data of all parties involved are protected.
 
 
+<!-- Report Page 248 -->
 ##### 9.2.4 Taking Action on Material Impacts on Affected Communities, and Approaches to Managing Material Risks and Pursuing Material Opportunities related to Affected Communities, and Effectiveness of those Actions [S3-4]
 
 MOTOR OIL Group hence strives to build constructive relationships with the local communities in which it operates, by fostering a relationship based on trust and mutual respect. More specifically, local communities are supported by the Group through programs that enhance economic, social and cultural life and overall help society thrive. The Group makes direct or indirect financial contributions to many businesses and families, while supporting local initiatives and encouraging entrepreneurship, in a general effort to improve the well-being of the communities in which it operates.
@@ -10222,6 +10318,7 @@ PRASINO LADI S.A. has placed a strong emphasis on educating future generations a
 
 L.P.C. S.A. has concentrated its efforts on community development in Aspropyrgos by supporting cultural and sports sponsorships, as well as social programs. Through its sponsorship of the Thriasian Cultural Events, the company has reinforced its connection with the local community. Additionally, L.P.C. has contributed to social welfare by donating essential goods to the Social Grocery Store of Aspropyrgos. Recognizing the importance of youth development, LPC has also invested in sports infrastructure by renovating the auxiliary field at Aspropyrgos Stadium, benefiting over 200 young athletes from local sports academies.
 
+<!-- Report Page 250 -->
 ###### Retail activities
 
 AVIN OIL M.A.E. has played a crucial role in supporting vulnerable communities while also promoting sports and sustainability awareness. The company has implemented seasonal initiatives such as "Christmas for All", "Easter for All" and "Smiles for All", through which employees and volunteers have distributed essential supplies, festive gifts and school materials to families in need. These initiatives have provided meaningful assistance to marginalized populations while reinforcing a culture of corporate social responsibility.
@@ -10254,6 +10351,7 @@ At the refinery level, mitigation efforts focus on site-specific impacts, partic
 
 Once an issue has been assessed, senior management oversees the implementation of corrective actions, allocating the necessary resources to ensure effective resolution. Additionally, the continuous monitoring and refinement of mitigation measures ensure compliance with regulatory requirements and sustainability commitments, strengthening the company's long-term environmental and social performance.
 
+<!-- Report Page 252 -->
 ##### Circular Economy & Alternative Fuels activities
 
 THALIS has proposed three environmental research projects in partnership with research organizations and universities. These include the WASTEMILL project, which focuses on developing a system to process and utilize organic waste fractions, the MAESTRO project, which aims to design a biorefinery for advanced biofuel production and improve upgrading units for sustainable energy solutions and the "YDRAERIO" project, which focuses on co-gasifying upgraded waste materials with pruning residues to enhance energy recovery and support circular economy initiatives. A pilot plant for this project will be established at the Waste Treatment Unit of Amari.
@@ -10282,6 +10380,7 @@ MOTOR OIL Group is committed to establishing clear, measurable targets aimed at 
 
 Although, the commitment of the Group to improving the well-being of the communities is evident, Group has not yet set specific targets due to being in the process of refining the Community Contribution framework. The Community Contribution Committee reports to the Sustainability Committee on the amount of the contribution made by the Group in the previous year together with the number of requests.
 
+<!-- Report Page 254 -->
 # 10 Consumers and End-Users [S4]
 
 <table>
@@ -10318,6 +10417,7 @@ Although, the commitment of the Group to improving the well-being of the communi
 </tr>
 </table>
 
+<!-- Report Page 256 -->
 ## 10 CONSUMERS AND END USERS [S4]
 
 ### 10.1 Strategy
@@ -10374,6 +10474,7 @@ To reinforce responsible business conduct, MOTOR OIL Group upholds a Regulatory 
 
 Ensuring consumer trust through quality control, the Group utilizes specialized laboratories and mobile quality control units for product inspections. These labs support refinery, port and tanker loading operations by conducting extensive tests on incoming crude oil, chemicals and additives, as well as final products before distribution. Monthly lab tests ensure both product excellence and safe distribution, minimizing potential risks to human health and the environment. This process is taking place in the whole value chain (upstream, own operations and downstream) and across all geographies where the group operates. Stakeholders that are affected include consumer and end users, as well as Business partners. The resources that are used by the Group include mainly personnel from quality departments.
 
+<!-- Report Page 258 -->
 # Retail activities
 
 AVIN OIL aims to foster trust and assurance for the customer in each of its service stations throughout Greece. The company has created a Quality & Quantitative Control Department as well as the program «AVIN Quality Assurance» to ensure the quality of AVIN OIL fuel. In summary, the program includes:
@@ -10392,6 +10493,7 @@ LPC abides with the relevant European legislation (CLP Regulation (EC) No 1272/2
 
 No severe human rights issues or incidents connected to consumers and end-users have been identified within the reporting period through the whistleblowing communication channels. Through the Code of Ethics and Corporate Responsibility which applies in both own workforce and third parties, is stated that Group respects and supports internationally recognised human rights. The Group, within its sphere of influence, supports and respects the protection of human rights and ensures that any type of violation or infringement thereof is avoided.
 
+<!-- Report Page 260 -->
 ## 10.2.2 Processes for Engaging with Consumers and End-Users about Impacts [S4-2]
 
 Engagement with consumers and end users may occur directly through the general inquires section of MOTOR OIL Group's website, where anyone (either a legitimate representative or a credible proxy) has access and may initiate a communication process. General inquiries sections are also available on the websites of its retail companies. Through this channel, the communication can be directed towards several internal functions. Accordingly, the Relevant department, is responsible for overseeing this process.
@@ -10471,6 +10573,7 @@ All complaints are logged into the Salesforce system, ensuring centralized docum
 
 To enhance transparency and accountability, a structured monthly reporting process is followed, which includes:
 
+<!-- Report Page 262 -->
 1\. Analysis of complaints received, allowing trend identification and continuous improvement.
 
 2\. Monitoring unresolved complaints, ensuring that no issue remains unaddressed.
@@ -10497,6 +10600,7 @@ MOTOR OIL Group is committed to supporting the transition to sustainable mobilit
 
 Consumer engagement was carried out through feedback surveys. This initiative is designed to meet the growing demand for electric vehicle (EV) charging solutions, ensuring greater accessibility and convenience for consumers and end-users. Through its subsidiaries, including NRG, AVIN OIL and CORAL, the Group is developing a reliable and efficient charging network, catering to both private consumers and commercial fleets. In future reporting periods, the Group intends to examine establishing more specific targets related to the topic.
 
+<!-- Report Page 264 -->
 # 11 Business Conduct [G1]
 
 ## Strategy
@@ -10534,6 +10638,7 @@ Consumer engagement was carried out through feedback surveys. This initiative is
 </tr>
 </table>
 
+<!-- Report Page 266 -->
 # 11 BUSINESS CONDUCT [G1]
 
 ## 11.1 Governance
@@ -10590,6 +10695,7 @@ The Group has established multiple reporting channels. Any employee, external pa
 
 #### Whistleblowing Platform: whistleblowing.moh.gr. Written report - Letter marked "attention of the ORRMR or of the Compliance Officer (for Group companies that have not appointed an ORRMR)" or "Reference of Law 4808/2021 or Law 4990/2022" to the address: Irodou Attikou 12A, 151 24, Marousi, Greece. Personal meeting with the ORRMR or with the Compliance Officer (for Group companies that have not appointed an ORRMR) upon submission of a request in writing or orally or via email to the ORRMR or the Compliance Officer respectively.
 
+<!-- Report Page 268 -->
 Furthermore, if a whistleblowing report is received by an unauthorized person, they are obliged to forward
 
 it to the ORRMR immediately, without any modification of its content or disclosure of information that may lead to the identification of the whistleblower, or any third party named in the report, in compliance with the provisions of Law 4990/2022. In 2024, no whistleblowing reports have been submitted.
@@ -10624,6 +10730,7 @@ Vendors providing critical materials or services must complete a prequalificatio
 
 Specific entities within the Group have additional supplier requirements,. receiving assurances from suppliers that contractors have fulfilled employee contribution payments and adhere to environmental regulations for projects within company facilities.. following a structured pre-cooperation assessment, including an HSSE (Health, Safety, Security and Environment) questionnaire and on-site verification by an external partner. Additionally, Retail mandates:
 
+<!-- Report Page 270 -->
 \- Compliance with ISO 14001 and other relevant ISO certifications.
 
 \- Annual contractor meetings for HSSE updates.
@@ -10666,6 +10773,7 @@ During the reporting period, MOTOR OIL Group recorded zero convictions, fines, o
 
 # 11.4 Metrics
 
+<!-- Report Page 272 -->
 ## 11.4.1 Incidents of Corruption or bribery [G1-4]
 
 <table>
@@ -10712,6 +10820,7 @@ Within the Renewable Energy Sources segment, the standard payment term is 30 day
 
 For Refining, Supply & Trading, payment terms are structured according to contractual terms. Based on the payment data from the group companies regarding payments to suppliers, the estimated average invoice settlement period is 29 days, with 53% of payments being made on time. It is important to note that, due to the diverse operations of several group companies, late payments do not constitute a breach of the agreed payment terms but rather reflect mutually agreed arrangements between the relevant parties. Consequently, the aforementioned results should be considered as indicative. The number of outstanding legal proceedings for late payments for 2024 is four (4).
 
+<!-- Report Page 274 -->
 # Entity Specific [ES]
 
 ## Strategy
@@ -10754,6 +10863,7 @@ It successfully completed a 5-year European funded project named "Sustainable en
 
 ##### RISE Project
 
+<!-- Report Page 276 -->
 Project RISE, initiated by the Energy Solutions and Strategic Projects division of MOTOR OIL in collaboration with CORAL, AVIN, CI and BFS, aims to assess the profitability of a hybrid PV, battery storage and EV charging solution at refueling stations. The project explores large-scale roll-out potential, focusing on energy production, storage and flexibility. Its goal is to optimize consumption, reduce energy costs, minimize environmental impact and improve facility efficiency using PV-generated energy. Additionally, new revenue streams have been identified through innovative energy solutions like dynamic tariffs and demand response services.
 
 ##### Establishing the AI Center of Excellence - AI Center Of Excellence
@@ -10796,6 +10906,7 @@ MOTOR OIL Group continuously strengthens its security and emergency response fra
 
 The requirements include:. Notification of all concerned establishments
 
+<!-- Report Page 278 -->
 · Deploying a major accident prevention policy
 
 · Producing a safety report for upper tier establishments
@@ -10820,6 +10931,7 @@ CORAL GAS carries out a thorough risk management assessment, which is performed 
 
 To assess the risks associated with OFC's operations, in order, to better manage them, several preparedness exercises are performed, such as the large-scale exercise that takes place annually, in which OFC participates jointly with the Athens International Airport (AIA) and a periodic study on the Emergency Response Plan (ERP).
 
+<!-- Report Page 280 -->
 ##### Security Operations management
 
 To demonstrate and improve security in operations, MOTOR OIL designed a framework (certified in accordance with ISO 18788) for establishing, implementing, operating, monitoring, reviewing, maintaining and improving a Security Operations Management System. The framework aims to safeguard the respect for human rights, the national and international laws and the fundamental freedoms by meeting the Guiding Principles on Business and Human Rights of the United Nations "Protect, Respect and Remedy" framework policy 2011.
@@ -10858,6 +10970,7 @@ During the development of BCMS, MOTOR OIL Group has,. identified critical busine
 
 In conclusion, a robust Business Continuity framework is essential for ensuring the resilience and sustained operations of the MOTOR OIL Group, even in the face of unforeseen disruptions.
 
+<!-- Report Page 282 -->
 Maroussi, April 1st, 2025
 
 THE CHAIRMAN & CEO
