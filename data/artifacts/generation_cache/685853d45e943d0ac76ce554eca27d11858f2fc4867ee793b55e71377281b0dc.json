@@ -1,0 +1,30 @@
+{
+  "direct_answer": "Aker BP integrates sustainability-related performance into its variable remuneration through the company bonus programme, which applies to all permanent employees, including management. Approximately 22% of the bonus potential is dependent on “sustainability-related initiatives and targets” [Source 1]. The bonus is calculated using a performance management system where delivery on company initiatives and KPIs feeds into the bonus; the scheme uses seven of eight equally weighted KPIs (plus initiative achievements and delivery on time/cost/quality for key field development projects) as the basis for variable remuneration [Source 4]. Sustainability-related KPIs explicitly included in the bonus framework include Safety (serious incidents), Equity share scope 1 GHG intensity, and “People and organisation” (based on employee feedback) [Source 4], and the company notes that three of eight KPIs directly address key sustainability aspects such as safety, GHG emission intensity and people/organisation [Source 5]. Governance-wise, the Organisational Development and Compensation Committee (ODCC) is responsible for ensuring remuneration arrangements support the company’s strategy, including sustainability matters [Source 2], and it oversees the setting of targets and monitoring of progress related to KPIs linked to the incentive schemes for executive management team (EMT) remuneration [Source 3].",
+  "compliance_level": "Medium",
+  "compliance_rationale": "The passages provide evidence that sustainability-related performance affects variable remuneration (22% of bonus potential) and identify sustainability-related KPIs used in the bonus framework, as well as ODCC oversight for EMT incentive-linked KPIs [Sources 1, 3, 4, 5]. However, the retrieved text does not specify the approval/update level for incentive scheme terms, does not describe key characteristics specifically for administrative/supervisory bodies (e.g., Board remuneration), and does not clearly distinguish which sustainability targets/impacts apply specifically to members of the administrative, management and supervisory bodies versus the broader employee population [Sources 1, 3, 4].",
+  "disclosure_gaps": [
+    "Whether sustainability-linked incentives/remuneration apply to members of the administrative and supervisory bodies (e.g., Board of Directors) specifically, and if so, the scheme design for those bodies (not just employees/management generally).",
+    "Clear identification of the specific sustainability-related targets/impacts used for remuneration assessment (beyond naming KPIs) and how they are measured/weighted within the sustainability-linked portion.",
+    "Explicit description of how sustainability performance metrics are embedded in remuneration policies/benchmarks for each relevant body (administrative, management, supervisory), including any long-term incentive plans if applicable.",
+    "Proportion of variable remuneration dependent on sustainability-related targets/impacts for EMT/board separately (only an overall ~22% bonus potential figure is provided).",
+    "The level in the undertaking at which the terms of the incentive schemes are approved and updated (e.g., Board, committee, general meeting), as required by ESRS 2 GOV-3."
+  ],
+  "key_findings": [
+    "Approximately 22% of bonus potential is dependent on sustainability-related initiatives and targets; the bonus is paid to all permanent employees, including management [Source 1].",
+    "Variable remuneration (bonus) is driven by delivery on initiatives and KPIs; seven of eight equally weighted KPIs are used as the basis (plus initiative achievements and project delivery on time/cost/quality) [Source 4].",
+    "Sustainability-related KPIs in the bonus framework include Safety and Equity share scope 1 GHG intensity; people & organisation is tracked via employee feedback [Source 4].",
+    "ODCC is tasked with ensuring remuneration supports strategy including sustainability matters, and oversees target-setting and progress monitoring for KPIs linked to EMT incentive schemes [Sources 2, 3]."
+  ],
+  "sources_used": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "_token_usage": {
+    "prompt_tokens": 8622,
+    "completion_tokens": 816,
+    "total_tokens": 9438
+  }
+}

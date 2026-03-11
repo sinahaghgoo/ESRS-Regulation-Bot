@@ -1,0 +1,23 @@
+{
+  "direct_answer": "Aker BP states that it does not have a climate transition plan in line with ESRS requirements, because it has no targets to reduce scope 3 emissions; it also states it does not have a timeline for if/when it will develop such a plan [Source 1]. Therefore, a 1.5°C-aligned transition plan is not disclosed [Source 1].",
+  "compliance_level": "Low",
+  "compliance_rationale": "ESRS E1-1 requires disclosure of whether a transition plan exists and, if not, whether/when it will be adopted. Aker BP discloses it does not have an ESRS-aligned transition plan and has no timeline to develop one [Source 1]. ESRS E1-1/E1-4 also require explaining 1.5°C compatibility by reference to GHG targets; since no ESRS-aligned transition plan is disclosed, no 1.5°C alignment explanation for a transition plan is provided [Source 1].",
+  "disclosure_gaps": [
+    "No ESRS E1-1 transition plan disclosed (content of plan, actions, decarbonisation levers, governance, financing) [Source 1].",
+    "No timeline for adopting an ESRS-aligned transition plan [Source 1].",
+    "No explanation of how targets are compatible with limiting warming to 1.5°C (by reference to GHG targets) as part of a transition plan [Source 1].",
+    "No disclosure that GHG targets are science-based/1.5°C-compatible, including methodology/framework, underlying scenarios, and external assurance (as per ESRS E1-4) in the provided passages [Source 1]."
+  ],
+  "key_findings": [
+    "Aker BP explicitly states it does not have a climate transition plan in line with ESRS requirements and has no timeline to develop one [Source 1].",
+    "Aker BP links the absence of an ESRS-aligned transition plan to having no scope 3 emissions reduction targets [Source 1]."
+  ],
+  "sources_used": [
+    1
+  ],
+  "_token_usage": {
+    "prompt_tokens": 7099,
+    "completion_tokens": 451,
+    "total_tokens": 7550
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "direct_answer": "Aker BP states it does not have a climate change mitigation transition plan that is in line with ESRS requirements, because it does not have targets to reduce Scope 3 emissions; it also states it does not have a timeline for if or when it will develop such a plan [Source 1]. Therefore, the undertaking does not disclose a 1.5°C-aligned transition plan under ESRS E1-1 [Source 1]. Separately, Aker BP discloses that its climate-related targets are not science-based [Source 6], which does not support demonstrating 1.5°C compatibility under ESRS E1-1/E1-4.",
+  "compliance_level": "Low",
+  "compliance_rationale": "The company explicitly discloses that it does not have an ESRS-compliant climate transition plan and that it has no timeline to develop one [Source 1]. It also discloses its climate-related targets are not science-based [Source 6], and the provided passages do not include an explanation of compatibility with limiting warming to 1.5°C as required by ESRS E1-1.16(a) and E1-4.34(e).",
+  "disclosure_gaps": [
+    "No ESRS E1-1 transition plan disclosure (content/structure of a mitigation transition plan) beyond stating it is not in place [Source 1].",
+    "No explanation of how GHG reduction targets are compatible with limiting global warming to 1.5°C (E1-1.16(a)) in the provided passages.",
+    "No timeline for adopting an ESRS-compliant transition plan (E1-1.17); company states it does not have a timeline [Source 1].",
+    "No disclosure of science-based target framework/methodology, underlying climate/policy scenarios used to set targets, or external assurance of targets as required by ESRS E1-4.34(e); company states targets are not science-based and not externally assured [Source 6]."
+  ],
+  "key_findings": [
+    "Aker BP states it does not have a climate transition plan in line with ESRS requirements and has no timeline to develop one [Source 1].",
+    "Aker BP states it has no targets to reduce Scope 3 emissions, which it links to the absence of an ESRS-compliant transition plan [Source 1].",
+    "Aker BP states its climate-related targets are not science-based and are not externally assured [Source 6]."
+  ],
+  "sources_used": [
+    1,
+    6
+  ],
+  "_token_usage": {
+    "prompt_tokens": 8178,
+    "completion_tokens": 546,
+    "total_tokens": 8724
+  }
+}

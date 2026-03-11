@@ -1,0 +1,38 @@
+{
+  "direct_answer": "BASF states it conducted a double materiality assessment for the first time in accordance with ESRS in 2024, building on prior assessments but with greater granularity and documentation, and plans to update it annually [Source 1]. The process had three main steps: (1) compile a list of potential sustainability matters relevant to BASF’s business, customer industries and stakeholder groups, with particular attention to higher-risk parts of the business/value chain; the assessment was performed at BASF Group level along the value chain and considered stakeholder interests via direct inputs (e.g., Advisory Councils, Civil Society Forum, multistakeholder networks) and indirect inputs (e.g., big data analyses of customer and capital market interests) [Source 1]. (2) Use in-house experts and selected stakeholders (Nature Advisory Council and Human Rights Advisory Council) to identify and validate risks and opportunities linked to impacts and dependencies, focusing on activities/sites/value-creation steps with elevated potential for negative impacts and risks; BASF also drew on its Group-wide opportunity and risk management and expert reviews to identify additional risks/opportunities [Source 1]. (3) Score impacts, risks and opportunities using predetermined criteria on a 5-point scale and classify them as material when exceeding defined thresholds; impacts were assessed for severity, scale and scope, with irremediability added for negative impacts and likelihood estimated for potential impacts; opportunities/risks were assessed for financial magnitude and likelihood, aligned with existing risk management methods; results were reviewed iteratively by interdisciplinary experts and risk-reporting experts, and governance bodies (Board of Executive Directors, Supervisory Board, Joint Works Council, Works Council Europe) were informed of process and outcomes [Source 4]. After identifying material IROs, BASF mapped them to ESRS topic/subtopic/sub-subtopic (ESRS 1 AR 16) and assessed “materiality of information” at disclosure/data-point level using EFRAG criteria (decision-usefulness and stakeholder relevance) [Source 3].\n\nBASF does not provide, in the retrieved passages, a consolidated list of which ESRS sustainability matters were material from both an impact and a financial perspective (i.e., ‘double material’ at topic level). The passages confirm that BASF’s main impacts relate to climate change, other environmental matters (emissions to air, water and biodiversity) and its own workforce [Source 2], and that specific topics were identified as material (e.g., E1 Climate Change [Source 12], E3 Water [Source 9], E4 Biodiversity and Ecosystems [Source 7], and Own Workforce [Source 10]). BASF also notes that opportunities and risks identified have financial effects, and that in 2024 financial effects arose in connection with a risk identified under ESRS S3 Affected Communities [Source 2]. However, the retrieved passages do not explicitly state which of the material topics are material in both dimensions (impact and financial) versus only one dimension, nor do they provide the overall results table referenced (e.g., page 169) [Source 12]. BASF also states ESRS S4 Consumers and End Users was assessed as not material [Source 2].",
+  "compliance_level": "Medium",
+  "compliance_rationale": "The retrieved disclosures describe the double materiality assessment methodology in detail (value-chain scope, stakeholder inputs, expert validation, scoring criteria/thresholds, and linkage to risk management and governance review) [Sources 1, 4, 3]. However, the retrieved passages do not include the outcome required by the question—an explicit identification of sustainability matters that are material from both impact and financial perspectives—because the consolidated results (including topic-level double-material classification) are referenced but not provided in the excerpts [Sources 12, 2].",
+  "disclosure_gaps": [
+    "A clear, consolidated list of sustainability matters that are material from both impact and financial perspectives (double-material) at ESRS topic/subtopic level.",
+    "Explicit differentiation, for each material sustainability matter, whether it is impact-material, financially material, or both.",
+    "The referenced overarching results table/time horizons (e.g., page 169) that would evidence which matters are double-material and over what time horizons [Source 12].",
+    "More explicit description of how interdependencies between impact and financial materiality were considered (only partial evidence via impacts/dependencies and risk management linkage) [Source 1].",
+    "Evidence of engagement with affected stakeholders as part of the assessment across topics; for biodiversity BASF explicitly states affected communities were not involved in identifying material topics [Source 7]."
+  ],
+  "key_findings": [
+    "BASF performed an ESRS-aligned double materiality assessment for the first time in 2024, with increased granularity and documentation, and intends annual updates [Source 1].",
+    "Assessment scope covered BASF Group level along the value chain, with heightened attention to higher-risk areas [Source 1].",
+    "Stakeholder interests were incorporated via direct engagement (Advisory Councils, Civil Society Forum, multistakeholder networks) and indirect inputs (big data analyses of customer/capital market interests) [Source 1].",
+    "Risks and opportunities were identified/validated with in-house experts and selected stakeholders (Nature and Human Rights Advisory Councils), leveraging BASF’s opportunity and risk management system [Source 1].",
+    "Impacts, risks and opportunities were scored on a 5-point scale against predetermined criteria and thresholds; impacts considered severity/scale/scope (plus irremediability for negative impacts and likelihood for potential impacts), while risks/opportunities considered financial magnitude and likelihood [Source 4].",
+    "Governance bodies were informed of the process and outcome (Board of Executive Directors, Supervisory Board, Joint Works Council, Works Council Europe) [Source 4].",
+    "BASF indicates main impacts relate to climate change, other environmental matters (including emissions to air, water and biodiversity) and its own workforce [Source 2].",
+    "BASF states ESRS S4 Consumers and End Users was not material [Source 2].",
+    "BASF notes financial effects arose in 2024 in connection with a risk identified under ESRS S3 Affected Communities [Source 2]."
+  ],
+  "sources_used": [
+    1,
+    2,
+    3,
+    4,
+    7,
+    9,
+    10,
+    12
+  ],
+  "_token_usage": {
+    "prompt_tokens": 6691,
+    "completion_tokens": 1337,
+    "total_tokens": 8028
+  }
+}

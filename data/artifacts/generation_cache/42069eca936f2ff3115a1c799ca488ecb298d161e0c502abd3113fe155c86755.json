@@ -1,0 +1,35 @@
+{
+  "direct_answer": "Aker BP states it has a zero-tolerance approach to corruption and bribery, implemented through its Code of Conduct and an anti-corruption policy that applies to employees and business partners and prohibits all forms of corruption including bribery [Source 2][Source 3]. Allegations/incidents are to be handled in line with the anti-corruption policy and applicable laws/regulations, with the compliance department overseeing corruption/bribery risk and reporting quarterly to the executive management team and the audit and risk committee [Source 3]. The company also has a “speaking up” policy and an integrity reporting channel; in 2024 it received 21 whistleblowing cases via the integrity channel and direct reports to the compliance department [Source 2][Source 14]. Aker BP communicates its Code of Conduct and anti-corruption policy through internal channels, external websites, and meetings with suppliers/business partners, and uses contractual provisions to set expectations for business partners’ conduct [Source 3]. Training is described as mandatory: ethics/compliance onboarding for new employees and non-employees, an annual Code of Conduct refresher for the workforce (including executive management) and the board, and additional role-based training for functions at risk (e.g., international site managers/employees; manager dilemma training covering anti-corruption, bribery and speaking up, initiated in 2024) [Source 2][Source 5][Source 9]. In 2024, Aker BP reports no reported incidents of corruption and no convictions or fines for violations of anti-corruption and anti-bribery laws, and also states it has not been convicted of violating corruption and bribery laws [Source 1][Source 2]. The provided passages do not mention any corruption-related legal proceedings during the reporting period beyond the statement of no convictions/fines [Source 1][Source 2].",
+  "compliance_level": "Medium",
+  "compliance_rationale": "The passages describe key elements of a prevention system (policies, reporting/speaking-up channel, compliance risk assessment and training plan, communication to employees and business partners, and governance reporting to EMT and the audit and risk committee) and provide incident metrics (no reported incidents; no convictions/fines) [Source 1][Source 2][Source 3][Source 5][Source 9][Source 14]. However, the evidence does not cover several ESRS G1-3/G1-1 specifics (e.g., investigation independence from management chain, detailed investigation procedures and outcome reporting process, whistleblower protection/anti-retaliation measures, and quantitative training coverage for functions-at-risk) and does not explicitly address legal proceedings (only convictions/fines) [Source 1][Source 3][Source 9][Source 14].",
+  "disclosure_gaps": [
+    "Procedures to detect, investigate, and respond to corruption/bribery allegations in detail (steps, timelines, responsibilities) beyond the statement that allegations/incidents are handled in line with policy and law [Source 3].",
+    "Whether investigators/investigating committee are separate from the management chain involved (independence) [Sources 1-15 do not provide this].",
+    "Process for reporting investigation outcomes to administrative/management/supervisory bodies beyond quarterly risk reporting by compliance to EMT and audit and risk committee [Source 3].",
+    "Whistleblower protection specifics (anti-retaliation measures, protection mechanisms, accessibility for external stakeholders) [Source 14 mentions cases received but not protections; Source 2 mentions speaking up policy but not protections].",
+    "Training disclosure details required by ESRS (nature/scope/depth by audience, frequency beyond annual refresher, and % of functions-at-risk covered) [Source 1 gives completion for workforce/board; Sources 5 and 9 describe training types but not % coverage for functions-at-risk].",
+    "Identification of functions most at risk regarding corruption and bribery (explicit list) [Source 9 implies certain higher-risk positions but does not explicitly identify 'functions most at risk' as required].",
+    "Confirmed incidents detail (e.g., number and nature of confirmed incidents, disciplinary actions, contract terminations) and actions taken to address breaches—only 'no reported incidents' and no convictions/fines are disclosed [Source 1].",
+    "Explicit disclosure on public legal cases/proceedings related to corruption/bribery during the reporting period (only convictions/fines are addressed) [Source 1][Source 2]."
+  ],
+  "key_findings": [
+    "Zero-tolerance stance; Code of Conduct and anti-corruption policy apply to employees and business partners and prohibit all forms of corruption including bribery [Source 2][Source 3].",
+    "Compliance department oversees corruption/bribery risk and reports quarterly to executive management and the audit and risk committee [Source 3].",
+    "Speaking up policy and integrity reporting channel in place; 21 whistleblowing cases received in 2024 [Source 2][Source 14].",
+    "Training system includes mandatory onboarding, annual Code of Conduct refresher for workforce (including EMT) and board, and additional training for functions at risk (international projects course; manager dilemma training initiated in 2024) [Source 1][Source 5][Source 9].",
+    "2024: no reported incidents of corruption and no convictions or fines for anti-corruption/anti-bribery law violations; company states it has not been convicted of violating corruption and bribery laws [Source 1][Source 2]."
+  ],
+  "sources_used": [
+    1,
+    2,
+    3,
+    5,
+    9,
+    14
+  ],
+  "_token_usage": {
+    "prompt_tokens": 7189,
+    "completion_tokens": 1179,
+    "total_tokens": 8368
+  }
+}

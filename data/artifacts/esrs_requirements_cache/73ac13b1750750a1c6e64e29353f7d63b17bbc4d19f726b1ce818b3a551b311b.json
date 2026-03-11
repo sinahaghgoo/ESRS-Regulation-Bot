@@ -1,0 +1,71 @@
+{
+  "requirements": [
+    {
+      "requirement_id": "heuristic",
+      "description": "[content[2].paragraphs[0].14] In all ESRS: (a) the term “impacts” refers to positive and negative sustainability-related impacts that are connected with the undertaking’s business, as identified through an impact materiality assessment (see section 3.4 Impact materiality). It refers both to actual i",
+      "paragraph_refs": [
+        "§2",
+        "§0"
+      ]
+    },
+    {
+      "requirement_id": "heuristic",
+      "description": "[appendix[1].paragraphs[32].66] When determining at which level within its own operations and its upstream and downstream value chain a material sustainability matter arises, the undertaking shall use its assessment of impacts, risks and opportunities following the double materiality principle (see ",
+      "paragraph_refs": [
+        "§1",
+        "§32"
+      ]
+    },
+    {
+      "requirement_id": "heuristic",
+      "description": "[content[3].paragraphs[5].3] Double materiality as the basis for sustainability disclosures",
+      "paragraph_refs": [
+        "§3",
+        "§5"
+      ]
+    },
+    {
+      "requirement_id": "heuristic",
+      "description": "[content[3].paragraphs[6].21] The undertaking shall report on sustainability matters based on the double materiality principle as defined and explained in this chapter.",
+      "paragraph_refs": [
+        "§3",
+        "§6"
+      ]
+    },
+    {
+      "requirement_id": "heuristic",
+      "description": "[content[4].title] 3.1 Stakeholders and their relevance to the materiality assessment process",
+      "paragraph_refs": [
+        "§4",
+        "§3"
+      ]
+    },
+    {
+      "requirement_id": "heuristic",
+      "description": "[content[4].paragraphs[2].24] Engagement with affected stakeholders is central to the undertaking’s on-going due diligence process (see chapter 4 Due diligence) and sustainability materiality assessment. This includes its processes to identify and assess actual and potential negative impacts, which ",
+      "paragraph_refs": [
+        "§4",
+        "§2"
+      ]
+    },
+    {
+      "requirement_id": "heuristic",
+      "description": "[content[5].paragraphs[0].25] Performing a materiality assessment (see sections 3.4 Impact materiality and 3.5 Financial materiality) is necessary for the undertaking to identify the material impacts, risks and opportunities to be reported.",
+      "paragraph_refs": [
+        "§5",
+        "§0"
+      ]
+    },
+    {
+      "requirement_id": "heuristic",
+      "description": "[content[5].paragraphs[1].26] Materiality assessment is the starting point for sustainability reporting under ESRS. IRO-1 in section 4.1 of ESRS 2, includes general disclosure requirements about the undertaking’s process to identify impacts, risks and opportunities and assess their materiality. SBM-",
+      "paragraph_refs": [
+        "§5",
+        "§1"
+      ]
+    }
+  ],
+  "summary": "Fallback lexical extraction was used due LLM parsing/API issue.",
+  "standard_name": "ESRS 1",
+  "full_context": "Standard: ESRS 1\nTitle: GENERAL REQUIREMENTS\n[objective.1] Categories of ESRS Standards, reporting areas and drafting conventions\n[objective.2] Specifically, ESRS specify the information that an undertaking shall disclose about its material impacts, risks and opportunities in relation to environmental, social, and governance sustainability matters. ESRS do not require undertakings to disclose any information on environmental, social and governance topics covered by ESRS when the undertaking has assessed the topic in question as non-material (See Appendix E of this Standard “Flowchart for determining disclosures to be included”).The information disclosed in accordance with ESRS enables users of the sustainability statement to understand the undertaking’s material impacts on people and environment and the material effects of sustainability matters on the undertaking’s development, performance and position.\n[objective.3] The objective of this Standard (ESRS 1) is to provide an understanding of the architecture of ESRS, the drafting conventions and fundamental concepts used, and the general requirements for preparing and presenting sustainability information in accordance with Directive 2013/34/EU, as amended by Directive (EU) 2022/2464.\n[content[0].title] 1.1 Categories of ESRS standards\n[content[0].paragraphs[0].4] There are three categories of ESRS: (a) cross-cutting standards; (b) topical standards (Environmental, Social and Governance standards); and (c) sector-specific standards. Cross-cutting standards and topical standards are sector-agnostic, meaning that they apply to all undertakings regardless of which sector or sectors the undertaking operates in.\n[content[0].paragraphs[1].5] The cross-cutting standards ESRS 1 General requirements and ESRS 2 General disclosures apply to the sustainability matters covered by topical standards and sector-specific standards.\n[content[0].paragraphs[2].6] This standard (ESRS 1) describes the architecture of ESRS standards, explains drafting conventions and fundamental concepts, and sets out general requirements for preparing and presenting sustainability-related information.\n[content[0].paragraphs[3].7] ESRS 2 establishes Disclosure Requirements on the information that the undertaking shall provide at a general level across all material sustainability matters on the reporting areas governance, strategy, impact, risk and opportunity management, and metrics and targets.\n[content[0].paragraphs[4].8] Topical ESRS cover a sustainability topic and are structured into topics and sub-topics, and where necessary sub-sub- topics. The table in Application Requirement 16 (AR 16) to this standard provides an overview of the sustainability topics, sub-topics and sub-sub-topics (collectively ‘sustainability matters’) covered by topical ESRS. (1) Directive 2013/34/EU of the European Parliament and of the Council of 26 June 2013 on the annual financial statements, consolidated financial statements and related reports of certain types of undertakings, amending Directive 2006/43/EC of the European Parliament and of the Council and repealing Council Directives 78/660/EEC and 83/349/EEC (OJ L 182, 29.6.2013, p. 19). (2) Directive (EU) 2022/2464 of the European Parliament and of the Council of 14 December 2022 amending Regulation (EU) No 537/2014, Directive 2004/109/EC, Directive 2006/43/EC and Directive 2013/34/EU, as regards corporate sustainability reporting (OJ L 322, 16.12.2022, p. 15).\n[content[0].paragraphs[5].9] Topical ESRS can include specific requirements that complement the general level Disclosure Requirements of ESRS\n[content[0].paragraphs[6].2] ESRS 2 Appendix C Disclosure/Application Requirements in topical ESRS that are applicable jointly with ESRS 2 General Disclosures provides a list of the additional requirements in topical ESRS that the undertaking shall apply in conjunction with the general level disclosure requirements of ESRS 2.\n[content[0].paragraphs[7].10] Sector-specific standards are applicable to all undertakings within a sector. They address impacts, risks and opportunities that are likely to be material for all undertakings in a specific sector and that are not covered, or not sufficiently covered, by topical standards. Sector-specific standards are multi-topical and cover the topics that are most relevant to the sector in question. Sector-specific standards achieve a high degree of comparability.\n[content[0].paragraphs[8].11] In addition to the disclosure requirements laid down in the three categories of ESRS, when an undertaking concludes that an impact, risk or opportunity is not covered or not covered with sufficient granularity by an ESRS but is material due to its specific facts and circumstances, it shall provide additional entity-specific disclosures to enable users to understand the undertaking’s sustainability-related impacts, risks or opportunities. Application requirements AR 1 to AR 5 provide further guidance regarding entity-specific disclosures.\n[content[1].title] 1.2 Reporting areas and minimum content disclosure requirements on policies, actions, targets and metrics\n[content[1].paragraphs[0].12] The Disclosure Requirements in ESRS 2, in topical ESRS and in sector-specific ESRS are structured into the following reporting areas: (a) Governance (GOV): the governance processes, controls and procedures used to monitor, manage and oversee impacts, risks and opportunities (see ESRS 2, chapter 2 Governance); (b) Strategy (SBM): how the undertaking’s strategy and business model interact with its material impacts, risks and opportunities, including how the undertaking addresses those impacts, risks and opportunities (see ESRS 2, chapter 3 Strategy); (c) Impact, risk and opportunity management (IRO): the process(es) by which the undertaking: i. identifies impacts, risks and opportunities and assesses their materiality (see IRO-1 in section 4.1 of ESRS 2), ii. manages material sustainability matters through policies and actions (see sec"
+}

@@ -1,0 +1,28 @@
+{
+  "direct_answer": "A fully disclosed transition plan is not yet in place in the reporting: Galp states it is “maturing its energy transition plan” and “estimates to publish its energy transition plan upon maturing its portfolio assessment” [Source 1]. Therefore, based on the provided passages, a published transition plan cannot be confirmed. As a result, 1.5°C alignment of a transition plan is not demonstrated; additionally, Galp notes it is “reassessing its emission reduction targets” and that a target-setting process is underway [Source 2], which further prevents substantiating 1.5°C compatibility from the evidence provided.",
+  "compliance_level": "Low",
+  "compliance_rationale": "ESRS E1-1 requires disclosure of whether a transition plan exists and, if it exists, disclosure of the plan and how targets are compatible with limiting warming to 1.5°C. The passages indicate the plan is still being matured and will be published in the future, rather than disclosed now [Source 1]. ESRS E1-4 support for 1.5°C alignment via targets is also not evidenced here because Galp is reassessing targets and has not presented 1.5°C-compatible/science-based targets or methodologies in the provided excerpts [Source 2].",
+  "disclosure_gaps": [
+    "Clear statement that a transition plan exists today vs. is under development, and the full transition plan disclosure (ESRS E1-1).",
+    "Explanation of how GHG reduction targets are compatible with limiting global warming to 1.5°C (Paris Agreement) as part of the transition plan disclosure (ESRS E1-1).",
+    "Climate-related targets with explicit statement whether they are science-based and 1.5°C compatible, including methodology/framework and scenarios used (ESRS E1-4).",
+    "Time-bound implementation roadmap, decarbonisation levers, key actions, and associated investments/funding in a structured transition plan format (beyond high-level project areas).",
+    "Locked-in emissions assessment (ESRS E1-1).",
+    "Governance approvals of the transition plan by administrative/management/supervisory bodies and how it is embedded in strategy and financial planning (ESRS E1-1).",
+    "Progress against the transition plan (since the plan is not yet published) (ESRS E1-1)."
+  ],
+  "key_findings": [
+    "Galp reports it is maturing an energy transition plan and expects to publish it after completing portfolio assessment [Source 1].",
+    "Galp discloses oil and gas-related CapEx in 2024 (€1,013m) and no coal investments; it expects ~35% of 2025–2026 gross capex to be allocated to low-carbon activities [Source 1].",
+    "Galp indicates it is reassessing emission reduction targets and conducting analysis to support future target-setting [Source 2]."
+  ],
+  "sources_used": [
+    1,
+    2
+  ],
+  "_token_usage": {
+    "prompt_tokens": 11573,
+    "completion_tokens": 638,
+    "total_tokens": 12211
+  }
+}

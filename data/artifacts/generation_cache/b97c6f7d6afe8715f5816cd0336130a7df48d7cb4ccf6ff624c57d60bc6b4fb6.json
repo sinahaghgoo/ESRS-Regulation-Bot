@@ -1,0 +1,34 @@
+{
+  "direct_answer": "BASF states it has a Group-wide compliance management system/Compliance Program with a global Code of Conduct, supported by continuous systematic compliance risk analyses (including corruption) at divisional and Group company level and regular compliance audits by the Corporate Audit unit to identify and monitor risks and adherence to guidelines [Source 1]. It operates a global BASF compliance hotline as a grievance/reporting mechanism that is publicly accessible (including to third parties) and run by an independent external provider; cases are documented in a global compliance case management system, reviewed by the BASF Compliance Team, and investigated with involvement of relevant specialist units and, where needed, external lawyers/experts; remedial and disciplinary measures (up to termination) are determined after investigation, and the grievance procedure is evaluated annually for effectiveness [Sources 11, 3]. For prevention, BASF provides ongoing workshops and mandatory training (basic/refresher/specialized) for all employees, with refresher training every two years; training content includes corruption and bribery and information about grievance mechanisms, and BASF reports that functions-at-risk are fully covered; in 2024, >120,000 employees received >105,000 hours of Code of Conduct training, and additional integrity workshops/training were offered for senior executives and managing directors of Group companies [Sources 12, 1]. BASF also highlights specific controls for higher-risk functions (procurement identified as most at risk) including a 'Zero Gift Policy' prohibiting procurement employees from accepting gifts [Source 1]. In addition, BASF revised global business partner due diligence requirements and introduced an IT application for business partner screening; it conducts ongoing risk-based reviews of business relationships for signs of corrupt behavior, with compliance experts evaluating alerts and documenting results [Source 5].\n\nRegarding incidents/legal proceedings: BASF discloses that in the 2024 reporting year there were no convictions for violations of anti-corruption and anti-bribery regulations [Source 5]. The provided passages do not state the number/nature of confirmed corruption incidents, any fines, or whether any public legal cases/proceedings related to corruption/bribery were brought against BASF or its workers during the reporting period (beyond the statement on convictions) [Source 5].",
+  "compliance_level": "Medium",
+  "compliance_rationale": "The passages provide substantial detail on prevention/detection systems (risk analyses, audits, hotline with external provider, case management, investigation approach, training volumes and coverage, procurement 'Zero Gift Policy', and business partner due diligence/screening) [Sources 1, 11, 12, 5, 3]. However, incident/outcome reporting is incomplete for ESRS G1-4 because only 'no convictions' is explicitly disclosed; the excerpts do not provide the number of confirmed corruption/bribery incidents, fines/amounts, or details of any corruption-related legal proceedings/cases and outcomes [Source 5]. Also, several ESRS G1-3 procedural specifics (e.g., explicit independence/separation of investigators from management chain; formal reporting of outcomes to governance bodies; % of functions-at-risk trained; training for administrative/supervisory bodies) are not fully evidenced in the provided text [Sources 11, 12].",
+  "disclosure_gaps": [
+    "Number and nature of confirmed incidents of corruption or bribery during the reporting period (beyond 'no convictions') [Source 5].",
+    "Amount of fines for violations of anti-corruption and anti-bribery laws (not disclosed in provided passages) [Source 5].",
+    "Details/outcomes of any public legal cases/proceedings related to corruption or bribery brought against the undertaking and its own workers during the reporting period (not disclosed in provided passages) [Source 5].",
+    "Actions taken specifically to address breaches in anti-corruption/anti-bribery procedures and standards (only general countermeasures across Code of Conduct categories are described) [Source 3].",
+    "Whether investigators/investigating committee are separate from the management chain involved (not specified) [Source 11].",
+    "Process to report investigation outcomes to administrative, management and supervisory bodies (not specified) [Source 11].",
+    "Training coverage metrics required by ESRS G1-3 (e.g., percentage of functions-at-risk covered; extent of training for administrative/management/supervisory bodies) are not quantified, although BASF states functions-at-risk are fully covered and provides total training volumes [Source 12]."
+  ],
+  "key_findings": [
+    "Continuous systematic compliance risk analyses include corruption risks; procurement employees are identified as most at risk and are subject to a 'Zero Gift Policy' [Source 1].",
+    "Corporate Audit performs regular compliance audits and monitors adherence to compliance principles; 68 compliance audits were conducted Group-wide in 2024 [Sources 5, 1].",
+    "A global compliance hotline is publicly accessible, operated by an independent external provider, and supported by a uniform global case management system; cases are reviewed by the Compliance Team and investigated with internal/external support as needed [Sources 11, 3].",
+    "Mandatory and ongoing compliance training includes corruption and bribery content and grievance mechanism information; refresher training is required every two years; in 2024, >120,000 employees received >105,000 hours of Code of Conduct training, and functions-at-risk are stated to be fully covered [Source 12].",
+    "Business partner due diligence was strengthened in 2024 with revised requirements and an IT screening tool; BASF conducts ongoing risk-based reviews for signs of corrupt behavior and documents results [Source 5].",
+    "BASF reports no convictions for violations of anti-corruption and anti-bribery regulations in the reporting year [Source 5]."
+  ],
+  "sources_used": [
+    1,
+    3,
+    5,
+    11,
+    12
+  ],
+  "_token_usage": {
+    "prompt_tokens": 7371,
+    "completion_tokens": 1231,
+    "total_tokens": 8602
+  }
+}

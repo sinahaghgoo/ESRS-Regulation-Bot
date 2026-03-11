@@ -1,0 +1,28 @@
+{
+  "direct_answer": "As of December 31, 2024, BASF reported 111,822 employees, comprising 81,572 men and 30,250 women (0 not disclosed) [Source 2]. By employment/contract type and gender (as of December 31, 2024): permanent employees 106,776 (78,081 men; 28,695 women); temporary employees 2,105 (1,183 men; 922 women); apprentices 2,941 (2,308 men; 633 women); non-guaranteed hours employees 0 (0 men; 0 women) [Source 3]. Women held 29.3% of leadership positions with disciplinary responsibility worldwide as of December 31, 2024 [Source 1].",
+  "compliance_level": "Medium",
+  "compliance_rationale": "The passages provide a point-in-time headcount breakdown of employees by gender and by contract type, including non-guaranteed hours (reported as zero) [Source 2][Source 3]. They also provide the percentage of women in leadership positions with disciplinary responsibility (29.3%) [Source 1]. However, the retrieved passages do not provide all ESRS S1-6 methodological elements (e.g., explicit headcount vs FTE statement, average vs point-in-time for all figures, and cross-reference to the most representative number in the financial statements) and do not provide the number of women/men in top management (only a leadership percentage) [Source 1][Source 15].",
+  "disclosure_gaps": [
+    "Explicit statement whether the workforce figures are headcount or FTE (the tables provide numbers but do not explicitly label headcount vs FTE in the retrieved passages) [Source 2][Source 3].",
+    "Average number of employees over the reporting period (only as-of Dec 31 figures are provided in the retrieved passages) [Source 2][Source 3].",
+    "Cross-reference to the most representative employee number in the financial statements (only a general note that wage/salary expenses are in the Notes is provided) [Source 8].",
+    "Gender distribution at 'top management level' in both number and percentage (the retrieved passages provide a percentage for leadership positions with disciplinary responsibility, but not the number of top management by gender) [Source 1]."
+  ],
+  "key_findings": [
+    "Total employees as of Dec 31, 2024: 111,822; women: 30,250; men: 81,572 [Source 2].",
+    "Permanent employees: 106,776; temporary employees: 2,105; apprentices: 2,941; non-guaranteed hours employees: 0 (all as of Dec 31, 2024), with gender splits provided [Source 3].",
+    "Women in leadership positions with disciplinary responsibility worldwide: 29.3% as of Dec 31, 2024 [Source 1]."
+  ],
+  "sources_used": [
+    1,
+    2,
+    3,
+    8,
+    15
+  ],
+  "_token_usage": {
+    "prompt_tokens": 7211,
+    "completion_tokens": 653,
+    "total_tokens": 7864
+  }
+}

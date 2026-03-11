@@ -1,0 +1,29 @@
+{
+  "direct_answer": "Yes. OMV states it has “developed a transition plan” to support its ambition of becoming a net-zero business by 2050 and that it is an integral part of OMV Strategy 2030, complemented by short-, mid- and long-term targets across Scopes 1–3 [Source 5]. OMV also reports it is “actively progressing with the implementation of its transition plan” [Source 1].\n\nOn 1.5°C alignment: OMV provides a temperature-alignment assessment indicating a mixed picture rather than unequivocal 1.5°C alignment. OMV concludes its targets are aligned with “well below 2°C” and states it is “confident” its Scope 3 2030 targets are compatible with limiting warming to 1.5°C, while Scope 1 and 2 “come close” [Source 2]. OMV’s scenario analysis also states “All OMV’s targets fall within [an IPCC 1.5°C scenario] range, indicating alignment with a 1.5°C world” [Source 7]. However, OMV also discloses that its Scope 1 and 2 targets are “Not aligned” with the IEA NZE pathway in its alignment table [Source 3], and that its 2030/2040 targets align with the IEA APS pathway “but not the NZE” (while being “over 80% aligned” on an intensity basis) [Source 12].",
+  "compliance_level": "Medium",
+  "compliance_rationale": "The existence of a transition plan is explicitly disclosed and linked to strategy and targets, with implementation progress described [Source 5] [Source 1]. OMV also provides scenario-based discussion and temperature-alignment tables addressing 1.5°C considerations [Source 2] [Source 3] [Source 7] [Source 12]. However, the evidence shows inconsistent/nuanced alignment outcomes (e.g., not aligned with IEA NZE for Scope 1&2; nearly aligned for Scope 3; confidence statements), so a clear statement that the overall transition plan is fully 1.5°C-aligned is not consistently supported across the disclosed criteria [Source 2] [Source 3] [Source 12].",
+  "disclosure_gaps": [
+    "A single, unambiguous conclusion on whether the overall transition plan (not only selected targets) is 1.5°C-aligned across Scopes 1–3, reconciling the differing results across alignment criteria/scenarios (e.g., IEA NZE vs other pathways) [Source 2] [Source 3] [Source 12].",
+    "Explicit explanation of how OMV defines “aligned,” “within range,” “nearly aligned,” and “not aligned” in its temperature-alignment tables and how these map to a 1.5°C-aligned transition plan conclusion [Source 2] [Source 3].",
+    "Clear linkage (in the provided passages) between the transition plan and a quantified 1.5°C pathway for the full business model/portfolio beyond target-level comparisons (e.g., how CAPEX and production targets are made consistent with 1.5°C) [Source 9] [Source 12]."
+  ],
+  "key_findings": [
+    "OMV discloses it has developed a transition plan as part of Strategy 2030, with net-zero by 2050 and interim absolute and intensity targets for Scopes 1–3 [Source 5].",
+    "OMV reports active progress in implementing the transition plan, including reductions in Scope 1–2 (23% vs 2019) and Scope 3 (17% vs 2019) and investment of EUR 1 bn in 2024 [Source 1].",
+    "OMV’s own assessment indicates Paris “well below 2°C” alignment and expresses confidence that Scope 3 2030 targets are compatible with 1.5°C, while Scope 1–2 “come close” [Source 2].",
+    "Temperature-alignment disclosures show mixed results against IEA NZE: Scope 1&2 are reported “Not aligned” with the IEA NZE pathway, while intensity-based alignment is reported as >80% aligned and Scope 3 is described as “nearly aligned” with IEA NZE [Source 3] [Source 2] [Source 12]."
+  ],
+  "sources_used": [
+    1,
+    2,
+    3,
+    5,
+    7,
+    12
+  ],
+  "_token_usage": {
+    "prompt_tokens": 7191,
+    "completion_tokens": 963,
+    "total_tokens": 8154
+  }
+}

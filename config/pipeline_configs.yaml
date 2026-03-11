@@ -1,0 +1,58 @@
+# ===================================================================
+# ESRS RAG Pipeline Configuration
+# ===================================================================
+# This file defines the experiment configurations used for benchmarking.
+# Each configuration isolates variables for the research questions (RQ1-RQ3).
+
+# --- Default pipeline settings ---
+default:
+  chunking_strategy: structure_aware
+  chunk_size_tokens: 512
+  chunk_overlap_tokens: 64
+  embedding_model: text-embedding-3-large
+  embedding_dimensions: 3072
+  retrieval_method: hybrid
+  top_k: 15
+  rrf_k: 60
+  use_reranker: false
+  rerank_top_n: 10
+  llm_model: gpt-5.2
+  max_generation_tokens: 2048
+  temperature: 0.1
+
+# --- RQ1: Chunking comparison ---
+RQ1_fixed_512:
+  chunking_strategy: fixed_size
+  chunk_size_tokens: 512
+  chunk_overlap_tokens: 64
+
+RQ1_structure_aware:
+  chunking_strategy: structure_aware
+  chunk_size_tokens: 512
+  chunk_overlap_tokens: 64
+
+# --- RQ2: Retrieval method comparison ---
+RQ2_dense_only:
+  retrieval_method: dense
+  use_reranker: false
+
+RQ2_sparse_only:
+  retrieval_method: sparse
+  use_reranker: false
+
+RQ2_hybrid:
+  retrieval_method: hybrid
+  use_reranker: false
+
+RQ2_hybrid_rerank:
+  retrieval_method: hybrid
+  use_reranker: true
+
+# --- RQ3: Generation quality (best vs weaker retrieval) ---
+RQ3_best_retrieval:
+  retrieval_method: hybrid
+  use_reranker: false
+
+RQ3_sparse_retrieval:
+  retrieval_method: sparse
+  use_reranker: false

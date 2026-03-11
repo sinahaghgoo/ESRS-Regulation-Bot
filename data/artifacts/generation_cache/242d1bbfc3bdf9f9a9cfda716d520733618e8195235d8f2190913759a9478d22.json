@@ -1,0 +1,29 @@
+{
+  "direct_answer": "Yes. Equinor discloses that it has an Energy transition plan (ETP), first published in 2022 and updated in 2025, which sets out ambitions and actions to support its net-zero ambition for 2050 and is integrated into business planning and approved by the board and CEO. [Source 4][Source 2][Source 3]\n\nOn 1.5°C alignment: Equinor states that its target to reduce net operated (scope 1+2) emissions by 50% from 2015 to 2030 is “consistent with a science based, 1.5℃-aligned trajectory as defined by IPCC pathways,” and also states these targets “align with the lower end of IPCC 1.5°C-consistent pathways.” [Source 2][Source 5] However, the retrieved passages do not provide the ESRS E1-4 level detail on the methodology/framework used to assess 1.5°C compatibility (beyond referencing IPCC pathways), nor external assurance of targets.",
+  "compliance_level": "Medium",
+  "compliance_rationale": "Evidence clearly confirms the existence of a climate transition plan (ETP), including governance (board/CEO approval) and integration into strategy and planning. [Source 4][Source 2][Source 3][Source 1] Evidence also includes an explicit claim of 1.5°C alignment for a key scope 1+2 target and a statement that targets align with IPCC 1.5°C-consistent pathways. [Source 2][Source 5] But the retrieved passages do not include the full ESRS E1-4 disclosures needed to substantiate 1.5°C compatibility (e.g., specific framework/methodology, underlying scenarios for target-setting, and whether targets are externally assured).",
+  "disclosure_gaps": [
+    "Framework/methodology used to determine that GHG targets are science-based and compatible with limiting warming to 1.5°C (beyond general reference to IPCC pathways).",
+    "Underlying climate and policy scenarios used specifically for setting the GHG emission reduction targets (not just for portfolio resilience testing).",
+    "Whether the GHG targets (and/or transition plan) have been externally assured.",
+    "Clear explanation (by reference to GHG targets) of how the overall transition plan (including value chain aspects) is compatible with limiting warming to 1.5°C; retrieved evidence focuses mainly on operated scope 1+2 and provides limited substantiation for value chain alignment."
+  ],
+  "key_findings": [
+    "Equinor has an Energy transition plan (ETP), first published in 2022 and updated in 2025, setting out short- and medium-term ambitions/actions to support a net-zero ambition for 2050. [Source 4]",
+    "The ETP is integrated into business planning and is developed/reviewed/updated in consultation with and approved by the board of directors and the CEO; progress is reported annually. [Source 2][Source 3]",
+    "Equinor states an operated (scope 1+2) emissions reduction aim of 50% from 2015 to 2030 and claims this pace/scale is consistent with a science-based, 1.5°C-aligned trajectory as defined by IPCC pathways. [Source 2]",
+    "Equinor also states that these targets align with the lower end of IPCC 1.5°C-consistent pathways. [Source 5]"
+  ],
+  "sources_used": [
+    1,
+    2,
+    3,
+    4,
+    5
+  ],
+  "_token_usage": {
+    "prompt_tokens": 7458,
+    "completion_tokens": 759,
+    "total_tokens": 8217
+  }
+}
