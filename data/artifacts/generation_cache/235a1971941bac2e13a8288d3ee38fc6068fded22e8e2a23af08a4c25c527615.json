@@ -1,0 +1,33 @@
+{
+  "direct_answer": "MOL conducted a double materiality assessment (DMA) in 2024 using a new methodology aligned to CSRD and EFRAG guidance, shifting the focus from ranking topics to identifying material impacts on people/environment and sustainability-related financial risks and opportunities (IROs) [Source 2]. The DMA started with identifying impacts (as risks/opportunities generally derive from impacts and dependencies), drawing on survey-based stakeholder engagement results, due diligence findings, peer/sector studies, and deep-dive workshops with relevant internal subject matter experts and leaders [Source 2]. Impacts were rated by severity (for negative impacts: scale, scope and irremediable character; for positive impacts: scale and scope), likelihood and time horizons [Source 2]. Financial materiality assessment considered (i) resources allocated to mitigate related risks and negative impacts and, where applicable, deviation in EBITDA, and (ii) ERM-aligned thresholds where USD 20m mid-term Group-level impact is a reporting threshold and USD 50m is the materiality threshold; risk likelihood categories followed Group ERM requirements [Source 13]. Opportunities were identified starting from MOL’s “Shape Tomorrow” strategy (revised in 2024) and management input during ERM workshops, and classified by maturity and expected EBITDA uplift and/or associated investments [Source 13]. The DMA results were validated by internal SMEs and key external stakeholders; the Board of Directors validated the results and an external auditor approved the methodology [Source 5].\n\nSustainability matters identified as material from both an impact and a financial perspective (i.e., material in both dimensions) include: Climate change (material from impact perspective; also material financially in the short- and medium-term due to high likelihood and high magnitude of financial effect) [Source 15]; Resource use and circular economy (concluded material from both impact and financial perspective) [Source 6]; and Governance (concluded material from both impact and financial perspective) [Source 9].",
+  "compliance_level": "Medium",
+  "compliance_rationale": "The passages provide clear evidence of (i) the DMA approach and sequencing (starting from impacts), (ii) inputs used (stakeholder engagement, due diligence, studies, workshops), (iii) impact criteria (severity components, likelihood, time horizons), (iv) financial materiality approach including ERM thresholds and likelihood categories, and (v) validation/approval steps [Sources 2, 5, 13]. They also explicitly identify several sustainability matters as material in both impact and financial dimensions (climate change, resource use & circular economy, governance) [Sources 6, 9, 15]. However, the retrieved evidence does not provide a complete list of all sustainability matters that are material in both dimensions across the full ESRS topic set, nor does it show the full materiality matrix outcomes.",
+  "disclosure_gaps": [
+    "Complete list of all sustainability matters assessed and which are material in both impact and financial dimensions (only some topics are evidenced in the retrieved passages).",
+    "Explicit description of how interdependencies between impact and financial materiality were assessed across topics (beyond the general statement that risks/opportunities generally derive from impacts).",
+    "Detailed description of qualitative/quantitative thresholds used for impact materiality decisions (beyond severity/likelihood/time horizon rating approach).",
+    "Full description of stakeholder engagement methodology and how affected stakeholders’ inputs specifically influenced impact materiality conclusions (the DMA section references stakeholder engagement results but does not detail affected-stakeholder engagement steps in the retrieved DMA methodology passages).",
+    "Explicit value-chain boundary description for the DMA across all topics (some references exist to business relationships/value chains, but not a comprehensive boundary description in the retrieved passages)."
+  ],
+  "key_findings": [
+    "MOL introduced a new DMA methodology in 2024 aligned with CSRD and EFRAG guidance, focusing on identifying material impacts, risks and opportunities (IROs) rather than only topic importance [Source 2].",
+    "DMA started with identifying impacts, using stakeholder engagement results, due diligence findings, peer/sector studies, and internal deep-dive workshops; impacts were rated by severity, likelihood and time horizons [Source 2].",
+    "Financial materiality assessment considered mitigation resources and (where applicable) EBITDA deviation, and used ERM-aligned thresholds (USD 20m reporting; USD 50m materiality) and ERM likelihood categories [Source 13].",
+    "Opportunities identification was anchored in the “Shape Tomorrow” strategy and management input; opportunities were classified by maturity and expected EBITDA/investment magnitude [Source 13].",
+    "DMA results were validated by internal SMEs and key external stakeholders; Board validated results and an external auditor approved the methodology [Source 5].",
+    "Material in both impact and financial perspectives (evidenced): Climate change [Source 15], Resource use and circular economy [Source 6], Governance [Source 9]."
+  ],
+  "sources_used": [
+    2,
+    5,
+    6,
+    9,
+    13,
+    15
+  ],
+  "_token_usage": {
+    "prompt_tokens": 8979,
+    "completion_tokens": 1055,
+    "total_tokens": 10034
+  }
+}

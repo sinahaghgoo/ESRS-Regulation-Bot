@@ -1,0 +1,23 @@
+{
+  "direct_answer": "Yes. Helleniq (HELLENIQ ENERGY) discloses a climate change mitigation transition plan referred to as its “corporate transformation plan” / “Vision 2025”. The plan focuses on upgrading traditional activities and expanding into renewable energy sources (RES) and clean energy, and it has been approved (Extraordinary General Meeting/Board) on 10 December 2021. [Source 1]\n\nThe company explicitly states that, at present, its targets “are not fully compatible with limiting global warming to 1.5℃, as outlined in the Paris Agreement,” noting that science-based targets cannot yet be set for energy companies with >50% net revenue from oil & gas because SBTi oil & gas guidance is not finalized; it will assess once the methodology is finalized. [Source 1]\n\nBecause a transition plan exists, a timeline for adopting one is not applicable/disclosed. [Source 1]",
+  "compliance_level": "Medium",
+  "compliance_rationale": "Evidence confirms the existence of a transition plan (Vision 2025), its strategic direction, and approval date. [Source 1] Evidence also directly addresses 1.5°C alignment by stating the targets are not fully compatible with 1.5°C and explains the constraint regarding SBTi methodology for oil & gas-heavy companies. [Source 1] However, the retrieved passages do not provide the detailed ESRS E1-1/E1-4 elements needed to substantiate (or quantify) Paris/1.5°C compatibility (e.g., specific methodology/framework for 1.5°C alignment, external validation/assurance of targets). [Source 1]",
+  "disclosure_gaps": [
+    "Detailed explanation of how the transition plan’s GHG targets are compatible with limiting warming to 1.5°C (the company instead states they are not fully compatible). [Source 1]",
+    "Whether and how targets are science-based and compatible with 1.5°C, including the specific framework/methodology used and whether targets have been externally assured (not evidenced in the retrieved passages). [Source 1]",
+    "Underlying climate and policy scenarios used specifically to set/validate the GHG reduction targets for 1.5°C compatibility (not evidenced in the retrieved passages). [Source 1]"
+  ],
+  "key_findings": [
+    "Helleniq has a climate mitigation transition plan (“Vision 2025” / corporate transformation plan) approved on 10 December 2021. [Source 1]",
+    "The company states its current targets are not fully compatible with limiting global warming to 1.5°C. [Source 1]",
+    "Helleniq indicates it cannot currently set an SBTi science-based target due to pending oil & gas sector guidance and will assess once the methodology is finalized. [Source 1]"
+  ],
+  "sources_used": [
+    1
+  ],
+  "_token_usage": {
+    "prompt_tokens": 9216,
+    "completion_tokens": 609,
+    "total_tokens": 9825
+  }
+}

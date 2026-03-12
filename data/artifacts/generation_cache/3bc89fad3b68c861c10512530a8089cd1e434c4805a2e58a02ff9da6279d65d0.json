@@ -1,0 +1,25 @@
+{
+  "direct_answer": "BASF integrates sustainability-related performance into incentives primarily through its variable remuneration for the Board of Executive Directors and senior executives, while Supervisory Board remuneration has no variable component.\n\n- **Long-term incentive (LTI) – Board of Executive Directors and senior executives:** BASF anchored the reduction of **Group-wide CO2 emissions (Scope 1 and Scope 2)** as its “most important nonfinancial key performance indicator” in the Group’s steering and compensation systems (since 2020). This CO2 reduction KPI is **one of three equally weighted (33.3%) strategic targets** in the LTI for the Board of Executive Directors and senior executives. [Source 1]\n\n- **Short-term incentive (STI) – senior executives in operating business units:** In the reporting year, BASF introduced an STI program for senior executives in operating business units that, in addition to financial targets, includes three further targets: **(i) occupational and process safety, (ii) sustainability, and (iii) development of the operating divisions**. The first two are sustainability-related. These three objectives are equally weighted and together account for **25% of the total STI formula**, meaning **16.7% of the entire STI formula is sustainability-related**. The sustainability target includes elements contributing to BASF’s “green transformation,” such as **sales of Sustainable-Future Solutions** and increasing the **share of purchased raw materials with supplier-specific Product Carbon Footprints**. [Source 1]\n\n- **Supervisory Board:** Supervisory Board remuneration “does not include any variable components and so is not linked to target achievement.” [Source 1]\n\n- **Approval/update level of incentive scheme terms:** The provided passages do not specify the level at which the terms of these incentive schemes are approved and updated. (BASF notes generally that policies are adopted by the Board of Executive Directors, but this is not stated specifically for incentive scheme terms.) [Source 9]",
+  "compliance_level": "Medium",
+  "compliance_rationale": "The passages provide clear evidence of (i) key characteristics of the incentive schemes (LTI and STI), (ii) specific sustainability targets/metrics used (Scope 1&2 CO2 reduction; occupational/process safety; sustainability elements such as Sustainable-Future Solutions sales and supplier-specific PCFs), and (iii) quantified proportions of variable remuneration linked to sustainability for LTI (33.3% of strategic targets) and STI (16.7% of formula). [Source 1] However, the evidence does not cover ESRS 2 GOV-3 item (e) on the governance level approving/updating incentive scheme terms, and it does not fully explain how sustainability metrics are embedded as benchmarks in remuneration policies beyond the described weighting/targets. [Source 1][Source 9]",
+  "disclosure_gaps": [
+    "Level in the undertaking at which the terms of the incentive schemes are approved and updated (explicitly for remuneration/incentive schemes) is not disclosed in the provided passages. [Source 9]",
+    "Further detail on how sustainability-related performance metrics are used as performance benchmarks or embedded in remuneration policies beyond the stated targets/weightings (e.g., measurement approach, threshold/target/maximum, payout curves) is not provided in the retrieved excerpts. [Source 1]",
+    "No information in the provided passages on whether any sustainability-linked incentives apply to other members of administrative/management bodies beyond the Board of Executive Directors and the specified senior executive populations. [Source 1]"
+  ],
+  "key_findings": [
+    "Reduction of Group-wide Scope 1 and Scope 2 CO2 emissions is the most important nonfinancial KPI in BASF’s steering and compensation systems and is a 33.3% weighted strategic target in the LTI for the Board of Executive Directors and senior executives. [Source 1]",
+    "STI for senior executives in operating business units includes sustainability-related targets (occupational/process safety and sustainability) and results in 16.7% of the total STI formula being sustainability-related. [Source 1]",
+    "Supervisory Board remuneration has no variable component and is not linked to target achievement. [Source 1]",
+    "STI sustainability target elements include sales of Sustainable-Future Solutions and increasing the share of purchased raw materials with supplier-specific Product Carbon Footprints. [Source 1]"
+  ],
+  "sources_used": [
+    1,
+    9
+  ],
+  "_token_usage": {
+    "prompt_tokens": 8617,
+    "completion_tokens": 921,
+    "total_tokens": 9538
+  }
+}

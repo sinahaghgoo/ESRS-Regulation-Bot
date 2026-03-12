@@ -189,7 +189,7 @@ def _generation_cache_key(
     chunks: List[Dict[str, Any]],
     model: str,
 ) -> str:
-    chunk_sig = "||".join(f"{c.get('chunk_id','')}::{c.get('score',0):.6f}" for c in chunks)
+    chunk_sig = "||".join(c.get("chunk_id", "") for c in chunks)
     raw = f"{model}::{company}::{query}::{esrs_context[:2000]}::{chunk_sig}"
     return hashlib.sha256(raw.encode("utf-8")).hexdigest()
 

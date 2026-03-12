@@ -1,0 +1,26 @@
+{
+  "direct_answer": "Yes. SBM Offshore discloses a climate change mitigation transition plan (described as its “GHG emissions reduction plan”) with an ambition to achieve “Net Zero by no later than 2050” (covering scope 1, scope 2 and one scope 3 category: “Downstream leased assets”) and intermediate 2030 targets (100% green energy for scope 1 and 2; 50% reduction of GHG intensity and zero routine flaring for scope 3 downstream leased assets). The plan is approved by the Management Board and Supervisory Board and embedded in overall business strategy and financial planning. [Source 3]\n\nHowever, based on the retrieved passages, SBM Offshore does not explicitly explain how its transition plan and/or targets are compatible with limiting global warming to 1.5°C (e.g., by stating the targets are science-based/1.5°C-aligned and specifying the methodology, scenarios used for target-setting, and external assurance). While SBM Offshore uses scenario analysis including RCP 2.6 (described as “consistent with a 1.5 degrees scenario”) to assess risks and resilience, this is not presented as evidence that the transition plan/targets themselves are 1.5°C-aligned. [Source 2][Source 15]",
+  "compliance_level": "Medium",
+  "compliance_rationale": "The undertaking provides elements of a transition plan (net zero ambition, 2030 interim targets, governance approval, and embedding in strategy/financial planning). [Source 3] But the retrieved passages do not provide the ESRS E1-1-required explanation of 1.5°C compatibility of the plan/targets, nor the ESRS E1-4 details on whether targets are science-based/1.5°C-compatible, methodology/framework, underlying scenarios for target-setting, and external assurance. Scenario analysis referencing a 1.5°C-consistent scenario is disclosed, but it is used for risk/resilience testing rather than substantiating target alignment. [Source 2][Source 15]",
+  "disclosure_gaps": [
+    "Explicit statement and explanation of how the transition plan and GHG targets are compatible with limiting warming to 1.5°C (as required by ESRS E1-1), beyond general references to Paris Agreement/scenario analysis. [Source 2][Source 3][Source 15]",
+    "Disclosure of whether and how the GHG targets are science-based and compatible with 1.5°C, including the framework/methodology used to set/validate targets (e.g., SBTi or other), underlying climate and policy scenarios used for target-setting (not just risk scenario analysis), and whether targets have been externally assured (ESRS E1-4). [Source 2][Source 3]",
+    "Further transition plan components not evidenced in the retrieved passages (e.g., detailed decarbonisation levers quantified, expected GHG reductions by lever, and clear linkage between actions/investments and target achievement). [Source 3][Source 4]"
+  ],
+  "key_findings": [
+    "SBM Offshore discloses a transition plan/“GHG emissions reduction plan” with a net zero ambition by no later than 2050 covering scope 1, scope 2 and scope 3 downstream leased assets. [Source 3]",
+    "Intermediate 2030 targets are disclosed: 100% green energy for scope 1 and 2; 50% reduction of GHG intensity and zero routine flaring for scope 3 downstream leased assets. [Source 3]",
+    "The plan is approved by the Management Board and Supervisory Board and embedded in business strategy and financial planning. [Source 3]",
+    "SBM Offshore performs scenario analysis including RCP 2.6, described as consistent with a 1.5°C scenario, to test resilience and assess risks; this does not, in the retrieved text, confirm that targets are 1.5°C-aligned. [Source 2][Source 15]"
+  ],
+  "sources_used": [
+    2,
+    3,
+    15
+  ],
+  "_token_usage": {
+    "prompt_tokens": 8527,
+    "completion_tokens": 857,
+    "total_tokens": 9384
+  }
+}

@@ -5,7 +5,7 @@ from __future__ import annotations
 import json
 import os
 from pathlib import Path
-from typing import Any, Dict
+from typing import Any, Dict, Optional
 
 import yaml
 
@@ -201,3 +201,55 @@ def load_golden_standard() -> dict:
     """Load and return the Golden Standard evaluation dataset."""
     with open(GOLDEN_STANDARD_PATH, "r", encoding="utf-8") as f:
         return json.load(f)
+
+
+# ---------------------------------------------------------------------------
+# Best pipeline manifest
+# ---------------------------------------------------------------------------
+BEST_PIPELINE_PATH = CONFIG_DIR / "best_pipeline.yaml"
+
+
+def load_best_pipeline_config() -> Dict[str, Any]:
+    """Load the best-performing pipeline configuration from manifest.
+
+    Falls back to default config if no manifest exists.
+    """
+    if not BEST_PIPELINE_PATH.exists():
+        return get_default_pipeline_config()
+    with BEST_PIPELINE_PATH.open("r", encoding="utf-8") as f:
+        manifest = yaml.safe_load(f) or {}
+    if not isinstance(manifest, dict):
+        return get_default_pipeline_config()
+
+    config_name = manifest.get("config_name", "")
+    config_overrides = manifest.get("config", {})
+
+    # Merge over defaults
+    base = get_default_pipeline_config()
+    merged = {**base, **config_overrides}
+    merged["_best_pipeline_name"] = config_name
+    merged["_selection_reason"] = manifest.get("selection_reason", "")
+    return merged
+
+
+def save_best_pipeline_manifest(
+    config_name: str,
+    config: Dict[str, Any],
+    selection_reason: str = "",
+    metrics_summary: Optional[Dict[str, Any]] = None,
+) -> Path:
+    """Persist the best pipeline selection to config/best_pipeline.yaml."""
+    # Strip internal/non-serializable keys
+    clean_config = {k: v for k, v in config.items() if not k.startswith("_")}
+    manifest = {
+        "config_name": config_name,
+        "config": clean_config,
+        "selection_reason": selection_reason,
+    }
+    if metrics_summary:
+        manifest["metrics_summary"] = metrics_summary
+
+    CONFIG_DIR.mkdir(parents=True, exist_ok=True)
+    with BEST_PIPELINE_PATH.open("w", encoding="utf-8") as f:
+        yaml.dump(manifest, f, default_flow_style=False, sort_keys=False)
+    return BEST_PIPELINE_PATH

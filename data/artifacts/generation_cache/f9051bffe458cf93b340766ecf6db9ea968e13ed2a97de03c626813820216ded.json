@@ -1,0 +1,31 @@
+{
+  "direct_answer": "Yes. Equinor discloses that many material climate-related impacts, risks and opportunities are addressed in its Energy transition plan (ETP), first published in 2022 and updated in 2025, which “sets out the ambitions and actions…to support our net-zero ambition for 2050.” [Source 1][Source 3]\n\nOn 1.5°C alignment: Equinor states that it aims to reduce net operated (scope 1+2) emissions by 50% from 2015 to 2030, describing this as “consistent with a science based, 1.5℃-aligned trajectory as defined by IPCC pathways.” [Source 3] It also states that these targets “align with the lower end of IPCC 1.5°C-consistent pathways…consistent with climate scenarios that limit warming to 1.5°C with no or limited overshoot.” [Source 9] However, Equinor also notes that its net zero/net carbon intensity ambition “is not fully aligned with the ESRS definition or boundaries.” [Source 9]\n\nNot applicable: a timeline for adopting a transition plan is not needed because Equinor reports it already has an ETP in place (published 2022; updated 2025). [Source 1]",
+  "compliance_level": "Medium",
+  "compliance_rationale": "Evidence clearly confirms the existence of a climate mitigation transition plan (ETP), including publication/update timing and linkage to net-zero 2050 and business planning/governance. [Source 1][Source 2][Source 3] Evidence also includes explicit claims of 1.5°C alignment for the 2030 scope 1+2 reduction ambition and references to IPCC 1.5°C-consistent pathways. [Source 3][Source 9] However, the retrieved passages do not provide the ESRS E1-4-level detail requested (e.g., specific science-based framework/methodology, underlying scenarios for target-setting, and whether targets were externally assured), and Equinor flags that its net zero/net carbon intensity ambition is not fully aligned with ESRS definitions/boundaries. [Source 9]",
+  "disclosure_gaps": [
+    "Methodology/framework used to substantiate that GHG targets are science-based and 1.5°C-compatible (beyond general reference to IPCC pathways). [Source 3][Source 9]",
+    "Underlying climate and policy scenarios used specifically for setting the GHG targets (as opposed to scenarios used for portfolio resilience testing). [Source 7][Source 8]",
+    "Whether any GHG emission reduction targets have been externally assured. (Not evidenced in retrieved passages.)",
+    "Clear ESRS-aligned explanation of how the full transition plan (including value chain/scope 3) is compatible with limiting warming to 1.5°C; available evidence focuses mainly on scope 1+2 and includes a note that the net zero/net carbon intensity ambition is not fully aligned with ESRS definitions/boundaries. [Source 3][Source 9]",
+    "Gross total absolute scope 3 emissions estimates for 2050 are not available (limits assessment of long-term value chain alignment). [Source 9]"
+  ],
+  "key_findings": [
+    "Equinor has an Energy transition plan (ETP) that addresses material climate-related impacts/risks/opportunities; first published in 2022 and updated in 2025; it sets short- and medium-term ambitions/actions to support a net-zero ambition for 2050. [Source 1][Source 3]",
+    "The transition plan is embedded in strategy and business planning and is developed/reviewed/updated with board and CEO involvement; progress is reported annually. [Source 2][Source 3]",
+    "Equinor’s operational emissions ambition includes reducing net operated scope 1+2 emissions 50% from 2015 to 2030, which it describes as consistent with a science-based, 1.5°C-aligned trajectory defined by IPCC pathways. [Source 3]",
+    "Equinor indicates its targets align with the lower end of IPCC 1.5°C-consistent pathways, but also states its net zero/net carbon intensity ambition is not fully aligned with ESRS definitions/boundaries. [Source 9]"
+  ],
+  "sources_used": [
+    1,
+    2,
+    3,
+    7,
+    8,
+    9
+  ],
+  "_token_usage": {
+    "prompt_tokens": 7984,
+    "completion_tokens": 935,
+    "total_tokens": 8919
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "direct_answer": "Aker BP states that it applies a “systematic approach to identify the material IROs (impacts, risks and opportunities)” and that its double materiality assessment (DMA) covers both (i) impacts from its activities on the environment and society (inside-out) and (ii) financial risks and opportunities that sustainability issues pose to its business model and performance (outside-in), including reputational risk and dependencies on natural, human and social resources [Source 1]. The DMA was first conducted in 2023 and revised in 2024 based on new information, implementation guidance and EFRAG’s draft oil and gas sector standard; it included mapping IROs, their dependencies, and their connection to Aker BP’s own operations and value chain, and followed a four-step process [Source 4]. In identifying and assessing IROs, Aker BP considers activities, business relationships and geographies; it focuses on oil and gas production for own-operations materiality, development projects for upstream value chain topics, and recognises downstream impacts related to the use of petroleum products [Source 3].\n\nStakeholder engagement is described as an input to the DMA: Aker BP maintains dialogue to identify risks, opportunities and actual/potential impacts, including public consultations for PDO impact assessments (with impact assessments shared with “over 40 key stakeholders”), publication of impact assessments, and a whistleblowing channel [Source 2]. For the 2024 DMA, Aker BP used in-depth interviews and workshops with internal management and subject matter experts, and notes that the process was based on prior-year interviews involving owners, key suppliers, customers, NGOs and authorities; it states it includes stakeholders’ perspectives and priorities in the DMA and that the ARC and EMT are kept informed about affected stakeholders’ views through various channels including DMA approval and integrity channel cases [Source 2].\n\nFor evaluation/prioritisation, Aker BP explains that IRO assessments use “severity x likelihood” (similar to consequence x probability) and company scales aligned with its enterprise risk management process; IROs are documented in the same tool as other risks/opportunities and prioritised/handled together with other company risks [Source 1]. It also notes “special attention” to dependencies between impacts and related risks/opportunities and that sustainability topics are evaluated from an impact perspective, a financial perspective, or both [Source 1].\n\nSustainability matters identified as material from both an impact and a financial perspective (i.e., high impact and high financial relevance / “strategic and highest priority”) are: climate change, own workforce, pollution, business conduct, and resource use and circular economy [Source 3].",
+  "compliance_level": "Medium",
+  "compliance_rationale": "The passages provide a clear description of the DMA’s double materiality framing (inside-out and outside-in), integration with enterprise risk management, use of severity x likelihood scoring, attention to dependencies, value chain coverage, and stakeholder engagement channels and inputs [Sources 1-4]. The report also explicitly identifies which topics are high on both impact and financial materiality (climate change, own workforce, pollution, business conduct, resource use and circular economy) [Source 3]. However, the retrieved evidence does not fully detail the specific thresholds/cut-offs used to determine materiality, nor does it provide a complete list of all material sustainability matters that meet both dimensions beyond those highlighted as “strategic and highest priority” in the matrix caption [Source 3].",
+  "disclosure_gaps": [
+    "Specific qualitative and/or quantitative thresholds or cut-off criteria used to determine when an impact/risk/opportunity (and thus a sustainability matter) is material are not provided in the retrieved passages [Source 1].",
+    "A complete list of sustainability matters that are material from both impact and financial perspectives (beyond the ‘strategic and highest priority’ topics) is not evidenced in the retrieved passages [Source 3].",
+    "Detailed explanation of how impact materiality severity dimensions (scale, scope, irremediable character) and likelihood were operationalised is not included in the retrieved passages (only ‘severity x likelihood’ is stated) [Source 1].",
+    "Detailed explanation of how financial materiality (likelihood and magnitude of financial effects) was operationalised is not included in the retrieved passages [Source 1].",
+    "Explicit description of how due diligence outcomes feed into the DMA outcomes is only indirectly referenced (due diligence is described and linked to DMA, but the mechanism/outcome linkage is not detailed in the retrieved passages) [Source 6]."
+  ],
+  "key_findings": [
+    "DMA covers both impact materiality (inside-out) and financial materiality (outside-in), including reputational risk and dependencies on natural, human and social resources [Source 1].",
+    "DMA revised in 2024; includes mapping of IROs, dependencies, and connections to own operations and value chain; follows a four-step process [Source 4].",
+    "IROs assessed using severity x likelihood scoring aligned to enterprise risk management; documented and prioritised in the same tool as other company risks/opportunities [Source 1].",
+    "Stakeholder engagement informs DMA via public consultations for PDO impact assessments, publication of impact assessments, whistleblowing channel, and interviews/workshops; prior-year interviews included owners, suppliers, customers, NGOs and authorities [Source 2].",
+    "Topics identified as material from both impact and financial perspectives (strategic/highest priority) are: climate change, own workforce, pollution, business conduct, and resource use and circular economy [Source 3]."
+  ],
+  "sources_used": [
+    1,
+    2,
+    3,
+    4,
+    6
+  ],
+  "_token_usage": {
+    "prompt_tokens": 9356,
+    "completion_tokens": 1193,
+    "total_tokens": 10549
+  }
+}

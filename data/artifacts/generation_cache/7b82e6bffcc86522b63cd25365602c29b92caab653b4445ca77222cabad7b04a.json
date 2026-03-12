@@ -1,0 +1,34 @@
+{
+  "direct_answer": "Aker BP’s emissions reduction targets focus on Scope 1 and 2 GHG emissions (CO2, CH4 and N2O) from its own operations, with targets set for both operational control and equity share emissions [Source 2][Source 3].\n\n- **2030 target (operational control Scope 1+2):** Reduce operational control Scope 1 and 2 GHG emissions **by 50% by 2030** versus a **2017 baseline of 1.25 million tCO2e** [Source 4].\n- **2050 long-term target (operational control + equity share Scope 1+2):** Achieve **near-zero** operational control and equity share Scope 1 and 2 GHG emissions **by 2050**; “near-zero” is defined as **more than a 90% reduction from the 2017 baseline** [Source 4][Source 8].\n- **2030 target (equity share Scope 1+2):** Achieve **equity share Scope 1 and 2 GHG emission neutrality from 2030**, by neutralising remaining tonnes using **high quality carbon dioxide removal (CDR) credits** from 2030 onwards [Source 5].\n\n**Interim milestones / progress disclosed:**\n- **Progress vs baseline (interim status):** In **2024**, operational control Scope 1 and 2 GHG emissions were **838,200 tCO2e (Scope 1)** and **14,400 tCO2e (Scope 2)**, stated as a **32% reduction from the 2017 baseline** [Source 4].\n- **Planned milestone actions supporting the 2030 pathway:** Aker BP plans to **retire the Ula asset in 2028** and expects **~85% of equity share production to be electrified by 2030** [Source 6].\n\n**Targets not set (relevant boundary):**\n- As of 2024, Aker BP states it has **no targets related to upstream Scope 3 emissions** [Source 9].\n- It also states it has **not set short- or long-term reduction targets for NOx, SOx and nmVOC emissions** [Source 1].",
+  "compliance_level": "Medium",
+  "compliance_rationale": "The passages provide clear Scope 1 and 2 targets with time horizons (2030, 2050), a defined baseline year and baseline value (2017; 1.25 million tCO2e), and an interim progress datapoint for 2024 (32% reduction) [Source 4][Source 8]. They also describe an equity-share neutrality target from 2030 and the intended use of CDR credits [Source 5]. However, interim milestones are limited (mainly a 2024 progress point and selected planned actions like 2028 retirement and 2030 electrification share), and there is no detailed set of interim target levels (e.g., 2025/2027) in the retrieved text [Source 4][Source 6].",
+  "disclosure_gaps": [
+    "No explicit interim target levels/milestones (e.g., annual or 2025/2027 checkpoints) for the 2030 and 2050 Scope 1+2 targets in the retrieved passages.",
+    "No quantified residual emissions expected in 2030 for the equity share neutrality target (i.e., how much will be neutralised via CDR) in the retrieved passages.",
+    "No Scope 3 emissions reduction targets (company states none for upstream Scope 3) [Source 9].",
+    "No short-/long-term reduction targets for NOx, SOx, nmVOC (company states none) [Source 1]."
+  ],
+  "key_findings": [
+    "50% reduction target for operational control Scope 1 and 2 GHG emissions by 2030 vs 2017 baseline (1.25 million tCO2e) [Source 4].",
+    "Near-zero operational control and equity share Scope 1 and 2 GHG emissions by 2050; near-zero defined as >90% reduction from 2017 baseline [Source 8][Source 4].",
+    "Equity share Scope 1 and 2 emission neutrality from 2030, using high-quality CDR credits to neutralise remaining emissions [Source 5].",
+    "Interim progress: 2024 operational control Scope 1+2 emissions correspond to a 32% reduction vs 2017 baseline [Source 4].",
+    "Planned milestone actions include Ula retirement in 2028 and ~85% electrified equity share production by 2030 [Source 6].",
+    "No upstream Scope 3 emissions targets as of 2024 [Source 9]."
+  ],
+  "sources_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    8,
+    9
+  ],
+  "_token_usage": {
+    "prompt_tokens": 5786,
+    "completion_tokens": 1069,
+    "total_tokens": 6855
+  }
+}

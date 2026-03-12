@@ -1,0 +1,32 @@
+{
+  "direct_answer": "Galp conducted its first double materiality assessment in 2024 (aligned with CSRD), using a comprehensive approach that considered both impact and financial materiality perspectives and that it plans to review when significant internal/external changes occur [Source 2].\n\nMethodology: Galp applied a six-step, bottom-up process (business and geographic level assessments, then consolidation at Group level), guided by EFRAG ESRS/Double Materiality Implementation Guidance and Galp’s risk assessment framework, and leveraging TCFD and TNFD [Source 1]. The steps were: (1) identify potential material topics/sub-topics via desktop review of internal documents and ESRS plus peer benchmarking/trend analysis/ESG ratings; (2) identify impacts, risks and opportunities (IROs); (3) define assessment criteria/scales/methodology; (4) assess impact materiality across the value chain and short/medium/long term using stakeholder survey input plus Business Units/Corporate Centre/cross-functional experts and scoring that combines severity (scale, scope, remediability) and likelihood; (5) assess financial materiality using Business Units/Corporate Centre/cross-functional experts and scoring that combines magnitude of financial effects and likelihood; and (6) identify material topics [Source 1]. Galp states it used varying weights for inputs from diverse stakeholders; the resulting material topics were approved by the Executive Committee and shared with the Sustainability Committee [Source 5].\n\nSustainability matters identified as material from both an impact and a financial perspective: Climate change and Health and Safety are marked as material for both impact materiality and financial materiality in Galp’s material topics table [Source 4].",
+  "compliance_level": "Medium",
+  "compliance_rationale": "Evidence shows Galp applied a double materiality assessment with defined impact and financial scoring criteria (severity/likelihood for impacts; magnitude/likelihood for financial effects), a value-chain and time-horizon lens, stakeholder input via an online survey, and governance approval of outcomes [Source 1] [Source 5]. The report also clearly identifies at least two topics as material in both dimensions (Climate change; Health and Safety) [Source 4]. However, the retrieved passages do not provide the detailed thresholds/weightings, the full list of affected stakeholders engaged, or a clear, unambiguous rendering of all topics’ impact vs financial materiality status due to table formatting ambiguity for several topics [Source 4].",
+  "disclosure_gaps": [
+    "Specific qualitative/quantitative thresholds used to determine material vs non-material topics (beyond stating scoring was used) [Source 1].",
+    "Details of stakeholder groups engaged (especially affected stakeholders), sampling, response rates, and how stakeholder input was weighted (only stated that an online survey was used and that varying weights were applied) [Source 1] [Source 5].",
+    "Clear, unambiguous list of all sustainability matters that are material from both impact and financial perspectives; the table formatting makes the status of several topics unclear in the retrieved passage [Source 4].",
+    "Explicit description of interdependencies between impact and financial materiality and how they were considered (not described in the retrieved passages) [Source 2] [Source 1].",
+    "Explicit linkage to due diligence outcomes informing the materiality assessment (beyond general statements of process inputs) (not evidenced in retrieved passages).",
+    "Disclosure of cross-matter effects/trade-offs where actions on one matter create material impacts/risks on another (not evidenced in retrieved passages)."
+  ],
+  "key_findings": [
+    "Galp performed its first double materiality assessment in 2024, aligned with CSRD, and intends to update it when significant changes occur [Source 2].",
+    "Galp used a six-step, bottom-up process guided by EFRAG guidance and its risk framework, leveraging TCFD and TNFD [Source 1].",
+    "Impact materiality assessment covered actual/potential positive/negative impacts across the value chain and short/medium/long term, using severity (scale, scope, remediability) and likelihood scoring, informed by an online stakeholder survey and internal expert input [Source 1].",
+    "Financial materiality assessment used magnitude of financial effects and likelihood scoring, informed by Business Units, Corporate Centre teams, and cross-functional experts [Source 1].",
+    "Material topics were identified using weighted stakeholder inputs and approved by the Executive Committee [Source 5].",
+    "Topics identified as material in both impact and financial dimensions include Climate change and Health and Safety [Source 4]."
+  ],
+  "sources_used": [
+    1,
+    2,
+    4,
+    5
+  ],
+  "_token_usage": {
+    "prompt_tokens": 6795,
+    "completion_tokens": 987,
+    "total_tokens": 7782
+  }
+}

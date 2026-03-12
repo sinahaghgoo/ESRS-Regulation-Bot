@@ -1,0 +1,36 @@
+{
+  "direct_answer": "TotalEnergies states that in 2024 it formalised a double materiality analysis to identify material impacts, risks and opportunities (IROs), involving the Strategy & Sustainability divisions (including Legal, Sustainability & Climate, Audit & Internal Control, and HSE), as well as the People & Social Engagement and Finance divisions; the work was examined by the Executive Committee and reviewed by the Audit Committee (and the Sustainability Report was reviewed by the Audit Committee before Board approval) [Source 2][Source 9]. The process covers the company’s own operations and, where relevant/possible based on available internal information, the upstream value chain (including tier 1 suppliers) and downstream activities; IROs are assessed on a “gross” basis (before considering level of control and policies/actions) [Source 2][Source 5][Source 9].\n\nMethodologically, TotalEnergies identifies sustainability matters based on the ESRS topic list (and previously recognised company-specific issues), translates them into a library of concrete IROs (positive/negative impacts and financial risks/opportunities), then evaluates IROs using a methodology aligned with ESRS/EFRAG guidance combining scoring and qualitative/technical analysis, and finally consolidates/reviews results to determine the final list of material IROs and corresponding sustainability matters, which are mapped to ESRS disclosure requirements/data points (following ESRS 1 Appendix E) [Source 2][Source 4][Source 6]. For impact materiality scoring, it considers whether impacts are positive/negative, actual/potential, and assesses severity using scale, scope, irremediable character and likelihood; for financial materiality scoring, it assesses potential magnitude of financial effects and likelihood, using defined rating scales that also consider time horizons (short/medium/long term) and draw on existing company risk mappings (e.g., company risk mapping, HSE risk mapping, human rights risk mapping) [Source 6]. The identification and assessment of IROs is based on existing internal systems and ongoing risk identification/mapping processes across HSE, climate, labour, human rights and purchasing/supply chain (including a CSR risk mapping for purchasing updated since 2012 and use of the UN Guiding Principles Reporting Framework to identify salient human-rights issues) [Source 7]. The company also states it paid attention to identifying potentially affected stakeholders and to existing dialogue modalities to take their views/interests into account where possible and relevant, and corroborated IRO relevance against internal and external frameworks (ESRS list, internal standards, and external frameworks such as GRI 11, SASB, IPIECA) [Source 8].\n\nOutcomes: TotalEnergies reports it identified 65 material IROs within the ESRS matters [Source 5]. However, the retrieved passages do not provide the list of which sustainability matters were material from both an impact and a financial perspective (i.e., “double material” matters). The passages do provide examples of financially-oriented climate-related risks identified (eight material climate-related risks, such as pace of energy transition/demand evolution, reputational risk, financing of oil and gas activities, legal actions, regulatory evolution, technology risk, and operational risks from extreme events) [Source 11], but they do not explicitly link these to impact materiality nor present a cross-tabulation of matters that are material in both dimensions. Therefore, based on the provided evidence, it is not possible to determine which sustainability matters were identified as material from both an impact and a financial perspective.",
+  "compliance_level": "Medium",
+  "compliance_rationale": "The passages evidence a structured double materiality process covering own operations and value chain, governance oversight, use of ESRS topic list, scoring criteria aligned to ESRS (impact severity criteria and financial magnitude/likelihood), time horizons, and consideration of affected stakeholders/dialogue modalities [Source 2][Source 6][Source 8][Source 9]. However, the retrieved content does not disclose the specific sustainability matters that are material in both impact and financial terms (the question’s second part), only that 65 material IROs were identified and that eight climate-related risks were identified [Source 5][Source 11].",
+  "disclosure_gaps": [
+    "Explicit list of sustainability matters that are material from both impact and financial perspectives (double-material matters), or a mapping showing overlap between impact-material and financially-material matters (not present in retrieved passages).",
+    "Clear presentation of the materiality thresholds/cut-offs used to determine material vs non-material IROs (the existence of thresholds is mentioned, but not their values/definitions) [Source 6][Source 3].",
+    "Detailed description of stakeholder engagement modalities and which affected stakeholder inputs concretely influenced the materiality outcomes (only high-level references to dialogue modalities and attention to affected stakeholders are provided) [Source 8].",
+    "Disclosure of expected financial effects for material risks and opportunities is deferred (phased-in) and therefore not provided in this first Sustainability Report [Source 4]."
+  ],
+  "key_findings": [
+    "Double materiality analysis was formalised in 2024 with involvement of Strategy & Sustainability, People & Social Engagement, and Finance; reviewed by Executive Committee and Audit Committee [Source 2].",
+    "Assessment covers own operations and upstream (including tier 1 suppliers) and downstream value chain where relevant/possible; performed on a gross basis [Source 5][Source 9].",
+    "Impact materiality scoring uses severity criteria (scale, scope, irremediable character) and likelihood; financial materiality scoring uses magnitude of financial effects and likelihood; time horizons are incorporated via defined rating scales [Source 6].",
+    "IRO identification leverages existing internal risk mapping systems across HSE, climate, labour, human rights and purchasing/supply chain; human-rights salient issues informed by UNGP Reporting Framework; purchasing CSR risk mapping updated since 2012 [Source 7].",
+    "Company identified 65 material IROs within ESRS matters [Source 5].",
+    "Company identified eight material climate-related risks (transition and physical) [Source 11].",
+    "Retrieved passages do not specify which sustainability matters are material in both impact and financial dimensions."
+  ],
+  "sources_used": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    11
+  ],
+  "_token_usage": {
+    "prompt_tokens": 9324,
+    "completion_tokens": 1330,
+    "total_tokens": 10654
+  }
+}

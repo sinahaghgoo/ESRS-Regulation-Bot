@@ -1,0 +1,27 @@
+{
+  "direct_answer": "Yes. Repsol discloses a “Transition plan for climate change mitigation (E1-1)” as part of its energy transition strategy, including an ambition to reach net zero emissions by 2050 across Scope 1, 2 and 3 and interim 2030 targets (55% reduction in Scope 1 and 2 vs 2016; 20% reduction in Scope 1, 2 and 3 vs 2018, including Scope 3 category 11) [Source 2]. Repsol states its commitment/ambition is aligned with the Paris Agreement objective to limit global warming to 1.5°C [Source 2]. It further explains 1.5°C alignment by referencing IPCC C1 scenarios (1.5°C with limited/no overshoot) and concludes that its 2030 absolute emissions reduction target (20% Scope 1, 2 and 3 vs 2018) is compatible with those IPCC C1 scenarios that limit warming to 1.5°C and achieve net zero by 2050 [Source 5]. Therefore, based on the disclosed narrative, Repsol presents its transition plan as aligned with limiting warming to 1.5°C [Source 2][Source 5]. No timeline for adopting a plan is applicable because a plan is disclosed [Source 2].",
+  "compliance_level": "Medium",
+  "compliance_rationale": "Evidence shows Repsol has a disclosed transition plan section (E1-1), with net zero 2050 ambition and interim targets, and an explicit explanation of 1.5°C alignment using IPCC C1 scenarios and a compatibility statement for its 2030 absolute target [Source 2][Source 5]. However, the retrieved passages do not provide key ESRS E1-4 elements requested for substantiating 1.5°C/science-based claims (e.g., whether targets are science-based, the specific framework/methodology used for target-setting, underlying climate/policy scenarios for targets, and whether targets have been externally assured), beyond scenario references for alignment assessment [Source 4][Source 5].",
+  "disclosure_gaps": [
+    "Whether Repsol’s GHG targets are formally science-based and, if so, which framework/methodology is used (e.g., SBTi) (ESRS E1-4.34(e))",
+    "Underlying climate and policy scenarios used specifically for target-setting (not only for alignment assessment) and how they inform targets (ESRS E1-4.34(e))",
+    "Whether the GHG targets and/or transition plan have been externally assured/validated (ESRS E1-4.34(e))",
+    "More detailed description of the transition plan components required by ESRS E1-1 (e.g., decarbonisation levers/actions, resources, and implementation roadmap) is not fully evidenced in the provided excerpts (only high-level levers and investment split are shown) [Source 2][Source 8]"
+  ],
+  "key_findings": [
+    "Repsol discloses a climate change mitigation transition plan (E1-1) and an ambition to reach net zero emissions by 2050 across Scope 1, 2 and 3 [Source 2].",
+    "Repsol sets interim 2030 absolute reduction targets: 55% reduction in Scope 1 and 2 vs 2016 and 20% reduction in Scope 1, 2 and 3 vs 2018 (including Scope 3 category 11) [Source 2].",
+    "Repsol explains 1.5°C alignment by referencing IPCC C1 scenarios and states its 2030 absolute target is compatible with C1 scenarios that limit warming to 1.5°C and achieve net zero by 2050 [Source 5].",
+    "The Board approved the 2024-2027 Strategic Update incorporating decarbonization goals (transition plan governance evidence) [Source 3]."
+  ],
+  "sources_used": [
+    2,
+    3,
+    5
+  ],
+  "_token_usage": {
+    "prompt_tokens": 10027,
+    "completion_tokens": 861,
+    "total_tokens": 10888
+  }
+}

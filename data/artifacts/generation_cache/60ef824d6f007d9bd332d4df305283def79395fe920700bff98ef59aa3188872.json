@@ -1,0 +1,31 @@
+{
+  "direct_answer": "Aker BP conducted its double materiality assessment (DMA) using a systematic, four-step process (Figure 9) to identify and assess material impacts, risks and opportunities (IROs) and their dependencies, considering the connection to Aker BP’s own operations and its upstream and downstream value chain [Source 3][Source 6]. The DMA explicitly covers both (i) impact materiality (inside-out: impacts from Aker BP’s activities on environment and society) and (ii) financial materiality (outside-in: financial risks and opportunities sustainability issues pose to the business model and performance, including reputational risk and dependencies on natural, human and social resources) [Source 6].\n\nIn scoping and evaluating IROs, Aker BP considers activities, business relationships and geographies; for own operations it focused on oil and gas production as the activity with the highest potential for material impact, while upstream value chain topics mainly focused on development projects due to significant construction activity globally; it also recognises downstream impacts related to the use of petroleum products [Source 3].\n\nIROs are assessed using a severity × likelihood approach (aligned to consequence × probability risk assessment logic), using company scales consistent with the enterprise risk management (ERM) process; the assessments are documented in the same tool as risks and opportunities, where they are prioritised and handled together with other company risks [Source 6]. Special attention is given to dependencies between impacts and their potential counterparts in the risk and opportunity categories [Source 6].\n\nStakeholder engagement is incorporated into the DMA: Aker BP engages stakeholders through multiple channels (e.g., public consultations for PDO impact assessments, publishing impact assessments, and a whistleblowing channel) and states it includes stakeholders’ perspectives and priorities in the DMA; in 2024 this was achieved through in-depth interviews and workshops with internal management and subject matter experts, building on prior-year interviews involving owners, key suppliers, customers, NGOs and authorities [Source 10].\n\nThe DMA results are summarised in an impacts/risks/opportunities table that forms the basis for the content of the report, and all material IROs were reviewed by the Board of Directors, Audit and Risk Committee (ARC) and Executive Management Team (EMT) [Source 2]. Aker BP also states it will update the DMA as new and relevant information becomes available, working with suppliers and business partners to improve understanding of the value chain [Source 3].",
+  "compliance_level": "Medium",
+  "compliance_rationale": "The passages describe a structured DMA covering both impact and financial materiality, including value chain coverage, assessment criteria (severity×likelihood), alignment with ERM, stakeholder engagement inputs, governance review, and an intention to update over time [Source 2][Source 3][Source 6][Source 10]. However, the retrieved evidence does not provide the full detail of the four-step process (Figure 9) nor clear thresholds/criteria for determining materiality and prioritisation beyond the scoring approach, limiting full substantiation of how materiality decisions are made end-to-end [Source 3][Source 6].",
+  "disclosure_gaps": [
+    "Detailed description of the four-step DMA process (Figure 9) beyond stating it exists (i.e., explicit steps and how each step is performed) [Source 3][Source 6].",
+    "Explicit criteria/thresholds for concluding a topic/IRO is material (e.g., cut-offs on the matrix, decision rules) [Source 3][Source 6].",
+    "How Aker BP determines the specific level(s) in the value chain (upstream/downstream, own operations) at which each material sustainability matter arises, beyond general statements on focus areas [Source 3].",
+    "How positive impacts are identified/assessed (the evidence focuses mainly on impacts/risks/opportunities generally, without detailing treatment of positive impacts) [Source 6].",
+    "More granular explanation of how stakeholder inputs are weighted/validated and how affected stakeholders (vs. broader stakeholders) are engaged specifically for the DMA (channels are described, but not the decision-use methodology) [Source 10]."
+  ],
+  "key_findings": [
+    "DMA covers both impact materiality (inside-out) and financial materiality (outside-in), including reputational risk and dependencies on natural, human and social resources [Source 6].",
+    "IROs are assessed using severity × likelihood, aligned with ERM consequence × probability logic, using company scales; documented and prioritised in the same tool as other company risks [Source 6].",
+    "Assessment considers activities, business relationships and geographies; own operations focus on oil and gas production; upstream value chain focus on development projects; downstream impacts include use of petroleum products [Source 3].",
+    "Stakeholder perspectives are included via multiple engagement channels; 2024 DMA used interviews/workshops with internal management/SMEs and built on prior-year interviews with owners, suppliers, customers, NGOs and authorities [Source 10].",
+    "Material IROs identified through the DMA form the basis for the report content and were reviewed by the Board of Directors, ARC and EMT [Source 2].",
+    "Aker BP plans to update the DMA as new information becomes available and is working with suppliers/partners to improve value chain understanding [Source 3]."
+  ],
+  "sources_used": [
+    2,
+    3,
+    6,
+    10
+  ],
+  "_token_usage": {
+    "prompt_tokens": 5359,
+    "completion_tokens": 1143,
+    "total_tokens": 6502
+  }
+}

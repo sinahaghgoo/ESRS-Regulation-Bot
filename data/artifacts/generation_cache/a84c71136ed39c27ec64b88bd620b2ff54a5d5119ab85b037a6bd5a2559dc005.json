@@ -1,0 +1,27 @@
+{
+  "direct_answer": "MOTOR OIL integrates sustainability-related performance into remuneration through its remuneration policy overseen by the Group’s Remuneration Committee (three non-Executive Directors, two independent), which links executive compensation to both financial and non-financial criteria, explicitly including sustainability factors such as climate change and Health & Safety [Source 1]. The policy includes fixed remuneration for all Directors and variable remuneration (bonuses and long-term share-based incentives such as stock awards and options) linked to Group performance and subject to General Assembly approval; independent non-Executive Directors receive only fixed fees [Source 1]. The Remuneration Committee, working with the Board of Directors and the Sustainability Committee, is integrating ESG objectives (e.g., GHG emission reduction) into the performance evaluation framework, and sustainability-related KPIs are progressively being embedded in remuneration policies, particularly within annual bonus schemes, aligning executive incentives with individual and corporate ESG goals [Source 2]. The Sustainability Committee (supported by the Sustainability Division) oversees the development and updating of relevant sustainability metrics, and the Remuneration Committee regularly reviews and updates the remuneration policy (valid up to four years) [Source 2]. The company states that the methodology is still being finalized and that future disclosures will clarify the proportion of variable pay tied to these sustainability targets [Source 2].",
+  "compliance_level": "Medium",
+  "compliance_rationale": "The report describes key characteristics of the incentive/remuneration scheme (fixed vs variable; bonuses and long-term share-based incentives; treatment of independent non-executives) and identifies sustainability topics/targets being integrated (climate change, Health & Safety, and an example ESG objective of GHG emission reduction), as well as the governance bodies involved in developing metrics and reviewing/updating the policy (Remuneration Committee, BoD, Sustainability Committee; General Assembly approval for variable pay) [Source 1, Source 2]. However, it does not yet disclose the proportion of variable remuneration dependent on sustainability targets and indicates the methodology is still being finalized, with future disclosures expected [Source 2].",
+  "disclosure_gaps": [
+    "Proportion of variable remuneration dependent on sustainability-related targets/impacts (explicitly deferred to future disclosures) [Source 2].",
+    "Clear specification of the exact sustainability-related performance metrics/KPIs used as remuneration benchmarks (beyond examples such as climate change, Health & Safety, and GHG emission reduction) [Source 1, Source 2].",
+    "Clarity on whether performance is assessed against specific sustainability-related impacts (in addition to targets) and which impacts, if applicable [Source 1, Source 2].",
+    "Explicit detail on the level at which the terms of the incentive schemes are approved and updated for all elements (the report notes General Assembly approval for variable pay and committee review/update, but does not fully map approval/update responsibilities for all scheme terms) [Source 1, Source 2]."
+  ],
+  "key_findings": [
+    "Remuneration Committee oversees remuneration policy linking executive compensation to financial and non-financial criteria, including sustainability factors (climate change and Health & Safety) [Source 1].",
+    "Remuneration includes fixed pay for all Directors and variable pay (bonuses and long-term share-based incentives such as stock awards and options) linked to Group performance and subject to General Assembly approval; independent non-Executive Directors receive only fixed fees [Source 1].",
+    "ESG objectives (example: GHG emission reduction) are being integrated into the performance evaluation framework; sustainability KPIs are progressively embedded, particularly in annual bonus schemes [Source 2].",
+    "Sustainability Committee (supported by Sustainability Division) oversees development/updating of sustainability metrics; remuneration policy is reviewed/updated by the Remuneration Committee and is valid up to four years [Source 2].",
+    "Methodology is still being finalized; proportion of variable pay tied to sustainability targets will be clarified in future disclosures [Source 2]."
+  ],
+  "sources_used": [
+    1,
+    2
+  ],
+  "_token_usage": {
+    "prompt_tokens": 9143,
+    "completion_tokens": 840,
+    "total_tokens": 9983
+  }
+}

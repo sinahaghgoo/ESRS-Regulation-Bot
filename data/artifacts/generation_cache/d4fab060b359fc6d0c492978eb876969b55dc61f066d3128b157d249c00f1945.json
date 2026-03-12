@@ -1,0 +1,28 @@
+{
+  "direct_answer": "OMV integrates sustainability-related performance into the variable remuneration of its Executive Board (management body). The Supervisory Board assesses Executive Board performance, including implementation of the sustainability strategy, and the Supervisory Board’s Remuneration Committee is authorized to determine Executive Board remuneration (including remuneration structure and actual target achievement). Executive Board remuneration includes fixed and variable elements; the variable remuneration (annual bonus and Long-Term Incentive Plan (LTIP)) includes sustainability and GHG-emissions-related performance criteria. [Source 1]\n\nUnder the Executive Board Remuneration Policy approved by the Annual General Meeting in June 2022 (effective in 2023), sustainability-linked components comprise (i) 15% of the annual bonus tied to achieving a defined reduction in net absolute Scope 1 and 2 GHG emissions, and (ii) 30% of the LTIP tied to ESG targets. The LTIP ESG targets are: reducing the net carbon intensity of energy supply (20% weighting) and improving diversity at the OMV Group (10% weighting). These GHG-related targets are derived from OMV’s 2030 GHG emissions reduction targets and reduction pathways (base year 2019). [Source 1]\n\nOMV also discloses that the Executive Board’s remuneration is subject to a Health & Safety Malus. [Source 13]\n\nThe provided passages do not describe sustainability-related incentives/remuneration integration for Supervisory Board members themselves (as opposed to their role in assessing/approving Executive Board remuneration). [Source 1]",
+  "compliance_level": "Medium",
+  "compliance_rationale": "The passages provide key characteristics of the Executive Board incentive scheme (annual bonus and LTIP), specify the sustainability targets/metrics used (Scope 1&2 absolute emissions reduction; net carbon intensity of energy supply; diversity; plus a Health & Safety Malus), quantify the proportion of variable remuneration linked to sustainability targets (15% annual bonus; 30% LTIP), and identify approval/decision roles (AGM approval of policy; Supervisory Board/Remuneration Committee determination and assessment). [Source 1] [Source 13] However, evidence is insufficient on whether sustainability-linked remuneration exists for members of the Supervisory Board (and any other administrative/supervisory body members) and on the detailed approval/update level for all scheme terms beyond the cited AGM approval and Remuneration Committee authorization. [Source 1]",
+  "disclosure_gaps": [
+    "Whether sustainability-related performance is integrated into incentive/remuneration schemes for Supervisory Board members themselves (not disclosed in the provided passages). [Source 1]",
+    "Whether any sustainability-linked incentive schemes apply to other administrative/management/supervisory body members beyond the Executive Board (not evidenced in the provided passages).",
+    "Level at which the terms of the incentive schemes are updated (frequency/process) beyond noting AGM approval (June 2022) and Remuneration Committee authorization (not fully detailed). [Source 1]",
+    "Further key characteristics of the incentive schemes (e.g., measurement methodology, time horizons/thresholds, payout curves, malus/clawback mechanics beyond the Health & Safety Malus mention) are not described in the provided passages. [Source 13]"
+  ],
+  "key_findings": [
+    "Supervisory Board assesses Executive Board performance including sustainability strategy implementation; Remuneration Committee determines Executive Board remuneration structure and target achievement. [Source 1]",
+    "Executive Board variable remuneration (annual bonus and LTIP) includes sustainability and GHG emissions performance criteria. [Source 1]",
+    "15% of annual bonus is linked to reducing net absolute Scope 1 and 2 GHG emissions. [Source 1]",
+    "30% of LTIP is linked to ESG targets: reduce net carbon intensity of energy supply (20% weighting) and improve diversity (10% weighting). [Source 1]",
+    "Executive Board remuneration is subject to a Health & Safety Malus. [Source 13]",
+    "Executive Board Remuneration Policy was approved at the AGM in June 2022 and effective in 2023. [Source 1]"
+  ],
+  "sources_used": [
+    1,
+    13
+  ],
+  "_token_usage": {
+    "prompt_tokens": 7635,
+    "completion_tokens": 878,
+    "total_tokens": 8513
+  }
+}

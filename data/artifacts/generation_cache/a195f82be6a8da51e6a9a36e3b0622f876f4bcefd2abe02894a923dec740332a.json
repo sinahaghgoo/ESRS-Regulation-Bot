@@ -1,0 +1,41 @@
+{
+  "direct_answer": "Shell states it conducted a double materiality assessment (DMA) as the basis for its 2024 Sustainability Statements, assessing sustainability matters from both (i) impact materiality (Shell’s actual/potential impacts on people and the environment) and (ii) financial materiality (matters that trigger/could reasonably be expected to trigger material financial effects for Shell) [Source 2].\n\nHow Shell conducted the DMA:\n- Process and steps: Shell describes a five-step process: (1) establish business context, activities, value chain and stakeholders; (2) consider potential sustainability matters and identify actual/potential impacts, risks and opportunities; (3) assess impacts for actual and potential severity; (4) assess risks and opportunities for potential financial effects; and (5) determine material matters for reporting [Source 4].\n- Scope/value chain: Shell considers impacts over short/medium/long term and includes impacts connected with its own operations, value chain and business relationships; it notes it can control Shell companies and Shell-operated JVs, but not non-operated JVs, and that its influence over value chain/business relationships is indirect [Source 2].\n- Impact assessment criteria: For actual impacts, Shell treats likelihood as already occurring (no likelihood rating) and rates magnitude after implementation of standard control measures; for potential impacts, it rates likelihood and magnitude, assessing potential magnitude on a gross basis (assuming no mitigation from control measures). For potential human rights impacts, magnitude takes precedence over likelihood [Source 5].\n- Financial assessment criteria: Shell assesses risks/opportunities using likelihood and magnitude of potential financial effects, based on its enterprise risk management framework (modified for consistency with impact assessment). It uses five-point scales for likelihood and magnitude and considers financial effects including those arising from dependence on natural, human and social resources [Source 5].\n- Thresholds and governance: Shell applies qualitative and/or quantitative thresholds to determine which impacts/risks/opportunities and sustainability matters are material for reporting; reporting thresholds for actual impacts are based on magnitude, for potential impacts on likelihood+magnitude, for financially material risks on existing financial materiality definitions, and opportunities on qualitative thresholds. Results are reviewed/endorsed by an internal management committee of senior managers [Source 5].\n- Stakeholder input: Shell says it engages stakeholders regularly on potential business impacts but did not engage stakeholders directly on the DMA; instead it used feedback from existing communication channels and reviewed the DMA with relationship owners for key stakeholder groups to reflect external views [Source 6].\n\nMaterial sustainability matters identified as material from both an impact and a financial perspective:\n- Shell reports that one negative impact—greenhouse gas (GHG) emissions—corresponds to both a risk and an opportunity [Source 3]. It also states its DMA identified GHG emissions as a material impact and “climate change and energy transition” as a sustainability-related risk [Source 12]. Based on the provided passages, this is the only sustainability matter explicitly identified as material from both an impact and a financial perspective [Source 3][Source 12].\n\nOther sustainability matters identified as material (impact materiality is implied, but the passages do not evidence that these are also financially material): biodiversity loss, sensitive areas and species, ecosystem services [Source 9]; emissions to air, discharges to water, soil and groundwater, oil spills in Nigeria, hazardous substances [Source 15]; waste management [Source 14]; culture of integrity and responsible sourcing (and entity-specific topics: tax and payments to governments; safety) [Source 10]. Shell also states that the remaining impacts (other than GHG emissions) are not a material risk or opportunity in their own right, though many are elements of one or more risk factors [Source 12].",
+  "compliance_level": "Medium",
+  "compliance_rationale": "The passages provide a clear description of Shell’s DMA process (five steps), criteria for assessing impacts (magnitude/likelihood approach, including special treatment for human rights impacts), criteria for assessing financial effects (likelihood/magnitude, ERM linkage, dependencies), use of qualitative/quantitative thresholds, and internal review/endorsement [Source 4][Source 5]. Stakeholder consideration is addressed, but Shell explicitly states it did not engage stakeholders directly on the DMA, relying instead on existing channels and internal relationship owners, which may limit alignment with ESRS expectations for centrality of affected stakeholder engagement [Source 6]. On outcomes, the passages explicitly identify only GHG emissions/climate change & energy transition as both impact- and financially-material; other material topics are listed but not evidenced as financially material in the provided excerpts [Source 3][Source 12][Source 9][Source 15][Source 14][Source 10].",
+  "disclosure_gaps": [
+    "A complete list of sustainability matters that are material from both impact and financial perspectives (the referenced “Material sustainability topics” table on pp. 352-353 is not included in the retrieved passages) [Source 3].",
+    "Explicit mapping of each identified material topic to whether it is impact material, financial material, or both (beyond the specific statement for GHG emissions) [Source 3][Source 12].",
+    "Detailed explanation of stakeholder engagement specifically with affected stakeholders in the DMA (Shell states it did not engage stakeholders directly on the DMA) [Source 6].",
+    "Specific quantitative/qualitative threshold values or cut-offs used to determine materiality (only the existence of thresholds and general basis is described) [Source 5][Source 1].",
+    "Evidence in the provided passages of how interdependencies between impact and financial materiality were considered beyond the GHG example [Source 2][Source 3].",
+    "Evidence in the provided passages of cross-matter effects/trade-offs (ESRS 1 Appendix §52-53) arising from actions on one matter creating material impacts/risks in another."
+  ],
+  "key_findings": [
+    "Shell applied a double materiality principle, assessing both impacts on people/environment and potential material financial effects [Source 2].",
+    "Shell’s DMA follows five steps from context/value chain/stakeholders through identification, assessment (impact severity; financial effects), and determination of material matters for reporting [Source 4].",
+    "Impact assessment uses magnitude and (for potential impacts) likelihood; potential magnitude is assessed gross (no mitigation), and for potential human rights impacts magnitude takes precedence over likelihood [Source 5].",
+    "Financial assessment uses five-point likelihood and magnitude scales, based on ERM and considering dependencies on natural, human and social resources [Source 5].",
+    "Shell did not engage stakeholders directly on the DMA; it used feedback from existing channels and reviewed with relationship owners for key stakeholder groups [Source 6].",
+    "Shell identified 23 material impacts; GHG emissions is explicitly stated to correspond to both a risk and an opportunity (i.e., material from both impact and financial perspectives) [Source 3].",
+    "Shell states remaining impacts are not material risks/opportunities in their own right, though many are elements of principal risk factors [Source 12].",
+    "Examples of other topics Shell identifies as material include biodiversity-related topics, pollution-related topics, waste management, and integrity/responsible sourcing (plus entity-specific: tax/payments to governments; safety) [Source 9][Source 15][Source 14][Source 10]."
+  ],
+  "sources_used": [
+    2,
+    3,
+    4,
+    5,
+    6,
+    9,
+    10,
+    12,
+    14,
+    15,
+    1
+  ],
+  "_token_usage": {
+    "prompt_tokens": 5728,
+    "completion_tokens": 1590,
+    "total_tokens": 7318
+  }
+}

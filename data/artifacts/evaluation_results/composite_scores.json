@@ -1,0 +1,10 @@
+{
+  "RQ2_hybrid_rerank": 0.575809,
+  "RQ1_structure_aware": 0.571662,
+  "RQ2_hybrid": 0.571662,
+  "RQ3_best_retrieval": 0.571662,
+  "RQ1_fixed_512": 0.565937,
+  "RQ2_sparse_only": 0.559091,
+  "RQ3_sparse_retrieval": 0.559091,
+  "RQ2_dense_only": 0.556499
+}

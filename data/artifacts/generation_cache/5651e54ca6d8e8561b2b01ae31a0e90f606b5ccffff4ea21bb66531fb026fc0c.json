@@ -1,0 +1,36 @@
+{
+  "direct_answer": "Aker BP conducted its double materiality assessment (DMA) as a structured process aligned with CSRD/ESRS, first performed in 2023 and revised in 2024 based on new information, implementation guidance and EFRAG’s draft oil & gas sector standard [Source 1]. The DMA covered both (i) impact materiality (inside-out: impacts from Aker BP’s activities on environment and society) and (ii) financial materiality (outside-in: financial risks and opportunities sustainability issues pose to the business model and performance, including reputational risk and dependencies on natural, human and social resources) [Source 2].\n\nMethodologically, Aker BP mapped impacts, risks and opportunities (IROs), including their dependencies and their connection to Aker BP’s own operations and value chain [Source 1]. It considered activities, business relationships and geographies when evaluating potential IROs, focusing in own operations on oil and gas production as the activity with the highest potential for material impact; in the upstream value chain it focused mainly on development projects due to significant construction activities; and it also considered downstream impacts related to the use of petroleum products [Source 3]. IROs were assessed and prioritised using severity × likelihood ratings (aligned with the company’s enterprise risk management scales and risk matrix) and documented in the same tool used for other company risks and opportunities [Source 2]. The process also explicitly gave “special attention” to dependencies between impacts and corresponding risks/opportunities [Source 2]. Material IROs were reviewed by the Board of Directors (BoD), Audit & Risk Committee (ARC) and Executive Management Team (EMT) [Source 4].\n\nStakeholder engagement was incorporated into the DMA through multiple channels (e.g., public consultations for PDO impact assessments, publication of impact assessments, whistleblowing channel), and in 2024 through in-depth interviews and workshops with internal management and subject matter experts who also play a key role in stakeholder dialogue; the 2024 process built on prior-year interviews involving owners, key suppliers, customers, NGOs and authorities [Source 5].\n\nSustainability matters identified as material from both an impact and a financial perspective (i.e., “both high impact and high financial relevance” / strategic highest priority) were: climate change, own workforce, pollution, business conduct, and resource use and circular economy [Source 3].",
+  "compliance_level": "Medium",
+  "compliance_rationale": "The passages provide clear evidence that Aker BP performed and updated a DMA covering both impact and financial materiality, including value chain coverage, stakeholder engagement inputs, use of severity×likelihood scoring aligned to ERM, attention to dependencies, and governance validation (BoD/ARC/EMT) [Sources 1-5]. The sources also explicitly identify which topics are high on both impact and financial materiality (strategic highest priority) [Source 3]. However, the retrieved passages do not provide the full list of material matters with explicit confirmation for each that it is material in both dimensions beyond the matrix narrative, nor do they disclose the specific qualitative/quantitative thresholds used to determine materiality.",
+  "disclosure_gaps": [
+    "Explicit description of the four-step DMA process (Figure 9) and its steps in text, including how thresholds/cut-offs were set for determining materiality (qualitative/quantitative thresholds are not disclosed in the retrieved passages) [Sources 1-2, 13].",
+    "A complete, report-style list of all material sustainability matters with an explicit indication for each whether it is impact-material, financially material, or both (only the ‘both high impact and high financial relevance’ set is explicitly stated) [Source 3].",
+    "More detail on how affected stakeholders (as distinct from other stakeholder groups) were engaged directly in the DMA itself, and how their inputs changed outcomes (the passages describe channels and stakeholder groups, but not specific impacts on the final materiality conclusions) [Source 5].",
+    "Explicit explanation of how due diligence outcomes feed into the DMA outcomes (the linkage is referenced at a high level, but the mechanism is not detailed in the retrieved passages) [Source 8].",
+    "Disclosure of cross-matter trade-offs (where actions on one matter create material negative impacts/risks on another) is not evidenced in the retrieved passages."
+  ],
+  "key_findings": [
+    "Aker BP conducted its first DMA in 2023 and revised it in 2024 based on new information, guidance and EFRAG’s draft oil & gas sector standard [Source 1].",
+    "The DMA covers both impact materiality (inside-out) and financial materiality (outside-in), explicitly including reputational risk and dependencies on natural, human and social resources [Source 2].",
+    "IROs are mapped to own operations and the value chain, with attention to dependencies between impacts and corresponding risks/opportunities [Sources 1-2].",
+    "Materiality assessments use severity×likelihood ratings aligned with the enterprise risk management risk matrix and are documented in the same tool as other company risks/opportunities [Source 2].",
+    "The assessment considers activities, business relationships and geographies; focuses on oil & gas production for own-operations impacts; emphasises development projects in the upstream value chain; and recognises downstream impacts from use of petroleum products [Source 3].",
+    "Stakeholder perspectives are incorporated via consultations, transparency measures, whistleblowing, and interviews/workshops; prior-year interviews included owners, key suppliers, customers, NGOs and authorities [Source 5].",
+    "Topics identified as material from both impact and financial perspectives (strategic highest priority) are: climate change, own workforce, pollution, business conduct, and resource use and circular economy [Source 3].",
+    "All material IROs were reviewed by BoD, ARC and EMT [Source 4]."
+  ],
+  "sources_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    8,
+    13
+  ],
+  "_token_usage": {
+    "prompt_tokens": 8559,
+    "completion_tokens": 1262,
+    "total_tokens": 9821
+  }
+}

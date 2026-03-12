@@ -19,10 +19,11 @@ import time
 from rag.config import (
     get_experiment_configs,
     load_golden_standard, BENCHMARK_QUESTION_IDS,
+    save_best_pipeline_manifest,
 )
 from rag.pipeline import build_index
 from rag.retriever import Retriever
-from rag.evaluator import evaluate_pipeline_config, save_evaluation_results
+from rag.evaluator import evaluate_pipeline_config, save_evaluation_results, select_best_pipeline
 
 
 def main():
@@ -110,7 +111,7 @@ def main():
             vec_index, bm25, _chunks = build_index(
                 config=config,
                 force_rebuild=args.force_rebuild,
-                companies=companies if args.smoke_test else None,
+                companies=companies,
             )
         except Exception as e:
             print(f"  Error building index: {e}")
@@ -151,7 +152,34 @@ def main():
     
     # Save all results
     save_evaluation_results(all_results)
-    
+
+    if all_results:
+        best_name, best_result = select_best_pipeline(all_results)
+        best_agg = best_result.get("aggregate", {})
+
+        metrics_summary = {}
+        for category in ["retrieval", "answer_quality", "citation", "hallucination", "efficiency"]:
+            for key, value in best_agg.get(category, {}).items():
+                if isinstance(value, (int, float)):
+                    metrics_summary[f"{category}_{key}"] = round(float(value), 6)
+                else:
+                    metrics_summary[f"{category}_{key}"] = value
+
+        best_config = all_configs.get(best_name, best_result.get("config", {}))
+        selection_reason = (
+            "Highest weighted composite score from run_evaluation.py "
+            f"(n_evaluated={best_agg.get('n_evaluated', 0)})"
+        )
+        manifest_path = save_best_pipeline_manifest(
+            config_name=best_name,
+            config=best_config,
+            selection_reason=selection_reason,
+            metrics_summary=metrics_summary,
+        )
+
+        print(f"\nBest pipeline selected: {best_name}")
+        print(f"Best pipeline manifest saved to: {manifest_path}")
+
     print(f"\n{'=' * 60}")
     print("Evaluation complete!")
     print("=" * 60)

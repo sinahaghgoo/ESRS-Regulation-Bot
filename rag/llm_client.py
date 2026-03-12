@@ -69,6 +69,9 @@ def chat_json(
             return parsed, _usage_to_dict(resp.usage)
         except json.JSONDecodeError as exc:
             last_error = exc
+            if attempt < max_retries - 1:
+                time.sleep(min(2 ** attempt, 8))
+                continue
             break
         except Exception as exc:  # noqa: BLE001
             last_error = exc

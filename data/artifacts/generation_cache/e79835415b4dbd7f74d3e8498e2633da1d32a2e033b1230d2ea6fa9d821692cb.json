@@ -1,0 +1,29 @@
+{
+  "direct_answer": "Yes. MOL states it “discloses its transition plan for the first time in the 2024 sustainability statement,” with Board-level approvals in 2025, and it includes 2030/2050 milestones and targets (e.g., -25% absolute gross Scope 1&2 by 2030 vs 2019; -5% absolute gross Scope 3 use-phase by 2030 vs 2022; net zero all scopes by 2050; 30–40% of total CAPEX to low-carbon/sustainable projects 2025–2030) [Source 2].\n\nHowever, MOL does not claim its transition plan is 1.5°C-aligned; instead it explains that assessing compatibility with a 1.5°C pathway is difficult and that “a widely accepted, oil and gas industry specific benchmark for a 1.5℃ compatible gross absolute GHG emission pathway is not yet available,” and that it will assess feasibility of adopting such a plan once relevant SBTi guidelines/resources become available [Source 1]. It also states its “2030 targets are below the SBTi's cross-sector pathway” (which it describes as 42% reduction by 2030 and 90% by 2050 from 2020 levels) [Source 1].",
+  "compliance_level": "Medium",
+  "compliance_rationale": "Evidence supports existence of a transition plan and governance approval, plus inclusion of key targets and an investment allocation range [Source 2]. On 1.5°C alignment, the company provides narrative on limitations and explicitly indicates its 2030 targets are below an SBTi cross-sector 1.5°C pathway and that an industry benchmark is not yet available [Source 1], which does not substantiate 1.5°C alignment as required by ESRS E1-1/E1-4.",
+  "disclosure_gaps": [
+    "Clear statement that the transition plan is (or is not) compatible with limiting warming to 1.5°C, supported by a defined benchmark/methodology (beyond noting difficulties and lack of an oil & gas benchmark) [Source 1].",
+    "Whether MOL’s GHG targets are science-based and compatible with 1.5°C, and the framework/methodology and underlying climate/policy scenarios used to determine them (only partial scenario references are provided) [Source 1].",
+    "More detail on decarbonisation levers/key actions, and how investments/funding map to those actions within the transition plan (only high-level targets and CAPEX allocation range are evidenced) [Source 2].",
+    "Locked-in emissions assessment results (only contextual discussion of operations/asset base is evidenced) [Source 1].",
+    "EU Taxonomy alignment of the transition plan (only general taxonomy KPIs are evidenced, not explicit linkage to the plan) [Source 5].",
+    "Coal/oil/gas-related CapEx disclosure within the transition plan context (not evidenced in the provided passages)."
+  ],
+  "key_findings": [
+    "MOL reports it is disclosing a transition plan for the first time in its 2024 sustainability statement, with approvals by the Sustainable Development Committee (Feb 2025), Board (Mar 2025) and AGM (Apr 2025) [Source 2].",
+    "The transition plan includes targets: -25% absolute gross Scope 1&2 by 2030 vs 2019; -5% absolute gross Scope 3 use-phase by 2030 vs 2022; net zero all scopes by 2050; and 30–40% CAPEX to low-carbon/sustainable projects (2025–2030) [Source 2].",
+    "MOL states that a widely accepted oil & gas-specific 1.5°C benchmark is not yet available and it will assess feasibility once SBTi guidance/resources become available [Source 1].",
+    "MOL states its 2030 targets are below the SBTi cross-sector pathway it cites (42% reduction by 2030; 90% by 2050 from 2020 levels) [Source 1].",
+    "MOL notes it is excluded from EU Paris-aligned Benchmarks based on its activities [Source 1]."
+  ],
+  "sources_used": [
+    1,
+    2
+  ],
+  "_token_usage": {
+    "prompt_tokens": 6796,
+    "completion_tokens": 915,
+    "total_tokens": 7711
+  }
+}

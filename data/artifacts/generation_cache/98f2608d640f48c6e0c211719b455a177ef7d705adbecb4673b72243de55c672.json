@@ -1,0 +1,35 @@
+{
+  "direct_answer": "Vopak reports that it conducted a double materiality assessment (DMA) to align with CSRD/ESRS 1, assessing sustainability topics through two lenses: (1) financial materiality (“outside-in”: how sustainability issues affect Vopak’s business, including business relationships) and (2) impact materiality (“inside-out”: how Vopak’s activities, including the value chain, impact society and the environment) [Source 1].\n\nProcess-wise, Vopak describes (i) defining impacts by reviewing previously reported topics against updated regulatory/sector/voluntary requirements and frameworks (e.g., CDP, SASB, DJSI, updated GRI), refining/reclassifying topic definitions and performing stakeholder mapping; (ii) assessing impacts with stakeholders via an external stakeholder online survey to collect structured feedback on impact materiality, with quantitative and qualitative inputs; and (iii) analysing results and running internal prioritisation sessions to assess financial materiality, ranking topics by potential financial impact and integrating this with the external impact perspective [Source 2]. Vopak also states it compiled a long list of ESRS 1 AR 16 sustainability matters, refined it to a shortlist through internal discussions, and evaluated actual and potential impacts across the value chain (upstream, own operations, downstream) [Source 5].\n\nFor financial materiality, Vopak applied an internal scoring methodology “similar to a traditional risk management approach” based on likelihood and magnitude of potential financial effects, plotting the highest risk/opportunity score per topic; Executive Board (EB) validation was used to confirm/adjust scores and define thresholds, resulting in a matrix with three levels (“essential”, “relevant”, “enabler”), using a threshold of 3 to distinguish “essential double material topics” [Source 4].\n\nStakeholder engagement and due diligence linkage: Vopak states it engaged a variety of internal and external stakeholders as part of the impact materiality assessment, analysed topics raised using a value chain assessment (upstream/own operations/downstream), and ensured affected stakeholders’ voices were considered topic-by-topic (e.g., stakeholders affected by proximity to operations); outputs informed ongoing due diligence and supported evaluation of the DMA for completeness [Source 8]. Vopak also states that findings from due diligence processes directly inform identification of material impacts, risks and opportunities as part of the DMA [Source 14].\n\nSustainability matters identified as material from both an impact and a financial perspective (i.e., “double material” in the passages provided) are:\n- Air emissions (particularly VOCs): identified as “highly material, from both an impact and financial perspective” [Source 10].\n- Process safety and prevention of spills: assessed as “highly material, both from impact and financial perspective,” with positive and negative impacts across own operations and upstream/downstream value chain activities [Source 15].\n\nThe retrieved passages do not provide a complete list of all sustainability matters that are material from both perspectives; they indicate Vopak has six “essential topics” overall [Source 9], but only explicitly confirm the above two as material from both impact and financial perspectives [Source 10][Source 15].",
+  "compliance_level": "Medium",
+  "compliance_rationale": "The evidence describes a DMA approach consistent with double materiality (inside-out and outside-in), including stakeholder engagement, value chain consideration, internal financial scoring based on likelihood and magnitude, EB validation, and use of thresholds to classify topics [Source 1][Source 2][Source 4][Source 5][Source 8]. However, the passages provided do not disclose the full set of sustainability matters that are material from both impact and financial perspectives; only air emissions (VOCs) and process safety/spills are explicitly stated as material in both dimensions [Source 10][Source 15], while other essential topics are referenced but not clearly confirmed as double-material in the retrieved text [Source 9].",
+  "disclosure_gaps": [
+    "A complete list of all sustainability matters identified as material from both impact and financial perspectives (the report references six essential topics, but the retrieved passages only explicitly identify two as double-material) [Source 9][Source 10][Source 15].",
+    "Clear description of the impact materiality scoring/threshold methodology (criteria such as severity/likelihood are not evidenced in the retrieved passages beyond general definitions) [Source 7][Source 2].",
+    "Explicit mapping of each essential topic to whether it is impact material, financial material, or both (the retrieved passages show some topics as financial-only or unspecified) [Source 13][Source 11][Source 9].",
+    "Details on interdependencies between impact and financial materiality across all topics (only a limited example of interaction is mentioned for air emissions with other topics) [Source 10]."
+  ],
+  "key_findings": [
+    "Vopak defines double materiality as financial materiality (outside-in, including business relationships) and impact materiality (inside-out, including the value chain) [Source 1].",
+    "Materiality process includes: defining impacts via standards/framework review and stakeholder mapping; external stakeholder survey for impact materiality; internal prioritisation for financial materiality; and integration into a materiality matrix [Source 2].",
+    "Financial materiality assessment uses likelihood and magnitude scoring of risks/opportunities, plots the highest score per topic, and is validated by the Executive Board; topics are classified into essential/relevant/enabler with a threshold of 3 for essential double material topics [Source 4].",
+    "Stakeholder engagement includes considering affected stakeholders and classifying inputs across upstream/own operations/downstream; outputs inform due diligence and DMA completeness [Source 8].",
+    "Explicitly double-material topics in the retrieved passages: air emissions (VOCs) and process safety & prevention of spills [Source 10][Source 15]."
+  ],
+  "sources_used": [
+    1,
+    2,
+    4,
+    5,
+    7,
+    8,
+    9,
+    10,
+    14,
+    15
+  ],
+  "_token_usage": {
+    "prompt_tokens": 6772,
+    "completion_tokens": 1265,
+    "total_tokens": 8037
+  }
+}

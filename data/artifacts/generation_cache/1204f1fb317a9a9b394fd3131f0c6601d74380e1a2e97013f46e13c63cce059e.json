@@ -1,0 +1,31 @@
+{
+  "direct_answer": "Aker BP conducted its double materiality assessment (DMA) using a systematic, four-step process that maps impacts, risks and opportunities (IROs), their dependencies, and their connection to Aker BP’s own operations and value chain, considering activities, business relationships and geographies [Source 5][Source 3]. The DMA covers both (i) impact materiality (inside-out: impacts on environment and society) and (ii) financial materiality (outside-in: financial risks and opportunities to the business model and performance, including reputational risk and dependencies on natural, human and social resources) [Source 1]. IROs are assessed and prioritised using a severity x likelihood approach aligned with the company’s enterprise risk management (consequence x probability), using company scales and the shared risk matrix; IROs are documented in the same tool as other company risks and handled together with them [Source 1][Source 5]. The process explicitly gives special attention to dependencies between impacts and related risks/opportunities [Source 1]. The DMA is described as structured and iterative: it starts by defining business context (activities, business model, value chain, stakeholders and boundaries), then identifies actual and potential IROs using top-down and bottom-up approaches with input from internal and external stakeholders and quantitative sources, then assesses/prioritises IROs against impact and financial materiality criteria using a standardised rating system, and concludes with validation by management and the Board and ongoing monitoring/updates [Source 7].\n\nStakeholder engagement is used to identify risks, opportunities and actual/potential impacts and to incorporate stakeholder perspectives and priorities into the DMA [Source 2]. Engagement channels include public consultations for PDO impact assessments (with impact assessment reports shared with “over 40 key stakeholders”), publication of impact assessments, and a whistleblowing channel for concerns [Source 2]. For the 2024 DMA, Aker BP used in-depth interviews and workshops with internal management and subject matter experts (who also play a key role in stakeholder dialogue), and the process was based on prior-year interviews involving owners, key suppliers, customers, NGOs and authorities [Source 2].\n\nSustainability matters identified as material from both an impact and a financial perspective (i.e., high impact and high financial relevance / “strategic and highest priority”) are: climate change, own workforce, pollution, business conduct, and resource use and circular economy [Source 3].",
+  "compliance_level": "Medium",
+  "compliance_rationale": "The report evidence explains that Aker BP applied double materiality (impact and financial), describes the assessment approach (four-step/iterative process, severity x likelihood ratings, integration with ERM, attention to dependencies), and describes stakeholder engagement inputs and channels [Source 1][Source 7][Source 2][Source 5]. It also clearly identifies which topics are material in both dimensions via the materiality matrix description (climate change, own workforce, pollution, business conduct, resource use and circular economy) [Source 3]. However, the retrieved passages do not provide the specific qualitative/quantitative thresholds used to determine materiality, nor do they list the full set of material IROs by topic (only that Table 3 summarises them) [Source 1][Source 6].",
+  "disclosure_gaps": [
+    "Specific qualitative and/or quantitative thresholds (or cut-offs) used to determine when an impact/risk/opportunity and a sustainability matter is material are not provided in the retrieved passages [Source 1][Source 7].",
+    "A complete list of the identified material impacts, risks and opportunities (IROs) is not included in the retrieved passages (the report refers to Table 3, but Table 3 content is not provided here) [Source 6].",
+    "Detailed explanation of how impact materiality criteria (e.g., scale, scope, irremediable character) and financial materiality magnitude are operationalised beyond the general “severity x likelihood” / “consequence x probability” statement is not evidenced in the retrieved passages [Source 1][Source 5].",
+    "Explicit description of how downstream value chain impacts/risks/opportunities were assessed and prioritised (beyond noting downstream impacts from use of petroleum products) is limited in the retrieved passages [Source 3]."
+  ],
+  "key_findings": [
+    "DMA revised in 2024 based on new information, implementation guidance and draft oil & gas sector standard; includes mapping of IROs, dependencies and value chain connections; follows a four-step process [Source 5].",
+    "DMA covers impact materiality (inside-out) and financial materiality (outside-in), including reputational risk and dependencies on natural, human and social resources [Source 1].",
+    "IROs assessed using severity x likelihood aligned to ERM (consequence x probability), using company scales and a shared risk matrix; documented and prioritised in the same tool as other company risks [Source 1][Source 5].",
+    "Stakeholder perspectives are incorporated through multiple channels (PDO public consultations, publication of impact assessments, whistleblowing channel) and through interviews/workshops; prior-year interviews included owners, suppliers, customers, NGOs and authorities [Source 2].",
+    "Sustainability matters material from both impact and financial perspectives: climate change, own workforce, pollution, business conduct, resource use and circular economy [Source 3]."
+  ],
+  "sources_used": [
+    1,
+    2,
+    3,
+    5,
+    6,
+    7
+  ],
+  "_token_usage": {
+    "prompt_tokens": 9575,
+    "completion_tokens": 1158,
+    "total_tokens": 10733
+  }
+}

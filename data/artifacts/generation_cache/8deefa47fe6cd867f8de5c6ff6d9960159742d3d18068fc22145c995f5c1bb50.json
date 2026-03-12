@@ -1,0 +1,30 @@
+{
+  "direct_answer": "Aker BP integrates sustainability-related performance into its variable remuneration through the company-wide bonus programme, which is paid to all permanent employees, including management [Source 1]. The bonus scheme is based on a set of key performance indicators (KPIs) used in the performance management system; these include sustainability-related KPIs such as Safety (serious incidents per 1 million work hours) and Equity share scope 1 GHG intensity (kg CO2e/boe) [Source 1]. Aker BP states that approximately 22% of the bonus potential is dependent on sustainability-related initiatives and targets, and that the same share of bonus potential applies for all employees [Source 1]. Governance-wise, the Organisational Development and Compensation Committee (ODCC) is responsible for ensuring remuneration arrangements support the company’s strategy, including sustainability matters [Source 2], and it oversees the setting of targets and monitoring of progress related to KPIs linked to the incentive schemes for executive management team (EMT) remuneration [Source 3].",
+  "compliance_level": "Medium",
+  "compliance_rationale": "The passages provide evidence that sustainability-related KPIs are part of the bonus scheme and quantify the share of bonus potential linked to sustainability-related initiatives/targets (22%) [Source 1], and they describe ODCC oversight for EMT incentive-linked KPIs [Source 3] and ODCC’s role in aligning remuneration with strategy including sustainability [Source 2]. However, the retrieved passages do not specify the full set of GOV-3 details for administrative, management and supervisory bodies (e.g., whether/how the board’s own remuneration is linked to sustainability, detailed scheme characteristics for those bodies, and the approval/update level for the incentive terms).",
+  "disclosure_gaps": [
+    "Whether members of the Board of Directors / supervisory bodies have sustainability-linked incentive/remuneration arrangements (the evidence only clearly covers employees/management and EMT-linked KPIs, not BoD remuneration).",
+    "Key characteristics of the incentive/remuneration schemes specifically for administrative, management and supervisory bodies (e.g., payout mechanics, time horizons, malus/clawback, weighting across metrics) beyond the general statement that a bonus programme exists.",
+    "Whether performance is assessed against specific sustainability-related targets/impacts for the administrative, management and supervisory bodies, and which exact targets/thresholds apply (beyond naming example KPIs such as safety and scope 1 GHG intensity).",
+    "Whether and how sustainability-related performance metrics are used as benchmarks or embedded in remuneration policies for the administrative, management and supervisory bodies (beyond ODCC oversight statements).",
+    "The proportion of variable remuneration dependent on sustainability-related targets/impacts for each relevant body/member category (22% is stated for the bonus potential generally, but not broken down by body or role).",
+    "The level in the undertaking at which the terms of incentive schemes are approved and updated (e.g., BoD vs general meeting), as required by GOV-3."
+  ],
+  "key_findings": [
+    "Aker BP’s bonus programme (variable remuneration) applies to all permanent employees, including management, with the same share of bonus potential for all employees [Source 1].",
+    "Sustainability-related KPIs included in the KPI set used for the bonus scheme include Safety (serious incidents per 1 million work hours) and Equity share scope 1 GHG intensity (kg CO2e/boe) [Source 1].",
+    "Approximately 22% of the bonus potential is dependent on sustainability-related initiatives and targets [Source 1].",
+    "The ODCC is responsible for ensuring remuneration arrangements support the company’s strategy, including sustainability matters [Source 2].",
+    "The ODCC oversees target-setting and monitoring of progress for KPIs linked to incentive schemes for EMT remuneration [Source 3]."
+  ],
+  "sources_used": [
+    1,
+    2,
+    3
+  ],
+  "_token_usage": {
+    "prompt_tokens": 8807,
+    "completion_tokens": 819,
+    "total_tokens": 9626
+  }
+}

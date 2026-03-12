@@ -1,0 +1,26 @@
+{
+  "direct_answer": "Yes. TotalEnergies discloses that it has a “transition strategy for climate change mitigation” that includes “an evolution in the business model and greenhouse gas emission reduction targets by 2030” and is “put into perspective with the IEA scenarios” [Source 1]. It further describes this transition strategy as translating into short- (2025) and medium-term (2030) targets and a “two-pillar strategy” (low-emissions/low-cost oil & gas projects and integrated power), including a 2030 target of “100 GW” gross renewable power generation capacity and “100 TWh” production [Source 2].\n\nHowever, based on the retrieved passages, the undertaking does not explicitly state that its transition plan is aligned with limiting global warming to 1.5°C. Instead, it notes that “there is currently no consensus on greenhouse gas (GHG) emission reduction targets or trajectories applicable at the scale of a company… which would be compatible with a given global temperature target” [Source 1], and that its targets are “comparable to those of certain recognized public scenarios (IEA - APS and STEPS scenarios, Fit for 55 of the European Union)” [Source 3]. The retrieved passages therefore provide insufficient evidence to conclude 1.5°C alignment under ESRS E1-1.16(a) / E1-4.34(e).\n\nBecause a transition strategy/plan is disclosed, a timeline for adopting one is not applicable on the basis of the retrieved passages [Source 1].",
+  "compliance_level": "Medium",
+  "compliance_rationale": "Evidence shows the existence of a climate change mitigation transition strategy/plan and some elements (targets, strategic pillars, renewables capacity/production ambitions, governance) [Source 1] [Source 2]. However, the retrieved passages do not provide the ESRS-required explanation of how GHG reduction targets are compatible with limiting warming to 1.5°C; instead they emphasize lack of consensus on company-level 1.5°C-compatible trajectories and frame targets as comparable to IEA APS/STEPS and EU Fit for 55 scenarios [Source 1] [Source 3]. No evidence is provided here on science-based/1.5°C methodology, scenarios used for target-setting, or external assurance of targets (as per ESRS E1-4.34(e)).",
+  "disclosure_gaps": [
+    "Explicit statement on whether the transition plan is aligned with limiting global warming to 1.5°C (Paris Agreement) and a clear explanation of compatibility (ESRS E1-1.16(a))",
+    "Details on whether and how GHG emission reduction targets are science-based and compatible with 1.5°C, including the framework/methodology used and underlying climate/policy scenarios for target-setting (ESRS E1-4.34(e))",
+    "Information on whether the GHG targets have been externally assured (ESRS E1-4.34(e))",
+    "Clear linkage (in the retrieved passages) between the transition plan and specific ESRS E1-4 targets (e.g., quantified Scope 1, 2, 3 reduction targets) beyond the general statement that targets exist by 2030"
+  ],
+  "key_findings": [
+    "TotalEnergies discloses a transition strategy/plan for climate change mitigation including business model evolution and GHG emission reduction targets by 2030, referenced against IEA scenarios [Source 1].",
+    "The transition strategy includes short-term (2025) and medium-term (2030) targets and a two-pillar strategy (low-emissions/low-cost oil & gas projects and integrated power), with 2030 renewables targets of 100 GW and 100 TWh [Source 2].",
+    "The company states there is no consensus on company-level GHG trajectories compatible with a given temperature target and frames its targets as comparable to IEA APS/STEPS and EU Fit for 55 scenarios, which is insufficient (from the retrieved passages) to confirm 1.5°C alignment [Source 1] [Source 3]."
+  ],
+  "sources_used": [
+    1,
+    2,
+    3
+  ],
+  "_token_usage": {
+    "prompt_tokens": 8601,
+    "completion_tokens": 882,
+    "total_tokens": 9483
+  }
+}

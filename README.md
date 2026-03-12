@@ -56,14 +56,13 @@ The RAG pipeline consists of five stages, from document ingestion through to ans
 
 ### 1. Data Ingestion and Preprocessing
 
-Source documents (PDF sustainability reports) are processed using **Azure Document Intelligence** with the `prebuilt-layout` model, which extracts text while preserving the structural layout of the document (headings, tables, paragraphs). Charts and figures are enriched through **multimodal processing using a Vision Language Model (GPT-5-mini Vision)**, which generates textual descriptions that replace raw image content with semantic context. A regex-based cleaning step removes artifacts such as repeated page numbers, headers, and footers. The resulting output is structured Markdown that retains the original document hierarchy.
+Source documents (PDF sustainability reports) are processed using **Azure Document Intelligence** with the `prebuilt-layout` model, which extracts text while preserving the structural layout of the document (headings, tables, paragraphs). Charts and figures can be enriched through **multimodal processing with a vision-capable GPT-5 model (configurable via `LLM_MODEL`)**, which generates textual descriptions that replace raw image content with semantic context. A regex-based cleaning step removes artifacts such as repeated page numbers, headers, and footers. The resulting output is structured Markdown that retains the original document hierarchy.
 
 ### 2. Chunking
 
 The preprocessing stage produces structured Markdown for each report, which is then segmented into chunks suitable for embedding and retrieval. The pipeline supports multiple chunking strategies that are compared in the evaluation:
 
 - **Fixed-size chunking**: segments the text into chunks of a predefined token length with configurable overlap, without regard for document structure.
-- **Semantic chunking**: segments the text based on semantic coherence, grouping sentences or paragraphs that share topical context into the same chunk.
 - **Structure-aware chunking**: leverages the heading hierarchy and section boundaries extracted during preprocessing to produce chunks that respect the logical structure of the report.
 
 Each chunking strategy is evaluated independently to answer RQ1.
@@ -79,7 +78,7 @@ The retrieval stage combines two complementary search strategies:
 - **Dense retrieval**: semantic vector search over the Qdrant index, matching user queries to report chunks based on embedding similarity.
 - **Sparse retrieval**: BM25 keyword matching, which captures exact term overlap — particularly important for specific ESRS terminology and regulatory references.
 
-Results from both strategies are merged using **Reciprocal Rank Fusion (RRF)** with a constant k=60, producing a unified ranked list. Metadata filters allow retrieval to be scoped to specific companies and reporting years.
+Results from both strategies are merged using **Reciprocal Rank Fusion (RRF)** with a constant k=60, producing a unified ranked list. Metadata filters allow retrieval to be scoped to specific companies.
 
 ### 5. Generation and Domain Adaptation
 
@@ -88,7 +87,7 @@ The generation stage constructs the final answer through a multi-step process:
 - **ESRS context extraction**: a dedicated module queries the LLM with the full text of the relevant ESRS standard to extract only those disclosure requirements that pertain to the user's specific question.
 - **Answer generation**: the retrieved report passages and the extracted ESRS requirements are provided to the LLM as context for generating a structured answer.
 - **Anti-hallucination constraints**: system prompts explicitly instruct the model to ground its answers in the retrieved context and to refrain from introducing information not present in the source material.
-- **Compliance assessment**: an automated evaluation step compares the generated answer against the full set of applicable ESRS requirements to assign a fulfillment level (Low / Medium / High) and identify disclosure gaps.
+- **Compliance assessment**: the generation step requests a fulfillment level (Low / Medium / High), rationale, and disclosure gaps grounded in retrieved passages and extracted ESRS requirements.
 - **Cross-company comparison**: when multiple companies are selected, specialized generation logic produces a comparative analysis highlighting relative strengths, weaknesses, and differences in ESRS alignment.
 
 ---
@@ -123,7 +122,7 @@ The Golden Standard is a manually curated evaluation dataset containing ESRS-rel
 
 - **Embedding model**: `text-embedding-3-large` (OpenAI)
 - **Language model**: `gpt-5.2` (OpenAI)
-- **Vision language model**: `gpt-5-mini` (OpenAI, used for figure descriptions during preprocessing)
+- **Vision language model**: configurable via `LLM_MODEL` (OpenAI, used for figure descriptions during preprocessing; default `gpt-5.2`)
 
 ### Vector Database
 
@@ -155,15 +154,27 @@ Latency, prompt size, token cost, and number of retrieved chunks. These metrics 
 
 ## Notebooks
 
-The experimental workflow is organized into two Jupyter notebooks that orchestrate the core pipeline modules.
+The experimental workflow is organized into eight Jupyter notebooks, each corresponding to a specific pipeline stage or research question.
 
-### 1. Preprocessing and Indexing Notebook
+### Exploration and Pipeline Development (01–04)
 
-This notebook handles loading sustainability reports, applying the different chunking strategies under evaluation, computing embeddings, building the Qdrant index, and saving all intermediate artifacts for downstream use in evaluation and the Streamlit application. The underlying logic resides in the modular Python files within the project.
+| Notebook | Purpose |
+|---|---|
+| `01_report_structure_and_metadata_audit.ipynb` | Load Markdown reports, inspect page markers, heading hierarchy, and metadata completeness. |
+| `02_chunking_experiments.ipynb` | Compare fixed-size vs. structure-aware chunking: distributions, overlap, boundary examples. |
+| `03_embeddings_and_qdrant_indexing.ipynb` | Embed chunks, build/verify Qdrant collections, inspect nearest-neighbour quality. |
+| `04_retrieval_esrs_context_and_generation.ipynb` | End-to-end single-query walkthrough: retrieve, extract ESRS context, generate answer. |
 
-### 2. Evaluation Notebook
+### Evaluation and Selection (05–08)
 
-This notebook runs the systematic benchmarking against the Golden Standard. It loads the precomputed chunks and indices, executes each RAG configuration, computes retrieval and answer quality metrics, and stores evaluation results. The analysis addresses RQ1 through RQ3.
+| Notebook | Purpose |
+|---|---|
+| `05_rq1_chunking_evaluation.ipynb` | RQ1 — Evaluate fixed-size vs. structure-aware chunking on retrieval metrics. |
+| `06_rq2_retrieval_evaluation.ipynb` | RQ2 — Compare dense, sparse, hybrid, and hybrid+reranker retrieval strategies. |
+| `07_rq3_generation_evaluation_and_llm_judge.ipynb` | RQ3 — Evaluate answer generation quality including LLM-as-a-judge (Approach B). |
+| `08_best_pipeline_frontend_validation.ipynb` | Select best pipeline via composite scoring, save manifest, validate frontend readiness. |
+
+Notebooks 05–07 save per-RQ evaluation results to `data/artifacts/evaluation_results/`. Notebook 08 calls `select_best_pipeline()` and `save_best_pipeline_manifest()` to persist the winning configuration to `config/best_pipeline.yaml`, which the Streamlit app reads on startup.
 
 ---
 
@@ -217,35 +228,36 @@ Alternatively, Qdrant can be configured for local file-based persistence without
 
 ### Step 1: Preprocessing and Indexing
 
-Run the preprocessing notebook to process reports and build the vector index:
+Run notebooks 01–03 in order (or use the CLI script):
 
 ```bash
-jupyter notebook notebooks/01_preprocessing_indexing.ipynb
-```
+# Notebooks (recommended for first-time exploration)
+jupyter notebook notebooks/01_report_structure_and_metadata_audit.ipynb
+jupyter notebook notebooks/02_chunking_experiments.ipynb
+jupyter notebook notebooks/03_embeddings_and_qdrant_indexing.ipynb
 
-Alternatively, use the command-line script:
-
-```bash
+# Or CLI
 python run_preprocessing.py
 ```
 
-This step loads the PDF reports, applies the configured chunking strategies, generates embeddings via the OpenAI API, builds the Qdrant index, and saves all artifacts to `data/artifacts/`. Note that this step requires API access and may take considerable time depending on report sizes.
+This loads the Markdown reports, applies chunking strategies, generates embeddings via the OpenAI API, builds Qdrant collections, and saves all artifacts to `data/artifacts/`.
 
 ### Step 2: Evaluation
 
-Run the evaluation notebook to benchmark the different RAG configurations:
+Run notebooks 05–08:
 
 ```bash
-jupyter notebook notebooks/02_evaluation.ipynb
-```
+jupyter notebook notebooks/05_rq1_chunking_evaluation.ipynb
+jupyter notebook notebooks/06_rq2_retrieval_evaluation.ipynb
+jupyter notebook notebooks/07_rq3_generation_evaluation_and_llm_judge.ipynb
+jupyter notebook notebooks/08_best_pipeline_frontend_validation.ipynb
 
-Alternatively:
-
-```bash
+# Or CLI
 python run_evaluation.py
 ```
 
-This step loads the Golden Standard, evaluates each pipeline configuration across the defined metrics, and saves results to `data/artifacts/evaluation_results.json`.
+Notebook 08 selects the best pipeline configuration and saves the manifest to `config/best_pipeline.yaml`.  
+The CLI `python run_evaluation.py` also writes `config/best_pipeline.yaml` after scoring evaluated configurations.
 
 ### Step 3: Interactive Analysis
 
@@ -255,7 +267,7 @@ Launch the Streamlit application:
 streamlit run streamlit_app/app.py
 ```
 
-Open the URL displayed in the terminal (typically `http://localhost:8501`) to access the interactive analysis interface.
+The app loads the best pipeline manifest automatically. If no manifest exists, it falls back to the default configuration.
 
 ---
 
@@ -263,20 +275,35 @@ Open the URL displayed in the terminal (typically `http://localhost:8501`) to ac
 
 ```
 ESRS-Regulation-Bot/
+├── config/
+│   ├── pipeline_configs.yaml       # 8 experiment configurations (RQ1×2, RQ2×4, RQ3×2)
+│   └── best_pipeline.yaml          # Auto-generated best pipeline manifest
 ├── data/
-│   ├── Reports_Pdf/              # Source sustainability reports (PDF)
-│   ├── Reports_md/               # Preprocessed reports (Markdown)
-│   ├── ESRS_Standards_JSON/      # ESRS regulation files (JSON)
-│   └── artifacts/                # Generated indices, chunks, embeddings
-├── notebooks/                    # Jupyter notebooks for experiments
-├── rag/                          # Core RAG pipeline modules
-├── streamlit_app/                # Streamlit frontend application
-├── config/                       # Configuration files
-├── golden_standard/              # Evaluation Golden Standard
-├── extract_report.py             # PDF preprocessing script
-├── pdf_to_json.py                # ESRS regulation parsing script
-├── requirements.txt              # Python dependencies
-├── .env                          # Environment variables (not tracked)
+│   ├── Reports_Pdf/                # Source sustainability reports (PDF)
+│   ├── Reports_md/                 # Preprocessed reports (Markdown)
+│   ├── ESRS_Standards_JSON/        # ESRS regulation files (JSON)
+│   └── artifacts/                  # Generated indices, chunks, embeddings, eval results
+├── golden_standard/                # Evaluation Golden Standard (12 questions × 17 companies)
+├── notebooks/                      # 8 Jupyter notebooks (01–08)
+├── rag/                            # Core RAG pipeline modules
+│   ├── config.py                   # Paths, API keys, experiment configs, manifest I/O
+│   ├── parser.py                   # Markdown report parser
+│   ├── chunker.py                  # Fixed-size and structure-aware chunking
+│   ├── embedder.py                 # OpenAI embedding with file-based caching
+│   ├── indexer.py                  # Qdrant vector index + numpy fallback
+│   ├── retriever.py                # BM25, RRF, Cohere reranker, unified Retriever
+│   ├── esrs_context.py             # ESRS JSON standards extraction with LLM + caching
+│   ├── generator.py                # Answer generation with citation resolution
+│   ├── evaluator.py                # Full evaluation harness (Approach A + B)
+│   ├── llm_client.py               # OpenAI chat completions wrapper
+│   └── pipeline.py                 # Pipeline orchestration: build_index, load_pipeline, run_query
+├── streamlit_app/
+│   └── app.py                      # Streamlit frontend (loads best_pipeline.yaml)
+├── tests/                          # Unit tests
+├── run_preprocessing.py            # CLI preprocessing script
+├── run_evaluation.py               # CLI evaluation script
+├── requirements.txt                # Python dependencies
+├── .env                            # Environment variables (not tracked)
 └── README.md
 ```
 

@@ -1,0 +1,24 @@
+{
+  "factual_correctness": {
+    "score": 4,
+    "rationale": "Accurately states the DMA timing (first in 2023, revised 2024), alignment with CSRD/ESRS and EFRAG draft O&G standard, the inside-out/outside-in framing, use of severity×likelihood and ERM scales, and the list of highest-priority topics (climate change, own workforce, pollution, business conduct, resource use & circular economy). Minor issues: it does not clearly reflect the reference’s explicit four-step structure (incl. formal validation/reporting/monitoring) and slightly reframes stakeholder engagement details."
+  },
+  "completeness": {
+    "score": 3,
+    "rationale": "Covers the core method elements and correctly identifies the matters material from both impact and financial perspectives. However, it omits several key reference points: the explicit four-step iterative process (business context; IRO identification top-down/bottom-up; assessment/prioritisation; validation/monitoring), the additional material topics (affected communities, biodiversity & ecosystems, workers in value chain), the 2024 addition of water & marine resources as potentially material, the entity-specific cyber security IRO, and that S4 Consumers/End Users was not material."
+  },
+  "grounding_faithfulness": {
+    "score": 3,
+    "rationale": "Most claims align with the reference, but it introduces extra stakeholder-engagement channels (e.g., PDO public consultations, whistleblowing channel) and some operational focus details that are not present in the provided reference answer, making parts not verifiable against the reference."
+  },
+  "citation_quality": {
+    "score": 2,
+    "rationale": "Uses page citations, but no source document is provided here to verify them, and the citations are broad ranges rather than pinpointed to specific claims. From the perspective of this evaluation against the reference text, the citations are not checkable and therefore not very helpful."
+  },
+  "compliance_assessment": {
+    "score": 3,
+    "rationale": "It appropriately explains how the DMA was conducted and identifies the sustainability matters material from both impact and financial perspectives, which addresses the question. But it does not fully reflect the reference’s described DMA process (four-step iterative approach and governance/monitoring) and omits other materiality outcomes that would typically be expected in an ESRS-oriented response."
+  },
+  "overall_score": 3.0,
+  "overall_rationale": "The answer is largely correct on the main points asked (DMA timing/approach and the high-high material topics), but it is only moderately complete versus the reference and includes some elements not verifiable from the reference. Citations are not assessable/precise in this context."
+}

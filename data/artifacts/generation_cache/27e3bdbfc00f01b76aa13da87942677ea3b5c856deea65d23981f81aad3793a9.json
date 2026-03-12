@@ -1,0 +1,31 @@
+{
+  "direct_answer": "Yes. Helleniq (HELLENIQ ENERGY) discloses that it has a climate change mitigation transition plan, referred to as the “corporate transformation plan” / “Vision 2025,” and describes it as being implemented and approved by the Board of Directors (Extraordinary General Meeting, 10 Dec 2021). The plan focuses on upgrading traditional activities and expanding in renewables and clean energy, with implementation milestones reported (e.g., installed renewable capacity reaching 0.5 GW). [Source 1]\n\nNo, it is not stated to be 1.5°C aligned. The company explicitly discloses that “for now, the targets set are not fully compatible with limiting global warming to 1.5℃, as outlined in the Paris Agreement,” while aiming for climate neutrality by 2050. [Source 1]",
+  "compliance_level": "Medium",
+  "compliance_rationale": "Evidence confirms existence of a transition plan (Vision 2025), its strategic direction, governance approval, and some progress/milestones. [Source 1] However, the company explicitly states its targets are not fully compatible with 1.5°C, so 1.5°C alignment is not met. [Source 1] Additionally, the retrieved passages do not provide the full set of ESRS E1-1 required elements (e.g., detailed decarbonisation levers, investments/funding, EU Taxonomy alignment of the plan, fossil fuel CapEx details, and comprehensive locked-in emissions assessment within the transition plan disclosure). [Source 1][Source 6]",
+  "disclosure_gaps": [
+    "Explanation of how GHG targets are compatible with limiting warming to 1.5°C (company instead states they are not fully compatible); no pathway/quantification provided in the retrieved passages. [Source 1]",
+    "Whether targets are science-based and the detailed framework/methodology/scenarios used to set the targets (only a statement that oil & gas companies cannot yet set SBTi targets and that the company monitors SBTi; no target-setting methodology provided in the retrieved passages). [Source 1]",
+    "Detailed decarbonisation levers and key actions, and associated investments and funding supporting the transition plan (beyond high-level focus on RES/clean energy and a few milestones). [Source 1]",
+    "Locked-in emissions assessment details as part of the transition plan disclosure (only a brief statement that refineries need additional improvement actions; no quantified locked-in emissions in retrieved passages). [Source 6]",
+    "Explicit discussion of alignment with EU Taxonomy criteria as required by ESRS E1-1 for the transition plan (EU Taxonomy content is provided generally, but not tied to transition plan alignment in the retrieved passages). [Source 1][Source 10]",
+    "Disclosure of coal/oil/gas-related CapEx (where applicable) and whether excluded from EU Paris-aligned Benchmarks (where applicable) is not evidenced in the retrieved passages. [Source 1]",
+    "How the transition plan is embedded in business strategy and financial planning (only partial: approval and general strategy; no detailed linkage to financial planning in retrieved passages). [Source 1][Source 6]"
+  ],
+  "key_findings": [
+    "Helleniq discloses an existing climate mitigation transition plan (“Vision 2025” / corporate transformation plan). [Source 1]",
+    "The plan has been approved by the Board of Directors (Extraordinary General Meeting, 10 Dec 2021). [Source 1]",
+    "Strategic direction includes upgrading traditional activities and expanding in renewables and clean energy; progress includes installed renewable capacity reaching 0.5 GW. [Source 1]",
+    "The company states its current targets are not fully compatible with limiting warming to 1.5°C, though it aims for climate neutrality by 2050. [Source 1]",
+    "Company notes that science-based targets for oil & gas companies are not yet available under SBTi guidance and it is monitoring SBTi developments. [Source 1]"
+  ],
+  "sources_used": [
+    1,
+    6,
+    10
+  ],
+  "_token_usage": {
+    "prompt_tokens": 5820,
+    "completion_tokens": 871,
+    "total_tokens": 6691
+  }
+}

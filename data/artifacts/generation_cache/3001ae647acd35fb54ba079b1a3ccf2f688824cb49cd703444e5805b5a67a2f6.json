@@ -1,0 +1,28 @@
+{
+  "direct_answer": "At OMV Petrom, sustainability-related performance is integrated into the Executive Board’s variable remuneration through both the Long-Term Incentive Plan (LTIP) and the annual bonus, which are aligned with Strategy 2030 and include ESG-related KPIs (e.g., carbon emission reduction) [Source 1]. The LTIP links Executive Board remuneration to achievement of the company’s GHG emissions reduction target [Source 2], with the GHG emissions reduction target weighted at 25% and the increase of the proportion of women at management level weighted at 10% [Source 2]. In the 2024 annual bonus scheme, various safety KPIs (including zero work-related fatalities, Process Safety Event Rate, and Total Recordable Injury Rate) are included with a cumulated 15% weighting [Source 2]. The Remuneration Policy applies to the Executive Board and Supervisory Board since 2021; Supervisory Board remuneration is fixed (i.e., no variable sustainability-linked component is described for the Supervisory Board) [Source 2]. The updated Remuneration Policy was prepared by the Presidential and Nomination Committee and approved by the Ordinary General Meeting of Shareholders in April 2022 [Source 2].",
+  "compliance_level": "Medium",
+  "compliance_rationale": "The company discloses key characteristics of the incentive structure (fixed + variable; LTIP and annual bonus) and identifies specific sustainability-related targets/metrics and their weightings (GHG reduction 25% in LTIP; women in management 10% in LTIP; safety KPIs 15% in annual bonus) [Source 1, Source 2]. It also discloses the approval level for the remuneration policy (prepared by Presidential and Nomination Committee; approved by AGM) and notes Supervisory Board pay is fixed [Source 2]. However, the disclosure does not provide the overall proportion of variable remuneration dependent on sustainability targets/impacts (as a share of total variable pay or total remuneration), nor does it describe sustainability-linked incentives for the Supervisory Board beyond stating remuneration is fixed [Source 2].",
+  "disclosure_gaps": [
+    "Proportion of variable remuneration dependent on sustainability-related targets/impacts expressed as a percentage of total variable remuneration and/or total remuneration for Executive Board members (only individual KPI weightings are provided) [Source 2].",
+    "Clear statement on whether any sustainability-related performance conditions apply to remuneration of the Supervisory Board and, if none, an explicit confirmation beyond noting remuneration is fixed [Source 2].",
+    "More complete description of how sustainability-related performance metrics are used as benchmarks in remuneration policies (e.g., measurement approach, threshold/target/maximum payout curves) beyond listing KPIs and weightings [Source 2].",
+    "Details on how and how often the terms of the incentive schemes are updated (only approval of an updated policy in April 2022 is described) [Source 2]."
+  ],
+  "key_findings": [
+    "Executive Board variable remuneration (LTIP and annual bonus) is aligned with Strategy 2030 and emphasizes sustainability performance via ESG KPIs including carbon emission reduction [Source 1].",
+    "LTIP links Executive Board remuneration to the company’s GHG emissions reduction target [Source 2].",
+    "In LTIP, GHG emissions reduction has a 25% weighting; increasing the proportion of women at management level has a 10% weighting [Source 2].",
+    "In the 2024 annual bonus, safety KPIs (including zero work-related fatalities, Process Safety Event Rate, and Total Recordable Injury Rate) have a cumulated 15% weighting [Source 2].",
+    "Remuneration Policy applies to Executive Board and Supervisory Board since 2021; Supervisory Board remuneration is fixed [Source 2].",
+    "Updated Remuneration Policy was prepared by the Presidential and Nomination Committee and approved by the Ordinary General Meeting of Shareholders in April 2022 [Source 2]."
+  ],
+  "sources_used": [
+    1,
+    2
+  ],
+  "_token_usage": {
+    "prompt_tokens": 8447,
+    "completion_tokens": 852,
+    "total_tokens": 9299
+  }
+}

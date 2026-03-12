@@ -19,7 +19,9 @@ import numpy as np
 from rag.config import (
     ARTIFACTS_DIR, REPORTS_MD_DIR,
     get_default_pipeline_config,
+    COMPANY_MAP,
     COMPANY_REVERSE_MAP,
+    ESRS_STANDARDS,
 )
 from rag.parser import parse_all_reports, parse_report, ParsedReport
 from rag.chunker import chunk_report, Chunk
@@ -51,6 +53,43 @@ def _collection_name(config: Dict) -> str:
     return f"{prefix}_{strategy}"
 
 
+def _normalize_company_names(companies: Optional[List[str]]) -> Optional[List[str]]:
+    """Normalize company identifiers to display names.
+
+    Accepts both display names (e.g. "Aker BP") and report stems
+    (e.g. "AkerBP_2024") to keep CLI/notebook usage backward compatible.
+    """
+    if not companies:
+        return companies
+
+    normalized: List[str] = []
+    seen: set[str] = set()
+
+    display_names = list(COMPANY_REVERSE_MAP.keys())
+    stem_names = list(COMPANY_MAP.keys())
+
+    for raw in companies:
+        name = str(raw or "").strip()
+        if not name:
+            continue
+
+        if name in COMPANY_REVERSE_MAP:
+            display = name
+        elif name in COMPANY_MAP:
+            display = COMPANY_MAP[name]
+        else:
+            display = next((d for d in display_names if d.lower() == name.lower()), "")
+            if not display:
+                stem = next((s for s in stem_names if s.lower() == name.lower()), "")
+                display = COMPANY_MAP.get(stem, name)
+
+        if display not in seen:
+            normalized.append(display)
+            seen.add(display)
+
+    return normalized
+
+
 # ---------------------------------------------------------------------------
 # Index building pipeline
 # ---------------------------------------------------------------------------
@@ -80,6 +119,7 @@ def build_index(
     """
     if config is None:
         config = get_default_pipeline_config()
+    companies = _normalize_company_names(companies)
     
     strategy = config["chunking_strategy"]
     chunk_size = config["chunk_size_tokens"]
@@ -221,8 +261,8 @@ def _dict_to_chunk(d: Dict) -> Chunk:
 def run_query(
     query: str,
     companies: List[str],
-    esrs_standard: str,
-    retriever: Retriever,
+    esrs_standard: Optional[str],
+    retriever: Optional[Retriever],
     config: Dict,
 ) -> Dict[str, Any]:
     """
@@ -238,25 +278,42 @@ def run_query(
     Returns:
         Complete result dict with answers, citations, and page references
     """
+    normalized_companies = _normalize_company_names(companies) or []
+    if not normalized_companies:
+        raise ValueError("At least one company must be provided.")
+
+    standard = str(esrs_standard or "").strip()
+    if not standard:
+        # Backward compatibility for older notebook calls.
+        standard = "ESRS 1"
+    if standard not in ESRS_STANDARDS:
+        raise ValueError(f"Unknown ESRS standard: {standard}")
+
+    active_retriever = retriever
+    if active_retriever is None:
+        # Backward compatibility for legacy calls that passed retriever=None.
+        vec_index, bm25, _ = build_index(config=config, force_rebuild=False, companies=normalized_companies)
+        active_retriever = Retriever(vec_index, bm25, config)
+
     result = {
         "query": query,
-        "companies": companies,
-        "esrs_standard": esrs_standard,
+        "companies": normalized_companies,
+        "esrs_standard": standard,
         "timestamp": time.strftime("%Y-%m-%d %H:%M:%S"),
     }
     
     # --- Extract ESRS context ---
     print("  Extracting ESRS requirements...")
-    esrs_context = get_esrs_requirements_text(query, esrs_standard)
+    esrs_context = get_esrs_requirements_text(query, standard)
     result["esrs_requirements"] = esrs_context
     
     # --- Retrieve and generate per company ---
     per_company_chunks = {}
     per_company_answers = {}
     
-    for company in companies:
+    for company in normalized_companies:
         print(f"  Retrieving for {company}...")
-        chunks = retriever.retrieve(query, company=company)
+        chunks = active_retriever.retrieve(query, company=company)
         per_company_chunks[company] = chunks
         
         print(f"  Generating answer for {company}...")
@@ -273,9 +330,16 @@ def run_query(
     result["per_company_chunks"] = {
         company: chunks for company, chunks in per_company_chunks.items()
     }
+
+    # Backward-compatible flat fields for single-company calls.
+    if len(normalized_companies) == 1:
+        only_company = normalized_companies[0]
+        answer_obj = per_company_answers.get(only_company, {})
+        result["answer"] = answer_obj.get("direct_answer", "")
+        result["page_references"] = answer_obj.get("page_references", [])
     
     # --- Comparative analysis for multiple companies ---
-    if len(companies) > 1:
+    if len(normalized_companies) > 1:
         print("  Generating comparative analysis...")
         comparison = generate_comparison(
             query=query,

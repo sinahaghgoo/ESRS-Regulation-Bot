@@ -1,0 +1,31 @@
+{
+  "direct_answer": "Aker BP integrates sustainability-related performance into its variable remuneration through the company-wide bonus programme, which is paid to all permanent employees, including management [Source 1]. The bonus is calculated based on a set of equally weighted KPIs (seven of eight KPIs are used; the “people and organisation” KPI does not factor into the bonus) and initiative achievements [Source 6]. The KPIs include sustainability-related metrics such as safety (serious incidents per million work hours) and equity share scope 1 GHG intensity (kg CO2e/boe) [Source 1]. Aker BP states that approximately 22% of the bonus potential is dependent on sustainability-related initiatives and targets [Source 1]. Governance-wise, the Organisational Development and Compensation Committee (ODCC) is responsible for ensuring remuneration arrangements support the strategy, including sustainability matters, and it oversees the setting of targets and monitoring of progress related to KPIs linked to the incentive schemes for executive management team (EMT) remuneration [Source 2][Source 3].",
+  "compliance_level": "Medium",
+  "compliance_rationale": "The passages provide (i) key characteristics of the incentive scheme (company-wide bonus programme; KPI-based; applies to permanent employees including management) and (ii) examples of sustainability-related metrics used (e.g., safety and scope 1 GHG intensity) plus (iii) an explicit proportion of bonus potential linked to sustainability-related initiatives/targets (22%) and (iv) committee oversight (ODCC) for EMT incentive-linked KPIs [Source 1][Source 2][Source 3][Source 6]. However, the evidence does not specify how sustainability performance is integrated specifically for members of the administrative, management and supervisory bodies (e.g., Board of Directors/supervisory bodies), nor does it describe approval/update level for the incentive terms, or provide a complete list of sustainability targets/impacts used as benchmarks for remuneration [Source 1][Source 2][Source 3][Source 6].",
+  "disclosure_gaps": [
+    "Explicit description of sustainability-linked incentive/remuneration arrangements for members of the administrative and supervisory bodies (e.g., Board of Directors), not only management/employees generally (no direct evidence in provided passages).",
+    "Clear identification of the specific sustainability-related targets/impacts used for remuneration assessment (beyond examples of KPIs such as safety and scope 1 GHG intensity).",
+    "Explanation of whether/how sustainability metrics are used as performance benchmarks within formal remuneration policies for the administrative/management/supervisory bodies (beyond general statements about the bonus programme).",
+    "Proportion of variable remuneration dependent on sustainability targets for each relevant body/member category (e.g., EMT vs Board), rather than a single company-wide 22% figure.",
+    "The level in the undertaking at which the terms of the incentive schemes are approved and updated (e.g., Board vs general meeting), not specified in the provided passages.",
+    "Reference details from the remuneration report mentioned in the text are not included in the retrieved passages, limiting completeness [Source 1]."
+  ],
+  "key_findings": [
+    "Aker BP’s bonus scheme is a variable remuneration programme paid to all permanent employees, including management, and is KPI- and initiative-achievement based [Source 1][Source 6].",
+    "The bonus scheme uses seven of eight equally weighted KPIs; the “people and organisation” KPI does not factor into the bonus [Source 6].",
+    "Sustainability-related KPIs used in the bonus framework include safety (serious incidents per million work hours) and equity share scope 1 GHG intensity (kg CO2e/boe) [Source 1].",
+    "Aker BP states that ~22% of bonus potential depends on sustainability-related initiatives and targets [Source 1].",
+    "The ODCC is tasked with ensuring remuneration supports strategy including sustainability, and oversees target-setting and monitoring for KPIs linked to EMT incentive schemes [Source 2][Source 3]."
+  ],
+  "sources_used": [
+    1,
+    2,
+    3,
+    6
+  ],
+  "_token_usage": {
+    "prompt_tokens": 8622,
+    "completion_tokens": 866,
+    "total_tokens": 9488
+  }
+}

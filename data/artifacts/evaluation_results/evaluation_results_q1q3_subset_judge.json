@@ -1,0 +1,2134 @@
+{
+  "RQ1_structure_aware": {
+    "config_name": "RQ1_structure_aware",
+    "rq_group": "RQ1",
+    "config": {
+      "chunking_strategy": "structure_aware",
+      "chunk_size_tokens": 512,
+      "chunk_overlap_tokens": 64,
+      "embedding_model": "text-embedding-3-large",
+      "embedding_dimensions": 3072,
+      "retrieval_method": "hybrid",
+      "top_k": 15,
+      "rrf_k": 60,
+      "use_reranker": false,
+      "rerank_top_n": 10,
+      "llm_model": "gpt-5.2",
+      "max_generation_tokens": 2048,
+      "temperature": 0.1,
+      "qdrant_collection_prefix": "esrs_reports"
+    },
+    "per_question": {
+      "Q1": {
+        "Aker BP": {
+          "config_name": "RQ1_structure_aware",
+          "rq_group": "RQ1",
+          "question_id": "Q1",
+          "question": "How has the undertaking conducted its double materiality assessment, and which sustainability matters were identified as material from both an impact and a financial perspective?",
+          "company": "Aker BP",
+          "esrs_standard": "ESRS 1",
+          "gold_fulfillment": "High",
+          "predicted_fulfillment": "Medium",
+          "compliance_match": false,
+          "retrieval": {
+            "recall@5": 1.0,
+            "precision@5": 0.8,
+            "mrr@5": 1.0,
+            "recall@10": 1.0,
+            "precision@10": 0.8,
+            "mrr@10": 1.0,
+            "recall@15": 1.0,
+            "precision@15": 0.8666666666666667,
+            "mrr@15": 1.0,
+            "coverage_ratio": 1.0
+          },
+          "answer_quality": {
+            "token_precision": 0.4264069264069264,
+            "token_recall": 0.7111913357400722,
+            "token_f1": 0.5331529093369418,
+            "bertscore": 0.0,
+            "llm_judge_score": 5.0,
+            "llm_judge_score_normalized": 1.0,
+            "llm_judge_rationale": "The generated answer accurately reflects the reference DMA description: first conducted in 2023 and revised in 2024 with new guidance and EFRAG draft oil & gas standard; four-step iterative process (context definition, IRO identification via top-down/bottom-up with stakeholder input, assessment/prioritisation using severity×likelihood and financial criteria aligned to company risk scales, validation by management/Board with monitoring). It correctly explains impact vs financial materiality and notes stakeholder engagement (interviews/workshops and prior-year external stakeholders). It correctly identifies the highest-priority topics material from both impact and financial perspectives: climate change, own workforce, pollution, business conduct, and resource use & circular economy. Minor omissions include not explicitly stating the additional impact-material topics (affected communities, biodiversity, workers in value chain), water/marine resources update, cyber security entity-specific IRO, and S4 not material; however, the question focuses on the DMA conduct and the matters material from both perspectives, which are fully and correctly covered."
+          },
+          "citation": {
+            "citation_precision": 0.5,
+            "citation_recall": 1.0,
+            "citation_f1": 0.6666666666666666
+          },
+          "hallucination": {
+            "faithfulness_score": 0.7709740894709802,
+            "supported_claim_ratio": 1.0,
+            "hallucination_rate": 0.0
+          },
+          "efficiency": {
+            "latency_seconds": 0.009772300720214844,
+            "prompt_tokens": 9575.0,
+            "completion_tokens": 1355.0,
+            "total_tokens": 10930.0,
+            "estimated_cost_usd": 0.0374875,
+            "n_chunks_retrieved": 15.0
+          },
+          "retrieved_chunk_count": 15,
+          "sources_used": [
+            1,
+            2,
+            3,
+            4,
+            6,
+            7,
+            8
+          ],
+          "page_references": [
+            {
+              "source_index": 1,
+              "pages": [
+                43,
+                44
+              ],
+              "page_display": "pp. 43-44",
+              "page_inline": "Page 43-44",
+              "section": "Annual report 2024 > General > 1 General > 1.5 DOUBLE MATERIALITY ASSESSMENT > 1.5.2 Methodology",
+              "chunk_id": "AkerBP_struct_00018_ec2b1cfa",
+              "text_preview": "authorities; conferences, public hearings and formal meetings with local communities and NGOs; and audits, negotiations and contractual processes with suppliers, contractors and partners. Overall, the framework highlights a systematic approach to sta"
+            },
+            {
+              "source_index": 2,
+              "pages": [
+                43
+              ],
+              "page_display": "p. 43",
+              "page_inline": "Page 43",
+              "section": "Annual report 2024 > General > 1 General > 1.5 DOUBLE MATERIALITY ASSESSMENT > 1.5.1 Stakeholder engagement",
+              "chunk_id": "AkerBP_struct_00017_f0aeff47",
+              "text_preview": "whether in our role as an energy provider, employer, customer or as a business that helps stimulate local and national economies through jobs, investments and taxes paid. Maintaining an open and proactive dialogue with key stakeholders helps us ident"
+            },
+            {
+              "source_index": 3,
+              "pages": [
+                42,
+                43
+              ],
+              "page_display": "pp. 42-43",
+              "page_inline": "Page 42-43",
+              "section": "Annual report 2024 > General > 1 General > 1.5 DOUBLE MATERIALITY ASSESSMENT",
+              "chunk_id": "AkerBP_struct_00016_1e059fc8",
+              "text_preview": "of IROs, their dependencies and connection to Aker BP's own operations and its value chain. The assessment followed a four-step process described in A figure 9. A description of how the identified IROs are integrated in Aker BP's management process i"
+            },
+            {
+              "source_index": 4,
+              "pages": [
+                41,
+                42
+              ],
+              "page_display": "pp. 41-42",
+              "page_inline": "Page 41-42",
+              "section": "Annual report 2024 > General > 1 General > 1.4 IMPACT, RISK AND OPPORTUNITY MANAGEMENT",
+              "chunk_id": "AkerBP_struct_00015_cf7c7c95",
+              "text_preview": "lying with the BoD, who receives updates from all ARC meetings. Risk management in Aker BP follows the principles in ISO 31000. IROs are identified, evaluated and mapped into our shared company risk matrix, including impact categories for personnel,"
+            },
+            {
+              "source_index": 6,
+              "pages": [
+                46
+              ],
+              "page_display": "p. 46",
+              "page_inline": "Page 46",
+              "section": "Annual report 2024 > General > 1 General > 1.5 DOUBLE MATERIALITY ASSESSMENT > 1.5.4.1 Changes",
+              "chunk_id": "AkerBP_struct_00024_63e4074b",
+              "text_preview": "associated with activities in countries that have a lower score on the Corruption Perception Index (CPI). Sector-specific IROs relevant to the oil and gas sector, such as health and safety, anti-discrimination, digitalisation and access to grievance"
+            },
+            {
+              "source_index": 7,
+              "pages": [
+                44
+              ],
+              "page_display": "p. 44",
+              "page_inline": "Page 44",
+              "section": "Annual report 2024 > General > 1 General > 1.5 DOUBLE MATERIALITY ASSESSMENT > 1.5.3.1 E1 - Climate change",
+              "chunk_id": "AkerBP_struct_00019_79e8e44e",
+              "text_preview": "complying with the emerging obligations for emission reporting and monitoring. This encompasses the addition of Yggdrasil and Valhall PWP-Fenris to our portfolio. Our medium-term horizon is shaped by achieving our climate-related targets for 2030 as"
+            },
+            {
+              "source_index": 8,
+              "pages": [
+                50
+              ],
+              "page_display": "p. 50",
+              "page_inline": "Page 50",
+              "section": "Annual report 2024 > General > 1 General > 1.6 SUSTAINABILITY DUE DILIGENCE",
+              "chunk_id": "AkerBP_struct_00034_883388c4",
+              "text_preview": "take measures to cease, prevent and mitigate such impacts where we are involved. Our sustainability due diligence process is based on the OECD's due diligence guidance for responsible business. This risk-based process aims to avoid and address advers"
+            }
+          ],
+          "generated_answer_preview": "Aker BP states that it conducted a double materiality assessment (DMA) using a systematic, structured process to identify material impacts, risks and opportunities (IROs) and the associated sustainability matters for reporting, covering both (i) impact materiality (inside-out: impacts from its activities on environment and society) and (ii) financial materiality (outside-in: financial risks and opportunities sustainability issues pose to its business model and performance, including reputational risk and dependencies on natural, human and social resources) [Page 43-44]. The DMA was revised in 2024 based on new information, implementation guidance and EFRAG’s draft oil and gas sector standard"
+        },
+        "BASF": {
+          "config_name": "RQ1_structure_aware",
+          "rq_group": "RQ1",
+          "question_id": "Q1",
+          "question": "How has the undertaking conducted its double materiality assessment, and which sustainability matters were identified as material from both an impact and a financial perspective?",
+          "company": "BASF",
+          "esrs_standard": "ESRS 1",
+          "gold_fulfillment": "High",
+          "predicted_fulfillment": "Medium",
+          "compliance_match": false,
+          "retrieval": {
+            "recall@5": 1.0,
+            "precision@5": 1.0,
+            "mrr@5": 1.0,
+            "recall@10": 1.0,
+            "precision@10": 0.9,
+            "mrr@10": 1.0,
+            "recall@15": 1.0,
+            "precision@15": 0.7333333333333333,
+            "mrr@15": 1.0,
+            "coverage_ratio": 1.0
+          },
+          "answer_quality": {
+            "token_precision": 0.4716599190283401,
+            "token_recall": 0.8381294964028777,
+            "token_f1": 0.6036269430051814,
+            "bertscore": 0.0,
+            "llm_judge_score": 4.0,
+            "llm_judge_score_normalized": 0.8,
+            "llm_judge_rationale": "The generated answer accurately describes BASF’s three-step ESRS-aligned double materiality process (inputs/stakeholders, IRO identification/validation, 5-point scoring with criteria and thresholds, governance review) and correctly notes S4 as not material and no entity-specific topics. However, it is incomplete on the second part: it does not clearly list the sustainability matters identified as material from both impact and financial perspectives as in the reference (climate change/energy, other environmental matters incl. emissions to air/water and biodiversity, and own workforce). Instead it claims the combined set is not explicitly listed and only partially names E1, E4 and Own Workforce, omitting emissions to air/water and the explicit framing that these are the main impact areas/material topics. Overall mostly correct and well-grounded, but missing some material-topic completeness/clarity."
+          },
+          "citation": {
+            "citation_precision": 0.2857142857142857,
+            "citation_recall": 1.0,
+            "citation_f1": 0.4444444444444445
+          },
+          "hallucination": {
+            "faithfulness_score": 0.6975270625266501,
+            "supported_claim_ratio": 1.0,
+            "hallucination_rate": 0.0
+          },
+          "efficiency": {
+            "latency_seconds": 0.015168905258178711,
+            "prompt_tokens": 7070.0,
+            "completion_tokens": 1345.0,
+            "total_tokens": 8415.0,
+            "estimated_cost_usd": 0.031125,
+            "n_chunks_retrieved": 15.0
+          },
+          "retrieved_chunk_count": 15,
+          "sources_used": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            8,
+            11
+          ],
+          "page_references": [
+            {
+              "source_index": 1,
+              "pages": [
+                167
+              ],
+              "page_display": "p. 167",
+              "page_inline": "Page 167",
+              "section": "Stakeholder expectations > Double Materiality Assessment > ESRS 2 SBM-3 ESRS 2 IRO-1 > Material impacts, risks and opportunities and their interaction with strategy and business model > Process",
+              "chunk_id": "BASF_struct_00046_58039b16",
+              "text_preview": "### ESRS 2 SBM-3 ESRS 2 IRO-1 #### Material impacts, risks and opportunities and their interaction with strategy and business model ##### Process We carried out a double materiality assessment in accordance with the ESRSs for the first time in 2024."
+            },
+            {
+              "source_index": 2,
+              "pages": [
+                167,
+                168,
+                169
+              ],
+              "page_display": "pp. 167-169",
+              "page_inline": "Page 167-169",
+              "section": "Stakeholder expectations > Double Materiality Assessment > Results > ESRS 2 SBM-3 ESRS IRO 1",
+              "chunk_id": "BASF_struct_00049_0332eef7",
+              "text_preview": "### Results #### ESRS 2 SBM-3 ESRS IRO 1 The previous double materiality assessments were designed to meet all legal requirements in place at the time. The new ESRS requirements, in combination with the implementation guidance published, required a m"
+            },
+            {
+              "source_index": 3,
+              "pages": [
+                167
+              ],
+              "page_display": "p. 167",
+              "page_inline": "Page 167",
+              "section": "Stakeholder expectations > Double Materiality Assessment > ESRS 2 SBM-3 ESRS 2 IRO-1 > Material impacts, risks and opportunities and their interaction with strategy and business model > Process",
+              "chunk_id": "BASF_struct_00047_7ddf531a",
+              "text_preview": "sustainability-related opportunities and risks, we drew on findings from BASF's Group-wide opportunity and risk management, among other sources. Material sustainability matters have been systematically integrated into this process for many years. Fur"
+            },
+            {
+              "source_index": 4,
+              "pages": [
+                167
+              ],
+              "page_display": "p. 167",
+              "page_inline": "Page 167",
+              "section": "Stakeholder expectations > Double Materiality Assessment > ESRS 2 SBM-3 ESRS 2 IRO-1 > Material impacts, risks and opportunities and their interaction with strategy and business model > ESRS 2 IRO-2",
+              "chunk_id": "BASF_struct_00048_88740490",
+              "text_preview": "the materiality assessment was applied in a consistent manner throughout the BASF Group and across all specialist units. Finally, the Board of Executive Directors, the Supervisory Board, BASF's Joint Works Council and the BASF Works Council Europe we"
+            },
+            {
+              "source_index": 5,
+              "pages": [
+                180,
+                181
+              ],
+              "page_display": "pp. 180-181",
+              "page_inline": "Page 180-181",
+              "section": "Results of the double materiality assessment for the 2024 business year: Material impacts > Results of the double materiality assessment for the 2024 business year: Material impacts > Results of the double materiality assessment for the 2024 business year: Opportunities and risks > Results of the double materiality assessment for the 2024 business year: Opportunities and risks > Environment > E1 Climate Change1",
+              "chunk_id": "BASF_struct_00076_d5d2e980",
+              "text_preview": "the scenarios are different societal preferences and, building on these, climate and economic policy objectives. To assess the impact of different global climate policy approaches on our business units, the scenarios are discussed by the business uni"
+            },
+            {
+              "source_index": 8,
+              "pages": [
+                231
+              ],
+              "page_display": "p. 231",
+              "page_inline": "Page 231",
+              "section": "Metrics > E4 Biodiversity and Ecosystems > ESRS 2 IRO-1",
+              "chunk_id": "BASF_struct_00182_38c07334",
+              "text_preview": "### ESRS 2 IRO-1 As part of the double materiality assessment that we conducted for 2024 (see page 167), the topic Biodiversity and Ecosystems was defined as material. When performing the assessment, we drew on three sources of information, in partic"
+            },
+            {
+              "source_index": 11,
+              "pages": [
+                270
+              ],
+              "page_display": "p. 270",
+              "page_inline": "Page 270",
+              "section": "Template 5 Taxonomy non-eligible economic activities > Results of the double materiality assessment > ESRS 2 SBM-3",
+              "chunk_id": "BASF_struct_00273_68834679",
+              "text_preview": "### ESRS 2 SBM-3 In our double materiality assessment (see page 167), topics in the topic category Own Workforce were defined as material. In this context, we identified five material impacts on employees and three risks for BASF2 (see the following"
+            }
+          ],
+          "generated_answer_preview": "BASF states it conducted its first ESRS-aligned double materiality assessment in 2024, building on prior assessments but with greater granularity and documentation, and plans to update it annually [Page 167]. The process had three main steps: (1) compiling a list of potential sustainability matters relevant to BASF’s business/customer industries and stakeholder groups, with particular attention to higher-risk parts of the business/value chain; the assessment was performed at BASF Group level along the value chain and incorporated stakeholder interests via direct inputs (e.g., Advisory Councils, Civil Society Forum, multistakeholder networks) and indirect inputs (e.g., big data analyses of cu"
+        },
+        "Shell": {
+          "config_name": "RQ1_structure_aware",
+          "rq_group": "RQ1",
+          "question_id": "Q1",
+          "question": "How has the undertaking conducted its double materiality assessment, and which sustainability matters were identified as material from both an impact and a financial perspective?",
+          "company": "Shell",
+          "esrs_standard": "ESRS 1",
+          "gold_fulfillment": "High",
+          "predicted_fulfillment": "Medium",
+          "compliance_match": false,
+          "retrieval": {
+            "recall@5": 1.0,
+            "precision@5": 1.0,
+            "mrr@5": 1.0,
+            "recall@10": 1.0,
+            "precision@10": 1.0,
+            "mrr@10": 1.0,
+            "recall@15": 1.0,
+            "precision@15": 1.0,
+            "mrr@15": 1.0,
+            "coverage_ratio": 1.0
+          },
+          "answer_quality": {
+            "token_precision": 0.22673434856175972,
+            "token_recall": 0.7403314917127072,
+            "token_f1": 0.3471502590673575,
+            "bertscore": 0.0,
+            "llm_judge_score": 4.0,
+            "llm_judge_score_normalized": 0.8,
+            "llm_judge_rationale": "The generated answer is largely correct and well-grounded in the reference. It accurately describes Shell’s five-step DMA process (context setting; identification of IROs; impact assessment; financial effects assessment via ERM; thresholding/materiality determination) and correctly notes the use of five-point scales and threshold logic (magnitude for actual impacts; likelihood+magnitude for potential impacts). It also correctly identifies GHG emissions as material from both impact and financial perspectives, and links this to climate change/energy transition as material risks/opportunities, consistent with the reference. \n\nHowever, it is slightly incomplete versus the reference in two ways: (1) it does not mention the specific sources used to identify topics (ESRS topics plus industry lists from Ipieca and GRI and Shell-specific topics), and (2) it adds several extra ‘other material matters’ (biodiversity, pollution, waste, integrity, etc.) that are not supported by the provided reference answer and therefore are not grounded for this evaluation. These issues prevent a top score, but the core DMA description and the ‘both impact and financial’ material matters are correct."
+          },
+          "citation": {
+            "citation_precision": 0.2727272727272727,
+            "citation_recall": 1.0,
+            "citation_f1": 0.42857142857142855
+          },
+          "hallucination": {
+            "faithfulness_score": 0.7331710508318915,
+            "supported_claim_ratio": 1.0,
+            "hallucination_rate": 0.0
+          },
+          "efficiency": {
+            "latency_seconds": 0.022429943084716797,
+            "prompt_tokens": 5728.0,
+            "completion_tokens": 1590.0,
+            "total_tokens": 7318.0,
+            "estimated_cost_usd": 0.03022,
+            "n_chunks_retrieved": 15.0
+          },
+          "retrieved_chunk_count": 15,
+          "sources_used": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            9,
+            10,
+            12,
+            14,
+            15
+          ],
+          "page_references": [
+            {
+              "source_index": 1,
+              "pages": [
+                438
+              ],
+              "page_display": "p. 438",
+              "page_inline": "Page 438",
+              "section": "Sustainability Statements > INDEPENDENT ASSURANCE REPORT TO THE DIRECTORS OF SHELL PLC ON THE SUSTAINABILITY STATEMENTS > Emphasis of matter - The double materiality assessment process",
+              "chunk_id": "Shell_struct_00500_c2c27615",
+              "text_preview": "### Emphasis of matter - The double materiality assessment process The Sustainability Statements, including the disclosure of material impacts, risks and opportunities in accordance with the ESRS, is prepared with the double materiality assessment pr"
+            },
+            {
+              "source_index": 2,
+              "pages": [
+                350,
+                351
+              ],
+              "page_display": "pp. 350-351",
+              "page_inline": "Page 350-351",
+              "section": "Sustainability Statements > Interests and views of stakeholders (SBM-2) > Key stakeholder groups and how we engage with them > Material impacts, risks and opportunities and their interaction with strategy and business model (SBM-3)",
+              "chunk_id": "Shell_struct_00045_698fd476",
+              "text_preview": "of affected stakeholders with regard to sustainability-related impacts. #### Material impacts, risks and opportunities and their interaction with strategy and business model (SBM-3) Shell has conducted an assessment of its material sustainability-rel"
+            },
+            {
+              "source_index": 3,
+              "pages": [
+                350,
+                351
+              ],
+              "page_display": "pp. 350-351",
+              "page_inline": "Page 350-351",
+              "section": "Sustainability Statements > Interests and views of stakeholders (SBM-2) > Key stakeholder groups and how we engage with them > Outcome",
+              "chunk_id": "Shell_struct_00046_3ccadb0c",
+              "text_preview": "line of sight into potential impacts and the nature of our contractual rights and obligations, if any. #### Risks and opportunities We consider risks or opportunities that could have a material effect on Shell's earnings, cash flows and financial con"
+            },
+            {
+              "source_index": 4,
+              "pages": [
+                354
+              ],
+              "page_display": "p. 354",
+              "page_inline": "Page 354",
+              "section": "Sustainability Statements > Description of the process to identify and assess material impacts, risks and opportunities (IRO-1)",
+              "chunk_id": "Shell_struct_00059_8ec67c77",
+              "text_preview": "## Description of the process to identify and assess material impacts, risks and opportunities (IRO-1) Shell has developed a process to identify and assess material sustainability-related impacts, risks and opportunities as the basis for determining"
+            },
+            {
+              "source_index": 5,
+              "pages": [
+                354,
+                355
+              ],
+              "page_display": "pp. 354-355",
+              "page_inline": "Page 354-355",
+              "section": "Sustainability Statements > Description of the process to identify and assess material impacts, risks and opportunities (IRO-1) > 2. Identify impacts, risks and opportunities > 4. Assess risks and opportunities",
+              "chunk_id": "Shell_struct_00062_11d5d425",
+              "text_preview": "effect as already occurring and do not assign a rating for likelihood. We assign a rating for magnitude based on actual impacts after implementation of standard control measures. We exclude from this analysis measures that compensate for residual imp"
+            },
+            {
+              "source_index": 6,
+              "pages": [
+                357
+              ],
+              "page_display": "p. 357",
+              "page_inline": "Page 357",
+              "section": "Sustainability Statements > Description of the process to identify and assess material impacts, risks and opportunities (IRO-1) > Other methodological notes",
+              "chunk_id": "Shell_struct_00084_2ee15faa",
+              "text_preview": "### Other methodological notes We engage with stakeholders on a regular basis concerning our potential business impacts. We have not engaged with stakeholders directly on the double materiality assessment, but use feedback from existing communication"
+            },
+            {
+              "source_index": 9,
+              "pages": [
+                397
+              ],
+              "page_display": "p. 397",
+              "page_inline": "Page 397",
+              "section": "Sustainability Statements > Our activities can affect natural habitats and the communities that depend on them. We seek to have a positive impact on biodiversity.",
+              "chunk_id": "Shell_struct_00260_1b906b40",
+              "text_preview": "## Our activities can affect natural habitats and the communities that depend on them. We seek to have a positive impact on biodiversity. Our double materiality assessment has identified biodiversity loss, sensitive areas and species, and ecosystem s"
+            },
+            {
+              "source_index": 10,
+              "pages": [
+                424
+              ],
+              "page_display": "p. 424",
+              "page_inline": "Page 424",
+              "section": "Sustainability Statements > Our core values of honesty, integrity and respect for people, as well as our focus on safety and sustainability, are critical to our strategy.",
+              "chunk_id": "Shell_struct_00435_c5b2ca78",
+              "text_preview": "## Our core values of honesty, integrity and respect for people, as well as our focus on safety and sustainability, are critical to our strategy. Our double materiality assessment has identified a culture of integrity and responsible sourcing as mate"
+            },
+            {
+              "source_index": 12,
+              "pages": [
+                353
+              ],
+              "page_display": "p. 353",
+              "page_inline": "Page 353",
+              "section": "Sustainability Statements > Current and anticipated effects on business model, value chain, strategy and decision-making",
+              "chunk_id": "Shell_struct_00055_711ab581",
+              "text_preview": "## Current and anticipated effects on business model, value chain, strategy and decision-making The \"Risk factors\" section on pages 135-144 provides an overview of the principal risks Shell is exposed to in its operations, their potential effects and"
+            },
+            {
+              "source_index": 14,
+              "pages": [
+                404
+              ],
+              "page_display": "p. 404",
+              "page_inline": "Page 404",
+              "section": "Sustainability Statements > As part of our respecting nature ambition, we seek to use resources efficiently and to increase reuse and recycling.",
+              "chunk_id": "Shell_struct_00299_6a90bc20",
+              "text_preview": "## As part of our respecting nature ambition, we seek to use resources efficiently and to increase reuse and recycling. Our double materiality assessment has identified waste management as a material topic. See \"Material impacts, risks and opportunit"
+            },
+            {
+              "source_index": 15,
+              "pages": [
+                390
+              ],
+              "page_display": "p. 390",
+              "page_inline": "Page 390",
+              "section": "Sustainability Statements > Pollution (E2)",
+              "chunk_id": "Shell_struct_00217_60b487eb",
+              "text_preview": "## Pollution (E2) We seek to manage the impact of our operations on air quality, water quality and soil and groundwater resources, while complying with applicable regulations. Our double materiality assessment has identified emissions to air, dischar"
+            }
+          ],
+          "generated_answer_preview": "Shell states it conducted a double materiality assessment (DMA) as the basis for its 2024 Sustainability Statements, assessing sustainability matters from both (i) impact materiality (Shell’s actual/potential impacts on people and the environment) and (ii) financial materiality (matters that trigger/could reasonably be expected to trigger material financial effects for Shell) [Page 350-351].\n\nHow Shell conducted the DMA:\n- Process and steps: Shell describes a five-step process: (1) establish business context, activities, value chain and stakeholders; (2) consider potential sustainability matters and identify actual/potential impacts, risks and opportunities; (3) assess impacts for actual and"
+        }
+      },
+      "Q2": {
+        "Aker BP": {
+          "config_name": "RQ1_structure_aware",
+          "rq_group": "RQ1",
+          "question_id": "Q2",
+          "question": "How is sustainability-related performance integrated into the incentive or remuneration schemes for the undertaking's administrative, management, and supervisory bodies?",
+          "company": "Aker BP",
+          "esrs_standard": "ESRS 2",
+          "gold_fulfillment": "High",
+          "predicted_fulfillment": "Medium",
+          "compliance_match": false,
+          "retrieval": {
+            "recall@5": 1.0,
+            "precision@5": 1.0,
+            "mrr@5": 1.0,
+            "recall@10": 1.0,
+            "precision@10": 0.8,
+            "mrr@10": 1.0,
+            "recall@15": 1.0,
+            "precision@15": 0.6,
+            "mrr@15": 1.0,
+            "coverage_ratio": 1.0
+          },
+          "answer_quality": {
+            "token_precision": 0.7592592592592593,
+            "token_recall": 0.5347826086956522,
+            "token_f1": 0.6275510204081634,
+            "bertscore": 0.0,
+            "llm_judge_score": 4.0,
+            "llm_judge_score_normalized": 0.8,
+            "llm_judge_rationale": "The generated answer is largely correct and grounded in the reference: it identifies the company-wide bonus programme as variable remuneration applying to all permanent employees (including management), states that ~22% of bonus potential depends on sustainability-related initiatives/targets, highlights the sustainability-related KPI (equity share scope 1 GHG intensity), and correctly describes ODCC oversight of remuneration alignment with strategy and KPI target-setting/monitoring for EMT. However, it adds/frames Safety as a sustainability-related KPI without the reference explicitly positioning Safety as the sustainability KPI in the bonus (the reference specifically calls out scope 1 GHG intensity), and it omits several reference specifics (e.g., seven of eight equally weighted KPIs feeding the bonus, the ‘People and organisation’ KPI not feeding into the bonus, and the note that BoD remuneration is covered in a separate remuneration report). These omissions and the slight overreach prevent a top score."
+          },
+          "citation": {
+            "citation_precision": 0.75,
+            "citation_recall": 1.0,
+            "citation_f1": 0.8571428571428571
+          },
+          "hallucination": {
+            "faithfulness_score": 0.6426587301587302,
+            "supported_claim_ratio": 1.0,
+            "hallucination_rate": 0.0
+          },
+          "efficiency": {
+            "latency_seconds": 0.013540267944335938,
+            "prompt_tokens": 8807.0,
+            "completion_tokens": 819.0,
+            "total_tokens": 9626.0,
+            "estimated_cost_usd": 0.0302075,
+            "n_chunks_retrieved": 15.0
+          },
+          "retrieved_chunk_count": 15,
+          "sources_used": [
+            1,
+            2,
+            3
+          ],
+          "page_references": [
+            {
+              "source_index": 1,
+              "pages": [
+                37,
+                38,
+                39
+              ],
+              "page_display": "pp. 37-39",
+              "page_inline": "Page 37-39",
+              "section": "Annual report 2024 > General > 1 General > 1.2 OUR SUSTAINABILITY STRATEGY AND APPROACH > 1.2.2 Our sustainability framework",
+              "chunk_id": "AkerBP_struct_00009_cf7a2fcd",
+              "text_preview": "key field development projects, as a basis. The KPI for people and organisation is solely based on employee feedback and does not factor into the bonus **Key performance indicators:** Safety (serious incidents/1 mill. work hours) Net production from"
+            },
+            {
+              "source_index": 2,
+              "pages": [
+                38,
+                39
+              ],
+              "page_display": "pp. 38-39",
+              "page_inline": "Page 38-39",
+              "section": "Annual report 2024 > General > 1 General > 1.3 GOVERNANCE > 1.3.3 Executive management team",
+              "chunk_id": "AkerBP_struct_00010_afdd06a9",
+              "text_preview": "partnerships, and affected communities, emphasizing people, safety, and social impact across operations and relationships. Together, these pillars form a holistic framework that embeds sustainability into strategy, operations, and stakeholder engagem"
+            },
+            {
+              "source_index": 3,
+              "pages": [
+                39,
+                40
+              ],
+              "page_display": "pp. 39-40",
+              "page_inline": "Page 39-40",
+              "section": "Annual report 2024 > General > 1 General > 1.3 GOVERNANCE > 1.3.4 Internal audit and compliance department",
+              "chunk_id": "AkerBP_struct_00011_ee6c26f5",
+              "text_preview": "and risk committee (ARC)</td> <td>4</td> <td>0</td> <td>0</td> <td>75%</td> <td>75%</td> </tr> <tr> <td>E</td> <td>Organisational development and compensation committee (ODCC)</td> <td>3</td> <td>0</td> <td>1</td> <td>67%</td> <td>50%</td> </tr> <tr>"
+            }
+          ],
+          "generated_answer_preview": "Aker BP integrates sustainability-related performance into its variable remuneration through the company-wide bonus programme, which is paid to all permanent employees, including management [Page 37-39]. The bonus scheme is based on a set of key performance indicators (KPIs) used in the performance management system; these include sustainability-related KPIs such as Safety (serious incidents per 1 million work hours) and Equity share scope 1 GHG intensity (kg CO2e/boe) [Page 37-39]. Aker BP states that approximately 22% of the bonus potential is dependent on sustainability-related initiatives and targets, and that the same share of bonus potential applies for all employees [Page 37-39]. Gove"
+        },
+        "BASF": {
+          "config_name": "RQ1_structure_aware",
+          "rq_group": "RQ1",
+          "question_id": "Q2",
+          "question": "How is sustainability-related performance integrated into the incentive or remuneration schemes for the undertaking's administrative, management, and supervisory bodies?",
+          "company": "BASF",
+          "esrs_standard": "ESRS 2",
+          "gold_fulfillment": "High",
+          "predicted_fulfillment": "Medium",
+          "compliance_match": false,
+          "retrieval": {
+            "recall@5": 1.0,
+            "precision@5": 0.6,
+            "mrr@5": 1.0,
+            "recall@10": 1.0,
+            "precision@10": 0.6,
+            "mrr@10": 1.0,
+            "recall@15": 1.0,
+            "precision@15": 0.4666666666666667,
+            "mrr@15": 1.0,
+            "coverage_ratio": 1.0
+          },
+          "answer_quality": {
+            "token_precision": 0.5738831615120275,
+            "token_recall": 0.8743455497382199,
+            "token_f1": 0.6929460580912863,
+            "bertscore": 0.0,
+            "llm_judge_score": 5.0,
+            "llm_judge_score_normalized": 1.0,
+            "llm_judge_rationale": "The generated answer accurately reflects the reference: it explains integration via LTI and STI, correctly states CO2 (Scope 1+2) as one of three equally weighted (33.3%) LTI strategic targets since 2020, correctly notes Supervisory Board remuneration has no variable component, and correctly describes the 2024 STI structure (three non-financial targets totaling 25% of STI, with two sustainability-related leading to 16.7% sustainability-related share) including the cited examples (Sustainable-Future Solutions sales and supplier-specific PCFs). It is complete for the question and does not introduce material inaccuracies; the extra note about approval/update level is clearly marked as not specified and does not conflict with the reference."
+          },
+          "citation": {
+            "citation_precision": 0.3333333333333333,
+            "citation_recall": 1.0,
+            "citation_f1": 0.5
+          },
+          "hallucination": {
+            "faithfulness_score": 0.7928802924575872,
+            "supported_claim_ratio": 1.0,
+            "hallucination_rate": 0.0
+          },
+          "efficiency": {
+            "latency_seconds": 0.008440971374511719,
+            "prompt_tokens": 8617.0,
+            "completion_tokens": 921.0,
+            "total_tokens": 9538.0,
+            "estimated_cost_usd": 0.0307525,
+            "n_chunks_retrieved": 15.0
+          },
+          "retrieved_chunk_count": 15,
+          "sources_used": [
+            1,
+            9
+          ],
+          "page_references": [
+            {
+              "source_index": 1,
+              "pages": [
+                184
+              ],
+              "page_display": "p. 184",
+              "page_inline": "Page 184",
+              "section": "Results of the double materiality assessment for the 2024 business year: Material impacts > Results of the double materiality assessment for E1 Climate Change: Risks and opportunities > Strategy and governance > ESRS 2 GOV-3",
+              "chunk_id": "BASF_struct_00082_32236acd",
+              "text_preview": "impacts in the value chain, global applicability, accessibility to stakeholders and engagement thereof, see General Disclosures in our Sustainability Statement on page 151. #### ESRS 2 GOV-3 We have laid the foundations for our successful transformat"
+            },
+            {
+              "source_index": 9,
+              "pages": [
+                151,
+                152
+              ],
+              "page_display": "pp. 151-152",
+              "page_inline": "Page 151-152",
+              "section": "European Sustainability Reporting Standards (ESRS) Disclosure Requirements covered by the Combined Management's Report > General Disclosures > ESRS 2 BP-1 ESRS 2 BP-2",
+              "chunk_id": "BASF_struct_00015_1bc7b2cf",
+              "text_preview": "subsidiaries as well as joint operations and joint ventures in which we have authority in terms of safety management is compiled worldwide, regardless of our equity interest, and reported in full. Unless otherwise indicated, data on social responsibi"
+            }
+          ],
+          "generated_answer_preview": "BASF integrates sustainability-related performance into incentives primarily through its variable remuneration for the Board of Executive Directors and senior executives, while Supervisory Board remuneration has no variable component.\n\n- **Long-term incentive (LTI) – Board of Executive Directors and senior executives:** BASF anchored the reduction of **Group-wide CO2 emissions (Scope 1 and Scope 2)** as its “most important nonfinancial key performance indicator” in the Group’s steering and compensation systems (since 2020). This CO2 reduction KPI is **one of three equally weighted (33.3%) strategic targets** in the LTI for the Board of Executive Directors and senior executives. [Page 184]\n\n-"
+        },
+        "Shell": {
+          "config_name": "RQ1_structure_aware",
+          "rq_group": "RQ1",
+          "question_id": "Q2",
+          "question": "How is sustainability-related performance integrated into the incentive or remuneration schemes for the undertaking's administrative, management, and supervisory bodies?",
+          "company": "Shell",
+          "esrs_standard": "ESRS 2",
+          "gold_fulfillment": "Medium",
+          "predicted_fulfillment": "Medium",
+          "compliance_match": true,
+          "retrieval": {
+            "recall@5": 0.0,
+            "precision@5": 1.0,
+            "mrr@5": 1.0,
+            "recall@10": 0.0,
+            "precision@10": 0.8,
+            "mrr@10": 1.0,
+            "recall@15": 0.0,
+            "precision@15": 0.6666666666666666,
+            "mrr@15": 1.0,
+            "coverage_ratio": 1.0
+          },
+          "answer_quality": {
+            "token_precision": 0.5570469798657718,
+            "token_recall": 0.6434108527131783,
+            "token_f1": 0.5971223021582733,
+            "bertscore": 0.0,
+            "llm_judge_score": 4.0,
+            "llm_judge_score_normalized": 0.8,
+            "llm_judge_rationale": "The generated answer is largely consistent with the reference: it explains that Shell integrates sustainability performance into remuneration via annual bonuses for most employees and long-term share awards for Executive Directors/selected employees; it links remuneration to reducing operational emissions and helping customers reduce emissions; and it notes that energy transition performance is measured against climate-related targets reflected in remuneration. However, it adds details not supported by the reference (e.g., specific mention of REMCO approving/updating the Directors’ Remuneration Policy, and that targets focus on absolute GHG emissions and Net Carbon Intensity), and it omits the reference point that REMCO met five times in 2024 and that the sustainability statement defers detailed metrics/weightings to the Directors’ Remuneration Report without disclosing them in the sustainability statement."
+          },
+          "citation": {
+            "citation_precision": 0.0,
+            "citation_recall": 0.0,
+            "citation_f1": 0.0
+          },
+          "hallucination": {
+            "faithfulness_score": 0.8109581144571003,
+            "supported_claim_ratio": 1.0,
+            "hallucination_rate": 0.0
+          },
+          "efficiency": {
+            "latency_seconds": 0.01573801040649414,
+            "prompt_tokens": 8332.0,
+            "completion_tokens": 777.0,
+            "total_tokens": 9109.0,
+            "estimated_cost_usd": 0.0286,
+            "n_chunks_retrieved": 15.0
+          },
+          "retrieved_chunk_count": 15,
+          "sources_used": [
+            1,
+            4
+          ],
+          "page_references": [
+            {
+              "source_index": 1,
+              "pages": [
+                345
+              ],
+              "page_display": "p. 345",
+              "page_inline": "Page 345",
+              "section": "Sustainability Statements > Integration of sustainability-related performance in incentive schemes (GOV-3)",
+              "chunk_id": "Shell_struct_00020_06acde07",
+              "text_preview": "## Integration of sustainability-related performance in incentive schemes (GOV-3) Our remuneration schemes are designed to support Shell in achieving its corporate strategy. We have established remuneration structures to support us in reducing our op"
+            },
+            {
+              "source_index": 4,
+              "pages": [
+                367
+              ],
+              "page_display": "p. 367",
+              "page_inline": "Page 367",
+              "section": "Sustainability Statements > Progress in implementing the transition plan",
+              "chunk_id": "Shell_struct_00118_b1e70b1f",
+              "text_preview": "## Progress in implementing the transition plan Shell's performance and progress in the energy transition is measured with respect to our climate-related targets and ambition, including those reflected in the remuneration of senior management and emp"
+            }
+          ],
+          "generated_answer_preview": "Shell states that its remuneration schemes are designed to support delivery of its corporate strategy, including “reducing our operational emissions” and supporting customers to reduce their emissions [Page 345]. The majority of employees participate in an annual bonus scheme, while Executive Directors (and other nominated employees) receive long-term share awards [Page 345]. Shell indicates that remuneration schemes linked to sustainability include “sustainability-linked measures and targets and metrics used in the performance assessment,” as well as “the proportion of variable remuneration dependent on sustainability-related performance,” and that the Remuneration Committee has a role in “"
+        }
+      },
+      "Q3": {
+        "Aker BP": {
+          "config_name": "RQ1_structure_aware",
+          "rq_group": "RQ1",
+          "question_id": "Q3",
+          "question": "Does the undertaking have a transition plan for climate change mitigation? If yes, is the transition plan aligned with the objective of limiting global warming to 1.5°C? If no transition plan exists, what is the undertaking's timeline for adopting one?",
+          "company": "Aker BP",
+          "esrs_standard": "ESRS E1",
+          "gold_fulfillment": "High",
+          "predicted_fulfillment": "Low",
+          "compliance_match": false,
+          "retrieval": {
+            "recall@5": 0.0,
+            "precision@5": 1.0,
+            "mrr@5": 1.0,
+            "recall@10": 0.5,
+            "precision@10": 1.0,
+            "mrr@10": 1.0,
+            "recall@15": 0.5,
+            "precision@15": 0.9333333333333333,
+            "mrr@15": 1.0,
+            "coverage_ratio": 1.0
+          },
+          "answer_quality": {
+            "token_precision": 0.6704545454545454,
+            "token_recall": 0.4097222222222222,
+            "token_f1": 0.5086206896551724,
+            "bertscore": 0.0,
+            "llm_judge_score": 5.0,
+            "llm_judge_score_normalized": 1.0,
+            "llm_judge_rationale": "The generated answer correctly states that Aker BP does not have an ESRS-compliant climate transition plan due to the absence of Scope 3 targets, and that it has no timeline for developing such a plan. It also correctly notes that no 1.5°C alignment is disclosed and that the company’s targets are not science-based. This matches the reference and is appropriately grounded without adding unsupported claims."
+          },
+          "citation": {
+            "citation_precision": 0.5,
+            "citation_recall": 0.5,
+            "citation_f1": 0.5
+          },
+          "hallucination": {
+            "faithfulness_score": 0.5789473684210527,
+            "supported_claim_ratio": 0.6666666666666666,
+            "hallucination_rate": 0.33333333333333337
+          },
+          "efficiency": {
+            "latency_seconds": 0.014809846878051758,
+            "prompt_tokens": 8178.0,
+            "completion_tokens": 539.0,
+            "total_tokens": 8717.0,
+            "estimated_cost_usd": 0.025835,
+            "n_chunks_retrieved": 15.0
+          },
+          "retrieved_chunk_count": 15,
+          "sources_used": [
+            1,
+            6
+          ],
+          "page_references": [
+            {
+              "source_index": 1,
+              "pages": [
+                55
+              ],
+              "page_display": "p. 55",
+              "page_inline": "Page 55",
+              "section": "Annual report 2024 > 2 Climate change > 2.2 CLIMATE TRANSITION PLAN",
+              "chunk_id": "AkerBP_struct_00046_333e44f3",
+              "text_preview": "### 2.2 CLIMATE TRANSITION PLAN Aker BP does not have any targets to reduce our scope 3 emissions. As a result, we do not have a climate transition plan in line with the ESRS' requirements and do not have a timeline for if or when we will develop suc"
+            },
+            {
+              "source_index": 6,
+              "pages": [
+                60
+              ],
+              "page_display": "p. 60",
+              "page_inline": "Page 60",
+              "section": "Annual report 2024 > 2.4 TARGETS",
+              "chunk_id": "AkerBP_struct_00059_83cb7ea5",
+              "text_preview": "## 2.4 TARGETS As part of our broader strategy to be the E&P company of the future, Aker BP has developed a decarbonisation plan, which is publicly available on our website. Through our Konkraft collaboration and industry commitment, we contribute to"
+            }
+          ],
+          "generated_answer_preview": "Aker BP states that it does not have a climate change mitigation transition plan in line with ESRS requirements because it has no targets to reduce Scope 3 emissions; consequently, it also states it does not have a timeline for if or when it will develop such a plan. [Page 55] Therefore, the company does not disclose that a transition plan is aligned with limiting global warming to 1.5°C. [Page 55] Separately, Aker BP discloses that its climate-related targets are not science-based. [Page 60]"
+        },
+        "BASF": {
+          "config_name": "RQ1_structure_aware",
+          "rq_group": "RQ1",
+          "question_id": "Q3",
+          "question": "Does the undertaking have a transition plan for climate change mitigation? If yes, is the transition plan aligned with the objective of limiting global warming to 1.5°C? If no transition plan exists, what is the undertaking's timeline for adopting one?",
+          "company": "BASF",
+          "esrs_standard": "ESRS E1",
+          "gold_fulfillment": "High",
+          "predicted_fulfillment": "Medium",
+          "compliance_match": false,
+          "retrieval": {
+            "recall@5": 1.0,
+            "precision@5": 0.6,
+            "mrr@5": 1.0,
+            "recall@10": 1.0,
+            "precision@10": 0.5,
+            "mrr@10": 1.0,
+            "recall@15": 1.0,
+            "precision@15": 0.4666666666666667,
+            "mrr@15": 1.0,
+            "coverage_ratio": 1.0
+          },
+          "answer_quality": {
+            "token_precision": 0.5298013245033113,
+            "token_recall": 0.5,
+            "token_f1": 0.5144694533762058,
+            "bertscore": 0.0,
+            "llm_judge_score": 4.0,
+            "llm_judge_score_normalized": 0.8,
+            "llm_judge_rationale": "The generated answer correctly states that BASF has a transition plan and that its Scope 1+2 targets (-25% by 2030 vs 2018; net zero by 2050) are described as compatible with a 1.5°C pathway via the IEA NZE scenario, matching the reference. It also appropriately notes limitations around Scope 3 alignment, which is consistent with the cited passage and does not contradict the reference. However, it is less complete than the reference because it omits key elements such as SBTi validation, specific investment figures (€300m/€250m), and several decarbonization levers (e.g., electrified steam crackers, CO2-free hydrogen, CCS, methane pyrolysis/e-crackers)."
+          },
+          "citation": {
+            "citation_precision": 0.25,
+            "citation_recall": 0.5,
+            "citation_f1": 0.3333333333333333
+          },
+          "hallucination": {
+            "faithfulness_score": 0.7248579545454545,
+            "supported_claim_ratio": 1.0,
+            "hallucination_rate": 0.0
+          },
+          "efficiency": {
+            "latency_seconds": 0.009692192077636719,
+            "prompt_tokens": 10166.0,
+            "completion_tokens": 731.0,
+            "total_tokens": 10897.0,
+            "estimated_cost_usd": 0.032725,
+            "n_chunks_retrieved": 15.0
+          },
+          "retrieved_chunk_count": 15,
+          "sources_used": [
+            1,
+            2,
+            14
+          ],
+          "page_references": [
+            {
+              "source_index": 1,
+              "pages": [
+                185,
+                186
+              ],
+              "page_display": "pp. 185-186",
+              "page_inline": "Page 185-186",
+              "section": "Results of the double materiality assessment for the 2024 business year: Material impacts > Results of the double materiality assessment for E1 Climate Change: Risks and opportunities > Transition plan for climate change mitigation > E1-1",
+              "chunk_id": "BASF_struct_00084_e5591ebd",
+              "text_preview": "### Transition plan for climate change mitigation #### E1-1 We are pursuing ambitious climate protection targets. We want to reduce greenhouse gas emissions from our production processes (Scope 1) and our energy purchases (Scope 2) by 25% by 2030 com"
+            },
+            {
+              "source_index": 2,
+              "pages": [
+                180
+              ],
+              "page_display": "p. 180",
+              "page_inline": "Page 180",
+              "section": "Results of the double materiality assessment for the 2024 business year: Material impacts > Results of the double materiality assessment for the 2024 business year: Material impacts > Results of the double materiality assessment for the 2024 business year: Opportunities and risks > Results of the double materiality assessment for the 2024 business year: Opportunities and risks > Environment > E1 Climate Change1",
+              "chunk_id": "BASF_struct_00075_385e6ffe",
+              "text_preview": "the resilience of plants, infrastructure, operations and services. External factors comprise the external infrastructure, water, energy and raw materials supplies, wastewater treatment and the dispatch of finished goods. In addition, the assessment c"
+            },
+            {
+              "source_index": 14,
+              "pages": [
+                188
+              ],
+              "page_display": "p. 188",
+              "page_inline": "Page 188",
+              "section": "Results of the double materiality assessment for the 2024 business year: Material impacts > Results of the double materiality assessment for E1 Climate Change: Risks and opportunities > Transition plan for climate change mitigation > E1-2",
+              "chunk_id": "BASF_struct_00090_3cbf4d5f",
+              "text_preview": "the aim of reducing the environmental footprint of our products. Criteria for reducing CO2 emissions are a key part of the evaluation process. Products with sustainability concerns are identified and, in the case of severe challenges, action plans ar"
+            }
+          ],
+          "generated_answer_preview": "Yes. BASF states that it has developed a climate change mitigation transition plan to achieve its climate protection targets (Scope 1+2: -25% by 2030 vs. 2018; net-zero GHG emissions by 2050) and describes key levers (renewable energy, operational excellence, low-emission steam generation) [Page 185-186]. BASF also states that its Scope 1+2 target is compatible with limiting global warming to 1.5°C, based on the International Energy Agency (IEA) “Net Zero by 2050” emission reduction pathways [Page 185-186]. The retrieved passages do not provide sufficient evidence to conclude that BASF’s full transition plan (beyond the stated Scope 1+2 target) is aligned with 1.5°C across all relevant scope"
+        },
+        "Shell": {
+          "config_name": "RQ1_structure_aware",
+          "rq_group": "RQ1",
+          "question_id": "Q3",
+          "question": "Does the undertaking have a transition plan for climate change mitigation? If yes, is the transition plan aligned with the objective of limiting global warming to 1.5°C? If no transition plan exists, what is the undertaking's timeline for adopting one?",
+          "company": "Shell",
+          "esrs_standard": "ESRS E1",
+          "gold_fulfillment": "High",
+          "predicted_fulfillment": "Medium",
+          "compliance_match": false,
+          "retrieval": {
+            "recall@5": 1.0,
+            "precision@5": 1.0,
+            "mrr@5": 1.0,
+            "recall@10": 1.0,
+            "precision@10": 1.0,
+            "mrr@10": 1.0,
+            "recall@15": 1.0,
+            "precision@15": 1.0,
+            "mrr@15": 1.0,
+            "coverage_ratio": 1.0
+          },
+          "answer_quality": {
+            "token_precision": 0.5609756097560976,
+            "token_recall": 0.6344827586206897,
+            "token_f1": 0.5954692556634306,
+            "bertscore": 0.0,
+            "llm_judge_score": 5.0,
+            "llm_judge_score_normalized": 1.0,
+            "llm_judge_rationale": "The generated answer correctly states that Shell has a climate transition plan embedded in its strategy (Energy Transition Strategy) and that Shell claims alignment with the 1.5°C objective. It accurately reflects the reference’s key grounding points: support for the Paris 1.5°C goal; belief that NCI targets are aligned; derivation from IPCC AR6 1.5°C scenarios with exclusions for heavy reliance on removals/bioenergy; and the Scope 3 Category 11 (oil products) ambition being compatible and more ambitious than the median scenario. It also appropriately notes that a timeline for adopting a plan is not applicable because a plan exists. Minor omissions (e.g., shareholder approval percentage, 10-year capital plan detail, specific 15–20% range) do not materially affect correctness for the question asked."
+          },
+          "citation": {
+            "citation_precision": 1.0,
+            "citation_recall": 1.0,
+            "citation_f1": 1.0
+          },
+          "hallucination": {
+            "faithfulness_score": 0.6636280386280387,
+            "supported_claim_ratio": 1.0,
+            "hallucination_rate": 0.0
+          },
+          "efficiency": {
+            "latency_seconds": 0.02696681022644043,
+            "prompt_tokens": 6793.0,
+            "completion_tokens": 853.0,
+            "total_tokens": 7646.0,
+            "estimated_cost_usd": 0.0255125,
+            "n_chunks_retrieved": 15.0
+          },
+          "retrieved_chunk_count": 15,
+          "sources_used": [
+            1,
+            12
+          ],
+          "page_references": [
+            {
+              "source_index": 1,
+              "pages": [
+                364
+              ],
+              "page_display": "p. 364",
+              "page_inline": "Page 364",
+              "section": "Sustainability Statements > We aim to become a net-zero emissions energy business by 2050 and work with our customers across sectors to help accelerate the energy transition. > Transition plan for climate change mitigation (E1-1)",
+              "chunk_id": "Shell_struct_00104_b6aee800",
+              "text_preview": "### Transition plan for climate change mitigation (E1-1) Shell's climate change transition plans are delivered through our strategy. This is supported by a suite of processes and greenhouse gas emission reduction targets and by an ambition, which cov"
+            },
+            {
+              "source_index": 12,
+              "pages": [
+                364
+              ],
+              "page_display": "p. 364",
+              "page_inline": "Page 364",
+              "section": "Sustainability Statements > We aim to become a net-zero emissions energy business by 2050 and work with our customers across sectors to help accelerate the energy transition. > Targets in support of the Paris Agreement [A]",
+              "chunk_id": "Shell_struct_00106_06dc4d73",
+              "text_preview": "related to the use of our oil products by 15-20% by 2030, compared with 2021 (Scope 3 Category 11). Customer emissions from the use of our oil products (Scope 3, Category 11) were 517 million tonnes carbon dioxide equivalent (CO2e) in 2023 and 569 mi"
+            }
+          ],
+          "generated_answer_preview": "Yes. Shell discloses that its “climate change transition plans are delivered through our strategy”, supported by processes and GHG emission reduction targets/ambition, with the aim of becoming “a net-zero emissions energy business by 2050” [Page 364]. Shell states it “supports the more ambitious goal of the Paris Agreement…to 1.5℃” and reports that it believes its net carbon intensity (NCI) targets are aligned with the 1.5℃ goal, describing a methodology derived from IPCC AR6 1.5℃ scenarios (including excluding scenarios overly reliant on removals/bioenergy, removing outliers, and constructing a 1.5℃ pathway) [Page 364]. Shell also states its oil products (Scope 3 Category 11) ambition is co"
+        }
+      }
+    },
+    "per_question_results": [
+      {
+        "question_id": "Q1",
+        "company": "Aker BP",
+        "query": "How has the undertaking conducted its double materiality assessment, and which sustainability matters were identified as material from both an impact and a financial perspective?",
+        "generated_answer": "Aker BP states that it conducted a double materiality assessment (DMA) using a systematic, structured process to identify material impacts, risks and opportunities (IROs) and the associated sustainability matters for reporting, covering both (i) impact materiality (inside-out: impacts from its activities on environment and society) and (ii) financial materiality (outside-in: financial risks and opportunities sustainability issues pose to its business model and performance, including reputational risk and dependencies on natural, human and social resources) [Page 43-44]. The DMA was revised in 2024 based on new information, implementation guidance and EFRAG’s draft oil and gas sector standard, and included mapping IROs, their dependencies, and their connection to Aker BP’s own operations and value chain [Page 41-42]. Aker BP considered activities, business relationships and geographies when evaluating potential IROs; it focused on oil and gas production for own-operations materiality, development projects for upstream value chain materiality, and noted downstream impacts related to the use of petroleum products [Page 42-43].\n\nStakeholder engagement was used to identify risks, opportunities and actual/potential impacts, including public consultations for PDO impact assessments (with reports shared with “over 40 key stakeholders”), publication of impact assessments, and a whistleblowing channel for concerns [Page 43]. Aker BP says it included stakeholders’ perspectives and priorities in the DMA; in 2024 this was achieved through in-depth interviews and workshops with internal management and subject matter experts, and the process was based on prior-year interviews involving owners, key suppliers, customers, NGOs and authorities [Page 43].\n\nFor assessment and prioritisation, Aker BP applied severity x likelihood ratings for IROs (aligned with its enterprise risk management approach using company scales and a shared risk matrix) and gave “special attention” to dependencies between impacts and related risks/opportunities; IROs are documented in the same tool as other company risks and prioritised/handled together [Page 43-44]. The DMA is described as iterative: defining business context (activities, business model, value chain, stakeholders, boundaries), identifying actual and potential IROs using top-down and bottom-up approaches with internal/external stakeholder input and quantitative sources, assessing/prioritising based on impact and financial materiality criteria using a standardised rating system, and validating outcomes by management and the Board with ongoing monitoring/updates [Page 44]. Aker BP also links its sustainability due diligence (OECD-based, risk-based, covering supply chain and other business relationships and embedded into business processes) to identifying and assessing adverse impacts, referencing the DMA as the place where adverse impacts are identified and assessed [Page 50].\n\nSustainability matters identified as material from both an impact and a financial perspective (i.e., high impact and high financial relevance / “strategic and highest priority”) are: climate change, own workforce, pollution, business conduct, and resource use and circular economy [Page 42-43].",
+        "reference_answer": "Aker BP conducted its first double materiality assessment (DMA) in 2023 based on the CSRD and ESRS, and revised it in 2024 incorporating new implementation guidance and EFRAG's draft oil and gas sector standard. The assessment followed a four-step iterative process: (1) defining the business context including activities, business model, value chain, stakeholders and boundaries; (2) systematic identification of actual and potential IROs using top-down and bottom-up approaches with stakeholder input; (3) assessment and prioritization of IROs based on impact materiality (severity × likelihood) and financial materiality criteria using company risk scales; and (4) validation by management and the Board, with formal reporting and ongoing monitoring. Stakeholder engagement included in-depth interviews and workshops with owners, key suppliers, customers, NGOs and authorities. Impact materiality covers inside-out effects on environment and society, while financial materiality covers outside-in risks and opportunities including reputational risk and dependencies on natural, human and social resources. The material topics identified as strategic and highest priority (high on both impact and financial materiality) are: climate change, own workforce, pollution, business conduct, and resource use and circular economy. Additional material topics with significant impact but comparatively lower financial materiality include: affected communities, biodiversity and ecosystems, and workers in the value chain. Water and marine resources were assessed as having lower overall materiality but were added in 2024 as potentially material in the upstream value chain due to increased construction activity abroad. Cyber security was added as an entity-specific IRO under Governance. S4 Consumers and End Users was not identified as material. All material IROs were reviewed by the Board of Directors, Audit and Risk Committee, and Executive Management Team.",
+        "predicted_fulfillment": "Medium",
+        "gold_fulfillment": "High"
+      },
+      {
+        "question_id": "Q1",
+        "company": "BASF",
+        "query": "How has the undertaking conducted its double materiality assessment, and which sustainability matters were identified as material from both an impact and a financial perspective?",
+        "generated_answer": "BASF states it conducted its first ESRS-aligned double materiality assessment in 2024, building on prior assessments but with greater granularity and documentation, and plans to update it annually [Page 167]. The process had three main steps: (1) compiling a list of potential sustainability matters relevant to BASF’s business/customer industries and stakeholder groups, with particular attention to higher-risk parts of the business/value chain; the assessment was performed at BASF Group level along the value chain and incorporated stakeholder interests via direct inputs (e.g., Advisory Councils, Civil Society Forum, multistakeholder networks) and indirect inputs (e.g., big data analyses of customer and capital market interests) [Page 167]. (2) identifying and validating risks and opportunities linked to impacts and dependencies with in-house experts and selected stakeholders (Nature Advisory Council and Human Rights Advisory Council), focusing on activities/sites/value-creation steps with elevated potential for negative impacts and risks; BASF also drew on its Group-wide opportunity and risk management and expert review of impacts/dependencies to identify additional risks/opportunities [Page 167]. (3) scoring impacts, risks and opportunities using predetermined criteria on a 5-point scale and classifying them as material when exceeding defined thresholds; impacts were assessed using a uniform framework covering severity, scale and scope, plus irremediability for negative impacts and likelihood for potential impacts, with a threshold based on the sum of factors and higher weighting for negative impacts; opportunities/risks were assessed for financial magnitude and likelihood, aligned with existing risk management methods; results were reviewed iteratively by interdisciplinary experts and risk-reporting experts, and governance bodies (Board of Executive Directors, Supervisory Board, Joint Works Council, Works Council Europe) were informed of process and outcome [Page 167]. After identifying material IROs, BASF mapped them to ESRS topic/subtopic/sub-subtopic (per ESRS 1 AR 16) and then assessed the ‘materiality of information’ at disclosure requirement/data point level using EFRAG criteria (‘decision-usefulness’ and ‘stakeholder relevance’) [Page 167].\n\nMaterial sustainability matters identified as material from both an impact and a financial perspective are not explicitly listed in the provided passages. BASF does confirm that (i) climate change (E1) is material, with seven material impacts plus four material climate-related risks and two material climate-related opportunities identified [Page 180-181], and (ii) biodiversity and ecosystems (E4) was defined as material as part of the 2024 double materiality assessment [Page 231]. BASF also states that topics in the ‘Own Workforce’ category were defined as material [Page 270]. BASF notes that opportunities and risks identified have financial effects affecting financial position/performance/cash flow, and gives an example of financial effects arising in 2024 from a risk identified under ESRS S3 Affected Communities [Page 167-169]. However, the passages do not specify which sustainability matters are material in both dimensions (impact and financial) as a combined set [Page 167-169]. BASF also states ESRS S4 Consumers and End Users was assessed as not material [Page 167-169].",
+        "reference_answer": "BASF carried out a double materiality assessment in accordance with the ESRS for the first time in 2024, building on previous materiality assessments but with increased granularity and more extensive documentation. The assessment was performed at BASF Group level along the value chain in three steps: (1) compilation of a list of potential sustainability matters considering business impacts, customer industries, and stakeholder interests, using direct input from Advisory Councils, the BASF Civil Society Forum, multistakeholder networks, and indirect input from big data analyses; (2) identification and validation of risks and opportunities associated with the company's impacts and dependencies, working with in-house experts and selected stakeholders from the Nature Advisory Council and Human Rights Advisory Council, focusing on activities and value chain steps with elevated potential for negative impacts; (3) scoring of impacts, risks and opportunities on a 5-point scale using predetermined criteria (severity, scale, scope, and irremediability for negative impacts, plus likelihood of occurrence), classifying them as material when exceeding defined thresholds with higher weighting for negative impacts. The assessment was reviewed by interdisciplinary experts and the Board of Executive Directors, Supervisory Board, Joint Works Council and BASF Works Council Europe were informed. Material topics identified include: climate change (energy requirements), other environmental matters (emissions to air, water, and biodiversity), and the company's workforce as the main impact areas. ESRS S4 Consumers and End Users was assessed as not material given BASF's B2B business model. No entity-specific topics beyond those defined in the ESRS were identified. The results were further assessed for 'materiality of information' at the disclosure requirement and data point level using EFRAG criteria of 'decision-usefulness' and 'stakeholder relevance'.",
+        "predicted_fulfillment": "Medium",
+        "gold_fulfillment": "High"
+      },
+      {
+        "question_id": "Q1",
+        "company": "Shell",
+        "query": "How has the undertaking conducted its double materiality assessment, and which sustainability matters were identified as material from both an impact and a financial perspective?",
+        "generated_answer": "Shell states it conducted a double materiality assessment (DMA) as the basis for its 2024 Sustainability Statements, assessing sustainability matters from both (i) impact materiality (Shell’s actual/potential impacts on people and the environment) and (ii) financial materiality (matters that trigger/could reasonably be expected to trigger material financial effects for Shell) [Page 350-351].\n\nHow Shell conducted the DMA:\n- Process and steps: Shell describes a five-step process: (1) establish business context, activities, value chain and stakeholders; (2) consider potential sustainability matters and identify actual/potential impacts, risks and opportunities; (3) assess impacts for actual and potential severity; (4) assess risks and opportunities for potential financial effects; and (5) determine material matters for reporting [Page 354].\n- Scope/value chain: Shell considers impacts over short/medium/long term and includes impacts connected with its own operations, value chain and business relationships; it notes it can control Shell companies and Shell-operated JVs, but not non-operated JVs, and that its influence over value chain/business relationships is indirect [Page 350-351].\n- Impact assessment criteria: For actual impacts, Shell treats likelihood as already occurring (no likelihood rating) and rates magnitude after implementation of standard control measures; for potential impacts, it rates likelihood and magnitude, assessing potential magnitude on a gross basis (assuming no mitigation from control measures). For potential human rights impacts, magnitude takes precedence over likelihood [Page 354-355].\n- Financial assessment criteria: Shell assesses risks/opportunities using likelihood and magnitude of potential financial effects, based on its enterprise risk management framework (modified for consistency with impact assessment). It uses five-point scales for likelihood and magnitude and considers financial effects including those arising from dependence on natural, human and social resources [Page 354-355].\n- Thresholds and governance: Shell applies qualitative and/or quantitative thresholds to determine which impacts/risks/opportunities and sustainability matters are material for reporting; reporting thresholds for actual impacts are based on magnitude, for potential impacts on likelihood+magnitude, for financially material risks on existing financial materiality definitions, and opportunities on qualitative thresholds. Results are reviewed/endorsed by an internal management committee of senior managers [Page 354-355].\n- Stakeholder input: Shell says it engages stakeholders regularly on potential business impacts but did not engage stakeholders directly on the DMA; instead it used feedback from existing communication channels and reviewed the DMA with relationship owners for key stakeholder groups to reflect external views [Page 357].\n\nMaterial sustainability matters identified as material from both an impact and a financial perspective:\n- Shell reports that one negative impact—greenhouse gas (GHG) emissions—corresponds to both a risk and an opportunity [Page 350-351]. It also states its DMA identified GHG emissions as a material impact and “climate change and energy transition” as a sustainability-related risk [Page 353]. Based on the provided passages, this is the only sustainability matter explicitly identified as material from both an impact and a financial perspective [Page 350-351][Page 353].\n\nOther sustainability matters identified as material (impact materiality is implied, but the passages do not evidence that these are also financially material): biodiversity loss, sensitive areas and species, ecosystem services [Page 397]; emissions to air, discharges to water, soil and groundwater, oil spills in Nigeria, hazardous substances [Page 390]; waste management [Page 404]; culture of integrity and responsible sourcing (and entity-specific topics: tax and payments to governments; safety) [Page 424]. Shell also states that the remaining impacts (other than GHG emissions) are not a material risk or opportunity in their own right, though many are elements of one or more risk factors [Page 353].",
+        "reference_answer": "Shell conducted its double materiality assessment following a five-step process. Step 1 established the business context by reviewing principal activities, business relationships, and stakeholder groups while considering dependence on key resources (financial capital, operations, human capital, relationships, intellectual capital, natural resources). Step 2 identified impacts, risks and opportunities by reviewing ESRS topics, industry-specific lists from Ipieca and GRI, and Shell-specific topics. Step 3 assessed impacts for actual and potential severity using a five-point scale based on likelihood and magnitude. Step 4 reviewed potential financial effects using Shell's enterprise risk management framework with a five-point scale. Step 5 applied thresholds to determine material disclosures, with reporting requirements having at least one corresponding impact, risk or opportunity deemed material. The assessment identified GHG emissions as a material impact from both impact and financial perspectives, with climate change and energy transition identified as material sustainability-related risks and opportunities. A consolidated list of IROs is reviewed with internal experts and managers, with thresholds based on magnitude for actual impacts and combination of likelihood and magnitude for potential impacts.",
+        "predicted_fulfillment": "Medium",
+        "gold_fulfillment": "High"
+      },
+      {
+        "question_id": "Q2",
+        "company": "Aker BP",
+        "query": "How is sustainability-related performance integrated into the incentive or remuneration schemes for the undertaking's administrative, management, and supervisory bodies?",
+        "generated_answer": "Aker BP integrates sustainability-related performance into its variable remuneration through the company-wide bonus programme, which is paid to all permanent employees, including management [Page 37-39]. The bonus scheme is based on a set of key performance indicators (KPIs) used in the performance management system; these include sustainability-related KPIs such as Safety (serious incidents per 1 million work hours) and Equity share scope 1 GHG intensity (kg CO2e/boe) [Page 37-39]. Aker BP states that approximately 22% of the bonus potential is dependent on sustainability-related initiatives and targets, and that the same share of bonus potential applies for all employees [Page 37-39]. Governance-wise, the Organisational Development and Compensation Committee (ODCC) is responsible for ensuring remuneration arrangements support the company’s strategy, including sustainability matters [Page 38-39], and it oversees the setting of targets and monitoring of progress related to KPIs linked to the incentive schemes for executive management team (EMT) remuneration [Page 39-40].",
+        "reference_answer": "Aker BP integrates sustainability-related performance into its incentive schemes through its company-wide bonus programme, which applies to all permanent employees including management. Approximately 22 percent of the bonus potential is dependent on sustainability-related initiatives and targets. The bonus scheme is defined as variable remuneration and utilises seven of eight equally weighted KPIs, along with initiative achievements and delivery on time, cost and quality through execution of key field development projects, as a basis. The eight KPIs are: Safety, Net production from operated assets, Adjusted production cost, Net reserve additions, Value creation, Relative shareholder return, Equity share scope 1 GHG intensity (kg CO2e/boe), and People and organisation. Notably, the KPI for people and organisation is solely based on employee feedback and does not factor into the bonus; only the remaining seven KPIs feed into the bonus calculation. The sustainability-related KPI in the bonus is equity share scope 1 GHG intensity (kg CO2e/boe). The organisational development and compensation committee (ODCC) is responsible for ensuring that remuneration arrangements support the company's strategy, including sustainability matters. The ODCC oversees the setting of targets and monitoring of progress related to KPIs linked to the incentive schemes for Executive Management Team (EMT) remuneration. The bonus is calculated with the same share of bonus potential for all employees. Supervisory Board (BoD) remuneration details are referred to the separate remuneration report.",
+        "predicted_fulfillment": "Medium",
+        "gold_fulfillment": "High"
+      },
+      {
+        "question_id": "Q2",
+        "company": "BASF",
+        "query": "How is sustainability-related performance integrated into the incentive or remuneration schemes for the undertaking's administrative, management, and supervisory bodies?",
+        "generated_answer": "BASF integrates sustainability-related performance into incentives primarily through its variable remuneration for the Board of Executive Directors and senior executives, while Supervisory Board remuneration has no variable component.\n\n- **Long-term incentive (LTI) – Board of Executive Directors and senior executives:** BASF anchored the reduction of **Group-wide CO2 emissions (Scope 1 and Scope 2)** as its “most important nonfinancial key performance indicator” in the Group’s steering and compensation systems (since 2020). This CO2 reduction KPI is **one of three equally weighted (33.3%) strategic targets** in the LTI for the Board of Executive Directors and senior executives. [Page 184]\n\n- **Short-term incentive (STI) – senior executives in operating business units:** In the reporting year, BASF introduced an STI program for senior executives in operating business units that, in addition to financial targets, includes three further targets: **(i) occupational and process safety, (ii) sustainability, and (iii) development of the operating divisions**. The first two are sustainability-related. These three objectives are equally weighted and together account for **25% of the total STI formula**, meaning **16.7% of the entire STI formula is sustainability-related**. The sustainability target includes elements contributing to BASF’s “green transformation,” such as **sales of Sustainable-Future Solutions** and increasing the **share of purchased raw materials with supplier-specific Product Carbon Footprints**. [Page 184]\n\n- **Supervisory Board:** Supervisory Board remuneration “does not include any variable components and so is not linked to target achievement.” [Page 184]\n\n- **Approval/update level of incentive scheme terms:** The provided passages do not specify the level at which the terms of these incentive schemes are approved and updated. (BASF notes generally that policies are adopted by the Board of Executive Directors, but this is not stated specifically for incentive scheme terms.) [Page 151-152]",
+        "reference_answer": "BASF integrates sustainability-related performance into its incentive schemes through both long-term and short-term incentive programmes. In the long-term incentive (LTI) for the Board of Executive Directors and senior executives, reducing Group-wide CO2 emissions (Scope 1 and Scope 2) is one of three equally weighted strategic targets (33.3% weight each), anchored since 2020. The Supervisory Board remuneration does not include any variable components and is therefore not linked to target achievement. In 2024, BASF introduced a short-term incentive (STI) programme for senior executives in operating business units, which includes, beyond financial targets, three additional targets: occupational and process safety, sustainability, and development of the operating divisions. The first two targets (occupational/process safety and sustainability) are sustainability-related. These three non-financial objectives are equally weighted in the STI calculation and together account for 25% of the total STI formula, meaning 16.7% of the entire STI formula is sustainability-related. The sustainability target in the STI includes elements contributing to the green transformation, such as sales of Sustainable-Future Solutions and increasing the share of purchased raw materials with supplier-specific Product Carbon Footprints.",
+        "predicted_fulfillment": "Medium",
+        "gold_fulfillment": "High"
+      },
+      {
+        "question_id": "Q2",
+        "company": "Shell",
+        "query": "How is sustainability-related performance integrated into the incentive or remuneration schemes for the undertaking's administrative, management, and supervisory bodies?",
+        "generated_answer": "Shell states that its remuneration schemes are designed to support delivery of its corporate strategy, including “reducing our operational emissions” and supporting customers to reduce their emissions [Page 345]. The majority of employees participate in an annual bonus scheme, while Executive Directors (and other nominated employees) receive long-term share awards [Page 345]. Shell indicates that remuneration schemes linked to sustainability include “sustainability-linked measures and targets and metrics used in the performance assessment,” as well as “the proportion of variable remuneration dependent on sustainability-related performance,” and that the Remuneration Committee has a role in “approving and updating the Directors’ Remuneration Policy” [Page 345]. Shell also notes that its energy transition performance is measured against climate-related targets and ambition, including those “reflected in the remuneration of senior management and employees,” with targets focused primarily on reducing absolute GHG emissions and its Net Carbon Intensity (NCI) [Page 367].",
+        "reference_answer": "Shell integrates sustainability-related performance into remuneration schemes designed to support reducing operational emissions and helping customers reduce their emissions. The majority of employees participate in the annual bonus scheme, while Executive Directors and other nominated employees receive long-term share awards. The Remuneration Committee (REMCO) met five times during 2024 with sustainability-related matters relevant to remuneration being regularly addressed. Shell's climate-related targets and ambition are reflected in the remuneration of senior management and employees, with performance in the energy transition measured against these targets. The sustainability statement references the Directors' Remuneration Report (pages 188-190) for detailed metrics, performance conditions, and the proportion of variable remuneration dependent on sustainability-related performance, but does not disclose the specific metrics or weightings within the sustainability statement itself.",
+        "predicted_fulfillment": "Medium",
+        "gold_fulfillment": "Medium"
+      },
+      {
+        "question_id": "Q3",
+        "company": "Aker BP",
+        "query": "Does the undertaking have a transition plan for climate change mitigation? If yes, is the transition plan aligned with the objective of limiting global warming to 1.5°C? If no transition plan exists, what is the undertaking's timeline for adopting one?",
+        "generated_answer": "Aker BP states that it does not have a climate change mitigation transition plan in line with ESRS requirements because it has no targets to reduce Scope 3 emissions; consequently, it also states it does not have a timeline for if or when it will develop such a plan. [Page 55] Therefore, the company does not disclose that a transition plan is aligned with limiting global warming to 1.5°C. [Page 55] Separately, Aker BP discloses that its climate-related targets are not science-based. [Page 60]",
+        "reference_answer": "Aker BP does NOT have a transition plan for climate change mitigation as defined by the ESRS. The company explicitly states: 'Aker BP does not have any targets to reduce our scope 3 emissions. As a result, we do not have a climate transition plan in line with the ESRS' requirements and do not have a timeline for if or when we will develop such a plan.' While the company has set Scope 1 and 2 emission reduction targets (50% by 2030 and near zero by 2050 compared to 2017 baseline), these targets are described as 'not science-based' and not aligned with the 1.5°C objective. The company does have a decarbonisation plan with operational emissions reduction measures (electrification, energy efficiency, CCS readiness), but this does not constitute a full ESRS-compliant transition plan due to the absence of Scope 3 targets.",
+        "predicted_fulfillment": "Low",
+        "gold_fulfillment": "High"
+      },
+      {
+        "question_id": "Q3",
+        "company": "BASF",
+        "query": "Does the undertaking have a transition plan for climate change mitigation? If yes, is the transition plan aligned with the objective of limiting global warming to 1.5°C? If no transition plan exists, what is the undertaking's timeline for adopting one?",
+        "generated_answer": "Yes. BASF states that it has developed a climate change mitigation transition plan to achieve its climate protection targets (Scope 1+2: -25% by 2030 vs. 2018; net-zero GHG emissions by 2050) and describes key levers (renewable energy, operational excellence, low-emission steam generation) [Page 185-186]. BASF also states that its Scope 1+2 target is compatible with limiting global warming to 1.5°C, based on the International Energy Agency (IEA) “Net Zero by 2050” emission reduction pathways [Page 185-186]. The retrieved passages do not provide sufficient evidence to conclude that BASF’s full transition plan (beyond the stated Scope 1+2 target) is aligned with 1.5°C across all relevant scopes (e.g., Scope 3), as BASF notes that the IEA study does not provide a basis for deriving an emissions reduction pathway for its raw materials-related Scope 3.1 emissions [Page 185-186].",
+        "reference_answer": "Yes, BASF has a comprehensive transition plan for climate change mitigation that is explicitly aligned with the 1.5°C objective. BASF aims to reduce Scope 1 and 2 greenhouse gas emissions by 25% by 2030 compared to 2018 and to achieve net zero emissions by 2050. The targets are aligned with the IEA Net Zero Emissions by 2050 (NZE) scenario, which is compatible with limiting global warming to 1.5°C. BASF plans to invest approximately €300 million in Scope 1 emission reduction measures and approximately €250 million in renewable energy supply between 2025 and 2028. Key decarbonization levers include electrification of steam crackers using renewable energy, use of CO2-free hydrogen, development of new low-emission production processes (e.g., methane pyrolysis, e-crackers), expansion of renewable electricity procurement, and carbon capture and storage. BASF has validated its Scope 1 and 2 targets through the Science Based Targets initiative (SBTi) as consistent with the 1.5°C pathway.",
+        "predicted_fulfillment": "Medium",
+        "gold_fulfillment": "High"
+      },
+      {
+        "question_id": "Q3",
+        "company": "Shell",
+        "query": "Does the undertaking have a transition plan for climate change mitigation? If yes, is the transition plan aligned with the objective of limiting global warming to 1.5°C? If no transition plan exists, what is the undertaking's timeline for adopting one?",
+        "generated_answer": "Yes. Shell discloses that its “climate change transition plans are delivered through our strategy”, supported by processes and GHG emission reduction targets/ambition, with the aim of becoming “a net-zero emissions energy business by 2050” [Page 364]. Shell states it “supports the more ambitious goal of the Paris Agreement…to 1.5℃” and reports that it believes its net carbon intensity (NCI) targets are aligned with the 1.5℃ goal, describing a methodology derived from IPCC AR6 1.5℃ scenarios (including excluding scenarios overly reliant on removals/bioenergy, removing outliers, and constructing a 1.5℃ pathway) [Page 364]. Shell also states its oil products (Scope 3 Category 11) ambition is compatible with limiting warming to 1.5℃, based on the same IPCC AR6 1.5℃ scenarios and being more ambitious than the median of the scenario range [Page 364]. No timeline for adopting a transition plan is applicable because Shell indicates a transition plan exists and is embedded in its strategy [Page 364].",
+        "reference_answer": "Yes, Shell has a transition plan for climate change mitigation embedded in its Energy Transition Strategy 2024 (ETS24), approved by 78% of shareholders. Shell explicitly supports the 1.5°C goal of the Paris Agreement and believes its Net Carbon Intensity (NCI) targets are aligned with this objective. Shell derived its NCI targets from IPCC Sixth Assessment Report 1.5°C scenarios, applying a methodology that excludes scenarios overly reliant on carbon removals or bioenergy. For Scope 3 Category 11 (oil products), Shell set an ambition to reduce customer emissions by 15-20% by 2030, which it claims is more ambitious than the median scenario and compatible with 1.5°C warming limits. The company aims to become a net-zero emissions energy business by 2050. Shell's capital investment and business plans cover a 10-year cycle including funding to deliver its 2030 targets.",
+        "predicted_fulfillment": "Medium",
+        "gold_fulfillment": "High"
+      }
+    ],
+    "per_sample": [
+      {
+        "config_name": "RQ1_structure_aware",
+        "rq_group": "RQ1",
+        "question_id": "Q1",
+        "question": "How has the undertaking conducted its double materiality assessment, and which sustainability matters were identified as material from both an impact and a financial perspective?",
+        "company": "Aker BP",
+        "esrs_standard": "ESRS 1",
+        "gold_fulfillment": "High",
+        "predicted_fulfillment": "Medium",
+        "compliance_match": false,
+        "retrieval": {
+          "recall@5": 1.0,
+          "precision@5": 0.8,
+          "mrr@5": 1.0,
+          "recall@10": 1.0,
+          "precision@10": 0.8,
+          "mrr@10": 1.0,
+          "recall@15": 1.0,
+          "precision@15": 0.8666666666666667,
+          "mrr@15": 1.0,
+          "coverage_ratio": 1.0
+        },
+        "answer_quality": {
+          "token_precision": 0.4264069264069264,
+          "token_recall": 0.7111913357400722,
+          "token_f1": 0.5331529093369418,
+          "bertscore": 0.0,
+          "llm_judge_score": 5.0,
+          "llm_judge_score_normalized": 1.0,
+          "llm_judge_rationale": "The generated answer accurately reflects the reference DMA description: first conducted in 2023 and revised in 2024 with new guidance and EFRAG draft oil & gas standard; four-step iterative process (context definition, IRO identification via top-down/bottom-up with stakeholder input, assessment/prioritisation using severity×likelihood and financial criteria aligned to company risk scales, validation by management/Board with monitoring). It correctly explains impact vs financial materiality and notes stakeholder engagement (interviews/workshops and prior-year external stakeholders). It correctly identifies the highest-priority topics material from both impact and financial perspectives: climate change, own workforce, pollution, business conduct, and resource use & circular economy. Minor omissions include not explicitly stating the additional impact-material topics (affected communities, biodiversity, workers in value chain), water/marine resources update, cyber security entity-specific IRO, and S4 not material; however, the question focuses on the DMA conduct and the matters material from both perspectives, which are fully and correctly covered."
+        },
+        "citation": {
+          "citation_precision": 0.5,
+          "citation_recall": 1.0,
+          "citation_f1": 0.6666666666666666
+        },
+        "hallucination": {
+          "faithfulness_score": 0.7709740894709802,
+          "supported_claim_ratio": 1.0,
+          "hallucination_rate": 0.0
+        },
+        "efficiency": {
+          "latency_seconds": 0.009772300720214844,
+          "prompt_tokens": 9575.0,
+          "completion_tokens": 1355.0,
+          "total_tokens": 10930.0,
+          "estimated_cost_usd": 0.0374875,
+          "n_chunks_retrieved": 15.0
+        },
+        "retrieved_chunk_count": 15,
+        "sources_used": [
+          1,
+          2,
+          3,
+          4,
+          6,
+          7,
+          8
+        ],
+        "page_references": [
+          {
+            "source_index": 1,
+            "pages": [
+              43,
+              44
+            ],
+            "page_display": "pp. 43-44",
+            "page_inline": "Page 43-44",
+            "section": "Annual report 2024 > General > 1 General > 1.5 DOUBLE MATERIALITY ASSESSMENT > 1.5.2 Methodology",
+            "chunk_id": "AkerBP_struct_00018_ec2b1cfa",
+            "text_preview": "authorities; conferences, public hearings and formal meetings with local communities and NGOs; and audits, negotiations and contractual processes with suppliers, contractors and partners. Overall, the framework highlights a systematic approach to sta"
+          },
+          {
+            "source_index": 2,
+            "pages": [
+              43
+            ],
+            "page_display": "p. 43",
+            "page_inline": "Page 43",
+            "section": "Annual report 2024 > General > 1 General > 1.5 DOUBLE MATERIALITY ASSESSMENT > 1.5.1 Stakeholder engagement",
+            "chunk_id": "AkerBP_struct_00017_f0aeff47",
+            "text_preview": "whether in our role as an energy provider, employer, customer or as a business that helps stimulate local and national economies through jobs, investments and taxes paid. Maintaining an open and proactive dialogue with key stakeholders helps us ident"
+          },
+          {
+            "source_index": 3,
+            "pages": [
+              42,
+              43
+            ],
+            "page_display": "pp. 42-43",
+            "page_inline": "Page 42-43",
+            "section": "Annual report 2024 > General > 1 General > 1.5 DOUBLE MATERIALITY ASSESSMENT",
+            "chunk_id": "AkerBP_struct_00016_1e059fc8",
+            "text_preview": "of IROs, their dependencies and connection to Aker BP's own operations and its value chain. The assessment followed a four-step process described in A figure 9. A description of how the identified IROs are integrated in Aker BP's management process i"
+          },
+          {
+            "source_index": 4,
+            "pages": [
+              41,
+              42
+            ],
+            "page_display": "pp. 41-42",
+            "page_inline": "Page 41-42",
+            "section": "Annual report 2024 > General > 1 General > 1.4 IMPACT, RISK AND OPPORTUNITY MANAGEMENT",
+            "chunk_id": "AkerBP_struct_00015_cf7c7c95",
+            "text_preview": "lying with the BoD, who receives updates from all ARC meetings. Risk management in Aker BP follows the principles in ISO 31000. IROs are identified, evaluated and mapped into our shared company risk matrix, including impact categories for personnel,"
+          },
+          {
+            "source_index": 6,
+            "pages": [
+              46
+            ],
+            "page_display": "p. 46",
+            "page_inline": "Page 46",
+            "section": "Annual report 2024 > General > 1 General > 1.5 DOUBLE MATERIALITY ASSESSMENT > 1.5.4.1 Changes",
+            "chunk_id": "AkerBP_struct_00024_63e4074b",
+            "text_preview": "associated with activities in countries that have a lower score on the Corruption Perception Index (CPI). Sector-specific IROs relevant to the oil and gas sector, such as health and safety, anti-discrimination, digitalisation and access to grievance"
+          },
+          {
+            "source_index": 7,
+            "pages": [
+              44
+            ],
+            "page_display": "p. 44",
+            "page_inline": "Page 44",
+            "section": "Annual report 2024 > General > 1 General > 1.5 DOUBLE MATERIALITY ASSESSMENT > 1.5.3.1 E1 - Climate change",
+            "chunk_id": "AkerBP_struct_00019_79e8e44e",
+            "text_preview": "complying with the emerging obligations for emission reporting and monitoring. This encompasses the addition of Yggdrasil and Valhall PWP-Fenris to our portfolio. Our medium-term horizon is shaped by achieving our climate-related targets for 2030 as"
+          },
+          {
+            "source_index": 8,
+            "pages": [
+              50
+            ],
+            "page_display": "p. 50",
+            "page_inline": "Page 50",
+            "section": "Annual report 2024 > General > 1 General > 1.6 SUSTAINABILITY DUE DILIGENCE",
+            "chunk_id": "AkerBP_struct_00034_883388c4",
+            "text_preview": "take measures to cease, prevent and mitigate such impacts where we are involved. Our sustainability due diligence process is based on the OECD's due diligence guidance for responsible business. This risk-based process aims to avoid and address advers"
+          }
+        ],
+        "generated_answer_preview": "Aker BP states that it conducted a double materiality assessment (DMA) using a systematic, structured process to identify material impacts, risks and opportunities (IROs) and the associated sustainability matters for reporting, covering both (i) impact materiality (inside-out: impacts from its activities on environment and society) and (ii) financial materiality (outside-in: financial risks and opportunities sustainability issues pose to its business model and performance, including reputational risk and dependencies on natural, human and social resources) [Page 43-44]. The DMA was revised in 2024 based on new information, implementation guidance and EFRAG’s draft oil and gas sector standard"
+      },
+      {
+        "config_name": "RQ1_structure_aware",
+        "rq_group": "RQ1",
+        "question_id": "Q1",
+        "question": "How has the undertaking conducted its double materiality assessment, and which sustainability matters were identified as material from both an impact and a financial perspective?",
+        "company": "BASF",
+        "esrs_standard": "ESRS 1",
+        "gold_fulfillment": "High",
+        "predicted_fulfillment": "Medium",
+        "compliance_match": false,
+        "retrieval": {
+          "recall@5": 1.0,
+          "precision@5": 1.0,
+          "mrr@5": 1.0,
+          "recall@10": 1.0,
+          "precision@10": 0.9,
+          "mrr@10": 1.0,
+          "recall@15": 1.0,
+          "precision@15": 0.7333333333333333,
+          "mrr@15": 1.0,
+          "coverage_ratio": 1.0
+        },
+        "answer_quality": {
+          "token_precision": 0.4716599190283401,
+          "token_recall": 0.8381294964028777,
+          "token_f1": 0.6036269430051814,
+          "bertscore": 0.0,
+          "llm_judge_score": 4.0,
+          "llm_judge_score_normalized": 0.8,
+          "llm_judge_rationale": "The generated answer accurately describes BASF’s three-step ESRS-aligned double materiality process (inputs/stakeholders, IRO identification/validation, 5-point scoring with criteria and thresholds, governance review) and correctly notes S4 as not material and no entity-specific topics. However, it is incomplete on the second part: it does not clearly list the sustainability matters identified as material from both impact and financial perspectives as in the reference (climate change/energy, other environmental matters incl. emissions to air/water and biodiversity, and own workforce). Instead it claims the combined set is not explicitly listed and only partially names E1, E4 and Own Workforce, omitting emissions to air/water and the explicit framing that these are the main impact areas/material topics. Overall mostly correct and well-grounded, but missing some material-topic completeness/clarity."
+        },
+        "citation": {
+          "citation_precision": 0.2857142857142857,
+          "citation_recall": 1.0,
+          "citation_f1": 0.4444444444444445
+        },
+        "hallucination": {
+          "faithfulness_score": 0.6975270625266501,
+          "supported_claim_ratio": 1.0,
+          "hallucination_rate": 0.0
+        },
+        "efficiency": {
+          "latency_seconds": 0.015168905258178711,
+          "prompt_tokens": 7070.0,
+          "completion_tokens": 1345.0,
+          "total_tokens": 8415.0,
+          "estimated_cost_usd": 0.031125,
+          "n_chunks_retrieved": 15.0
+        },
+        "retrieved_chunk_count": 15,
+        "sources_used": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          8,
+          11
+        ],
+        "page_references": [
+          {
+            "source_index": 1,
+            "pages": [
+              167
+            ],
+            "page_display": "p. 167",
+            "page_inline": "Page 167",
+            "section": "Stakeholder expectations > Double Materiality Assessment > ESRS 2 SBM-3 ESRS 2 IRO-1 > Material impacts, risks and opportunities and their interaction with strategy and business model > Process",
+            "chunk_id": "BASF_struct_00046_58039b16",
+            "text_preview": "### ESRS 2 SBM-3 ESRS 2 IRO-1 #### Material impacts, risks and opportunities and their interaction with strategy and business model ##### Process We carried out a double materiality assessment in accordance with the ESRSs for the first time in 2024."
+          },
+          {
+            "source_index": 2,
+            "pages": [
+              167,
+              168,
+              169
+            ],
+            "page_display": "pp. 167-169",
+            "page_inline": "Page 167-169",
+            "section": "Stakeholder expectations > Double Materiality Assessment > Results > ESRS 2 SBM-3 ESRS IRO 1",
+            "chunk_id": "BASF_struct_00049_0332eef7",
+            "text_preview": "### Results #### ESRS 2 SBM-3 ESRS IRO 1 The previous double materiality assessments were designed to meet all legal requirements in place at the time. The new ESRS requirements, in combination with the implementation guidance published, required a m"
+          },
+          {
+            "source_index": 3,
+            "pages": [
+              167
+            ],
+            "page_display": "p. 167",
+            "page_inline": "Page 167",
+            "section": "Stakeholder expectations > Double Materiality Assessment > ESRS 2 SBM-3 ESRS 2 IRO-1 > Material impacts, risks and opportunities and their interaction with strategy and business model > Process",
+            "chunk_id": "BASF_struct_00047_7ddf531a",
+            "text_preview": "sustainability-related opportunities and risks, we drew on findings from BASF's Group-wide opportunity and risk management, among other sources. Material sustainability matters have been systematically integrated into this process for many years. Fur"
+          },
+          {
+            "source_index": 4,
+            "pages": [
+              167
+            ],
+            "page_display": "p. 167",
+            "page_inline": "Page 167",
+            "section": "Stakeholder expectations > Double Materiality Assessment > ESRS 2 SBM-3 ESRS 2 IRO-1 > Material impacts, risks and opportunities and their interaction with strategy and business model > ESRS 2 IRO-2",
+            "chunk_id": "BASF_struct_00048_88740490",
+            "text_preview": "the materiality assessment was applied in a consistent manner throughout the BASF Group and across all specialist units. Finally, the Board of Executive Directors, the Supervisory Board, BASF's Joint Works Council and the BASF Works Council Europe we"
+          },
+          {
+            "source_index": 5,
+            "pages": [
+              180,
+              181
+            ],
+            "page_display": "pp. 180-181",
+            "page_inline": "Page 180-181",
+            "section": "Results of the double materiality assessment for the 2024 business year: Material impacts > Results of the double materiality assessment for the 2024 business year: Material impacts > Results of the double materiality assessment for the 2024 business year: Opportunities and risks > Results of the double materiality assessment for the 2024 business year: Opportunities and risks > Environment > E1 Climate Change1",
+            "chunk_id": "BASF_struct_00076_d5d2e980",
+            "text_preview": "the scenarios are different societal preferences and, building on these, climate and economic policy objectives. To assess the impact of different global climate policy approaches on our business units, the scenarios are discussed by the business uni"
+          },
+          {
+            "source_index": 8,
+            "pages": [
+              231
+            ],
+            "page_display": "p. 231",
+            "page_inline": "Page 231",
+            "section": "Metrics > E4 Biodiversity and Ecosystems > ESRS 2 IRO-1",
+            "chunk_id": "BASF_struct_00182_38c07334",
+            "text_preview": "### ESRS 2 IRO-1 As part of the double materiality assessment that we conducted for 2024 (see page 167), the topic Biodiversity and Ecosystems was defined as material. When performing the assessment, we drew on three sources of information, in partic"
+          },
+          {
+            "source_index": 11,
+            "pages": [
+              270
+            ],
+            "page_display": "p. 270",
+            "page_inline": "Page 270",
+            "section": "Template 5 Taxonomy non-eligible economic activities > Results of the double materiality assessment > ESRS 2 SBM-3",
+            "chunk_id": "BASF_struct_00273_68834679",
+            "text_preview": "### ESRS 2 SBM-3 In our double materiality assessment (see page 167), topics in the topic category Own Workforce were defined as material. In this context, we identified five material impacts on employees and three risks for BASF2 (see the following"
+          }
+        ],
+        "generated_answer_preview": "BASF states it conducted its first ESRS-aligned double materiality assessment in 2024, building on prior assessments but with greater granularity and documentation, and plans to update it annually [Page 167]. The process had three main steps: (1) compiling a list of potential sustainability matters relevant to BASF’s business/customer industries and stakeholder groups, with particular attention to higher-risk parts of the business/value chain; the assessment was performed at BASF Group level along the value chain and incorporated stakeholder interests via direct inputs (e.g., Advisory Councils, Civil Society Forum, multistakeholder networks) and indirect inputs (e.g., big data analyses of cu"
+      },
+      {
+        "config_name": "RQ1_structure_aware",
+        "rq_group": "RQ1",
+        "question_id": "Q1",
+        "question": "How has the undertaking conducted its double materiality assessment, and which sustainability matters were identified as material from both an impact and a financial perspective?",
+        "company": "Shell",
+        "esrs_standard": "ESRS 1",
+        "gold_fulfillment": "High",
+        "predicted_fulfillment": "Medium",
+        "compliance_match": false,
+        "retrieval": {
+          "recall@5": 1.0,
+          "precision@5": 1.0,
+          "mrr@5": 1.0,
+          "recall@10": 1.0,
+          "precision@10": 1.0,
+          "mrr@10": 1.0,
+          "recall@15": 1.0,
+          "precision@15": 1.0,
+          "mrr@15": 1.0,
+          "coverage_ratio": 1.0
+        },
+        "answer_quality": {
+          "token_precision": 0.22673434856175972,
+          "token_recall": 0.7403314917127072,
+          "token_f1": 0.3471502590673575,
+          "bertscore": 0.0,
+          "llm_judge_score": 4.0,
+          "llm_judge_score_normalized": 0.8,
+          "llm_judge_rationale": "The generated answer is largely correct and well-grounded in the reference. It accurately describes Shell’s five-step DMA process (context setting; identification of IROs; impact assessment; financial effects assessment via ERM; thresholding/materiality determination) and correctly notes the use of five-point scales and threshold logic (magnitude for actual impacts; likelihood+magnitude for potential impacts). It also correctly identifies GHG emissions as material from both impact and financial perspectives, and links this to climate change/energy transition as material risks/opportunities, consistent with the reference. \n\nHowever, it is slightly incomplete versus the reference in two ways: (1) it does not mention the specific sources used to identify topics (ESRS topics plus industry lists from Ipieca and GRI and Shell-specific topics), and (2) it adds several extra ‘other material matters’ (biodiversity, pollution, waste, integrity, etc.) that are not supported by the provided reference answer and therefore are not grounded for this evaluation. These issues prevent a top score, but the core DMA description and the ‘both impact and financial’ material matters are correct."
+        },
+        "citation": {
+          "citation_precision": 0.2727272727272727,
+          "citation_recall": 1.0,
+          "citation_f1": 0.42857142857142855
+        },
+        "hallucination": {
+          "faithfulness_score": 0.7331710508318915,
+          "supported_claim_ratio": 1.0,
+          "hallucination_rate": 0.0
+        },
+        "efficiency": {
+          "latency_seconds": 0.022429943084716797,
+          "prompt_tokens": 5728.0,
+          "completion_tokens": 1590.0,
+          "total_tokens": 7318.0,
+          "estimated_cost_usd": 0.03022,
+          "n_chunks_retrieved": 15.0
+        },
+        "retrieved_chunk_count": 15,
+        "sources_used": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          9,
+          10,
+          12,
+          14,
+          15
+        ],
+        "page_references": [
+          {
+            "source_index": 1,
+            "pages": [
+              438
+            ],
+            "page_display": "p. 438",
+            "page_inline": "Page 438",
+            "section": "Sustainability Statements > INDEPENDENT ASSURANCE REPORT TO THE DIRECTORS OF SHELL PLC ON THE SUSTAINABILITY STATEMENTS > Emphasis of matter - The double materiality assessment process",
+            "chunk_id": "Shell_struct_00500_c2c27615",
+            "text_preview": "### Emphasis of matter - The double materiality assessment process The Sustainability Statements, including the disclosure of material impacts, risks and opportunities in accordance with the ESRS, is prepared with the double materiality assessment pr"
+          },
+          {
+            "source_index": 2,
+            "pages": [
+              350,
+              351
+            ],
+            "page_display": "pp. 350-351",
+            "page_inline": "Page 350-351",
+            "section": "Sustainability Statements > Interests and views of stakeholders (SBM-2) > Key stakeholder groups and how we engage with them > Material impacts, risks and opportunities and their interaction with strategy and business model (SBM-3)",
+            "chunk_id": "Shell_struct_00045_698fd476",
+            "text_preview": "of affected stakeholders with regard to sustainability-related impacts. #### Material impacts, risks and opportunities and their interaction with strategy and business model (SBM-3) Shell has conducted an assessment of its material sustainability-rel"
+          },
+          {
+            "source_index": 3,
+            "pages": [
+              350,
+              351
+            ],
+            "page_display": "pp. 350-351",
+            "page_inline": "Page 350-351",
+            "section": "Sustainability Statements > Interests and views of stakeholders (SBM-2) > Key stakeholder groups and how we engage with them > Outcome",
+            "chunk_id": "Shell_struct_00046_3ccadb0c",
+            "text_preview": "line of sight into potential impacts and the nature of our contractual rights and obligations, if any. #### Risks and opportunities We consider risks or opportunities that could have a material effect on Shell's earnings, cash flows and financial con"
+          },
+          {
+            "source_index": 4,
+            "pages": [
+              354
+            ],
+            "page_display": "p. 354",
+            "page_inline": "Page 354",
+            "section": "Sustainability Statements > Description of the process to identify and assess material impacts, risks and opportunities (IRO-1)",
+            "chunk_id": "Shell_struct_00059_8ec67c77",
+            "text_preview": "## Description of the process to identify and assess material impacts, risks and opportunities (IRO-1) Shell has developed a process to identify and assess material sustainability-related impacts, risks and opportunities as the basis for determining"
+          },
+          {
+            "source_index": 5,
+            "pages": [
+              354,
+              355
+            ],
+            "page_display": "pp. 354-355",
+            "page_inline": "Page 354-355",
+            "section": "Sustainability Statements > Description of the process to identify and assess material impacts, risks and opportunities (IRO-1) > 2. Identify impacts, risks and opportunities > 4. Assess risks and opportunities",
+            "chunk_id": "Shell_struct_00062_11d5d425",
+            "text_preview": "effect as already occurring and do not assign a rating for likelihood. We assign a rating for magnitude based on actual impacts after implementation of standard control measures. We exclude from this analysis measures that compensate for residual imp"
+          },
+          {
+            "source_index": 6,
+            "pages": [
+              357
+            ],
+            "page_display": "p. 357",
+            "page_inline": "Page 357",
+            "section": "Sustainability Statements > Description of the process to identify and assess material impacts, risks and opportunities (IRO-1) > Other methodological notes",
+            "chunk_id": "Shell_struct_00084_2ee15faa",
+            "text_preview": "### Other methodological notes We engage with stakeholders on a regular basis concerning our potential business impacts. We have not engaged with stakeholders directly on the double materiality assessment, but use feedback from existing communication"
+          },
+          {
+            "source_index": 9,
+            "pages": [
+              397
+            ],
+            "page_display": "p. 397",
+            "page_inline": "Page 397",
+            "section": "Sustainability Statements > Our activities can affect natural habitats and the communities that depend on them. We seek to have a positive impact on biodiversity.",
+            "chunk_id": "Shell_struct_00260_1b906b40",
+            "text_preview": "## Our activities can affect natural habitats and the communities that depend on them. We seek to have a positive impact on biodiversity. Our double materiality assessment has identified biodiversity loss, sensitive areas and species, and ecosystem s"
+          },
+          {
+            "source_index": 10,
+            "pages": [
+              424
+            ],
+            "page_display": "p. 424",
+            "page_inline": "Page 424",
+            "section": "Sustainability Statements > Our core values of honesty, integrity and respect for people, as well as our focus on safety and sustainability, are critical to our strategy.",
+            "chunk_id": "Shell_struct_00435_c5b2ca78",
+            "text_preview": "## Our core values of honesty, integrity and respect for people, as well as our focus on safety and sustainability, are critical to our strategy. Our double materiality assessment has identified a culture of integrity and responsible sourcing as mate"
+          },
+          {
+            "source_index": 12,
+            "pages": [
+              353
+            ],
+            "page_display": "p. 353",
+            "page_inline": "Page 353",
+            "section": "Sustainability Statements > Current and anticipated effects on business model, value chain, strategy and decision-making",
+            "chunk_id": "Shell_struct_00055_711ab581",
+            "text_preview": "## Current and anticipated effects on business model, value chain, strategy and decision-making The \"Risk factors\" section on pages 135-144 provides an overview of the principal risks Shell is exposed to in its operations, their potential effects and"
+          },
+          {
+            "source_index": 14,
+            "pages": [
+              404
+            ],
+            "page_display": "p. 404",
+            "page_inline": "Page 404",
+            "section": "Sustainability Statements > As part of our respecting nature ambition, we seek to use resources efficiently and to increase reuse and recycling.",
+            "chunk_id": "Shell_struct_00299_6a90bc20",
+            "text_preview": "## As part of our respecting nature ambition, we seek to use resources efficiently and to increase reuse and recycling. Our double materiality assessment has identified waste management as a material topic. See \"Material impacts, risks and opportunit"
+          },
+          {
+            "source_index": 15,
+            "pages": [
+              390
+            ],
+            "page_display": "p. 390",
+            "page_inline": "Page 390",
+            "section": "Sustainability Statements > Pollution (E2)",
+            "chunk_id": "Shell_struct_00217_60b487eb",
+            "text_preview": "## Pollution (E2) We seek to manage the impact of our operations on air quality, water quality and soil and groundwater resources, while complying with applicable regulations. Our double materiality assessment has identified emissions to air, dischar"
+          }
+        ],
+        "generated_answer_preview": "Shell states it conducted a double materiality assessment (DMA) as the basis for its 2024 Sustainability Statements, assessing sustainability matters from both (i) impact materiality (Shell’s actual/potential impacts on people and the environment) and (ii) financial materiality (matters that trigger/could reasonably be expected to trigger material financial effects for Shell) [Page 350-351].\n\nHow Shell conducted the DMA:\n- Process and steps: Shell describes a five-step process: (1) establish business context, activities, value chain and stakeholders; (2) consider potential sustainability matters and identify actual/potential impacts, risks and opportunities; (3) assess impacts for actual and"
+      },
+      {
+        "config_name": "RQ1_structure_aware",
+        "rq_group": "RQ1",
+        "question_id": "Q2",
+        "question": "How is sustainability-related performance integrated into the incentive or remuneration schemes for the undertaking's administrative, management, and supervisory bodies?",
+        "company": "Aker BP",
+        "esrs_standard": "ESRS 2",
+        "gold_fulfillment": "High",
+        "predicted_fulfillment": "Medium",
+        "compliance_match": false,
+        "retrieval": {
+          "recall@5": 1.0,
+          "precision@5": 1.0,
+          "mrr@5": 1.0,
+          "recall@10": 1.0,
+          "precision@10": 0.8,
+          "mrr@10": 1.0,
+          "recall@15": 1.0,
+          "precision@15": 0.6,
+          "mrr@15": 1.0,
+          "coverage_ratio": 1.0
+        },
+        "answer_quality": {
+          "token_precision": 0.7592592592592593,
+          "token_recall": 0.5347826086956522,
+          "token_f1": 0.6275510204081634,
+          "bertscore": 0.0,
+          "llm_judge_score": 4.0,
+          "llm_judge_score_normalized": 0.8,
+          "llm_judge_rationale": "The generated answer is largely correct and grounded in the reference: it identifies the company-wide bonus programme as variable remuneration applying to all permanent employees (including management), states that ~22% of bonus potential depends on sustainability-related initiatives/targets, highlights the sustainability-related KPI (equity share scope 1 GHG intensity), and correctly describes ODCC oversight of remuneration alignment with strategy and KPI target-setting/monitoring for EMT. However, it adds/frames Safety as a sustainability-related KPI without the reference explicitly positioning Safety as the sustainability KPI in the bonus (the reference specifically calls out scope 1 GHG intensity), and it omits several reference specifics (e.g., seven of eight equally weighted KPIs feeding the bonus, the ‘People and organisation’ KPI not feeding into the bonus, and the note that BoD remuneration is covered in a separate remuneration report). These omissions and the slight overreach prevent a top score."
+        },
+        "citation": {
+          "citation_precision": 0.75,
+          "citation_recall": 1.0,
+          "citation_f1": 0.8571428571428571
+        },
+        "hallucination": {
+          "faithfulness_score": 0.6426587301587302,
+          "supported_claim_ratio": 1.0,
+          "hallucination_rate": 0.0
+        },
+        "efficiency": {
+          "latency_seconds": 0.013540267944335938,
+          "prompt_tokens": 8807.0,
+          "completion_tokens": 819.0,
+          "total_tokens": 9626.0,
+          "estimated_cost_usd": 0.0302075,
+          "n_chunks_retrieved": 15.0
+        },
+        "retrieved_chunk_count": 15,
+        "sources_used": [
+          1,
+          2,
+          3
+        ],
+        "page_references": [
+          {
+            "source_index": 1,
+            "pages": [
+              37,
+              38,
+              39
+            ],
+            "page_display": "pp. 37-39",
+            "page_inline": "Page 37-39",
+            "section": "Annual report 2024 > General > 1 General > 1.2 OUR SUSTAINABILITY STRATEGY AND APPROACH > 1.2.2 Our sustainability framework",
+            "chunk_id": "AkerBP_struct_00009_cf7a2fcd",
+            "text_preview": "key field development projects, as a basis. The KPI for people and organisation is solely based on employee feedback and does not factor into the bonus **Key performance indicators:** Safety (serious incidents/1 mill. work hours) Net production from"
+          },
+          {
+            "source_index": 2,
+            "pages": [
+              38,
+              39
+            ],
+            "page_display": "pp. 38-39",
+            "page_inline": "Page 38-39",
+            "section": "Annual report 2024 > General > 1 General > 1.3 GOVERNANCE > 1.3.3 Executive management team",
+            "chunk_id": "AkerBP_struct_00010_afdd06a9",
+            "text_preview": "partnerships, and affected communities, emphasizing people, safety, and social impact across operations and relationships. Together, these pillars form a holistic framework that embeds sustainability into strategy, operations, and stakeholder engagem"
+          },
+          {
+            "source_index": 3,
+            "pages": [
+              39,
+              40
+            ],
+            "page_display": "pp. 39-40",
+            "page_inline": "Page 39-40",
+            "section": "Annual report 2024 > General > 1 General > 1.3 GOVERNANCE > 1.3.4 Internal audit and compliance department",
+            "chunk_id": "AkerBP_struct_00011_ee6c26f5",
+            "text_preview": "and risk committee (ARC)</td> <td>4</td> <td>0</td> <td>0</td> <td>75%</td> <td>75%</td> </tr> <tr> <td>E</td> <td>Organisational development and compensation committee (ODCC)</td> <td>3</td> <td>0</td> <td>1</td> <td>67%</td> <td>50%</td> </tr> <tr>"
+          }
+        ],
+        "generated_answer_preview": "Aker BP integrates sustainability-related performance into its variable remuneration through the company-wide bonus programme, which is paid to all permanent employees, including management [Page 37-39]. The bonus scheme is based on a set of key performance indicators (KPIs) used in the performance management system; these include sustainability-related KPIs such as Safety (serious incidents per 1 million work hours) and Equity share scope 1 GHG intensity (kg CO2e/boe) [Page 37-39]. Aker BP states that approximately 22% of the bonus potential is dependent on sustainability-related initiatives and targets, and that the same share of bonus potential applies for all employees [Page 37-39]. Gove"
+      },
+      {
+        "config_name": "RQ1_structure_aware",
+        "rq_group": "RQ1",
+        "question_id": "Q2",
+        "question": "How is sustainability-related performance integrated into the incentive or remuneration schemes for the undertaking's administrative, management, and supervisory bodies?",
+        "company": "BASF",
+        "esrs_standard": "ESRS 2",
+        "gold_fulfillment": "High",
+        "predicted_fulfillment": "Medium",
+        "compliance_match": false,
+        "retrieval": {
+          "recall@5": 1.0,
+          "precision@5": 0.6,
+          "mrr@5": 1.0,
+          "recall@10": 1.0,
+          "precision@10": 0.6,
+          "mrr@10": 1.0,
+          "recall@15": 1.0,
+          "precision@15": 0.4666666666666667,
+          "mrr@15": 1.0,
+          "coverage_ratio": 1.0
+        },
+        "answer_quality": {
+          "token_precision": 0.5738831615120275,
+          "token_recall": 0.8743455497382199,
+          "token_f1": 0.6929460580912863,
+          "bertscore": 0.0,
+          "llm_judge_score": 5.0,
+          "llm_judge_score_normalized": 1.0,
+          "llm_judge_rationale": "The generated answer accurately reflects the reference: it explains integration via LTI and STI, correctly states CO2 (Scope 1+2) as one of three equally weighted (33.3%) LTI strategic targets since 2020, correctly notes Supervisory Board remuneration has no variable component, and correctly describes the 2024 STI structure (three non-financial targets totaling 25% of STI, with two sustainability-related leading to 16.7% sustainability-related share) including the cited examples (Sustainable-Future Solutions sales and supplier-specific PCFs). It is complete for the question and does not introduce material inaccuracies; the extra note about approval/update level is clearly marked as not specified and does not conflict with the reference."
+        },
+        "citation": {
+          "citation_precision": 0.3333333333333333,
+          "citation_recall": 1.0,
+          "citation_f1": 0.5
+        },
+        "hallucination": {
+          "faithfulness_score": 0.7928802924575872,
+          "supported_claim_ratio": 1.0,
+          "hallucination_rate": 0.0
+        },
+        "efficiency": {
+          "latency_seconds": 0.008440971374511719,
+          "prompt_tokens": 8617.0,
+          "completion_tokens": 921.0,
+          "total_tokens": 9538.0,
+          "estimated_cost_usd": 0.0307525,
+          "n_chunks_retrieved": 15.0
+        },
+        "retrieved_chunk_count": 15,
+        "sources_used": [
+          1,
+          9
+        ],
+        "page_references": [
+          {
+            "source_index": 1,
+            "pages": [
+              184
+            ],
+            "page_display": "p. 184",
+            "page_inline": "Page 184",
+            "section": "Results of the double materiality assessment for the 2024 business year: Material impacts > Results of the double materiality assessment for E1 Climate Change: Risks and opportunities > Strategy and governance > ESRS 2 GOV-3",
+            "chunk_id": "BASF_struct_00082_32236acd",
+            "text_preview": "impacts in the value chain, global applicability, accessibility to stakeholders and engagement thereof, see General Disclosures in our Sustainability Statement on page 151. #### ESRS 2 GOV-3 We have laid the foundations for our successful transformat"
+          },
+          {
+            "source_index": 9,
+            "pages": [
+              151,
+              152
+            ],
+            "page_display": "pp. 151-152",
+            "page_inline": "Page 151-152",
+            "section": "European Sustainability Reporting Standards (ESRS) Disclosure Requirements covered by the Combined Management's Report > General Disclosures > ESRS 2 BP-1 ESRS 2 BP-2",
+            "chunk_id": "BASF_struct_00015_1bc7b2cf",
+            "text_preview": "subsidiaries as well as joint operations and joint ventures in which we have authority in terms of safety management is compiled worldwide, regardless of our equity interest, and reported in full. Unless otherwise indicated, data on social responsibi"
+          }
+        ],
+        "generated_answer_preview": "BASF integrates sustainability-related performance into incentives primarily through its variable remuneration for the Board of Executive Directors and senior executives, while Supervisory Board remuneration has no variable component.\n\n- **Long-term incentive (LTI) – Board of Executive Directors and senior executives:** BASF anchored the reduction of **Group-wide CO2 emissions (Scope 1 and Scope 2)** as its “most important nonfinancial key performance indicator” in the Group’s steering and compensation systems (since 2020). This CO2 reduction KPI is **one of three equally weighted (33.3%) strategic targets** in the LTI for the Board of Executive Directors and senior executives. [Page 184]\n\n-"
+      },
+      {
+        "config_name": "RQ1_structure_aware",
+        "rq_group": "RQ1",
+        "question_id": "Q2",
+        "question": "How is sustainability-related performance integrated into the incentive or remuneration schemes for the undertaking's administrative, management, and supervisory bodies?",
+        "company": "Shell",
+        "esrs_standard": "ESRS 2",
+        "gold_fulfillment": "Medium",
+        "predicted_fulfillment": "Medium",
+        "compliance_match": true,
+        "retrieval": {
+          "recall@5": 0.0,
+          "precision@5": 1.0,
+          "mrr@5": 1.0,
+          "recall@10": 0.0,
+          "precision@10": 0.8,
+          "mrr@10": 1.0,
+          "recall@15": 0.0,
+          "precision@15": 0.6666666666666666,
+          "mrr@15": 1.0,
+          "coverage_ratio": 1.0
+        },
+        "answer_quality": {
+          "token_precision": 0.5570469798657718,
+          "token_recall": 0.6434108527131783,
+          "token_f1": 0.5971223021582733,
+          "bertscore": 0.0,
+          "llm_judge_score": 4.0,
+          "llm_judge_score_normalized": 0.8,
+          "llm_judge_rationale": "The generated answer is largely consistent with the reference: it explains that Shell integrates sustainability performance into remuneration via annual bonuses for most employees and long-term share awards for Executive Directors/selected employees; it links remuneration to reducing operational emissions and helping customers reduce emissions; and it notes that energy transition performance is measured against climate-related targets reflected in remuneration. However, it adds details not supported by the reference (e.g., specific mention of REMCO approving/updating the Directors’ Remuneration Policy, and that targets focus on absolute GHG emissions and Net Carbon Intensity), and it omits the reference point that REMCO met five times in 2024 and that the sustainability statement defers detailed metrics/weightings to the Directors’ Remuneration Report without disclosing them in the sustainability statement."
+        },
+        "citation": {
+          "citation_precision": 0.0,
+          "citation_recall": 0.0,
+          "citation_f1": 0.0
+        },
+        "hallucination": {
+          "faithfulness_score": 0.8109581144571003,
+          "supported_claim_ratio": 1.0,
+          "hallucination_rate": 0.0
+        },
+        "efficiency": {
+          "latency_seconds": 0.01573801040649414,
+          "prompt_tokens": 8332.0,
+          "completion_tokens": 777.0,
+          "total_tokens": 9109.0,
+          "estimated_cost_usd": 0.0286,
+          "n_chunks_retrieved": 15.0
+        },
+        "retrieved_chunk_count": 15,
+        "sources_used": [
+          1,
+          4
+        ],
+        "page_references": [
+          {
+            "source_index": 1,
+            "pages": [
+              345
+            ],
+            "page_display": "p. 345",
+            "page_inline": "Page 345",
+            "section": "Sustainability Statements > Integration of sustainability-related performance in incentive schemes (GOV-3)",
+            "chunk_id": "Shell_struct_00020_06acde07",
+            "text_preview": "## Integration of sustainability-related performance in incentive schemes (GOV-3) Our remuneration schemes are designed to support Shell in achieving its corporate strategy. We have established remuneration structures to support us in reducing our op"
+          },
+          {
+            "source_index": 4,
+            "pages": [
+              367
+            ],
+            "page_display": "p. 367",
+            "page_inline": "Page 367",
+            "section": "Sustainability Statements > Progress in implementing the transition plan",
+            "chunk_id": "Shell_struct_00118_b1e70b1f",
+            "text_preview": "## Progress in implementing the transition plan Shell's performance and progress in the energy transition is measured with respect to our climate-related targets and ambition, including those reflected in the remuneration of senior management and emp"
+          }
+        ],
+        "generated_answer_preview": "Shell states that its remuneration schemes are designed to support delivery of its corporate strategy, including “reducing our operational emissions” and supporting customers to reduce their emissions [Page 345]. The majority of employees participate in an annual bonus scheme, while Executive Directors (and other nominated employees) receive long-term share awards [Page 345]. Shell indicates that remuneration schemes linked to sustainability include “sustainability-linked measures and targets and metrics used in the performance assessment,” as well as “the proportion of variable remuneration dependent on sustainability-related performance,” and that the Remuneration Committee has a role in “"
+      },
+      {
+        "config_name": "RQ1_structure_aware",
+        "rq_group": "RQ1",
+        "question_id": "Q3",
+        "question": "Does the undertaking have a transition plan for climate change mitigation? If yes, is the transition plan aligned with the objective of limiting global warming to 1.5°C? If no transition plan exists, what is the undertaking's timeline for adopting one?",
+        "company": "Aker BP",
+        "esrs_standard": "ESRS E1",
+        "gold_fulfillment": "High",
+        "predicted_fulfillment": "Low",
+        "compliance_match": false,
+        "retrieval": {
+          "recall@5": 0.0,
+          "precision@5": 1.0,
+          "mrr@5": 1.0,
+          "recall@10": 0.5,
+          "precision@10": 1.0,
+          "mrr@10": 1.0,
+          "recall@15": 0.5,
+          "precision@15": 0.9333333333333333,
+          "mrr@15": 1.0,
+          "coverage_ratio": 1.0
+        },
+        "answer_quality": {
+          "token_precision": 0.6704545454545454,
+          "token_recall": 0.4097222222222222,
+          "token_f1": 0.5086206896551724,
+          "bertscore": 0.0,
+          "llm_judge_score": 5.0,
+          "llm_judge_score_normalized": 1.0,
+          "llm_judge_rationale": "The generated answer correctly states that Aker BP does not have an ESRS-compliant climate transition plan due to the absence of Scope 3 targets, and that it has no timeline for developing such a plan. It also correctly notes that no 1.5°C alignment is disclosed and that the company’s targets are not science-based. This matches the reference and is appropriately grounded without adding unsupported claims."
+        },
+        "citation": {
+          "citation_precision": 0.5,
+          "citation_recall": 0.5,
+          "citation_f1": 0.5
+        },
+        "hallucination": {
+          "faithfulness_score": 0.5789473684210527,
+          "supported_claim_ratio": 0.6666666666666666,
+          "hallucination_rate": 0.33333333333333337
+        },
+        "efficiency": {
+          "latency_seconds": 0.014809846878051758,
+          "prompt_tokens": 8178.0,
+          "completion_tokens": 539.0,
+          "total_tokens": 8717.0,
+          "estimated_cost_usd": 0.025835,
+          "n_chunks_retrieved": 15.0
+        },
+        "retrieved_chunk_count": 15,
+        "sources_used": [
+          1,
+          6
+        ],
+        "page_references": [
+          {
+            "source_index": 1,
+            "pages": [
+              55
+            ],
+            "page_display": "p. 55",
+            "page_inline": "Page 55",
+            "section": "Annual report 2024 > 2 Climate change > 2.2 CLIMATE TRANSITION PLAN",
+            "chunk_id": "AkerBP_struct_00046_333e44f3",
+            "text_preview": "### 2.2 CLIMATE TRANSITION PLAN Aker BP does not have any targets to reduce our scope 3 emissions. As a result, we do not have a climate transition plan in line with the ESRS' requirements and do not have a timeline for if or when we will develop suc"
+          },
+          {
+            "source_index": 6,
+            "pages": [
+              60
+            ],
+            "page_display": "p. 60",
+            "page_inline": "Page 60",
+            "section": "Annual report 2024 > 2.4 TARGETS",
+            "chunk_id": "AkerBP_struct_00059_83cb7ea5",
+            "text_preview": "## 2.4 TARGETS As part of our broader strategy to be the E&P company of the future, Aker BP has developed a decarbonisation plan, which is publicly available on our website. Through our Konkraft collaboration and industry commitment, we contribute to"
+          }
+        ],
+        "generated_answer_preview": "Aker BP states that it does not have a climate change mitigation transition plan in line with ESRS requirements because it has no targets to reduce Scope 3 emissions; consequently, it also states it does not have a timeline for if or when it will develop such a plan. [Page 55] Therefore, the company does not disclose that a transition plan is aligned with limiting global warming to 1.5°C. [Page 55] Separately, Aker BP discloses that its climate-related targets are not science-based. [Page 60]"
+      },
+      {
+        "config_name": "RQ1_structure_aware",
+        "rq_group": "RQ1",
+        "question_id": "Q3",
+        "question": "Does the undertaking have a transition plan for climate change mitigation? If yes, is the transition plan aligned with the objective of limiting global warming to 1.5°C? If no transition plan exists, what is the undertaking's timeline for adopting one?",
+        "company": "BASF",
+        "esrs_standard": "ESRS E1",
+        "gold_fulfillment": "High",
+        "predicted_fulfillment": "Medium",
+        "compliance_match": false,
+        "retrieval": {
+          "recall@5": 1.0,
+          "precision@5": 0.6,
+          "mrr@5": 1.0,
+          "recall@10": 1.0,
+          "precision@10": 0.5,
+          "mrr@10": 1.0,
+          "recall@15": 1.0,
+          "precision@15": 0.4666666666666667,
+          "mrr@15": 1.0,
+          "coverage_ratio": 1.0
+        },
+        "answer_quality": {
+          "token_precision": 0.5298013245033113,
+          "token_recall": 0.5,
+          "token_f1": 0.5144694533762058,
+          "bertscore": 0.0,
+          "llm_judge_score": 4.0,
+          "llm_judge_score_normalized": 0.8,
+          "llm_judge_rationale": "The generated answer correctly states that BASF has a transition plan and that its Scope 1+2 targets (-25% by 2030 vs 2018; net zero by 2050) are described as compatible with a 1.5°C pathway via the IEA NZE scenario, matching the reference. It also appropriately notes limitations around Scope 3 alignment, which is consistent with the cited passage and does not contradict the reference. However, it is less complete than the reference because it omits key elements such as SBTi validation, specific investment figures (€300m/€250m), and several decarbonization levers (e.g., electrified steam crackers, CO2-free hydrogen, CCS, methane pyrolysis/e-crackers)."
+        },
+        "citation": {
+          "citation_precision": 0.25,
+          "citation_recall": 0.5,
+          "citation_f1": 0.3333333333333333
+        },
+        "hallucination": {
+          "faithfulness_score": 0.7248579545454545,
+          "supported_claim_ratio": 1.0,
+          "hallucination_rate": 0.0
+        },
+        "efficiency": {
+          "latency_seconds": 0.009692192077636719,
+          "prompt_tokens": 10166.0,
+          "completion_tokens": 731.0,
+          "total_tokens": 10897.0,
+          "estimated_cost_usd": 0.032725,
+          "n_chunks_retrieved": 15.0
+        },
+        "retrieved_chunk_count": 15,
+        "sources_used": [
+          1,
+          2,
+          14
+        ],
+        "page_references": [
+          {
+            "source_index": 1,
+            "pages": [
+              185,
+              186
+            ],
+            "page_display": "pp. 185-186",
+            "page_inline": "Page 185-186",
+            "section": "Results of the double materiality assessment for the 2024 business year: Material impacts > Results of the double materiality assessment for E1 Climate Change: Risks and opportunities > Transition plan for climate change mitigation > E1-1",
+            "chunk_id": "BASF_struct_00084_e5591ebd",
+            "text_preview": "### Transition plan for climate change mitigation #### E1-1 We are pursuing ambitious climate protection targets. We want to reduce greenhouse gas emissions from our production processes (Scope 1) and our energy purchases (Scope 2) by 25% by 2030 com"
+          },
+          {
+            "source_index": 2,
+            "pages": [
+              180
+            ],
+            "page_display": "p. 180",
+            "page_inline": "Page 180",
+            "section": "Results of the double materiality assessment for the 2024 business year: Material impacts > Results of the double materiality assessment for the 2024 business year: Material impacts > Results of the double materiality assessment for the 2024 business year: Opportunities and risks > Results of the double materiality assessment for the 2024 business year: Opportunities and risks > Environment > E1 Climate Change1",
+            "chunk_id": "BASF_struct_00075_385e6ffe",
+            "text_preview": "the resilience of plants, infrastructure, operations and services. External factors comprise the external infrastructure, water, energy and raw materials supplies, wastewater treatment and the dispatch of finished goods. In addition, the assessment c"
+          },
+          {
+            "source_index": 14,
+            "pages": [
+              188
+            ],
+            "page_display": "p. 188",
+            "page_inline": "Page 188",
+            "section": "Results of the double materiality assessment for the 2024 business year: Material impacts > Results of the double materiality assessment for E1 Climate Change: Risks and opportunities > Transition plan for climate change mitigation > E1-2",
+            "chunk_id": "BASF_struct_00090_3cbf4d5f",
+            "text_preview": "the aim of reducing the environmental footprint of our products. Criteria for reducing CO2 emissions are a key part of the evaluation process. Products with sustainability concerns are identified and, in the case of severe challenges, action plans ar"
+          }
+        ],
+        "generated_answer_preview": "Yes. BASF states that it has developed a climate change mitigation transition plan to achieve its climate protection targets (Scope 1+2: -25% by 2030 vs. 2018; net-zero GHG emissions by 2050) and describes key levers (renewable energy, operational excellence, low-emission steam generation) [Page 185-186]. BASF also states that its Scope 1+2 target is compatible with limiting global warming to 1.5°C, based on the International Energy Agency (IEA) “Net Zero by 2050” emission reduction pathways [Page 185-186]. The retrieved passages do not provide sufficient evidence to conclude that BASF’s full transition plan (beyond the stated Scope 1+2 target) is aligned with 1.5°C across all relevant scope"
+      },
+      {
+        "config_name": "RQ1_structure_aware",
+        "rq_group": "RQ1",
+        "question_id": "Q3",
+        "question": "Does the undertaking have a transition plan for climate change mitigation? If yes, is the transition plan aligned with the objective of limiting global warming to 1.5°C? If no transition plan exists, what is the undertaking's timeline for adopting one?",
+        "company": "Shell",
+        "esrs_standard": "ESRS E1",
+        "gold_fulfillment": "High",
+        "predicted_fulfillment": "Medium",
+        "compliance_match": false,
+        "retrieval": {
+          "recall@5": 1.0,
+          "precision@5": 1.0,
+          "mrr@5": 1.0,
+          "recall@10": 1.0,
+          "precision@10": 1.0,
+          "mrr@10": 1.0,
+          "recall@15": 1.0,
+          "precision@15": 1.0,
+          "mrr@15": 1.0,
+          "coverage_ratio": 1.0
+        },
+        "answer_quality": {
+          "token_precision": 0.5609756097560976,
+          "token_recall": 0.6344827586206897,
+          "token_f1": 0.5954692556634306,
+          "bertscore": 0.0,
+          "llm_judge_score": 5.0,
+          "llm_judge_score_normalized": 1.0,
+          "llm_judge_rationale": "The generated answer correctly states that Shell has a climate transition plan embedded in its strategy (Energy Transition Strategy) and that Shell claims alignment with the 1.5°C objective. It accurately reflects the reference’s key grounding points: support for the Paris 1.5°C goal; belief that NCI targets are aligned; derivation from IPCC AR6 1.5°C scenarios with exclusions for heavy reliance on removals/bioenergy; and the Scope 3 Category 11 (oil products) ambition being compatible and more ambitious than the median scenario. It also appropriately notes that a timeline for adopting a plan is not applicable because a plan exists. Minor omissions (e.g., shareholder approval percentage, 10-year capital plan detail, specific 15–20% range) do not materially affect correctness for the question asked."
+        },
+        "citation": {
+          "citation_precision": 1.0,
+          "citation_recall": 1.0,
+          "citation_f1": 1.0
+        },
+        "hallucination": {
+          "faithfulness_score": 0.6636280386280387,
+          "supported_claim_ratio": 1.0,
+          "hallucination_rate": 0.0
+        },
+        "efficiency": {
+          "latency_seconds": 0.02696681022644043,
+          "prompt_tokens": 6793.0,
+          "completion_tokens": 853.0,
+          "total_tokens": 7646.0,
+          "estimated_cost_usd": 0.0255125,
+          "n_chunks_retrieved": 15.0
+        },
+        "retrieved_chunk_count": 15,
+        "sources_used": [
+          1,
+          12
+        ],
+        "page_references": [
+          {
+            "source_index": 1,
+            "pages": [
+              364
+            ],
+            "page_display": "p. 364",
+            "page_inline": "Page 364",
+            "section": "Sustainability Statements > We aim to become a net-zero emissions energy business by 2050 and work with our customers across sectors to help accelerate the energy transition. > Transition plan for climate change mitigation (E1-1)",
+            "chunk_id": "Shell_struct_00104_b6aee800",
+            "text_preview": "### Transition plan for climate change mitigation (E1-1) Shell's climate change transition plans are delivered through our strategy. This is supported by a suite of processes and greenhouse gas emission reduction targets and by an ambition, which cov"
+          },
+          {
+            "source_index": 12,
+            "pages": [
+              364
+            ],
+            "page_display": "p. 364",
+            "page_inline": "Page 364",
+            "section": "Sustainability Statements > We aim to become a net-zero emissions energy business by 2050 and work with our customers across sectors to help accelerate the energy transition. > Targets in support of the Paris Agreement [A]",
+            "chunk_id": "Shell_struct_00106_06dc4d73",
+            "text_preview": "related to the use of our oil products by 15-20% by 2030, compared with 2021 (Scope 3 Category 11). Customer emissions from the use of our oil products (Scope 3, Category 11) were 517 million tonnes carbon dioxide equivalent (CO2e) in 2023 and 569 mi"
+          }
+        ],
+        "generated_answer_preview": "Yes. Shell discloses that its “climate change transition plans are delivered through our strategy”, supported by processes and GHG emission reduction targets/ambition, with the aim of becoming “a net-zero emissions energy business by 2050” [Page 364]. Shell states it “supports the more ambitious goal of the Paris Agreement…to 1.5℃” and reports that it believes its net carbon intensity (NCI) targets are aligned with the 1.5℃ goal, describing a methodology derived from IPCC AR6 1.5℃ scenarios (including excluding scenarios overly reliant on removals/bioenergy, removing outliers, and constructing a 1.5℃ pathway) [Page 364]. Shell also states its oil products (Scope 3 Category 11) ambition is co"
+      }
+    ],
+    "aggregate": {
+      "n_evaluated": 9,
+      "retrieval": {
+        "avg_recall@5": 0.7777777777777778,
+        "avg_recall@10": 0.8333333333333334,
+        "avg_recall@15": 0.8333333333333334,
+        "avg_precision@5": 0.8888888888888888,
+        "avg_precision@10": 0.8222222222222222,
+        "avg_precision@15": 0.7481481481481481,
+        "avg_mrr@5": 1.0,
+        "avg_mrr@10": 1.0,
+        "avg_mrr@15": 1.0,
+        "avg_coverage_ratio": 1.0
+      },
+      "answer_quality": {
+        "avg_token_f1": 0.5577898767513347,
+        "avg_token_precision": 0.5306913415942266,
+        "avg_token_recall": 0.6540440350939577,
+        "avg_bertscore": 0.0,
+        "avg_llm_judge": 4.444444444444445,
+        "avg_llm_judge_normalized": 0.888888888888889,
+        "compliance_accuracy": 0.1111111111111111
+      },
+      "citation": {
+        "avg_citation_precision": 0.4324194324194324,
+        "avg_citation_recall": 0.7777777777777778,
+        "avg_citation_f1": 0.5255731922398589
+      },
+      "hallucination": {
+        "avg_faithfulness": 0.7128447446108317,
+        "avg_supported_claim_ratio": 0.9629629629629629,
+        "avg_hallucination_rate": 0.03703703703703704
+      },
+      "efficiency": {
+        "avg_latency": 0.015173249774509005,
+        "avg_prompt_tokens": 8140.666666666667,
+        "avg_total_tokens": 9132.888888888889,
+        "avg_cost_usd": 0.03027388888888889,
+        "avg_chunks_retrieved": 15.0
+      },
+      "answer_token_f1": 0.5577898767513347,
+      "answer_citation_f1": 0.5255731922398589,
+      "answer_faithfulness_score": 0.7128447446108317
+    },
+    "evaluation_time_seconds": 0.1883080005645752
+  }
+}

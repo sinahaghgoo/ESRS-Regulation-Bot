@@ -1,0 +1,32 @@
+{
+  "direct_answer": "OMV states that its materiality assessment is ESRS-compliant and based on the double materiality principle, considering both impact and financial materiality [Source 1]. The assessment was carried out at Group level, covering all fully consolidated entities (consistent with the financial statements) [Source 2]. OMV describes a five-step process: (1) develop a long list of topics from ESRS, GRI and SASB sector standards and exclude non-relevant topics with subject matter expert input; (2) conduct expert interviews to identify/formulate impacts, risks and opportunities (IROs) per topic/sub-topic; (3) consult 10 internal/external stakeholder groups via online questionnaires (with >900 responses) to rate topics, using results to validate/adapt the expert assessment; (4) assess and score identified IROs in expert workshops to determine impact and financial materiality; and (5) prioritize topics by defining a threshold and considering prior-step results [Source 2; Source 6]. The process included a high-level value chain assessment; each IRO is linked to at least one business segment and applicable value chain steps, and OMV evaluated impacts from own operations and business relationships (partners/suppliers), supported by audits/assessments [Source 3; Source 4].\n\nFor impact materiality, OMV states it considered positive/negative impacts and time horizons and applied impact thresholds (environmental: 8; social/governance: 5) [Source 4]. For financial materiality, OMV assessed risks/opportunities using magnitude of financial effect (0–3) and likelihood (0–5), considered dependencies on natural, human and social resources, and set a financial materiality threshold of 1.5 [Source 4]. Results were presented to Senior Management and approved by the Executive Board (and the Sustainability Statement is approved by the Executive Board and Supervisory Board) [Source 3].\n\nOMV discloses which topics were identified as material overall, but the retrieved passages do not explicitly identify which of these are material from both an impact and a financial perspective (i.e., “double material” topics). OMV’s identified material topics include (ESRS topics/sub-topics and entity-specific): Climate Change; Pollution; Water; Biodiversity and Ecosystems; Waste and Circular Economy; Own Workforce; Workers in the Value Chain; Affected Communities; Business Conduct; plus entity-specific Process Safety, Cybersecurity, and Economic Impact [Source 5; Source 2; Source 1]. OMV also notes that ESRS sub-topics climate adaptation and corruption and bribery are not material for OMV (but are material for subsidiary Borealis) [Source 2].",
+  "compliance_level": "Medium",
+  "compliance_rationale": "OMV provides a clear description of conducting an ESRS-aligned double materiality assessment, including process steps, stakeholder consultation, value chain consideration, thresholds for impact materiality, and criteria/threshold for financial materiality, as well as governance/approval [Source 2; Source 6; Source 3; Source 4]. However, the retrieved passages do not provide an explicit mapping of which sustainability matters are material in both dimensions (impact and financial) versus only one dimension, so the second part of the question cannot be fully answered from the evidence provided [Source 1; Source 2; Source 5].",
+  "disclosure_gaps": [
+    "No explicit list/table in the retrieved passages showing which sustainability matters are material from both impact and financial perspectives (double material), versus impact-only or financial-only.",
+    "No topic-by-topic scores/results for impact materiality and financial materiality in the retrieved passages (only thresholds and scoring scales are described).",
+    "Limited detail on how impact materiality severity dimensions (scale, scope, irremediable character) and likelihood were operationalized in scoring (beyond thresholds and general statements).",
+    "Limited detail on how interdependencies between impact and financial materiality were analyzed and how they affected final topic selection (beyond noting dependencies were considered for financial materiality)."
+  ],
+  "key_findings": [
+    "OMV’s materiality assessment is described as ESRS-compliant and based on double materiality (impact and financial) [Source 1].",
+    "Five-step process: long list (ESRS/GRI/SASB) → expert interviews → stakeholder survey across 10 groups (>900 responses) → expert scoring workshops for impact & financial materiality → prioritization using thresholds [Source 2; Source 6].",
+    "Assessment includes a high-level value chain assessment; IROs are linked to business segments and value chain steps; impacts from own operations and business relationships are considered [Source 3; Source 4].",
+    "Impact thresholds: environmental 8; social/governance 5; financial materiality assessed via magnitude (0–3) and likelihood (0–5) with threshold 1.5; dependencies on natural/human/social resources considered [Source 4].",
+    "Material topics disclosed (overall): Climate Change, Pollution, Water, Biodiversity and Ecosystems, Waste and Circular Economy, Own Workforce, Workers in the Value Chain, Affected Communities, Business Conduct; plus entity-specific Process Safety, Cybersecurity, Economic Impact [Source 5; Source 2; Source 1].",
+    "Climate adaptation and corruption & bribery are stated as not material for OMV (but material for Borealis) [Source 2]."
+  ],
+  "sources_used": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+  ],
+  "_token_usage": {
+    "prompt_tokens": 7774,
+    "completion_tokens": 1174,
+    "total_tokens": 8948
+  }
+}

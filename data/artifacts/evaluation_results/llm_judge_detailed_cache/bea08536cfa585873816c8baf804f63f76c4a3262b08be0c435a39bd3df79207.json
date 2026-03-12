@@ -1,0 +1,24 @@
+{
+  "factual_correctness": {
+    "score": 4,
+    "rationale": "The answer correctly describes the DMA timing (first in 2023, revised in 2024), the four-step process, the inside-out/outside-in framing, the use of severity×likelihood and company risk scales, and it correctly lists the five topics that are material from both impact and financial perspectives (climate change, own workforce, pollution, business conduct, resource use & circular economy). Minor issues: it adds some extra detail on consultations/PDOs and stakeholder channels that is not in the reference answer, and it omits some specific governance validation bodies mentioned in the reference (Board/Audit & Risk Committee/EMT review)."
+  },
+  "completeness": {
+    "score": 3,
+    "rationale": "It covers the core DMA method and the set of matters material on both impact and financial dimensions. However, it omits several key reference points: the additional material topics (affected communities, biodiversity & ecosystems, workers in the value chain), the treatment of water and marine resources (lower materiality but added in 2024 as potentially material in upstream value chain), the entity-specific cyber security IRO, and the explicit statement that S4 Consumers and End Users was not material. It also does not fully reflect the validation/oversight description (Board/Audit & Risk Committee/EMT)."
+  },
+  "grounding_faithfulness": {
+    "score": 3,
+    "rationale": "Much of the content aligns with the reference, but the generated answer introduces several elements not evidenced in the provided reference answer (e.g., PDO public consultations, “over 40 key stakeholders,” whistleblowing channel specifics, and detailed claims about ARC/EMT being kept informed via integrity channel cases). These may be true in the report, but they are not grounded in the reference text supplied here."
+  },
+  "citation_quality": {
+    "score": 2,
+    "rationale": "Citations are not verifiable: they are generic (e.g., “Page 41-42”) without document identifiers, quotes, or precise pinpointing, and the evaluator cannot confirm they correspond to the referenced claims. The reference answer itself provides no page mapping, so the page citations do not demonstrably support the statements."
+  },
+  "compliance_assessment": {
+    "score": 4,
+    "rationale": "The answer appropriately addresses the question by explaining how the DMA was conducted and clearly identifying the matters material from both impact and financial perspectives. The rationale is generally consistent with ESRS double materiality concepts. It is not fully thorough because it does not also clarify which other sustainability matters were material only on one dimension (impact-only / lower financial), which is part of the reference context and often expected in an ESRS-style compliance discussion."
+  },
+  "overall_score": 3.2,
+  "overall_rationale": "Strong on the core DMA description and correctly identifies the five matters material from both impact and financial perspectives. However, it misses several materiality outcomes included in the reference (impact-only topics, water/marine update, cyber security entity-specific IRO, and non-material S4), includes some ungrounded extra details, and provides weak/uncorroborated page citations."
+}

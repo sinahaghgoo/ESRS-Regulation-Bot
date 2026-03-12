@@ -1,0 +1,25 @@
+{
+  "direct_answer": "Eni integrates sustainability-related performance into its Remuneration Policy through incentive systems for Directors, General Managers, Executives with strategic responsibilities, and other Executive Managers [Source 1]. The Long-Term Share-based Incentive Plan includes specific environmental sustainability and energy transition objectives with a total weight of 35%, based on targets for (i) reducing net upstream scope 1 and 2 equity GHG emissions (20%) and (ii) increasing biojet fuel production capacity (15%) [Source 1]. Eni’s Short-Term Incentive Plan also includes an environmental sustainability objective focused on reducing net upstream scope 1 and 2 equity GHG emissions; this sustainability component is weighted at 20% for the CEO and management (with weights defined based on assigned responsibilities) [Source 1]. The Sustainability Statement indicates that further details are provided in the “Report on the Remuneration Policy 2025 and compensation paid 2024” [Source 1].",
+  "compliance_level": "Medium",
+  "compliance_rationale": "The passages provide key characteristics of the incentive schemes and identify specific sustainability targets/metrics (net upstream scope 1 and 2 equity GHG emissions reduction; biojet fuel production capacity) and their weights within the long-term plan (35% total; 20% + 15%) and short-term plan (20% for CEO and management) [Source 1]. However, the evidence does not specify (i) the proportion of variable remuneration dependent on sustainability targets for all relevant body members beyond the stated weights, (ii) whether/how these metrics are used as performance benchmarks within remuneration policies beyond being “objectives,” and (iii) the governance level at which incentive scheme terms are approved and updated (the text references a separate remuneration report for details) [Source 1].",
+  "disclosure_gaps": [
+    "Proportion of variable remuneration dependent on sustainability-related targets/impacts for each category of administrative, management and supervisory body members (beyond the stated plan weights) (ESRS 2 GOV-3(d))",
+    "Clear explanation of whether/how sustainability performance metrics are used as performance benchmarks or embedded in remuneration policies beyond being included as objectives (ESRS 2 GOV-3(c))",
+    "Level in the undertaking at which the terms of the incentive schemes are approved and updated (ESRS 2 GOV-3(e))",
+    "Confirmation of whether sustainability-linked incentives apply to supervisory body members specifically (the passage lists Directors and management roles but does not explicitly mention supervisory bodies) (ESRS 2 GOV-3 scope)"
+  ],
+  "key_findings": [
+    "Remuneration Policy supports corporate strategy via incentive systems for Directors, General Managers, Executives with strategic responsibilities, and other Executive Managers [Source 1].",
+    "Long-Term Share-based Incentive Plan includes environmental sustainability/energy transition objectives weighted 35% in total, split between net upstream scope 1 and 2 equity GHG emissions reduction (20%) and increased biojet fuel production capacity (15%) [Source 1].",
+    "Short-Term Incentive Plan includes an environmental sustainability objective focused on reducing net upstream scope 1 and 2 equity GHG emissions, weighted 20% for the CEO and management (weights vary by responsibilities) [Source 1].",
+    "Eni points to a separate remuneration report for further details on remuneration policy and compensation [Source 1]."
+  ],
+  "sources_used": [
+    1
+  ],
+  "_token_usage": {
+    "prompt_tokens": 9081,
+    "completion_tokens": 720,
+    "total_tokens": 9801
+  }
+}

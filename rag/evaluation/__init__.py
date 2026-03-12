@@ -7,8 +7,10 @@ from rag.evaluator import (
     compute_retrieval_metrics,
     compute_token_f1,
     evaluate_pipeline_config,
+    llm_judge_detailed,
     normalize_page_ref,
     save_evaluation_results,
+    select_best_pipeline,
 )
 
 __all__ = [
@@ -20,4 +22,6 @@ __all__ = [
     "compute_efficiency_metrics",
     "evaluate_pipeline_config",
     "save_evaluation_results",
+    "llm_judge_detailed",
+    "select_best_pipeline",
 ]

@@ -1,0 +1,27 @@
+{
+  "direct_answer": "Neste integrates sustainability-related performance into incentive/remuneration schemes through its Remuneration Policy, which is stated to align remuneration with the successful delivery of Neste’s long-term strategic and sustainability goals [Source 2]. Sustainability-linked measures are included in both long-term and short-term incentives for key personnel: (1) Climate commitments are a performance measure in long-term incentives (LTIs) [Source 2]. In 2024, “Combined Greenhouse Gas Impact” represented 20% of the LTI and includes (i) GHG emission reductions achieved with Neste renewable products by customers and (ii) GHG emissions from Neste production; these metrics are described as directly related to the company’s climate targets [Source 2]. (2) Measures related to improvement in both process and personnel safety constituted at least 20% of the short-term incentives’ measures in 2024 [Source 2]. Governance/approval: the Board of Directors decides the remuneration of the President and CEO and the members of the Neste Leadership Team, and decides the long- and short-term incentive plans; the Personnel and Remuneration Committee drafts remuneration-related matters and proposals for the Board [Source 2].",
+  "compliance_level": "Medium",
+  "compliance_rationale": "The passages clearly describe sustainability-linked metrics in incentives (climate and safety), specify the weighting for 2024 (20% of LTI for Combined GHG Impact; at least 20% of STI measures for safety), and identify the governance bodies responsible for deciding and drafting incentive plans [Source 2]. However, the evidence does not explicitly confirm coverage for members of the administrative, management and supervisory bodies as a whole (e.g., whether and how Board/supervisory body members’ own remuneration is sustainability-linked), nor does it provide full scheme characteristics beyond the cited metrics/weights or explain how/when terms are updated [Source 2].",
+  "disclosure_gaps": [
+    "Explicit statement of whether sustainability-related performance is integrated into incentive/remuneration schemes for members of the administrative and supervisory bodies themselves (e.g., Board members), not only the CEO/Leadership Team/key personnel [Source 2].",
+    "More complete key characteristics of the incentive schemes (e.g., plan structure, measurement period, payout mechanics, threshold/target/maximum, malus/clawback) beyond the identified sustainability measures and weights [Source 2].",
+    "Clarification of the exact sustainability targets/impacts used as benchmarks for the safety component of short-term incentives (the passage states safety improvement measures but does not specify the precise targets/metrics) [Source 2].",
+    "Proportion of variable remuneration dependent on sustainability targets for each relevant role/population (e.g., CEO vs other Leadership Team members), rather than only the weighting within LTI and minimum share of STI measures [Source 2].",
+    "Disclosure of the level at which the terms of the incentive schemes are approved and updated (frequency/process for updates is not described; only decision-making responsibility is stated) [Source 2]."
+  ],
+  "key_findings": [
+    "Remuneration Policy is stated to align remuneration with delivery of long-term strategic and sustainability goals [Source 2].",
+    "Climate commitments are linked to remuneration of key personnel via LTIs [Source 2].",
+    "In 2024, Combined Greenhouse Gas Impact represented 20% of the LTI; it includes customer GHG reductions from renewable products and GHG emissions from Neste production [Source 2].",
+    "In 2024, process and personnel safety improvement measures constituted at least 20% of short-term incentive measures [Source 2].",
+    "Board of Directors decides CEO and Leadership Team remuneration and decides long- and short-term incentive plans; Personnel and Remuneration Committee drafts proposals for the Board [Source 2]."
+  ],
+  "sources_used": [
+    2
+  ],
+  "_token_usage": {
+    "prompt_tokens": 10007,
+    "completion_tokens": 813,
+    "total_tokens": 10820
+  }
+}

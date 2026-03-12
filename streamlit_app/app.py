@@ -28,6 +28,7 @@ import time
 
 from rag.config import (
     COMPANY_MAP, ESRS_STANDARDS, get_default_pipeline_config,
+    load_best_pipeline_config, BEST_PIPELINE_PATH,
 )
 from rag.pipeline import load_pipeline, run_query
 
@@ -136,10 +137,12 @@ with st.sidebar:
 # ---------------------------------------------------------------------------
 @st.cache_resource(show_spinner="Loading RAG pipeline...")
 def _load_pipeline():
-    """Load the pre-built pipeline (cached across sessions)."""
-    config = get_default_pipeline_config()
+    """Load the best-performing pipeline (or default if no manifest)."""
+    config = load_best_pipeline_config()
+    pipeline_name = config.pop("_best_pipeline_name", "default")
+    selection_reason = config.pop("_selection_reason", "")
     retriever, config = load_pipeline(config)
-    return retriever, config
+    return retriever, config, pipeline_name, selection_reason
 
 
 # ---------------------------------------------------------------------------
@@ -156,15 +159,26 @@ st.markdown(
 # Load pipeline
 try:
     if not st.session_state.pipeline_loaded:
-        retriever, config = _load_pipeline()
+        retriever, config, pipeline_name, selection_reason = _load_pipeline()
         st.session_state.retriever = retriever
         st.session_state.config = config
+        st.session_state.pipeline_name = pipeline_name
+        st.session_state.selection_reason = selection_reason
         st.session_state.pipeline_loaded = True
     else:
         retriever = st.session_state.retriever
         config = st.session_state.config
-    
+        pipeline_name = st.session_state.get("pipeline_name", "default")
+        selection_reason = st.session_state.get("selection_reason", "")
+
     pipeline_ready = True
+    # Show which pipeline is loaded
+    if BEST_PIPELINE_PATH.exists():
+        st.sidebar.success(f"Pipeline: **{pipeline_name}**")
+        if selection_reason:
+            st.sidebar.caption(selection_reason[:200])
+    else:
+        st.sidebar.info("Using default pipeline (no evaluation manifest found)")
 except Exception as e:
     st.error(
         f"⚠️ Pipeline not loaded. Please run `python run_preprocessing.py` first.\n\n"

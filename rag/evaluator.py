@@ -15,8 +15,16 @@ from typing import Any, Dict, Iterable, List, Optional, Sequence, Set, Tuple
 import numpy as np
 
 from rag.config import ARTIFACTS_DIR, BENCHMARK_QUESTION_IDS, LLM_MODEL
-from rag.generator import generate_answer
-from rag.llm_client import chat_json
+
+# Lazy imports for modules that require the openai package.
+# This allows metric helper functions to be used without the full LLM stack.
+def _import_generate_answer():
+    from rag.generator import generate_answer
+    return generate_answer
+
+def _import_chat_json():
+    from rag.llm_client import chat_json
+    return chat_json
 
 EVAL_OUTPUT_DIR = ARTIFACTS_DIR / "evaluation_results"
 EVAL_OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
@@ -61,6 +69,26 @@ def _tokenize(text: str) -> List[str]:
     return re.findall(r"[a-z0-9]+", (text or "").lower())
 
 
+# Stop words excluded from relevance overlap to avoid inflated matching
+# when evidence passages contain many common English words.
+_STOP_WORDS: Set[str] = {
+    "a", "an", "the", "and", "or", "but", "in", "on", "at", "to", "for",
+    "of", "with", "by", "from", "as", "is", "was", "are", "were", "be",
+    "been", "being", "have", "has", "had", "do", "does", "did", "will",
+    "would", "shall", "should", "may", "might", "must", "can", "could",
+    "not", "no", "nor", "if", "then", "than", "that", "this", "these",
+    "those", "it", "its", "we", "our", "their", "they", "he", "she",
+    "which", "who", "whom", "what", "where", "when", "how", "all", "each",
+    "any", "both", "such", "so", "also", "very", "more", "most", "other",
+    "only", "same", "into", "about", "up", "out", "over", "after", "before",
+}
+
+
+def _content_tokens(text: str) -> Set[str]:
+    """Tokenize text and remove stop words for content-based matching."""
+    return {t for t in _tokenize(text) if t not in _STOP_WORDS and len(t) > 1}
+
+
 def _safe_mean(values: Sequence[float]) -> float:
     vals = [float(v) for v in values if v is not None and not math.isnan(float(v))]
     return float(mean(vals)) if vals else 0.0
@@ -92,26 +120,42 @@ def _gold_pages(gold_evidence: List[Dict[str, Any]]) -> Set[int]:
 # Retrieval metrics
 # ---------------------------------------------------------------------------
 
+def _evidence_text(ev: Dict[str, Any]) -> str:
+    """Return evidence text, handling both 'text' and 'exact_text' field names."""
+    return str(ev.get("text", "") or ev.get("exact_text", "")).strip()
+
+
 def _chunk_relevant(chunk: Dict[str, Any], gold_evidence: List[Dict[str, Any]]) -> bool:
-    """Mark a chunk relevant via page overlap or moderate lexical overlap to evidence text."""
+    """Mark a chunk relevant via page overlap or moderate lexical overlap to evidence text.
+
+    Lexical overlap uses content tokens (stop words removed) to avoid inflated
+    matching from common English words.
+    """
+    for ev in gold_evidence:
+        if _chunk_matches_evidence(chunk, ev):
+            return True
+    return False
+
+
+def _chunk_matches_evidence(chunk: Dict[str, Any], evidence: Dict[str, Any]) -> bool:
+    """Check whether a chunk matches one evidence entry."""
     c_pages = _chunk_pages(chunk)
-    c_text_tokens = set(_tokenize(chunk.get("text", "")))
+    c_text_tokens = _content_tokens(chunk.get("text", ""))
     c_header = _chunk_header_text(chunk)
 
-    for ev in gold_evidence:
-        ev_pages = normalize_page_ref(ev.get("page_number", ""))
-        if ev_pages and c_pages and c_pages & ev_pages:
-            return True
+    ev_pages = normalize_page_ref(evidence.get("page_number", ""))
+    if ev_pages and c_pages and c_pages & ev_pages:
+        return True
 
-        ev_header = str(ev.get("source_section_header", "")).strip().lower()
-        if ev_header and c_header and ev_header in c_header:
-            return True
+    ev_header = str(evidence.get("source_section_header", "")).strip().lower()
+    if ev_header and c_header and ev_header in c_header:
+        return True
 
-        ev_tokens = set(_tokenize(ev.get("text", "")))
-        if ev_tokens and c_text_tokens:
-            overlap = len(ev_tokens & c_text_tokens) / max(1, len(ev_tokens))
-            if overlap >= 0.25:
-                return True
+    ev_tokens = _content_tokens(_evidence_text(evidence))
+    if ev_tokens and c_text_tokens:
+        overlap = len(ev_tokens & c_text_tokens) / max(1, len(ev_tokens))
+        if overlap >= 0.25:
+            return True
 
     return False
 
@@ -131,12 +175,19 @@ def compute_retrieval_metrics(
         top_chunks = retrieved_chunks[:k]
         top_flags = relevant_flags[:k]
 
-        # Page-level recall at k against gold pages.
-        top_pages: Set[int] = set()
-        for ch in top_chunks:
-            top_pages.update(_chunk_pages(ch))
+        # Recall@k:
+        # - page-based when page references exist in gold
+        # - evidence-hit fallback when gold page refs are unavailable
         if gold_pages:
+            top_pages: Set[int] = set()
+            for ch in top_chunks:
+                top_pages.update(_chunk_pages(ch))
             recall = len(gold_pages & top_pages) / len(gold_pages)
+        elif gold_evidence:
+            matched_evidence = sum(
+                1 for ev in gold_evidence if any(_chunk_matches_evidence(ch, ev) for ch in top_chunks)
+            )
+            recall = matched_evidence / len(gold_evidence)
         else:
             recall = 0.0
 
@@ -155,30 +206,9 @@ def compute_retrieval_metrics(
         metrics[f"mrr@{k}"] = mrr
 
     # Coverage ratio: fraction of gold evidence entries hit by any retrieved chunk.
-    covered = 0
-    for ev in gold_evidence:
-        ev_pages = normalize_page_ref(ev.get("page_number", ""))
-        ev_header = str(ev.get("source_section_header", "")).strip().lower()
-        ev_tokens = set(_tokenize(ev.get("text", "")))
-
-        matched = False
-        for chunk in retrieved_chunks:
-            cp = _chunk_pages(chunk)
-            if ev_pages and cp and (cp & ev_pages):
-                matched = True
-                break
-            ch = _chunk_header_text(chunk)
-            if ev_header and ch and ev_header in ch:
-                matched = True
-                break
-            ct = set(_tokenize(chunk.get("text", "")))
-            if ev_tokens and ct:
-                if len(ev_tokens & ct) / max(1, len(ev_tokens)) >= 0.25:
-                    matched = True
-                    break
-
-        if matched:
-            covered += 1
+    covered = sum(
+        1 for ev in gold_evidence if any(_chunk_matches_evidence(ch, ev) for ch in retrieved_chunks)
+    )
 
     metrics["coverage_ratio"] = covered / max(1, len(gold_evidence))
     return metrics
@@ -254,7 +284,7 @@ def llm_judge_score(query: str, prediction: str, reference: str) -> Dict[str, An
         f"Reference answer:\n{reference[:4000]}\n\n"
         f"Generated answer:\n{prediction[:4000]}"
     )
-    parsed, _usage = chat_json(
+    parsed, _usage = _import_chat_json()(
         system_prompt=system,
         user_prompt=user,
         model=LLM_MODEL,
@@ -323,7 +353,7 @@ def _sentence_split(text: str) -> List[str]:
 def compute_faithfulness(generated_answer: str, retrieved_passages: List[str]) -> Dict[str, float]:
     """Compute claim support ratio and hallucination rate against retrieved evidence."""
     claims = [s for s in _sentence_split(generated_answer) if len(_tokenize(s)) >= 5]
-    passages = [set(_tokenize(p)) for p in retrieved_passages if p]
+    passages = [_content_tokens(p) for p in retrieved_passages if p]
 
     if not claims:
         return {
@@ -336,7 +366,7 @@ def compute_faithfulness(generated_answer: str, retrieved_passages: List[str]) -
     supported = 0
 
     for claim in claims:
-        claim_tokens = set(_tokenize(claim))
+        claim_tokens = _content_tokens(claim)
         if not claim_tokens:
             claim_scores.append(0.0)
             continue
@@ -416,12 +446,27 @@ def evaluate_pipeline_config(
 ) -> Dict[str, Any]:
     """Evaluate one pipeline configuration end-to-end."""
     from rag.esrs_context import get_esrs_requirements_text
+    from rag.pipeline import _normalize_company_names
+    from rag.retriever import Retriever as _Retriever
 
     q_lookup = _question_lookup(golden_standard)
     selected_questions = question_ids or BENCHMARK_QUESTION_IDS
+    companies = _normalize_company_names(companies)
+
+    active_retriever = retriever
+    if active_retriever is None:
+        from rag.pipeline import build_index
+
+        vec_index, bm25_index, _chunks = build_index(
+            config=config,
+            force_rebuild=False,
+            companies=companies,
+        )
+        active_retriever = _Retriever(vec_index, bm25_index, config)
 
     per_sample: List[Dict[str, Any]] = []
     per_question: Dict[str, Dict[str, Any]] = {}
+    per_question_results: List[Dict[str, Any]] = []
 
     for qid in selected_questions:
         question = q_lookup.get(qid)
@@ -447,13 +492,13 @@ def evaluate_pipeline_config(
             gold_fulfillment = str(company_entry.get("fulfillment_level", "")).strip()
 
             t0 = time.time()
-            retrieved = retriever.retrieve(query, company=company)
+            retrieved = active_retriever.retrieve(query, company=company)
             retrieval_latency = time.time() - t0
 
             ret_metrics = compute_retrieval_metrics(retrieved, gold_evidence)
 
             t1 = time.time()
-            answer = generate_answer(
+            answer = _import_generate_answer()(
                 query=query,
                 retrieved_chunks=retrieved,
                 esrs_context=esrs_context,
@@ -468,6 +513,11 @@ def evaluate_pipeline_config(
             judge = {"score": 0, "rationale": "skipped"}
             if not skip_llm_judge:
                 judge = llm_judge_score(query, direct_answer, gold_answer)
+            judge_score_raw = float(judge.get("score", 0))
+            judge_score_normalized = max(
+                0.0,
+                min((judge_score_raw / 5.0) if judge_score_raw > 1.0 else judge_score_raw, 1.0),
+            )
 
             citation_metrics = compute_citation_correctness(answer.get("page_references", []), gold_evidence)
             hallucination_metrics = compute_faithfulness(direct_answer, [c.get("text", "") for c in retrieved])
@@ -494,7 +544,8 @@ def evaluate_pipeline_config(
                 "answer_quality": {
                     **token_metrics,
                     "bertscore": bertscore,
-                    "llm_judge_score": float(judge.get("score", 0)),
+                    "llm_judge_score": judge_score_raw,
+                    "llm_judge_score_normalized": judge_score_normalized,
                     "llm_judge_rationale": str(judge.get("rationale", "")),
                 },
                 "citation": citation_metrics,
@@ -507,6 +558,17 @@ def evaluate_pipeline_config(
             }
             per_sample.append(sample)
             per_question[qid][company] = sample
+            per_question_results.append(
+                {
+                    "question_id": qid,
+                    "company": company,
+                    "query": query,
+                    "generated_answer": direct_answer,
+                    "reference_answer": gold_answer,
+                    "predicted_fulfillment": predicted_fulfillment,
+                    "gold_fulfillment": gold_fulfillment,
+                }
+            )
 
             print(
                 f"    {qid}/{company}: R@15={ret_metrics.get('recall@15', 0):.3f} "
@@ -548,6 +610,7 @@ def evaluate_pipeline_config(
             "avg_token_recall": _safe_mean(collect(("answer_quality", "token_recall"))),
             "avg_bertscore": _safe_mean(collect(("answer_quality", "bertscore"))),
             "avg_llm_judge": _safe_mean(collect(("answer_quality", "llm_judge_score"))),
+            "avg_llm_judge_normalized": _safe_mean(collect(("answer_quality", "llm_judge_score_normalized"))),
             "compliance_accuracy": _safe_mean([1.0 if row["compliance_match"] else 0.0 for row in per_sample]),
         },
         "citation": {
@@ -568,15 +631,211 @@ def evaluate_pipeline_config(
             "avg_chunks_retrieved": _safe_mean(collect(("efficiency", "n_chunks_retrieved"))),
         },
     }
+    # Backward-compatible flattened aliases used by existing notebooks.
+    aggregate["answer_token_f1"] = aggregate["answer_quality"]["avg_token_f1"]
+    aggregate["answer_citation_f1"] = aggregate["citation"]["avg_citation_f1"]
+    aggregate["answer_faithfulness_score"] = aggregate["hallucination"]["avg_faithfulness"]
 
     return {
         "config_name": config_name,
         "rq_group": _rq_group(config_name),
         "config": config,
         "per_question": per_question,
+        "per_question_results": per_question_results,
         "per_sample": per_sample,
         "aggregate": aggregate,
     }
+
+
+# ---------------------------------------------------------------------------
+# Approach B: LLM-as-a-judge with explicit rubrics
+# ---------------------------------------------------------------------------
+
+LLM_JUDGE_RUBRIC_SYSTEM = """You are a rigorous evaluator of ESRS sustainability report answers.
+
+Score the generated answer on EACH of the following five dimensions using a 1-5 scale.
+
+1. FACTUAL_CORRECTNESS (1-5): Are the stated facts accurate compared to the reference?
+   1=Mostly wrong, 2=Several errors, 3=Mostly correct with minor errors,
+   4=Correct with negligible issues, 5=Fully correct
+
+2. COMPLETENESS (1-5): Does the answer cover all key points from the reference?
+   1=Major gaps, 2=Covers <50%, 3=Covers ~50-70%, 4=Covers ~70-90%, 5=Comprehensive
+
+3. GROUNDING_FAITHFULNESS (1-5): Is the answer grounded in retrieved passages only?
+   1=Mostly hallucinated, 2=Significant ungrounded claims, 3=Some unverifiable claims,
+   4=Almost fully grounded, 5=Fully grounded in evidence
+
+4. CITATION_QUALITY (1-5): Are sources/pages cited correctly and helpfully?
+   1=No citations, 2=Sparse/wrong citations, 3=Some correct citations,
+   4=Good citations with minor gaps, 5=Precise and complete citations
+
+5. COMPLIANCE_ASSESSMENT (1-5): Is the ESRS compliance evaluation appropriate?
+   1=Completely wrong level, 2=Off by one level with poor rationale,
+   3=Reasonable but imprecise, 4=Correct level with good rationale,
+   5=Correct level with thorough, well-evidenced rationale
+
+Return strict JSON:
+{
+  "factual_correctness": {"score": int, "rationale": str},
+  "completeness": {"score": int, "rationale": str},
+  "grounding_faithfulness": {"score": int, "rationale": str},
+  "citation_quality": {"score": int, "rationale": str},
+  "compliance_assessment": {"score": int, "rationale": str},
+  "overall_score": float,
+  "overall_rationale": str
+}
+
+overall_score = mean of the five dimension scores.
+"""
+
+
+def llm_judge_detailed(
+    query: str,
+    prediction: str,
+    reference: str,
+    retrieved_passages: Optional[List[str]] = None,
+    predicted_compliance: str = "",
+    gold_compliance: str = "",
+) -> Dict[str, Any]:
+    """Approach B: Multi-dimensional LLM-as-a-judge with explicit rubrics and caching."""
+    cache_dir = EVAL_OUTPUT_DIR / "llm_judge_detailed_cache"
+    cache_dir.mkdir(parents=True, exist_ok=True)
+
+    passages_sig = "||".join((p or "")[:250] for p in (retrieved_passages or [])[:10])
+    key_raw = (
+        f"{LLM_MODEL}::detailed::{query}::{prediction[:1500]}::{reference[:1500]}"
+        f"::{predicted_compliance}::{gold_compliance}::{passages_sig}"
+    )
+    key = hashlib.sha256(key_raw.encode("utf-8")).hexdigest()
+    cache_file = cache_dir / f"{key}.json"
+    if cache_file.exists():
+        with cache_file.open("r", encoding="utf-8") as f:
+            return json.load(f)
+
+    passages_text = ""
+    if retrieved_passages:
+        passages_text = "\n---\n".join(p[:500] for p in retrieved_passages[:10])
+
+    user_prompt = (
+        f"Question: {query}\n\n"
+        f"Reference answer:\n{reference[:4000]}\n\n"
+        f"Generated answer:\n{prediction[:4000]}\n\n"
+    )
+    if passages_text:
+        user_prompt += f"Retrieved passages (for grounding check):\n{passages_text[:3000]}\n\n"
+    if predicted_compliance or gold_compliance:
+        user_prompt += (
+            f"Predicted compliance level: {predicted_compliance}\n"
+            f"Gold compliance level: {gold_compliance}\n"
+        )
+
+    parsed, _usage = _import_chat_json()(
+        system_prompt=LLM_JUDGE_RUBRIC_SYSTEM,
+        user_prompt=user_prompt,
+        model=LLM_MODEL,
+        temperature=0.0,
+        max_completion_tokens=800,
+        max_retries=2,
+    )
+
+    if not isinstance(parsed, dict):
+        parsed = {
+            "factual_correctness": {"score": 0, "rationale": "Judge call failed"},
+            "completeness": {"score": 0, "rationale": "Judge call failed"},
+            "grounding_faithfulness": {"score": 0, "rationale": "Judge call failed"},
+            "citation_quality": {"score": 0, "rationale": "Judge call failed"},
+            "compliance_assessment": {"score": 0, "rationale": "Judge call failed"},
+            "overall_score": 0.0,
+            "overall_rationale": "Judge call failed",
+        }
+
+    # Ensure scores are ints in [0,5]
+    for dim in ["factual_correctness", "completeness", "grounding_faithfulness",
+                 "citation_quality", "compliance_assessment"]:
+        entry = parsed.get(dim, {})
+        if isinstance(entry, dict):
+            try:
+                entry["score"] = max(0, min(5, int(entry.get("score", 0))))
+            except (TypeError, ValueError):
+                entry["score"] = 0
+            parsed[dim] = entry
+        else:
+            parsed[dim] = {"score": 0, "rationale": "Missing dimension"}
+
+    # Compute overall
+    dim_scores = [parsed[d]["score"] for d in [
+        "factual_correctness", "completeness", "grounding_faithfulness",
+        "citation_quality", "compliance_assessment"
+    ]]
+    parsed["overall_score"] = sum(dim_scores) / max(1, len(dim_scores))
+
+    with cache_file.open("w", encoding="utf-8") as f:
+        json.dump(parsed, f, ensure_ascii=False, indent=2)
+    return parsed
+
+
+def select_best_pipeline(all_results: Dict[str, Any]) -> Tuple[str, Dict[str, Any]]:
+    """Select the best pipeline configuration based on a weighted composite score.
+
+    Weighting (thesis-aligned):
+      - Retrieval recall@15: 0.20
+      - Token F1: 0.15
+      - BERTScore: 0.10
+      - Citation F1: 0.15
+      - Faithfulness: 0.15
+      - LLM judge (normalized to 0-1): 0.15
+      - Cost efficiency (inverted): 0.10
+
+    Returns:
+        Tuple of (best_config_name, result_dict)
+    """
+    weights = {
+        "retrieval_avg_recall@15": 0.20,
+        "answer_quality_avg_token_f1": 0.15,
+        "answer_quality_avg_bertscore": 0.10,
+        "citation_avg_citation_f1": 0.15,
+        "hallucination_avg_faithfulness": 0.15,
+        "answer_quality_avg_llm_judge_normalized": 0.15,
+        "efficiency_cost_inverted": 0.10,
+    }
+
+    scored: List[Tuple[str, float, Dict[str, float]]] = []
+
+    for name, result in all_results.items():
+        agg = result.get("aggregate", {})
+        if agg.get("n_evaluated", 0) == 0:
+            continue
+
+        metrics = {}
+        for category in ["retrieval", "answer_quality", "citation", "hallucination", "efficiency"]:
+            for k, v in agg.get(category, {}).items():
+                metrics[f"{category}_{k}"] = float(v)
+
+        judge_raw = metrics.get("answer_quality_avg_llm_judge", 0.0)
+        judge_normalized = (judge_raw / 5.0) if judge_raw > 1.0 else judge_raw
+        metrics["answer_quality_avg_llm_judge_normalized"] = max(0.0, min(judge_normalized, 1.0))
+
+        # Invert cost for scoring (lower cost = higher score; normalize to ~[0,1])
+        avg_cost = metrics.get("efficiency_avg_cost_usd", 0.05)
+        metrics["efficiency_cost_inverted"] = max(0.0, 1.0 - min(avg_cost * 10, 1.0))
+
+        composite = 0.0
+        for metric_key, weight in weights.items():
+            val = metrics.get(metric_key, 0.0)
+            composite += weight * val
+
+        metrics["composite_score"] = composite
+        scored.append((name, composite, metrics))
+
+    if not scored:
+        # Fallback
+        first_name = next(iter(all_results))
+        return first_name, all_results[first_name]
+
+    scored.sort(key=lambda x: x[1], reverse=True)
+    best_name = scored[0][0]
+    return best_name, all_results[best_name]
 
 
 # ---------------------------------------------------------------------------
