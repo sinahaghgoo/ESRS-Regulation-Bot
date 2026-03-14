@@ -31,22 +31,22 @@ Specifically, the system is designed to:
 
 ## Research Questions
 
-The experimental evaluation is structured around three research questions, each targeting a distinct stage of the RAG pipeline.
+The experimental evaluation is structured around three sequential research questions. RQ1 identifies the best retrieval configuration, RQ2 tests whether explicit ESRS context injection adds value on top of that configuration, and RQ3 evaluates the final end-to-end system.
 
-**RQ1 — Impact of Chunking Strategy on Retrieval Quality**
-To what extent do domain-specific chunking strategies — such as structure-aware segmentation based on section headers and hierarchical document layout — improve the retrieval of relevant ESRS disclosure passages compared to fixed-size chunking approaches?
+**RQ1 — Pipeline Configuration**
+What combination of chunking strategy, chunk size, and retrieval method achieves the best retrieval quality for ESRS disclosure queries, and do these factors interact?
 
-This question investigates whether preserving the semantic structure of sustainability reports during chunking (e.g., respecting section boundaries and heading hierarchies) leads to measurably better retrieval performance than treating reports as unstructured text.
+RQ1 evaluates a full factorial design over chunking strategy, chunk size, and retrieval method in order to identify the globally best retrieval setup rather than optimising each component in isolation.
 
-**RQ2 — Effectiveness of Hybrid Search and Reranking**
-How does hybrid retrieval — combining dense vector search with sparse keyword matching (BM25) and Reciprocal Rank Fusion — compare to standalone dense or sparse retrieval in terms of precision, recall, and ranking quality for ESRS-specific queries?
+**RQ2 — ESRS Domain Adaptation**
+To what extent does explicitly injecting structured ESRS regulatory requirements into the prompt improve compliance assessment accuracy and answer faithfulness, compared to relying on the language model's parametric knowledge of ESRS alone?
 
-This question examines whether the technical and regulatory vocabulary found in ESRS standards and sustainability reports requires keyword-level matching to complement semantic similarity search, and whether reranking via score fusion yields meaningful improvements.
+RQ2 isolates the contribution of the ESRS context extraction module by comparing the best RQ1 pipeline with and without explicit regulatory context injection.
 
-**RQ3 — Downstream Impact of Retrieval Quality on Answer Generation**
-To what extent does improved retrieval quality translate into higher-quality generated answers, and does the language model compensate for suboptimal retrieval through its parametric knowledge?
+**RQ3 — Generation Quality**
+How accurately does the best-performing pipeline evaluate ESRS compliance, and where does the system fail?
 
-This question assesses the end-to-end relationship between retrieval performance and generation quality, specifically examining whether gains in retrieval metrics (Recall@k, Precision@k) correspond to measurable improvements in answer faithfulness, completeness, and hallucination reduction.
+RQ3 evaluates the final system across deterministic metrics and rubric-based judging in order to characterise strengths, weaknesses, and recurring failure modes across ESRS standards.
 
 ---
 
@@ -64,8 +64,9 @@ The preprocessing stage produces structured Markdown for each report, which is t
 
 - **Fixed-size chunking**: segments the text into chunks of a predefined token length with configurable overlap, without regard for document structure.
 - **Structure-aware chunking**: leverages the heading hierarchy and section boundaries extracted during preprocessing to produce chunks that respect the logical structure of the report.
+- **Semantic chunking**: identifies chunk boundaries from sentence-level semantic coherence, subject to a target token ceiling.
 
-Each chunking strategy is evaluated independently to answer RQ1.
+These strategies are evaluated jointly with chunk size and retrieval method in RQ1.
 
 ### 3. Embedding and Indexing
 
@@ -78,7 +79,7 @@ The retrieval stage combines two complementary search strategies:
 - **Dense retrieval**: semantic vector search over the Qdrant index, matching user queries to report chunks based on embedding similarity.
 - **Sparse retrieval**: BM25 keyword matching, which captures exact term overlap — particularly important for specific ESRS terminology and regulatory references.
 
-Results from both strategies are merged using **Reciprocal Rank Fusion (RRF)** with a constant k=60, producing a unified ranked list. Metadata filters allow retrieval to be scoped to specific companies.
+RQ1 compares four retrieval modes: dense, sparse, hybrid fusion via **Reciprocal Rank Fusion (RRF)** with k=60, and hybrid retrieval followed by reranking. Metadata filters allow retrieval to be scoped to specific companies.
 
 ### 5. Generation and Domain Adaptation
 
@@ -137,7 +138,7 @@ The evaluation benchmarks different RAG pipeline configurations against the Gold
 
 ### Retrieval Metrics
 
-Recall@k, Precision@k, MRR@k (Mean Reciprocal Rank), and coverage ratio. These metrics quantify how effectively the retrieval stage surfaces the correct passages from the sustainability reports.
+Recall@k, Precision@k, nDCG@k, and MRR@k. These metrics quantify how effectively the retrieval stage surfaces the correct passages from the sustainability reports.
 
 ### Answer Quality Metrics
 
@@ -170,9 +171,9 @@ The experimental workflow is organized into eight Jupyter notebooks, each corres
 
 | Notebook | Purpose |
 |---|---|
-| `05_rq1_chunking_evaluation.ipynb` | RQ1 — Evaluate fixed-size vs. structure-aware chunking on retrieval metrics. |
-| `06_rq2_retrieval_evaluation.ipynb` | RQ2 — Compare dense, sparse, hybrid, and hybrid+reranker retrieval strategies. |
-| `07_rq3_generation_evaluation_and_llm_judge.ipynb` | RQ3 — Evaluate answer generation quality including LLM-as-a-judge (Approach B). |
+| `05_rq1_chunking_evaluation.ipynb` | RQ1 — Evaluate the full chunking strategy × chunk size × retrieval method matrix on retrieval metrics. |
+| `06_rq2_retrieval_evaluation.ipynb` | RQ2 — Evaluate the effect of ESRS context injection using the best RQ1 configuration. |
+| `07_rq3_generation_evaluation_and_llm_judge.ipynb` | RQ3 — Evaluate final answer generation quality, faithfulness, and compliance assessment quality including LLM-as-a-judge. |
 | `08_best_pipeline_frontend_validation.ipynb` | Select best pipeline via composite scoring, save manifest, validate frontend readiness. |
 
 Notebooks 05–07 save per-RQ evaluation results to `data/artifacts/evaluation_results/`. Notebook 08 calls `select_best_pipeline()` and `save_best_pipeline_manifest()` to persist the winning configuration to `config/best_pipeline.yaml`, which the Streamlit app reads on startup.

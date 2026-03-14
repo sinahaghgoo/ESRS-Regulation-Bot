@@ -8,7 +8,7 @@
 
 ## Overview
 
-The experimental evaluation is structured around three research questions, each targeting a distinct stage and concern of the RAG pipeline. The questions are designed to be **non-overlapping** and **sequentially dependent**: the best pipeline configuration identified in RQ1 (including the finding for RQ2) feeds directly into RQ2, and the best overall system from RQ1 is evaluated for generation quality in RQ3.
+The experimental evaluation is structured around three research questions, each targeting a distinct stage and concern of the RAG pipeline. The questions are designed to be **non-overlapping** and **sequentially dependent**: the best pipeline configuration identified in RQ1 feeds directly into RQ2, and the best overall system from RQ1 (including the finding for RQ2) is evaluated for generation quality in RQ3.
 
 ```
 RQ1 → identifies best chunking + chunk size + retrieval combination (retrieval-only evaluation)
@@ -59,21 +59,42 @@ Each chunking-strategy/size combination is evaluated with all four retrieval met
 
 **Evaluation is retrieval-only. No generation step is performed in RQ1.**
 
-Metrics computed per configuration against the Golden Standard (12 questions × 17 companies):
+Metrics are computed per configuration against the Golden Standard (12 questions × 17 companies). Because the retrieval unit is a **chunk** while the annotation unit in the Golden Standard is an **evidence passage with page metadata**, relevance is defined explicitly at the passage level. Each gold evidence passage is first mapped to the **normalized report text produced by preprocessing**, with page numbers retained as supporting metadata. A retrieved chunk is counted as relevant to a given gold passage if the overlap between the chunk span and the gold passage span covers at least **50% of the gold passage** by character span. This threshold is used to avoid giving credit for only marginal mention while still allowing fair matching when a chunk crosses page boundaries or slightly exceeds the gold annotation boundaries.
+
+Matching and aggregation follow three additional rules for reproducibility. First, **recall is computed over unique gold evidence passages**: if multiple retrieved chunks match the same gold passage, that passage is counted only once. Second, **precision is computed over retrieved chunks**: a chunk is counted as relevant if it matches at least one gold evidence passage, even if it matches several. Third, if automatic span alignment fails for a small number of cases because of preprocessing artefacts or minor text differences, those cases are **manually reviewed and corrected once in the evaluation set**, after which the same fixed mapping is used for all configurations. Question-company pairs with no gold evidence passages are excluded from recall computation but retained for precision; no such pairs exist in this dataset.
+
+Two complementary evaluation views are reported. The **primary analysis** uses a fixed ranked depth (`top-k = 15`) because the downstream generation stage ultimately consumes a bounded ranked list of retrieved chunks. In addition, a **budget-matched robustness check** is performed to control for the fact that larger chunks implicitly pass more text downstream at the same `k`. In this robustness check, ranked chunks are accumulated in order until a cumulative retrieval budget of **4,096 tokens** is reached, and recall is recomputed on that budgeted prefix. The boundary rule is: the chunk that first causes the cumulative token count to exceed 4,096 is included in full; accumulation then stops. This mirrors the behaviour of real inference systems that include a complete chunk rather than truncating mid-chunk. This makes the 256-, 512-, and 1024-token conditions directly comparable under an approximately equal context budget.
 
 | Metric | Description |
 |---|---|
-| Recall@5, @10, @15 | Fraction of gold evidence pages recovered in top-k retrieved chunks |
-| Precision@5, @10, @15 | Fraction of top-k retrieved chunks that are relevant |
-| MRR@10 | Mean Reciprocal Rank — how highly the first relevant chunk is ranked |
-| Coverage ratio | Fraction of gold evidence entries matched by any retrieved chunk |
+| Recall@5, @10, @15 | Fraction of gold evidence passages recovered in the top-k retrieved chunks |
+| Precision@5, @10, @15 | Fraction of the top-k retrieved chunks that are relevant |
+| nDCG@10 with binary relevance | Ranking quality that rewards placing multiple relevant chunks near the top of the ranked list |
+| MRR@10 | Mean Reciprocal Rank, measuring how highly the first relevant chunk is ranked |
+| Budgeted Recall@4096 tokens | Robustness metric: fraction of gold evidence passages recovered before the cumulative retrieved context exceeds 4,096 tokens |
+
+**Primary metric:** `Recall@15`
+
+`Recall@15` is the primary model-selection criterion because the downstream generation step can only use evidence that retrieval surfaces within the final ranked context window. A configuration that retrieves slightly noisier results but captures more relevant evidence in the top 15 is therefore preferable to one that ranks a single relevant chunk very highly but misses additional supporting evidence.
+
+**Secondary metrics:** `Precision@15`, `nDCG@10`, and `MRR@10`
+
+These metrics distinguish configurations that achieve similar recall but differ in ranking quality and noise level. `nDCG@10` is especially important because many question-company pairs contain multiple gold evidence passages, making first-hit metrics such as MRR insufficient on their own.
+
+NOTE: MRR and nDCG are reported at k=10 following standard IR benchmark convention (TREC, MS-MARCO); extending to k=15 is omitted as the reciprocal rank contribution beyond rank 10 is negligible (≤ 0.033).
+
+**Robustness metric:** `Budgeted Recall@4096 tokens`
+
+This supplementary analysis tests whether the ranking of configurations remains stable once chunk-size conditions are compared under an approximately equal downstream token budget. If the same winning configuration performs best under both `Recall@15` and `Budgeted Recall@4096 tokens`, the RQ1 conclusion is treated as robust. If the winners differ, both results are reported and the trade-off between fixed-depth retrieval and budget-matched retrieval is discussed explicitly.
 
 **Analysis:**
-- Main effect of chunking strategy (averaged across chunk sizes and retrieval methods)
-- Main effect of chunk size (averaged across chunking strategies and retrieval methods)
-- Main effect of retrieval method (averaged across chunking strategies and chunk sizes)
-- Interaction effects: heatmaps of Recall@15 across all 36 combinations, with particular attention to chunk size × retrieval and chunking strategy × retrieval
+- Main effect of chunking strategy, averaged across chunk sizes and retrieval methods
+- Main effect of chunk size, averaged across chunking strategies and retrieval methods
+- Main effect of retrieval method, averaged across chunking strategies and chunk sizes
+- Interaction effects visualised through heatmaps of `Recall@15` across all 36 combinations, with particular attention to chunk size × retrieval and chunking strategy × retrieval
+- Robustness comparison of configuration rankings under `Recall@15` versus `Budgeted Recall@4096 tokens` to test whether conclusions are driven by chunk-size budget effects
 - Per-ESRS-standard breakdown to identify whether certain standards benefit more from specific configurations
+
 
 **Descriptive statistics reported per chunking strategy and chunk size:**
 - Total chunk count, mean token count, standard deviation, size distribution histogram for each strategy-size combination
