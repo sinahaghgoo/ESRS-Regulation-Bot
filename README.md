@@ -127,6 +127,7 @@ The Golden Standard is a manually curated evaluation dataset containing ESRS-rel
 ### Vector Database
 
 - **Qdrant** — open-source vector search engine, configured with local persistence. Used for storing and retrieving embeddings with metadata-based filtering.
+- **Important:** Qdrant is mandatory in this project.
 
 ---
 
@@ -214,13 +215,13 @@ EMBEDDING_MODEL=text-embedding-3-large
 LLM_MODEL=gpt-5.2
 ```
 
-### 3. Start Qdrant (if using Docker)
+### 3. Start Qdrant (required)
 
 ```bash
 docker run -p 6333:6333 qdrant/qdrant
 ```
 
-Alternatively, Qdrant can be configured for local file-based persistence without Docker.
+Qdrant can also run in local file-based persistence mode without Docker (the code uses local Qdrant storage under `data/artifacts/qdrant_storage`).
 
 ---
 
@@ -290,7 +291,7 @@ ESRS-Regulation-Bot/
 │   ├── parser.py                   # Markdown report parser
 │   ├── chunker.py                  # Fixed-size and structure-aware chunking
 │   ├── embedder.py                 # OpenAI embedding with file-based caching
-│   ├── indexer.py                  # Qdrant vector index + numpy fallback
+│   ├── indexer.py                  # Qdrant-only vector index (no fallback)
 │   ├── retriever.py                # BM25, RRF, Cohere reranker, unified Retriever
 │   ├── esrs_context.py             # ESRS JSON standards extraction with LLM + caching
 │   ├── generator.py                # Answer generation with citation resolution

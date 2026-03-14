@@ -1,0 +1,5 @@
+answer_bertscore,answer_llm_judge,answer_token_f1,citation_f1,company,compliance_match,config,estimated_cost_usd,faithfulness_score,gold_fulfillment,hallucination_rate,latency_seconds,predicted_fulfillment,question_id,retrieval_coverage_ratio,retrieval_mrr@15,retrieval_precision@15,retrieval_recall@15,retrieved_chunk_count,rq_group,total_tokens
+0.0,0.0,0.5950704225352114,0.6666666666666666,Aker BP,False,RQ2_hybrid_rerank,0.028,0.7402895994683434,High,0.11111111111111116,15.181593179702759,Medium,Q1,1.0,1.0,0.8,1.0,10,RQ2,7888.0
+0.0,0.0,0.5975609756097561,0.5714285714285715,BASF,False,RQ2_hybrid_rerank,0.0235525,0.623233239197865,High,0.0,15.743260145187378,Medium,Q1,1.0,1.0,0.6,1.0,10,RQ2,5818.0
+0.0,0.0,0.6579634464751958,0.8571428571428571,Aker BP,False,RQ2_hybrid_rerank,0.0228475,0.7398412698412699,High,0.0,11.508935928344727,Medium,Q2,1.0,1.0,0.7,1.0,10,RQ2,6688.0
+0.0,0.0,0.7511961722488038,1.0,BASF,False,RQ2_hybrid_rerank,0.02444,0.852001621566839,High,0.0,10.955029010772705,Medium,Q2,1.0,1.0,0.4,1.0,10,RQ2,7172.0

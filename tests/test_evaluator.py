@@ -226,6 +226,24 @@ def test_chunk_relevant_stop_words_no_false_positive():
     assert _chunk_relevant(chunk, gold_evidence) is False
 
 
+def test_chunk_relevant_requires_page_overlap_when_gold_pages_present():
+    """With gold pages available, lexical/header overlap alone should not count as relevant."""
+    chunk = {
+        "page_span": [46],
+        "page_number": 46,
+        "text": "double materiality assessment process with impact and financial materiality",
+        "header_hierarchy": ["1.5 Double Materiality Assessment"],
+    }
+    gold_evidence = [
+        {
+            "page_number": "42-43",
+            "text": "double materiality assessment process",
+            "source_section_header": "1.5 Double Materiality Assessment",
+        }
+    ]
+    assert _chunk_relevant(chunk, gold_evidence) is False
+
+
 def test_select_best_pipeline_normalizes_llm_judge_scale():
     """A raw 1-5 LLM judge score should be normalized before composite scoring."""
     judge_heavy_but_weak = {

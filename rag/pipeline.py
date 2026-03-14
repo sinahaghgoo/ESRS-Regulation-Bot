@@ -36,21 +36,31 @@ from rag.generator import generate_answer, generate_comparison
 # Artifact paths
 # ---------------------------------------------------------------------------
 
-def _chunks_path(strategy: str) -> Path:
-    """Path for cached chunks JSON."""
-    return ARTIFACTS_DIR / f"chunks_{strategy}.json"
+def _chunking_cache_tag(config: Dict[str, Any]) -> str:
+    """Stable tag for chunk artifacts keyed by chunking parameters."""
+    strategy = str(config.get("chunking_strategy", "structure_aware"))
+    chunk_size = int(config.get("chunk_size_tokens", 512))
+    chunk_overlap = int(config.get("chunk_overlap_tokens", 64))
+    return f"{strategy}_s{chunk_size}_o{chunk_overlap}"
 
 
-def _bm25_path(strategy: str) -> Path:
-    """Path for cached BM25 index."""
-    return ARTIFACTS_DIR / f"bm25_index_{strategy}.json"
+def _chunks_path(config: Dict[str, Any]) -> Path:
+    """Path for cached chunks JSON keyed by chunking parameters."""
+    return ARTIFACTS_DIR / f"chunks_{_chunking_cache_tag(config)}.json"
 
 
-def _collection_name(config: Dict) -> str:
-    """Generate Qdrant collection name from config."""
-    prefix = config.get("qdrant_collection_prefix", "esrs_reports")
-    strategy = config.get("chunking_strategy", "structure_aware")
-    return f"{prefix}_{strategy}"
+def _bm25_path(config: Dict[str, Any]) -> Path:
+    """Path for cached BM25 index keyed by chunking parameters."""
+    return ARTIFACTS_DIR / f"bm25_index_{_chunking_cache_tag(config)}.json"
+
+
+def _collection_name(config: Dict[str, Any]) -> str:
+    """Generate Qdrant collection name keyed by chunking parameters."""
+    prefix = str(config.get("qdrant_collection_prefix", "esrs_reports"))
+    strategy = str(config.get("chunking_strategy", "structure_aware"))
+    chunk_size = int(config.get("chunk_size_tokens", 512))
+    chunk_overlap = int(config.get("chunk_overlap_tokens", 64))
+    return f"{prefix}_{strategy}_s{chunk_size}_o{chunk_overlap}"
 
 
 def _normalize_company_names(companies: Optional[List[str]]) -> Optional[List[str]]:
@@ -125,6 +135,7 @@ def build_index(
     chunk_size = config["chunk_size_tokens"]
     chunk_overlap = config["chunk_overlap_tokens"]
     collection = _collection_name(config)
+    cache_tag = _chunking_cache_tag(config)
 
     subset_suffix = ""
     if companies:
@@ -133,16 +144,8 @@ def build_index(
         subset_suffix = f"_subset_{digest}"
         collection = f"{collection}{subset_suffix}"
 
-    chunks_file = (
-        ARTIFACTS_DIR / f"chunks_{strategy}{subset_suffix}.json"
-        if subset_suffix
-        else _chunks_path(strategy)
-    )
-    bm25_file = (
-        ARTIFACTS_DIR / f"bm25_index_{strategy}{subset_suffix}.json"
-        if subset_suffix
-        else _bm25_path(strategy)
-    )
+    chunks_file = ARTIFACTS_DIR / f"chunks_{cache_tag}{subset_suffix}.json"
+    bm25_file = ARTIFACTS_DIR / f"bm25_index_{cache_tag}{subset_suffix}.json"
     
     # --- Step 1 & 2: Parse and chunk (or load from cache) ---
     all_chunks: List[Chunk] = []
@@ -188,10 +191,24 @@ def build_index(
             all_chunks.extend(chunks)
             print(f"    {company_display}: {len(chunks)} chunks")
         
+        if not all_chunks:
+            scope = ", ".join(companies) if companies else "all companies"
+            raise ValueError(
+                "No chunks were generated for indexing "
+                f"(scope: {scope}). Check company names and source markdown files."
+            )
+
         # Save chunks to cache
         print(f"  Saving {len(all_chunks)} chunks to {chunks_file.name}...")
         with open(chunks_file, "w") as f:
             json.dump([c.to_dict() for c in all_chunks], f)
+
+    if not all_chunks:
+        scope = ", ".join(companies) if companies else "all companies"
+        raise ValueError(
+            "No chunks were generated for indexing "
+            f"(scope: {scope}). Check company names and source markdown files."
+        )
     
     # --- Step 3: Embed ---
     vec_index = VectorIndex(collection, use_qdrant=True)
@@ -199,8 +216,13 @@ def build_index(
         print(f"  Clearing existing vector index '{collection}'...")
         vec_index.clear()
     
-    if vec_index.exists() and vec_index.count() > 0 and not force_rebuild:
-        print(f"  Vector index '{collection}' already has {vec_index.count()} vectors")
+    vector_ready = vec_index.exists() and vec_index.count() > 0 and not force_rebuild
+
+    if vector_ready:
+        print(
+            f"  Vector index '{vec_index.collection_name}' already has "
+            f"{vec_index.count()} vectors"
+        )
     else:
         print(f"  Embedding {len(all_chunks)} chunks...")
         texts = [c.text for c in all_chunks]
@@ -370,7 +392,6 @@ def load_pipeline(config: Optional[Dict] = None) -> Tuple[Retriever, Dict]:
     if config is None:
         config = get_default_pipeline_config()
     
-    strategy = config["chunking_strategy"]
     collection = _collection_name(config)
     
     # Load vector index
@@ -383,7 +404,7 @@ def load_pipeline(config: Optional[Dict] = None) -> Tuple[Retriever, Dict]:
     
     # Load BM25 index
     bm25 = BM25Index()
-    bm25_file = _bm25_path(strategy)
+    bm25_file = _bm25_path(config)
     if not bm25.load(bm25_file):
         raise RuntimeError(
             f"BM25 index not found at {bm25_file}. "

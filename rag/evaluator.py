@@ -144,17 +144,26 @@ def _chunk_matches_evidence(chunk: Dict[str, Any], evidence: Dict[str, Any]) -> 
     c_header = _chunk_header_text(chunk)
 
     ev_pages = normalize_page_ref(evidence.get("page_number", ""))
-    if ev_pages and c_pages and c_pages & ev_pages:
-        return True
+    ev_tokens = _content_tokens(_evidence_text(evidence))
+
+    # If golden evidence specifies pages, require page overlap when chunk has page metadata.
+    # This keeps retrieval relevance aligned with citation-grounded evaluation.
+    if ev_pages:
+        if c_pages:
+            return bool(c_pages & ev_pages)
+        # Fallback when chunk lacks page metadata: require strong lexical overlap.
+        if ev_tokens and c_text_tokens:
+            overlap = len(ev_tokens & c_text_tokens) / max(1, len(ev_tokens))
+            return overlap >= 0.60
+        return False
 
     ev_header = str(evidence.get("source_section_header", "")).strip().lower()
     if ev_header and c_header and ev_header in c_header:
         return True
 
-    ev_tokens = _content_tokens(_evidence_text(evidence))
     if ev_tokens and c_text_tokens:
         overlap = len(ev_tokens & c_text_tokens) / max(1, len(ev_tokens))
-        if overlap >= 0.25:
+        if overlap >= 0.40:
             return True
 
     return False
