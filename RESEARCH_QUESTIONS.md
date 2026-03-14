@@ -8,10 +8,10 @@
 
 ## Overview
 
-The experimental evaluation is structured around three research questions, each targeting a distinct stage and concern of the RAG pipeline. The questions are designed to be **non-overlapping** and **sequentially dependent**: the best pipeline configuration identified in RQ1 feeds directly into RQ2, and the best overall system from RQ1 is evaluated for generation quality in RQ3.
+The experimental evaluation is structured around three research questions, each targeting a distinct stage and concern of the RAG pipeline. The questions are designed to be **non-overlapping** and **sequentially dependent**: the best pipeline configuration identified in RQ1 (including the finding for RQ2) feeds directly into RQ2, and the best overall system from RQ1 is evaluated for generation quality in RQ3.
 
 ```
-RQ1 → identifies best chunking + retrieval combination (retrieval-only evaluation)
+RQ1 → identifies best chunking + chunk size + retrieval combination (retrieval-only evaluation)
 RQ2 → uses best config from RQ1, tests whether ESRS context injection improves compliance assessment
 RQ3 → uses best config from RQ1, evaluates full generation quality of the final system
 ```
@@ -22,31 +22,31 @@ RQ3 → uses best config from RQ1, evaluates full generation quality of the fina
 
 ### Question
 
-**What combination of chunking strategy and retrieval method achieves optimal retrieval quality for ESRS disclosure queries, and do these two factors interact?**
+**What combination of chunking strategy, chunk size, and retrieval method achieves optimal retrieval quality for ESRS disclosure queries, and do these factors interact?**
 
 ### Motivation
 
-A RAG pipeline's retrieval quality depends on two interdependent design choices: how documents are split into chunks, and how those chunks are searched at query time. Prior work typically optimizes these stages independently, risking a local optimum where the best chunking strategy under one retrieval method is not the best under another. This research question evaluates all combinations jointly to identify the globally optimal configuration and to measure whether interaction effects exist between chunking and retrieval.
+A RAG pipeline's retrieval quality depends on three interdependent design choices: how documents are split into chunks, how large those chunks are, and how those chunks are searched at query time. Prior work typically optimizes these stages independently, risking a local optimum where the best chunking strategy at 512 tokens under one retrieval method is not the best strategy at 256 or 1024 tokens under another. This research question evaluates all combinations jointly to identify the globally optimal configuration and to measure whether interaction effects exist among chunking strategy, chunk size, and retrieval.
 
 ### Experimental Design
 
-A full **3 × 4 factorial experiment** across chunking strategy and retrieval method:
+A full **3 × 3 × 4 factorial experiment** across chunking strategy, chunk size, and retrieval method:
 
-|  | Dense | Sparse (BM25) | Hybrid (RRF) | Hybrid + Rerank |
-|---|---|---|---|---|
-| **Fixed-size 512** | ✓ | ✓ | ✓ | ✓ |
-| **Document-structure-aware 512** | ✓ | ✓ | ✓ | ✓ |
-| **Semantic 512** | ✓ | ✓ | ✓ | ✓ |
+| Chunk size | Fixed-size | Document-structure-aware | Semantic |
+|---|---|---|---|
+| **256 tokens** | ✓ | ✓ | ✓ |
+| **512 tokens** | ✓ | ✓ | ✓ |
+| **1024 tokens** | ✓ | ✓ | ✓ |
 
-**Total: 12 configurations.**
+Each chunking-strategy/size combination is evaluated with all four retrieval methods: Dense, Sparse (BM25), Hybrid (RRF), and Hybrid + Rerank.
 
-> **Note on chunk size:** Chunk size is fixed at 512 tokens across all configurations as a controlled variable. The effect of chunk size on retrieval quality is an acknowledged limitation and is proposed as future work.
+**Total: 36 configurations.**
 
 **Chunking strategies defined:**
 
-- **Fixed-size:** Segments text into chunks of exactly 512 tokens (measured via `tiktoken.encoding_for_model("text-embedding-3-large")`) with 64-token overlap, without regard for document structure.
-- **Document-structure-aware:** Splits at H1–H3 section boundaries extracted during preprocessing, producing chunks that respect the logical hierarchy of the sustainability report. Falls back to size-based splitting within oversized sections.
-- **Semantic:** Uses `sentence-transformers` (`all-MiniLM-L6-v2`) to compute cosine similarity between adjacent sentences. Splits where similarity drops below 0.5, subject to the 512-token ceiling.
+- **Fixed-size:** Segments text into chunks of 256, 512, or 1024 tokens (measured via `tiktoken.encoding_for_model("text-embedding-3-large")`) with proportional 12.5% overlap (32, 64, or 128 tokens), without regard for document structure.
+- **Document-structure-aware:** Splits at H1–H3 section boundaries extracted during preprocessing, producing chunks that respect the logical hierarchy of the sustainability report. The target chunk ceiling is set to 256, 512, or 1024 tokens, with fallback size-based splitting and proportional 12.5% overlap within oversized sections.
+- **Semantic:** Uses `sentence-transformers` (`all-MiniLM-L6-v2`) to compute cosine similarity between adjacent sentences. Splits where similarity drops below 0.5, subject to the selected 256-, 512-, or 1024-token ceiling.
 
 **Retrieval methods defined:**
 
@@ -69,18 +69,19 @@ Metrics computed per configuration against the Golden Standard (12 questions × 
 | Coverage ratio | Fraction of gold evidence entries matched by any retrieved chunk |
 
 **Analysis:**
-- Main effect of chunking strategy (averaged across retrieval methods)
-- Main effect of retrieval method (averaged across chunking strategies)
-- Interaction effect: heatmap of Recall@15 across all 12 combinations
+- Main effect of chunking strategy (averaged across chunk sizes and retrieval methods)
+- Main effect of chunk size (averaged across chunking strategies and retrieval methods)
+- Main effect of retrieval method (averaged across chunking strategies and chunk sizes)
+- Interaction effects: heatmaps of Recall@15 across all 36 combinations, with particular attention to chunk size × retrieval and chunking strategy × retrieval
 - Per-ESRS-standard breakdown to identify whether certain standards benefit more from specific configurations
 
-**Descriptive statistics reported per chunking strategy:**
-- Total chunk count, mean token count, standard deviation, size distribution histogram
-- One qualitative example showing a fixed-size chunk that cuts mid-sentence inside a table, contrasted with the document-structure-aware equivalent for the same passage
+**Descriptive statistics reported per chunking strategy and chunk size:**
+- Total chunk count, mean token count, standard deviation, size distribution histogram for each strategy-size combination
+- One qualitative example showing how the same passage is segmented at 256, 512, and 1024 tokens under fixed-size and document-structure-aware chunking
 
 ### Expected Output
 
-The winning configuration from RQ1 (highest composite retrieval score across Recall@15, Precision@10, MRR@10, and Coverage) is passed forward as the fixed pipeline for RQ2 and RQ3.
+The winning configuration from RQ1 is passed forward as the fixed pipeline for RQ2 and RQ3.
 
 ---
 
@@ -195,23 +196,23 @@ A comprehensive characterisation of the system's strengths and failure modes acr
 | | RQ1 | RQ2 | RQ3 |
 |---|---|---|---|
 | **Stage tested** | Chunking + Retrieval | ESRS context injection | End-to-end generation |
-| **Variable** | Chunking strategy × Retrieval method | ESRS context on/off | None (single best config) |
+| **Variable** | Chunking strategy × Chunk size × Retrieval method | ESRS context on/off | None (single best config) |
 | **Evaluation type** | Retrieval-only | Generation | Generation + qualitative |
 | **LLM calls** | None (embeddings only) | 408 generation calls | 204 generation + judge calls |
 | **Primary metric** | Recall@15 | Compliance accuracy | LLM judge overall score |
 | **Secondary metrics** | Precision@k, MRR, Coverage | Token F1, Faithfulness | Citation F1, Hallucination rate, Error analysis |
-| **Configs evaluated** | 12 | 2 | 1 |
+| **Configs evaluated** | 36 | 2 | 1 |
 | **Golden Standard coverage** | 12 questions × 17 companies | 12 questions × 17 companies | 12 questions × 17 companies |
 
 ---
 
-## Controlled Variables (Fixed Across All RQs)
+## Controlled Variables (Fixed Across All RQs Unless Explicitly Varied)
 
 | Variable | Fixed value | Justification |
 |---|---|---|
 | Embedding model | `text-embedding-3-large` (3072 dims) | State-of-the-art general embedding; consistent across all configs |
-| Chunk size | 512 tokens (tiktoken) | Mid-range value balancing context density and retrieval precision |
-| Chunk overlap | 64 tokens | Standard 12.5% overlap to prevent boundary information loss |
+| Chunk size | `RQ1:` 256, 512, 1024 tokens; `RQ2–RQ3:` best-performing size from RQ1 | Tests retrieval granularity in RQ1 while keeping downstream evaluation tied to the winning configuration |
+| Chunk overlap | 12.5% of chunk size (`RQ1:` 32, 64, 128 tokens) | Prevents boundary information loss while keeping overlap proportional across chunk sizes |
 | Top-k retrieved | 15 chunks | Sufficient coverage without excessive context window noise |
 | RRF constant | k = 60 | Standard value from Cormack et al. (2009) |
 | LLM (generator) | `gpt-5.2` | Consistent across all generation steps |
@@ -222,7 +223,7 @@ A comprehensive characterisation of the system's strengths and failure modes acr
 
 ## Limitations
 
-1. **Chunk size not varied in RQ1.** Both chunking strategy and chunk size are confounded at 512 tokens. The optimal strategy may differ at 256 or 1024 tokens. Explored as future work.
+1. **Chunk size sweep is still coarse.** RQ1 tests 256, 512, and 1024 tokens, but the true optimum may lie at intermediate values such as 384 or 768.
 2. **Interaction effects within retrieval hyperparameters not explored.** RRF constant k=60 and top-k=15 are fixed; their optimal values under different chunking strategies are not evaluated.
 3. **Self-evaluation risk in RQ3.** If the same model is used as both generator and judge, scores may be inflated. A different judge model is strongly recommended; if unavailable, this is stated as an explicit limitation.
 4. **Golden Standard is manually curated.** Ground-truth answers and compliance levels were assigned by a single annotator. Inter-annotator agreement was not measured. Findings should be interpreted relative to this benchmark, not as absolute ground truth.
