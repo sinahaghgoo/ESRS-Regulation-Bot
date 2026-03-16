@@ -78,3 +78,6 @@ data/artifacts/embeddings/
 # testing
 testing/
 
+# All artifacts
+data/artifacts/
+

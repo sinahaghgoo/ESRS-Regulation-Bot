@@ -927,21 +927,21 @@
           "evidence": [
             {
               "passage_id": "AKERBP_Q3_E1_1",
-              "exact_text": "Aker BP does not have any targets to reduce our scope 3 emissions. As a result, we do not have a climate transition plan in line with the ESRS’ requirements and do not have a timeline for if or when we will develop such a plan.",
               "page_number": 99,
-              "source_section_header": "E1-1 – Transition plan for climate change mitigation"
+              "source_section_header": "E1-1 – Transition plan for climate change mitigation",
+              "text": "Aker BP does not have any targets to reduce our scope 3 emissions. As a result, we do not have a climate transition plan in line with the ESRS’ requirements and do not have a timeline for if or when we will develop such a plan."
             },
             {
               "passage_id": "AKERBP_Q3_E1_2",
-              "exact_text": "We aim to reduce our operational control scope 1 and 2 GHG emissions by 50 percent by 2030 compared with our 2017 baseline of 1.25 million t CO₂e. By 2050, we aim to achieve near-zero operational control and equity share scope 1 and 2 GHG emissions.",
               "page_number": 60,
-              "source_section_header": "2.4 Targets"
+              "source_section_header": "2.4 Targets",
+              "text": "We aim to reduce our operational control scope 1 and 2 GHG emissions by 50 percent by 2030 compared with our 2017 baseline of 1.25 million t CO₂e. By 2050, we aim to achieve near-zero operational control and equity share scope 1 and 2 GHG emissions."
             },
             {
               "passage_id": "AKERBP_Q3_E1_3",
-              "exact_text": "Our climate-related targets are not science-based but are in line with national and international expectations for emission reductions in our industry.",
               "page_number": 60,
-              "source_section_header": "2.4 Targets"
+              "source_section_header": "2.4 Targets",
+              "text": "Our climate-related targets are not science-based but are in line with national and international expectations for emission reductions in our industry."
             }
           ],
           "fulfillment_level": "High",
@@ -953,21 +953,21 @@
           "evidence": [
             {
               "passage_id": "BASF_Q3_E1_1",
-              "exact_text": "We want to reduce greenhouse gas emissions from our production processes (Scope 1) and our energy purchases (Scope 2) by 25% by 2030 compared to the base year of 2018, and are aiming to achieve net-zero greenhouse gas emissions by 2050.",
               "page_number": 186,
-              "source_section_header": "E1-1"
+              "source_section_header": "E1-1",
+              "text": "We want to reduce greenhouse gas emissions from our production processes (Scope 1) and our energy purchases (Scope 2) by 25% by 2030 compared to the base year of 2018, and are aiming to achieve net-zero greenhouse gas emissions by 2050."
             },
             {
               "passage_id": "BASF_Q3_E1_2",
-              "exact_text": "It is compatible with limiting global warming to 1.5℃ based on the emission reduction pathways described by the International Energy Agency (IEA) in its study entitled \"Net Zero by 2050.\"",
               "page_number": 186,
-              "source_section_header": "E1-1"
+              "source_section_header": "E1-1",
+              "text": "It is compatible with limiting global warming to 1.5℃ based on the emission reduction pathways described by the International Energy Agency (IEA) in its study entitled \"Net Zero by 2050.\""
             },
             {
               "passage_id": "BASF_Q3_E1_3",
-              "exact_text": "The transition plan is embedded in our financial planning and was approved by the Board of Executive Directors and the Supervisory Board. It is based on investments of around €300 million in Scope 1 measures and €250 million in renewable energies between 2025 and 2028.",
               "page_number": 187,
-              "source_section_header": "E1-1"
+              "source_section_header": "E1-1",
+              "text": "The transition plan is embedded in our financial planning and was approved by the Board of Executive Directors and the Supervisory Board. It is based on investments of around €300 million in Scope 1 measures and €250 million in renewable energies between 2025 and 2028."
             }
           ],
           "fulfillment_level": "High",
@@ -979,21 +979,21 @@
           "evidence": [
             {
               "passage_id": "ENI_Q3_E1_1",
-              "exact_text": "The stages of this pathway have been identified through a prioritization exercise of the different actions, based on both internal analyses and the proposed actions from major international scenarios aimed at achieving Carbon Neutrality by 2050 to help keep the global temperature rise within 1.5℃ by 2100.",
               "page_number": 152,
-              "source_section_header": "Decarbonization Plan"
+              "source_section_header": "Decarbonization Plan",
+              "text": "The stages of this pathway have been identified through a prioritization exercise of the different actions, based on both internal analyses and the proposed actions from major international scenarios aimed at achieving Carbon Neutrality by 2050 to help keep the global temperature rise within 1.5℃ by 2100."
             },
             {
               "passage_id": "ENI_Q3_E1_2",
-              "exact_text": "Eni has set a goal of net zero Scope 1 and 2 GHG emissions for the Upstream sector by 2030 (Net Zero Carbon Footprint Usptream), and for the entire Eni group by 2035 (Net Zero Carbon Footprint Eni). Additionally, Eni has a goal of net zero Scope 1, 2, and 3 GHG emissions, related to the lifecycle of energy products sold by 2050, both in absolute terms",
               "page_number": 152,
-              "source_section_header": "Decarbonization Plan"
+              "source_section_header": "Decarbonization Plan",
+              "text": "Eni has set a goal of net zero Scope 1 and 2 GHG emissions for the Upstream sector by 2030 (Net Zero Carbon Footprint Usptream), and for the entire Eni group by 2035 (Net Zero Carbon Footprint Eni). Additionally, Eni has a goal of net zero Scope 1, 2, and 3 GHG emissions, related to the lifecycle of energy products sold by 2050, both in absolute terms"
             },
             {
               "passage_id": "ENI_Q3_E1_3",
-              "exact_text": "Even within comparative limits, the structure of this pathway, in terms of levers and emission reduction targets, is substantially compatible with these scenarios. For further information, see IPCC category C1 and IEA NZE scenarios, in the W Scenarios of the main international organizations, A Main GHG emission reduction targets, and A Decarbonization levers sections.",
               "page_number": 152,
-              "source_section_header": "Decarbonization Plan"
+              "source_section_header": "Decarbonization Plan",
+              "text": "Even within comparative limits, the structure of this pathway, in terms of levers and emission reduction targets, is substantially compatible with these scenarios. For further information, see IPCC category C1 and IEA NZE scenarios, in the W Scenarios of the main international organizations, A Main GHG emission reduction targets, and A Decarbonization levers sections."
             }
           ],
           "fulfillment_level": "High",
@@ -1005,21 +1005,21 @@
           "evidence": [
             {
               "passage_id": "EQUINOR_Q3_E1_1",
-              "exact_text": "We aim to reduce our net operated (scope 1+2) emissions by 50% from 2015 to 2030, a pace and scale consistent with a science based, 1.5℃-aligned trajectory as defined by IPCC pathways'",
               "page_number": 103,
-              "source_section_header": "E1-1 Transition plan for climate change mitigation"
+              "source_section_header": "E1-1 Transition plan for climate change mitigation",
+              "text": "We aim to reduce our net operated (scope 1+2) emissions by 50% from 2015 to 2030, a pace and scale consistent with a science based, 1.5℃-aligned trajectory as defined by IPCC pathways'"
             },
             {
               "passage_id": "EQUINOR_Q3_E1_2",
-              "exact_text": "The plan sets out the ambitions and actions, in the short and medium term, to support our net-zero ambition for 2050.",
               "page_number": 103,
-              "source_section_header": "E1-1 Transition plan for climate change mitigation"
+              "source_section_header": "E1-1 Transition plan for climate change mitigation",
+              "text": "The plan sets out the ambitions and actions, in the short and medium term, to support our net-zero ambition for 2050."
             },
             {
               "passage_id": "EQUINOR_Q3_E1_3",
-              "exact_text": "Our ambitions have not been assessed by the Science-Based Targets Initiative (SBTi), which currently does not have a sector specific standard for the oil and gas industry.",
               "page_number": 107,
-              "source_section_header": "E1-4 Targets related to climate change mitigation and adaptation"
+              "source_section_header": "E1-4 Targets related to climate change mitigation and adaptation",
+              "text": "Our ambitions have not been assessed by the Science-Based Targets Initiative (SBTi), which currently does not have a sector specific standard for the oil and gas industry."
             }
           ],
           "fulfillment_level": "High",
@@ -1031,27 +1031,27 @@
           "evidence": [
             {
               "passage_id": "GALP_Q3_E1_1",
-              "exact_text": "While Galp continues to be invested in long-term sustainable value creation and decarbonisation, this requires a progressive and pragmatic approach, balancing continuous investments in low-carbon solutions with the need to maintain secure and affordable energy supplies, in line with strategy execution.",
               "page_number": 60,
-              "source_section_header": "Transition plan for climate change mitigation"
+              "source_section_header": "Transition plan for climate change mitigation",
+              "text": "While Galp continues to be invested in long-term sustainable value creation and decarbonisation, this requires a progressive and pragmatic approach, balancing continuous investments in low-carbon solutions with the need to maintain secure and affordable energy supplies, in line with strategy execution."
             },
             {
               "passage_id": "GALP_Q3_E1_2",
-              "exact_text": "Galp is maturing its energy transition plan, considering as well the ongoing evolution of its portfolio following the recent potentially transformative Mopane discovery in Namibia and the lower execution of renewables projects. The Company will continue to follow market demand and regulatory developments in the energy transition space, while ensuring a disciplined execution of new projects and key investments. Galp estimates to publish its energy transition plan upon maturing its portfolio assessment and always ensuring alignment with disclosure requirements.",
               "page_number": 60,
-              "source_section_header": "Transition plan for climate change mitigation"
+              "source_section_header": "Transition plan for climate change mitigation",
+              "text": "Galp is maturing its energy transition plan, considering as well the ongoing evolution of its portfolio following the recent potentially transformative Mopane discovery in Namibia and the lower execution of renewables projects. The Company will continue to follow market demand and regulatory developments in the energy transition space, while ensuring a disciplined execution of new projects and key investments. Galp estimates to publish its energy transition plan upon maturing its portfolio assessment and always ensuring alignment with disclosure requirements."
             },
             {
               "passage_id": "GALP_Q3_E1_3",
-              "exact_text": "Galp foresees that c.35% of the gross capex planned for 2025-2026 will be allocated to low-carbon activities. The plan includes several projects that are either committed or at an advanced stage of development in energy efficiency, biofuels, green hydrogen, renewable electricity, electric mobility and other low-carbon activities.",
               "page_number": 60,
-              "source_section_header": "Transition plan for climate change mitigation"
+              "source_section_header": "Transition plan for climate change mitigation",
+              "text": "Galp foresees that c.35% of the gross capex planned for 2025-2026 will be allocated to low-carbon activities. The plan includes several projects that are either committed or at an advanced stage of development in energy efficiency, biofuels, green hydrogen, renewable electricity, electric mobility and other low-carbon activities."
             },
             {
               "passage_id": "GALP_Q3_E1_4",
-              "exact_text": "As Galp matures its energy transition plan and decarbonisation efforts in light of the potential portfolio evolutions, the Company is reassessing its emission reduction targets to ensure ambitious but credible objectives.",
               "page_number": 65,
-              "source_section_header": "Targets"
+              "source_section_header": "Targets",
+              "text": "As Galp matures its energy transition plan and decarbonisation efforts in light of the potential portfolio evolutions, the Company is reassessing its emission reduction targets to ensure ambitious but credible objectives."
             }
           ],
           "fulfillment_level": "Medium",
@@ -1063,21 +1063,21 @@
           "evidence": [
             {
               "passage_id": "HELLENIQ_Q3_E1_1",
-              "exact_text": "HELLENIQ ENERGY has set targets, as described in section E1-4 - Targets Related to Climate Change Mitigation and Adaptation, that are fully aligned with United Nations’ Sustainable Development Goals and the European Green Deal. So far energy companies that have net revenue above 50% from oil & gas activities cannot set a science-based target since the pertinent technical paper and guidance has not been finalized by the Science Based Targets initiative yet. The Group monitors diligently the Science-Based Targets initiative regarding the Oil and Gas activities. Once the methodology is finalized, it will be assessed. For now, the targets set are not fully compatible with limiting global warming to 1.5℃, as outlined in the Paris Agreement, however, they focus on reducing the carbon footprint and aim for climate neutrality by 2050.",
               "page_number": 212,
-              "source_section_header": "E1-1 - Transition Plan for Climate Change Mitigation"
+              "source_section_header": "E1-1 - Transition Plan for Climate Change Mitigation",
+              "text": "HELLENIQ ENERGY has set targets, as described in section E1-4 - Targets Related to Climate Change Mitigation and Adaptation, that are fully aligned with United Nations’ Sustainable Development Goals and the European Green Deal. So far energy companies that have net revenue above 50% from oil & gas activities cannot set a science-based target since the pertinent technical paper and guidance has not been finalized by the Science Based Targets initiative yet. The Group monitors diligently the Science-Based Targets initiative regarding the Oil and Gas activities. Once the methodology is finalized, it will be assessed. For now, the targets set are not fully compatible with limiting global warming to 1.5℃, as outlined in the Paris Agreement, however, they focus on reducing the carbon footprint and aim for climate neutrality by 2050."
             },
             {
               "passage_id": "HELLENIQ_Q3_E1_2",
-              "exact_text": "HELLENIQ ENERGY is an energy company with significant oil & gas activity, as such is excluded from the EU Parisaligned Benchmarks, as specified in the Commission Implementing Regulation (EU) 2022/2453, which includes provisions for climate change transition risks.",
               "page_number": 214,
-              "source_section_header": "E1-1 - Transition Plan for Climate Change Mitigation"
+              "source_section_header": "E1-1 - Transition Plan for Climate Change Mitigation",
+              "text": "HELLENIQ ENERGY is an energy company with significant oil & gas activity, as such is excluded from the EU Parisaligned Benchmarks, as specified in the Commission Implementing Regulation (EU) 2022/2453, which includes provisions for climate change transition risks."
             },
             {
               "passage_id": "HELLENIQ_Q3_E1_3",
-              "exact_text": "HELLENIQ ENERGY’s transformation plan is integrated into and aligned with the organization’s comprehensive business strategy (Vision 2025) and financial planning.",
               "page_number": 214,
-              "source_section_header": "E1-1 - Transition Plan for Climate Change Mitigation"
+              "source_section_header": "E1-1 - Transition Plan for Climate Change Mitigation",
+              "text": "HELLENIQ ENERGY’s transformation plan is integrated into and aligned with the organization’s comprehensive business strategy (Vision 2025) and financial planning."
             }
           ],
           "fulfillment_level": "Medium",
@@ -1089,21 +1089,21 @@
           "evidence": [
             {
               "passage_id": "MOL_Q3_E1_1",
-              "exact_text": "Expanding on MOL Group’s Shape Tomorrow strategy, the company also discloses its transition plan for the first time in the 2024 sustainability statement. The transition plan was approved by the Sustainable Development Committee of the Board of Directors in February 2025. As part of the sustainability statement, it was also approved by the Board of Directors in March 2025, and by the Annual General Meeting in April 2025. The plan includes key milestones for 2030 and 2050 with the following targets: Decrease absolute gross Scope 1 and 2 GHG emission by 25% by 2030 compared to 2019, Decrease absolute gross Scope 3 GHG use-phase emissions of our sold energy products (Category 11: Use of sold products) by 5% by 2030 compared to 2022, Reach net zero GHG emissions on all Scopes by 2050, Allocate 30-40% of total CAPEX to low-carbon and sustainable business projects between 2025 and 2030.",
               "page_number": 159,
-              "source_section_header": "Transition plan and decarbonization levers"
+              "source_section_header": "Transition plan and decarbonization levers",
+              "text": "Expanding on MOL Group’s Shape Tomorrow strategy, the company also discloses its transition plan for the first time in the 2024 sustainability statement. The transition plan was approved by the Sustainable Development Committee of the Board of Directors in February 2025. As part of the sustainability statement, it was also approved by the Board of Directors in March 2025, and by the Annual General Meeting in April 2025. The plan includes key milestones for 2030 and 2050 with the following targets: Decrease absolute gross Scope 1 and 2 GHG emission by 25% by 2030 compared to 2019, Decrease absolute gross Scope 3 GHG use-phase emissions of our sold energy products (Category 11: Use of sold products) by 5% by 2030 compared to 2022, Reach net zero GHG emissions on all Scopes by 2050, Allocate 30-40% of total CAPEX to low-carbon and sustainable business projects between 2025 and 2030."
             },
             {
               "passage_id": "MOL_Q3_E1_2",
-              "exact_text": "Assessment of the transition plan’s compatibility with a 1.5℃ pathway faces difficulties not just from the point of view of geographical limitations, but also industry-specific ones. A widely accepted, oil and gas industry specific benchmark for a 1.5℃ compatible gross absolute GHG emission pathway is not yet available. MOL Group will assess the feasibility of adopting such a plan once the relevant guidelines and resources, primarily from the Science Based Target Initiative (SBTi), become available.",
               "page_number": 161,
-              "source_section_header": "Assumptions of transition plan and 1.5℃ alignment"
+              "source_section_header": "Assumptions of transition plan and 1.5℃ alignment",
+              "text": "Assessment of the transition plan’s compatibility with a 1.5℃ pathway faces difficulties not just from the point of view of geographical limitations, but also industry-specific ones. A widely accepted, oil and gas industry specific benchmark for a 1.5℃ compatible gross absolute GHG emission pathway is not yet available. MOL Group will assess the feasibility of adopting such a plan once the relevant guidelines and resources, primarily from the Science Based Target Initiative (SBTi), become available."
             },
             {
               "passage_id": "MOL_Q3_E1_3",
-              "exact_text": "For the above reasons, MOL Group’s 2030 targets are below the SBTi’s cross-sector pathway, which suggests that gross Scope 1, 2 and 3 emissions should be reduced by 42% by 2030 and 90% by 2050 from 2020 levels. Based on the Group’s activities, MOL Group is excluded from the EU Paris-aligned Benchmarks.",
               "page_number": 161,
-              "source_section_header": "Assumptions of transition plan and 1.5℃ alignment"
+              "source_section_header": "Assumptions of transition plan and 1.5℃ alignment",
+              "text": "For the above reasons, MOL Group’s 2030 targets are below the SBTi’s cross-sector pathway, which suggests that gross Scope 1, 2 and 3 emissions should be reduced by 42% by 2030 and 90% by 2050 from 2020 levels. Based on the Group’s activities, MOL Group is excluded from the EU Paris-aligned Benchmarks."
             }
           ],
           "fulfillment_level": "Medium",
@@ -1115,27 +1115,27 @@
           "evidence": [
             {
               "passage_id": "MOTOROIL_Q3_E1_1",
-              "exact_text": "In response to challenges, a strategic priority is to reduce carbon emissions in Group’s activities and to increase the portfolio of climate resilience for the next decade, looking forward to net-zero in 2050. Driven by the latest global developments, the Group’s decarbonization strategy aims to mitigate the effects and adapt to climate change, while committing to energy transition and low-carbon economy by setting ambitious carbon reduction targets.",
               "page_number": 150,
-              "source_section_header": "3.1.1 Transition plan for Climate Change Mitigation [E1-1]"
+              "source_section_header": "3.1.1 Transition plan for Climate Change Mitigation [E1-1]",
+              "text": "In response to challenges, a strategic priority is to reduce carbon emissions in Group’s activities and to increase the portfolio of climate resilience for the next decade, looking forward to net-zero in 2050. Driven by the latest global developments, the Group’s decarbonization strategy aims to mitigate the effects and adapt to climate change, while committing to energy transition and low-carbon economy by setting ambitious carbon reduction targets."
             },
             {
               "passage_id": "MOTOROIL_Q3_E1_2",
-              "exact_text": "formulating a climate transition plan aligned with the 1.5℃ target.",
               "page_number": 172,
-              "source_section_header": "Resilience of the Group's strategy"
+              "source_section_header": "Resilience of the Group's strategy",
+              "text": "formulating a climate transition plan aligned with the 1.5℃ target."
             },
             {
               "passage_id": "MOTOROIL_Q3_E1_3",
-              "exact_text": "More specifically The Group’s mitigation targets related to environmental matters are grounded in conclusive scientific evidence and aligned with internationally recognized frameworks such as the Paris Agreement, the European Green Deal and the United Nations Sustainable Development Goals (SDGs). These targets are informed by climate scenario analyses, sectoral decarbonization pathways and data from authoritative sources including the Intergovernmental Panel on Climate Change (IPCC) and the International Energy Agency (IEA).",
               "page_number": 176,
-              "source_section_header": "3.2.4 Targets related to Climate Change Mitigation [E1-4]"
+              "source_section_header": "3.2.4 Targets related to Climate Change Mitigation [E1-4]",
+              "text": "More specifically The Group’s mitigation targets related to environmental matters are grounded in conclusive scientific evidence and aligned with internationally recognized frameworks such as the Paris Agreement, the European Green Deal and the United Nations Sustainable Development Goals (SDGs). These targets are informed by climate scenario analyses, sectoral decarbonization pathways and data from authoritative sources including the Intergovernmental Panel on Climate Change (IPCC) and the International Energy Agency (IEA)."
             },
             {
               "passage_id": "MOTOROIL_Q3_E1_4",
-              "exact_text": "By evaluating different climate scenarios, including those consistent with a 1.5℃ global warming trajectory, the Group can proactively identify financial, operational and strategic risks and opportunities associated with the transition to a low-carbon economy.",
               "page_number": 166,
-              "source_section_header": "Scenario Analysis"
+              "source_section_header": "Scenario Analysis",
+              "text": "By evaluating different climate scenarios, including those consistent with a 1.5℃ global warming trajectory, the Group can proactively identify financial, operational and strategic risks and opportunities associated with the transition to a low-carbon economy."
             }
           ],
           "fulfillment_level": "High",
@@ -1147,21 +1147,21 @@
           "evidence": [
             {
               "passage_id": "NESTE_Q3_E1_1",
-              "exact_text": "Neste does not have a separate climate transition plan as detailed in the ESRS but its targets, actions, resource plans and internal carbon price are intended to support the transition for climate change mitigation. Neste will evaluate the development of specific climate transition plan e.g. based on and to align with the EU Corporate Sustainability Due Diligence Directive.",
               "page_number": 118,
-              "source_section_header": "Transition plan for climate change mitigation"
+              "source_section_header": "Transition plan for climate change mitigation",
+              "text": "Neste does not have a separate climate transition plan as detailed in the ESRS but its targets, actions, resource plans and internal carbon price are intended to support the transition for climate change mitigation. Neste will evaluate the development of specific climate transition plan e.g. based on and to align with the EU Corporate Sustainability Due Diligence Directive."
             },
             {
               "passage_id": "NESTE_Q3_E1_2",
-              "exact_text": "For target setting, Neste has been using leading climate frameworks, such as the Science Based Targets initiative (SBTi, incl. both the general guidance and the draft guidance for oil & gas sector), Transition Pathway Initiative (TPI) (GHG emission intensity pathways incl. scope 1 & 2 and scope 3 use of sold products based on IEA Net Zero 2050 scenario) and Exponential Roadmap Initiative (ERI) (50 % reduction every decade) to guide the development of climate targets towards being in line with the latest climate science and the 1.5℃ pathways. Neste considers its scope 1 & 2 target for 2030 to be in line with the scientific research and pathways to limit global warming to 1.5℃.",
               "page_number": 119,
-              "source_section_header": "Targets"
+              "source_section_header": "Targets",
+              "text": "For target setting, Neste has been using leading climate frameworks, such as the Science Based Targets initiative (SBTi, incl. both the general guidance and the draft guidance for oil & gas sector), Transition Pathway Initiative (TPI) (GHG emission intensity pathways incl. scope 1 & 2 and scope 3 use of sold products based on IEA Net Zero 2050 scenario) and Exponential Roadmap Initiative (ERI) (50 % reduction every decade) to guide the development of climate targets towards being in line with the latest climate science and the 1.5℃ pathways. Neste considers its scope 1 & 2 target for 2030 to be in line with the scientific research and pathways to limit global warming to 1.5℃."
             },
             {
               "passage_id": "NESTE_Q3_E1_3",
-              "exact_text": "Through Neste’s climate and other sustainability commitments, the company wants to show leadership and determination and play its part in limiting global warming to 1.5℃ to meet the objectives of the Paris Agreement.",
               "page_number": 118,
-              "source_section_header": "Policies"
+              "source_section_header": "Policies",
+              "text": "Through Neste’s climate and other sustainability commitments, the company wants to show leadership and determination and play its part in limiting global warming to 1.5℃ to meet the objectives of the Paris Agreement."
             }
           ],
           "fulfillment_level": "Medium",
@@ -1173,21 +1173,21 @@
           "evidence": [
             {
               "passage_id": "OMV_Q3_E1_1",
-              "exact_text": "To support OMV’s ambition of becoming a net-zero business by 2050, OMV has developed a transition plan. This plan is an integral part of the OMV Strategy 2030 and complemented by concrete short-, mid-, and long-term targets. OMV’s targets are set at both absolute and intensity levels, with the ultimate goal of achieving net zero greenhouse gas (GHG) emissions in Scopes 1, 2, and 3 by 2050. For Scopes 1 and 2, OMV is aiming for an absolute reduction of 30% by 2030 and 60% by 2040. For the defined categories in Scope 3, OMV is aiming for an absolute reduction of 20% by 2030 and of 50% by 2040.",
               "page_number": 184,
-              "source_section_header": "E1-1 Transition Plan for Climate Change Mitigation"
+              "source_section_header": "E1-1 Transition Plan for Climate Change Mitigation",
+              "text": "To support OMV’s ambition of becoming a net-zero business by 2050, OMV has developed a transition plan. This plan is an integral part of the OMV Strategy 2030 and complemented by concrete short-, mid-, and long-term targets. OMV’s targets are set at both absolute and intensity levels, with the ultimate goal of achieving net zero greenhouse gas (GHG) emissions in Scopes 1, 2, and 3 by 2050. For Scopes 1 and 2, OMV is aiming for an absolute reduction of 30% by 2030 and 60% by 2040. For the defined categories in Scope 3, OMV is aiming for an absolute reduction of 20% by 2030 and of 50% by 2040."
             },
             {
               "passage_id": "OMV_Q3_E1_2",
-              "exact_text": "In conclusion, while OMV’s climate targets are clearly aligned with the Paris Agreement’s goal of limiting global warming to well below 2℃, assessing compatibility with a 1.5℃ world presents a more nuanced picture due to the lack of binding guidance for the oil, gas, and chemicals industry and the limited number of credible sector-specific decarbonization pathways. At this stage, OMV is confident that its Scope 3 emission reduction targets for 2030 are compatible with limiting global warming to 1.5℃, while Scope 1 and 2 targets come close to the ambition of making a fair contribution.",
               "page_number": 190,
-              "source_section_header": "Temperature Alignment of OMV 2030 Targets"
+              "source_section_header": "Temperature Alignment of OMV 2030 Targets",
+              "text": "In conclusion, while OMV’s climate targets are clearly aligned with the Paris Agreement’s goal of limiting global warming to well below 2℃, assessing compatibility with a 1.5℃ world presents a more nuanced picture due to the lack of binding guidance for the oil, gas, and chemicals industry and the limited number of credible sector-specific decarbonization pathways. At this stage, OMV is confident that its Scope 3 emission reduction targets for 2030 are compatible with limiting global warming to 1.5℃, while Scope 1 and 2 targets come close to the ambition of making a fair contribution."
             },
             {
               "passage_id": "OMV_Q3_E1_3",
-              "exact_text": "To support OMVs climate targets and Strategy 2030, the company plans to allocate an average yearly organic CAPEX of approximately EUR 3.8 bn between 2024 and 2030. Of this, 40-50% will be directed toward sustainable projects like geothermal, CCS, renewable electricity, mechanical and chemical recycling, and biofuels to achieve our ambitious decarbonization targets.",
               "page_number": 186,
-              "source_section_header": "E1-1 Transition Plan for Climate Change Mitigation"
+              "source_section_header": "E1-1 Transition Plan for Climate Change Mitigation",
+              "text": "To support OMVs climate targets and Strategy 2030, the company plans to allocate an average yearly organic CAPEX of approximately EUR 3.8 bn between 2024 and 2030. Of this, 40-50% will be directed toward sustainable projects like geothermal, CCS, renewable electricity, mechanical and chemical recycling, and biofuels to achieve our ambitious decarbonization targets."
             }
           ],
           "fulfillment_level": "High",
@@ -1199,21 +1199,21 @@
           "evidence": [
             {
               "passage_id": "PETROM_Q3_E1_1",
-              "exact_text": "As the largest integrated energy producer in the SEE region, we recognize climate change as one of the most important global challenges today and we support the goals set forth by the Paris Climate Change Agreement; we therefore developed a transition plan for climate change mitigation for 2030 (\"Transition Plan\") to align our strategy and business model with the transition to a sustainable economy, as follows:",
               "page_number": 108,
-              "source_section_header": "[DR E1-1] Transition plan for climate change mitigation"
+              "source_section_header": "[DR E1-1] Transition plan for climate change mitigation",
+              "text": "As the largest integrated energy producer in the SEE region, we recognize climate change as one of the most important global challenges today and we support the goals set forth by the Paris Climate Change Agreement; we therefore developed a transition plan for climate change mitigation for 2030 (\"Transition Plan\") to align our strategy and business model with the transition to a sustainable economy, as follows:"
             },
             {
               "passage_id": "PETROM_Q3_E1_2",
-              "exact_text": "According to the benchmarking analysis performed with the two IEA reports mentioned above, our 2030 GHG reduction targets are compatible with the Paris Agreement’s goal of limiting global warming to below 2℃, however our targets are situated above a trajectory compatible with limiting the global temperature increase to 1.5℃. In the long term, OMV Petrom is committed to achieving Net Zero operations (Scopes 1 and 2) in 2050, in line with the IEA NZE by 2050 sectoral scenario.",
               "page_number": 110,
-              "source_section_header": "[E1-1.14,16a, AR 2, AR 26, AR 27, E1-4.33] GHG emission reduction targets"
+              "source_section_header": "[E1-1.14,16a, AR 2, AR 26, AR 27, E1-4.33] GHG emission reduction targets",
+              "text": "According to the benchmarking analysis performed with the two IEA reports mentioned above, our 2030 GHG reduction targets are compatible with the Paris Agreement’s goal of limiting global warming to below 2℃, however our targets are situated above a trajectory compatible with limiting the global temperature increase to 1.5℃. In the long term, OMV Petrom is committed to achieving Net Zero operations (Scopes 1 and 2) in 2050, in line with the IEA NZE by 2050 sectoral scenario."
             },
             {
               "passage_id": "PETROM_Q3_E1_3",
-              "exact_text": "OMV Petrom’s GHG Scope 1-3 target reduction of - 20% in 2030 vs. 2019 is positioned between the NZE reduction trajectory (associated with 1.5℃ temperature increase) and APS (1.7℃ temperature increase).",
               "page_number": 110,
-              "source_section_header": "[E1-1.14,16a, AR 2, AR 26, AR 27, E1-4.33] GHG emission reduction targets"
+              "source_section_header": "[E1-1.14,16a, AR 2, AR 26, AR 27, E1-4.33] GHG emission reduction targets",
+              "text": "OMV Petrom’s GHG Scope 1-3 target reduction of - 20% in 2030 vs. 2019 is positioned between the NZE reduction trajectory (associated with 1.5℃ temperature increase) and APS (1.7℃ temperature increase)."
             }
           ],
           "fulfillment_level": "High",
@@ -1225,21 +1225,21 @@
           "evidence": [
             {
               "passage_id": "REPSOL_Q3_E1_1",
-              "exact_text": "Repsol reaffirms its commitment to climate change mitigation and its ambition to reach net zero emissions by 2050, aligned with the Paris Agreement, which aims to limit global warming to 1.5°C and achieve climate neutrality by the second half of the century",
               "page_number": 100,
-              "source_section_header": "Transition plan for climate change mitigation (E1-1)"
+              "source_section_header": "Transition plan for climate change mitigation (E1-1)",
+              "text": "Repsol reaffirms its commitment to climate change mitigation and its ambition to reach net zero emissions by 2050, aligned with the Paris Agreement, which aims to limit global warming to 1.5°C and achieve climate neutrality by the second half of the century"
             },
             {
               "passage_id": "REPSOL_Q3_E1_2",
-              "exact_text": "Repsol’s goal for 2030 of reducing absolute Scope 1, 2 and 3 emissions by 20%, compared to 2018, is compatible with the IPCC C1 climate scenarios that limit global warming to 1.5°C, with net zero emissions, by 2050. This target includes more than 91% of all the Company’s current emissions.",
               "page_number": 102,
-              "source_section_header": "1.5°C alignment"
+              "source_section_header": "1.5°C alignment",
+              "text": "Repsol’s goal for 2030 of reducing absolute Scope 1, 2 and 3 emissions by 20%, compared to 2018, is compatible with the IPCC C1 climate scenarios that limit global warming to 1.5°C, with net zero emissions, by 2050. This target includes more than 91% of all the Company’s current emissions."
             },
             {
               "passage_id": "REPSOL_Q3_E1_3",
-              "exact_text": "Repsol has based its analysis on scenarios classified as C1, which outline pathways to limit global warming to 1.5°C above pre-industrial levels by the end of this century, with limited or no overshoot during the interim period. C1 scenarios show a greater than 50% probability of keeping global warming at or below 1.5°C in 2100",
               "page_number": 101,
-              "source_section_header": "1.5°C alignment"
+              "source_section_header": "1.5°C alignment",
+              "text": "Repsol has based its analysis on scenarios classified as C1, which outline pathways to limit global warming to 1.5°C above pre-industrial levels by the end of this century, with limited or no overshoot during the interim period. C1 scenarios show a greater than 50% probability of keeping global warming at or below 1.5°C in 2100"
             }
           ],
           "fulfillment_level": "High",
@@ -1251,27 +1251,27 @@
           "evidence": [
             {
               "passage_id": "SBMOFFSHORE_Q3_E1_1",
-              "exact_text": "SBM Offshore is committed to a strategy and actions compatible with its ambition to achieve Net Zero by no later than 2050, including emissions in scope 1, scope 2 and one category of scope 3 - Downstream leased assets.",
               "page_number": 97,
-              "source_section_header": "3.4.2 EMISSIONS - Transition plan and target"
+              "source_section_header": "3.4.2 EMISSIONS - Transition plan and target",
+              "text": "SBM Offshore is committed to a strategy and actions compatible with its ambition to achieve Net Zero by no later than 2050, including emissions in scope 1, scope 2 and one category of scope 3 - Downstream leased assets."
             },
             {
               "passage_id": "SBMOFFSHORE_Q3_E1_2",
-              "exact_text": "SBM Offshore is progressing steadily toward achieving its scope 1 and 2 emissions reduction targets, in alignment with the 1.5-degree scenario.",
               "page_number": 98,
-              "source_section_header": "3.4.2 EMISSIONS - Scope 1 and 2"
+              "source_section_header": "3.4.2 EMISSIONS - Scope 1 and 2",
+              "text": "SBM Offshore is progressing steadily toward achieving its scope 1 and 2 emissions reduction targets, in alignment with the 1.5-degree scenario."
             },
             {
               "passage_id": "SBMOFFSHORE_Q3_E1_3",
-              "exact_text": "For scope 3, SBM Offshore has used Science-Based Targets initiatives (SBTi) guidelines for a well-below 2-degree scenario.",
               "page_number": 98,
-              "source_section_header": "3.4.2 EMISSIONS - Scope 3"
+              "source_section_header": "3.4.2 EMISSIONS - Scope 3",
+              "text": "For scope 3, SBM Offshore has used Science-Based Targets initiatives (SBTi) guidelines for a well-below 2-degree scenario."
             },
             {
               "passage_id": "SBMOFFSHORE_Q3_E1_4",
-              "exact_text": "SBM Offshore has established the following intermediate targets by 2030: · 100% green energy for scope 1 and 2 emissions; · 50% reduction of GHG intensity and zero routine flaring for scope 3 - Downstream leased assets.",
               "page_number": 98,
-              "source_section_header": "3.4.2 EMISSIONS - Transition plan and target"
+              "source_section_header": "3.4.2 EMISSIONS - Transition plan and target",
+              "text": "SBM Offshore has established the following intermediate targets by 2030: · 100% green energy for scope 1 and 2 emissions; · 50% reduction of GHG intensity and zero routine flaring for scope 3 - Downstream leased assets."
             }
           ],
           "fulfillment_level": "High",
@@ -1283,27 +1283,27 @@
           "evidence": [
             {
               "passage_id": "SHELL_Q3_E1_1",
-              "exact_text": "Shell supports the more ambitious goal of the Paris Agreement, which is to limit the rise in global average temperature this century to 1.5℃ above pre-industrial levels. We aim to become a net-zero emissions energy business by 2050 and have set targets to reduce our Scope 1 and 2 emissions and our net carbon intensity (NCI)",
               "page_number": 364,
-              "source_section_header": "Targets in support of the Paris Agreement"
+              "source_section_header": "Targets in support of the Paris Agreement",
+              "text": "Shell supports the more ambitious goal of the Paris Agreement, which is to limit the rise in global average temperature this century to 1.5℃ above pre-industrial levels. We aim to become a net-zero emissions energy business by 2050 and have set targets to reduce our Scope 1 and 2 emissions and our net carbon intensity (NCI)"
             },
             {
               "passage_id": "SHELL_Q3_E1_2",
-              "exact_text": "We believe our NCI targets are aligned with the more ambitious goal of the Paris Agreement, which is to limit the rise in global average temperature this century to 1.5℃ above pre-industrial levels.",
               "page_number": 364,
-              "source_section_header": "Targets in support of the Paris Agreement"
+              "source_section_header": "Targets in support of the Paris Agreement",
+              "text": "We believe our NCI targets are aligned with the more ambitious goal of the Paris Agreement, which is to limit the rise in global average temperature this century to 1.5℃ above pre-industrial levels."
             },
             {
               "passage_id": "SHELL_Q3_E1_3",
-              "exact_text": "As there is no established standard for aligning an energy supplier’s decarbonisation targets within the 1.5℃ temperature goal of the Paris Agreement, we have derived our NCI targets from scenarios developed for the Sixth Assessment Report of the Intergovernmental Panel on Climate Change.",
               "page_number": 364,
-              "source_section_header": "Targets in support of the Paris Agreement"
+              "source_section_header": "Targets in support of the Paris Agreement",
+              "text": "As there is no established standard for aligning an energy supplier’s decarbonisation targets within the 1.5℃ temperature goal of the Paris Agreement, we have derived our NCI targets from scenarios developed for the Sixth Assessment Report of the Intergovernmental Panel on Climate Change."
             },
             {
               "passage_id": "SHELL_Q3_E1_4",
-              "exact_text": "Shell’s climate change transition plans are delivered through our strategy. This is supported by a suite of processes and greenhouse gas emission reduction targets and by an ambition, which cover all of our businesses.",
               "page_number": 364,
-              "source_section_header": "Transition plan for climate change mitigation (E1-1)"
+              "source_section_header": "Transition plan for climate change mitigation (E1-1)",
+              "text": "Shell’s climate change transition plans are delivered through our strategy. This is supported by a suite of processes and greenhouse gas emission reduction targets and by an ambition, which cover all of our businesses."
             }
           ],
           "fulfillment_level": "High",
@@ -1315,27 +1315,27 @@
           "evidence": [
             {
               "passage_id": "SOLVAY_Q3_E1_1",
-              "exact_text": "Solvay’s transition plan for climate change mitigation is designed to ensure that its strategy and business model are compatible with the transition to a sustainable economy.",
               "page_number": 123,
-              "source_section_header": "E1-1 Transition plan for climate change mitigation"
+              "source_section_header": "E1-1 Transition plan for climate change mitigation",
+              "text": "Solvay’s transition plan for climate change mitigation is designed to ensure that its strategy and business model are compatible with the transition to a sustainable economy."
             },
             {
               "passage_id": "SOLVAY_Q3_E1_2",
-              "exact_text": "Our targets are to become carbon neutral on GHG Scope 1 and 2 emissions by 2050, and to reduce by 30% our Scope 1 and 2 emissions and by 20% our Scope 3 - focus 5 categories - emissions by 2030 vs. our 2021 baseline.",
               "page_number": 123,
-              "source_section_header": "E1-1 Transition plan for climate change mitigation"
+              "source_section_header": "E1-1 Transition plan for climate change mitigation",
+              "text": "Our targets are to become carbon neutral on GHG Scope 1 and 2 emissions by 2050, and to reduce by 30% our Scope 1 and 2 emissions and by 20% our Scope 3 - focus 5 categories - emissions by 2030 vs. our 2021 baseline."
             },
             {
               "passage_id": "SOLVAY_Q3_E1_3",
-              "exact_text": "These 2030 targets are more ambitious than the ones validated by SBTi in March 2023, which had a baseline of 2018, as opposed to the new baseline of 2021 (please refer to E1-4 for explanations). However they are not compatible with the objective of limiting global warming to 1.5℃ in line with the Paris Agreement.",
               "page_number": 123,
-              "source_section_header": "E1-1 Transition plan for climate change mitigation"
+              "source_section_header": "E1-1 Transition plan for climate change mitigation",
+              "text": "These 2030 targets are more ambitious than the ones validated by SBTi in March 2023, which had a baseline of 2018, as opposed to the new baseline of 2021 (please refer to E1-4 for explanations). However they are not compatible with the objective of limiting global warming to 1.5℃ in line with the Paris Agreement."
             },
             {
               "passage_id": "SOLVAY_Q3_E1_4",
-              "exact_text": "To align on a 1.5℃ target, we are currently looking at how to accelerate the delivery of our projects with the support of key stakeholders among which customers and governments.",
               "page_number": 123,
-              "source_section_header": "E1-1 Transition plan for climate change mitigation"
+              "source_section_header": "E1-1 Transition plan for climate change mitigation",
+              "text": "To align on a 1.5℃ target, we are currently looking at how to accelerate the delivery of our projects with the support of key stakeholders among which customers and governments."
             }
           ],
           "fulfillment_level": "High",
@@ -1347,27 +1347,27 @@
           "evidence": [
             {
               "passage_id": "TOTALENERGIES_Q3_E1_1",
-              "exact_text": "Current trends indicate that the evolution of the global energy mix is not compatible with limiting global warming to 1.5℃ and with the objective of achieving climate neutrality by 2050(1). The \"Stated Policies\" scenario (STEPS) of the International Energy Agency provides an idea of the direction taken by the energy sector based on the most recent policies in countries around the world.",
               "page_number": 321,
-              "source_section_header": "How TotalEnergies' 2030 targets compare to the IEA scenarios"
+              "source_section_header": "How TotalEnergies' 2030 targets compare to the IEA scenarios",
+              "text": "Current trends indicate that the evolution of the global energy mix is not compatible with limiting global warming to 1.5℃ and with the objective of achieving climate neutrality by 2050(1). The \"Stated Policies\" scenario (STEPS) of the International Energy Agency provides an idea of the direction taken by the energy sector based on the most recent policies in countries around the world."
             },
             {
               "passage_id": "TOTALENERGIES_Q3_E1_2",
-              "exact_text": "From a scientific perspective, there are a multitude of transition scenarios and there is currently no consensus on GHG emission reduction targets or trajectories applicable at the scale of a company in a given sector and which would be compatible with a given global temperature target.",
               "page_number": 321,
-              "source_section_header": "How TotalEnergies' 2030 targets compare to the IEA scenarios"
+              "source_section_header": "How TotalEnergies' 2030 targets compare to the IEA scenarios",
+              "text": "From a scientific perspective, there are a multitude of transition scenarios and there is currently no consensus on GHG emission reduction targets or trajectories applicable at the scale of a company in a given sector and which would be compatible with a given global temperature target."
             },
             {
               "passage_id": "TOTALENERGIES_Q3_E1_3",
-              "exact_text": "Its targets for reducing the lifecycle carbon intensity of energy products sold(4) (a 17% reduction by 2025 and a 25% reduction by 2030) put TotalEnergies on a trajectory close to the Announced Pledges Scenario (APS) in the IEA’s World Energy Outlook 2023, which assumes that the States party to the Paris Agreement fulfill all their carbon neutrality objectives.",
               "page_number": 321,
-              "source_section_header": "How TotalEnergies' 2030 targets compare to the IEA scenarios"
+              "source_section_header": "How TotalEnergies' 2030 targets compare to the IEA scenarios",
+              "text": "Its targets for reducing the lifecycle carbon intensity of energy products sold(4) (a 17% reduction by 2025 and a 25% reduction by 2030) put TotalEnergies on a trajectory close to the Announced Pledges Scenario (APS) in the IEA’s World Energy Outlook 2023, which assumes that the States party to the Paris Agreement fulfill all their carbon neutrality objectives."
             },
             {
               "passage_id": "TOTALENERGIES_Q3_E1_4",
-              "exact_text": "TotalEnergies is excluded from the EU Paris-aligned benchmark in accordance with the exclusion criteria stated in Articles 12(1)(d) to (g) of Commission Delegated Regulation (EU) 2020/1818, since it derives more than 10% of its revenues from the exploration, extraction, distribution or refining of liquid fuels.",
               "page_number": 321,
-              "source_section_header": "Exclusion of the Company from the \"Paris Agreement\" benchmarks"
+              "source_section_header": "Exclusion of the Company from the \"Paris Agreement\" benchmarks",
+              "text": "TotalEnergies is excluded from the EU Paris-aligned benchmark in accordance with the exclusion criteria stated in Articles 12(1)(d) to (g) of Commission Delegated Regulation (EU) 2020/1818, since it derives more than 10% of its revenues from the exploration, extraction, distribution or refining of liquid fuels."
             }
           ],
           "fulfillment_level": "High",
@@ -1379,27 +1379,27 @@
           "evidence": [
             {
               "passage_id": "VOPAK_Q3_E1_1",
-              "exact_text": "Our transition plan is a continuous journey, balancing energy security with the drive for a sustainable energy future. While our sustainability reporting is already transparent and forward-looking, we are committed to further strengthening our plans and disclosures to align with the latest science and evolving regulations. With a goal of achieving net-zero by 2050, we set a 2030 interim target to reduce Scope 1 and 2 GHG emissions by 30% from our 2021 baseline, covering our operationally controlled assets. Since then, we have been refining our emissions reduction strategies and transition plan to accelerate meaningful impact.",
               "page_number": 110,
-              "source_section_header": "Vopak's environmental transition plan and implementing actions"
+              "source_section_header": "Vopak's environmental transition plan and implementing actions",
+              "text": "Our transition plan is a continuous journey, balancing energy security with the drive for a sustainable energy future. While our sustainability reporting is already transparent and forward-looking, we are committed to further strengthening our plans and disclosures to align with the latest science and evolving regulations. With a goal of achieving net-zero by 2050, we set a 2030 interim target to reduce Scope 1 and 2 GHG emissions by 30% from our 2021 baseline, covering our operationally controlled assets. Since then, we have been refining our emissions reduction strategies and transition plan to accelerate meaningful impact."
             },
             {
               "passage_id": "VOPAK_Q3_E1_2",
-              "exact_text": "Vopak hasn’t announced a Scope 3 reduction target, and our GHG reduction targets, as mentioned above, do not align with the IPCC 1.5 ℃ warming scenario. As part of our Sustainability Roadmap development, we will continue to evaluate how our GHG reduction targets should reflect latest climate science, including the risks and opportunities under a 1.5 ℃ warming scenario.",
               "page_number": 111,
-              "source_section_header": "Vopak's environmental transition plan and implementing actions"
+              "source_section_header": "Vopak's environmental transition plan and implementing actions",
+              "text": "Vopak hasn’t announced a Scope 3 reduction target, and our GHG reduction targets, as mentioned above, do not align with the IPCC 1.5 ℃ warming scenario. As part of our Sustainability Roadmap development, we will continue to evaluate how our GHG reduction targets should reflect latest climate science, including the risks and opportunities under a 1.5 ℃ warming scenario."
             },
             {
               "passage_id": "VOPAK_Q3_E1_3",
-              "exact_text": "Our long-term target is to be net-zero by 2050. In 2022, we announced a mid-term target for 2030 of a 30% reduction in Scope 1 and 2 GHG emissions compared to our 2021 base year result for our operationally controlled assets. Since then, we have been working to further refine our emissions reduction actions and transition plan, including a Scope 3 emissions reduction target.",
               "page_number": 114,
-              "source_section_header": "GHG targets"
+              "source_section_header": "GHG targets",
+              "text": "Our long-term target is to be net-zero by 2050. In 2022, we announced a mid-term target for 2030 of a 30% reduction in Scope 1 and 2 GHG emissions compared to our 2021 base year result for our operationally controlled assets. Since then, we have been working to further refine our emissions reduction actions and transition plan, including a Scope 3 emissions reduction target."
             },
             {
               "passage_id": "VOPAK_Q3_E1_4",
-              "exact_text": "As part of our GHG mitigation plans, we will not use offsetting of emissions to achieve our medium- or long-term targets. Offsetting emissions may be considered for residual emissions that can’t be eliminated before 2050. This would only be used as an unavoidable last resort and is therefore not a part of our strategy.",
               "page_number": 110,
-              "source_section_header": "Note 2. GHG reduction and climate change mitigation"
+              "source_section_header": "Note 2. GHG reduction and climate change mitigation",
+              "text": "As part of our GHG mitigation plans, we will not use offsetting of emissions to achieve our medium- or long-term targets. Offsetting emissions may be considered for residual emissions that can’t be eliminated before 2050. This would only be used as an unavoidable last resort and is therefore not a part of our strategy."
             }
           ],
           "fulfillment_level": "High",
@@ -3483,27 +3483,27 @@
           "evidence": [
             {
               "passage_id": "AKERBP_Q12_G1_1",
-              "exact_text": "The underpinning anti-corruption policy establishes a framework for preventing all forms of corruption and guidance for our employees and business partners on how to apply these principles in their work. As stated in our anti-corruption policy, Aker BP prohibits all forms of corruption, including bribery.",
               "page_number": 129,
-              "source_section_header": "10.1.1 Policies and procedures"
+              "source_section_header": "10.1.1 Policies and procedures",
+              "text": "The underpinning anti-corruption policy establishes a framework for preventing all forms of corruption and guidance for our employees and business partners on how to apply these principles in their work. As stated in our anti-corruption policy, Aker BP prohibits all forms of corruption, including bribery."
             },
             {
               "passage_id": "AKERBP_Q12_G1_2",
-              "exact_text": "Each year, Aker BP conducts a compliance risk assessment. The compliance department is responsible for conducting the assessment and gathering input from company functions such as legal, finance, supply chain and projects. The compliance risk assessment aims to identify areas with the highest risk of non-compliance, including corruption and bribery.",
               "page_number": 129,
-              "source_section_header": "10.1.2 Actions"
+              "source_section_header": "10.1.2 Actions",
+              "text": "Each year, Aker BP conducts a compliance risk assessment. The compliance department is responsible for conducting the assessment and gathering input from company functions such as legal, finance, supply chain and projects. The compliance risk assessment aims to identify areas with the highest risk of non-compliance, including corruption and bribery."
             },
             {
               "passage_id": "AKERBP_Q12_G1_3",
-              "exact_text": "In 2024, there were no reported incidents of corruption, and no convictions or fines for violation of anti-corruption and antibribery laws.",
               "page_number": 130,
-              "source_section_header": "10.1.3 Targets and metrics"
+              "source_section_header": "10.1.3 Targets and metrics",
+              "text": "In 2024, there were no reported incidents of corruption, and no convictions or fines for violation of anti-corruption and antibribery laws."
             },
             {
               "passage_id": "AKERBP_Q12_G1_4",
-              "exact_text": "Our internal speaking up policy describes the main principles of speaking up and provides guidance on how concerns can be raised. Aker BP encourages its own workforce, workers in the value chain and affected communities to speak up about breaches or suspected breaches of law, Aker BP’s code of conduct, internal regulations or ethical norms that are broadly endorsed by society. The policy, which is applicable to our own workforce, builds on a strict non-retaliation principle, ensuring that no retaliatory actions are taken against whistleblowers.",
               "page_number": 130,
-              "source_section_header": "10.2.1 Policies and procedures"
+              "source_section_header": "10.2.1 Policies and procedures",
+              "text": "Our internal speaking up policy describes the main principles of speaking up and provides guidance on how concerns can be raised. Aker BP encourages its own workforce, workers in the value chain and affected communities to speak up about breaches or suspected breaches of law, Aker BP’s code of conduct, internal regulations or ethical norms that are broadly endorsed by society. The policy, which is applicable to our own workforce, builds on a strict non-retaliation principle, ensuring that no retaliatory actions are taken against whistleblowers."
             }
           ],
           "fulfillment_level": "High",
@@ -3515,27 +3515,27 @@
           "evidence": [
             {
               "passage_id": "BASF_Q12_G1_1",
-              "exact_text": "BASF’s Chief Compliance Officer (CCO) reports directly to the Chairman of the Board of Executive Directors and manages the further development of our global compliance organization and compliance management system. The CCO is supported in this task by the Corporate Compliance unit and more than 100 compliance officers and representatives worldwide in the regions and countries as well as in the operating divisions, service units and in the Corporate Center.",
               "page_number": 318,
-              "source_section_header": "G1-3"
+              "source_section_header": "G1-3",
+              "text": "BASF’s Chief Compliance Officer (CCO) reports directly to the Chairman of the Board of Executive Directors and manages the further development of our global compliance organization and compliance management system. The CCO is supported in this task by the Corporate Compliance unit and more than 100 compliance officers and representatives worldwide in the regions and countries as well as in the operating divisions, service units and in the Corporate Center."
             },
             {
               "passage_id": "BASF_Q12_G1_2",
-              "exact_text": "In 2024, more than 120,000 employees worldwide received over 105,000 hours of training on the Code of Conduct. Functions-at-risk are fully covered by the training program.",
               "page_number": 320,
-              "source_section_header": "Information and training to strengthen our compliance culture G1-3"
+              "source_section_header": "Information and training to strengthen our compliance culture G1-3",
+              "text": "In 2024, more than 120,000 employees worldwide received over 105,000 hours of training on the Code of Conduct. Functions-at-risk are fully covered by the training program."
             },
             {
               "passage_id": "BASF_Q12_G1_3",
-              "exact_text": "In 2024, the BASF compliance hotline received 751 reports (2023: 643). These reports are recorded in our global compliance case management system. We attribute the increased use of our hotline to the updated training materials and online contact option. The information received related to all categories of our Code of Conduct, including respect in the workplace, corruption, handling of company property and environmental, health and safety issues.",
               "page_number": 322,
-              "source_section_header": "Incidents"
+              "source_section_header": "Incidents",
+              "text": "In 2024, the BASF compliance hotline received 751 reports (2023: 643). These reports are recorded in our global compliance case management system. We attribute the increased use of our hotline to the updated training materials and online contact option. The information received related to all categories of our Code of Conduct, including respect in the workplace, corruption, handling of company property and environmental, health and safety issues."
             },
             {
               "passage_id": "BASF_Q12_G1_4",
-              "exact_text": "In the reporting year, there were no convictions for violations of anticorruption and antibribery regulations.",
               "page_number": 323,
-              "source_section_header": "G1-4"
+              "source_section_header": "G1-4",
+              "text": "In the reporting year, there were no convictions for violations of anticorruption and antibribery regulations."
             }
           ],
           "fulfillment_level": "High",
@@ -3547,27 +3547,27 @@
           "evidence": [
             {
               "passage_id": "ENI_Q12_G1_1",
-              "exact_text": "Since 2009, Eni has adopted and implemented the Anti-Corruption Compliance Program: a consistent system that is constantly updated with rules, controls and organizational controls, in compliance with current national and international regulations and in line with applicable best practices and guidance, aimed at preventing corruption and money laundering.",
               "page_number": 210,
-              "source_section_header": "The Anti-Corruption Compliance Program"
+              "source_section_header": "The Anti-Corruption Compliance Program",
+              "text": "Since 2009, Eni has adopted and implemented the Anti-Corruption Compliance Program: a consistent system that is constantly updated with rules, controls and organizational controls, in compliance with current national and international regulations and in line with applicable best practices and guidance, aimed at preventing corruption and money laundering."
             },
             {
               "passage_id": "ENI_Q12_G1_2",
-              "exact_text": "Since 2006, Eni has adopted internal regulations @Whistleblowing reports management received by Eni SpA and by its Subsidiaries, updated over time and most recently in March 2024, aligned with national and international best practices as well as EU Directive 2019/1937, which governs the process of receiving, analyzing and processing whistleblowing.",
               "page_number": 213,
-              "source_section_header": "Reporting and verification process in case of violations of the Code of Ethics, anti-corruption rules and other regulations"
+              "source_section_header": "Reporting and verification process in case of violations of the Code of Ethics, anti-corruption rules and other regulations",
+              "text": "Since 2006, Eni has adopted internal regulations @Whistleblowing reports management received by Eni SpA and by its Subsidiaries, updated over time and most recently in March 2024, aligned with national and international best practices as well as EU Directive 2019/1937, which governs the process of receiving, analyzing and processing whistleblowing."
             },
             {
               "passage_id": "ENI_Q12_G1_3",
-              "exact_text": "As in 2023, in 2024 the number of ascertained corruption cases relating to Eni SpA amounted to 0 and, consequently, there were no dismissals related to these cases.",
               "page_number": 212,
-              "source_section_header": "The role of the Internal Audit department and related actions"
+              "source_section_header": "The role of the Internal Audit department and related actions",
+              "text": "As in 2023, in 2024 the number of ascertained corruption cases relating to Eni SpA amounted to 0 and, consequently, there were no dismissals related to these cases."
             },
             {
               "passage_id": "ENI_Q12_G1_4",
-              "exact_text": "In 2024, the Company or members of senior management were not involved in any criminal proceedings that resulted in a final conviction for violations of anti-corruption regulations.",
               "page_number": 210,
-              "source_section_header": "The Anti-Corruption Compliance Program"
+              "source_section_header": "The Anti-Corruption Compliance Program",
+              "text": "In 2024, the Company or members of senior management were not involved in any criminal proceedings that resulted in a final conviction for violations of anti-corruption regulations."
             }
           ],
           "fulfillment_level": "High",
@@ -3579,21 +3579,21 @@
           "evidence": [
             {
               "passage_id": "EQUINOR_Q12_G1_1",
-              "exact_text": "Our Code of Conduct explicitly prohibits engaging in bribery and corruption in any form. Our anticorruption compliance programme, which is anchored in our Code of Conduct, includes standards, requirements and procedures to comply with applicable laws and regulations and maintain our high ethical standards.",
               "page_number": 176,
-              "source_section_header": "G1-3 Prevention and detection of corruption and bribery"
+              "source_section_header": "G1-3 Prevention and detection of corruption and bribery",
+              "text": "Our Code of Conduct explicitly prohibits engaging in bribery and corruption in any form. Our anticorruption compliance programme, which is anchored in our Code of Conduct, includes standards, requirements and procedures to comply with applicable laws and regulations and maintain our high ethical standards."
             },
             {
               "passage_id": "EQUINOR_Q12_G1_2",
-              "exact_text": "Business integrity risks are assessed twice each year as part of our enterprise risk management process, where risks and risk mitigating actions are registered in our enterprise risk management system.",
               "page_number": 174,
-              "source_section_header": "Corporate culture and business conduct policies"
+              "source_section_header": "Corporate culture and business conduct policies",
+              "text": "Business integrity risks are assessed twice each year as part of our enterprise risk management process, where risks and risk mitigating actions are registered in our enterprise risk management system."
             },
             {
               "passage_id": "EQUINOR_Q12_G1_3",
-              "exact_text": "In 2024 Equinor received no fines or convictions for violation of anti-corruption and anti-bribery laws and it was not involved in any public legal proceedings related to corruption or bribery.",
               "page_number": 177,
-              "source_section_header": "G1-4 Incidents of corruption or bribery"
+              "source_section_header": "G1-4 Incidents of corruption or bribery",
+              "text": "In 2024 Equinor received no fines or convictions for violation of anti-corruption and anti-bribery laws and it was not involved in any public legal proceedings related to corruption or bribery."
             }
           ],
           "fulfillment_level": "High",
@@ -3605,21 +3605,21 @@
           "evidence": [
             {
               "passage_id": "GALP_Q12_G1_1",
-              "exact_text": "Galp’s commitment to preventing corruption and bribery is in line with the United Nations Convention against Corruption (Principle 10 of UN Global Compact). To minimise corruption risks, Galp establishes and implements robust processes and procedures while encouraging stakeholders to adopt proactive anti-corruption measures, including: Anti-Corruption Policy: Rules and procedures to prevent, detect, and respond to corruption risks. Policies on Money Laundering and Terrorist Financing Prevention. Internal Control Manual. Risk Assessment: Identification and evaluation of corruption and bribery risks across all business units and jurisdictions based on likelihood and impact. KYC Process: Verification of third-party integrity to prevent and detect corruption incidents. Open Talk Platform: A confidential reporting channel. Annual Training Program: Focused on corruption prevention.",
               "page_number": 91,
-              "source_section_header": "Prevention and Detection of Corruption and Bribery"
+              "source_section_header": "Prevention and Detection of Corruption and Bribery",
+              "text": "Galp’s commitment to preventing corruption and bribery is in line with the United Nations Convention against Corruption (Principle 10 of UN Global Compact). To minimise corruption risks, Galp establishes and implements robust processes and procedures while encouraging stakeholders to adopt proactive anti-corruption measures, including: Anti-Corruption Policy: Rules and procedures to prevent, detect, and respond to corruption risks. Policies on Money Laundering and Terrorist Financing Prevention. Internal Control Manual. Risk Assessment: Identification and evaluation of corruption and bribery risks across all business units and jurisdictions based on likelihood and impact. KYC Process: Verification of third-party integrity to prevent and detect corruption incidents. Open Talk Platform: A confidential reporting channel. Annual Training Program: Focused on corruption prevention."
             },
             {
               "passage_id": "GALP_Q12_G1_2",
-              "exact_text": "Convictions for violation of anti-corruption and anti-bribery laws: 0. Confirmed incidents of corruption and bribery: 0. Amount of fines for violation of anti-corruption and anti-bribery laws (€): 0.",
               "page_number": 91,
-              "source_section_header": "Incidents of Corruption or Bribery"
+              "source_section_header": "Incidents of Corruption or Bribery",
+              "text": "Convictions for violation of anti-corruption and anti-bribery laws: 0. Confirmed incidents of corruption and bribery: 0. Amount of fines for violation of anti-corruption and anti-bribery laws (€): 0."
             },
             {
               "passage_id": "GALP_Q12_G1_3",
-              "exact_text": "Galp's commitment to the Code of Ethics and Conduct includes implementing measures to reduce or mitigate adverse impacts. The Company encourages its workforce, value chain workers, and affected communities to raise concerns or report breaches-such as violations of human rights, harassment, discrimination, or acts of fraud and corruption-via its confidential and anonymous ethics channel, ‘OpenTalk’. This channel is managed by an independent third party, and concerns are addressed by the Ethics and Conduct Committee. Galp ensures that whistleblowers will not face retaliation, intimidation, or any form of discrimination, including disciplinary actions.",
               "page_number": 81,
-              "source_section_header": "Code of Ethics and Conduct"
+              "source_section_header": "Code of Ethics and Conduct",
+              "text": "Galp's commitment to the Code of Ethics and Conduct includes implementing measures to reduce or mitigate adverse impacts. The Company encourages its workforce, value chain workers, and affected communities to raise concerns or report breaches-such as violations of human rights, harassment, discrimination, or acts of fraud and corruption-via its confidential and anonymous ethics channel, ‘OpenTalk’. This channel is managed by an independent third party, and concerns are addressed by the Ethics and Conduct Committee. Galp ensures that whistleblowers will not face retaliation, intimidation, or any form of discrimination, including disciplinary actions."
             }
           ],
           "fulfillment_level": "High",
@@ -3631,21 +3631,21 @@
           "evidence": [
             {
               "passage_id": "HELLENIQ_Q12_G1_1",
-              "exact_text": "All employees (100%) have been informed about the Group’s anti-corruption policies and procedures through the Internal Labor Regulation and the Group Code of Conduct, which includes specific examples of corruption to avoid. The Group’s commitment to UNGC principles, corporate policy, and values is reinforced through the Sustainability Statement, accessible via the Group’s website and intranet. Additionally, the Code of Conduct is provided to all employees and made available as an e-learning course. For partners, anti-corruption policies and commitment to the UN Global Compact principles are communicated through contractual clauses, ensuring that 100% of partners are aligned with the Group’s ethical standards.",
               "page_number": 122,
-              "source_section_header": "Corruption"
+              "source_section_header": "Corruption",
+              "text": "All employees (100%) have been informed about the Group’s anti-corruption policies and procedures through the Internal Labor Regulation and the Group Code of Conduct, which includes specific examples of corruption to avoid. The Group’s commitment to UNGC principles, corporate policy, and values is reinforced through the Sustainability Statement, accessible via the Group’s website and intranet. Additionally, the Code of Conduct is provided to all employees and made available as an e-learning course. For partners, anti-corruption policies and commitment to the UN Global Compact principles are communicated through contractual clauses, ensuring that 100% of partners are aligned with the Group’s ethical standards."
             },
             {
               "passage_id": "HELLENIQ_Q12_G1_2",
-              "exact_text": "Criterion 1: The Group is committed to conducting business in the most ethical manner and has a zero-tolerance policy toward bribery and corruption of any type. As mentioned above, anti-corruption and bribery policies are covered in the Group Code of Conduct. Further, the internal structure and corporate governance framework of the Group companies are designed with robust safeguards to prevent corruption. These include checks and balances such as dual-person partnerships for decision-making, mandatory internal approvals, and regular audits to ensure transparency and compliance with anti-corruption policies.",
               "page_number": 194,
-              "source_section_header": "Bribery and Corruption"
+              "source_section_header": "Bribery and Corruption",
+              "text": "Criterion 1: The Group is committed to conducting business in the most ethical manner and has a zero-tolerance policy toward bribery and corruption of any type. As mentioned above, anti-corruption and bribery policies are covered in the Group Code of Conduct. Further, the internal structure and corporate governance framework of the Group companies are designed with robust safeguards to prevent corruption. These include checks and balances such as dual-person partnerships for decision-making, mandatory internal approvals, and regular audits to ensure transparency and compliance with anti-corruption policies."
             },
             {
               "passage_id": "HELLENIQ_Q12_G1_3",
-              "exact_text": "Criterion 2: During FY2024, HELLENIQ ENERGY or its senior management, including its subsidiaries and their senior management, has not been convicted on corruption or bribery. Further, no incident of corruption was reported to the Regulatory Compliance Office or to the Management of the Group’s companies. As stated in the ‘Corruption’ within the ‘GOV-4 - Statement on Due Diligence’ section, during 2024, no incident of corruption was reported to the Regulatory Compliance Office or to the Management of the Group’s companies and there were zero monetary loss due corruption incidents.",
               "page_number": 194,
-              "source_section_header": "Bribery and Corruption"
+              "source_section_header": "Bribery and Corruption",
+              "text": "Criterion 2: During FY2024, HELLENIQ ENERGY or its senior management, including its subsidiaries and their senior management, has not been convicted on corruption or bribery. Further, no incident of corruption was reported to the Regulatory Compliance Office or to the Management of the Group’s companies. As stated in the ‘Corruption’ within the ‘GOV-4 - Statement on Due Diligence’ section, during 2024, no incident of corruption was reported to the Regulatory Compliance Office or to the Management of the Group’s companies and there were zero monetary loss due corruption incidents."
             }
           ],
           "fulfillment_level": "High",
@@ -3657,21 +3657,21 @@
           "evidence": [
             {
               "passage_id": "MOL_Q12_G1_1",
-              "exact_text": "MOL Group does not engage in and does not tolerate corruption in any form (including bribery, facilitation payment, kickback, extortion, misuse of authority for personal gain, undue benefits or gifts with the intent to influence), whether in the private or public sector on any scale. We maintain this view, even if our commitment to this policy places MOL Group in a non-competitive business position, or if speaking up against such activity results in MOL Group losing business. Throughout our entire value chain, within our social patronage, charity and sponsorship fields, we are committed to a zero-tolerance policy when it comes to corruption & bribery.",
               "page_number": 274,
-              "source_section_header": "Anti-Corruption and Anti-Fraud"
+              "source_section_header": "Anti-Corruption and Anti-Fraud",
+              "text": "MOL Group does not engage in and does not tolerate corruption in any form (including bribery, facilitation payment, kickback, extortion, misuse of authority for personal gain, undue benefits or gifts with the intent to influence), whether in the private or public sector on any scale. We maintain this view, even if our commitment to this policy places MOL Group in a non-competitive business position, or if speaking up against such activity results in MOL Group losing business. Throughout our entire value chain, within our social patronage, charity and sponsorship fields, we are committed to a zero-tolerance policy when it comes to corruption & bribery."
             },
             {
               "passage_id": "MOL_Q12_G1_2",
-              "exact_text": "In 2024, 98% of MOL Group employees successfully completed their Annual Ethics training. Additionally, the Board of Directors and the Supervisory Board received their required training during meetings.",
               "page_number": 274,
-              "source_section_header": "Trustful Business Relations and Responsible Stakeholder Relations"
+              "source_section_header": "Trustful Business Relations and Responsible Stakeholder Relations",
+              "text": "In 2024, 98% of MOL Group employees successfully completed their Annual Ethics training. Additionally, the Board of Directors and the Supervisory Board received their required training during meetings."
             },
             {
               "passage_id": "MOL_Q12_G1_3",
-              "exact_text": "No reported incidents of bribery, corruption, gifts, or hospitality were submitted through MOL Group’s whistleblower reporting system, including INA Group. No employees were dismissed or disciplined for corruption-related offenses. No business partner contracts were terminated or not renewed due to corruption violations. No convictions were recorded for violations of anti-corruption or anti-bribery laws. No fine have been paid for violation of anti-bribery laws or anti-competitive business practices, nor did MOL Group incur any monetary losses as a result of legal proceedings associated with price fixing and/or price manipulation during 2024.",
               "page_number": 275,
-              "source_section_header": "Incidents of Corruption or Bribery"
+              "source_section_header": "Incidents of Corruption or Bribery",
+              "text": "No reported incidents of bribery, corruption, gifts, or hospitality were submitted through MOL Group’s whistleblower reporting system, including INA Group. No employees were dismissed or disciplined for corruption-related offenses. No business partner contracts were terminated or not renewed due to corruption violations. No convictions were recorded for violations of anti-corruption or anti-bribery laws. No fine have been paid for violation of anti-bribery laws or anti-competitive business practices, nor did MOL Group incur any monetary losses as a result of legal proceedings associated with price fixing and/or price manipulation during 2024."
             }
           ],
           "fulfillment_level": "High",
@@ -3683,21 +3683,21 @@
           "evidence": [
             {
               "passage_id": "MOTOROIL_Q12_G1_1",
-              "exact_text": "The Group is, committed to conducting business in accordance with the highest ethical standards and shows zero-tolerance in all forms of bribery and corruption. For that reason, the Group has set in force an Anti-Bribery and Anti-Corruption Policy and with great responsibility and business integrity, is committed to endeavor the utmost efforts for securing transparency and legitimacy. Greece has ratified the UN Convention against Corruption with the Law 3666/2008, amending the Greek Penal Code. According to MOTOR OIL’s Anti-bribery and Anti-Corruption Policy ‘The Policy abides by the applicable principles and provisions of the Greek Law and especially of the Greek penal code, which is consistent with the provisions of United States Foreign Corrupt Practices Act (FCPA) and the United Kingdom Bribery Act (UKBA).’",
               "page_number": 270,
-              "source_section_header": "Prevention and Detection of Corruption and Bribery [G1-3]"
+              "source_section_header": "Prevention and Detection of Corruption and Bribery [G1-3]",
+              "text": "The Group is, committed to conducting business in accordance with the highest ethical standards and shows zero-tolerance in all forms of bribery and corruption. For that reason, the Group has set in force an Anti-Bribery and Anti-Corruption Policy and with great responsibility and business integrity, is committed to endeavor the utmost efforts for securing transparency and legitimacy. Greece has ratified the UN Convention against Corruption with the Law 3666/2008, amending the Greek Penal Code. According to MOTOR OIL’s Anti-bribery and Anti-Corruption Policy ‘The Policy abides by the applicable principles and provisions of the Greek Law and especially of the Greek penal code, which is consistent with the provisions of United States Foreign Corrupt Practices Act (FCPA) and the United Kingdom Bribery Act (UKBA).’"
             },
             {
               "passage_id": "MOTOROIL_Q12_G1_2",
-              "exact_text": "Additionally, the Group Code of Ethics and Corporate Responsibility (‘the Code’) establishes a robust framework for ethical conduct, transparency and integrity. The Group Whistleblowing Policy also serves as a mechanism to prevent and detect any wrongdoings including corruption and bribery. Upon receiving information or allegations of an incident, the Compliance Unit promptly records it, conducts an initial risk assessment and acknowledges written reports within three business days. To maintain objectivity and independence, the investigation of corruption or bribery allegations is conducted by a dedicated internal investigative committee or external experts who are separate from the management teams responsible for implementing anti-corruption measures.",
               "page_number": 270,
-              "source_section_header": "Prevention and Detection of Corruption and Bribery [G1-3]"
+              "source_section_header": "Prevention and Detection of Corruption and Bribery [G1-3]",
+              "text": "Additionally, the Group Code of Ethics and Corporate Responsibility (‘the Code’) establishes a robust framework for ethical conduct, transparency and integrity. The Group Whistleblowing Policy also serves as a mechanism to prevent and detect any wrongdoings including corruption and bribery. Upon receiving information or allegations of an incident, the Compliance Unit promptly records it, conducts an initial risk assessment and acknowledges written reports within three business days. To maintain objectivity and independence, the investigation of corruption or bribery allegations is conducted by a dedicated internal investigative committee or external experts who are separate from the management teams responsible for implementing anti-corruption measures."
             },
             {
               "passage_id": "MOTOROIL_Q12_G1_3",
-              "exact_text": "During the reporting period, MOTOR OIL Group recorded zero convictions, fines, or confirmed incidents related to anti-corruption and anti-bribery laws. Additionally, there were no cases in which employees were dismissed or disciplined, nor were any contracts with business partners terminated due to corruption or bribery violations. Furthermore, there were no public legal cases filed against the Group or its employees in this regard.",
               "page_number": 270,
-              "source_section_header": "Prevention and Detection of Corruption and Bribery [G1-3]"
+              "source_section_header": "Prevention and Detection of Corruption and Bribery [G1-3]",
+              "text": "During the reporting period, MOTOR OIL Group recorded zero convictions, fines, or confirmed incidents related to anti-corruption and anti-bribery laws. Additionally, there were no cases in which employees were dismissed or disciplined, nor were any contracts with business partners terminated due to corruption or bribery violations. Furthermore, there were no public legal cases filed against the Group or its employees in this regard."
             }
           ],
           "fulfillment_level": "High",
@@ -3709,21 +3709,21 @@
           "evidence": [
             {
               "passage_id": "NESTE_Q12_G1_1",
-              "exact_text": "As stated in the company’s Code of Conduct, Neste has zero tolerance of corruption and bribery of any kind in connection with Neste’s operations, whether committed by Neste employees or third parties acting on behalf of Neste. Neste’s Anti-Corruption Principle sets the rules for preventing corruption in connection with Neste’s business operations and provides more detailed guidance on responsible business practices and the prevention of corruption. The Principle applies to all Neste employees and to anyone working for or representing any business entity within the Neste Group. The principle is consistent with the United Nations Convention against Corruption.",
               "page_number": 141,
-              "source_section_header": "Business conduct policies"
+              "source_section_header": "Business conduct policies",
+              "text": "As stated in the company’s Code of Conduct, Neste has zero tolerance of corruption and bribery of any kind in connection with Neste’s operations, whether committed by Neste employees or third parties acting on behalf of Neste. Neste’s Anti-Corruption Principle sets the rules for preventing corruption in connection with Neste’s business operations and provides more detailed guidance on responsible business practices and the prevention of corruption. The Principle applies to all Neste employees and to anyone working for or representing any business entity within the Neste Group. The principle is consistent with the United Nations Convention against Corruption."
             },
             {
               "passage_id": "NESTE_Q12_G1_2",
-              "exact_text": "In addition to other reporting channels, Neste has an externally operated misconduct reporting system, Ethics Online, available to all Neste’s internal and external stakeholders, including various actors in its supply chains. Ethics Online serves as a grievance mechanism and enables Neste’s stakeholders to anonymously raise concerns related to alleged misconduct in Neste’s operations. The Ethics Online can be used by phone or via the website.",
               "page_number": 141,
-              "source_section_header": "Business conduct policies"
+              "source_section_header": "Business conduct policies",
+              "text": "In addition to other reporting channels, Neste has an externally operated misconduct reporting system, Ethics Online, available to all Neste’s internal and external stakeholders, including various actors in its supply chains. Ethics Online serves as a grievance mechanism and enables Neste’s stakeholders to anonymously raise concerns related to alleged misconduct in Neste’s operations. The Ethics Online can be used by phone or via the website."
             },
             {
               "passage_id": "NESTE_Q12_G1_3",
-              "exact_text": "Neste’s Investigation Group is responsible for evaluating and investigating reported cases in a professional, objective, confidential and prompt manner. The Investigation Group will decide on the investigation lead and approach to investigate depending on the nature of the reported allegation and/or concern. All investigations shall be impartial, unbiased and based on fact finding and managed by appropriate resources.",
               "page_number": 141,
-              "source_section_header": "Business conduct policies"
+              "source_section_header": "Business conduct policies",
+              "text": "Neste’s Investigation Group is responsible for evaluating and investigating reported cases in a professional, objective, confidential and prompt manner. The Investigation Group will decide on the investigation lead and approach to investigate depending on the nature of the reported allegation and/or concern. All investigations shall be impartial, unbiased and based on fact finding and managed by appropriate resources."
             }
           ],
           "fulfillment_level": "High",
@@ -3735,21 +3735,21 @@
           "evidence": [
             {
               "passage_id": "OMV_Q12_G1_1",
-              "exact_text": "OMV has set up a comprehensive Compliance Management System based on the requirements of IDW PS 980, including policies, audits, and training particularly to prevent, detect, monitor, and address allegations or incidents of corruption and bribery. The system aims to anchor OMV’s business ethics policies throughout the organization and to ensure their correct implementation. The design and implementation of OMV’s Compliance Management System have been externally audited for adequacy and effectiveness.",
               "page_number": 387,
-              "source_section_header": "G1-3 Prevention and Detection of Corruption and Bribery - Compliance Management System"
+              "source_section_header": "G1-3 Prevention and Detection of Corruption and Bribery - Compliance Management System",
+              "text": "OMV has set up a comprehensive Compliance Management System based on the requirements of IDW PS 980, including policies, audits, and training particularly to prevent, detect, monitor, and address allegations or incidents of corruption and bribery. The system aims to anchor OMV’s business ethics policies throughout the organization and to ensure their correct implementation. The design and implementation of OMV’s Compliance Management System have been externally audited for adequacy and effectiveness."
             },
             {
               "passage_id": "OMV_Q12_G1_2",
-              "exact_text": "0 convictions for violation of anti-corruption and anti-bribery laws. EUR 0 mn in fines for violation of anti-corruption and anti-bribery laws. 0 confirmed incidents of corruption or bribery. 0 confirmed incidents in which own workers were dismissed or disciplined for corruption or bribery-related incidents. 0 confirmed incidents relating to contracts with business partners that were terminated or not renewed due to violations related to corruption or bribery.",
               "page_number": 391,
-              "source_section_header": "G1-4 Metrics"
+              "source_section_header": "G1-4 Metrics",
+              "text": "0 convictions for violation of anti-corruption and anti-bribery laws. EUR 0 mn in fines for violation of anti-corruption and anti-bribery laws. 0 confirmed incidents of corruption or bribery. 0 confirmed incidents in which own workers were dismissed or disciplined for corruption or bribery-related incidents. 0 confirmed incidents relating to contracts with business partners that were terminated or not renewed due to violations related to corruption or bribery."
             },
             {
               "passage_id": "OMV_Q12_G1_3",
-              "exact_text": "A total of 1,201 OMV employees were trained in person in business ethics/anti-corruption in 2024. In addition, 1,107 OMV employees were trained in competition law in 2024.",
               "page_number": 390,
-              "source_section_header": "G1-3 Prevention and Detection of Corruption and Bribery - Status 2024"
+              "source_section_header": "G1-3 Prevention and Detection of Corruption and Bribery - Status 2024",
+              "text": "A total of 1,201 OMV employees were trained in person in business ethics/anti-corruption in 2024. In addition, 1,107 OMV employees were trained in competition law in 2024."
             }
           ],
           "fulfillment_level": "High",
@@ -3761,27 +3761,27 @@
           "evidence": [
             {
               "passage_id": "PETROM_Q12_G1_1",
-              "exact_text": "OMV Petrom has implemented a comprehensive compliance management system that revolves around the Code of Business Ethics, which is designed to prevent, monitor, and address potential ethical issues, fostering a culture of business ethics. Our Code of Conduct, Ethics and Integrity Policy, and Whistleblowing Platform Directive, ratified by our Executive Board, are made mandatory across all operational countries.",
               "page_number": 198,
-              "source_section_header": "[DR G1-1] Actions to advance corporate culture, [G1-1.9]"
+              "source_section_header": "[DR G1-1] Actions to advance corporate culture, [G1-1.9]",
+              "text": "OMV Petrom has implemented a comprehensive compliance management system that revolves around the Code of Business Ethics, which is designed to prevent, monitor, and address potential ethical issues, fostering a culture of business ethics. Our Code of Conduct, Ethics and Integrity Policy, and Whistleblowing Platform Directive, ratified by our Executive Board, are made mandatory across all operational countries."
             },
             {
               "passage_id": "PETROM_Q12_G1_2",
-              "exact_text": "OMV Petrom established the Ethics and Integrity Committee to promote corporate culture and uphold integrity standards. This independent committee meets at least annually to address integrity issues and reinforces a zero-tolerance stance on bribery, fraud, theft, and corruption as outlined in the Code of Business Ethics, which is mandatory for all employees, including subsidiaries and external staff.",
               "page_number": 198,
-              "source_section_header": "[DR G1-1] Actions to advance corporate culture"
+              "source_section_header": "[DR G1-1] Actions to advance corporate culture",
+              "text": "OMV Petrom established the Ethics and Integrity Committee to promote corporate culture and uphold integrity standards. This independent committee meets at least annually to address integrity issues and reinforces a zero-tolerance stance on bribery, fraud, theft, and corruption as outlined in the Code of Business Ethics, which is mandatory for all employees, including subsidiaries and external staff."
             },
             {
               "passage_id": "PETROM_Q12_G1_3",
-              "exact_text": "OMV Petrom has implemented a comprehensive system for reporting and investigating potential violations of our Code of Business Ethics, policies related to corruption and bribery, and any unlawful behaviour. The internal Whistleblowing Platform Directive outlines the detailed process for identifying and investigating concerns.",
               "page_number": 198,
-              "source_section_header": "[G1-1.10a]"
+              "source_section_header": "[G1-1.10a]",
+              "text": "OMV Petrom has implemented a comprehensive system for reporting and investigating potential violations of our Code of Business Ethics, policies related to corruption and bribery, and any unlawful behaviour. The internal Whistleblowing Platform Directive outlines the detailed process for identifying and investigating concerns."
             },
             {
               "passage_id": "PETROM_Q12_G1_4",
-              "exact_text": "A compliance monitoring system is in place, that includes regular compliance spot checks, to identify potential instances of unlawful behaviour or behaviour in contradiction of the Code of Conduct and Code of Business Ethics. The focus of spot checks can include gifts, invitations, and conflicts of interest etc. and results reported to OMV Petrom Board.",
               "page_number": 199,
-              "source_section_header": "[G1-1.10a]"
+              "source_section_header": "[G1-1.10a]",
+              "text": "A compliance monitoring system is in place, that includes regular compliance spot checks, to identify potential instances of unlawful behaviour or behaviour in contradiction of the Code of Conduct and Code of Business Ethics. The focus of spot checks can include gifts, invitations, and conflicts of interest etc. and results reported to OMV Petrom Board."
             }
           ],
           "fulfillment_level": "High",
@@ -3793,21 +3793,21 @@
           "evidence": [
             {
               "passage_id": "REPSOL_Q12_G1_1",
-              "exact_text": "The Ethics and Compliance Committee makes the Ethics and Compliance Channel available to employees and any third party. This channel is a robust, easy-to-access, confidential and, if desired and permitted by applicable legislation, anonymous medium through which suspected illegal or unethical behavior or potential non-compliance with the Code of Ethics and Business Conduct, internal regulations or applicable legislation can be communicated. The receipt of communications through the Ethics and Compliance Channel is managed by an independent company. It is available 24 hours a day, seven days a week, by post, through the website and by telephone in the local language from which the communication is made.",
               "page_number": 190,
-              "source_section_header": "Ethics and Compliance Channel"
+              "source_section_header": "Ethics and Compliance Channel",
+              "text": "The Ethics and Compliance Committee makes the Ethics and Compliance Channel available to employees and any third party. This channel is a robust, easy-to-access, confidential and, if desired and permitted by applicable legislation, anonymous medium through which suspected illegal or unethical behavior or potential non-compliance with the Code of Ethics and Business Conduct, internal regulations or applicable legislation can be communicated. The receipt of communications through the Ethics and Compliance Channel is managed by an independent company. It is available 24 hours a day, seven days a week, by post, through the website and by telephone in the local language from which the communication is made."
             },
             {
               "passage_id": "REPSOL_Q12_G1_2",
-              "exact_text": "In 2024, 298 communications were received through the Ethics and Compliance Channel, of which 90 required investigation. As a result of the investigations, 21 cases of non-compliance with the Code of Ethics and Business Conduct were confirmed. At the end of the fiscal year, 4 cases of harassment and 1 case of discrimination were confirmed. No cases of bribery, corruption, violation of human rights or discrimination have been proven. Likewise, in 2024, as in 2023, there have been no convictions or fines for violating laws related to corruption or bribery.",
               "page_number": 194,
-              "source_section_header": "Confirmed incidents of corruption or bribery (G1-4)"
+              "source_section_header": "Confirmed incidents of corruption or bribery (G1-4)",
+              "text": "In 2024, 298 communications were received through the Ethics and Compliance Channel, of which 90 required investigation. As a result of the investigations, 21 cases of non-compliance with the Code of Ethics and Business Conduct were confirmed. At the end of the fiscal year, 4 cases of harassment and 1 case of discrimination were confirmed. No cases of bribery, corruption, violation of human rights or discrimination have been proven. Likewise, in 2024, as in 2023, there have been no convictions or fines for violating laws related to corruption or bribery."
             },
             {
               "passage_id": "REPSOL_Q12_G1_3",
-              "exact_text": "In 2024, 20,509 employees have completed the new annual mandatory online training for all employees called The Challenge in the Ethicsverse. It has a digital and interactive format and seeks to continue strengthening knowledge of the Code of Ethics and Business Conduct.",
               "page_number": 191,
-              "source_section_header": "Training in the Code of Ethics and Business Conduct"
+              "source_section_header": "Training in the Code of Ethics and Business Conduct",
+              "text": "In 2024, 20,509 employees have completed the new annual mandatory online training for all employees called The Challenge in the Ethicsverse. It has a digital and interactive format and seeks to continue strengthening knowledge of the Code of Ethics and Business Conduct."
             }
           ],
           "fulfillment_level": "High",
@@ -3819,21 +3819,21 @@
           "evidence": [
             {
               "passage_id": "SBMOFFSHORE_Q12_G1_1",
-              "exact_text": "In all the communities in which it operates, SBM Offshore is committed to conducting its business honestly, ethically and lawfully. Integrity is vital to maintaining the trust and confidence of stakeholders in SBM Offshore’s long-term value creation. SBM Offshore does not tolerate bribery, corruption, fraud or violations of trade sanctions, money laundering or any other illegal or unethical conduct in any form.",
               "page_number": 118,
-              "source_section_header": "Ethics and Compliance - Our Approach"
+              "source_section_header": "Ethics and Compliance - Our Approach",
+              "text": "In all the communities in which it operates, SBM Offshore is committed to conducting its business honestly, ethically and lawfully. Integrity is vital to maintaining the trust and confidence of stakeholders in SBM Offshore’s long-term value creation. SBM Offshore does not tolerate bribery, corruption, fraud or violations of trade sanctions, money laundering or any other illegal or unethical conduct in any form."
             },
             {
               "passage_id": "SBMOFFSHORE_Q12_G1_2",
-              "exact_text": "The governance and guarantee of the practical implementation of policies, processes and procedures related to ethics and compliance fall under the responsibility of the Group Compliance Department reporting to the Group General Counsel & Chief Compliance Officer - a member of the Executive Committee.",
               "page_number": 118,
-              "source_section_header": "Ethics and Compliance - Our Approach"
+              "source_section_header": "Ethics and Compliance - Our Approach",
+              "text": "The governance and guarantee of the practical implementation of policies, processes and procedures related to ethics and compliance fall under the responsibility of the Group Compliance Department reporting to the Group General Counsel & Chief Compliance Officer - a member of the Executive Committee."
             },
             {
               "passage_id": "SBMOFFSHORE_Q12_G1_3",
-              "exact_text": "No confirmed instances of corruption occurred during 2024.",
               "page_number": 118,
-              "source_section_header": "Ethics and Compliance - Achievements"
+              "source_section_header": "Ethics and Compliance - Achievements",
+              "text": "No confirmed instances of corruption occurred during 2024."
             }
           ],
           "fulfillment_level": "High",
@@ -3845,21 +3845,21 @@
           "evidence": [
             {
               "passage_id": "SHELL_Q12_G1_1",
-              "exact_text": "The Shell General Business Principles, Code of Conduct and Ethics and Compliance Manual define our requirements for complying with laws on anti-bribery and corruption. These requirements apply to all Shell-operated ventures and companies in which Shell holds a controlling interest, either directly or indirectly.",
               "page_number": 426,
-              "source_section_header": "Prevention and detection of corruption and bribery (G1-3)"
+              "source_section_header": "Prevention and detection of corruption and bribery (G1-3)",
+              "text": "The Shell General Business Principles, Code of Conduct and Ethics and Compliance Manual define our requirements for complying with laws on anti-bribery and corruption. These requirements apply to all Shell-operated ventures and companies in which Shell holds a controlling interest, either directly or indirectly."
             },
             {
               "passage_id": "SHELL_Q12_G1_2",
-              "exact_text": "To help us prevent and detect corruption and bribery, we require our business and functions to undertake regular risk reviews and implement risk-based controls. We identify roles that are exposed to potential bribery and corruption risks and provide training. We require ethics and compliance due diligence when contracting, engaging in business development, before funding social investment and before entering into relationships with trade associations.",
               "page_number": 426,
-              "source_section_header": "Prevention and detection of corruption and bribery (G1-3)"
+              "source_section_header": "Prevention and detection of corruption and bribery (G1-3)",
+              "text": "To help us prevent and detect corruption and bribery, we require our business and functions to undertake regular risk reviews and implement risk-based controls. We identify roles that are exposed to potential bribery and corruption risks and provide training. We require ethics and compliance due diligence when contracting, engaging in business development, before funding social investment and before entering into relationships with trade associations."
             },
             {
               "passage_id": "SHELL_Q12_G1_3",
-              "exact_text": "No Shell company, and to the best of our knowledge, no Shell staff were convicted or fined for criminal violations of anti-corruption and anti-bribery laws in 2024.",
               "page_number": 427,
-              "source_section_header": "Incidents of corruption or bribery (G1-4)"
+              "source_section_header": "Incidents of corruption or bribery (G1-4)",
+              "text": "No Shell company, and to the best of our knowledge, no Shell staff were convicted or fined for criminal violations of anti-corruption and anti-bribery laws in 2024."
             }
           ],
           "fulfillment_level": "High",
@@ -3871,21 +3871,21 @@
           "evidence": [
             {
               "passage_id": "SOLVAY_Q12_G1_1",
-              "exact_text": "Solvay’s framework for preventing and detecting corruption and bribery is built on several key policies, which ensure ethical behavior across the organization. Our action plan involves implementing and maintaining a robust framework to prevent, detect, and address potential violations of anti-corruption and commercial bribery laws. At the core of this framework is the Code of Business Integrity, which defines the company’s ethical principles and is complemented by more specific policies, such as the Anti-Bribery and Anti-Corruption Policy, the Policy on Gifts, Entertainment, Charitable Donations, and Sponsorship, the Conflict-of-Interest Policy, and the Speak Up Policy.",
               "page_number": 183,
-              "source_section_header": "G1-3 Prevention and detection of corruption and bribery"
+              "source_section_header": "G1-3 Prevention and detection of corruption and bribery",
+              "text": "Solvay’s framework for preventing and detecting corruption and bribery is built on several key policies, which ensure ethical behavior across the organization. Our action plan involves implementing and maintaining a robust framework to prevent, detect, and address potential violations of anti-corruption and commercial bribery laws. At the core of this framework is the Code of Business Integrity, which defines the company’s ethical principles and is complemented by more specific policies, such as the Anti-Bribery and Anti-Corruption Policy, the Policy on Gifts, Entertainment, Charitable Donations, and Sponsorship, the Conflict-of-Interest Policy, and the Speak Up Policy."
             },
             {
               "passage_id": "SOLVAY_Q12_G1_2",
-              "exact_text": "Anti-bribery and anti-corruption web-based training is carried out on a two-year cycle for a pre-identified target population, which includes all employees grade S15 and above, irrespective of their function and including all the company’s executives, to ensure that all employees exposed to risk are periodically trained. Targeted employees on leave (e.g., sick leave, parental leave) must provide justification for their absence and complete the training upon their return. The most recent online training course, available in 16 languages, took place in 2023; 98.80% of the target population was trained.",
               "page_number": 183,
-              "source_section_header": "G1-3 Prevention and detection of corruption and bribery"
+              "source_section_header": "G1-3 Prevention and detection of corruption and bribery",
+              "text": "Anti-bribery and anti-corruption web-based training is carried out on a two-year cycle for a pre-identified target population, which includes all employees grade S15 and above, irrespective of their function and including all the company’s executives, to ensure that all employees exposed to risk are periodically trained. Targeted employees on leave (e.g., sick leave, parental leave) must provide justification for their absence and complete the training upon their return. The most recent online training course, available in 16 languages, took place in 2023; 98.80% of the target population was trained."
             },
             {
               "passage_id": "SOLVAY_Q12_G1_3",
-              "exact_text": "For the 2024 period, Solvay had no convictions for violations of anti-corruption and anti-bribery laws. Additionally, the company incurred no fines related to any such violations. These results reflect the effectiveness of our strong governance framework, including the Anti-Bribery and Anti-Corruption Policy (please refer to the MDR-P table for more information), robust training programs, and the diligent efforts of Ethics & Compliance to uphold the highest ethical standards across our global operations.",
               "page_number": 184,
-              "source_section_header": "G1-4 Confirmed incidents of corruption or bribery"
+              "source_section_header": "G1-4 Confirmed incidents of corruption or bribery",
+              "text": "For the 2024 period, Solvay had no convictions for violations of anti-corruption and anti-bribery laws. Additionally, the company incurred no fines related to any such violations. These results reflect the effectiveness of our strong governance framework, including the Anti-Bribery and Anti-Corruption Policy (please refer to the MDR-P table for more information), robust training programs, and the diligent efforts of Ethics & Compliance to uphold the highest ethical standards across our global operations."
             }
           ],
           "fulfillment_level": "High",
@@ -3897,21 +3897,21 @@
           "evidence": [
             {
               "passage_id": "TOTALENERGIES_Q12_G1_1",
-              "exact_text": "The Company rejects corruption in all its forms, whether public or private, active or passive. TotalEnergies has set up an anti-corruption compliance program based on the principle of ‘zero tolerance’. It is drawn up, promoted, and monitored by a dedicated organization acting at the Company and business segment levels, namely: the Compliance and Legal Risk Management department, headed by the Chief Compliance Officer, and the Branch Compliance Officers. They coordinate a network of approximately 380 Compliance Officers in charge of rolling out and running the program at the subsidiary or entity level.",
               "page_number": 411,
-              "source_section_header": "The fight against corruption (G1-3 and G1-4)"
+              "source_section_header": "The fight against corruption (G1-3 and G1-4)",
+              "text": "The Company rejects corruption in all its forms, whether public or private, active or passive. TotalEnergies has set up an anti-corruption compliance program based on the principle of ‘zero tolerance’. It is drawn up, promoted, and monitored by a dedicated organization acting at the Company and business segment levels, namely: the Compliance and Legal Risk Management department, headed by the Chief Compliance Officer, and the Branch Compliance Officers. They coordinate a network of approximately 380 Compliance Officers in charge of rolling out and running the program at the subsidiary or entity level."
             },
             {
               "passage_id": "TOTALENERGIES_Q12_G1_2",
-              "exact_text": "Since 2023, webinars have been provided to the populations within the eight business functions identified by the Executive Committee as the most exposed to the risk of corruption (such as purchasing or human resources). All (100%) of the most exposed populations are covered by these training sessions. They consist of a common part related to anti-corruption procedures, including report, and a specific part (case study) adapted to the targeted function.",
               "page_number": 412,
-              "source_section_header": "Training for exposed populations to corruption risk"
+              "source_section_header": "Training for exposed populations to corruption risk",
+              "text": "Since 2023, webinars have been provided to the populations within the eight business functions identified by the Executive Committee as the most exposed to the risk of corruption (such as purchasing or human resources). All (100%) of the most exposed populations are covered by these training sessions. They consist of a common part related to anti-corruption procedures, including report, and a specific part (case study) adapted to the targeted function."
             },
             {
               "passage_id": "TOTALENERGIES_Q12_G1_3",
-              "exact_text": "In 2024, TotalEnergies was not subject to any convictions and did not receive any fines for violations of anti-corruption legislation and acts of corruption.",
               "page_number": 412,
-              "source_section_header": "Case of corruption (G1-4)"
+              "source_section_header": "Case of corruption (G1-4)",
+              "text": "In 2024, TotalEnergies was not subject to any convictions and did not receive any fines for violations of anti-corruption legislation and acts of corruption."
             }
           ],
           "fulfillment_level": "High",
@@ -3923,21 +3923,21 @@
           "evidence": [
             {
               "passage_id": "VOPAK_Q12_G1_1",
-              "exact_text": "At Vopak, we are committed to conducting our business fairly, transparently, and with integrity, while applying the highest ethical and legal standards. We do not make, offer, or authorize bribes or conduct any other form of unethical business practice. Our rules and procedures related to anti-corruption or anti-bribery are set out in our Anti-Bribery & Corruption (ABC) Policy, which is accessible to our employees. This policy is consistent with the United Nations Convention against Corruption.",
               "page_number": 173,
-              "source_section_header": "Prevention and detection of corruption and bribery"
+              "source_section_header": "Prevention and detection of corruption and bribery",
+              "text": "At Vopak, we are committed to conducting our business fairly, transparently, and with integrity, while applying the highest ethical and legal standards. We do not make, offer, or authorize bribes or conduct any other form of unethical business practice. Our rules and procedures related to anti-corruption or anti-bribery are set out in our Anti-Bribery & Corruption (ABC) Policy, which is accessible to our employees. This policy is consistent with the United Nations Convention against Corruption."
             },
             {
               "passage_id": "VOPAK_Q12_G1_2",
-              "exact_text": "All employees complete mandatory training on anticorruption and anti-bribery every other year. Fraud alerts are regularly shared within the company to raise awareness and mitigate control weaknesses. Any alleged violation of our anti-corruption or anti-bribery rules and procedures can be reported through our Speak Up platform (as previously described) and is then investigated by an independent team.",
               "page_number": 173,
-              "source_section_header": "Prevention and detection of corruption and bribery"
+              "source_section_header": "Prevention and detection of corruption and bribery",
+              "text": "All employees complete mandatory training on anticorruption and anti-bribery every other year. Fraud alerts are regularly shared within the company to raise awareness and mitigate control weaknesses. Any alleged violation of our anti-corruption or anti-bribery rules and procedures can be reported through our Speak Up platform (as previously described) and is then investigated by an independent team."
             },
             {
               "passage_id": "VOPAK_Q12_G1_3",
-              "exact_text": "No fines were paid concerning the bribery and corruption cases. As far as we are aware, there have not been any convictions related to these cases.",
               "page_number": 174,
-              "source_section_header": "Number of convictions and amount of fines"
+              "source_section_header": "Number of convictions and amount of fines",
+              "text": "No fines were paid concerning the bribery and corruption cases. As far as we are aware, there have not been any convictions related to these cases."
             }
           ],
           "fulfillment_level": "High",

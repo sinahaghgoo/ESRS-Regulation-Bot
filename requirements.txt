@@ -1,0 +1,14 @@
+ipykernel
+jupyter
+langchain
+langchain-openai
+matplotlib
+numpy
+pandas
+python-dotenv
+qdrant-client
+sentence-transformers
+tiktoken
+pyyaml
+streamlit
+

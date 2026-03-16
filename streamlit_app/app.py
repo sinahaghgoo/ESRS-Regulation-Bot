@@ -118,11 +118,11 @@ with st.sidebar:
     with st.expander("⚙️ Advanced Settings"):
         retrieval_method = st.selectbox(
             "Retrieval Method",
-            ["hybrid", "dense", "sparse"],
+            ["hybrid", "hybrid_rerank", "dense", "sparse"],
             index=0,
+            help="hybrid_rerank uses BAAI/bge-reranker-v2-m3 for cross-encoder reranking",
         )
         top_k = st.slider("Retrieved Chunks (top-k)", 5, 30, 15)
-        use_reranker = st.checkbox("Use Cohere Reranker", value=False)
     
     st.markdown("---")
     st.markdown("### 📋 About")
@@ -205,7 +205,6 @@ if submit and query and selected_companies:
     # Update config with sidebar settings
     config["retrieval_method"] = retrieval_method
     config["top_k"] = top_k
-    config["use_reranker"] = use_reranker
     
     with st.spinner("Analyzing sustainability reports..."):
         try:

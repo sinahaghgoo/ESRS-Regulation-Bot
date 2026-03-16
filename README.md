@@ -50,6 +50,27 @@ RQ3 evaluates the final system across deterministic metrics and rubric-based jud
 
 ---
 
+## RQ1 Implementation Status (Current Codebase)
+
+The current codebase now contains a full **RQ1-only retrieval pipeline** under modular folders in `rag/`:
+
+- `rag/config/` - environment/config constants and 36-config grid builder
+- `rag/data/` - report/golden-standard loading and normalization
+- `rag/chunking/` - fixed, structure-aware, and semantic chunkers
+- `rag/indexing/` - embedding service and Qdrant indexing
+- `rag/retrieval/` - dense, BM25 sparse, hybrid RRF, hybrid + BGE rerank (BAAI/bge-reranker-v2-m3)
+- `rag/evaluation/` - RQ1 metrics and relevance alignment rules
+- `rag/pipeline/` - orchestration for preprocessing and evaluation
+
+Two RQ1 notebooks are included:
+
+- `notebooks/05_rq1_chunking_evaluation.ipynb`
+- `notebooks/09_rq1_chunking_retrieval_walkthrough.ipynb`
+
+Both notebooks are split into commented sections to make each processing step auditable.
+
+---
+
 ## System Architecture
 
 The RAG pipeline consists of five stages, from document ingestion through to answer generation.
@@ -230,36 +251,30 @@ Qdrant can also run in local file-based persistence mode without Docker (the cod
 
 ### Step 1: Preprocessing and Indexing
 
-Run notebooks 01–03 in order (or use the CLI script):
+For RQ1, run preprocessing first:
 
 ```bash
-# Notebooks (recommended for first-time exploration)
-jupyter notebook notebooks/01_report_structure_and_metadata_audit.ipynb
-jupyter notebook notebooks/02_chunking_experiments.ipynb
-jupyter notebook notebooks/03_embeddings_and_qdrant_indexing.ipynb
-
-# Or CLI
 python run_preprocessing.py
+# Optional smoke test
+python run_preprocessing.py --dry-run
 ```
 
-This loads the Markdown reports, applies chunking strategies, generates embeddings via the OpenAI API, builds Qdrant collections, and saves all artifacts to `data/artifacts/`.
+This loads `data/Reports_md/`, builds chunks, embeds text, creates Qdrant collections, and writes artifacts to `data/artifacts/`.
 
 ### Step 2: Evaluation
 
-Run notebooks 05–08:
+Run RQ1 evaluation:
 
 ```bash
 jupyter notebook notebooks/05_rq1_chunking_evaluation.ipynb
-jupyter notebook notebooks/06_rq2_retrieval_evaluation.ipynb
-jupyter notebook notebooks/07_rq3_generation_evaluation_and_llm_judge.ipynb
-jupyter notebook notebooks/08_best_pipeline_frontend_validation.ipynb
-
-# Or CLI
 python run_evaluation.py
+# Optional smoke test
+python run_evaluation.py --dry-run
 ```
 
-Notebook 08 selects the best pipeline configuration and saves the manifest to `config/best_pipeline.yaml`.  
-The CLI `python run_evaluation.py` also writes `config/best_pipeline.yaml` after scoring evaluated configurations.
+Outputs are saved to `data/artifacts/evaluation_results/rq1/` and the best RQ1 config is written to `config/best_pipeline.yaml`.
+
+`notebooks/09_rq1_chunking_retrieval_walkthrough.ipynb` provides a detailed single-report chunking/retrieval walkthrough.
 
 ### Step 3: Interactive Analysis
 
@@ -293,7 +308,7 @@ ESRS-Regulation-Bot/
 │   ├── chunker.py                  # Fixed-size and structure-aware chunking
 │   ├── embedder.py                 # OpenAI embedding with file-based caching
 │   ├── indexer.py                  # Qdrant-only vector index (no fallback)
-│   ├── retriever.py                # BM25, RRF, Cohere reranker, unified Retriever
+│   ├── retriever.py                # BM25, RRF, BGE reranker, unified Retriever
 │   ├── esrs_context.py             # ESRS JSON standards extraction with LLM + caching
 │   ├── generator.py                # Answer generation with citation resolution
 │   ├── evaluator.py                # Full evaluation harness (Approach A + B)

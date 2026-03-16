@@ -53,7 +53,7 @@ Each chunking-strategy/size combination is evaluated with all four retrieval met
 - **Dense:** Semantic vector search over Qdrant using `text-embedding-3-large` embeddings (3072 dimensions).
 - **Sparse (BM25):** Keyword matching using Okapi BM25 (k1=1.5, b=0.75), capturing exact ESRS terminology.
 - **Hybrid (RRF):** Dense and sparse results fused via Reciprocal Rank Fusion (k=60).
-- **Hybrid + Rerank:** Hybrid results reranked using the Cohere `rerank-english-v3.0` API.
+- **Hybrid + Rerank:** Hybrid results reranked using the local `BAAI/bge-reranker-v2-m3` cross-encoder.
 
 ### Evaluation
 
@@ -249,4 +249,4 @@ A comprehensive characterisation of the system's strengths and failure modes acr
 3. **Self-evaluation risk in RQ3.** If the same model is used as both generator and judge, scores may be inflated. A different judge model is strongly recommended; if unavailable, this is stated as an explicit limitation.
 4. **Golden Standard is manually curated.** Ground-truth answers and compliance levels were assigned by a single annotator. Inter-annotator agreement was not measured. Findings should be interpreted relative to this benchmark, not as absolute ground truth.
 5. **Sequential dependency between RQs.** RQ2 and RQ3 use the best config from RQ1. If the RQ1 winner is marginal (small score differences between configurations), the downstream conclusions inherit that uncertainty.
-6. **Cohere reranker requires a paid API.** The `Hybrid + Rerank` condition is not fully reproducible without a Cohere API key. Results for this configuration should be treated as indicative rather than independently verifiable.
+6. **Reranker model size.** The `Hybrid + Rerank` condition uses the local `BAAI/bge-reranker-v2-m3` cross-encoder, which requires sufficient GPU/CPU memory. On resource-constrained machines, reranking latency may be higher than the other retrieval methods.
