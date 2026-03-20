@@ -14,13 +14,14 @@ from rag.config.settings import ARTIFACTS_DIR, get_openai_api_key
 class EmbeddingService:
     """Embedding wrapper with OpenAI primary path and deterministic fallback."""
 
-    def __init__(self, model: str = "text-embedding-3-large", dims: int = 3072) -> None:
+    def __init__(self, model: str = "text-embedding-3-large", dims: int = 3072, load_cache: bool = True) -> None:
         self.model = model
         self.dims = dims
+        self._use_cache = load_cache
         self.cache_path = ARTIFACTS_DIR / "embedding_cache.json"
         self.cache: dict[str, list[float]] = {}
         self.cache_path.parent.mkdir(parents=True, exist_ok=True)
-        if self.cache_path.exists():
+        if load_cache and self.cache_path.exists():
             try:
                 self.cache = json.loads(self.cache_path.read_text(encoding="utf-8"))
             except Exception:
@@ -61,7 +62,7 @@ class EmbeddingService:
         else:
             emb = self._fallback_embedding(text)
         self.cache[key] = emb
-        if len(self.cache) % 50 == 0:
+        if self._use_cache and len(self.cache) % 50 == 0:
             self._persist()
         return emb
 
@@ -88,6 +89,7 @@ class EmbeddingService:
                 key = self._key(txt)
                 out[idx] = vec
                 self.cache[key] = vec
-            self._persist()
+            if self._use_cache:
+                self._persist()
         return out
 

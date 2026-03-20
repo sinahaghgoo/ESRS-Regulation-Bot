@@ -236,17 +236,18 @@ def evaluate_configuration(
     """
     metric_rows: list[dict[str, float]] = []
     per_standard_rows: dict[str, list[dict[str, float]]] = defaultdict(list)
+    per_standard_counts: dict[str, dict[str, int]] = defaultdict(lambda: {"evaluated": 0, "skipped": 0})
     chunk_span_cache: dict[str, tuple[int, int] | None] = {}
     gold_span_cache: dict[str, tuple[int, int] | None] = {}
     skipped = 0
     for sample in samples:
-        # Skip samples where ALL evidence passages have empty text —
-        # they cannot be meaningfully evaluated for retrieval quality.
+        std = sample.esrs_standard
         usable_evidences = [e for e in sample.evidences if e.normalized_text.strip()]
         if not usable_evidences:
             skipped += 1
+            per_standard_counts[std]["skipped"] += 1
             continue
-        # Replace sample evidences with only usable ones for scoring.
+        per_standard_counts[std]["evaluated"] += 1
         sample_for_eval = EvalSample(
             question_id=sample.question_id,
             question=sample.question,
@@ -266,7 +267,7 @@ def evaluate_configuration(
         per_standard_rows[sample_for_eval.esrs_standard].append(row)
     if skipped:
         _logger.info(
-            "Config %s: skipped %d/%d samples with empty evidence",
+            "Config %s: skipped %d/%d samples (no usable evidence text)",
             config_id, skipped, len(samples),
         )
 
@@ -293,6 +294,11 @@ def evaluate_configuration(
         retrieval_method=retrieval_method,
         metrics=aggregate,
         per_standard_metrics=per_standard,
-        details={"n_samples": len(metric_rows)},
+        details={
+            "n_total": len(samples),
+            "n_evaluated": len(metric_rows),
+            "n_skipped": skipped,
+            "per_standard_counts": {k: dict(v) for k, v in per_standard_counts.items()},
+        },
     )
 

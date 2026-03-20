@@ -58,16 +58,18 @@ The current codebase now contains a full **RQ1-only retrieval pipeline** under m
 - `rag/data/` - report/golden-standard loading and normalization
 - `rag/chunking/` - fixed, structure-aware, and semantic chunkers
 - `rag/indexing/` - embedding service and Qdrant indexing
-- `rag/retrieval/` - dense, BM25 sparse, hybrid RRF, hybrid + BGE rerank (BAAI/bge-reranker-v2-m3)
+- `rag/retrieval/` - dense, BM25 sparse, hybrid RRF, hybrid + cross-encoder rerank (`cross-encoder/ms-marco-MiniLM-L-6-v2`)
 - `rag/evaluation/` - RQ1 metrics and relevance alignment rules
 - `rag/pipeline/` - orchestration for preprocessing and evaluation
 
 Two RQ1 notebooks are included:
 
-- `notebooks/05_rq1_chunking_evaluation.ipynb`
-- `notebooks/09_rq1_chunking_retrieval_walkthrough.ipynb`
+- `notebooks/05_rq1_chunking_evaluation.ipynb` — runs the full 36-config evaluation, computes main effects, interaction heatmaps, and winner selection.
+- `notebooks/09_rq1_chunking_retrieval_walkthrough.ipynb` — qualitative walkthrough on one sample report showing chunking, retrieval, and ranking behavior.
 
-Both notebooks are split into commented sections to make each processing step auditable.
+Both notebooks are structured with markdown sections explaining each step.
+
+**Evaluation coverage note:** The Golden Standard contains 12 questions x 17 companies = 204 pairs, but only 5 of 12 ESRS standards currently have annotated evidence passages (ESRS 1, 2, E1, S1, G1), giving 85 retrieval-evaluable samples. Pairs without evidence text are excluded from metric computation.
 
 ---
 
@@ -100,7 +102,7 @@ The retrieval stage combines two complementary search strategies:
 - **Dense retrieval**: semantic vector search over the Qdrant index, matching user queries to report chunks based on embedding similarity.
 - **Sparse retrieval**: BM25 keyword matching, which captures exact term overlap — particularly important for specific ESRS terminology and regulatory references.
 
-RQ1 compares four retrieval modes: dense, sparse, hybrid fusion via **Reciprocal Rank Fusion (RRF)** with k=60, and hybrid retrieval followed by reranking. Metadata filters allow retrieval to be scoped to specific companies.
+RQ1 compares six retrieval modes: dense, dense + rerank, sparse, sparse + rerank, hybrid fusion via **Reciprocal Rank Fusion (RRF)** with k=60, and hybrid retrieval followed by reranking. Each base retrieval method is tested both with and without cross-encoder reranking. Metadata filters allow retrieval to be scoped to specific companies.
 
 ### 5. Generation and Domain Adaptation
 
@@ -177,27 +179,14 @@ Latency, prompt size, token cost, and number of retrieved chunks. These metrics 
 
 ## Notebooks
 
-The experimental workflow is organized into eight Jupyter notebooks, each corresponding to a specific pipeline stage or research question.
-
-### Exploration and Pipeline Development (01–04)
+The current codebase includes two RQ1 notebooks:
 
 | Notebook | Purpose |
 |---|---|
-| `01_report_structure_and_metadata_audit.ipynb` | Load Markdown reports, inspect page markers, heading hierarchy, and metadata completeness. |
-| `02_chunking_experiments.ipynb` | Compare fixed-size vs. structure-aware chunking: distributions, overlap, boundary examples. |
-| `03_embeddings_and_qdrant_indexing.ipynb` | Embed chunks, build/verify Qdrant collections, inspect nearest-neighbour quality. |
-| `04_retrieval_esrs_context_and_generation.ipynb` | End-to-end single-query walkthrough: retrieve, extract ESRS context, generate answer. |
+| `05_rq1_chunking_evaluation.ipynb` | Run and analyze the full 36-config RQ1 evaluation: main effects, interaction heatmaps, winner selection, per-standard breakdown. |
+| `09_rq1_chunking_retrieval_walkthrough.ipynb` | Qualitative single-report walkthrough: inspect chunk output, compare retrieval methods, visualize ranking shifts. |
 
-### Evaluation and Selection (05–08)
-
-| Notebook | Purpose |
-|---|---|
-| `05_rq1_chunking_evaluation.ipynb` | RQ1 — Evaluate the full chunking strategy × chunk size × retrieval method matrix on retrieval metrics. |
-| `06_rq2_retrieval_evaluation.ipynb` | RQ2 — Evaluate the effect of ESRS context injection using the best RQ1 configuration. |
-| `07_rq3_generation_evaluation_and_llm_judge.ipynb` | RQ3 — Evaluate final answer generation quality, faithfulness, and compliance assessment quality including LLM-as-a-judge. |
-| `08_best_pipeline_frontend_validation.ipynb` | Select best pipeline via composite scoring, save manifest, validate frontend readiness. |
-
-Notebooks 05–07 save per-RQ evaluation results to `data/artifacts/evaluation_results/`. Notebook 08 calls `select_best_pipeline()` and `save_best_pipeline_manifest()` to persist the winning configuration to `config/best_pipeline.yaml`, which the Streamlit app reads on startup.
+Additional notebooks for RQ2, RQ3, and pipeline selection (06–08) are planned but not yet implemented.
 
 ---
 
@@ -293,33 +282,43 @@ The app loads the best pipeline manifest automatically. If no manifest exists, i
 ```
 ESRS-Regulation-Bot/
 ├── config/
-│   ├── pipeline_configs.yaml       # 8 experiment configurations (RQ1×2, RQ2×4, RQ3×2)
 │   └── best_pipeline.yaml          # Auto-generated best pipeline manifest
 ├── data/
 │   ├── Reports_Pdf/                # Source sustainability reports (PDF)
 │   ├── Reports_md/                 # Preprocessed reports (Markdown)
 │   ├── ESRS_Standards_JSON/        # ESRS regulation files (JSON)
 │   └── artifacts/                  # Generated indices, chunks, embeddings, eval results
-├── golden_standard/                # Evaluation Golden Standard (12 questions × 17 companies)
-├── notebooks/                      # 8 Jupyter notebooks (01–08)
+│       ├── evaluation_results/rq1/ # Per-config results, chunk stats, winner JSON/CSV
+│       └── qdrant_storage/         # Local Qdrant persistence
+├── golden_standard/
+│   └── golden_standard.json        # 12 questions × 17 companies with evidence passages
+├── notebooks/
+│   ├── 05_rq1_chunking_evaluation.ipynb
+│   └── 09_rq1_chunking_retrieval_walkthrough.ipynb
 ├── rag/                            # Core RAG pipeline modules
-│   ├── config.py                   # Paths, API keys, experiment configs, manifest I/O
-│   ├── parser.py                   # Markdown report parser
-│   ├── chunker.py                  # Fixed-size and structure-aware chunking
-│   ├── embedder.py                 # OpenAI embedding with file-based caching
-│   ├── indexer.py                  # Qdrant-only vector index (no fallback)
-│   ├── retriever.py                # BM25, RRF, BGE reranker, unified Retriever
-│   ├── esrs_context.py             # ESRS JSON standards extraction with LLM + caching
-│   ├── generator.py                # Answer generation with citation resolution
-│   ├── evaluator.py                # Full evaluation harness (Approach A + B)
-│   ├── llm_client.py               # OpenAI chat completions wrapper
-│   └── pipeline.py                 # Pipeline orchestration: build_index, load_pipeline, run_query
+│   ├── config/
+│   │   └── settings.py             # Paths, constants, experiment grid builder
+│   ├── data/
+│   │   ├── loaders.py              # Report and golden-standard loading
+│   │   └── text_utils.py           # Normalization, sentence splitting, page offsets
+│   ├── chunking/
+│   │   └── strategies.py           # Fixed, structure-aware, and semantic chunking
+│   ├── indexing/
+│   │   ├── embedder.py             # OpenAI embedding with caching
+│   │   └── qdrant_index.py         # Qdrant local vector index
+│   ├── retrieval/
+│   │   └── methods.py              # Dense, BM25, RRF fusion, cross-encoder rerank
+│   ├── evaluation/
+│   │   └── metrics.py              # RQ1 relevance alignment and metric computation
+│   ├── pipeline/
+│   │   └── rq1_runner.py           # RQ1 orchestration and result persistence
+│   └── types.py                    # Shared dataclasses
 ├── streamlit_app/
 │   └── app.py                      # Streamlit frontend (loads best_pipeline.yaml)
-├── tests/                          # Unit tests
-├── run_preprocessing.py            # CLI preprocessing script
-├── run_evaluation.py               # CLI evaluation script
-├── requirements.txt                # Python dependencies
+├── run_preprocessing.py            # CLI: build chunks, embeddings, Qdrant indices
+├── run_evaluation.py               # CLI: run full RQ1 evaluation matrix
+├── requirements.txt
+├── RESEARCH_QUESTIONS.md           # Detailed RQ1/RQ2/RQ3 experimental design
 ├── .env                            # Environment variables (not tracked)
 └── README.md
 ```

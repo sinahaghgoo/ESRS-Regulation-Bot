@@ -118,9 +118,9 @@ with st.sidebar:
     with st.expander("⚙️ Advanced Settings"):
         retrieval_method = st.selectbox(
             "Retrieval Method",
-            ["hybrid", "hybrid_rerank", "dense", "sparse"],
+            ["hybrid", "hybrid_rerank", "dense", "dense_rerank", "sparse", "sparse_rerank"],
             index=0,
-            help="hybrid_rerank uses BAAI/bge-reranker-v2-m3 for cross-encoder reranking",
+            help="*_rerank variants apply cross-encoder reranking on top of the base retrieval method",
         )
         top_k = st.slider("Retrieved Chunks (top-k)", 5, 30, 15)
     

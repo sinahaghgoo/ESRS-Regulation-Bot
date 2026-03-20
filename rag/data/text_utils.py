@@ -45,6 +45,30 @@ def page_for_offset(markers: list[tuple[int, int]], char_offset: int) -> int | N
     return active
 
 
+def extract_marker_spans(raw_text: str) -> list[tuple[int, int]]:
+    """Return (start, end) character spans of every page marker in *raw_text*."""
+    return [(m.start(), m.end()) for m in _PAGE_RE.finditer(raw_text)]
+
+
+def stripped_to_raw_offset(
+    marker_spans: list[tuple[int, int]], stripped_offset: int
+) -> int:
+    """Convert offset in page-marker-stripped text to offset in raw text.
+
+    After ``re.sub(PAGE_RE, "", raw)``, every character shifts left by
+    the total bytes of markers that preceded it.  This function reverses
+    that mapping so ``page_for_offset`` can be called with raw-text
+    page markers.
+    """
+    cum_removed = 0
+    for ms, me in marker_spans:
+        if ms - cum_removed <= stripped_offset:
+            cum_removed += me - ms
+        else:
+            break
+    return stripped_offset + cum_removed
+
+
 def iter_ngrams(tokens: list[str], n: int) -> Iterable[tuple[str, ...]]:
     """Yield token n-grams."""
     if n <= 0:

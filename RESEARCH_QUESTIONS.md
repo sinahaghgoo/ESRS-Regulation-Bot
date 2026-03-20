@@ -38,9 +38,9 @@ A full **3 × 3 × 4 factorial experiment** across chunking strategy, chunk size
 | **512 tokens** | ✓ | ✓ | ✓ |
 | **1024 tokens** | ✓ | ✓ | ✓ |
 
-Each chunking-strategy/size combination is evaluated with all four retrieval methods: Dense, Sparse (BM25), Hybrid (RRF), and Hybrid + Rerank.
+Each chunking-strategy/size combination is evaluated with all six retrieval methods: Dense, Dense + Rerank, Sparse (BM25), Sparse + Rerank, Hybrid (RRF), and Hybrid + Rerank.
 
-**Total: 36 configurations.**
+**Total: 54 configurations.**
 
 **Chunking strategies defined:**
 
@@ -51,9 +51,11 @@ Each chunking-strategy/size combination is evaluated with all four retrieval met
 **Retrieval methods defined:**
 
 - **Dense:** Semantic vector search over Qdrant using `text-embedding-3-large` embeddings (3072 dimensions).
+- **Dense + Rerank:** Dense retrieval followed by cross-encoder reranking.
 - **Sparse (BM25):** Keyword matching using Okapi BM25 (k1=1.5, b=0.75), capturing exact ESRS terminology.
+- **Sparse + Rerank:** Sparse retrieval followed by cross-encoder reranking.
 - **Hybrid (RRF):** Dense and sparse results fused via Reciprocal Rank Fusion (k=60).
-- **Hybrid + Rerank:** Hybrid results reranked using the local `BAAI/bge-reranker-v2-m3` cross-encoder.
+- **Hybrid + Rerank:** Hybrid RRF results reranked using the local cross-encoder.
 
 ### Evaluation
 

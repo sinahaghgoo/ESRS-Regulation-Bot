@@ -9,7 +9,13 @@ from dataclasses import dataclass
 import tiktoken
 
 from rag.config.settings import PipelineConfig
-from rag.data.text_utils import normalize_text, page_for_offset, sentence_split
+from rag.data.text_utils import (
+    extract_marker_spans,
+    normalize_text,
+    page_for_offset,
+    sentence_split,
+    stripped_to_raw_offset,
+)
 from rag.types import ChunkRecord, ReportDocument
 
 _H_RE = re.compile(r"^(#{1,3})\s+(.*)$")
@@ -150,9 +156,16 @@ def _materialize_chunk(
     end_char: int,
     hierarchy: list[str],
     enc,
+    marker_spans: list[tuple[int, int]] | None = None,
 ) -> ChunkRecord:
-    p_start = page_for_offset(report.page_markers, start_char)
-    p_end = page_for_offset(report.page_markers, end_char)
+    if marker_spans:
+        raw_start = stripped_to_raw_offset(marker_spans, start_char)
+        raw_end = stripped_to_raw_offset(marker_spans, end_char)
+    else:
+        raw_start = start_char
+        raw_end = end_char
+    p_start = page_for_offset(report.page_markers, raw_start)
+    p_end = page_for_offset(report.page_markers, raw_end)
     norm = normalize_text(text)
     return ChunkRecord(
         chunk_id=_chunk_id(report.company, strategy, size, start_char, text),
@@ -194,6 +207,7 @@ def build_chunks_for_config(
 
     for report in reports.values():
         text = _PAGE_MARKER_RE.sub("", report.raw_text)
+        marker_spans = extract_marker_spans(report.raw_text)
         if config.chunk_strategy == "fixed":
             windows = _split_by_tokens(text, 0, enc, config.chunk_size, overlap, [])
         elif config.chunk_strategy == "structure_aware":
@@ -254,6 +268,7 @@ def build_chunks_for_config(
                 end_char=c_end,
                 hierarchy=hierarchy,
                 enc=enc,
+                marker_spans=marker_spans,
             )
             all_chunks.append(chunk)
 

@@ -16,7 +16,7 @@ load_dotenv()
 
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
-REPORTS_MD_DIR = DATA_DIR / "Reports_md"
+REPORTS_MD_DIR = DATA_DIR / "Reports_md_clean"
 ARTIFACTS_DIR = DATA_DIR / "artifacts"
 RQ1_RESULTS_DIR = ARTIFACTS_DIR / "evaluation_results" / "rq1"
 GOLDEN_STANDARD_PATH = PROJECT_ROOT / "golden_standard" / "golden_standard.json"
@@ -29,7 +29,7 @@ QDRANT_COLLECTION_PREFIX = "rq1_esrs"
 
 CHUNK_STRATEGIES = ("fixed", "structure_aware", "semantic")
 CHUNK_SIZES = (256, 512, 1024)
-RETRIEVAL_METHODS = ("dense", "sparse", "hybrid_rrf", "hybrid_rerank")
+RETRIEVAL_METHODS = ("dense", "dense_rerank", "sparse", "sparse_rerank", "hybrid_rrf", "hybrid_rerank")
 
 DEFAULT_TOP_K = 15
 RRF_K = 60
@@ -94,7 +94,7 @@ class PipelineConfig:
 
 
 def build_rq1_experiment_grid() -> list[PipelineConfig]:
-    """Return the full 36-condition RQ1 experiment matrix."""
+    """Return the full 54-condition RQ1 experiment matrix."""
     grid: list[PipelineConfig] = []
     for strategy in CHUNK_STRATEGIES:
         for size in CHUNK_SIZES:

@@ -1,4 +1,4 @@
-"""RQ1 experiment orchestration and minimal runtime retrieval interface."""
+"""RQ1 experiment orchestration (54 configs: 3 chunk strategies × 3 sizes × 6 retrieval methods) and minimal runtime retrieval interface."""
 
 from __future__ import annotations
 
@@ -201,6 +201,7 @@ class RQ1PipelineRunner:
                     "config_id": winner.config_id,
                     "metrics": winner.metrics,
                     "per_standard_metrics": winner.per_standard_metrics,
+                    "evaluation_coverage": winner.details,
                 },
                 indent=2,
             ),

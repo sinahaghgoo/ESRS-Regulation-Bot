@@ -1,4 +1,4 @@
-"""Dense, sparse, hybrid, and reranked retrieval for RQ1."""
+"""Dense, dense+rerank, sparse, sparse+rerank, hybrid-RRF, and hybrid+rerank retrieval for RQ1."""
 
 from __future__ import annotations
 
@@ -23,8 +23,7 @@ _TOKEN_RE = re.compile(r"\w+")
 _logger = logging.getLogger(__name__)
 
 # ---------------------------------------------------------------------------
-# Singleton cross-encoder shared across all Retriever instances to avoid
-# loading the 2.3 GB model multiple times (critical for Apple Silicon memory).
+# Singleton cross-encoder shared across all Retriever instances.
 # ---------------------------------------------------------------------------
 _SHARED_CROSS_ENCODER = None
 _SHARED_CROSS_ENCODER_NAME: str | None = None
@@ -107,7 +106,10 @@ class _BM25:
 
 
 class Retriever:
-    """Unified retrieval interface for all RQ1 methods."""
+    """Unified retrieval interface for all six RQ1 methods.
+
+    Supports: dense, dense_rerank, sparse, sparse_rerank, hybrid_rrf, hybrid_rerank.
+    """
 
     def __init__(
         self,
@@ -150,11 +152,11 @@ class Retriever:
         return hashlib.sha1(raw.encode("utf-8")).hexdigest()
 
     # ------------------------------------------------------------------
-    # BGE cross-encoder reranker (BAAI/bge-reranker-v2-m3)
+    # Cross-encoder reranker (model from config.rerank_model)
     # ------------------------------------------------------------------
 
     def _ensure_cross_encoder(self) -> None:
-        """Lazy-load the shared BGE cross-encoder model on first use."""
+        """Lazy-load the shared cross-encoder model on first use."""
         if self._cross_encoder is not None:
             return
         self._cross_encoder = _get_shared_cross_encoder(self.config.rerank_model)
@@ -164,8 +166,17 @@ class Retriever:
         query: str,
         hits: list[RetrievalHit],
         top_k: int,
+        method_label: str = "hybrid_rerank",
     ) -> list[RetrievalHit]:
-        """Rerank candidates using the local BAAI/bge-reranker-v2-m3 cross-encoder."""
+        """Rerank candidates using the configured local cross-encoder.
+
+        Parameters
+        ----------
+        method_label : str
+            The retrieval method name to stamp on the returned
+            ``RetrievalHit`` objects (e.g. ``"dense_rerank"``,
+            ``"sparse_rerank"``, ``"hybrid_rerank"``).
+        """
         if not hits:
             return []
 
@@ -183,7 +194,7 @@ class Retriever:
                         chunk=base,
                         score=float(item["score"]),
                         rank=rank,
-                        method="hybrid_rerank",
+                        method=method_label,
                         aux={
                             "pre_rerank_rank": int(item["pre_rank"]),
                             "pre_rerank_score": float(item["pre_score"]),
@@ -223,7 +234,7 @@ class Retriever:
                     chunk=base.chunk,
                     score=float(score),
                     rank=rank,
-                    method="hybrid_rerank",
+                    method=method_label,
                     aux={"pre_rerank_rank": base.rank, "pre_rerank_score": base.score},
                 )
             )
@@ -287,22 +298,45 @@ class Retriever:
         return out
 
     def retrieve(self, query: str, company: str | None = None, top_k: int | None = None) -> list[RetrievalHit]:
-        """Run retrieval method from current config."""
+        """Run retrieval method from current config.
+
+        Supported methods
+        -----------------
+        dense            – embedding-based vector search
+        dense_rerank     – dense retrieval followed by cross-encoder reranking
+        sparse           – BM25 keyword retrieval
+        sparse_rerank    – sparse retrieval followed by cross-encoder reranking
+        hybrid_rrf       – dense + sparse fused via Reciprocal Rank Fusion
+        hybrid_rerank    – hybrid RRF followed by cross-encoder reranking
+        """
         k = top_k or self.config.top_k
         method = self.config.retrieval_method
         if method == "hybrid":
             method = "hybrid_rrf"
+
+        # --- Dense retrieval ---
         if method == "dense":
             return self._dense(query, top_k=k, company=company)
+        # --- Dense retrieval + cross-encoder reranking ---
+        if method == "dense_rerank":
+            candidates = self._dense(query, top_k=k * 3, company=company)
+            return self._bge_rerank(query, candidates, top_k=k, method_label="dense_rerank")
+        # --- Sparse (BM25) retrieval ---
         if method == "sparse":
             return self._sparse(query, top_k=k, company=company)
+        # --- Sparse retrieval + cross-encoder reranking ---
+        if method == "sparse_rerank":
+            candidates = self._sparse(query, top_k=k * 3, company=company)
+            return self._bge_rerank(query, candidates, top_k=k, method_label="sparse_rerank")
+        # --- Hybrid RRF (dense + sparse fused via Reciprocal Rank Fusion) ---
         if method == "hybrid_rrf":
             dense_hits = self._dense(query, top_k=k * 2, company=company)
             sparse_hits = self._sparse(query, top_k=k * 2, company=company)
             return self._rrf_fuse(dense_hits, sparse_hits, top_k=k)
+        # --- Hybrid RRF + cross-encoder reranking ---
         if method == "hybrid_rerank":
             dense_hits = self._dense(query, top_k=k * 3, company=company)
             sparse_hits = self._sparse(query, top_k=k * 3, company=company)
             fused = self._rrf_fuse(dense_hits, sparse_hits, top_k=k * 3)
-            return self._bge_rerank(query, fused, top_k=k)
+            return self._bge_rerank(query, fused, top_k=k, method_label="hybrid_rerank")
         raise ValueError(f"Unknown retrieval method: {method}")
