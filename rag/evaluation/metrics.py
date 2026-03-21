@@ -56,14 +56,27 @@ def _token_overlap_ratio(gold_text: str, chunk_text: str) -> float:
     return matched / len(gold_tokens)
 
 
+@dataclass
+class MatchDiagnostics:
+    """Accumulated diagnostics for relevance matching paths."""
+    span_checks: int = 0
+    span_hits: int = 0
+    token_fallback_checks: int = 0
+    token_fallback_hits: int = 0
+    gold_span_misses: int = 0
+    chunk_span_misses: int = 0
+    short_evidence_skips: int = 0
+
+
 def _is_relevant(
     chunk: ChunkRecord,
     evidence: GoldEvidence,
     report_text_by_company: dict[str, str],
     chunk_span_cache: dict[str, tuple[int, int] | None],
     gold_span_cache: dict[str, tuple[int, int] | None],
+    diagnostics: MatchDiagnostics | None = None,
 ) -> bool:
-    """50% gold passage overlap rule — span-based with token-overlap fallback.
+    """50% gold passage overlap rule -- span-based with token-overlap fallback.
 
     Primary path: locate both gold passage and chunk as spans inside the
     normalized full-report text and check >=50% character overlap.
@@ -74,7 +87,6 @@ def _is_relevant(
     overlap between the gold passage and the chunk.  A chunk is relevant
     when >=50% of the gold tokens are present in the chunk text.
     """
-    # Skip empty evidence passages — they cannot be meaningfully matched.
     if not evidence.normalized_text.strip():
         return False
 
@@ -91,16 +103,32 @@ def _is_relevant(
     chunk_span = chunk_span_cache[chunk.chunk_id]
 
     if gold_span is not None and chunk_span is not None:
+        if diagnostics is not None:
+            diagnostics.span_checks += 1
         ov = _overlap(chunk_span, gold_span)
-        return ov >= int(0.5 * max(1, gold_span[1] - gold_span[0]))
+        hit = ov >= int(0.5 * max(1, gold_span[1] - gold_span[0]))
+        if hit and diagnostics is not None:
+            diagnostics.span_hits += 1
+        return hit
+
+    # Track why we fell through to the fallback.
+    if diagnostics is not None:
+        if gold_span is None:
+            diagnostics.gold_span_misses += 1
+        if chunk_span is None:
+            diagnostics.chunk_span_misses += 1
 
     # --- Fallback: token-overlap matching ---
-    # This handles cases where the golden standard text was cleaned or
-    # reformulated relative to the markdown source (e.g. markdown bullets,
-    # escaped characters, footnote markers, or table reformulations removed).
     if len(evidence.normalized_text) < 20:
+        if diagnostics is not None:
+            diagnostics.short_evidence_skips += 1
         return False
-    return _token_overlap_ratio(evidence.normalized_text, chunk.normalized_text) >= 0.5
+    if diagnostics is not None:
+        diagnostics.token_fallback_checks += 1
+    hit = _token_overlap_ratio(evidence.normalized_text, chunk.normalized_text) >= 0.5
+    if hit and diagnostics is not None:
+        diagnostics.token_fallback_hits += 1
+    return hit
 
 
 def _dcg_at_k(rels: list[int], k: int) -> float:
@@ -135,6 +163,7 @@ def _budgeted_recall(
     chunk_span_cache: dict[str, tuple[int, int] | None],
     gold_span_cache: dict[str, tuple[int, int] | None],
     token_budget: int = 4096,
+    diagnostics: MatchDiagnostics | None = None,
 ) -> float:
     seen_gold: set[str] = set()
     consumed = 0
@@ -149,6 +178,7 @@ def _budgeted_recall(
                 report_text_by_company,
                 chunk_span_cache=chunk_span_cache,
                 gold_span_cache=gold_span_cache,
+                diagnostics=diagnostics,
             ):
                 seen_gold.add(ev.passage_id)
         if consumed > token_budget:
@@ -164,6 +194,7 @@ def _compute_for_sample(
     report_text_by_company: dict[str, str],
     chunk_span_cache: dict[str, tuple[int, int] | None],
     gold_span_cache: dict[str, tuple[int, int] | None],
+    diagnostics: MatchDiagnostics | None = None,
 ) -> dict[str, float]:
     """Compute all RQ1 metrics for one question-company sample."""
     unique_gold_ids = {e.passage_id for e in sample.evidences}
@@ -181,6 +212,7 @@ def _compute_for_sample(
                 report_text_by_company,
                 chunk_span_cache=chunk_span_cache,
                 gold_span_cache=gold_span_cache,
+                diagnostics=diagnostics,
             ):
                 matched_ids.add(ev.passage_id)
         rel = 1 if matched_ids else 0
@@ -215,6 +247,7 @@ def _compute_for_sample(
             chunk_span_cache=chunk_span_cache,
             gold_span_cache=gold_span_cache,
             token_budget=4096,
+            diagnostics=diagnostics,
         ),
     }
 
@@ -239,6 +272,7 @@ def evaluate_configuration(
     per_standard_counts: dict[str, dict[str, int]] = defaultdict(lambda: {"evaluated": 0, "skipped": 0})
     chunk_span_cache: dict[str, tuple[int, int] | None] = {}
     gold_span_cache: dict[str, tuple[int, int] | None] = {}
+    diag = MatchDiagnostics()
     skipped = 0
     for sample in samples:
         std = sample.esrs_standard
@@ -262,6 +296,7 @@ def evaluate_configuration(
             report_text_by_company,
             chunk_span_cache=chunk_span_cache,
             gold_span_cache=gold_span_cache,
+            diagnostics=diag,
         )
         metric_rows.append(row)
         per_standard_rows[sample_for_eval.esrs_standard].append(row)
@@ -287,6 +322,22 @@ def evaluate_configuration(
         std: {m: mean([r[m] for r in rows]) for m in metric_names}
         for std, rows in per_standard_rows.items()
     }
+
+    total_relevance_checks = diag.span_checks + diag.token_fallback_checks
+    match_diagnostics = {
+        "span_checks": diag.span_checks,
+        "span_hits": diag.span_hits,
+        "token_fallback_checks": diag.token_fallback_checks,
+        "token_fallback_hits": diag.token_fallback_hits,
+        "gold_span_misses": diag.gold_span_misses,
+        "chunk_span_misses": diag.chunk_span_misses,
+        "short_evidence_skips": diag.short_evidence_skips,
+        "span_path_ratio": (
+            diag.span_checks / total_relevance_checks
+            if total_relevance_checks > 0 else 0.0
+        ),
+    }
+
     return ConfigResult(
         config_id=config_id,
         chunk_strategy=chunk_strategy,
@@ -299,6 +350,7 @@ def evaluate_configuration(
             "n_evaluated": len(metric_rows),
             "n_skipped": skipped,
             "per_standard_counts": {k: dict(v) for k, v in per_standard_counts.items()},
+            "match_diagnostics": match_diagnostics,
         },
     )
 

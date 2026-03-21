@@ -41,6 +41,14 @@ class QdrantChunkIndex:
     def collection_name(strategy: str, size: int) -> str:
         return f"{QDRANT_COLLECTION_PREFIX}_{strategy}_{size}".lower()
 
+    def collection_point_count(self, collection_name: str) -> int:
+        """Return the number of points in the collection, or 0 if it does not exist."""
+        try:
+            info = self.client.get_collection(collection_name)
+            return info.points_count or 0
+        except Exception:
+            return 0
+
     def recreate_collection(self, collection_name: str) -> None:
         """Create or replace collection."""
         self.client.recreate_collection(

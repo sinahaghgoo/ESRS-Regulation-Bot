@@ -4,17 +4,30 @@ from __future__ import annotations
 
 import hashlib
 import json
+import logging
 from pathlib import Path
 
 import numpy as np
 
 from rag.config.settings import ARTIFACTS_DIR, get_openai_api_key
 
+_logger = logging.getLogger(__name__)
+
 
 class EmbeddingService:
-    """Embedding wrapper with OpenAI primary path and deterministic fallback."""
+    """Embedding wrapper with OpenAI primary path and deterministic fallback.
 
-    def __init__(self, model: str = "text-embedding-3-large", dims: int = 3072, load_cache: bool = True) -> None:
+    Set ``require_openai=True`` for evaluation runs to prevent silent
+    fallback to the non-semantic hash embedding.
+    """
+
+    def __init__(
+        self,
+        model: str = "text-embedding-3-large",
+        dims: int = 3072,
+        load_cache: bool = True,
+        require_openai: bool = False,
+    ) -> None:
         self.model = model
         self.dims = dims
         self._use_cache = load_cache
@@ -27,6 +40,7 @@ class EmbeddingService:
             except Exception:
                 self.cache = {}
         self._openai = None
+        self._using_fallback = False
         key = get_openai_api_key(required=False)
         if key:
             try:
@@ -36,6 +50,14 @@ class EmbeddingService:
             except Exception:
                 self._openai = None
 
+        if self._openai is None:
+            self._using_fallback = True
+            if require_openai:
+                raise RuntimeError(
+                    "OpenAI embeddings required for evaluation but could not be initialised. "
+                    "Set OPENAI_API_KEY or pass require_openai=False for offline testing."
+                )
+
     def _persist(self) -> None:
         self.cache_path.write_text(json.dumps(self.cache), encoding="utf-8")
 
@@ -43,7 +65,7 @@ class EmbeddingService:
         return hashlib.sha1(f"{self.model}:{text}".encode("utf-8")).hexdigest()
 
     def _fallback_embedding(self, text: str) -> list[float]:
-        # Deterministic hashed bag-of-words style embedding for offline runs.
+        _logger.warning("Using non-semantic hash fallback embedding — dense retrieval results will be unreliable.")
         vec = np.zeros(self.dims, dtype=np.float32)
         for tok in text.lower().split():
             h = int(hashlib.md5(tok.encode("utf-8")).hexdigest(), 16)

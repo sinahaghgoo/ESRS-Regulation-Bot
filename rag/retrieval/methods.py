@@ -11,6 +11,8 @@ import re
 from collections import Counter, defaultdict
 from pathlib import Path
 
+import numpy as np
+
 from rag.config.settings import (
     ARTIFACTS_DIR,
     PipelineConfig,
@@ -35,38 +37,28 @@ def _get_shared_cross_encoder(model_name: str):
     if _SHARED_CROSS_ENCODER is not None and _SHARED_CROSS_ENCODER_NAME == model_name:
         return _SHARED_CROSS_ENCODER
 
-    import os
-    import torch
     from sentence_transformers import CrossEncoder
 
-    # Force CPU on Apple Silicon — MPS can cause OOM / compatibility errors
-    # with large cross-encoder models.
-    device = "cpu"
-    if hasattr(torch.backends, "mps") and torch.backends.mps.is_available():
-        _logger.info("Apple Silicon detected — forcing cross-encoder to CPU for stability.")
-        # Prevent PyTorch from auto-selecting MPS.
-        os.environ["PYTORCH_MPS_HIGH_WATERMARK_RATIO"] = "0.0"
-    elif torch.cuda.is_available():
-        device = "cuda"
-
-    _logger.info("Loading shared BGE reranker model: %s (device=%s)", model_name, device)
-    try:
-        _SHARED_CROSS_ENCODER = CrossEncoder(model_name, device=device)
-    except TypeError:
-        # Fallback for sentence-transformers versions where 'device' is
-        # not a direct constructor kwarg.
-        _logger.info("Retrying CrossEncoder without device kwarg …")
-        _SHARED_CROSS_ENCODER = CrossEncoder(model_name)
-        # Move to correct device after init.
-        if hasattr(_SHARED_CROSS_ENCODER, "model"):
-            _SHARED_CROSS_ENCODER.model = _SHARED_CROSS_ENCODER.model.to(torch.device(device))
+    _logger.info("Loading shared cross-encoder model: %s", model_name)
+    _SHARED_CROSS_ENCODER = CrossEncoder(model_name)
     _SHARED_CROSS_ENCODER_NAME = model_name
+    _logger.info(
+        "Cross-encoder loaded on device: %s",
+        next(_SHARED_CROSS_ENCODER.model.parameters()).device,
+    )
     gc.collect()
     return _SHARED_CROSS_ENCODER
 
 
 class _BM25:
-    """Small BM25 implementation (Okapi k1=1.5, b=0.75)."""
+    """Small BM25 implementation (Okapi k1=1.5, b=0.75).
+
+    IDF statistics are computed over all chunks (all companies) to provide a
+    stable vocabulary baseline.  Company filtering is applied after scoring so
+    that rare ESRS terms keep the same IDF weight regardless of which company
+    is being queried.  This design matches standard cross-collection BM25 and
+    is documented as a controlled variable in the thesis.
+    """
 
     def __init__(self, chunks: list[ChunkRecord], k1: float = 1.5, b: float = 0.75) -> None:
         self.k1 = k1
@@ -180,32 +172,36 @@ class Retriever:
         if not hits:
             return []
 
-        # Check cache first.
+        # Check cache first — reject entries with NaN scores.
         cache_key = self._rerank_cache_key(query, hits, top_k)
         if cache_key in self._rerank_cache:
             cached = self._rerank_cache[cache_key]
-            out: list[RetrievalHit] = []
-            for rank, item in enumerate(cached, start=1):
-                base = self.chunk_by_id.get(item["chunk_id"])
-                if base is None:
-                    continue
-                out.append(
-                    RetrievalHit(
-                        chunk=base,
-                        score=float(item["score"]),
-                        rank=rank,
-                        method=method_label,
-                        aux={
-                            "pre_rerank_rank": int(item["pre_rank"]),
-                            "pre_rerank_score": float(item["pre_score"]),
-                            "cached": True,
-                        },
+            has_nan = any(math.isnan(item.get("score", float("nan"))) for item in cached)
+            if has_nan:
+                _logger.warning("Rerank cache entry has NaN scores — discarding and re-scoring.")
+                del self._rerank_cache[cache_key]
+            else:
+                out: list[RetrievalHit] = []
+                for rank, item in enumerate(cached, start=1):
+                    base = self.chunk_by_id.get(item["chunk_id"])
+                    if base is None:
+                        continue
+                    out.append(
+                        RetrievalHit(
+                            chunk=base,
+                            score=float(item["score"]),
+                            rank=rank,
+                            method=method_label,
+                            aux={
+                                "pre_rerank_rank": int(item["pre_rank"]),
+                                "pre_rerank_score": float(item["pre_score"]),
+                                "cached": True,
+                            },
+                        )
                     )
-                )
-            return out
+                return out
 
         # Score all candidates with the cross-encoder.
-        # Use small batch size (16) to avoid memory pressure on Apple Silicon.
         self._ensure_cross_encoder()
         pairs = [[query, h.chunk.text] for h in hits]
         try:
@@ -215,8 +211,15 @@ class Retriever:
             gc.collect()
             scores = self._cross_encoder.predict(pairs, batch_size=4, show_progress_bar=False)
 
+        scores_array = np.asarray(scores, dtype=np.float64).ravel()
+        if np.any(np.isnan(scores_array)):
+            raise RuntimeError(
+                f"Cross-encoder returned NaN scores for {len(pairs)} pairs. "
+                f"Model: {self.config.rerank_model}. Check model compatibility."
+            )
+
         # Pair hits with scores and sort descending.
-        scored = sorted(zip(hits, scores), key=lambda x: float(x[1]), reverse=True)
+        scored = sorted(zip(hits, scores_array), key=lambda x: float(x[1]), reverse=True)
 
         out: list[RetrievalHit] = []
         cache_payload: list[dict] = []

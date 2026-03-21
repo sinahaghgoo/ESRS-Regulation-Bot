@@ -30,7 +30,7 @@ A RAG pipeline's retrieval quality depends on three interdependent design choice
 
 ### Experimental Design
 
-A full **3 × 3 × 4 factorial experiment** across chunking strategy, chunk size, and retrieval method:
+A full **3 × 3 × 6 factorial experiment** across chunking strategy, chunk size, and retrieval method:
 
 | Chunk size | Fixed-size | Document-structure-aware | Semantic |
 |---|---|---|---|
@@ -93,7 +93,7 @@ This supplementary analysis tests whether the ranking of configurations remains 
 - Main effect of chunking strategy, averaged across chunk sizes and retrieval methods
 - Main effect of chunk size, averaged across chunking strategies and retrieval methods
 - Main effect of retrieval method, averaged across chunking strategies and chunk sizes
-- Interaction effects visualised through heatmaps of `Recall@15` across all 36 combinations, with particular attention to chunk size × retrieval and chunking strategy × retrieval
+- Interaction effects visualised through heatmaps of `Recall@15` across all 54 combinations, with particular attention to chunk size × retrieval and chunking strategy × retrieval
 - Robustness comparison of configuration rankings under `Recall@15` versus `Budgeted Recall@4096 tokens` to test whether conclusions are driven by chunk-size budget effects
 - Per-ESRS-standard breakdown to identify whether certain standards benefit more from specific configurations
 
@@ -224,7 +224,7 @@ A comprehensive characterisation of the system's strengths and failure modes acr
 | **LLM calls** | None (embeddings only) | 408 generation calls | 204 generation + judge calls |
 | **Primary metric** | Recall@15 | Compliance accuracy | LLM judge overall score |
 | **Secondary metrics** | Precision@k, MRR, Coverage | Token F1, Faithfulness | Citation F1, Hallucination rate, Error analysis |
-| **Configs evaluated** | 36 | 2 | 1 |
+| **Configs evaluated** | 54 | 2 | 1 |
 | **Golden Standard coverage** | 12 questions × 17 companies | 12 questions × 17 companies | 12 questions × 17 companies |
 
 ---
@@ -251,4 +251,4 @@ A comprehensive characterisation of the system's strengths and failure modes acr
 3. **Self-evaluation risk in RQ3.** If the same model is used as both generator and judge, scores may be inflated. A different judge model is strongly recommended; if unavailable, this is stated as an explicit limitation.
 4. **Golden Standard is manually curated.** Ground-truth answers and compliance levels were assigned by a single annotator. Inter-annotator agreement was not measured. Findings should be interpreted relative to this benchmark, not as absolute ground truth.
 5. **Sequential dependency between RQs.** RQ2 and RQ3 use the best config from RQ1. If the RQ1 winner is marginal (small score differences between configurations), the downstream conclusions inherit that uncertainty.
-6. **Reranker model size.** The `Hybrid + Rerank` condition uses the local `BAAI/bge-reranker-v2-m3` cross-encoder, which requires sufficient GPU/CPU memory. On resource-constrained machines, reranking latency may be higher than the other retrieval methods.
+6. **Reranker model size.** All rerank conditions (`Dense + Rerank`, `Sparse + Rerank`, `Hybrid + Rerank`) use the local `cross-encoder/ms-marco-MiniLM-L-6-v2` cross-encoder (~80 MB, 22 M params). This lightweight model was chosen for practical evaluation on Apple Silicon; a larger model such as `BAAI/bge-reranker-v2-m3` could yield different reranking outcomes but is not tested in this thesis.

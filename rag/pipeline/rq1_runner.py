@@ -30,12 +30,20 @@ from rag.types import ConfigResult
 class RQ1PipelineRunner:
     """Build indexes and evaluate all RQ1 configurations."""
 
-    def __init__(self, dry_run: bool = False) -> None:
+    def __init__(
+        self,
+        dry_run: bool = False,
+        require_openai: bool = True,
+        load_embedding_cache: bool = True,
+    ) -> None:
         ensure_dirs()
         self.dry_run = dry_run
         self.reports = load_reports()
         self.samples = load_golden_samples()
-        self.embedder = EmbeddingService()
+        self.embedder = EmbeddingService(
+            require_openai=require_openai and not dry_run,
+            load_cache=load_embedding_cache,
+        )
         self.qdrant = QdrantChunkIndex(dims=self.embedder.dims)
         self._chunks_cache: dict[tuple[str, int], list] = {}
         self._retriever_cache: dict[str, Retriever] = {}
@@ -47,10 +55,15 @@ class RQ1PipelineRunner:
         if key not in self._chunks_cache:
             chunks, stats = build_chunks_for_config(self.reports, config)
             self._chunks_cache[key] = chunks
-            vectors = self.embedder.embed_texts([c.text for c in chunks])
             collection = self.qdrant.collection_name(config.chunk_strategy, config.chunk_size)
-            self.qdrant.recreate_collection(collection)
-            self.qdrant.upsert_chunks(collection, chunks, vectors)
+            existing_count = self.qdrant.collection_point_count(collection)
+            if existing_count > 0:
+                print(f"  Qdrant collection {collection} already has {existing_count} vectors — reusing")
+            else:
+                print(f"  Building Qdrant collection {collection} ({len(chunks)} chunks)")
+                vectors = self.embedder.embed_texts([c.text for c in chunks])
+                self.qdrant.recreate_collection(collection)
+                self.qdrant.upsert_chunks(collection, chunks, vectors)
             stats_path = RQ1_RESULTS_DIR / f"chunk_stats_{config.chunk_strategy}_{config.chunk_size}.json"
             stats_path.write_text(json.dumps(asdict(stats), indent=2), encoding="utf-8")
 
@@ -103,7 +116,12 @@ class RQ1PipelineRunner:
                 # Persist incremental ranking so interrupted runs can resume.
                 ranked_partial = sorted(config_results, key=lambda x: x.metrics["recall@15"], reverse=True)
                 self._persist_results(ranked_partial, ranked_partial[0])
-                print(f"  -> completed: recall@15 = {result.metrics['recall@15']:.4f}")
+                diag = result.details.get("match_diagnostics", {})
+                span_ratio = diag.get("span_path_ratio", 0.0)
+                print(
+                    f"  -> completed: recall@15 = {result.metrics['recall@15']:.4f}"
+                    f"  (span match: {span_ratio:.1%}, token fallback: {diag.get('token_fallback_checks', 0)} checks)"
+                )
             except Exception as exc:
                 tb = traceback.format_exc()
                 msg = f"[FAILED] {config.config_id}: {exc}\n{tb}\n"

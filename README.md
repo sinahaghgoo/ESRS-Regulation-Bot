@@ -54,7 +54,7 @@ RQ3 evaluates the final system across deterministic metrics and rubric-based jud
 
 The current codebase now contains a full **RQ1-only retrieval pipeline** under modular folders in `rag/`:
 
-- `rag/config/` - environment/config constants and 36-config grid builder
+- `rag/config/` - environment/config constants and 54-config grid builder (3 chunking strategies × 3 chunk sizes × 6 retrieval methods)
 - `rag/data/` - report/golden-standard loading and normalization
 - `rag/chunking/` - fixed, structure-aware, and semantic chunkers
 - `rag/indexing/` - embedding service and Qdrant indexing
@@ -64,12 +64,12 @@ The current codebase now contains a full **RQ1-only retrieval pipeline** under m
 
 Two RQ1 notebooks are included:
 
-- `notebooks/05_rq1_chunking_evaluation.ipynb` — runs the full 36-config evaluation, computes main effects, interaction heatmaps, and winner selection.
+- `notebooks/05_rq1_chunking_evaluation.ipynb` — runs the full 54-config evaluation, computes main effects, interaction heatmaps, and winner selection.
 - `notebooks/09_rq1_chunking_retrieval_walkthrough.ipynb` — qualitative walkthrough on one sample report showing chunking, retrieval, and ranking behavior.
 
 Both notebooks are structured with markdown sections explaining each step.
 
-**Evaluation coverage note:** The Golden Standard contains 12 questions x 17 companies = 204 pairs, but only 5 of 12 ESRS standards currently have annotated evidence passages (ESRS 1, 2, E1, S1, G1), giving 85 retrieval-evaluable samples. Pairs without evidence text are excluded from metric computation.
+**Evaluation coverage note:** The Golden Standard contains 12 questions × 17 companies = 204 pairs. All 12 ESRS standards have annotated evidence passages, giving 204 retrieval-evaluable samples. Question-company pairs whose evidence passages have empty text are excluded from metric computation (currently none).
 
 ---
 
@@ -132,7 +132,7 @@ For each query, the system produces a structured response consisting of three pa
 
 ### Sustainability Reports
 
-The dataset comprises 17 corporate sustainability reports (reporting year 2024) from European energy and chemical sector companies: Aker BP, BASF, Eni, Equinor, Galp, Helleniq, MOL, Motoroil, Neste, OMV, Petrom, Repsol, SBM Offshore, Shell, Solvay, TotalEnergies, and Vopak. All reports are aligned with the ESRS framework. Source PDFs are stored in `data/Reports_Pdf/`, and their preprocessed Markdown representations in `data/Reports_md/`.
+The dataset comprises 17 corporate sustainability reports (reporting year 2024) from European energy and chemical sector companies: Aker BP, BASF, Eni, Equinor, Galp, Helleniq, MOL, Motoroil, Neste, OMV, Petrom, Repsol, SBM Offshore, Shell, Solvay, TotalEnergies, and Vopak. All reports are aligned with the ESRS framework. Source PDFs are stored in `data/Reports_Pdf/`, and their preprocessed Markdown representations in `data/Reports_md_clean/`.
 
 ### ESRS Regulation Dataset
 
@@ -183,7 +183,7 @@ The current codebase includes two RQ1 notebooks:
 
 | Notebook | Purpose |
 |---|---|
-| `05_rq1_chunking_evaluation.ipynb` | Run and analyze the full 36-config RQ1 evaluation: main effects, interaction heatmaps, winner selection, per-standard breakdown. |
+| `05_rq1_chunking_evaluation.ipynb` | Run and analyze the full 54-config RQ1 evaluation: main effects, interaction heatmaps, winner selection, per-standard breakdown. |
 | `09_rq1_chunking_retrieval_walkthrough.ipynb` | Qualitative single-report walkthrough: inspect chunk output, compare retrieval methods, visualize ranking shifts. |
 
 Additional notebooks for RQ2, RQ3, and pipeline selection (06–08) are planned but not yet implemented.
@@ -248,7 +248,7 @@ python run_preprocessing.py
 python run_preprocessing.py --dry-run
 ```
 
-This loads `data/Reports_md/`, builds chunks, embeds text, creates Qdrant collections, and writes artifacts to `data/artifacts/`.
+This loads `data/Reports_md_clean/`, builds chunks, embeds text, creates Qdrant collections, and writes artifacts to `data/artifacts/`.
 
 ### Step 2: Evaluation
 
@@ -285,7 +285,7 @@ ESRS-Regulation-Bot/
 │   └── best_pipeline.yaml          # Auto-generated best pipeline manifest
 ├── data/
 │   ├── Reports_Pdf/                # Source sustainability reports (PDF)
-│   ├── Reports_md/                 # Preprocessed reports (Markdown)
+│   ├── Reports_md_clean/            # Preprocessed reports (cleaned Markdown)
 │   ├── ESRS_Standards_JSON/        # ESRS regulation files (JSON)
 │   └── artifacts/                  # Generated indices, chunks, embeddings, eval results
 │       ├── evaluation_results/rq1/ # Per-config results, chunk stats, winner JSON/CSV
