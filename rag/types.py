@@ -1,4 +1,17 @@
-"""Shared dataclasses and type aliases for RQ1 modules."""
+"""
+Shared dataclasses and type aliases for the RQ1 evaluation pipeline.
+
+These types form the data model that connects all pipeline stages:
+    ReportDocument -> ChunkRecord -> RetrievalHit -> EvalSample -> ConfigResult
+
+Design decisions:
+- All types are plain dataclasses (no ORM, no Pydantic) for simplicity
+  and zero external dependencies.
+- Normalised text is stored alongside raw text to avoid repeated
+  normalisation during evaluation (which processes thousands of comparisons).
+- ChunkRecord carries positional metadata (start_char, end_char, page numbers)
+  to enable span-based relevance matching and citation generation.
+"""
 
 from __future__ import annotations
 
@@ -8,7 +21,12 @@ from typing import Any
 
 @dataclass
 class ReportDocument:
-    """Normalized report document loaded from markdown source."""
+    """Normalised report document loaded from markdown source.
+
+    Represents one company's sustainability report after PDF-to-Markdown
+    preprocessing. The raw_text preserves page markers for offset tracking;
+    normalized_text is used for evaluation matching.
+    """
 
     company: str
     year: str
@@ -20,7 +38,12 @@ class ReportDocument:
 
 @dataclass
 class ChunkRecord:
-    """Chunk unit used for indexing, retrieval, and evaluation."""
+    """Chunk unit used for indexing, retrieval, and evaluation.
+
+    Each chunk carries both its raw text (for display and embedding) and
+    normalised text (for evaluation matching). The positional fields
+    (start_char, end_char) refer to the page-marker-stripped report text.
+    """
 
     chunk_id: str
     company: str
@@ -40,7 +63,11 @@ class ChunkRecord:
 
 @dataclass
 class RetrievalHit:
-    """Retrieved chunk and scoring details."""
+    """Retrieved chunk with scoring details.
+
+    The aux dict carries method-specific metadata such as pre-rerank scores,
+    RRF provenance (dense/sparse ranks), and cache status.
+    """
 
     chunk: ChunkRecord
     score: float
@@ -51,7 +78,12 @@ class RetrievalHit:
 
 @dataclass
 class GoldEvidence:
-    """A single evidence passage from the golden standard."""
+    """A single evidence passage from the golden standard.
+
+    Expert-annotated passage that should be retrieved for a given
+    question-company pair. The normalised_text is used for matching
+    against retrieved chunks.
+    """
 
     passage_id: str
     company: str
@@ -66,7 +98,12 @@ class GoldEvidence:
 
 @dataclass
 class EvalSample:
-    """Evaluation sample for one question/company pair."""
+    """Evaluation sample for one question-company pair.
+
+    Groups all gold evidence passages for a single (question, company)
+    combination. The evaluation computes how many of these evidence
+    passages are covered by the top-k retrieved chunks.
+    """
 
     question_id: str
     question: str
@@ -77,7 +114,13 @@ class EvalSample:
 
 @dataclass
 class ConfigResult:
-    """Metrics and metadata for one RQ1 configuration."""
+    """Metrics and metadata for one RQ1 configuration.
+
+    Stores both aggregate metrics (macro-averaged over all samples) and
+    per-ESRS-standard breakdowns. The details dict contains evaluation
+    coverage statistics, match diagnostics, and per-sample metrics for
+    detailed analysis.
+    """
 
     config_id: str
     chunk_strategy: str
@@ -86,4 +129,3 @@ class ConfigResult:
     metrics: dict[str, float]
     per_standard_metrics: dict[str, dict[str, float]]
     details: dict[str, Any] = field(default_factory=dict)
-

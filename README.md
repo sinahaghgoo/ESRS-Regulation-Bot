@@ -52,20 +52,21 @@ RQ3 evaluates the final system across deterministic metrics and rubric-based jud
 
 ## RQ1 Implementation Status (Current Codebase)
 
-The current codebase now contains a full **RQ1-only retrieval pipeline** under modular folders in `rag/`:
+The current codebase contains a full **RQ1-only retrieval pipeline** under modular folders in `rag/`:
 
-- `rag/config/` - environment/config constants and 54-config grid builder (3 chunking strategies × 3 chunk sizes × 6 retrieval methods)
-- `rag/data/` - report/golden-standard loading and normalization
-- `rag/chunking/` - fixed, structure-aware, and semantic chunkers
-- `rag/indexing/` - embedding service and Qdrant indexing
-- `rag/retrieval/` - dense, BM25 sparse, hybrid RRF, hybrid + cross-encoder rerank (`cross-encoder/ms-marco-MiniLM-L-6-v2`)
-- `rag/evaluation/` - RQ1 metrics and relevance alignment rules
-- `rag/pipeline/` - orchestration for preprocessing and evaluation
+- `rag/config/` — Environment/config constants and 54-config grid builder (3 chunking strategies × 3 chunk sizes × 6 retrieval methods).
+- `rag/data/` — Report and golden-standard loading, text normalisation, sentence splitting, and offset mapping utilities.
+- `rag/chunking/` — Fixed-size, structure-aware, and semantic chunking strategies with configurable overlap and token ceiling. Semantic chunking uses adjacent-sentence similarity with greedy group merging to produce chunks that approach the target token ceiling while preserving topical coherence.
+- `rag/indexing/` — OpenAI embedding service with deterministic caching and Qdrant local vector indexing.
+- `rag/retrieval/` — Dense (vector search), BM25 sparse (Okapi, k1=1.5, b=0.75 with global IDF), hybrid RRF (k=60), and cross-encoder reranking (`cross-encoder/ms-marco-MiniLM-L-6-v2`). All six method variants are evaluated.
+- `rag/evaluation/` — RQ1 relevance matching (configurable overlap threshold with span-based primary path and token-overlap fallback), metric computation (Recall@k, Precision@k, F1@k, nDCG@10, MRR@10, Budgeted Recall@4096), and statistical significance testing (bootstrap CIs, paired permutation tests, Cohen's d effect size).
+- `rag/pipeline/` — RQ1 orchestration with incremental result persistence and resume-on-interrupt support.
+- `rag/types.py` — Shared dataclasses forming the pipeline data model (`ReportDocument` → `ChunkRecord` → `RetrievalHit` → `EvalSample` → `ConfigResult`).
 
 Two RQ1 notebooks are included:
 
-- `notebooks/05_rq1_chunking_evaluation.ipynb` — runs the full 54-config evaluation, computes main effects, interaction heatmaps, and winner selection.
-- `notebooks/09_rq1_chunking_retrieval_walkthrough.ipynb` — qualitative walkthrough on one sample report showing chunking, retrieval, and ranking behavior.
+- `notebooks/05_rq1_chunking_evaluation.ipynb` — Runs the full 54-config evaluation, computes main effects, interaction heatmaps, and winner selection.
+- `notebooks/09_rq1_chunking_retrieval_walkthrough.ipynb` — Qualitative single-report walkthrough: inspect chunk output, compare retrieval methods, visualize ranking shifts.
 
 Both notebooks are structured with markdown sections explaining each step.
 
@@ -85,34 +86,69 @@ Source documents (PDF sustainability reports) are processed using **Azure Docume
 
 The preprocessing stage produces structured Markdown for each report, which is then segmented into chunks suitable for embedding and retrieval. The pipeline supports multiple chunking strategies that are compared in the evaluation:
 
-- **Fixed-size chunking**: segments the text into chunks of a predefined token length with configurable overlap, without regard for document structure.
-- **Structure-aware chunking**: leverages the heading hierarchy and section boundaries extracted during preprocessing to produce chunks that respect the logical structure of the report.
-- **Semantic chunking**: identifies chunk boundaries from sentence-level semantic coherence, subject to a target token ceiling.
+- **Fixed-size chunking**: Segments the text into chunks of a predefined token length (256, 512, or 1024 tokens) with 12.5% proportional overlap (32, 64, or 128 tokens), without regard for document structure. Serves as the baseline.
+- **Structure-aware chunking**: Leverages the H1–H3 heading hierarchy and section boundaries extracted during preprocessing. Sections smaller than the target ceiling are kept intact; oversized sections are split with the same token-window approach as fixed-size chunking, preserving the heading hierarchy as metadata.
+- **Semantic chunking**: Uses `sentence-transformers` (`all-MiniLM-L6-v2`) to compute cosine similarity between adjacent sentences. Splits where similarity drops below 0.5 to detect topic boundaries, then **greedily merges adjacent groups** up to the target token ceiling. This merging step ensures chunks are both topically coherent and close to the target size, avoiding the excessive fragmentation that raw sentence-level boundaries would produce.
 
 These strategies are evaluated jointly with chunk size and retrieval method in RQ1.
 
 ### 3. Embedding and Indexing
 
-Text chunks are embedded using OpenAI's `text-embedding-3-large` model (3072 dimensions). The resulting vectors are stored in **Qdrant**, an open-source vector database configured with local persistence for reproducibility. Each vector entry is stored alongside rich metadata including company name, reporting year, source file, header hierarchy, and associated ESRS identifiers, enabling fine-grained metadata filtering during retrieval.
+Text chunks are embedded using OpenAI's `text-embedding-3-large` model (3072 dimensions). The resulting vectors are stored in **Qdrant**, an open-source vector database configured with local persistence for reproducibility. Each vector entry is stored alongside rich metadata including company name, reporting year, source file, header hierarchy, and associated ESRS identifiers, enabling fine-grained metadata filtering during retrieval. Embeddings are cached deterministically to `data/artifacts/embedding_cache.json` to avoid redundant API calls across re-runs.
 
 ### 4. Retrieval (Hybrid Fusion)
 
 The retrieval stage combines two complementary search strategies:
 
-- **Dense retrieval**: semantic vector search over the Qdrant index, matching user queries to report chunks based on embedding similarity.
-- **Sparse retrieval**: BM25 keyword matching, which captures exact term overlap — particularly important for specific ESRS terminology and regulatory references.
+- **Dense retrieval**: Semantic vector search over the Qdrant index, matching user queries to report chunks based on embedding similarity.
+- **Sparse retrieval (BM25)**: Keyword matching using Okapi BM25 (k1=1.5, b=0.75), which captures exact term overlap — particularly important for specific ESRS terminology and regulatory references. IDF statistics are computed globally across all companies to provide stable vocabulary weights.
 
-RQ1 compares six retrieval modes: dense, dense + rerank, sparse, sparse + rerank, hybrid fusion via **Reciprocal Rank Fusion (RRF)** with k=60, and hybrid retrieval followed by reranking. Each base retrieval method is tested both with and without cross-encoder reranking. Metadata filters allow retrieval to be scoped to specific companies.
+RQ1 compares six retrieval modes: dense, dense + rerank, sparse, sparse + rerank, hybrid fusion via **Reciprocal Rank Fusion (RRF)** with k=60 (Cormack et al., 2009), and hybrid + rerank. Cross-encoder reranking uses `cross-encoder/ms-marco-MiniLM-L-6-v2` (22 M params) with a 3x candidate pool for reranking depth. Rerank scores are cached to disk for reproducibility.
 
 ### 5. Generation and Domain Adaptation
 
 The generation stage constructs the final answer through a multi-step process:
 
-- **ESRS context extraction**: a dedicated module queries the LLM with the full text of the relevant ESRS standard to extract only those disclosure requirements that pertain to the user's specific question.
-- **Answer generation**: the retrieved report passages and the extracted ESRS requirements are provided to the LLM as context for generating a structured answer.
-- **Anti-hallucination constraints**: system prompts explicitly instruct the model to ground its answers in the retrieved context and to refrain from introducing information not present in the source material.
-- **Compliance assessment**: the generation step requests a fulfillment level (Low / Medium / High), rationale, and disclosure gaps grounded in retrieved passages and extracted ESRS requirements.
-- **Cross-company comparison**: when multiple companies are selected, specialized generation logic produces a comparative analysis highlighting relative strengths, weaknesses, and differences in ESRS alignment.
+- **ESRS context extraction**: A dedicated module queries the LLM with the full text of the relevant ESRS standard to extract only those disclosure requirements that pertain to the user's specific question.
+- **Answer generation**: The retrieved report passages and the extracted ESRS requirements are provided to the LLM as context for generating a structured answer.
+- **Anti-hallucination constraints**: System prompts explicitly instruct the model to ground its answers in the retrieved context and to refrain from introducing information not present in the source material.
+- **Compliance assessment**: The generation step requests a fulfillment level (Low / Medium / High), rationale, and disclosure gaps grounded in retrieved passages and extracted ESRS requirements.
+- **Cross-company comparison**: When multiple companies are selected, specialized generation logic produces a comparative analysis highlighting relative strengths, weaknesses, and differences in ESRS alignment.
+
+---
+
+## Evaluation Framework
+
+### Relevance Matching (RQ1)
+
+A retrieved chunk is deemed relevant to a gold evidence passage when the textual overlap exceeds a configurable threshold (default 50%) of the gold passage length. The matching uses a two-tier approach:
+
+1. **Primary (span-based)**: Both gold passage and chunk are located as character spans inside the normalised full-report text. Overlap is computed positionally. This is exact and handles partial coverage from chunk boundary effects.
+2. **Fallback (token-level)**: When exact substring matching fails (e.g., due to formatting differences between the golden standard and the preprocessed report), a multiplicity-aware bag-of-words overlap is used. Gold passages shorter than 20 characters are skipped to avoid false positives.
+
+### Retrieval Metrics
+
+| Metric | Description |
+|---|---|
+| Recall@5, @10, @15 | Fraction of gold evidence passages recovered in the top-k retrieved chunks |
+| Precision@5, @10, @15 | Fraction of the top-k retrieved chunks that are relevant |
+| F1@5, @10, @15 | Harmonic mean of Precision@k and Recall@k |
+| nDCG@10 | Ranking quality that rewards placing multiple relevant chunks near the top |
+| MRR@10 | Mean Reciprocal Rank: how highly the first relevant chunk is ranked |
+| Budgeted Recall@4096 | Recall within a fixed 4096-token budget (normalises for chunk size) |
+
+**Primary metric:** `Recall@15` — the downstream generation step can only use evidence that retrieval surfaces within the top-15 context window.
+
+### Statistical Validation
+
+- **Bootstrap confidence intervals** (percentile method, 10,000 resamples) for all metrics.
+- **Paired permutation tests** (10,000 permutations, two-sided) for pairwise configuration comparisons.
+- **Cohen's d effect size** for measuring practical significance of differences.
+- **Standard deviations** reported for key metrics to support error bars in thesis tables.
+
+### Answer Quality Metrics (RQ2/RQ3)
+
+Token-level F1 score, BERTScore, LLM-as-a-judge scoring, citation correctness, faithfulness score, and hallucination rate. These are planned for RQ2 and RQ3.
 
 ---
 
@@ -144,42 +180,19 @@ The Golden Standard is a manually curated evaluation dataset containing ESRS-rel
 
 ### Models
 
-- **Embedding model**: `text-embedding-3-large` (OpenAI)
+- **Embedding model**: `text-embedding-3-large` (OpenAI, 3072 dimensions)
 - **Language model**: `gpt-5.2` (OpenAI)
-- **Vision language model**: configurable via `LLM_MODEL` (OpenAI, used for figure descriptions during preprocessing; default `gpt-5.2`)
+- **Reranker**: `cross-encoder/ms-marco-MiniLM-L-6-v2` (22 M params, local)
+- **Semantic chunking**: `sentence-transformers/all-MiniLM-L6-v2` (22 M params, local)
+- **Vision language model**: Configurable via `LLM_MODEL` (used for figure descriptions during preprocessing)
 
 ### Vector Database
 
 - **Qdrant** — open-source vector search engine, configured with local persistence. Used for storing and retrieving embeddings with metadata-based filtering.
-- **Important:** Qdrant is mandatory in this project.
-
----
-
-## Evaluation Framework
-
-The evaluation benchmarks different RAG pipeline configurations against the Golden Standard across four metric categories. The framework itself works per pipeline configuration. Each configuration is designed to isolate a specific variable that corresponds to one of the research questions. In practice, this means multiple pipeline configurations run through the same evaluation harness (Golden Standard comparison, retrieval metrics, answer quality metrics, etc.), and then the results by research question are compared.
-
-### Retrieval Metrics
-
-Recall@k, Precision@k, nDCG@k, and MRR@k. These metrics quantify how effectively the retrieval stage surfaces the correct passages from the sustainability reports.
-
-### Answer Quality Metrics
-
-Token-level F1 score, BERTScore, LLM-as-a-judge scoring, and citation correctness. These metrics assess the factual accuracy, semantic similarity, and source attribution quality of the generated answers relative to the Golden Standard.
-
-### Hallucination Metrics
-
-Faithfulness score, supported claim ratio, and hallucination rate. These metrics evaluate whether the generated answers remain grounded in the retrieved context or introduce unsupported claims.
-
-### Efficiency Metrics
-
-Latency, prompt size, token cost, and number of retrieved chunks. These metrics capture the computational and financial cost of each pipeline configuration.
 
 ---
 
 ## Notebooks
-
-The current codebase includes two RQ1 notebooks:
 
 | Notebook | Purpose |
 |---|---|
@@ -200,7 +213,7 @@ The Streamlit frontend provides an interactive interface for analyzing sustainab
 - Select the relevant ESRS chapter to scope the analysis.
 - Submit a natural-language question about sustainability disclosures.
 - View the generated answer alongside supporting report passages, applicable ESRS disclosure requirements, and the compliance fulfillment assessment (Low / Medium / High).
-- View the concrete pages from where the info is from!!
+- View the concrete pages from where the info is from.
 
 The application uses Qdrant for persistent per-company embeddings with metadata-based filtering.
 
@@ -265,7 +278,27 @@ Outputs are saved to `data/artifacts/evaluation_results/rq1/` and the best RQ1 c
 
 `notebooks/09_rq1_chunking_retrieval_walkthrough.ipynb` provides a detailed single-report chunking/retrieval walkthrough.
 
-### Step 3: Interactive Analysis
+### Step 3: Clean Up for Re-Run (after code changes)
+
+```bash
+# Delete cached results only (preserves embeddings and Qdrant):
+python cleanup_rq1_cache.py
+
+# Also rebuild semantic chunking Qdrant collections:
+python cleanup_rq1_cache.py --include-qdrant-semantic
+
+# Full rebuild (deletes all Qdrant collections):
+python cleanup_rq1_cache.py --include-all-qdrant
+```
+
+### Step 4: Run Tests
+
+```bash
+python tests/test_evaluation_metrics.py
+python tests/test_chunking.py
+```
+
+### Step 5: Interactive Analysis
 
 Launch the Streamlit application:
 
@@ -285,11 +318,12 @@ ESRS-Regulation-Bot/
 │   └── best_pipeline.yaml          # Auto-generated best pipeline manifest
 ├── data/
 │   ├── Reports_Pdf/                # Source sustainability reports (PDF)
-│   ├── Reports_md_clean/            # Preprocessed reports (cleaned Markdown)
+│   ├── Reports_md_clean/           # Preprocessed reports (cleaned Markdown)
 │   ├── ESRS_Standards_JSON/        # ESRS regulation files (JSON)
 │   └── artifacts/                  # Generated indices, chunks, embeddings, eval results
 │       ├── evaluation_results/rq1/ # Per-config results, chunk stats, winner JSON/CSV
-│       └── qdrant_storage/         # Local Qdrant persistence
+│       ├── qdrant_storage/         # Local Qdrant persistence
+│       └── embedding_cache.json    # Deterministic embedding cache
 ├── golden_standard/
 │   └── golden_standard.json        # 12 questions × 17 companies with evidence passages
 ├── notebooks/
@@ -300,21 +334,26 @@ ESRS-Regulation-Bot/
 │   │   └── settings.py             # Paths, constants, experiment grid builder
 │   ├── data/
 │   │   ├── loaders.py              # Report and golden-standard loading
-│   │   └── text_utils.py           # Normalization, sentence splitting, page offsets
+│   │   └── text_utils.py           # Normalisation, sentence splitting, page offsets
 │   ├── chunking/
 │   │   └── strategies.py           # Fixed, structure-aware, and semantic chunking
 │   ├── indexing/
-│   │   ├── embedder.py             # OpenAI embedding with caching
+│   │   ├── embedder.py             # OpenAI embedding with deterministic caching
 │   │   └── qdrant_index.py         # Qdrant local vector index
 │   ├── retrieval/
 │   │   └── methods.py              # Dense, BM25, RRF fusion, cross-encoder rerank
 │   ├── evaluation/
-│   │   └── metrics.py              # RQ1 relevance alignment and metric computation
+│   │   ├── metrics.py              # Relevance matching, metric computation
+│   │   └── statistical_tests.py    # Bootstrap CIs, permutation tests, effect sizes
 │   ├── pipeline/
 │   │   └── rq1_runner.py           # RQ1 orchestration and result persistence
-│   └── types.py                    # Shared dataclasses
+│   └── types.py                    # Shared dataclasses (pipeline data model)
+├── tests/
+│   ├── test_evaluation_metrics.py  # Unit tests for evaluation logic (28 tests)
+│   └── test_chunking.py            # Unit tests for chunking strategies (14 tests)
 ├── streamlit_app/
 │   └── app.py                      # Streamlit frontend (loads best_pipeline.yaml)
+├── cleanup_rq1_cache.py            # Script to clear cached results before re-run
 ├── run_preprocessing.py            # CLI: build chunks, embeddings, Qdrant indices
 ├── run_evaluation.py               # CLI: run full RQ1 evaluation matrix
 ├── requirements.txt
@@ -328,9 +367,12 @@ ESRS-Regulation-Bot/
 ## Development Guidelines
 
 - Modular Python-first design: core logic resides in reusable modules, not in notebooks.
+- All modules include detailed docstrings explaining both *what* each function does and *why* (for thesis readability).
 - Jupyter notebooks serve as orchestration layers for experimentation and evaluation.
 - Streamlit provides the user-facing frontend.
 - Pipeline configurations are defined via dictionaries for easy switching between experimental conditions.
 - All pipeline outputs are designed to be transparent, explainable, and auditable.
+- Unit tests cover evaluation metrics, chunking strategies, and statistical tests.
+- Cached results can be cleared with `cleanup_rq1_cache.py` for fresh re-runs after code changes.
 
 ---

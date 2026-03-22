@@ -44,62 +44,100 @@ Each chunking-strategy/size combination is evaluated with all six retrieval meth
 
 **Chunking strategies defined:**
 
-- **Fixed-size:** Segments text into chunks of 256, 512, or 1024 tokens (measured via `tiktoken.encoding_for_model("text-embedding-3-large")`) with proportional 12.5% overlap (32, 64, or 128 tokens), without regard for document structure.
+- **Fixed-size:** Segments text into chunks of 256, 512, or 1024 tokens (measured via `tiktoken.encoding_for_model("text-embedding-3-large")`) with proportional 12.5% overlap (32, 64, or 128 tokens), without regard for document structure. Serves as the baseline strategy.
 - **Document-structure-aware:** Splits at H1–H3 section boundaries extracted during preprocessing, producing chunks that respect the logical hierarchy of the sustainability report. The target chunk ceiling is set to 256, 512, or 1024 tokens, with fallback size-based splitting and proportional 12.5% overlap within oversized sections.
-- **Semantic:** Uses `sentence-transformers` (`all-MiniLM-L6-v2`) to compute cosine similarity between adjacent sentences. Splits where similarity drops below 0.5, subject to the selected 256-, 512-, or 1024-token ceiling.
+- **Semantic:** Uses `sentence-transformers` (`all-MiniLM-L6-v2`) to compute cosine similarity between adjacent sentences. Topic boundaries are detected where similarity drops below 0.5. Adjacent sentence groups are then **greedily merged** up to the target token ceiling (256, 512, or 1024 tokens). This merging step is critical: without it, raw semantic boundaries produce excessive fragmentation (individual sentences averaging ~75 tokens). The merge algorithm preserves topical coherence (groups are still bounded by detected topic transitions) while producing chunks that approach the target size, making the strategy directly comparable to fixed-size and structure-aware chunking under the same token budget.
 
 **Retrieval methods defined:**
 
 - **Dense:** Semantic vector search over Qdrant using `text-embedding-3-large` embeddings (3072 dimensions).
-- **Dense + Rerank:** Dense retrieval followed by cross-encoder reranking.
-- **Sparse (BM25):** Keyword matching using Okapi BM25 (k1=1.5, b=0.75), capturing exact ESRS terminology.
-- **Sparse + Rerank:** Sparse retrieval followed by cross-encoder reranking.
-- **Hybrid (RRF):** Dense and sparse results fused via Reciprocal Rank Fusion (k=60).
-- **Hybrid + Rerank:** Hybrid RRF results reranked using the local cross-encoder.
+- **Dense + Rerank:** Dense retrieval of 3x candidates followed by cross-encoder reranking.
+- **Sparse (BM25):** Keyword matching using Okapi BM25 (k1=1.5, b=0.75) with Robertson et al. (1994) IDF formulation. IDF statistics are computed globally across all companies to provide stable vocabulary weights for ESRS-specific terminology, regardless of which company is being queried.
+- **Sparse + Rerank:** Sparse retrieval of 3x candidates followed by cross-encoder reranking.
+- **Hybrid (RRF):** Dense and sparse results fused via Reciprocal Rank Fusion with k=60 (Cormack et al., 2009). Each system contributes 2x candidates to the fusion pool.
+- **Hybrid + Rerank:** Hybrid RRF of 3x candidates, then reranked using the cross-encoder.
+
+**Cross-encoder model:** `cross-encoder/ms-marco-MiniLM-L-6-v2` (22 M params, ~80 MB). This lightweight cross-encoder was chosen for practical evaluation on Apple Silicon; it is the most widely cited compact reranker in IR benchmarks. Reranking scores are cached to disk for deterministic re-runs. A larger model such as `BAAI/bge-reranker-v2-m3` (568 M params) could yield different outcomes but is not tested in this thesis.
 
 ### Evaluation
 
 **Evaluation is retrieval-only. No generation step is performed in RQ1.**
 
-Metrics are computed per configuration against the Golden Standard (12 questions × 17 companies). Because the retrieval unit is a **chunk** while the annotation unit in the Golden Standard is an **evidence passage with page metadata**, relevance is defined explicitly at the passage level. Each gold evidence passage is first mapped to the **normalized report text produced by preprocessing**, with page numbers retained as supporting metadata. A retrieved chunk is counted as relevant to a given gold passage if the overlap between the chunk span and the gold passage span covers at least **50% of the gold passage** by character span. This threshold is used to avoid giving credit for only marginal mention while still allowing fair matching when a chunk crosses page boundaries or slightly exceeds the gold annotation boundaries.
+#### Relevance Matching
 
-Matching and aggregation follow three additional rules for reproducibility. First, **recall is computed over unique gold evidence passages**: if multiple retrieved chunks match the same gold passage, that passage is counted only once. Second, **precision is computed over retrieved chunks**: a chunk is counted as relevant if it matches at least one gold evidence passage, even if it matches several. Third, if automatic span alignment fails for a small number of cases because of preprocessing artefacts or minor text differences, those cases are **manually reviewed and corrected once in the evaluation set**, after which the same fixed mapping is used for all configurations. Question-company pairs with no gold evidence passages are excluded from recall computation but retained for precision; no such pairs exist in this dataset.
+Metrics are computed per configuration against the Golden Standard (12 questions × 17 companies = 204 samples). Because the retrieval unit is a **chunk** while the annotation unit in the Golden Standard is an **evidence passage with page metadata**, relevance is defined explicitly at the passage level using a two-tier matching approach.
 
-Two complementary evaluation views are reported. The **primary analysis** uses a fixed ranked depth (`top-k = 15`) because the downstream generation stage ultimately consumes a bounded ranked list of retrieved chunks. In addition, a **budget-matched robustness check** is performed to control for the fact that larger chunks implicitly pass more text downstream at the same `k`. In this robustness check, ranked chunks are accumulated in order until a cumulative retrieval budget of **4,096 tokens** is reached, and recall is recomputed on that budgeted prefix. The boundary rule is: the chunk that first causes the cumulative token count to exceed 4,096 is included in full; accumulation then stops. This mirrors the behaviour of real inference systems that include a complete chunk rather than truncating mid-chunk. This makes the 256-, 512-, and 1024-token conditions directly comparable under an approximately equal context budget.
+**Primary path (span-based):** Both the gold evidence passage and the retrieved chunk are located as character spans inside the normalised full-report text. A chunk is counted as relevant when the overlap covers at least **50% of the gold passage** by character span. This threshold balances strictness (requiring substantial coverage of the annotated evidence) with tolerance for chunking boundary effects where a passage may be split across adjacent chunks.
+
+**Fallback path (token-level):** When the gold passage cannot be found as an exact substring (e.g., due to formatting differences between the manually curated golden standard and the preprocessed report text), a token-level overlap is used. A multiplicity-aware bag-of-words comparison counts each gold token at most as many times as it appears in the chunk, preventing inflated matches from repeated common words. The same 50% threshold applies. Gold passages shorter than 20 characters are excluded from the fallback path to avoid false positives.
+
+**Configurable threshold:** The 50% threshold is a parameter (`threshold` in `rag/evaluation/metrics.py`), not a hardcoded constant. The justification for this threshold choice is discussed in the thesis text.
+
+**References for the matching approach:**
+- Adlakha et al. (2023) "Evaluating Correctness and Faithfulness of Instruction-Following Models for Question Answering" — token F1 for passage-level matching.
+- TREC passage retrieval evaluation methodology (NIST) — span-based passage alignment.
+- Karpukhin et al. (2020) DPR evaluation — passage-level exact match with relaxed string matching.
+
+#### Aggregation Rules
+
+Matching and aggregation follow three rules for reproducibility:
+
+1. **Recall is computed over unique gold evidence passages**: if multiple retrieved chunks match the same gold passage, that passage is counted only once.
+2. **Precision is computed over retrieved chunks**: a chunk is counted as relevant if it matches at least one gold evidence passage, even if it matches several.
+3. If automatic span alignment fails for a small number of cases because of preprocessing artefacts or minor text differences, the token-overlap fallback handles them transparently. The diagnostic counters track how many checks took each path, ensuring full auditability.
+
+Question-company pairs with no gold evidence passages are excluded from recall computation but retained for precision; no such pairs exist in this dataset.
+
+#### Metrics
 
 | Metric | Description |
 |---|---|
 | Recall@5, @10, @15 | Fraction of gold evidence passages recovered in the top-k retrieved chunks |
 | Precision@5, @10, @15 | Fraction of the top-k retrieved chunks that are relevant |
-| nDCG@10 with binary relevance | Ranking quality that rewards placing multiple relevant chunks near the top of the ranked list |
-| MRR@10 | Mean Reciprocal Rank, measuring how highly the first relevant chunk is ranked |
-| Budgeted Recall@4096 tokens | Robustness metric: fraction of gold evidence passages recovered before the cumulative retrieved context exceeds 4,096 tokens |
+| F1@5, @10, @15 | Harmonic mean of Precision@k and Recall@k — balances coverage with noise |
+| nDCG@10 | Ranking quality with binary relevance, rewarding multiple relevant chunks near the top |
+| MRR@10 | Mean Reciprocal Rank: how highly the first relevant chunk is ranked |
+| Budgeted Recall@4096 tokens | Fraction of gold evidence passages recovered before cumulative context exceeds 4,096 tokens |
 
 **Primary metric:** `Recall@15`
 
 `Recall@15` is the primary model-selection criterion because the downstream generation step can only use evidence that retrieval surfaces within the final ranked context window. A configuration that retrieves slightly noisier results but captures more relevant evidence in the top 15 is therefore preferable to one that ranks a single relevant chunk very highly but misses additional supporting evidence.
 
-**Secondary metrics:** `Precision@15`, `nDCG@10`, and `MRR@10`
+**Secondary metrics:** `Precision@15`, `F1@15`, `nDCG@10`, and `MRR@10`
 
-These metrics distinguish configurations that achieve similar recall but differ in ranking quality and noise level. `nDCG@10` is especially important because many question-company pairs contain multiple gold evidence passages, making first-hit metrics such as MRR insufficient on their own.
+These metrics distinguish configurations that achieve similar recall but differ in ranking quality and noise level. `F1@15` provides a balanced view of precision-recall trade-offs. `nDCG@10` is especially important because many question-company pairs contain multiple gold evidence passages, making first-hit metrics such as MRR insufficient on their own.
 
 NOTE: MRR and nDCG are reported at k=10 following standard IR benchmark convention (TREC, MS-MARCO); extending to k=15 is omitted as the reciprocal rank contribution beyond rank 10 is negligible (≤ 0.033).
 
 **Robustness metric:** `Budgeted Recall@4096 tokens`
 
-This supplementary analysis tests whether the ranking of configurations remains stable once chunk-size conditions are compared under an approximately equal downstream token budget. If the same winning configuration performs best under both `Recall@15` and `Budgeted Recall@4096 tokens`, the RQ1 conclusion is treated as robust. If the winners differ, both results are reported and the trade-off between fixed-depth retrieval and budget-matched retrieval is discussed explicitly.
+This supplementary analysis tests whether the ranking of configurations remains stable once chunk-size conditions are compared under an approximately equal downstream token budget. Ranked chunks are accumulated in order until a cumulative retrieval budget of **4,096 tokens** is reached; recall is recomputed on that budgeted prefix. The budget check is applied **before** processing each chunk's evidence matches: a chunk that would cause the cumulative count to exceed the budget is excluded entirely. This makes the 256-, 512-, and 1024-token conditions directly comparable under an approximately equal context budget.
 
-**Analysis:**
+If the same winning configuration performs best under both `Recall@15` and `Budgeted Recall@4096 tokens`, the RQ1 conclusion is treated as robust. If the winners differ, both results are reported and the trade-off is discussed.
+
+#### Statistical Validation
+
+To ensure observed performance differences are not due to random variation, statistical significance testing is performed:
+
+- **Bootstrap confidence intervals** (percentile method, 10,000 resamples, seed=42) for all reported metrics. The 95% CI is reported alongside point estimates.
+- **Paired permutation tests** (two-sided, 10,000 permutations, seed=42) for pairwise comparisons of top-ranked configurations on the primary metric. P-values are reported with a significance threshold of α=0.05.
+- **Cohen's d effect size** for each pairwise comparison, providing a measure of practical significance beyond p-values. Effect sizes are interpreted following standard conventions: small (d=0.2), medium (d=0.5), large (d=0.8).
+- **Standard deviations** for key metrics (`recall@15`, `precision@15`, `f1@15`, `ndcg@10`, `mrr@10`) are computed across the 204 evaluation samples to support error bars in thesis visualisations.
+
+These tests are implemented in `rag/evaluation/statistical_tests.py` and can be run via `tests/test_evaluation_metrics.py`.
+
+#### Analysis
+
 - Main effect of chunking strategy, averaged across chunk sizes and retrieval methods
 - Main effect of chunk size, averaged across chunking strategies and retrieval methods
 - Main effect of retrieval method, averaged across chunking strategies and chunk sizes
 - Interaction effects visualised through heatmaps of `Recall@15` across all 54 combinations, with particular attention to chunk size × retrieval and chunking strategy × retrieval
 - Robustness comparison of configuration rankings under `Recall@15` versus `Budgeted Recall@4096 tokens` to test whether conclusions are driven by chunk-size budget effects
 - Per-ESRS-standard breakdown to identify whether certain standards benefit more from specific configurations
-
+- Statistical significance testing of top-ranked configurations via paired permutation tests with bootstrap confidence intervals
 
 **Descriptive statistics reported per chunking strategy and chunk size:**
-- Total chunk count, mean token count, standard deviation, size distribution histogram for each strategy-size combination
+- Total chunk count, mean token count, standard deviation, median, 25th/75th percentile, size distribution histogram for each strategy-size combination
 - One qualitative example showing how the same passage is segmented at 256, 512, and 1024 tokens under fixed-size and document-structure-aware chunking
 
 ### Expected Output
@@ -223,7 +261,8 @@ A comprehensive characterisation of the system's strengths and failure modes acr
 | **Evaluation type** | Retrieval-only | Generation | Generation + qualitative |
 | **LLM calls** | None (embeddings only) | 408 generation calls | 204 generation + judge calls |
 | **Primary metric** | Recall@15 | Compliance accuracy | LLM judge overall score |
-| **Secondary metrics** | Precision@k, MRR, Coverage | Token F1, Faithfulness | Citation F1, Hallucination rate, Error analysis |
+| **Secondary metrics** | Precision@k, F1@k, MRR, nDCG | Token F1, Faithfulness | Citation F1, Hallucination rate, Error analysis |
+| **Statistical validation** | Bootstrap CIs, permutation tests | Per-standard breakdown | Confusion matrix, gap analysis |
 | **Configs evaluated** | 54 | 2 | 1 |
 | **Golden Standard coverage** | 12 questions × 17 companies | 12 questions × 17 companies | 12 questions × 17 companies |
 
@@ -236,11 +275,14 @@ A comprehensive characterisation of the system's strengths and failure modes acr
 | Embedding model | `text-embedding-3-large` (3072 dims) | State-of-the-art general embedding; consistent across all configs |
 | Chunk size | `RQ1:` 256, 512, 1024 tokens; `RQ2–RQ3:` best-performing size from RQ1 | Tests retrieval granularity in RQ1 while keeping downstream evaluation tied to the winning configuration |
 | Chunk overlap | 12.5% of chunk size (`RQ1:` 32, 64, 128 tokens) | Prevents boundary information loss while keeping overlap proportional across chunk sizes |
+| Relevance threshold | 50% gold passage coverage | Balances strictness with tolerance for chunking boundary effects; justification discussed in the thesis text |
 | Top-k retrieved | 15 chunks | Sufficient coverage without excessive context window noise |
 | RRF constant | k = 60 | Standard value from Cormack et al. (2009) |
+| Reranker candidate pool | 3× top-k | Provides sufficient depth for cross-encoder reranking without excessive computation |
 | LLM (generator) | `gpt-5.2` | Consistent across all generation steps |
 | Temperature | 0.1 | Near-deterministic generation for reproducibility |
 | Dataset | 17 companies, 2024 reports | European energy and chemical sector; all ESRS-aligned |
+| Statistical tests | Bootstrap 10K resamples, permutation 10K, seed=42 | Ensures reproducibility of significance testing |
 
 ---
 
@@ -250,5 +292,6 @@ A comprehensive characterisation of the system's strengths and failure modes acr
 2. **Interaction effects within retrieval hyperparameters not explored.** RRF constant k=60 and top-k=15 are fixed; their optimal values under different chunking strategies are not evaluated.
 3. **Self-evaluation risk in RQ3.** If the same model is used as both generator and judge, scores may be inflated. A different judge model is strongly recommended; if unavailable, this is stated as an explicit limitation.
 4. **Golden Standard is manually curated.** Ground-truth answers and compliance levels were assigned by a single annotator. Inter-annotator agreement was not measured. Findings should be interpreted relative to this benchmark, not as absolute ground truth.
-5. **Sequential dependency between RQs.** RQ2 and RQ3 use the best config from RQ1. If the RQ1 winner is marginal (small score differences between configurations), the downstream conclusions inherit that uncertainty.
-6. **Reranker model size.** All rerank conditions (`Dense + Rerank`, `Sparse + Rerank`, `Hybrid + Rerank`) use the local `cross-encoder/ms-marco-MiniLM-L-6-v2` cross-encoder (~80 MB, 22 M params). This lightweight model was chosen for practical evaluation on Apple Silicon; a larger model such as `BAAI/bge-reranker-v2-m3` could yield different reranking outcomes but is not tested in this thesis.
+5. **Sequential dependency between RQs.** RQ2 and RQ3 use the best config from RQ1. If the RQ1 winner is marginal (small score differences between configurations), the downstream conclusions inherit that uncertainty. Statistical significance testing mitigates this by quantifying whether the winner is meaningfully better than runner-up configurations.
+6. **Reranker model size.** All rerank conditions use the local `cross-encoder/ms-marco-MiniLM-L-6-v2` cross-encoder (~80 MB, 22 M params). This lightweight model was chosen for practical evaluation on Apple Silicon; a larger model such as `BAAI/bge-reranker-v2-m3` could yield different reranking outcomes but is not tested in this thesis.
+7. **Semantic similarity threshold fixed at 0.5.** The cosine similarity threshold for semantic chunking boundary detection is fixed at 0.5. Lower values would produce fewer boundaries (larger initial groups), while higher values would produce more boundaries (finer splitting). This parameter is not varied in the factorial design and is acknowledged as a controlled variable.
