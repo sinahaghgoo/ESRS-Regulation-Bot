@@ -235,7 +235,7 @@ Each generated answer is scored on five dimensions using a structured rubric (1â
 | Citation quality | Are source pages cited correctly and helpfully? |
 | Compliance assessment | Is the Low/Medium/High judgment correct and well-evidenced? |
 
-> **Judge model:** A different model from the generator must be used to avoid self-evaluation bias. If `gpt-5.2` is used for generation, a separate model (e.g., Claude claude-sonnet-4-6 via the Anthropic API) should be used as judge. This is a methodological requirement, not optional. The use of the same model as both generator and judge is acknowledged as a limitation if a different model is unavailable.
+> **Judge model:** A different model from the generator must be used to avoid self-evaluation bias. If `gpt-5-mini` is used for generation, a separate model (e.g., Claude claude-sonnet-4-6 via the Anthropic API) should be used as judge. This is a methodological requirement, not optional. The use of the same model as both generator and judge is acknowledged as a limitation if a different model is unavailable.
 
 **Error analysis (qualitative + quantitative):**
 
@@ -277,7 +277,7 @@ A comprehensive characterisation of the system's strengths and failure modes acr
 | Top-k retrieved | 15 chunks | Sufficient coverage without excessive context window noise |
 | RRF constant | k = 60 | Standard value from Cormack et al. (2009) |
 | Reranker candidate pool | 3Ã— top-k | Provides sufficient depth for cross-encoder reranking without excessive computation |
-| LLM (generator) | `gpt-5.2` | Consistent across all generation steps |
+| LLM (generator) | `gpt-5-mini` | Consistent across all generation steps |
 | Temperature | 0.1 | Near-deterministic generation for reproducibility |
 | Dataset | 17 companies, 2024 reports | European energy and chemical sector; all ESRS-aligned |
 | Statistical tests | Bootstrap 10K resamples, permutation 10K, seed=42 | Ensures reproducibility of significance testing |

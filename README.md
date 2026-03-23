@@ -181,7 +181,7 @@ The Golden Standard is a manually curated evaluation dataset containing ESRS-rel
 ### Models
 
 - **Embedding model**: `text-embedding-3-large` (OpenAI, 3072 dimensions)
-- **Language model**: `gpt-5.2` (OpenAI)
+- **Language model**: `gpt-5-mini` (OpenAI)
 - **Reranker**: `cross-encoder/ms-marco-MiniLM-L-6-v2` (22 M params, local)
 - **Semantic chunking**: `sentence-transformers/all-MiniLM-L6-v2` (22 M params, local)
 - **Vision language model**: Configurable via `LLM_MODEL` (used for figure descriptions during preprocessing)
@@ -236,7 +236,7 @@ OPENAI_API_KEY=your_openai_api_key
 AZURE_DOCUMENT_INTELLIGENCE_ENDPOINT=your_azure_endpoint
 AZURE_DOCUMENT_INTELLIGENCE=your_azure_key
 EMBEDDING_MODEL=text-embedding-3-large
-LLM_MODEL=gpt-5.2
+LLM_MODEL=gpt-5-mini
 ```
 
 ### 3. Start Qdrant (required)

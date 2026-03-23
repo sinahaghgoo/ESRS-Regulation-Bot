@@ -1,6 +1,6 @@
 """
 Extract company report text from PDF files using Azure Document Intelligence
-and GPT-5.2 for figure semantic descriptions.
+and GPT-5 mini for figure semantic descriptions.
 
 Output: structured markdown matching the format in data/company reports final/
 """
@@ -29,7 +29,7 @@ load_dotenv()
 AZURE_ENDPOINT = os.getenv("AZURE_DOCUMENT_INTELLIGENCE_ENDPOINT")
 AZURE_KEY = os.getenv("AZURE_DOCUMENT_INTELLIGENCE")
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-LLM_MODEL = os.getenv("LLM_MODEL", "gpt-5.2")
+LLM_MODEL = os.getenv("LLM_MODEL", "gpt-5-mini")
 
 SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
 PDF_DIR = os.path.join(SCRIPT_DIR, "data", "company reports")
@@ -145,7 +145,7 @@ def extract_figure_image(pdf_path: str, figure, dpi: int = 200) -> str | None:
 
 
 def classify_and_describe_figure(base64_image: str, caption_hint: str = "") -> str | None:
-    """Use GPT-5.2 to classify a figure and generate a semantic description.
+    """Use GPT-5 mini to classify a figure and generate a semantic description.
     
     Returns the semantic description or None if the figure is decorative.
     """
@@ -205,7 +205,7 @@ Important: Write the description as a continuous paragraph, not as bullet points
             return result
 
         except Exception as e:
-            print(f"   GPT-5.2 error (attempt {attempt + 1}/{max_retries}): {e}")
+            print(f"   GPT-5 mini error (attempt {attempt + 1}/{max_retries}): {e}")
             if attempt < max_retries - 1:
                 time.sleep(5 * (attempt + 1))
             else:
@@ -314,12 +314,12 @@ def build_markdown(result, pdf_path: str, empty_figcaptions: bool = False) -> st
                 html = table_to_html(table)
                 replacements.append((offset, length, "\n" + html + "\n", "table", i))
     
-    # Figures -> process with GPT-5.2 or insert empty figcaptions
+    # Figures -> process with GPT-5 mini or insert empty figcaptions
     figure_count = len(result.figures) if result.figures else 0
     if empty_figcaptions:
         print(f"[3/4] Processing {figure_count} figures with empty figcaptions...")
     else:
-        print(f"[3/4] Processing {figure_count} figures with GPT-5.2...")
+        print(f"[3/4] Processing {figure_count} figures with GPT-5 mini...")
     if result.figures:
         if empty_figcaptions:
             for i, figure in enumerate(result.figures):
