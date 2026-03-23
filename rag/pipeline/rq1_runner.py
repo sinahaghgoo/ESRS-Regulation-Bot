@@ -11,8 +11,7 @@ For each configuration, the pipeline:
 1. Builds chunks for the strategy/size pair (cached across retrieval methods).
 2. Embeds chunks and indexes them in Qdrant.
 3. Retrieves top-15 chunks per golden-standard sample.
-4. Computes Recall@k, Precision@k, F1@k, nDCG@10, MRR@10, and
-   Budgeted Recall@4096.
+4. Computes Recall@k, Precision@k, MRR@10, and Budgeted Recall@4096.
 
 Results are persisted incrementally so interrupted runs can resume.
 """
@@ -31,6 +30,7 @@ from pathlib import Path
 from rag.chunking.strategies import build_chunks_for_config
 from rag.config.settings import (
     PipelineConfig,
+    RQ1_RESULTS_VERSION,
     RQ1_RESULTS_DIR,
     build_rq1_experiment_grid,
     ensure_dirs,
@@ -45,6 +45,7 @@ from rag.retrieval.methods import Retriever
 from rag.types import ConfigResult
 
 _logger = logging.getLogger(__name__)
+_RESULTS_VERSION = RQ1_RESULTS_VERSION
 
 # Page marker regex used to strip markers before normalising report text.
 _PAGE_RE = re.compile(r"<!--\s*Report Page\s+\d+\s*-->")
@@ -81,6 +82,16 @@ class RQ1PipelineRunner:
         self._config_details_dir = RQ1_RESULTS_DIR / "config_details"
         self._config_details_dir.mkdir(parents=True, exist_ok=True)
 
+    def close(self) -> None:
+        """Release local resources such as the Qdrant file lock."""
+        try:
+            self.qdrant.close()
+        except Exception:
+            pass
+
+    def __del__(self) -> None:
+        self.close()
+
     def prepare_for_config(self, config: PipelineConfig) -> Retriever:
         """Build or retrieve the Retriever for a given configuration.
 
@@ -88,11 +99,20 @@ class RQ1PipelineRunner:
         they are only built once per pair, even across multiple retrieval
         methods.
         """
+        dense_methods = {"dense", "dense_rerank", "hybrid_rrf", "hybrid_rerank"}
         key = (config.chunk_strategy, config.chunk_size)
         if key not in self._chunks_cache:
             chunks, stats = build_chunks_for_config(self.reports, config)
             self._chunks_cache[key] = chunks
+            stats_path = (
+                RQ1_RESULTS_DIR
+                / f"chunk_stats_{config.chunk_strategy}_{config.chunk_size}.json"
+            )
+            stats_path.write_text(
+                json.dumps(asdict(stats), indent=2), encoding="utf-8"
+            )
 
+        if config.retrieval_method in dense_methods:
             collection = self.qdrant.collection_name(
                 config.chunk_strategy, config.chunk_size
             )
@@ -105,20 +125,13 @@ class RQ1PipelineRunner:
             else:
                 print(
                     f"  Building Qdrant collection {collection} "
-                    f"({len(chunks)} chunks)"
+                    f"({len(self._chunks_cache[key])} chunks)"
                 )
-                vectors = self.embedder.embed_texts([c.text for c in chunks])
+                vectors = self.embedder.embed_texts(
+                    [c.retrieval_text for c in self._chunks_cache[key]]
+                )
                 self.qdrant.recreate_collection(collection)
-                self.qdrant.upsert_chunks(collection, chunks, vectors)
-
-            # Persist chunk statistics for the thesis.
-            stats_path = (
-                RQ1_RESULTS_DIR
-                / f"chunk_stats_{config.chunk_strategy}_{config.chunk_size}.json"
-            )
-            stats_path.write_text(
-                json.dumps(asdict(stats), indent=2), encoding="utf-8"
-            )
+                self.qdrant.upsert_chunks(collection, self._chunks_cache[key], vectors)
 
         rid = config.config_id
         if rid not in self._retriever_cache:
@@ -148,100 +161,103 @@ class RQ1PipelineRunner:
 
         Returns a summary dict with the winning configuration and its metrics.
         """
-        grid = build_rq1_experiment_grid()
-        if self.dry_run:
-            grid = [grid[0]]
+        try:
+            grid = build_rq1_experiment_grid()
+            if self.dry_run:
+                grid = [grid[0]]
 
-        report_text_by_company = self._build_report_text_index()
-        config_results = self._load_existing_results()
-        completed_ids = {res.config_id for res in config_results}
-        error_log = RQ1_RESULTS_DIR / "rq1_errors.log"
-        failed_configs: list[str] = []
+            report_text_by_company = self._build_report_text_index()
+            config_results = self._load_existing_results()
+            completed_ids = {res.config_id for res in config_results}
+            error_log = RQ1_RESULTS_DIR / "rq1_errors.log"
+            failed_configs: list[str] = []
 
-        for config in grid:
-            if config.config_id in completed_ids:
-                print(f"Skipping already completed config: {config.config_id}")
-                continue
+            for config in grid:
+                if config.config_id in completed_ids:
+                    print(f"Skipping already completed config: {config.config_id}")
+                    continue
 
-            print(f"Running config: {config.config_id}")
-            try:
-                retriever = self.prepare_for_config(config)
-                result = evaluate_configuration(
-                    config_id=config.config_id,
-                    chunk_strategy=config.chunk_strategy,
-                    chunk_size=config.chunk_size,
-                    retrieval_method=config.retrieval_method,
-                    samples=self.samples,
-                    retrieve_fn=lambda q, company, top_k, _r=retriever: _r.retrieve(
-                        q, company, top_k
-                    ),
-                    report_text_by_company=report_text_by_company,
-                )
-                config_results.append(result)
-                completed_ids.add(config.config_id)
-                self._save_config_detail(result)
-
-                # Persist incremental ranking so interrupted runs can resume.
-                ranked_partial = sorted(
-                    config_results,
-                    key=lambda x: x.metrics["recall@15"],
-                    reverse=True,
-                )
-                self._persist_results(ranked_partial, ranked_partial[0])
-
-                # Print progress with diagnostics.
-                diag = result.details.get("match_diagnostics", {})
-                span_ratio = diag.get("span_path_ratio", 0.0)
-                print(
-                    f"  -> completed: recall@15 = {result.metrics['recall@15']:.4f}"
-                    f"  (span match: {span_ratio:.1%}, "
-                    f"token fallback: {diag.get('token_fallback_checks', 0)} checks)"
-                )
-            except Exception as exc:
-                tb = traceback.format_exc()
-                msg = f"[FAILED] {config.config_id}: {exc}\n{tb}\n"
-                print(msg)
-                failed_configs.append(config.config_id)
-                with error_log.open("a", encoding="utf-8") as f:
-                    f.write(msg)
-            finally:
-                # Free memory between configs — critical on Apple Silicon.
-                if config.config_id in self._retriever_cache:
-                    del self._retriever_cache[config.config_id]
-                gc.collect()
-
-        if failed_configs:
-            print(f"\n{len(failed_configs)} configs failed: {failed_configs}")
-            print(f"  Error details: {error_log}")
-
-        # --- Final ranking and winner selection ---
-        ranked = sorted(
-            config_results, key=lambda x: x.metrics["recall@15"], reverse=True
-        )
-        winner = ranked[0]
-        self._persist_results(ranked, winner)
-
-        save_best_pipeline_config(
-            {
-                **pipeline_config_to_dict(
-                    PipelineConfig(
-                        chunk_strategy=winner.chunk_strategy,
-                        chunk_size=winner.chunk_size,
-                        retrieval_method=winner.retrieval_method,
+                print(f"Running config: {config.config_id}")
+                try:
+                    retriever = self.prepare_for_config(config)
+                    result = evaluate_configuration(
+                        config_id=config.config_id,
+                        chunk_strategy=config.chunk_strategy,
+                        chunk_size=config.chunk_size,
+                        retrieval_method=config.retrieval_method,
+                        samples=self.samples,
+                        retrieve_fn=lambda q, company, top_k, _r=retriever: _r.retrieve(
+                            q, company, top_k
+                        ),
+                        report_text_by_company=report_text_by_company,
                     )
-                ),
-                "_best_pipeline_name": winner.config_id,
-                "_selection_reason": (
-                    f"Highest recall@15 ({winner.metrics['recall@15']:.4f}) in RQ1."
-                ),
-            }
-        )
+                    config_results.append(result)
+                    completed_ids.add(config.config_id)
+                    self._save_config_detail(result)
 
-        return {
-            "winner": winner.config_id,
-            "winner_metrics": winner.metrics,
-            "evaluated_configs": len(ranked),
-        }
+                    # Persist incremental ranking so interrupted runs can resume.
+                    ranked_partial = sorted(
+                        config_results,
+                        key=lambda x: x.metrics["recall@15"],
+                        reverse=True,
+                    )
+                    self._persist_results(ranked_partial, ranked_partial[0])
+
+                    # Print progress with diagnostics.
+                    diag = result.details.get("match_diagnostics", {})
+                    span_ratio = diag.get("span_path_ratio", 0.0)
+                    print(
+                        f"  -> completed: recall@15 = {result.metrics['recall@15']:.4f}"
+                        f"  (span match: {span_ratio:.1%}, "
+                        f"token fallback: {diag.get('token_fallback_checks', 0)} checks)"
+                    )
+                except Exception as exc:
+                    tb = traceback.format_exc()
+                    msg = f"[FAILED] {config.config_id}: {exc}\n{tb}\n"
+                    print(msg)
+                    failed_configs.append(config.config_id)
+                    with error_log.open("a", encoding="utf-8") as f:
+                        f.write(msg)
+                finally:
+                    # Free memory between configs — critical on Apple Silicon.
+                    if config.config_id in self._retriever_cache:
+                        del self._retriever_cache[config.config_id]
+                    gc.collect()
+
+            if failed_configs:
+                print(f"\n{len(failed_configs)} configs failed: {failed_configs}")
+                print(f"  Error details: {error_log}")
+
+            # --- Final ranking and winner selection ---
+            ranked = sorted(
+                config_results, key=lambda x: x.metrics["recall@15"], reverse=True
+            )
+            winner = ranked[0]
+            self._persist_results(ranked, winner)
+
+            save_best_pipeline_config(
+                {
+                    **pipeline_config_to_dict(
+                        PipelineConfig(
+                            chunk_strategy=winner.chunk_strategy,
+                            chunk_size=winner.chunk_size,
+                            retrieval_method=winner.retrieval_method,
+                        )
+                    ),
+                    "_best_pipeline_name": winner.config_id,
+                    "_selection_reason": (
+                        f"Highest recall@15 ({winner.metrics['recall@15']:.4f}) in RQ1."
+                    ),
+                }
+            )
+
+            return {
+                "winner": winner.config_id,
+                "winner_metrics": winner.metrics,
+                "evaluated_configs": len(ranked),
+            }
+        finally:
+            self.close()
 
     # ------------------------------------------------------------------
     # Persistence helpers
@@ -254,6 +270,7 @@ class RQ1PipelineRunner:
             "chunk_strategy": result.chunk_strategy,
             "chunk_size": result.chunk_size,
             "retrieval_method": result.retrieval_method,
+            "results_version": _RESULTS_VERSION,
             "metrics": result.metrics,
             "per_standard_metrics": result.per_standard_metrics,
             "details": result.details,
@@ -267,6 +284,8 @@ class RQ1PipelineRunner:
         for path in sorted(self._config_details_dir.glob("*.json")):
             try:
                 payload = json.loads(path.read_text(encoding="utf-8"))
+                if payload.get("results_version") != _RESULTS_VERSION:
+                    continue
                 out.append(
                     ConfigResult(
                         config_id=payload["config_id"],
@@ -294,6 +313,7 @@ class RQ1PipelineRunner:
                 "chunk_strategy": res.chunk_strategy,
                 "chunk_size": res.chunk_size,
                 "retrieval_method": res.retrieval_method,
+                "results_version": _RESULTS_VERSION,
                 **res.metrics,
             }
             rows.append(row)
@@ -313,6 +333,7 @@ class RQ1PipelineRunner:
             json.dumps(
                 {
                     "config_id": winner.config_id,
+                    "results_version": _RESULTS_VERSION,
                     "metrics": winner.metrics,
                     "per_standard_metrics": winner.per_standard_metrics,
                     "evaluation_coverage": winner.details,

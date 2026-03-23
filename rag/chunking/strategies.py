@@ -29,7 +29,7 @@ from dataclasses import dataclass
 
 import tiktoken
 
-from rag.config.settings import PipelineConfig
+from rag.config.settings import PipelineConfig, configure_local_torch_runtime
 from rag.data.text_utils import (
     extract_marker_spans,
     normalize_text,
@@ -60,6 +60,7 @@ def _get_semantic_model():
     if _SEMANTIC_MODEL is None:
         from sentence_transformers import SentenceTransformer  # type: ignore
 
+        configure_local_torch_runtime()
         _SEMANTIC_MODEL = SentenceTransformer("all-MiniLM-L6-v2")
     return _SEMANTIC_MODEL
 
@@ -141,6 +142,96 @@ def _iter_structured_sections(raw_text: str) -> list[tuple[str, int, int, list[s
             sections.append((text, start_offset, current_offset, hierarchy.copy()))
 
     return sections
+
+
+def _common_hierarchy_prefix(hierarchies: list[list[str]]) -> list[str]:
+    """Return the shared hierarchy prefix across multiple sections."""
+    if not hierarchies:
+        return []
+    prefix: list[str] = []
+    for parts in zip(*hierarchies):
+        if len(set(parts)) == 1 and parts[0].strip():
+            prefix.append(parts[0])
+        else:
+            break
+    return prefix
+
+
+def _pack_structured_sections(
+    sections: list[tuple[str, int, int, list[str]]],
+    max_tokens: int,
+    enc,
+) -> list[tuple[str, int, int, list[str]]]:
+    """Greedily pack adjacent small sections up to the target token ceiling.
+
+    A pure "one chunk per heading section" policy creates many tiny
+    structure-aware chunks, especially for short subheadings, bullets, and
+    table fragments. That weakens dense retrieval because the section title
+    and body are separated across many under-filled chunks. Packing adjacent
+    sections preserves section boundaries while producing chunks that are
+    closer to the configured size budget.
+    """
+    if not sections:
+        return []
+
+    packed: list[tuple[str, int, int, list[str]]] = []
+    buffer: list[tuple[str, int, int, list[str]]] = []
+    buffer_tokens = 0
+
+    def flush_buffer() -> None:
+        nonlocal buffer, buffer_tokens
+        if not buffer:
+            return
+        if len(buffer) == 1:
+            packed.append(buffer[0])
+        else:
+            text = "\n\n".join(part[0].strip() for part in buffer if part[0].strip()).strip()
+            hierarchy = _common_hierarchy_prefix([part[3] for part in buffer]) or buffer[0][3]
+            packed.append((text, buffer[0][1], buffer[-1][2], hierarchy))
+        buffer = []
+        buffer_tokens = 0
+
+    for section in sections:
+        section_tokens = _token_count(section[0], enc)
+        if section_tokens > max_tokens:
+            flush_buffer()
+            packed.append(section)
+            continue
+
+        if not buffer:
+            buffer = [section]
+            buffer_tokens = section_tokens
+            continue
+
+        if buffer_tokens + section_tokens <= max_tokens:
+            buffer.append(section)
+            buffer_tokens += section_tokens
+            continue
+
+        flush_buffer()
+        buffer = [section]
+        buffer_tokens = section_tokens
+
+    flush_buffer()
+
+    # Absorb orphan fragments left at the end of the packing pass.
+    min_viable = max(32, int(max_tokens * 0.25))
+    if len(packed) <= 1:
+        return packed
+
+    consolidated: list[tuple[str, int, int, list[str]]] = [packed[0]]
+    for section in packed[1:]:
+        section_tokens = _token_count(section[0], enc)
+        if section_tokens < min_viable:
+            prev = consolidated[-1]
+            merged_text = f"{prev[0].rstrip()}\n\n{section[0].lstrip()}".strip()
+            if _token_count(merged_text, enc) <= int(max_tokens * 1.15):
+                hierarchy = _common_hierarchy_prefix([prev[3], section[3]]) or prev[3] or section[3]
+                consolidated[-1] = (merged_text, prev[1], section[2], hierarchy)
+                continue
+        consolidated.append(section)
+
+    return consolidated
 
 
 # ---------------------------------------------------------------------------
@@ -249,10 +340,17 @@ def _merge_small_groups(
     greedily merges adjacent groups as long as the combined token count
     stays within *max_tokens*, producing chunks that are closer to the
     target size while preserving semantic coherence.
+
+    Two-pass approach:
+    1. First pass: greedily merge adjacent groups within budget.
+    2. Second pass: absorb any remaining very small groups (< 30% of
+       target) into their predecessor, slightly exceeding the ceiling
+       if needed. This prevents orphan fragments that hurt retrieval.
     """
     if not groups:
         return []
 
+    # --- Pass 1: greedy merge within budget ---
     merged: list[list[str]] = []
     current_group: list[str] = list(groups[0])
     current_tokens = _token_count(" ".join(current_group), enc)
@@ -274,6 +372,23 @@ def _merge_small_groups(
     # Flush remaining.
     if current_group:
         merged.append(current_group)
+
+    # --- Pass 2: absorb orphan fragments ---
+    # Groups smaller than 30% of the target size are merged into their
+    # predecessor even if it slightly exceeds the ceiling. This prevents
+    # very small chunks (e.g., single sentences of ~30 tokens at a 256
+    # target) that individually cover too little text for effective retrieval.
+    min_viable = int(max_tokens * 0.30)
+    if len(merged) > 1:
+        consolidated: list[list[str]] = [merged[0]]
+        for group in merged[1:]:
+            group_tokens = _token_count(" ".join(group), enc)
+            if group_tokens < min_viable:
+                # Absorb into the previous group.
+                consolidated[-1].extend(group)
+            else:
+                consolidated.append(group)
+        merged = consolidated
 
     return merged
 
@@ -389,7 +504,12 @@ def build_chunks_for_config(
         elif config.chunk_strategy == "structure_aware":
             # --- Structure-aware chunking: respect heading boundaries ---
             windows = []
-            for section_text, s_off, _, hierarchy in _iter_structured_sections(text):
+            sections = _pack_structured_sections(
+                _iter_structured_sections(text),
+                config.chunk_size,
+                enc,
+            )
+            for section_text, s_off, _, hierarchy in sections:
                 if _token_count(section_text, enc) <= config.chunk_size:
                     # Section fits within the target size — keep intact.
                     windows.append(

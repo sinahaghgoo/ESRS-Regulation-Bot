@@ -18,6 +18,7 @@ if str(PROJECT_ROOT) not in sys.path:
 from rag.chunking.strategies import (
     _iter_structured_sections,
     _merge_small_groups,
+    _pack_structured_sections,
     _split_by_tokens,
     _encoding,
     _token_count,
@@ -71,6 +72,14 @@ class TestStructuredSections:
         sections = _iter_structured_sections(text)
         for sec_text, _, _, _ in sections:
             assert "Report Page" not in sec_text
+
+    def test_pack_small_adjacent_sections(self):
+        enc = _encoding()
+        text = "# A\nShort section.\n## B\nAnother short section.\n## C\nFinal short section."
+        sections = _iter_structured_sections(text)
+        packed = _pack_structured_sections(sections, max_tokens=200, enc=enc)
+        assert len(packed) < len(sections)
+        assert "Another short section" in packed[0][0]
 
 
 # ---------------------------------------------------------------------------

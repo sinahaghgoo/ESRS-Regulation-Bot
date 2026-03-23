@@ -2,6 +2,7 @@
 
 from __future__ import annotations
 
+import hashlib
 import json
 import logging
 import os
@@ -26,6 +27,53 @@ BEST_PIPELINE_PATH = CONFIG_DIR / "best_pipeline.yaml"
 
 QDRANT_STORAGE_PATH = ARTIFACTS_DIR / "qdrant_storage"
 QDRANT_COLLECTION_PREFIX = "rq1_esrs"
+
+
+def _fingerprint_files(*relative_paths: str) -> str:
+    """Return a short content fingerprint for the given project files.
+
+    RQ1 artifacts are easy to invalidate accidentally: retrieval logic,
+    chunking, and evaluation matching evolve independently, while the saved
+    CSV/JSON outputs still look valid to the notebook. Fingerprinting the
+    source files that define those behaviours makes stale results explicit
+    and prevents the notebook from silently analysing old experiments.
+    """
+    digest = hashlib.sha1()
+    for rel in relative_paths:
+        path = PROJECT_ROOT / rel
+        digest.update(rel.encode("utf-8"))
+        try:
+            digest.update(path.read_bytes())
+        except FileNotFoundError:
+            digest.update(b"<missing>")
+    return digest.hexdigest()[:10]
+
+
+# Qdrant collections only depend on chunk construction and the indexed text
+# representation, so we keep the fingerprint scoped to those inputs.
+RQ1_INDEX_VERSION = _fingerprint_files(
+    "rag/chunking/strategies.py",
+    "rag/data/text_utils.py",
+    "rag/types.py",
+)
+
+# Evaluation results depend on the matching logic plus the chunk/index version.
+RQ1_EVAL_VERSION = _fingerprint_files(
+    "rag/evaluation/metrics.py",
+    "rag/data/text_utils.py",
+    "rag/types.py",
+)
+
+# Rerank scores must be refreshed whenever the reranker input construction or
+# score blending changes.
+RERANK_CACHE_VERSION = _fingerprint_files(
+    "rag/retrieval/methods.py",
+    "rag/types.py",
+)
+
+RQ1_RESULTS_VERSION = (
+    f"index={RQ1_INDEX_VERSION};eval={RQ1_EVAL_VERSION};rerank={RERANK_CACHE_VERSION}"
+)
 
 CHUNK_STRATEGIES = ("fixed", "structure_aware", "semantic")
 CHUNK_SIZES = (256, 512, 1024)
@@ -171,7 +219,55 @@ def get_openai_api_key(required: bool = False) -> str | None:
     return key
 
 
+def get_local_model_thread_limit(default_cap: int = 4) -> int:
+    """Thread cap for local transformer inference on Apple Silicon.
+
+    The evaluation is intentionally sequential, but PyTorch can still fan out
+    aggressively inside each rerank or semantic-chunking call. A modest thread
+    cap keeps CPU and memory pressure predictable on laptops while remaining
+    overridable via ``RQ1_TORCH_THREADS``.
+    """
+    raw = os.getenv("RQ1_TORCH_THREADS")
+    if raw:
+        try:
+            return max(1, int(raw))
+        except ValueError:
+            pass
+
+    cpu_count = os.cpu_count() or default_cap
+    return max(1, min(default_cap, max(1, cpu_count // 2)))
+
+
+def configure_local_torch_runtime() -> None:
+    """Apply conservative PyTorch thread limits for local sentence models."""
+    try:
+        import torch
+    except Exception:
+        return
+
+    thread_limit = get_local_model_thread_limit()
+    try:
+        torch.set_num_threads(thread_limit)
+    except Exception:
+        pass
+    try:
+        torch.set_num_interop_threads(max(1, min(2, thread_limit)))
+    except Exception:
+        # PyTorch only allows this to be set once per process.
+        pass
+
+
+def get_rerank_batch_size(default: int = 8) -> int:
+    """Batch size for cross-encoder reranking with a safe laptop-friendly default."""
+    raw = os.getenv("RQ1_RERANK_BATCH_SIZE")
+    if raw:
+        try:
+            return max(1, int(raw))
+        except ValueError:
+            pass
+    return default
+
+
 def pipeline_config_to_dict(config: PipelineConfig) -> dict:
     """Serialize dataclass config."""
     return asdict(config)
-

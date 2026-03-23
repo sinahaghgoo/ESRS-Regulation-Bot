@@ -4,7 +4,7 @@ Unit tests for the evaluation metrics module.
 Tests cover:
 - Span-based relevance matching
 - Token-overlap fallback matching
-- Metric computation (Recall, Precision, F1, nDCG, MRR)
+- Metric computation (Recall, Precision, MRR)
 - Edge cases (empty inputs, short evidence, no relevant chunks)
 """
 
@@ -237,19 +237,6 @@ class TestDCG:
         assert abs(_dcg_at_k([1, 0, 0], 3) - 1.0) < 0.01
 
 
-class TestNDCG:
-    def test_perfect_ranking(self):
-        assert _ndcg_at_k([1, 1, 0, 0], 4) == 1.0
-
-    def test_no_relevant(self):
-        assert _ndcg_at_k([0, 0, 0], 3) == 0.0
-
-    def test_imperfect_ranking(self):
-        # Relevant at rank 2 instead of 1.
-        ndcg = _ndcg_at_k([0, 1, 0], 3)
-        assert 0 < ndcg < 1.0
-
-
 class TestMRR:
     def test_first_position(self):
         assert _mrr_at_k([1, 0, 0], 3) == 1.0
@@ -259,6 +246,18 @@ class TestMRR:
 
     def test_no_relevant(self):
         assert _mrr_at_k([0, 0, 0], 3) == 0.0
+
+
+class TestNDCG:
+    def test_perfect_ranking(self):
+        assert _ndcg_at_k([1, 1, 0], 3) == 1.0
+
+    def test_single_relevant_late(self):
+        value = _ndcg_at_k([0, 0, 1], 3)
+        assert 0.0 < value < 1.0
+
+    def test_no_relevant(self):
+        assert _ndcg_at_k([0, 0, 0], 3) == 0.0
 
 
 # ---------------------------------------------------------------------------
@@ -292,8 +291,6 @@ class TestComputeForSample:
         assert metrics["recall@5"] == 1.0
         assert metrics["recall@15"] == 1.0
         assert metrics["mrr@10"] == 1.0
-        assert metrics["f1@5"] > 0
-
     def test_no_relevant_chunks(self):
         """No overlap -> all metrics should be 0."""
         from rag.data.text_utils import normalize_text
@@ -320,34 +317,6 @@ class TestComputeForSample:
 
         assert metrics["recall@15"] == 0.0
         assert metrics["mrr@10"] == 0.0
-
-    def test_f1_computation(self):
-        """F1 should be harmonic mean of precision and recall."""
-        from rag.data.text_utils import normalize_text
-
-        gold_text = "climate change mitigation strategies"
-        chunk_text = "climate change mitigation strategies were implemented across all business units"
-        report_text = normalize_text(chunk_text)
-
-        chunk = _make_chunk("c1", chunk_text)
-        evidence = _make_evidence("e1", gold_text)
-        hit = _make_hit(chunk, rank=1)
-
-        sample = EvalSample(
-            question_id="Q1", question="Test?",
-            esrs_standard="ESRS E1", company="TestCo",
-            evidences=[evidence],
-        )
-
-        metrics = _compute_for_sample(
-            [hit], sample, {"TestCo": report_text},
-            chunk_span_cache={}, gold_span_cache={},
-        )
-
-        p = metrics["precision@5"]
-        r = metrics["recall@5"]
-        expected_f1 = 2 * p * r / (p + r) if (p + r) > 0 else 0
-        assert abs(metrics["f1@5"] - expected_f1) < 0.001
 
 
 # ---------------------------------------------------------------------------

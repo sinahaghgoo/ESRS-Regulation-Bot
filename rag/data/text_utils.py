@@ -9,6 +9,7 @@ libraries, ensuring reproducibility across environments.
 from __future__ import annotations
 
 import re
+import unicodedata
 from collections.abc import Iterable
 
 # Whitespace normalisation regex: collapses all whitespace (including
@@ -18,21 +19,87 @@ _WS_RE = re.compile(r"\s+")
 # Page marker regex: matches comments injected during PDF preprocessing.
 _PAGE_RE = re.compile(r"<!--\s*Report Page\s+(\d+)\s*-->")
 
+# Markdown formatting patterns for stripping in normalisation.
+# These patterns are carefully designed to remove ONLY formatting artifacts
+# that differ between golden standard text (plain PDF text) and preprocessed
+# Markdown report text, without altering actual content.
+_MD_BOLD_ITALIC_RE = re.compile(r"\*{1,3}|_{1,3}")  # *, **, ***, _, __, ___
+_MD_LINK_RE = re.compile(r"\[([^\]]*)\]\([^)]*\)")  # [text](url) → text
+_MD_IMAGE_RE = re.compile(r"!\[([^\]]*)\]\([^)]*\)")  # ![alt](url) → alt
+_MD_HEADING_RE = re.compile(r"^#{1,6}\s+", re.MULTILINE)  # ## Heading → Heading
+_MD_INLINE_CODE_RE = re.compile(r"`([^`]*)`")  # `code` → code
+# Note: HTML tag stripping is intentionally omitted. Sustainability reports
+# frequently use < and > in text (e.g., "< 15 kgCO2e/boe", ">50%"), and
+# a naive <[^>]+> regex would catastrophically match these as tags and
+# remove large portions of content. Page marker comments are stripped
+# separately before normalisation via the PAGE_RE pattern.
+_MD_BULLET_RE = re.compile(r"^\s*[-*+]\s+", re.MULTILINE)  # - item → item
+# Numbered list: match only simple "1. " or "1) " patterns at start of line,
+# NOT section references like "1.2" or "3.1.4" (which are content, not formatting).
+_MD_NUMBERED_RE = re.compile(r"^\s*\d+[)]\s+", re.MULTILINE)  # 1) item → item
+# Table separators: only replace pipes that are part of table structure,
+# not standalone pipes in prose. We replace pipe-space or space-pipe patterns.
+_MD_TABLE_SEP_RE = re.compile(r"\s*\|\s*")  # | separators → space
+
+# Unicode normalisation: map common fancy characters to ASCII equivalents.
+_UNICODE_REPLACEMENTS = {
+    "\u2018": "'",   # left single quote
+    "\u2019": "'",   # right single quote / apostrophe
+    "\u201c": '"',   # left double quote
+    "\u201d": '"',   # right double quote
+    "\u2013": "-",   # en dash
+    "\u2014": "-",   # em dash
+    "\u2015": "-",   # horizontal bar
+    "\u2026": "...", # ellipsis
+    "\u00b7": " ",   # middle dot
+    "\u2022": " ",   # bullet
+    "\u00ad": "",    # soft hyphen
+    "\u200b": "",    # zero-width space
+    "\u200c": "",    # zero-width non-joiner
+    "\u200d": "",    # zero-width joiner
+    "\ufeff": "",    # BOM / zero-width no-break space
+}
+
 
 def normalize_text(text: str) -> str:
     """Normalise text for stable matching between chunks and gold evidences.
 
     Operations:
     1. Replace non-breaking spaces (\\u00a0) with regular spaces.
-    2. Collapse all whitespace sequences into single spaces.
-    3. Strip leading/trailing whitespace.
-    4. Lowercase.
+    2. Apply Unicode normalisation (NFC) and replace fancy quotes/dashes.
+    3. Strip Markdown formatting (bold, italic, links, headings, bullets).
+    4. Remove residual HTML tags.
+    5. Collapse all whitespace sequences into single spaces.
+    6. Strip leading/trailing whitespace.
+    7. Lowercase.
 
-    This normalisation ensures that minor formatting differences between
-    the golden standard annotations and the preprocessed report text do
-    not cause false negatives in relevance matching.
+    This aggressive normalisation ensures that formatting differences between
+    the golden standard annotations (often plain text copied from PDFs) and
+    the preprocessed Markdown report text do not cause false negatives in
+    span-based relevance matching.
     """
+    # Unicode normalisation to canonical form.
+    text = unicodedata.normalize("NFC", text)
+
+    # Replace non-breaking spaces.
     text = text.replace("\u00a0", " ")
+
+    # Replace common Unicode punctuation with ASCII equivalents.
+    for char, replacement in _UNICODE_REPLACEMENTS.items():
+        text = text.replace(char, replacement)
+
+    # Strip Markdown formatting artifacts.
+    # Order matters: links/images before bold/italic (they may contain markers).
+    text = _MD_IMAGE_RE.sub(r"\1", text)        # images before links
+    text = _MD_LINK_RE.sub(r"\1", text)          # [text](url) → text
+    text = _MD_INLINE_CODE_RE.sub(r"\1", text)   # `code` → code
+    text = _MD_BOLD_ITALIC_RE.sub("", text)      # bold/italic markers
+    text = _MD_HEADING_RE.sub("", text)          # heading markers
+    text = _MD_BULLET_RE.sub("", text)           # bullet markers
+    text = _MD_NUMBERED_RE.sub("", text)         # numbered list markers
+    text = _MD_TABLE_SEP_RE.sub(" ", text)       # table separators
+
+    # Final whitespace normalisation and lowercase.
     text = _WS_RE.sub(" ", text).strip().lower()
     return text
 

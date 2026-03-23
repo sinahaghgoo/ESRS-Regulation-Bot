@@ -7,7 +7,11 @@ from dataclasses import asdict
 from qdrant_client import QdrantClient
 from qdrant_client.http import models as qmodels
 
-from rag.config.settings import QDRANT_COLLECTION_PREFIX, QDRANT_STORAGE_PATH
+from rag.config.settings import (
+    QDRANT_COLLECTION_PREFIX,
+    QDRANT_STORAGE_PATH,
+    RQ1_INDEX_VERSION,
+)
 from rag.types import ChunkRecord
 
 
@@ -39,7 +43,8 @@ class QdrantChunkIndex:
 
     @staticmethod
     def collection_name(strategy: str, size: int) -> str:
-        return f"{QDRANT_COLLECTION_PREFIX}_{strategy}_{size}".lower()
+        version = RQ1_INDEX_VERSION.replace(".", "_")
+        return f"{QDRANT_COLLECTION_PREFIX}_{version}_{strategy}_{size}".lower()
 
     def collection_point_count(self, collection_name: str) -> int:
         """Return the number of points in the collection, or 0 if it does not exist."""
@@ -73,6 +78,7 @@ class QdrantChunkIndex:
                 "strategy": chunk.strategy,
                 "chunk_size": chunk.chunk_size,
                 "text": chunk.text,
+                "retrieval_text": chunk.retrieval_text,
                 "normalized_text": chunk.normalized_text,
                 "token_count": chunk.token_count,
                 "start_char": chunk.start_char,
@@ -118,4 +124,3 @@ class QdrantChunkIndex:
             chunk_id = str(payload.get("chunk_id", res.id))
             out.append((chunk_id, float(res.score), payload))
         return out
-

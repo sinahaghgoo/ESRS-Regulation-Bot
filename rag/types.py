@@ -60,6 +60,21 @@ class ChunkRecord:
     header_hierarchy: list[str] = field(default_factory=list)
     metadata: dict[str, Any] = field(default_factory=dict)
 
+    @property
+    def retrieval_text(self) -> str:
+        """Text representation used for indexing and ranking.
+
+        Structure-aware and semantic chunks often rely on their section
+        headings for semantic context. Prefixing the chunk body with the
+        heading hierarchy makes that context available to dense retrieval,
+        BM25, and reranking without changing the chunk text used for
+        evaluation matching.
+        """
+        header = " > ".join(part.strip() for part in self.header_hierarchy if part.strip())
+        if header:
+            return f"[Section: {header}] {self.text}"
+        return self.text
+
 
 @dataclass
 class RetrievalHit:

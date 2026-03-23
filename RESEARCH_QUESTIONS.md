@@ -94,8 +94,6 @@ Question-company pairs with no gold evidence passages are excluded from recall c
 |---|---|
 | Recall@5, @10, @15 | Fraction of gold evidence passages recovered in the top-k retrieved chunks |
 | Precision@5, @10, @15 | Fraction of the top-k retrieved chunks that are relevant |
-| F1@5, @10, @15 | Harmonic mean of Precision@k and Recall@k — balances coverage with noise |
-| nDCG@10 | Ranking quality with binary relevance, rewarding multiple relevant chunks near the top |
 | MRR@10 | Mean Reciprocal Rank: how highly the first relevant chunk is ranked |
 | Budgeted Recall@4096 tokens | Fraction of gold evidence passages recovered before cumulative context exceeds 4,096 tokens |
 
@@ -103,11 +101,11 @@ Question-company pairs with no gold evidence passages are excluded from recall c
 
 `Recall@15` is the primary model-selection criterion because the downstream generation step can only use evidence that retrieval surfaces within the final ranked context window. A configuration that retrieves slightly noisier results but captures more relevant evidence in the top 15 is therefore preferable to one that ranks a single relevant chunk very highly but misses additional supporting evidence.
 
-**Secondary metrics:** `Precision@15`, `F1@15`, `nDCG@10`, and `MRR@10`
+**Secondary metrics:** `Precision@15` and `MRR@10`
 
-These metrics distinguish configurations that achieve similar recall but differ in ranking quality and noise level. `F1@15` provides a balanced view of precision-recall trade-offs. `nDCG@10` is especially important because many question-company pairs contain multiple gold evidence passages, making first-hit metrics such as MRR insufficient on their own.
+These metrics distinguish configurations that achieve similar recall but differ in ranking quality and noise level. `Precision@15` quantifies how much irrelevant noise enters the retrieval context. `MRR@10` captures how quickly the system surfaces the first relevant chunk — an intuitive measure of ranking quality.
 
-NOTE: MRR and nDCG are reported at k=10 following standard IR benchmark convention (TREC, MS-MARCO); extending to k=15 is omitted as the reciprocal rank contribution beyond rank 10 is negligible (≤ 0.033).
+NOTE: MRR is reported at k=10 following standard IR benchmark convention (TREC, MS-MARCO); extending to k=15 is omitted as the reciprocal rank contribution beyond rank 10 is negligible (≤ 0.033).
 
 **Robustness metric:** `Budgeted Recall@4096 tokens`
 
@@ -122,7 +120,7 @@ To ensure observed performance differences are not due to random variation, stat
 - **Bootstrap confidence intervals** (percentile method, 10,000 resamples, seed=42) for all reported metrics. The 95% CI is reported alongside point estimates.
 - **Paired permutation tests** (two-sided, 10,000 permutations, seed=42) for pairwise comparisons of top-ranked configurations on the primary metric. P-values are reported with a significance threshold of α=0.05.
 - **Cohen's d effect size** for each pairwise comparison, providing a measure of practical significance beyond p-values. Effect sizes are interpreted following standard conventions: small (d=0.2), medium (d=0.5), large (d=0.8).
-- **Standard deviations** for key metrics (`recall@15`, `precision@15`, `f1@15`, `ndcg@10`, `mrr@10`) are computed across the 204 evaluation samples to support error bars in thesis visualisations.
+- **Standard deviations** for key metrics (`recall@15`, `precision@15`, `mrr@10`) are computed across the 204 evaluation samples to support error bars in thesis visualisations.
 
 These tests are implemented in `rag/evaluation/statistical_tests.py` and can be run via `tests/test_evaluation_metrics.py`.
 
@@ -261,7 +259,7 @@ A comprehensive characterisation of the system's strengths and failure modes acr
 | **Evaluation type** | Retrieval-only | Generation | Generation + qualitative |
 | **LLM calls** | None (embeddings only) | 408 generation calls | 204 generation + judge calls |
 | **Primary metric** | Recall@15 | Compliance accuracy | LLM judge overall score |
-| **Secondary metrics** | Precision@k, F1@k, MRR, nDCG | Token F1, Faithfulness | Citation F1, Hallucination rate, Error analysis |
+| **Secondary metrics** | Precision@k, MRR@10 | Token F1, Faithfulness | Citation F1, Hallucination rate, Error analysis |
 | **Statistical validation** | Bootstrap CIs, permutation tests | Per-standard breakdown | Confusion matrix, gap analysis |
 | **Configs evaluated** | 54 | 2 | 1 |
 | **Golden Standard coverage** | 12 questions × 17 companies | 12 questions × 17 companies | 12 questions × 17 companies |

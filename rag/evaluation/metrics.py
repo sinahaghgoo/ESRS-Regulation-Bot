@@ -53,6 +53,37 @@ _TOKEN_RE = re.compile(r"\w+")
 DEFAULT_RELEVANCE_THRESHOLD = 0.5
 
 
+def _anchor_candidates(needle: str) -> list[tuple[int, str]]:
+    """Generate distinctive anchors from the start and middle of *needle*.
+
+    Gold evidence passages often start mid-paragraph relative to the report
+    text. Looking only at the first few characters misses these cases, so we
+    probe multiple anchor positions and verify them with token overlap.
+    """
+    cleaned = needle.strip()
+    if len(cleaned) < 30:
+        return []
+
+    positions = [
+        0,
+        max(0, len(cleaned) // 4 - 20),
+        max(0, len(cleaned) // 2 - 20),
+    ]
+    widths = ((80, 24), (60, 20), (40, 15))
+    seen: set[str] = set()
+    anchors: list[tuple[int, str]] = []
+
+    for start in positions:
+        for width, min_len in widths:
+            anchor = cleaned[start : start + width].lstrip(" .,;:-–—•·()[]{}\"'")
+            anchor = anchor.rstrip(" .,;:-–—•·()[]{}\"'")
+            if len(anchor) < min_len or anchor in seen:
+                continue
+            seen.add(anchor)
+            anchors.append((start, anchor))
+    return anchors
+
+
 # ---------------------------------------------------------------------------
 # Low-level text matching utilities
 # ---------------------------------------------------------------------------
@@ -60,16 +91,53 @@ DEFAULT_RELEVANCE_THRESHOLD = 0.5
 def _find_span(text: str, needle: str) -> tuple[int, int] | None:
     """Find the first occurrence of *needle* in *text* and return (start, end).
 
-    Returns None if *needle* is empty or not found. This is the core of
-    the span-based matching: both gold evidence and chunk are located as
-    character ranges inside the normalised full-report text so that their
-    overlap can be computed positionally.
+    Returns None if *needle* is empty or not found. Uses a two-tier approach:
+
+    1. **Exact match**: Direct substring search (fast path).
+    2. **Sliding-window approximate match**: When exact match fails — often
+       due to minor formatting residue (stray punctuation, hyphenation,
+       numbering artefacts) — we attempt a relaxed search. We take the first
+       60 characters of the needle, strip non-alphanumeric prefixes, and
+       search for this anchor in the text. If found, we verify that the
+       surrounding region has >= 80% token overlap with the full needle.
+       This recovers span positions for near-miss passages while maintaining
+       high precision (80% threshold prevents false matches).
+
+    This is the core of the span-based matching: both gold evidence and
+    chunk are located as character ranges inside the normalised full-report
+    text so that their overlap can be computed positionally.
     """
     if not needle:
         return None
+    # --- Tier 1: exact substring match ---
     idx = text.find(needle)
     if idx >= 0:
         return (idx, idx + len(needle))
+
+    # --- Tier 2: approximate anchor-based match ---
+    best_span: tuple[int, int] | None = None
+    best_overlap = 0.0
+
+    for anchor_start, anchor in _anchor_candidates(needle):
+        idx = text.find(anchor)
+        while idx >= 0:
+            span_start = max(0, idx - anchor_start)
+            span_end = min(len(text), span_start + len(needle))
+            window_start = max(0, span_start - 20)
+            window_end = min(len(text), span_end + 80)
+            window = text[window_start:window_end]
+
+            overlap = _token_overlap_ratio(needle, window)
+            if overlap > best_overlap:
+                best_overlap = overlap
+                best_span = (span_start, span_end)
+            if overlap >= 0.80:
+                return (span_start, span_end)
+            idx = text.find(anchor, idx + 1)
+
+    # Keep a slightly stricter fallback for the best approximate hit.
+    if best_span is not None and best_overlap >= 0.88:
+        return best_span
     return None
 
 
@@ -269,6 +337,13 @@ def _budgeted_recall(
     This metric equalises the comparison across chunk sizes: a system
     using 1024-token chunks gets fewer chunks in the budget than one
     using 256-token chunks, making results directly comparable.
+
+    Boundary semantics: tokens are counted **before** the relevance
+    check.  If adding the current chunk's tokens would push the
+    cumulative count past *token_budget*, the loop exits immediately
+    and that chunk is **excluded** from evaluation.  This means the
+    last included chunk always fits entirely within the budget — no
+    partial-chunk accounting is needed.
     """
     seen_gold: set[str] = set()
     consumed = 0
@@ -485,7 +560,8 @@ def evaluate_configuration(
         "recall@5", "recall@10", "recall@15",
         "precision@5", "precision@10", "precision@15",
         "f1@5", "f1@10", "f1@15",
-        "ndcg@10", "mrr@10",
+        "ndcg@10",
+        "mrr@10",
         "budgeted_recall@4096",
     ]
     aggregate = {m: mean([r[m] for r in metric_rows]) for m in metric_names}
