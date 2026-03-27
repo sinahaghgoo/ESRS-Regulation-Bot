@@ -360,6 +360,187 @@ def build_question_level_results(
 
 
 # ---------------------------------------------------------------------------
+# Effect size, power analysis, and diagnostic helpers
+# ---------------------------------------------------------------------------
+
+def _cohens_d(deltas: list[float]) -> dict[str, object]:
+    """Compute Cohen's d for paired question-level deltas.
+
+    Cohen's d = mean(deltas) / stdev(deltas).
+    Magnitude thresholds follow Cohen (1988):
+      |d| < 0.2  → negligible
+      0.2-0.5    → small
+      0.5-0.8    → medium
+      > 0.8      → large
+    """
+    if len(deltas) < 2:
+        return {"cohens_d": 0.0, "effect_magnitude": "negligible"}
+    sd = stdev(deltas)
+    if sd == 0:
+        return {"cohens_d": 0.0, "effect_magnitude": "negligible"}
+    d = mean(deltas) / sd
+    abs_d = abs(d)
+    if abs_d < 0.2:
+        magnitude = "negligible"
+    elif abs_d < 0.5:
+        magnitude = "small"
+    elif abs_d < 0.8:
+        magnitude = "medium"
+    else:
+        magnitude = "large"
+    return {"cohens_d": d, "effect_magnitude": magnitude}
+
+
+def _post_hoc_power(
+    n: int,
+    effect_size: float,
+    alpha: float = 0.05,
+) -> dict[str, object]:
+    """Post-hoc power analysis using normal approximation to the sign test.
+
+    For the sign test with n discordant pairs under the alternative
+    that P(positive) = Phi(d/sqrt(2)), the power is computed via the
+    normal approximation to the binomial.
+
+    Also computes the minimum detectable effect size (MDES) at 80% power.
+    """
+    # Normal CDF helper (no scipy dependency).
+    def _norm_cdf(x: float) -> float:
+        return 0.5 * (1.0 + math.erf(x / math.sqrt(2.0)))
+
+    # Normal inverse CDF approximation (Abramowitz & Stegun 26.2.23).
+    def _norm_ppf(p: float) -> float:
+        if p <= 0:
+            return -math.inf
+        if p >= 1:
+            return math.inf
+        if p < 0.5:
+            return -_norm_ppf(1 - p)
+        # Rational approximation for 0.5 <= p < 1
+        t = math.sqrt(-2.0 * math.log(1.0 - p))
+        c0, c1, c2 = 2.515517, 0.802853, 0.010328
+        d1, d2, d3 = 1.432788, 0.189269, 0.001308
+        return t - (c0 + c1 * t + c2 * t * t) / (1.0 + d1 * t + d2 * t * t + d3 * t * t * t)
+
+    if n < 2:
+        return {"achieved_power": math.nan, "mdes_80pct": math.nan}
+
+    z_alpha = _norm_ppf(1.0 - alpha / 2.0)
+
+    # Under H_a, P(positive delta) via sign test ≈ Phi(d / sqrt(2))
+    abs_d = abs(effect_size)
+    p_alt = _norm_cdf(abs_d / math.sqrt(2.0))
+    # Power = P(reject H0 | H_a) using normal approximation
+    # Z = (X - n*0.5) / sqrt(n*0.25) where X ~ Bin(n, p_alt)
+    mu_alt = n * p_alt
+    sigma = math.sqrt(n * 0.25)
+    if sigma == 0:
+        achieved_power = 0.0
+    else:
+        # Critical value under H0
+        crit = 0.5 * n + z_alpha * sigma
+        achieved_power = 1.0 - _norm_cdf((crit - mu_alt) / math.sqrt(n * p_alt * (1 - p_alt))) if p_alt < 1 else 1.0
+    achieved_power = max(0.0, min(1.0, achieved_power))
+
+    # MDES: find d such that power = 0.80 via binary search
+    z_beta = _norm_ppf(0.80)
+    lo_d, hi_d = 0.0, 5.0
+    for _ in range(100):
+        mid_d = (lo_d + hi_d) / 2.0
+        p_mid = _norm_cdf(mid_d / math.sqrt(2.0))
+        if p_mid >= 1.0:
+            hi_d = mid_d
+            continue
+        mu_mid = n * p_mid
+        sigma_mid = math.sqrt(n * p_mid * (1 - p_mid))
+        if sigma_mid == 0:
+            hi_d = mid_d
+            continue
+        power_mid = 1.0 - _norm_cdf((crit - mu_mid) / sigma_mid)
+        if power_mid < 0.80:
+            lo_d = mid_d
+        else:
+            hi_d = mid_d
+    mdes = (lo_d + hi_d) / 2.0
+
+    return {
+        "achieved_power": round(achieved_power, 4),
+        "mdes_80pct": round(mdes, 4),
+    }
+
+
+def _prediction_bias_diagnosis(
+    rows: list["RQ2SampleResult"],
+) -> dict[str, object]:
+    """Diagnose whether ESRS context systematically shifts predicted labels.
+
+    Computes the mean ordinal prediction for each condition and reports
+    the difference.  A positive shift means the treatment condition
+    predicts *higher* fulfillment on average.
+    """
+    with_ords: list[int] = []
+    without_ords: list[int] = []
+    for row in rows:
+        if not row.success:
+            continue
+        pred_ord = _LABEL_ORD.get(normalize_label(row.predicted_fulfillment_level))
+        if pred_ord is None:
+            continue
+        if row.condition == "with_esrs_context":
+            with_ords.append(pred_ord)
+        elif row.condition == "without_esrs_context":
+            without_ords.append(pred_ord)
+
+    if not with_ords or not without_ords:
+        return {"mean_ordinal_with": math.nan, "mean_ordinal_without": math.nan,
+                "ordinal_shift": math.nan, "interpretation": "insufficient_data"}
+
+    mean_with = mean(with_ords)
+    mean_without = mean(without_ords)
+    shift = mean_with - mean_without
+    if abs(shift) < 0.05:
+        interpretation = "no_systematic_bias"
+    elif shift > 0:
+        interpretation = "context_shifts_predictions_upward"
+    else:
+        interpretation = "context_shifts_predictions_downward"
+
+    return {
+        "mean_ordinal_with": round(mean_with, 4),
+        "mean_ordinal_without": round(mean_without, 4),
+        "ordinal_shift": round(shift, 4),
+        "interpretation": interpretation,
+    }
+
+
+def _direction_summary(
+    question_rows: list[dict[str, object]],
+    metric: str = "macro_f1",
+) -> dict[str, object]:
+    """Count how many questions improved, degraded, or were unchanged."""
+    improved = 0
+    degraded = 0
+    unchanged = 0
+    for qr in question_rows:
+        delta = qr.get(f"{metric}_delta")
+        if delta is None or (isinstance(delta, float) and math.isnan(delta)):
+            continue
+        d = float(delta)
+        if d > 0:
+            improved += 1
+        elif d < 0:
+            degraded += 1
+        else:
+            unchanged += 1
+    return {
+        "n_improved": improved,
+        "n_degraded": degraded,
+        "n_unchanged": unchanged,
+        "metric": metric,
+    }
+
+
+# ---------------------------------------------------------------------------
 # Paired statistical tests
 # ---------------------------------------------------------------------------
 
@@ -373,13 +554,16 @@ def _cluster_bootstrap_ci(
     """Bootstrap CI treating each question as a cluster.
 
     Resamples question-level deltas with replacement, computes the mean
-    of each resample, and returns percentile CIs.
+    of each resample, and returns percentile CIs.  Also reports Cohen's d
+    and effect magnitude for the observed deltas.
     """
     deltas = list(question_deltas.values())
     n = len(deltas)
     if n == 0:
         return {"mean_delta": math.nan, "ci_lower": math.nan, "ci_upper": math.nan,
-                "approx_two_sided_p": math.nan, "n_question_clusters": 0}
+                "approx_two_sided_p": math.nan, "n_question_clusters": 0,
+                "cohens_d": math.nan, "effect_magnitude": "n/a",
+                "n_resamples": n_resamples}
 
     rng = random.Random(seed)
     boot_means: list[float] = []
@@ -400,12 +584,18 @@ def _cluster_bootstrap_ci(
         p_approx = sum(1 for m in boot_means if m >= 0) / n_resamples
     p_approx = min(1.0, 2.0 * p_approx)  # two-sided
 
+    # Cohen's d for the observed deltas.
+    cd = _cohens_d(deltas)
+
     return {
         "mean_delta": obs_mean,
         "ci_lower": boot_means[lo_idx],
         "ci_upper": boot_means[hi_idx],
         "approx_two_sided_p": p_approx,
         "n_question_clusters": n,
+        "cohens_d": cd["cohens_d"],
+        "effect_magnitude": cd["effect_magnitude"],
+        "n_resamples": n_resamples,
     }
 
 
@@ -543,6 +733,19 @@ def compute_rq2_paired_statistics(
 
     exact_match_test = _exact_match_discordant_test(paired_rows)
 
+    # --- New diagnostics (thesis-level) ---
+    # Power analysis for the primary endpoint (macro_f1)
+    primary_cb = cluster_bootstrap.get("macro_f1", {})
+    primary_d = primary_cb.get("cohens_d", 0.0)
+    n_clusters = primary_cb.get("n_question_clusters", 0)
+    power_analysis = _post_hoc_power(n_clusters, primary_d)
+
+    # Prediction bias diagnosis
+    prediction_bias = _prediction_bias_diagnosis(rows)
+
+    # Direction summary for primary metric
+    direction_summary = _direction_summary(question_rows, metric="macro_f1")
+
     scored = [r for r in paired_rows if r.get("both_scored")]
     return {
         "n_pairs": len(scored),
@@ -550,6 +753,9 @@ def compute_rq2_paired_statistics(
         "cluster_bootstrap": cluster_bootstrap,
         "question_level_tests": question_tests,
         "exact_match_test": exact_match_test,
+        "power_analysis": power_analysis,
+        "prediction_bias": prediction_bias,
+        "direction_summary": direction_summary,
         "notes": {
             "primary_endpoint": "macro_f1",
             "bootstrap_unit": "question_cluster",

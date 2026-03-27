@@ -191,3 +191,105 @@ def test_sign_test_p_value_in_range():
     stats = compute_rq2_paired_statistics(rows, paired, qlr)
     p = stats["question_level_tests"]["macro_f1"]["p_value"]
     assert 0.0 <= p <= 1.0
+
+
+# --- _cohens_d ---
+
+from rag.evaluation.rq2_metrics import _cohens_d
+
+def test_cohens_d_zero_deltas():
+    result = _cohens_d([0.0, 0.0, 0.0])
+    assert result["cohens_d"] == 0.0
+    assert result["effect_magnitude"] == "negligible"
+
+def test_cohens_d_known_value():
+    # mean=1.0, stdev=1.0 → d=1.0 → large
+    result = _cohens_d([0.0, 1.0, 2.0])
+    assert abs(result["cohens_d"] - 1.0) < 0.01
+    assert result["effect_magnitude"] == "large"
+
+def test_cohens_d_single_element():
+    result = _cohens_d([5.0])
+    assert result["cohens_d"] == 0.0
+    assert result["effect_magnitude"] == "negligible"
+
+
+# --- _post_hoc_power ---
+
+from rag.evaluation.rq2_metrics import _post_hoc_power
+
+def test_post_hoc_power_low_n_small_d():
+    result = _post_hoc_power(12, 0.1)
+    # With n=12 and small d, power should be very low
+    assert result["achieved_power"] < 0.20
+    # MDES at 80% should be relatively large
+    assert result["mdes_80pct"] > 0.5
+
+def test_post_hoc_power_large_effect():
+    result = _post_hoc_power(12, 2.0)
+    # With a very large effect, power should be high
+    assert result["achieved_power"] > 0.50
+
+
+# --- _direction_summary ---
+
+from rag.evaluation.rq2_metrics import _direction_summary
+
+def test_direction_summary_mixed():
+    qrows = [
+        {"question_id": "Q1", "macro_f1_delta": 0.05},
+        {"question_id": "Q2", "macro_f1_delta": -0.03},
+        {"question_id": "Q3", "macro_f1_delta": 0.0},
+    ]
+    result = _direction_summary(qrows, metric="macro_f1")
+    assert result["n_improved"] == 1
+    assert result["n_degraded"] == 1
+    assert result["n_unchanged"] == 1
+
+def test_direction_summary_all_improved():
+    qrows = [{"question_id": f"Q{i}", "macro_f1_delta": 0.1} for i in range(5)]
+    result = _direction_summary(qrows, metric="macro_f1")
+    assert result["n_improved"] == 5
+    assert result["n_degraded"] == 0
+
+
+# --- _prediction_bias_diagnosis ---
+
+from rag.evaluation.rq2_metrics import _prediction_bias_diagnosis
+
+def test_prediction_bias_no_shift():
+    rows = []
+    for company in ["A", "B", "C"]:
+        for condition in ("with_esrs_context", "without_esrs_context"):
+            rows.append(_make_result(condition=condition, company=company, gold="High", predicted="High"))
+    result = _prediction_bias_diagnosis(rows)
+    assert result["ordinal_shift"] == 0.0
+    assert result["interpretation"] == "no_systematic_bias"
+
+def test_prediction_bias_upward():
+    rows = []
+    for company in ["A", "B", "C"]:
+        rows.append(_make_result(condition="with_esrs_context", company=company, gold="Medium", predicted="High"))
+        rows.append(_make_result(condition="without_esrs_context", company=company, gold="Medium", predicted="Medium"))
+    result = _prediction_bias_diagnosis(rows)
+    assert result["ordinal_shift"] > 0
+    assert result["interpretation"] == "context_shifts_predictions_upward"
+
+
+# --- cluster bootstrap new fields ---
+
+def test_cluster_bootstrap_has_cohens_d():
+    rows = _make_paired()
+    paired = build_paired_results(rows)
+    qlr = build_question_level_results(rows)
+    stats = compute_rq2_paired_statistics(rows, paired, qlr)
+    cb_f1 = stats["cluster_bootstrap"]["macro_f1"]
+    assert "cohens_d" in cb_f1
+    assert "effect_magnitude" in cb_f1
+    assert "n_resamples" in cb_f1
+    assert cb_f1["n_resamples"] == 10_000
+    # New top-level keys
+    assert "power_analysis" in stats
+    assert "prediction_bias" in stats
+    assert "direction_summary" in stats
+
