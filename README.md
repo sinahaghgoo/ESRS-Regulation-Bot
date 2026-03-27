@@ -12,7 +12,7 @@ This repository contains the implementation of a Master's thesis that develops a
 
 The project pursues two complementary goals. First, it provides an **experimental research pipeline** that benchmarks different RAG configurations to identify optimal strategies for ESRS-aligned disclosure analysis. Second, it delivers a **deployable analysis tool** (Streamlit application) that implements the best-performing pipeline configuration for interactive use.
 
-The system integrates retrieval from company sustainability reports, ESRS regulatory context extraction, LLM-based answer generation, and evaluation against a Golden Standard of expert-verified answers.
+The system integrates retrieval from company sustainability reports, ESRS regulatory context injection, LLM-based answer generation, and evaluation against a Golden Standard of expert-verified answers.
 
 ---
 
@@ -39,9 +39,9 @@ What combination of chunking strategy, chunk size, and retrieval method achieves
 RQ1 evaluates a full factorial design over chunking strategy, chunk size, and retrieval method in order to identify the globally best retrieval setup rather than optimising each component in isolation.
 
 **RQ2 — ESRS Domain Adaptation**
-To what extent does explicitly injecting structured ESRS regulatory requirements into the prompt improve compliance assessment accuracy and answer faithfulness, compared to relying on the language model's parametric knowledge of ESRS alone?
+To what extent does full-standard ESRS context injection improve evidence-grounded compliance classification and compliance rationale quality, compared with the same RAG pipeline without injected ESRS context?
 
-RQ2 isolates the contribution of the ESRS context extraction module by comparing the best RQ1 pipeline with and without explicit regulatory context injection.
+RQ2 isolates the contribution of full-standard ESRS context injection by comparing the best RQ1 pipeline with and without injected ESRS context while holding retrieval fixed.
 
 **RQ3 — Generation Quality**
 How accurately does the best-performing pipeline evaluate ESRS compliance, and where does the system fail?
@@ -50,22 +50,24 @@ RQ3 evaluates the final system across deterministic metrics and rubric-based jud
 
 ---
 
-## RQ1 Implementation Status (Current Codebase)
+## Implementation Status (Current Codebase)
 
-The current codebase contains a full **RQ1-only retrieval pipeline** under modular folders in `rag/`:
+The current codebase contains a full **RQ1 retrieval pipeline** and a reusable **RQ2 generation/evaluation layer** under modular folders in `rag/`:
 
 - `rag/config/` — Environment/config constants and 54-config grid builder (3 chunking strategies × 3 chunk sizes × 6 retrieval methods).
 - `rag/data/` — Report and golden-standard loading, text normalisation, sentence splitting, and offset mapping utilities.
 - `rag/chunking/` — Fixed-size, structure-aware, and semantic chunking strategies with configurable overlap and token ceiling. Semantic chunking uses adjacent-sentence similarity with greedy group merging to produce chunks that approach the target token ceiling while preserving topical coherence.
 - `rag/indexing/` — OpenAI embedding service with deterministic caching and Qdrant local vector indexing.
 - `rag/retrieval/` — Dense (vector search), BM25 sparse (Okapi, k1=1.5, b=0.75 with global IDF), hybrid RRF (k=60), and cross-encoder reranking (`cross-encoder/ms-marco-MiniLM-L-6-v2`). All six method variants are evaluated.
-- `rag/evaluation/` — RQ1 relevance matching (configurable overlap threshold with span-based primary path and token-overlap fallback), metric computation (Recall@k, Precision@k, F1@k, nDCG@10, MRR@10, Budgeted Recall@4096), and statistical significance testing (bootstrap CIs, paired permutation tests, Cohen's d effect size).
-- `rag/pipeline/` — RQ1 orchestration with incremental result persistence and resume-on-interrupt support.
+- `rag/generation/` — ESRS standard flattening, full-standard ESRS context serialization, RQ2 answer generation, and prompt builders for the paired ablation conditions.
+- `rag/evaluation/` — RQ1 relevance matching plus RQ2 classification and text-overlap metrics (macro-F1, balanced accuracy, exact accuracy, weighted kappa, token-F1, evidence-support ratio).
+- `rag/pipeline/` — RQ1 orchestration with incremental result persistence, plus an RQ2 runner that reuses the RQ1 winner and persists paired generation outputs incrementally.
 - `rag/types.py` — Shared dataclasses forming the pipeline data model (`ReportDocument` → `ChunkRecord` → `RetrievalHit` → `EvalSample` → `ConfigResult`).
 
-Two RQ1 notebooks are included:
+Three experiment notebooks are included:
 
 - `notebooks/05_rq1_chunking_evaluation.ipynb` — Runs the full 54-config evaluation, computes main effects, interaction heatmaps, and winner selection.
+- `notebooks/06_rq2_esrs_context_ablation.ipynb` — Runs or resumes the paired ESRS-context ablation, reports classification metrics, and analyzes per-standard deltas and qualitative failures.
 - `notebooks/09_rq1_chunking_retrieval_walkthrough.ipynb` — Qualitative single-report walkthrough: inspect chunk output, compare retrieval methods, visualize ranking shifts.
 
 Both notebooks are structured with markdown sections explaining each step.
@@ -109,10 +111,10 @@ RQ1 compares six retrieval modes: dense, dense + rerank, sparse, sparse + rerank
 
 The generation stage constructs the final answer through a multi-step process:
 
-- **ESRS context extraction**: A dedicated module queries the LLM with the full text of the relevant ESRS standard to extract only those disclosure requirements that pertain to the user's specific question.
-- **Answer generation**: The retrieved report passages and the extracted ESRS requirements are provided to the LLM as context for generating a structured answer.
+- **ESRS context injection**: A dedicated module serializes the full text of the ESRS standard mapped to the evaluation question and injects it into the generation prompt.
+- **Answer generation**: The retrieved report passages and the injected ESRS standard are provided to the LLM as context for generating a structured answer.
 - **Anti-hallucination constraints**: System prompts explicitly instruct the model to ground its answers in the retrieved context and to refrain from introducing information not present in the source material.
-- **Compliance assessment**: The generation step requests a fulfillment level (Low / Medium / High), rationale, and disclosure gaps grounded in retrieved passages and extracted ESRS requirements.
+- **Compliance assessment**: The generation step requests a fulfillment level (Low / Medium / High), rationale, and disclosure gaps grounded in retrieved passages and the injected ESRS standard.
 - **Cross-company comparison**: When multiple companies are selected, specialized generation logic produces a comparative analysis highlighting relative strengths, weaknesses, and differences in ESRS alignment.
 
 ---
@@ -148,7 +150,7 @@ A retrieved chunk is deemed relevant to a gold evidence passage when the textual
 
 ### Answer Quality Metrics (RQ2/RQ3)
 
-Token-level F1 score, BERTScore, LLM-as-a-judge scoring, citation correctness, faithfulness score, and hallucination rate. These are planned for RQ2 and RQ3.
+RQ2 is evaluated deterministically using macro-F1, balanced accuracy, exact accuracy, weighted Cohen's kappa, token-level F1 for direct answers and rationales, and an evidence-support ratio computed against retrieved report passages. RQ3 extends this with richer qualitative judging and failure analysis.
 
 ---
 
@@ -197,9 +199,10 @@ The Golden Standard is a manually curated evaluation dataset containing ESRS-rel
 | Notebook | Purpose |
 |---|---|
 | `05_rq1_chunking_evaluation.ipynb` | Run and analyze the full 54-config RQ1 evaluation: main effects, interaction heatmaps, winner selection, per-standard breakdown. |
+| `06_rq2_esrs_context_ablation.ipynb` | Run or resume the paired RQ2 ESRS-context experiment, inspect aggregate metrics, confusion matrices, per-standard deltas, and qualitative examples. |
 | `09_rq1_chunking_retrieval_walkthrough.ipynb` | Qualitative single-report walkthrough: inspect chunk output, compare retrieval methods, visualize ranking shifts. |
 
-Additional notebooks for RQ2, RQ3, and pipeline selection (06–08) are planned but not yet implemented.
+Additional notebooks for RQ3 and final pipeline selection remain planned.
 
 ---
 
@@ -278,6 +281,17 @@ Outputs are saved to `data/artifacts/evaluation_results/rq1/` and the best RQ1 c
 
 `notebooks/09_rq1_chunking_retrieval_walkthrough.ipynb` provides a detailed single-report chunking/retrieval walkthrough.
 
+Run RQ2 evaluation:
+
+```bash
+jupyter notebook notebooks/06_rq2_esrs_context_ablation.ipynb
+python run_rq2_evaluation.py
+# Optional smoke test
+python run_rq2_evaluation.py --dry-run
+```
+
+Outputs are saved to `data/artifacts/evaluation_results/rq2/`, including the ESRS context cache, per-condition responses, sample-level metrics, and the aggregate summary JSON.
+
 ### Step 3: Clean Up for Re-Run (after code changes)
 
 ```bash
@@ -294,8 +308,7 @@ python cleanup_rq1_cache.py --include-all-qdrant
 ### Step 4: Run Tests
 
 ```bash
-python tests/test_evaluation_metrics.py
-python tests/test_chunking.py
+pytest -q tests/test_evaluation_metrics.py tests/test_chunking.py tests/test_retrieval_methods.py tests/test_rq2_pipeline.py
 ```
 
 ### Step 5: Interactive Analysis
@@ -322,12 +335,14 @@ ESRS-Regulation-Bot/
 │   ├── ESRS_Standards_JSON/        # ESRS regulation files (JSON)
 │   └── artifacts/                  # Generated indices, chunks, embeddings, eval results
 │       ├── evaluation_results/rq1/ # Per-config results, chunk stats, winner JSON/CSV
+│       ├── evaluation_results/rq2/ # ESRS context cache, responses, sample metrics, summary
 │       ├── qdrant_storage/         # Local Qdrant persistence
 │       └── embedding_cache.json    # Deterministic embedding cache
 ├── golden_standard/
 │   └── golden_standard.json        # 12 questions × 17 companies with evidence passages
 ├── notebooks/
 │   ├── 05_rq1_chunking_evaluation.ipynb
+│   ├── 06_rq2_esrs_context_ablation.ipynb
 │   └── 09_rq1_chunking_retrieval_walkthrough.ipynb
 ├── rag/                            # Core RAG pipeline modules
 │   ├── config/
@@ -335,6 +350,10 @@ ESRS-Regulation-Bot/
 │   ├── data/
 │   │   ├── loaders.py              # Report and golden-standard loading
 │   │   └── text_utils.py           # Normalisation, sentence splitting, page offsets
+│   ├── generation/
+│   │   ├── esrs_context.py         # ESRS flattening and full-standard context serialization
+│   │   ├── generator.py            # Structured answer generation for RQ2
+│   │   └── prompts.py              # Prompt builders for answer generation
 │   ├── chunking/
 │   │   └── strategies.py           # Fixed, structure-aware, and semantic chunking
 │   ├── indexing/
@@ -344,18 +363,23 @@ ESRS-Regulation-Bot/
 │   │   └── methods.py              # Dense, BM25, RRF fusion, cross-encoder rerank
 │   ├── evaluation/
 │   │   ├── metrics.py              # Relevance matching, metric computation
+│   │   ├── rq2_metrics.py          # RQ2 classification and text-overlap metrics
 │   │   └── statistical_tests.py    # Bootstrap CIs, permutation tests, effect sizes
 │   ├── pipeline/
-│   │   └── rq1_runner.py           # RQ1 orchestration and result persistence
+│   │   ├── rq1_runner.py           # RQ1 orchestration and result persistence
+│   │   └── rq2_runner.py           # RQ2 paired-generation orchestration
 │   └── types.py                    # Shared dataclasses (pipeline data model)
 ├── tests/
 │   ├── test_evaluation_metrics.py  # Unit tests for evaluation logic (28 tests)
-│   └── test_chunking.py            # Unit tests for chunking strategies (14 tests)
+│   ├── test_chunking.py            # Unit tests for chunking strategies (14 tests)
+│   ├── test_retrieval_methods.py   # Unit tests for retrieval methods
+│   └── test_rq2_pipeline.py        # Unit tests for RQ2 generation and runner logic
 ├── streamlit_app/
 │   └── app.py                      # Streamlit frontend (loads best_pipeline.yaml)
 ├── cleanup_rq1_cache.py            # Script to clear cached results before re-run
 ├── run_preprocessing.py            # CLI: build chunks, embeddings, Qdrant indices
 ├── run_evaluation.py               # CLI: run full RQ1 evaluation matrix
+├── run_rq2_evaluation.py           # CLI: run the paired RQ2 ESRS-context ablation
 ├── requirements.txt
 ├── RESEARCH_QUESTIONS.md           # Detailed RQ1/RQ2/RQ3 experimental design
 ├── .env                            # Environment variables (not tracked)

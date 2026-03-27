@@ -41,8 +41,8 @@
     {
       "id": "Q1",
       "question": "How has the undertaking conducted its double materiality assessment, and which sustainability matters were identified as material from both an impact and a financial perspective?",
-      "esrs_standard": "ESRS 1",
-      "esrs_disclosure_id": "IRO-1",
+      "esrs_standard": "ESRS 2",
+      "esrs_disclosure_id": "IRO-1, SBM-3",
       "per_company": [
         {
           "company": "Aker BP",
@@ -2208,7 +2208,7 @@
       "id": "Q6",
       "question": "What are the undertaking's operational sites located in or near biodiversity-sensitive areas, and what measures has it taken to avoid or minimize adverse impacts on ecosystems?",
       "esrs_standard": "ESRS E4",
-      "esrs_disclosure_id": "E4-5",
+      "esrs_disclosure_id": "E4-3, E4-5",
       "per_company": [
         {
           "company": "Aker BP",

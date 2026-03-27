@@ -1,4 +1,4 @@
-"""Central configuration for RQ1 experiments."""
+"""Central configuration for RQ1 and RQ2 experiments."""
 
 from __future__ import annotations
 
@@ -18,8 +18,11 @@ load_dotenv()
 PROJECT_ROOT = Path(__file__).resolve().parent.parent.parent
 DATA_DIR = PROJECT_ROOT / "data"
 REPORTS_MD_DIR = DATA_DIR / "Reports_md_clean"
+ESRS_JSON_DIR = DATA_DIR / "ESRS_Standards_JSON"
 ARTIFACTS_DIR = DATA_DIR / "artifacts"
 RQ1_RESULTS_DIR = ARTIFACTS_DIR / "evaluation_results" / "rq1"
+RQ2_RESULTS_DIR = ARTIFACTS_DIR / "evaluation_results" / "rq2"
+DENSE_INDEX_DIR = ARTIFACTS_DIR / "dense_index_cache"
 GOLDEN_STANDARD_PATH = PROJECT_ROOT / "golden_standard" / "golden_standard.json"
 NOTEBOOKS_DIR = PROJECT_ROOT / "notebooks"
 CONFIG_DIR = PROJECT_ROOT / "config"
@@ -74,6 +77,18 @@ RERANK_CACHE_VERSION = _fingerprint_files(
 RQ1_RESULTS_VERSION = (
     f"index={RQ1_INDEX_VERSION};eval={RQ1_EVAL_VERSION};rerank={RERANK_CACHE_VERSION}"
 )
+RQ2_RESULTS_VERSION = _fingerprint_files(
+    "rag/generation/esrs_context.py",
+    "rag/generation/generator.py",
+    "rag/generation/prompts.py",
+    "rag/evaluation/rq2_metrics.py",
+    "rag/pipeline/rq2_runner.py",
+    "rag/data/loaders.py",
+    "rag/types.py",
+)
+
+# RQ2 injects the full mapped ESRS standard for each question.
+RQ2_CONTEXT_MODE = "substantive_full_standard"
 
 CHUNK_STRATEGIES = ("fixed", "structure_aware", "semantic")
 CHUNK_SIZES = (256, 512, 1024)
@@ -207,7 +222,16 @@ def save_best_pipeline_config(best_config: dict) -> None:
 
 def ensure_dirs() -> None:
     """Create expected artifact directories."""
-    for p in (ARTIFACTS_DIR, RQ1_RESULTS_DIR, NOTEBOOKS_DIR, QDRANT_STORAGE_PATH, CONFIG_DIR):
+    for p in (
+        ARTIFACTS_DIR,
+        RQ1_RESULTS_DIR,
+        RQ2_RESULTS_DIR,
+        DENSE_INDEX_DIR,
+        NOTEBOOKS_DIR,
+        QDRANT_STORAGE_PATH,
+        CONFIG_DIR,
+        ESRS_JSON_DIR,
+    ):
         p.mkdir(parents=True, exist_ok=True)
 
 
@@ -217,6 +241,11 @@ def get_openai_api_key(required: bool = False) -> str | None:
     if required and not key:
         raise RuntimeError("OPENAI_API_KEY is required but not set.")
     return key
+
+
+def get_generation_model(default: str = "gpt-5-mini") -> str:
+    """Read the configured generation model from env."""
+    return os.getenv("LLM_MODEL", default).strip() or default
 
 
 def get_local_model_thread_limit(default_cap: int = 4) -> int:
@@ -271,3 +300,29 @@ def get_rerank_batch_size(default: int = 8) -> int:
 def pipeline_config_to_dict(config: PipelineConfig) -> dict:
     """Serialize dataclass config."""
     return asdict(config)
+
+
+def build_rq2_audit_manifest() -> dict:
+    """Return a manifest of file fingerprints for RQ2 artifact validation.
+
+    The manifest captures the content hash of every source file that
+    influences RQ2 results.  If any of these files change after a run,
+    the saved artifacts are stale and must be regenerated.
+    """
+    files = [
+        "rag/generation/esrs_context.py",
+        "rag/generation/generator.py",
+        "rag/generation/prompts.py",
+        "rag/evaluation/rq2_metrics.py",
+        "rag/pipeline/rq2_runner.py",
+        "rag/data/loaders.py",
+        "rag/types.py",
+        "golden_standard/golden_standard.json",
+    ]
+    return {
+        "results_version": RQ2_RESULTS_VERSION,
+        "context_mode": RQ2_CONTEXT_MODE,
+        "file_fingerprints": {
+            rel: _fingerprint_files(rel) for rel in files
+        },
+    }

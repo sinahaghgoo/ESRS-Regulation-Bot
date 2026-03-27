@@ -25,7 +25,7 @@ from pathlib import Path
 
 from rag.config.settings import GOLDEN_STANDARD_PATH, REPORTS_MD_DIR
 from rag.data.text_utils import extract_page_markers, normalize_text
-from rag.types import EvalSample, GoldEvidence, ReportDocument
+from rag.types import EvalSample, GenerationSample, GoldEvidence, ReportDocument
 
 # Regex for parsing report filenames: expects "CompanyName" or "CompanyName_2024".
 _REPORT_RE = re.compile(r"^(?P<slug>[A-Za-z]+)_?(?P<year>\d{4})?$")
@@ -156,4 +156,53 @@ def load_golden_samples(path: Path | None = None) -> list[EvalSample]:
 
     if not samples:
         raise RuntimeError(f"No evaluation samples found in {golden_path}")
+    return samples
+
+
+def load_generation_samples(path: Path | None = None) -> list[GenerationSample]:
+    """Load full question-company samples for RQ2/RQ3 generation evaluation."""
+    golden_path = path or GOLDEN_STANDARD_PATH
+    payload = json.loads(golden_path.read_text(encoding="utf-8"))
+    samples: list[GenerationSample] = []
+
+    for question_item in payload.get("questions", []):
+        qid = question_item["id"]
+        question = question_item["question"]
+        esrs = question_item.get("esrs_standard", "")
+        disclosure_id = question_item.get("esrs_disclosure_id", "")
+
+        for company_item in question_item.get("per_company", []):
+            evidences: list[GoldEvidence] = []
+            for ev in company_item.get("evidence", []):
+                text = ev.get("text", "") or ev.get("exact_text", "")
+                evidences.append(
+                    GoldEvidence(
+                        passage_id=ev["passage_id"],
+                        company=company_item["company"],
+                        question_id=qid,
+                        question=question,
+                        esrs_standard=esrs,
+                        text=text,
+                        normalized_text=normalize_text(text),
+                        page_number=str(ev.get("page_number", "")),
+                        source_section_header=str(ev.get("source_section_header", "")),
+                    )
+                )
+
+            samples.append(
+                GenerationSample(
+                    question_id=qid,
+                    question=question,
+                    esrs_standard=esrs,
+                    esrs_disclosure_id=disclosure_id,
+                    company=company_item["company"],
+                    ground_truth_answer=str(company_item.get("ground_truth_answer", "")),
+                    fulfillment_level=str(company_item.get("fulfillment_level", "")),
+                    fulfillment_rationale=str(company_item.get("fulfillment_rationale", "")),
+                    evidences=evidences,
+                )
+            )
+
+    if not samples:
+        raise RuntimeError(f"No generation samples found in {golden_path}")
     return samples

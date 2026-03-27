@@ -422,5 +422,5 @@ def run_query(
         "query": query,
         "per_company_chunks": per_company_chunks,
         "per_company": per_company,
-        "esrs_requirements": "RQ1 mode: no ESRS context extraction.",
+        "esrs_requirements": "RQ1 mode: no ESRS context injection.",
     }

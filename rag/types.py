@@ -144,3 +144,95 @@ class ConfigResult:
     metrics: dict[str, float]
     per_standard_metrics: dict[str, dict[str, float]]
     details: dict[str, Any] = field(default_factory=dict)
+
+
+@dataclass
+class GenerationSample:
+    """Full gold sample for RQ2/RQ3 generation evaluation."""
+
+    question_id: str
+    question: str
+    esrs_standard: str
+    esrs_disclosure_id: str
+    company: str
+    ground_truth_answer: str
+    fulfillment_level: str
+    fulfillment_rationale: str
+    evidences: list[GoldEvidence]
+
+
+@dataclass
+class RetrievedEvidenceChunk:
+    """Serializable retrieved chunk payload used by RQ2 generation."""
+
+    chunk_id: str
+    text: str
+    score: float
+    rank: int
+    page_start: int | None
+    page_end: int | None
+    header_hierarchy: list[str] = field(default_factory=list)
+
+
+@dataclass
+class ESRSContextResult:
+    """Cached ESRS context payload for one thesis question."""
+
+    question_id: str
+    esrs_standard: str
+    esrs_disclosure_id: str
+    context_text: str
+    selected_requirements: list[dict[str, str]] = field(default_factory=list)
+    raw_response: str = ""
+    model: str = ""
+
+
+@dataclass
+class GeneratedAnswer:
+    """Structured answer produced by the generation model."""
+
+    direct_answer: str
+    compliance_level: str
+    compliance_rationale: str
+    key_findings: list[str] = field(default_factory=list)
+    disclosure_gaps: list[str] = field(default_factory=list)
+    cited_pages: list[str] = field(default_factory=list)
+    raw_response: str = ""
+    parse_error: str | None = None
+
+
+@dataclass
+class RQ2SampleResult:
+    """Per-sample evaluation record for one RQ2 condition."""
+
+    condition: str
+    question_id: str
+    question: str
+    esrs_standard: str
+    esrs_disclosure_id: str
+    company: str
+    gold_fulfillment_level: str
+    predicted_fulfillment_level: str
+    direct_answer_token_f1: float
+    rationale_token_f1: float
+    evidence_support_ratio: float
+    exact_match: bool = False
+    ordinal_error: int = 0
+    cited_pages: list[str] = field(default_factory=list)
+    retrieval_pages: list[str] = field(default_factory=list)
+    success: bool = True
+    error: str | None = None
+
+
+@dataclass
+class RQ2Summary:
+    """Aggregate RQ2 metrics and metadata."""
+
+    results_version: str
+    model: str
+    best_pipeline_name: str
+    n_samples: int
+    n_conditions: int
+    aggregate_metrics: dict[str, dict[str, Any]]
+    per_standard_metrics: dict[str, dict[str, dict[str, Any]]]
+    majority_baseline: dict[str, Any] = field(default_factory=dict)

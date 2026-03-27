@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 from dataclasses import asdict
+from pathlib import Path
 
 from qdrant_client import QdrantClient
 from qdrant_client.http import models as qmodels
@@ -19,6 +20,7 @@ class QdrantChunkIndex:
     """Dense vector index with local persistence."""
 
     def __init__(self, dims: int = 3072) -> None:
+        self._clear_stale_lock(QDRANT_STORAGE_PATH / ".lock")
         try:
             self.client = QdrantClient(path=str(QDRANT_STORAGE_PATH))
         except RuntimeError as exc:
@@ -32,6 +34,19 @@ class QdrantChunkIndex:
             else:
                 raise
         self.dims = dims
+
+    @staticmethod
+    def _clear_stale_lock(lock_file: Path) -> None:
+        """Remove a leftover local lock file before opening Qdrant.
+
+        In this project, Qdrant is used as a single-user local artifact store.
+        Notebook interruptions can leave behind a `.lock` file even though no
+        process is still holding it, which blocks later runs indefinitely.
+        Clearing the leftover file up front keeps the local store reusable
+        without requiring manual cleanup from the user.
+        """
+        if lock_file.exists():
+            lock_file.unlink(missing_ok=True)
 
     def close(self) -> None:
         """Explicitly close the Qdrant client to release the file lock."""

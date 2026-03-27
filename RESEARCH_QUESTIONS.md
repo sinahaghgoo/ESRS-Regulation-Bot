@@ -148,11 +148,11 @@ The winning configuration from RQ1 is passed forward as the fixed pipeline for R
 
 ### Question
 
-**To what extent does explicitly injecting structured ESRS regulatory requirements into the generation prompt improve compliance assessment accuracy and answer faithfulness, compared to relying on the LLM's general pretraining knowledge of ESRS?**
+**To what extent does full-standard ESRS context injection improve evidence-grounded compliance classification and compliance rationale quality, compared with the same RAG pipeline without injected ESRS context?**
 
 ### Motivation
 
-The system's `esrs_context` module extracts query-specific disclosure requirements from the ESRS standard JSON files and injects them into the generation prompt. This step incurs an additional LLM call and adds significant prompt length. It is not self-evident that this injection is necessary: a large language model trained on publicly available corpora likely has general knowledge of ESRS, and may produce reasonable compliance assessments without explicit regulatory context. This research question isolates the contribution of ESRS context injection by comparing the full system against a condition where injection is disabled.
+The system's `esrs_context` module serializes the full ESRS standard mapped to each question from the ESRS standard JSON files and injects it into the generation prompt. This adds significant prompt length, and it is not self-evident that this injection is necessary: a large language model trained on publicly available corpora likely has general knowledge of ESRS, and may produce reasonable compliance assessments without explicit regulatory context. This research question isolates the contribution of ESRS context injection by comparing the full system against a condition where injection is disabled.
 
 ### Experimental Design
 
@@ -171,20 +171,24 @@ All calls are cached after the first run at zero additional cost for reruns.
 
 ### Evaluation
 
-The primary dependent variable is **compliance assessment accuracy** — whether the system correctly predicts the Low / Medium / High fulfillment level assigned in the Golden Standard.
+The primary dependent variable is **evidence-grounded compliance classification quality** — whether the system correctly predicts the Low / Medium / High fulfillment level assigned in the Golden Standard, while remaining robust to the class imbalance in the benchmark.
 
 | Metric | Type | Description |
 |---|---|---|
-| **Compliance accuracy** | Deterministic | Exact match of predicted vs gold fulfillment level (Low/Medium/High) |
-| **Off-by-one accuracy** | Deterministic | Prediction within one ordinal level of gold label |
-| **Token F1** | Deterministic | Lexical overlap between generated answer and gold answer |
-| **Faithfulness score** | Deterministic | Fraction of generated claims supported by retrieved passages (lexical) |
+| **Macro-F1** | Deterministic | Primary classification metric across Low / Medium / High with equal weight per class |
+| **Balanced accuracy** | Deterministic | Mean recall across the fulfillment classes, robust to the `High`-heavy label distribution |
+| **Exact accuracy** | Deterministic | Exact match of predicted vs gold fulfillment level (Low/Medium/High) |
+| **Weighted Cohen's kappa** | Deterministic | Ordinal agreement between predicted and gold fulfillment levels |
+| **Answer Token F1** | Deterministic | Lexical overlap between generated direct answer and gold answer |
+| **Rationale Token F1** | Deterministic | Lexical overlap between generated compliance rationale and gold fulfillment rationale |
+| **Evidence-support ratio** | Deterministic | Fraction of generated answer/rationale sentences supported by retrieved passages via lexical overlap |
 
-> **No LLM judge is used for RQ2.** All four metrics are computed deterministically against the Golden Standard. This ensures full reproducibility across runs and avoids the self-evaluation bias that arises when the generator model also acts as judge.
+> **No LLM judge is used for RQ2.** All metrics are computed deterministically against the Golden Standard and the retrieved evidence. This ensures full reproducibility across runs and avoids the self-evaluation bias that arises when the generator model also acts as judge.
 
 **Analysis:**
-- Per-condition aggregate scores for all four metrics
-- Per-ESRS-standard breakdown of compliance accuracy (12 standards) to identify which standards benefit most from explicit injection
+- Per-condition aggregate scores for the classification metrics and descriptive text metrics
+- Majority-class baseline comparison to contextualise the `High`-dominant label distribution
+- Per-ESRS-standard breakdown of macro-F1, balanced accuracy, and exact accuracy to identify which standards benefit most from explicit injection
 - Per-company consistency analysis: do the same companies systematically benefit from injection, or is the effect uniform?
 
 ### Expected Output
@@ -258,8 +262,8 @@ A comprehensive characterisation of the system's strengths and failure modes acr
 | **Variable** | Chunking strategy × Chunk size × Retrieval method | ESRS context on/off | None (single best config) |
 | **Evaluation type** | Retrieval-only | Generation | Generation + qualitative |
 | **LLM calls** | None (embeddings only) | 408 generation calls | 204 generation + judge calls |
-| **Primary metric** | Recall@15 | Compliance accuracy | LLM judge overall score |
-| **Secondary metrics** | Precision@k, MRR@10 | Token F1, Faithfulness | Citation F1, Hallucination rate, Error analysis |
+| **Primary metric** | Recall@15 | Macro-F1 + Balanced Accuracy | LLM judge overall score |
+| **Secondary metrics** | Precision@k, MRR@10 | Exact accuracy, weighted kappa, Token F1, Evidence-support ratio | Citation F1, Hallucination rate, Error analysis |
 | **Statistical validation** | Bootstrap CIs, permutation tests | Per-standard breakdown | Confusion matrix, gap analysis |
 | **Configs evaluated** | 54 | 2 | 1 |
 | **Golden Standard coverage** | 12 questions × 17 companies | 12 questions × 17 companies | 12 questions × 17 companies |

@@ -7,8 +7,8 @@ numpy
 pandas
 python-dotenv
 qdrant-client
+scikit-learn
 sentence-transformers
 tiktoken
 pyyaml
 streamlit
-
