@@ -13,3 +13,4 @@ sentence-transformers
 tiktoken
 pyyaml
 streamlit
+anthropic

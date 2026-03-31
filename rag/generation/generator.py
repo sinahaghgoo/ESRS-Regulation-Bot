@@ -2,11 +2,13 @@
 
 from __future__ import annotations
 
+import hashlib
 import json
+from pathlib import Path
 
 from openai import OpenAI
 
-from rag.config.settings import get_generation_model, get_openai_api_key
+from rag.config.settings import RQ2_RESULTS_DIR, get_generation_model, get_openai_api_key
 from rag.generation.prompts import build_answer_messages
 from rag.types import GeneratedAnswer, GenerationSample, RetrievedEvidenceChunk
 
@@ -18,7 +20,7 @@ class AnswerGenerator:
         self,
         model: str | None = None,
         temperature: float | None = None,
-        max_completion_tokens: int = 1400,
+        max_completion_tokens: int = 4096,
         client: OpenAI | None = None,
         require_openai: bool = True,
     ) -> None:
@@ -38,7 +40,7 @@ class AnswerGenerator:
             raise RuntimeError("OpenAI client is not available.")
         request_kwargs = {
             "model": self.model,
-            "reasoning": {"effort": "low"},
+            "reasoning": {"effort": "medium"},
             "input": messages,
             "text": {
                 "format": {
@@ -177,3 +179,92 @@ class AnswerGenerator:
                     raw_response=repaired_raw or raw,
                     parse_error=str(repair_exc),
                 )
+
+
+# ---------------------------------------------------------------------------
+# Module-level convenience function with file-based caching
+# ---------------------------------------------------------------------------
+
+_MODULE_GENERATOR: AnswerGenerator | None = None
+
+
+def _get_module_generator() -> AnswerGenerator:
+    global _MODULE_GENERATOR  # noqa: PLW0603
+    if _MODULE_GENERATOR is None:
+        _MODULE_GENERATOR = AnswerGenerator(require_openai=True)
+    return _MODULE_GENERATOR
+
+
+def _cache_key_for_call(
+    question: str, company: str, condition: str, esrs_context: str,
+) -> str:
+    blob = f"{question}|{company}|{condition}|{len(esrs_context)}"
+    return hashlib.sha256(blob.encode()).hexdigest()[:16]
+
+
+def generate_answer(
+    *,
+    question: str,
+    company: str,
+    retrieved_passages: list[str],
+    esrs_context: str,
+    condition: str,
+    use_cache: bool = True,
+    question_id: str = "",
+    esrs_standard: str = "",
+    esrs_disclosure_id: str = "",
+    sample: GenerationSample | None = None,
+) -> dict:
+    """High-level generation helper for notebook use.
+
+    Wraps ``AnswerGenerator`` with optional file-based caching.  Returns a
+    plain dict with ``compliance_level`` and ``answer`` keys.
+    """
+    cache_dir = RQ2_RESULTS_DIR / "nb_cache" / condition
+    cache_dir.mkdir(parents=True, exist_ok=True)
+    cache_file = cache_dir / f"{_cache_key_for_call(question, company, condition, esrs_context)}.json"
+
+    if use_cache and cache_file.exists():
+        try:
+            cached = json.loads(cache_file.read_text(encoding="utf-8"))
+            if cached.get("compliance_level"):
+                return cached
+        except Exception:
+            pass
+
+    gen = _get_module_generator()
+
+    if sample is None:
+        sample = GenerationSample(
+            question_id=question_id, question=question,
+            esrs_standard=esrs_standard,
+            esrs_disclosure_id=esrs_disclosure_id, company=company,
+            ground_truth_answer="", fulfillment_level="",
+            fulfillment_rationale="", evidences=[],
+        )
+
+    chunks = [
+        RetrievedEvidenceChunk(
+            chunk_id=f"p{i}", text=text, score=1.0, rank=i + 1,
+            page_start=None, page_end=None, header_hierarchy=[],
+        )
+        for i, text in enumerate(retrieved_passages)
+    ]
+
+    answer = gen.generate(sample=sample, retrieved_chunks=chunks, esrs_context=esrs_context)
+
+    result = {
+        "compliance_level": answer.compliance_level,
+        "answer": answer.direct_answer,
+        "rationale": answer.compliance_rationale,
+        "key_findings": answer.key_findings,
+        "disclosure_gaps": answer.disclosure_gaps,
+        "cited_pages": answer.cited_pages,
+        "raw_response": answer.raw_response,
+        "parse_error": answer.parse_error,
+    }
+
+    if use_cache:
+        cache_file.write_text(json.dumps(result, indent=2), encoding="utf-8")
+
+    return result

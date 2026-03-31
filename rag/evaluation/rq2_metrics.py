@@ -955,3 +955,187 @@ def validate_rq2_artifacts(
 def sample_results_to_rows(results: list[RQ2SampleResult]) -> list[dict[str, object]]:
     """Serialize sample-result dataclasses for CSV/JSON persistence."""
     return [asdict(result) for result in results]
+
+
+# ---------------------------------------------------------------------------
+# Convenience wrappers for notebook use
+# ---------------------------------------------------------------------------
+
+class _RQ2SampleResultCompat:
+    """Lightweight per-sample result used by the notebook convenience API."""
+
+    __slots__ = (
+        "question_id", "company", "esrs_standard",
+        "condition", "gold_level", "predicted_level",
+        "exact_match", "ordinal_error",
+        "token_f1_score", "token_precision", "token_recall",
+        "faithfulness",
+    )
+
+    def __init__(self, **kwargs: object) -> None:
+        for k, v in kwargs.items():
+            setattr(self, k, v)
+
+
+def evaluate_sample(
+    *,
+    question_id: str,
+    company: str,
+    esrs_standard: str,
+    condition: str,
+    predicted_level: str,
+    gold_level: str,
+    generated_answer: str,
+    gold_answer: str,
+    retrieved_passages: list[str],
+) -> _RQ2SampleResultCompat:
+    """Evaluate a single generated answer and return a lightweight result object.
+
+    This is a thin convenience wrapper for notebooks that do not want to
+    construct ``GenerationSample`` / ``GeneratedAnswer`` typed objects.
+    """
+    pred_norm = normalize_label(predicted_level) or ""
+    gold_norm = normalize_label(gold_level) or ""
+    exact = pred_norm == gold_norm if pred_norm else False
+    oe = _ordinal_error(gold_norm, pred_norm) if pred_norm else 2
+
+    f1 = token_f1(generated_answer, gold_answer)
+    pred_tokens = _tokenize(generated_answer)
+    gold_tokens = _tokenize(gold_answer)
+    if not pred_tokens and not gold_tokens:
+        tp, tr = 1.0, 1.0
+    elif not pred_tokens or not gold_tokens:
+        tp, tr = 0.0, 0.0
+    else:
+        gold_counts: dict[str, int] = {}
+        pred_counts: dict[str, int] = {}
+        for t in gold_tokens:
+            gold_counts[t] = gold_counts.get(t, 0) + 1
+        for t in pred_tokens:
+            pred_counts[t] = pred_counts.get(t, 0) + 1
+        overlap = sum(min(pred_counts.get(t, 0), gold_counts.get(t, 0)) for t in gold_counts)
+        tp = overlap / len(pred_tokens) if pred_tokens else 0.0
+        tr = overlap / len(gold_tokens) if gold_tokens else 0.0
+
+    faith = evidence_support_ratio(generated_answer, retrieved_passages)
+
+    return _RQ2SampleResultCompat(
+        question_id=question_id,
+        company=company,
+        esrs_standard=esrs_standard,
+        condition=condition,
+        gold_level=gold_level,
+        predicted_level=pred_norm,
+        exact_match=exact,
+        ordinal_error=oe,
+        token_f1_score=f1,
+        token_precision=tp,
+        token_recall=tr,
+        faithfulness=faith,
+    )
+
+
+class RQ2AggregateResult:
+    """Aggregate metrics with attribute access for notebook convenience."""
+
+    def __init__(
+        self,
+        *,
+        condition: str,
+        compliance_accuracy: float,
+        compliance_accuracy_std: float,
+        off_by_one_accuracy: float,
+        off_by_one_accuracy_std: float,
+        token_f1: float,
+        token_f1_std: float,
+        token_precision: float,
+        token_recall: float,
+        faithfulness: float,
+        faithfulness_std: float | None = None,
+        per_standard: dict | None = None,
+        per_company: dict | None = None,
+    ) -> None:
+        self.condition = condition
+        self.compliance_accuracy = compliance_accuracy
+        self.compliance_accuracy_std = compliance_accuracy_std
+        self.off_by_one_accuracy = off_by_one_accuracy
+        self.off_by_one_accuracy_std = off_by_one_accuracy_std
+        self.token_f1 = token_f1
+        self.token_f1_std = token_f1_std
+        self.token_precision = token_precision
+        self.token_recall = token_recall
+        self.faithfulness = faithfulness
+        self.faithfulness_std = faithfulness_std
+        self.per_standard = per_standard or {}
+        self.per_company = per_company or {}
+
+
+def aggregate_results(
+    results: list[_RQ2SampleResultCompat],
+    condition: str,
+) -> RQ2AggregateResult:
+    """Aggregate a list of per-sample results into an ``RQ2AggregateResult``.
+
+    Computes compliance accuracy, off-by-one accuracy, token F1,
+    precision, recall, faithfulness, and per-standard / per-company
+    breakdowns.
+    """
+    import math
+    from statistics import mean as _mean, stdev as _stdev
+
+    scored = [r for r in results if r.predicted_level]
+    n = len(scored) or 1
+
+    exact_matches = [1.0 if r.exact_match else 0.0 for r in scored]
+    off_by_ones = [1.0 if r.ordinal_error <= 1 else 0.0 for r in scored]
+    f1s = [r.token_f1_score for r in scored]
+    precisions = [r.token_precision for r in scored]
+    recalls = [r.token_recall for r in scored]
+    faiths = [r.faithfulness for r in scored]
+
+    def _safe_mean(vals: list[float]) -> float:
+        return _mean(vals) if vals else 0.0
+
+    def _safe_std(vals: list[float]) -> float:
+        return _stdev(vals) if len(vals) > 1 else 0.0
+
+    # Per-standard breakdown
+    per_standard: dict[str, dict[str, float]] = {}
+    by_std: dict[str, list[_RQ2SampleResultCompat]] = {}
+    for r in scored:
+        by_std.setdefault(r.esrs_standard, []).append(r)
+    for std, std_results in sorted(by_std.items()):
+        per_standard[std] = {
+            "compliance_accuracy": _safe_mean([1.0 if r.exact_match else 0.0 for r in std_results]),
+            "token_f1": _safe_mean([r.token_f1_score for r in std_results]),
+            "faithfulness": _safe_mean([r.faithfulness for r in std_results]),
+        }
+
+    per_company: dict[str, dict[str, float]] = {}
+    by_co: dict[str, list[_RQ2SampleResultCompat]] = {}
+    for r in scored:
+        by_co.setdefault(r.company, []).append(r)
+    for co, co_results in sorted(by_co.items()):
+        per_company[co] = {
+            "compliance_accuracy": _safe_mean([1.0 if r.exact_match else 0.0 for r in co_results]),
+            "token_f1": _safe_mean([r.token_f1_score for r in co_results]),
+            "faithfulness": _safe_mean([r.faithfulness for r in co_results]),
+        }
+
+    faith_std = _safe_std(faiths) if faiths else None
+
+    return RQ2AggregateResult(
+        condition=condition,
+        compliance_accuracy=_safe_mean(exact_matches),
+        compliance_accuracy_std=_safe_std(exact_matches),
+        off_by_one_accuracy=_safe_mean(off_by_ones),
+        off_by_one_accuracy_std=_safe_std(off_by_ones),
+        token_f1=_safe_mean(f1s),
+        token_f1_std=_safe_std(f1s),
+        token_precision=_safe_mean(precisions),
+        token_recall=_safe_mean(recalls),
+        faithfulness=_safe_mean(faiths),
+        faithfulness_std=faith_std,
+        per_standard=per_standard,
+        per_company=per_company,
+    )

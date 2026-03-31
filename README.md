@@ -41,7 +41,7 @@ RQ1 evaluates a full factorial design over chunking strategy, chunk size, and re
 **RQ2 — ESRS Domain Adaptation**
 To what extent does full-standard ESRS context injection improve evidence-grounded compliance classification and compliance rationale quality, compared with the same RAG pipeline without injected ESRS context?
 
-RQ2 isolates the contribution of full-standard ESRS context injection by comparing the best RQ1 pipeline with and without injected ESRS context while holding retrieval fixed.
+RQ2 isolates the contribution of full-standard ESRS context injection by comparing the best RQ1 pipeline with and without injected ESRS context while holding retrieval fixed. Evaluation uses deterministic compliance-level metrics, LLM-judge rationale evaluation, and joint compliance-assessment metrics. The primary metric is Joint Lenient Match Rate (compliance level correct + rationale at least partially aligned).
 
 **RQ3 — Generation Quality**
 How accurately does the best-performing pipeline evaluate ESRS compliance, and where does the system fail?
@@ -150,7 +150,7 @@ A retrieved chunk is deemed relevant to a gold evidence passage when the textual
 
 ### Answer Quality Metrics (RQ2/RQ3)
 
-RQ2 is evaluated deterministically using macro-F1, balanced accuracy, exact accuracy, weighted Cohen's kappa, token-level F1 for direct answers and rationales, and an evidence-support ratio computed against retrieved report passages. RQ3 extends this with richer qualitative judging and failure analysis.
+RQ2 is evaluated using a combination of deterministic compliance-level metrics (macro-F1, balanced accuracy, exact accuracy, weighted Cohen's kappa, off-by-one accuracy), LLM-judge rationale evaluation (G-Eval-style verdicts and scores using Claude Sonnet 4.5 as judge), and joint compliance-assessment metrics (joint strict match, joint lenient match, joint assessment score). The primary metric is Joint Lenient Match Rate. RQ3 extends this with richer qualitative judging and failure analysis.
 
 ---
 
@@ -201,6 +201,7 @@ The Golden Standard is a manually curated evaluation dataset containing ESRS-rel
 | `05_rq1_chunking_evaluation.ipynb` | Run and analyze the full 54-config RQ1 evaluation: main effects, interaction heatmaps, winner selection, per-standard breakdown. |
 | `06_rq2_esrs_context_ablation.ipynb` | Run or resume the paired RQ2 ESRS-context experiment, inspect aggregate metrics, confusion matrices, per-standard deltas, and qualitative examples. |
 | `09_rq1_chunking_retrieval_walkthrough.ipynb` | Qualitative single-report walkthrough: inspect chunk output, compare retrieval methods, visualize ranking shifts. |
+| `10_rq2_esrs_context_ablation.ipynb` | RQ2 redesigned evaluation with deterministic compliance metrics, LLM-judge rationale evaluation, and joint compliance-assessment metrics. |
 
 Additional notebooks for RQ3 and final pipeline selection remain planned.
 
@@ -364,6 +365,7 @@ ESRS-Regulation-Bot/
 │   ├── evaluation/
 │   │   ├── metrics.py              # Relevance matching, metric computation
 │   │   ├── rq2_metrics.py          # RQ2 classification and text-overlap metrics
+│   │   ├── rq2_judge.py            # RQ2 LLM-judge rationale evaluation (G-Eval style)
 │   │   └── statistical_tests.py    # Bootstrap CIs, permutation tests, effect sizes
 │   ├── pipeline/
 │   │   ├── rq1_runner.py           # RQ1 orchestration and result persistence

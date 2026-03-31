@@ -171,25 +171,48 @@ All calls are cached after the first run at zero additional cost for reruns.
 
 ### Evaluation
 
-The primary dependent variable is **evidence-grounded compliance classification quality** — whether the system correctly predicts the Low / Medium / High fulfillment level assigned in the Golden Standard, while remaining robust to the class imbalance in the benchmark.
+The primary dependent variable is **evidence-grounded compliance classification quality** — whether the system correctly predicts the Low / Medium / High fulfillment level assigned in the Golden Standard while also generating high-quality compliance rationales, evaluated through a combination of deterministic metrics and LLM-judge assessment.
 
-| Metric | Type | Description |
-|---|---|---|
-| **Macro-F1** | Deterministic | Primary classification metric across Low / Medium / High with equal weight per class |
-| **Balanced accuracy** | Deterministic | Mean recall across the fulfillment classes, robust to the `High`-heavy label distribution |
-| **Exact accuracy** | Deterministic | Exact match of predicted vs gold fulfillment level (Low/Medium/High) |
-| **Weighted Cohen's kappa** | Deterministic | Ordinal agreement between predicted and gold fulfillment levels |
-| **Answer Token F1** | Deterministic | Lexical overlap between generated direct answer and gold answer |
-| **Rationale Token F1** | Deterministic | Lexical overlap between generated compliance rationale and gold fulfillment rationale |
-| **Evidence-support ratio** | Deterministic | Fraction of generated answer/rationale sentences supported by retrieved passages via lexical overlap |
+#### Deterministic Compliance-Level Metrics
 
-> **No LLM judge is used for RQ2.** All metrics are computed deterministically against the Golden Standard and the retrieved evidence. This ensures full reproducibility across runs and avoids the self-evaluation bias that arises when the generator model also acts as judge.
+| Metric | Description |
+|---|---|
+| **Macro-F1** | Classification metric across Low / Medium / High with equal weight per class |
+| **Balanced accuracy** | Mean recall across the fulfillment classes, robust to the `High`-heavy label distribution |
+| **Exact accuracy** | Exact match of predicted vs gold fulfillment level (Low/Medium/High) |
+| **Weighted Cohen's kappa** | Ordinal agreement between predicted and gold fulfillment levels |
+| **Off-by-one accuracy** | Prediction within one ordinal level of gold fulfillment |
+
+#### LLM-Judge Rationale Evaluation
+
+The compliance rationale quality is evaluated using a G-Eval-style rubric:
+
+- **Judge model:** Claude Sonnet 4.5 (via Anthropic API)
+- **Input:** Generated `compliance_rationale` vs gold `fulfillment_rationale` from the Golden Standard
+- **Output verdict:** `aligned` (rationale justifies the compliance level), `partially_aligned` (rationale partially justifies the level), or `misaligned` (rationale does not justify the level)
+- **Score:** Numeric score (0.0–1.0) quantifying rationale quality; verdicts are converted to canonical scores: `aligned` → 1.0, `partially_aligned` → 0.5, `misaligned` → 0.0
+- **Error tags:** Structured error categorization (e.g., unsupported claims, incomplete evidence, incorrect reasoning)
+
+#### Joint Compliance-Assessment Metrics
+
+These metrics evaluate the combined compliance level + rationale quality:
+
+| Metric | Description |
+|---|---|
+| **Joint strict match** | Compliance level correct AND rationale verdict is `aligned` |
+| **Joint lenient match** | Compliance level correct AND (rationale verdict is `aligned` OR `partially_aligned`) |
+| **Joint assessment score** | Mean of (compliance level correctness score × rationale quality score) |
+
+**Primary metric:** `Joint Lenient Match Rate` — the fraction of samples where the compliance level is correct and the rationale is at least partially aligned with the gold standard.
+
+**Secondary metrics:** `Macro-F1`, `Balanced accuracy`, `Mean rationale score`, `Joint strict match`
 
 **Analysis:**
-- Per-condition aggregate scores for the classification metrics and descriptive text metrics
+- Per-condition aggregate scores for deterministic metrics and LLM-judge verdicts
 - Majority-class baseline comparison to contextualise the `High`-dominant label distribution
-- Per-ESRS-standard breakdown of macro-F1, balanced accuracy, and exact accuracy to identify which standards benefit most from explicit injection
+- Per-ESRS-standard breakdown of joint lenient match and balanced accuracy to identify which standards benefit most from explicit injection
 - Per-company consistency analysis: do the same companies systematically benefit from injection, or is the effect uniform?
+- Question-level paired sign test of joint lenient match rates between Full system and No ESRS context conditions to assess statistical significance of the ESRS context injection effect
 
 ### Expected Output
 
@@ -260,11 +283,11 @@ A comprehensive characterisation of the system's strengths and failure modes acr
 |---|---|---|---|
 | **Stage tested** | Chunking + Retrieval | ESRS context injection | End-to-end generation |
 | **Variable** | Chunking strategy × Chunk size × Retrieval method | ESRS context on/off | None (single best config) |
-| **Evaluation type** | Retrieval-only | Generation | Generation + qualitative |
-| **LLM calls** | None (embeddings only) | 408 generation calls | 204 generation + judge calls |
-| **Primary metric** | Recall@15 | Macro-F1 + Balanced Accuracy | LLM judge overall score |
-| **Secondary metrics** | Precision@k, MRR@10 | Exact accuracy, weighted kappa, Token F1, Evidence-support ratio | Citation F1, Hallucination rate, Error analysis |
-| **Statistical validation** | Bootstrap CIs, permutation tests | Per-standard breakdown | Confusion matrix, gap analysis |
+| **Evaluation type** | Retrieval-only | Generation + LLM judge | Generation + qualitative |
+| **LLM calls** | None (embeddings only) | 408 generation + 408 judge calls | 204 generation + judge calls |
+| **Primary metric** | Recall@15 | Joint Lenient Match Rate | LLM judge overall score |
+| **Secondary metrics** | Precision@k, MRR@10 | Macro-F1, Balanced accuracy, Mean rationale score, Joint strict match | Citation F1, Hallucination rate, Error analysis |
+| **Statistical validation** | Bootstrap CIs, permutation tests | Question-level paired sign test | Confusion matrix, gap analysis |
 | **Configs evaluated** | 54 | 2 | 1 |
 | **Golden Standard coverage** | 12 questions × 17 companies | 12 questions × 17 companies | 12 questions × 17 companies |
 

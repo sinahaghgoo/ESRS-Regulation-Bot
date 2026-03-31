@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import re
 from pathlib import Path
 
 from rag.config.settings import ESRS_JSON_DIR, RQ2_RESULTS_DIR, RQ2_RESULTS_VERSION
@@ -141,6 +142,193 @@ def build_question_extraction_input(
     return context_text
 
 
+# ---------------------------------------------------------------------------
+# Disclosure-level ESRS context filtering
+# ---------------------------------------------------------------------------
+
+_DISCLOSURE_ID_RE = re.compile(r"[A-Za-z]+-?\d+|[A-Z]{2,3}-\d+", re.IGNORECASE)
+
+
+def _parse_disclosure_ids(raw: str) -> list[str]:
+    """Split a comma-separated disclosure-id string into normalised IDs."""
+    parts = [p.strip() for p in raw.split(",") if p.strip()]
+    return parts
+
+
+def _node_matches_disclosure(title: str, disclosure_ids: list[str]) -> bool:
+    """Check whether a JSON node title references any of the target disclosure IDs."""
+    title_upper = title.upper().replace("–", "-").replace("—", "-")
+    for did in disclosure_ids:
+        did_norm = did.upper().strip().replace("–", "-").replace("—", "-")
+        if did_norm in title_upper:
+            return True
+    return False
+
+
+def _collect_matching_subtrees(
+    node: object,
+    disclosure_ids: list[str],
+    headings: list[str],
+    out: list[dict[str, str]],
+    *,
+    force_include: bool = False,
+) -> None:
+    """Recursively collect paragraphs from subtrees that match disclosure IDs."""
+    if isinstance(node, dict):
+        title = str(node.get("title", "")).strip() if "title" in node else ""
+        next_headings = headings + ([title] if title else [])
+
+        include_this = force_include or (
+            title and _node_matches_disclosure(title, disclosure_ids)
+        )
+
+        if include_this:
+            if "objective" in node and isinstance(node["objective"], str):
+                out.append({
+                    "reference": "Objective",
+                    "title": " > ".join(next_headings or ["Objective"]),
+                    "text": str(node["objective"]).strip(),
+                })
+
+            paragraphs = node.get("paragraphs")
+            if isinstance(paragraphs, list):
+                for paragraph in paragraphs:
+                    if isinstance(paragraph, dict):
+                        for reference, text in paragraph.items():
+                            out.append({
+                                "reference": str(reference).strip(),
+                                "title": " > ".join(next_headings),
+                                "text": str(text).strip(),
+                            })
+                    elif isinstance(paragraph, str) and paragraph.strip():
+                        out.append({
+                            "reference": "",
+                            "title": " > ".join(next_headings),
+                            "text": paragraph.strip(),
+                        })
+
+        for key, value in node.items():
+            if key in {"title", "paragraphs", "objective"}:
+                continue
+            _collect_matching_subtrees(
+                value, disclosure_ids, next_headings, out,
+                force_include=include_this,
+            )
+        return
+
+    if isinstance(node, list):
+        for item in node:
+            _collect_matching_subtrees(
+                item, disclosure_ids, headings, out,
+                force_include=force_include,
+            )
+        return
+
+
+def build_disclosure_context(
+    payload: dict,
+    *,
+    esrs_standard: str,
+    esrs_disclosure_id: str,
+    question: str | None = None,
+) -> tuple[str, list[dict[str, str]]]:
+    """Serialize only the disclosure-relevant sections of an ESRS standard.
+
+    Filters the ESRS JSON tree to include only subsections whose titles
+    contain one of the target disclosure IDs (e.g. "E1-1", "S1-6").
+    Falls back to the full standard if no matching sections are found.
+    """
+    disclosure_ids = _parse_disclosure_ids(esrs_disclosure_id)
+    if not disclosure_ids:
+        return build_full_standard_context(
+            payload, esrs_standard=esrs_standard,
+            esrs_disclosure_id=esrs_disclosure_id, question=question,
+        )
+
+    root_headings = [
+        str(payload.get("standard", "")).strip(),
+        str(payload.get("title", "")).strip(),
+    ]
+    rows: list[dict[str, str]] = []
+    _collect_matching_subtrees(payload, disclosure_ids, root_headings, rows)
+
+    seen: set[tuple[str, str, str]] = set()
+    cleaned: list[dict[str, str]] = []
+    for row in rows:
+        key = (row["reference"], row["title"], row["text"])
+        if key in seen or not row["text"]:
+            continue
+        seen.add(key)
+        cleaned.append(row)
+
+    if not cleaned:
+        return build_full_standard_context(
+            payload, esrs_standard=esrs_standard,
+            esrs_disclosure_id=esrs_disclosure_id, question=question,
+        )
+
+    lines: list[str] = []
+    if question:
+        lines.append(f"Question: {question}")
+    lines.extend([
+        f"ESRS standard: {esrs_standard}",
+        f"Mapped disclosure ID: {esrs_disclosure_id or 'n/a'}",
+        "",
+        "Relevant ESRS disclosure requirements:",
+    ])
+
+    selected: list[dict[str, str]] = []
+    for row in cleaned:
+        lines.append(
+            f"[{_format_context_label(row, fallback_title=esrs_standard)}] "
+            f"{row['text']}".strip()
+        )
+        selected.append({"reference": row["reference"], "text": row["text"]})
+
+    return "\n".join(lines).strip(), selected
+
+
+# ---------------------------------------------------------------------------
+# Convenience functions for notebook use
+# ---------------------------------------------------------------------------
+
+def load_esrs_standards() -> dict[str, dict]:
+    """Load all ESRS standard JSON files into a dict keyed by standard name."""
+    standards: dict[str, dict] = {}
+    for path in sorted(ESRS_JSON_DIR.glob("ESRS_*.json")):
+        payload = json.loads(path.read_text(encoding="utf-8"))
+        std_name = str(payload.get("standard", path.stem.replace("_", " ")))
+        standards[std_name] = payload
+    return standards
+
+
+def extract_esrs_context(
+    esrs_standard: str,
+    standards: dict[str, dict],
+    question: str | None = None,
+    esrs_disclosure_id: str = "",
+) -> str:
+    """Extract disclosure-level ESRS context for a given standard.
+
+    Uses disclosure-level filtering when *esrs_disclosure_id* is provided,
+    otherwise falls back to the full standard.
+    """
+    payload = standards.get(esrs_standard)
+    if payload is None:
+        return ""
+    if esrs_disclosure_id:
+        context_text, _ = build_disclosure_context(
+            payload, esrs_standard=esrs_standard,
+            esrs_disclosure_id=esrs_disclosure_id, question=question,
+        )
+    else:
+        context_text, _ = build_full_standard_context(
+            payload, esrs_standard=esrs_standard,
+            esrs_disclosure_id=esrs_disclosure_id, question=question,
+        )
+    return context_text
+
+
 class ESRSContextExtractor:
     """Cache the full mapped ESRS standard for each evaluation question."""
 
@@ -190,7 +378,7 @@ class ESRSContextExtractor:
             )
 
         payload = self._load_standard_payload(sample.esrs_standard)
-        context_text, selected = build_full_standard_context(
+        context_text, selected = build_disclosure_context(
             payload,
             esrs_standard=sample.esrs_standard,
             esrs_disclosure_id=sample.esrs_disclosure_id,
