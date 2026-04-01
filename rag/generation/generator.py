@@ -142,12 +142,14 @@ class AnswerGenerator:
         sample: GenerationSample,
         retrieved_chunks: list[RetrievedEvidenceChunk],
         esrs_context: str,
+        condition: str | None = None,
     ) -> GeneratedAnswer:
         """Generate and validate a single structured answer."""
         messages = build_answer_messages(
             sample=sample,
             retrieved_chunks=retrieved_chunks,
             esrs_context=esrs_context,
+            condition=condition,
         )
         raw = self._call_json(messages)
         try:
@@ -251,7 +253,12 @@ def generate_answer(
         for i, text in enumerate(retrieved_passages)
     ]
 
-    answer = gen.generate(sample=sample, retrieved_chunks=chunks, esrs_context=esrs_context)
+    answer = gen.generate(
+        sample=sample,
+        retrieved_chunks=chunks,
+        esrs_context=esrs_context,
+        condition=condition,
+    )
 
     result = {
         "compliance_level": answer.compliance_level,

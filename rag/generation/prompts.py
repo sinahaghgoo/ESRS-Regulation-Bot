@@ -31,53 +31,90 @@ def format_retrieved_chunks(chunks: list[RetrievedEvidenceChunk]) -> str:
     return "\n\n".join(blocks)
 
 
+def _resolve_context_mode(*, esrs_context: str, condition: str | None) -> tuple[bool, str]:
+    """Resolve whether ESRS context is intentionally injected for this run."""
+    condition_norm = (condition or "").strip().lower()
+    if condition_norm in {"with_esrs_context", "with_context", "full_system"}:
+        return True, "with_esrs_context"
+    if condition_norm in {"without_esrs_context", "without_context", "no_esrs_context"}:
+        return False, "without_esrs_context"
+    has_context = bool(esrs_context.strip())
+    return has_context, ("with_esrs_context" if has_context else "without_esrs_context")
+
+
 def build_answer_messages(
     *,
     sample: GenerationSample,
     retrieved_chunks: list[RetrievedEvidenceChunk],
     esrs_context: str,
+    condition: str | None = None,
 ) -> list[dict[str, str]]:
     """Build the RQ2 answer-generation prompt for one company/question pair."""
     evidence_block = format_retrieved_chunks(retrieved_chunks)
-    system = (
-        "You evaluate ESRS disclosure fulfillment for a company's sustainability report. "
-        "Important: the compliance level refers to disclosure fulfillment, not to whether "
-        "the company's sustainability performance is good or bad. Evaluate fulfillment at "
-        "the level of the specific research question, not as an exhaustive ESRS checklist "
-        "unless the question explicitly asks for a full checklist. Ground every claim in the "
-        "retrieved report evidence. Use the ESRS requirements block only as interpretive "
-        "context for the question. Do not downgrade solely because the disclosure is not "
-        "presented in a single table, does not use exact ESRS wording, or lacks data-point-"
-        "level tagging, if the retrieved evidence still clearly and substantially answers "
-        "the question. If the company clearly discloses that something is absent, not "
-        "applicable, or negative, that can still support High disclosure fulfillment when "
-        "it directly answers the question. If a required detail is genuinely missing from "
-        "the retrieved evidence, say so. "
-        "Use this rubric: High = the retrieved evidence clearly and substantially answers "
-        "the question with the key process or outcome details needed for that question; "
-        "Medium = the evidence answers the question only partially or with material "
-        "ambiguity; Low = the evidence does not answer the question or only mentions it "
-        "superficially. "
-        "Return a JSON object with exactly these keys: "
-        "`direct_answer`, `compliance_level`, `compliance_rationale`, "
-        "`key_findings`, `disclosure_gaps`, `cited_pages`. "
-        "`compliance_level` must be one of `Low`, `Medium`, `High`. "
-        "`key_findings`, `disclosure_gaps`, and `cited_pages` must be JSON arrays."
+    use_esrs_context, mode_label = _resolve_context_mode(
+        esrs_context=esrs_context,
+        condition=condition,
     )
-    user = (
-        f"Question ID: {sample.question_id}\n"
-        f"Company: {sample.company}\n"
-        f"ESRS standard: {sample.esrs_standard}\n"
-        f"Disclosure ID: {sample.esrs_disclosure_id}\n"
-        f"Question: {sample.question}\n\n"
-        "Injected ESRS requirements:\n"
-        f"{esrs_context.strip()}\n\n"
-        "Retrieved company report evidence:\n"
-        f"{evidence_block}\n\n"
-        "Write a faithful direct answer, assign the disclosure fulfillment level, explain "
-        "the reasoning, list key findings and only question-relevant disclosure gaps, and "
-        "cite only pages that appear in the retrieved evidence."
+
+    mode_block = (
+        "ESRS context mode: WITH_CONTEXT.\n"
+        "The ESRS context block is regulatory ESRS requirement text mapped to the "
+        "question. Use it only to interpret what the question expects and to identify "
+        "missing disclosure elements.\n"
+        "Never treat ESRS context text as proof that the company disclosed something. "
+        "Company disclosure claims must be grounded only in retrieved company report evidence."
+        if use_esrs_context
+        else
+        "ESRS context mode: WITHOUT_CONTEXT.\n"
+        "No ESRS context block is included in this condition. Do not invent additional "
+        "requirements from memory; infer expectations only from the question wording and "
+        "retrieved company report evidence."
     )
+
+    system = "\n".join(
+        [
+            "You evaluate ESRS disclosure fulfillment for one company sustainability-report question.",
+            "Important: compliance level is about disclosure fulfillment, not sustainability performance quality.",
+            "Evaluate only the asked question scope, not an exhaustive ESRS checklist unless explicitly requested.",
+            "Ground every factual claim about the company in retrieved report evidence.",
+            "Do not penalize solely for missing exact ESRS wording, table formatting, or data-point tagging when evidence still clearly answers the question.",
+            "If the company explicitly discloses an absence/not-applicable/negative status, that can still support High fulfillment when it directly answers the question.",
+            "If evidence is partial, ambiguous, or conflicting, acknowledge uncertainty and calibrate the label accordingly.",
+            mode_block,
+            "Rubric: High = evidence clearly and substantially answers the question with key required details; Medium = partial answer or material ambiguity; Low = missing or only superficial answer.",
+            "Return one JSON object with exactly these keys: direct_answer, compliance_level, compliance_rationale, key_findings, disclosure_gaps, cited_pages.",
+            "compliance_level must be one of Low, Medium, High.",
+            "key_findings, disclosure_gaps, and cited_pages must be JSON arrays.",
+            "cited_pages may include only page labels present in the retrieved evidence block.",
+        ]
+    )
+
+    user_sections = [
+        f"Condition: {mode_label}",
+        f"Company: {sample.company}",
+        f"ESRS standard: {sample.esrs_standard}",
+        f"Disclosure ID: {sample.esrs_disclosure_id}",
+        f"Question: {sample.question}",
+    ]
+    if use_esrs_context:
+        user_sections.extend(
+            [
+                "",
+                "ESRS requirements context (regulatory reference, not company evidence):",
+                esrs_context.strip(),
+            ]
+        )
+    user_sections.extend(
+        [
+            "",
+            "Retrieved company report evidence (only source for company-disclosure claims):",
+            evidence_block,
+            "",
+            "Write a faithful direct answer, assign the disclosure fulfillment level, explain the reasoning, list key findings and only question-relevant disclosure gaps, and cite only pages that appear in the retrieved evidence.",
+        ]
+    )
+    user = "\n".join(user_sections)
+
     return [
         {"role": "system", "content": system},
         {"role": "user", "content": user},

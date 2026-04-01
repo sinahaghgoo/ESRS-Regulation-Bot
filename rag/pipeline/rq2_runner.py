@@ -230,6 +230,7 @@ class RQ2PipelineRunner:
             sample=sample,
             retrieved_chunks=retrieved_chunks,
             esrs_context=esrs_context,
+            condition=condition,
         )
         payload = {
             "results_version": RQ2_RESULTS_VERSION,
@@ -269,6 +270,7 @@ class RQ2PipelineRunner:
             sample=sample,
             retrieved_chunks=retrieved_chunks,
             esrs_context=esrs_context,
+            condition=condition,
         )
         payload = {
             "results_version": RQ2_RESULTS_VERSION,
