@@ -180,16 +180,25 @@ def test_paired_stats_keys():
     qlr = build_question_level_results(rows)
     stats = compute_rq2_paired_statistics(rows, paired, qlr)
     assert "cluster_bootstrap" in stats
-    assert "question_level_tests" in stats
+    assert "question_level_sign_tests" in stats
+    assert "question_level_wilcoxon_tests" in stats
     assert "exact_match_test" in stats
     assert "macro_f1" in stats["cluster_bootstrap"]
+
+def test_wilcoxon_test_p_value_in_range():
+    rows = _make_paired()
+    paired = build_paired_results(rows)
+    qlr = build_question_level_results(rows)
+    stats = compute_rq2_paired_statistics(rows, paired, qlr)
+    p = stats["question_level_wilcoxon_tests"]["macro_f1"]["p_value"]
+    assert 0.0 <= p <= 1.0
 
 def test_sign_test_p_value_in_range():
     rows = _make_paired()
     paired = build_paired_results(rows)
     qlr = build_question_level_results(rows)
     stats = compute_rq2_paired_statistics(rows, paired, qlr)
-    p = stats["question_level_tests"]["macro_f1"]["p_value"]
+    p = stats["question_level_sign_tests"]["macro_f1"]["p_value"]
     assert 0.0 <= p <= 1.0
 
 

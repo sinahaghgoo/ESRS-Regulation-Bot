@@ -148,11 +148,11 @@ The winning configuration from RQ1 is passed forward as the fixed pipeline for R
 
 ### Question
 
-**To what extent does full-standard ESRS context injection improve evidence-grounded compliance classification and compliance rationale quality, compared with the same RAG pipeline without injected ESRS context?**
+**To what extent does disclosure-filtered ESRS context injection improve evidence-grounded compliance classification and compliance rationale quality, compared with the same RAG pipeline without injected ESRS context?**
 
 ### Motivation
 
-The system's `esrs_context` module serializes the full ESRS standard mapped to each question from the ESRS standard JSON files and injects it into the generation prompt. This adds significant prompt length, and it is not self-evident that this injection is necessary: a large language model trained on publicly available corpora likely has general knowledge of ESRS, and may produce reasonable compliance assessments without explicit regulatory context. This research question isolates the contribution of ESRS context injection by comparing the full system against a condition where injection is disabled.
+The system's `esrs_context` module extracts disclosure-filtered ESRS requirement text for each question: it loads the ESRS standard JSON mapped to the question, filters to the subtree(s) matching the target disclosure ID(s) (e.g., E1-1, S4-1), and serializes the matching paragraphs into a prompt-ready context block. If no disclosure-level match is found, it falls back to the full standard. This disclosure-filtered approach adds significant but targeted prompt length (14K–25K characters depending on the standard), and it is not self-evident that this injection is necessary: a large language model trained on publicly available corpora likely has general knowledge of ESRS, and may produce reasonable compliance assessments without explicit regulatory context. This research question isolates the contribution of ESRS context injection by comparing the full system against a condition where injection is disabled.
 
 ### Experimental Design
 
@@ -185,27 +185,28 @@ The primary dependent variable is **evidence-grounded compliance classification 
 
 #### LLM-Judge Rationale Evaluation
 
-The compliance rationale quality is evaluated using a G-Eval-style rubric:
+The compliance rationale quality is evaluated using a G-Eval-style rubric (Liu et al., 2023):
 
-- **Judge model:** Claude Sonnet 4.5 (via Anthropic API)
-- **Input:** Generated `compliance_rationale` vs gold `fulfillment_rationale` from the Golden Standard
-- **Output verdict:** `aligned` (rationale justifies the compliance level), `partially_aligned` (rationale partially justifies the level), or `misaligned` (rationale does not justify the level)
-- **Score:** Numeric score (0.0–1.0) quantifying rationale quality; verdicts are converted to canonical scores: `aligned` → 1.0, `partially_aligned` → 0.5, `misaligned` → 0.0
-- **Error tags:** Structured error categorization (e.g., unsupported claims, incomplete evidence, incorrect reasoning)
+- **Judge model:** Claude Sonnet 4.5 (via Anthropic API), separate from the generator (GPT-5-mini) to avoid self-evaluation bias
+- **Input:** Gold fulfillment level, gold fulfillment rationale, and generated compliance rationale. Critically, the **generated compliance level is withheld** from the judge to prevent anchoring bias — the judge should evaluate rationale substance independently of whether the level prediction happened to match
+- **Score:** 1–5 Likert scale following G-Eval's chain-of-thought evaluation design, normalized to 0.0–1.0 for composite metrics
+- **Verdicts derived from score:** `aligned` (score 4–5), `partially_aligned` (score 3), `misaligned` (score 1–2)
+- **Error tags:** Structured error categorization (`contradiction`, `omission`, `different_level_support`, `none`)
+- **Chain-of-thought:** The prompt includes explicit evaluation steps the judge must follow before scoring, following G-Eval methodology
 
 #### Joint Compliance-Assessment Metrics
 
-These metrics evaluate the combined compliance level + rationale quality:
+These metrics evaluate the combined compliance level + rationale quality. The composite uses a **multiplicative** formulation: a sample with the wrong compliance level receives zero credit regardless of rationale quality, because a compliance assessment with an incorrect conclusion is not useful.
 
 | Metric | Description |
 |---|---|
-| **Joint strict match** | Compliance level correct AND rationale verdict is `aligned` |
-| **Joint lenient match** | Compliance level correct AND (rationale verdict is `aligned` OR `partially_aligned`) |
-| **Joint assessment score** | Mean of (compliance level correctness score × rationale quality score) |
+| **Assessment Quality Score (AQS)** | Per-sample: `I(level_correct) × rationale_score_normalized`. Averaged across all samples. Primary composite endpoint. |
+| **Overall Assessment Rate (OAR)** | Fraction of samples where the compliance level is correct AND the rationale score ≥ 3 (moderate alignment on the 1–5 scale) |
+| **Conditional Rationale Quality (CRQ)** | Mean normalized rationale score for correctly-classified samples only — measures rationale quality given correct classification |
 
-**Primary metric:** `Joint Lenient Match Rate` — the fraction of samples where the compliance level is correct and the rationale is at least partially aligned with the gold standard.
+**Primary metric:** `Assessment Quality Score (AQS)` — the expected rationale quality weighted by classification correctness. This metric is zero when the level is wrong and scales linearly with rationale quality when correct, providing a genuine joint signal.
 
-**Secondary metrics:** `Macro-F1`, `Balanced accuracy`, `Mean rationale score`, `Joint strict match`
+**Secondary metrics:** `Macro-F1`, `Balanced accuracy`, `Overall Assessment Rate`, `Mean rationale score`
 
 **Analysis:**
 - Per-condition aggregate scores for deterministic metrics and LLM-judge verdicts
@@ -281,12 +282,12 @@ A comprehensive characterisation of the system's strengths and failure modes acr
 
 | | RQ1 | RQ2 | RQ3 |
 |---|---|---|---|
-| **Stage tested** | Chunking + Retrieval | ESRS context injection | End-to-end generation |
+| **Stage tested** | Chunking + Retrieval | Disclosure-filtered ESRS context injection | End-to-end generation |
 | **Variable** | Chunking strategy × Chunk size × Retrieval method | ESRS context on/off | None (single best config) |
 | **Evaluation type** | Retrieval-only | Generation + LLM judge | Generation + qualitative |
 | **LLM calls** | None (embeddings only) | 408 generation + 408 judge calls | 204 generation + judge calls |
-| **Primary metric** | Recall@15 | Joint Lenient Match Rate | LLM judge overall score |
-| **Secondary metrics** | Precision@k, MRR@10 | Macro-F1, Balanced accuracy, Mean rationale score, Joint strict match | Citation F1, Hallucination rate, Error analysis |
+| **Primary metric** | Recall@15 | Assessment Quality Score (AQS) | LLM judge overall score |
+| **Secondary metrics** | Precision@k, MRR@10 | Macro-F1, Balanced accuracy, Overall Assessment Rate, Mean rationale score | Citation F1, Hallucination rate, Error analysis |
 | **Statistical validation** | Bootstrap CIs, permutation tests | Question-level paired sign test | Confusion matrix, gap analysis |
 | **Configs evaluated** | 54 | 2 | 1 |
 | **Golden Standard coverage** | 12 questions × 17 companies | 12 questions × 17 companies | 12 questions × 17 companies |

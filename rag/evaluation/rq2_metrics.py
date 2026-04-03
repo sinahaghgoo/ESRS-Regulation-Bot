@@ -647,6 +647,114 @@ def _question_level_sign_test(
     }
 
 
+def _wilcoxon_signed_rank_test(
+    question_deltas: dict[str, float],
+    *,
+    direction: str = "higher_is_better",
+    endpoint_role: str = "confirmatory_primary",
+) -> dict[str, object]:
+    """Exact Wilcoxon signed-rank test across question-level deltas.
+
+    More powerful than the sign test for small n because it uses rank
+    information, not just the direction of differences.
+
+    Reference: Wilcoxon (1945), "Individual Comparisons by Ranking Methods",
+    Biometrics Bulletin 1(6): 80-83.
+
+    For n <= 25, the exact distribution is computed by enumerating all 2^n
+    sign assignments.  The rank-biserial correlation r is reported as the
+    non-parametric effect size (Kerby, 2014).
+    """
+    from math import comb
+    deltas = list(question_deltas.values())
+    n = len(deltas)
+
+    # Remove zeros (ties with zero)
+    nonzero = [(qid, d) for qid, d in question_deltas.items() if d != 0.0]
+    n_eff = len(nonzero)
+    ties = n - n_eff
+
+    if n_eff == 0:
+        return {
+            "test_name": "wilcoxon_signed_rank",
+            "mean_delta": mean(deltas) if deltas else math.nan,
+            "median_delta": median(deltas) if deltas else math.nan,
+            "p_value": 1.0,
+            "w_plus": 0, "w_minus": 0, "w_statistic": 0,
+            "rank_biserial_r": 0.0, "effect_magnitude": "negligible",
+            "direction": direction, "endpoint_role": endpoint_role,
+            "n_questions": n, "n_effective": n_eff, "ties": ties,
+        }
+
+    # Rank |deltas| (average ranks for ties in absolute values)
+    abs_deltas = sorted([(abs(d), qid, d) for qid, d in nonzero], key=lambda x: x[0])
+    ranks: list[tuple[float, float]] = []  # (rank, signed_delta)
+    i = 0
+    while i < n_eff:
+        j = i
+        while j < n_eff and abs_deltas[j][0] == abs_deltas[i][0]:
+            j += 1
+        avg_rank = (i + 1 + j) / 2.0  # average rank for tied absolute values
+        for k in range(i, j):
+            ranks.append((avg_rank, abs_deltas[k][2]))
+        i = j
+
+    w_plus = sum(r for r, d in ranks if d > 0)
+    w_minus = sum(r for r, d in ranks if d < 0)
+    w_stat = min(w_plus, w_minus)
+
+    # Exact p-value: enumerate all 2^n_eff sign assignments
+    rank_values = [r for r, _ in ranks]
+    total_rank_sum = sum(rank_values)
+    n_perms = 2 ** n_eff
+
+    # Count how many assignments produce W+ <= w_stat or W+ >= total - w_stat
+    count_extreme = 0
+    for bits in range(n_perms):
+        wp = 0.0
+        for idx in range(n_eff):
+            if bits & (1 << idx):
+                wp += rank_values[idx]
+        wp_min = min(wp, total_rank_sum - wp)
+        if wp_min <= w_stat:
+            count_extreme += 1
+    p_value = count_extreme / n_perms
+
+    # Rank-biserial correlation (effect size for Wilcoxon)
+    # r = (W+ - W-) / (W+ + W-)  following Kerby (2014)
+    denom = w_plus + w_minus
+    r_rb = (w_plus - w_minus) / denom if denom > 0 else 0.0
+    abs_r = abs(r_rb)
+    if abs_r < 0.1:
+        magnitude = "negligible"
+    elif abs_r < 0.3:
+        magnitude = "small"
+    elif abs_r < 0.5:
+        magnitude = "medium"
+    else:
+        magnitude = "large"
+
+    obs_mean = mean(deltas) if deltas else math.nan
+    obs_median = median(deltas) if deltas else math.nan
+
+    return {
+        "test_name": "wilcoxon_signed_rank",
+        "mean_delta": obs_mean,
+        "median_delta": obs_median,
+        "p_value": p_value,
+        "w_plus": w_plus,
+        "w_minus": w_minus,
+        "w_statistic": w_stat,
+        "rank_biserial_r": round(r_rb, 4),
+        "effect_magnitude": magnitude,
+        "direction": direction,
+        "endpoint_role": endpoint_role,
+        "n_questions": n,
+        "n_effective": n_eff,
+        "ties": ties,
+    }
+
+
 def _exact_match_discordant_test(
     paired_rows: list[dict[str, object]],
 ) -> dict[str, object]:
@@ -691,7 +799,33 @@ def compute_rq2_paired_statistics(
     paired_rows: list[dict[str, object]],
     question_rows: list[dict[str, object]],
 ) -> dict[str, object]:
-    """Compute all paired inference for the RQ2 ablation."""
+    """Compute all paired inference for the RQ2 ablation.
+
+    Statistical design
+    ------------------
+    Primary confirmatory test: Wilcoxon signed-rank test on question-level
+    deltas (n=12).  More powerful than the sign test because it uses rank
+    information (Wilcoxon, 1945).  Exact p-values are computed via full
+    enumeration (2^12 = 4096 permutations).
+
+    Sensitivity analysis: McNemar-style exact sign test on sample-level
+    discordant pairs (n=204), which ignores clustering but provides a
+    complementary signal.
+
+    Bootstrap CIs: cluster-bootstrap at the question level (10,000
+    resamples) for all metrics.
+
+    Post-hoc power: reported with the caveat that post-hoc power is
+    controversial and should not be used for inference (Hoenig & Heisey,
+    2001, "The Abuse of Power").
+
+    References
+    ----------
+    - Wilcoxon (1945). Individual Comparisons by Ranking Methods.
+    - Kerby (2014). The Simple Difference Formula: An approach to teaching
+      nonparametric correlation.
+    - Hoenig & Heisey (2001). The Abuse of Power. The American Statistician.
+    """
     # Build question-level delta dicts for each metric
     classification_metrics = {
         "macro_f1": ("higher_is_better", "confirmatory_primary"),
@@ -707,7 +841,8 @@ def compute_rq2_paired_statistics(
     }
 
     cluster_bootstrap: dict[str, dict[str, object]] = {}
-    question_tests: dict[str, dict[str, object]] = {}
+    question_sign_tests: dict[str, dict[str, object]] = {}
+    question_wilcoxon_tests: dict[str, dict[str, object]] = {}
 
     all_metrics = {**classification_metrics, **text_metrics}
     for metric, (direction, role) in all_metrics.items():
@@ -725,15 +860,22 @@ def compute_rq2_paired_statistics(
         cb = _cluster_bootstrap_ci(q_deltas)
         cluster_bootstrap[metric] = cb
 
+        # Sign test (retained for comparison)
         st = _question_level_sign_test(q_deltas, direction=direction, endpoint_role=role)
         if q_with:
             st["mean_with"] = mean(q_with.values())
             st["mean_without"] = mean(q_without.values())
-        question_tests[metric] = st
+        question_sign_tests[metric] = st
+
+        # Wilcoxon signed-rank test (primary confirmatory)
+        wt = _wilcoxon_signed_rank_test(q_deltas, direction=direction, endpoint_role=role)
+        if q_with:
+            wt["mean_with"] = mean(q_with.values())
+            wt["mean_without"] = mean(q_without.values())
+        question_wilcoxon_tests[metric] = wt
 
     exact_match_test = _exact_match_discordant_test(paired_rows)
 
-    # --- New diagnostics (thesis-level) ---
     # Power analysis for the primary endpoint (macro_f1)
     primary_cb = cluster_bootstrap.get("macro_f1", {})
     primary_d = primary_cb.get("cohens_d", 0.0)
@@ -751,18 +893,26 @@ def compute_rq2_paired_statistics(
         "n_pairs": len(scored),
         "n_question_clusters": len({str(qr["question_id"]) for qr in question_rows}),
         "cluster_bootstrap": cluster_bootstrap,
-        "question_level_tests": question_tests,
+        "question_level_sign_tests": question_sign_tests,
+        "question_level_wilcoxon_tests": question_wilcoxon_tests,
         "exact_match_test": exact_match_test,
         "power_analysis": power_analysis,
         "prediction_bias": prediction_bias,
         "direction_summary": direction_summary,
         "notes": {
             "primary_endpoint": "macro_f1",
+            "primary_test": "wilcoxon_signed_rank",
             "bootstrap_unit": "question_cluster",
             "primary_inference": (
-                "Cluster bootstrap CI and exact sign test across 12 question-level "
-                "deltas. Alpha=0.05, two-sided. If CI includes zero, the effect is "
-                "not statistically defensible."
+                "Wilcoxon signed-rank test and cluster bootstrap CI across 12 "
+                "question-level deltas. Alpha=0.05, two-sided. The Wilcoxon test "
+                "is preferred over the sign test because it uses rank information "
+                "and has higher power for small n (Wilcoxon, 1945)."
+            ),
+            "power_caveat": (
+                "Post-hoc power is reported for transparency but should not be "
+                "used for inference. A non-significant result with low power does "
+                "not confirm the null hypothesis (Hoenig & Heisey, 2001)."
             ),
             "secondary_tests_multiplicity": (
                 "Secondary classification and text metrics are supportive/exploratory. "
