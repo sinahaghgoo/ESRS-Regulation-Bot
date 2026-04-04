@@ -18,7 +18,7 @@ RQ3 → uses best config from RQ1, evaluates full generation quality of the fina
 
 ---
 
-## RQ1 — Pipeline Configuration
+## RQ1 — Pipeline Configuration ✅ Completed
 
 ### Question
 
@@ -54,10 +54,10 @@ Each chunking-strategy/size combination is evaluated with all six retrieval meth
 - **Dense + Rerank:** Dense retrieval of 3x candidates followed by cross-encoder reranking.
 - **Sparse (BM25):** Keyword matching using Okapi BM25 (k1=1.5, b=0.75) with Robertson et al. (1994) IDF formulation. IDF statistics are computed globally across all companies to provide stable vocabulary weights for ESRS-specific terminology, regardless of which company is being queried.
 - **Sparse + Rerank:** Sparse retrieval of 3x candidates followed by cross-encoder reranking.
-- **Hybrid (RRF):** Dense and sparse results fused via Reciprocal Rank Fusion with k=60 (Cormack et al., 2009). Each system contributes 2x candidates to the fusion pool.
-- **Hybrid + Rerank:** Hybrid RRF of 3x candidates, then reranked using the cross-encoder.
+- **Hybrid (RRF):** Dense and sparse results fused via Reciprocal Rank Fusion with k=60 (Cormack et al., 2009). Each system contributes 3x candidates to the fusion pool.
+- **Hybrid + Rerank:** Hybrid RRF of 5x candidates, then reranked using the cross-encoder.
 
-**Cross-encoder model:** `cross-encoder/ms-marco-MiniLM-L-6-v2` (22 M params, ~80 MB). This lightweight cross-encoder was chosen for practical evaluation on Apple Silicon; it is the most widely cited compact reranker in IR benchmarks. Reranking scores are cached to disk for deterministic re-runs. A larger model such as `BAAI/bge-reranker-v2-m3` (568 M params) could yield different outcomes but is not tested in this thesis.
+**Cross-encoder model:** `cross-encoder/ms-marco-MiniLM-L-6-v2` (22 M params, ~80 MB). This lightweight cross-encoder was chosen for practical evaluation on Apple Silicon; it is the most widely cited compact reranker in IR benchmarks. Reranking uses a 5x candidate pool and section-context-aware input (header hierarchy prepended). Reranking scores are cached to disk for deterministic re-runs. A larger model such as `BAAI/bge-reranker-v2-m3` (568 M params) could yield different outcomes but is not tested in this thesis.
 
 ### Evaluation
 
@@ -144,7 +144,7 @@ The winning configuration from RQ1 is passed forward as the fixed pipeline for R
 
 ---
 
-## RQ2 — ESRS Domain Adaptation
+## RQ2 — ESRS Domain Adaptation ✅ Completed
 
 ### Question
 
@@ -214,7 +214,7 @@ These metrics evaluate the combined compliance level + rationale quality. The co
 - Majority-class baseline comparison to contextualise the `High`-dominant label distribution
 - Per-ESRS-standard breakdown of joint lenient match and balanced accuracy to identify which standards benefit most from explicit injection
 - Per-company consistency analysis: do the same companies systematically benefit from injection, or is the effect uniform?
-- **Wilcoxon signed-rank test** on question-level paired deltas (n=12 clusters) as primary confirmatory test, with cluster bootstrap confidence intervals (10,000 resamples), Cohen's d effect sizes, and post-hoc power analysis to assess statistical significance and practical significance of the ESRS context injection effect
+- **Wilcoxon signed-rank test** on question-level paired deltas (n=12 clusters) as primary confirmatory test (exact p-values via full enumeration of 2^12 sign assignments), with cluster bootstrap confidence intervals (10,000 resamples), Cohen's d effect sizes, rank-biserial correlation (Kerby, 2014), post-hoc power analysis, and prediction bias diagnosis. A **McNemar-style exact sign test** on sample-level discordant pairs (n=204) provides a complementary sensitivity analysis that ignores clustering.
 
 ### Expected Output
 
@@ -281,15 +281,15 @@ A comprehensive characterisation of the system's strengths and failure modes acr
 
 ## Summary Table
 
-| | RQ1 | RQ2 | RQ3 |
+| | RQ1 ✅ | RQ2 ✅ | RQ3 🔲 |
 |---|---|---|---|
 | **Stage tested** | Chunking + Retrieval | Disclosure-filtered ESRS context injection | End-to-end generation |
 | **Variable** | Chunking strategy × Chunk size × Retrieval method | ESRS context on/off | None (single best config) |
 | **Evaluation type** | Retrieval-only | Generation + LLM judge | Generation + qualitative |
-| **LLM calls** | None (embeddings only) | 408 generation + 408 judge calls | 204 generation + judge calls |
+| **LLM calls** | None (embeddings only) | 408 generation (GPT-5-mini) + 408 judge calls (Claude Sonnet 4.5) | 204 generation + judge calls |
 | **Primary metric** | Recall@15 | Assessment Quality Score (AQS) | LLM judge overall score |
 | **Secondary metrics** | Precision@k, MRR@10 | Macro-F1, Balanced accuracy, Overall Assessment Rate, Mean rationale score | Citation F1, Hallucination rate, Error analysis |
-| **Statistical validation** | Bootstrap CIs, permutation tests | Wilcoxon signed-rank test, cluster bootstrap CIs, Cohen's d, power analysis | Confusion matrix, gap analysis |
+| **Statistical validation** | Bootstrap CIs, permutation tests | Wilcoxon signed-rank (exact), cluster bootstrap CIs, Cohen's d, rank-biserial r, McNemar, power analysis | Confusion matrix, gap analysis |
 | **Configs evaluated** | 54 | 2 | 1 |
 | **Golden Standard coverage** | 12 questions × 17 companies | 12 questions × 17 companies | 12 questions × 17 companies |
 
@@ -305,7 +305,7 @@ A comprehensive characterisation of the system's strengths and failure modes acr
 | Relevance threshold | 50% gold passage coverage | Balances strictness with tolerance for chunking boundary effects; justification discussed in the thesis text |
 | Top-k retrieved | 15 chunks | Sufficient coverage without excessive context window noise |
 | RRF constant | k = 60 | Standard value from Cormack et al. (2009) |
-| Reranker candidate pool | 3× top-k | Provides sufficient depth for cross-encoder reranking without excessive computation |
+| Reranker candidate pool | 5× top-k | Provides sufficient depth for cross-encoder reranking without excessive computation |
 | LLM (generator) | `gpt-5-mini` | Consistent across all generation steps |
 | Temperature | 0.1 | Near-deterministic generation for reproducibility |
 | Dataset | 17 companies, 2024 reports | European energy and chemical sector; all ESRS-aligned |
