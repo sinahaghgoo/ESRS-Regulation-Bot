@@ -215,11 +215,8 @@ class RQ2SampleResult:
     predicted_fulfillment_level: str
     direct_answer_token_f1: float
     rationale_token_f1: float
-    evidence_support_ratio: float
     exact_match: bool = False
     ordinal_error: int = 0
-    cited_pages: list[str] = field(default_factory=list)
-    retrieval_pages: list[str] = field(default_factory=list)
     success: bool = True
     error: str | None = None
 

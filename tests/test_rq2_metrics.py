@@ -44,7 +44,6 @@ def _make_result(
         predicted_fulfillment_level=predicted,
         direct_answer_token_f1=0.5,
         rationale_token_f1=0.4,
-        evidence_support_ratio=0.9,
         exact_match=(gold == predicted) if success else False,
         ordinal_error=_ordinal_error(gold, predicted) if success else 2,
         success=success,

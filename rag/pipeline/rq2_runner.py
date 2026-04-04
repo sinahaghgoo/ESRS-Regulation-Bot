@@ -194,19 +194,6 @@ class RQ2PipelineRunner:
         hits = self.retriever.retrieve(sample.question, company=sample.company, top_k=self.best_config.top_k)
         return self._serialize_hits(hits)
 
-    @staticmethod
-    def _retrieval_pages(chunks: list[RetrievedEvidenceChunk]) -> list[str]:
-        pages: list[str] = []
-        for chunk in chunks:
-            if chunk.page_start is None and chunk.page_end is None:
-                continue
-            start = "" if chunk.page_start is None else str(chunk.page_start)
-            end = "" if chunk.page_end is None else str(chunk.page_end)
-            label = start if start == end or not end else f"{start}-{end}"
-            if label and label not in pages:
-                pages.append(label)
-        return pages
-
     def _write_response_payload(self, condition: str, sample: GenerationSample, payload: dict) -> None:
         path = self._response_path(condition, sample)
         path.parent.mkdir(parents=True, exist_ok=True)
@@ -290,7 +277,6 @@ class RQ2PipelineRunner:
 
     def _evaluate_payload(self, sample: GenerationSample, payload: dict):
         answer_payload = payload.get("generated_answer", {})
-        chunks = payload.get("retrieved_chunks", [])
         # Reconstruct from persisted payload to keep the evaluator independent
         # from the live generation call path.
         from rag.types import GeneratedAnswer
@@ -305,27 +291,10 @@ class RQ2PipelineRunner:
             raw_response=str(answer_payload.get("raw_response", "")),
             parse_error=answer_payload.get("parse_error"),
         )
-        evidence_texts = [str(chunk.get("text", "")) for chunk in chunks]
-        retrieval_pages = self._retrieval_pages(
-            [
-                RetrievedEvidenceChunk(
-                    chunk_id=str(chunk.get("chunk_id", "")),
-                    text=str(chunk.get("text", "")),
-                    score=float(chunk.get("score", 0.0)),
-                    rank=int(chunk.get("rank", 0)),
-                    page_start=chunk.get("page_start"),
-                    page_end=chunk.get("page_end"),
-                    header_hierarchy=list(chunk.get("header_hierarchy", [])),
-                )
-                for chunk in chunks
-            ]
-        )
         return build_sample_result(
             condition=str(payload.get("condition", "")),
             sample=sample,
             answer=generated_answer,
-            evidence_texts=evidence_texts,
-            retrieval_pages=retrieval_pages,
         )
 
     def _persist_evaluation(

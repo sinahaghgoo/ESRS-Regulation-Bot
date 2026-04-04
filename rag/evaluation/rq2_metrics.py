@@ -20,7 +20,7 @@ from sklearn.metrics import (
 )
 
 from rag.config.settings import ESRS_JSON_DIR, RQ2_RESULTS_VERSION
-from rag.data.text_utils import normalize_text, sentence_split
+from rag.data.text_utils import normalize_text
 from rag.types import (
     ESRSContextResult,
     GeneratedAnswer,
@@ -71,33 +71,6 @@ def token_f1(predicted: str, gold: str) -> float:
     return 2 * precision * recall / max(precision + recall, 1e-12)
 
 
-def _token_overlap_ratio(gold_text: str, evidence_text: str) -> float:
-    gold_tokens = _tokenize(gold_text)
-    evidence_tokens = _tokenize(evidence_text)
-    if not gold_tokens or not evidence_tokens:
-        return 0.0
-    evidence_counts: dict[str, int] = {}
-    for token in evidence_tokens:
-        evidence_counts[token] = evidence_counts.get(token, 0) + 1
-    gold_counts: dict[str, int] = {}
-    for token in gold_tokens:
-        gold_counts[token] = gold_counts.get(token, 0) + 1
-    matched = sum(min(count, evidence_counts.get(token, 0)) for token, count in gold_counts.items())
-    return matched / len(gold_tokens)
-
-
-def evidence_support_ratio(text: str, evidence_texts: list[str], threshold: float = 0.5) -> float:
-    """Fraction of generated sentences supported by retrieved evidence."""
-    sentences = [sent.strip() for sent in sentence_split(text) if len(sent.strip()) >= 20]
-    if not sentences:
-        return 0.0
-    supported = 0
-    for sentence in sentences:
-        if any(_token_overlap_ratio(sentence, ev) >= threshold for ev in evidence_texts):
-            supported += 1
-    return supported / len(sentences)
-
-
 def _ordinal_error(gold_label: str, pred_label: str) -> int:
     """Absolute ordinal distance between two labels."""
     g = _LABEL_ORD.get(gold_label)
@@ -116,15 +89,10 @@ def build_sample_result(
     condition: str,
     sample: GenerationSample,
     answer: GeneratedAnswer,
-    evidence_texts: list[str],
-    retrieval_pages: list[str],
 ) -> RQ2SampleResult:
     """Evaluate one generated answer against its gold sample."""
     predicted = normalize_label(answer.compliance_level) or ""
     gold_norm = normalize_label(sample.fulfillment_level) or ""
-    combined_text = " ".join(
-        part for part in [answer.direct_answer, answer.compliance_rationale] if part
-    ).strip()
     is_success = bool(predicted) and answer.parse_error is None
     return RQ2SampleResult(
         condition=condition,
@@ -137,11 +105,8 @@ def build_sample_result(
         predicted_fulfillment_level=predicted,
         direct_answer_token_f1=token_f1(answer.direct_answer, sample.ground_truth_answer),
         rationale_token_f1=token_f1(answer.compliance_rationale, sample.fulfillment_rationale),
-        evidence_support_ratio=evidence_support_ratio(combined_text, evidence_texts),
         exact_match=(predicted == gold_norm) if is_success else False,
         ordinal_error=_ordinal_error(gold_norm, predicted) if is_success else 2,
-        cited_pages=list(answer.cited_pages),
-        retrieval_pages=retrieval_pages,
         success=is_success,
         error=answer.parse_error,
     )
@@ -222,7 +187,6 @@ def aggregate_condition_metrics(results: list[RQ2SampleResult]) -> dict[str, obj
             "ordinal_error_mean": math.nan,
             "direct_answer_token_f1": math.nan,
             "rationale_token_f1": math.nan,
-            "evidence_support_ratio": math.nan,
             "gold_label_distribution": {},
             "per_label_metrics": {},
             "confusion_matrix": [[0, 0, 0] for _ in _LABELS],
@@ -244,7 +208,6 @@ def aggregate_condition_metrics(results: list[RQ2SampleResult]) -> dict[str, obj
         "ordinal_error_mean": float(mean(row.ordinal_error for row in scored)),
         "direct_answer_token_f1": float(mean(row.direct_answer_token_f1 for row in scored)),
         "rationale_token_f1": float(mean(row.rationale_token_f1 for row in scored)),
-        "evidence_support_ratio": float(mean(row.evidence_support_ratio for row in scored)),
         "gold_label_distribution": gold_dist,
         "per_label_metrics": _per_label_metrics(gold, pred),
         "confusion_matrix": confusion_matrix(gold, pred, labels=_LABELS).tolist(),
@@ -279,7 +242,6 @@ def build_paired_results(rows: list[RQ2SampleResult]) -> list[dict[str, object]]
         metrics = [
             "direct_answer_token_f1",
             "rationale_token_f1",
-            "evidence_support_ratio",
         ]
         row_dict: dict[str, object] = {
             "question_id": qid,
@@ -343,7 +305,7 @@ def build_question_level_results(
             "weighted_kappa", "ordinal_error_mean",
         ]
         text_metrics = [
-            "direct_answer_token_f1", "rationale_token_f1", "evidence_support_ratio",
+            "direct_answer_token_f1", "rationale_token_f1",
         ]
         for m in classification_metrics + text_metrics:
             val_w = agg["with_esrs_context"].get(m, math.nan)
@@ -837,7 +799,6 @@ def compute_rq2_paired_statistics(
     text_metrics = {
         "direct_answer_token_f1": ("higher_is_better", "exploratory_text"),
         "rationale_token_f1": ("higher_is_better", "exploratory_text"),
-        "evidence_support_ratio": ("higher_is_better", "exploratory_text"),
     }
 
     cluster_bootstrap: dict[str, dict[str, object]] = {}
@@ -1119,7 +1080,6 @@ class _RQ2SampleResultCompat:
         "condition", "gold_level", "predicted_level",
         "exact_match", "ordinal_error",
         "token_f1_score", "token_precision", "token_recall",
-        "faithfulness",
     )
 
     def __init__(self, **kwargs: object) -> None:
@@ -1137,7 +1097,6 @@ def evaluate_sample(
     gold_level: str,
     generated_answer: str,
     gold_answer: str,
-    retrieved_passages: list[str],
 ) -> _RQ2SampleResultCompat:
     """Evaluate a single generated answer and return a lightweight result object.
 
@@ -1167,8 +1126,6 @@ def evaluate_sample(
         tp = overlap / len(pred_tokens) if pred_tokens else 0.0
         tr = overlap / len(gold_tokens) if gold_tokens else 0.0
 
-    faith = evidence_support_ratio(generated_answer, retrieved_passages)
-
     return _RQ2SampleResultCompat(
         question_id=question_id,
         company=company,
@@ -1181,7 +1138,6 @@ def evaluate_sample(
         token_f1_score=f1,
         token_precision=tp,
         token_recall=tr,
-        faithfulness=faith,
     )
 
 
@@ -1200,8 +1156,6 @@ class RQ2AggregateResult:
         token_f1_std: float,
         token_precision: float,
         token_recall: float,
-        faithfulness: float,
-        faithfulness_std: float | None = None,
         per_standard: dict | None = None,
         per_company: dict | None = None,
     ) -> None:
@@ -1214,8 +1168,6 @@ class RQ2AggregateResult:
         self.token_f1_std = token_f1_std
         self.token_precision = token_precision
         self.token_recall = token_recall
-        self.faithfulness = faithfulness
-        self.faithfulness_std = faithfulness_std
         self.per_standard = per_standard or {}
         self.per_company = per_company or {}
 
@@ -1227,8 +1179,7 @@ def aggregate_results(
     """Aggregate a list of per-sample results into an ``RQ2AggregateResult``.
 
     Computes compliance accuracy, off-by-one accuracy, token F1,
-    precision, recall, faithfulness, and per-standard / per-company
-    breakdowns.
+    precision, recall, and per-standard / per-company breakdowns.
     """
     import math
     from statistics import mean as _mean, stdev as _stdev
@@ -1241,7 +1192,6 @@ def aggregate_results(
     f1s = [r.token_f1_score for r in scored]
     precisions = [r.token_precision for r in scored]
     recalls = [r.token_recall for r in scored]
-    faiths = [r.faithfulness for r in scored]
 
     def _safe_mean(vals: list[float]) -> float:
         return _mean(vals) if vals else 0.0
@@ -1258,7 +1208,6 @@ def aggregate_results(
         per_standard[std] = {
             "compliance_accuracy": _safe_mean([1.0 if r.exact_match else 0.0 for r in std_results]),
             "token_f1": _safe_mean([r.token_f1_score for r in std_results]),
-            "faithfulness": _safe_mean([r.faithfulness for r in std_results]),
         }
 
     per_company: dict[str, dict[str, float]] = {}
@@ -1269,10 +1218,7 @@ def aggregate_results(
         per_company[co] = {
             "compliance_accuracy": _safe_mean([1.0 if r.exact_match else 0.0 for r in co_results]),
             "token_f1": _safe_mean([r.token_f1_score for r in co_results]),
-            "faithfulness": _safe_mean([r.faithfulness for r in co_results]),
         }
-
-    faith_std = _safe_std(faiths) if faiths else None
 
     return RQ2AggregateResult(
         condition=condition,
@@ -1284,8 +1230,6 @@ def aggregate_results(
         token_f1_std=_safe_std(f1s),
         token_precision=_safe_mean(precisions),
         token_recall=_safe_mean(recalls),
-        faithfulness=_safe_mean(faiths),
-        faithfulness_std=faith_std,
         per_standard=per_standard,
         per_company=per_company,
     )

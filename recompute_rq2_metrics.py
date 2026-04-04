@@ -36,8 +36,9 @@ from rag.evaluation.rq2_metrics import (
     build_sample_result,
     sample_results_to_rows,
 )
+from rag.evaluation.rq2_judge import get_judge_version
 from rag.generation.esrs_context import ESRSContextExtractor
-from rag.types import GeneratedAnswer, GenerationSample, RetrievedEvidenceChunk, RQ2Summary
+from rag.types import GeneratedAnswer, GenerationSample, RQ2Summary
 
 
 def _load_response_payloads(responses_dir: Path) -> list[dict]:
@@ -98,26 +99,10 @@ def main() -> None:
             parse_error=answer_data.get("parse_error"),
         )
 
-        chunks = payload.get("retrieved_chunks", [])
-        evidence_texts = [str(c.get("text", "")) for c in chunks]
-        retrieval_pages = []
-        for c in chunks:
-            ps = c.get("page_start")
-            pe = c.get("page_end")
-            if ps is None and pe is None:
-                continue
-            s = "" if ps is None else str(ps)
-            e = "" if pe is None else str(pe)
-            label = s if s == e or not e else f"{s}-{e}"
-            if label and label not in retrieval_pages:
-                retrieval_pages.append(label)
-
         result = build_sample_result(
             condition=condition,
             sample=sample,
             answer=answer,
-            evidence_texts=evidence_texts,
-            retrieval_pages=retrieval_pages,
         )
         sample_results.append(result)
 
@@ -163,6 +148,7 @@ def main() -> None:
     )
     summary_payload = asdict(summary)
     summary_payload["context_mode"] = RQ2_CONTEXT_MODE
+    summary_payload["judge_version_used"] = get_judge_version()
     summary_payload["temperature"] = 0.1
     summary_payload["condition_parallelism"] = 2
     summary_payload["audit_manifest"] = audit_manifest
@@ -218,10 +204,10 @@ def main() -> None:
 
     ps = paired_statistics
     cb = ps["cluster_bootstrap"]["macro_f1"]
-    qt = ps["question_level_tests"]["macro_f1"]
+    wt = ps["question_level_wilcoxon_tests"]["macro_f1"]
     print(f"\n  Primary endpoint (macro-F1 delta):")
     print(f"    delta={cb['mean_delta']:.4f}  CI=[{cb['ci_lower']:.4f}, {cb['ci_upper']:.4f}]  "
-          f"sign_p={qt['p_value']:.4f}")
+          f"wilcoxon_p={wt['p_value']:.4f}")
 
 
 if __name__ == "__main__":

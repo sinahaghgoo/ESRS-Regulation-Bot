@@ -41,7 +41,7 @@ RQ1 evaluates a full factorial design over chunking strategy, chunk size, and re
 **RQ2 — ESRS Domain Adaptation**
 To what extent does full-standard ESRS context injection improve evidence-grounded compliance classification and compliance rationale quality, compared with the same RAG pipeline without injected ESRS context?
 
-RQ2 isolates the contribution of full-standard ESRS context injection by comparing the best RQ1 pipeline with and without injected ESRS context while holding retrieval fixed. Evaluation uses deterministic compliance-level metrics, LLM-judge rationale evaluation, and joint compliance-assessment metrics. The primary metric is Joint Lenient Match Rate (compliance level correct + rationale at least partially aligned).
+RQ2 isolates the contribution of full-standard ESRS context injection by comparing the best RQ1 pipeline with and without injected ESRS context while holding retrieval fixed. Evaluation uses deterministic compliance-level metrics (macro-F1, balanced accuracy, weighted kappa), LLM-judge rationale evaluation (G-Eval v2 with anti-anchoring design, Claude Sonnet 4.5 as judge), and joint compliance-assessment metrics. The primary composite metric is Assessment Quality Score (AQS). Statistical significance is assessed via Wilcoxon signed-rank test on question-level paired deltas (n=12 clusters), with cluster bootstrap confidence intervals (10,000 resamples).
 
 **RQ3 — Generation Quality**
 How accurately does the best-performing pipeline evaluate ESRS compliance, and where does the system fail?
@@ -60,7 +60,7 @@ The current codebase contains a full **RQ1 retrieval pipeline** and a reusable *
 - `rag/indexing/` — OpenAI embedding service with deterministic caching and Qdrant local vector indexing.
 - `rag/retrieval/` — Dense (vector search), BM25 sparse (Okapi, k1=1.5, b=0.75 with global IDF), hybrid RRF (k=60), and cross-encoder reranking (`cross-encoder/ms-marco-MiniLM-L-6-v2`). All six method variants are evaluated.
 - `rag/generation/` — ESRS standard flattening, full-standard ESRS context serialization, RQ2 answer generation, and prompt builders for the paired ablation conditions.
-- `rag/evaluation/` — RQ1 relevance matching plus RQ2 classification and text-overlap metrics (macro-F1, balanced accuracy, exact accuracy, weighted kappa, token-F1, evidence-support ratio).
+- `rag/evaluation/` — RQ1 relevance matching plus RQ2 classification and text-overlap metrics (macro-F1, balanced accuracy, exact accuracy, weighted kappa, token-F1), LLM-judge rationale evaluation (G-Eval v2, Claude Sonnet 4.5), and paired statistical tests (Wilcoxon signed-rank, cluster bootstrap, Cohen's d, post-hoc power analysis).
 - `rag/pipeline/` — RQ1 orchestration with incremental result persistence, plus an RQ2 runner that reuses the RQ1 winner and persists paired generation outputs incrementally.
 - `rag/types.py` — Shared dataclasses forming the pipeline data model (`ReportDocument` → `ChunkRecord` → `RetrievalHit` → `EvalSample` → `ConfigResult`).
 
@@ -150,7 +150,7 @@ A retrieved chunk is deemed relevant to a gold evidence passage when the textual
 
 ### Answer Quality Metrics (RQ2/RQ3)
 
-RQ2 is evaluated using a combination of deterministic compliance-level metrics (macro-F1, balanced accuracy, exact accuracy, weighted Cohen's kappa, off-by-one accuracy), LLM-judge rationale evaluation (G-Eval-style verdicts and scores using Claude Sonnet 4.5 as judge), and joint compliance-assessment metrics (joint strict match, joint lenient match, joint assessment score). The primary metric is Joint Lenient Match Rate. RQ3 extends this with richer qualitative judging and failure analysis.
+RQ2 is evaluated using a combination of deterministic compliance-level metrics (macro-F1, balanced accuracy, exact accuracy, weighted Cohen's kappa, off-by-one accuracy), LLM-judge rationale evaluation (G-Eval v2 with anti-anchoring design using Claude Sonnet 4.5 as judge, 1-5 Likert scale), and joint compliance-assessment metrics (Assessment Quality Score, Overall Assessment Rate, Conditional Rationale Quality). The primary composite metric is Assessment Quality Score (AQS). Statistical significance is assessed via the Wilcoxon signed-rank test on question-level paired deltas (n=12 clusters), with cluster bootstrap CIs (10,000 resamples), Cohen's d effect sizes, and post-hoc power analysis. RQ3 extends this with richer qualitative judging and failure analysis.
 
 ---
 
@@ -309,7 +309,7 @@ python cleanup_rq1_cache.py --include-all-qdrant
 ### Step 4: Run Tests
 
 ```bash
-pytest -q tests/test_evaluation_metrics.py tests/test_chunking.py tests/test_retrieval_methods.py tests/test_rq2_pipeline.py
+pytest -q tests/test_evaluation_metrics.py tests/test_chunking.py tests/test_retrieval_methods.py tests/test_rq2_pipeline.py tests/test_rq2_metrics.py
 ```
 
 ### Step 5: Interactive Analysis
@@ -375,13 +375,16 @@ ESRS-Regulation-Bot/
 │   ├── test_evaluation_metrics.py  # Unit tests for evaluation logic (28 tests)
 │   ├── test_chunking.py            # Unit tests for chunking strategies (14 tests)
 │   ├── test_retrieval_methods.py   # Unit tests for retrieval methods
-│   └── test_rq2_pipeline.py        # Unit tests for RQ2 generation and runner logic
+│   ├── test_rq2_pipeline.py        # Unit tests for RQ2 generation and runner logic
+│   └── test_rq2_metrics.py         # Unit tests for RQ2 metrics, paired statistics, and audit
 ├── streamlit_app/
 │   └── app.py                      # Streamlit frontend (loads best_pipeline.yaml)
 ├── cleanup_rq1_cache.py            # Script to clear cached results before re-run
 ├── run_preprocessing.py            # CLI: build chunks, embeddings, Qdrant indices
 ├── run_evaluation.py               # CLI: run full RQ1 evaluation matrix
 ├── run_rq2_evaluation.py           # CLI: run the paired RQ2 ESRS-context ablation
+├── recompute_rq2_metrics.py        # Recompute RQ2 metrics from saved response JSONs (no LLM calls)
+├── recompute_rq2_summary.py        # Recompute RQ2 summary from saved CSVs (no LLM calls)
 ├── requirements.txt
 ├── RESEARCH_QUESTIONS.md           # Detailed RQ1/RQ2/RQ3 experimental design
 ├── .env                            # Environment variables (not tracked)

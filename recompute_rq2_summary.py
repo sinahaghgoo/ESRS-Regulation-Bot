@@ -20,10 +20,10 @@ sys.path.insert(0, str(PROJECT_ROOT))
 
 from rag.config.settings import (
     RQ2_RESULTS_DIR,
-    RQ2_CONTEXT_MODE,
     RQ2_RESULTS_VERSION,
     build_rq2_audit_manifest,
 )
+from rag.evaluation.rq2_judge import get_judge_version
 from rag.evaluation.rq2_metrics import (
     aggregate_condition_metrics,
     build_paired_results,
@@ -60,7 +60,6 @@ def _load_results_from_csv(results_dir: Path) -> list[RQ2SampleResult]:
                     predicted_fulfillment_level=row.get("predicted_fulfillment_level", ""),
                     direct_answer_token_f1=float(row.get("direct_answer_token_f1", 0)),
                     rationale_token_f1=float(row.get("rationale_token_f1", 0)),
-                    evidence_support_ratio=float(row.get("evidence_support_ratio", 0)),
                     exact_match=row.get("exact_match", "False").lower() == "true",
                     ordinal_error=int(float(row.get("ordinal_error", 2))),
                     success=success,
@@ -70,7 +69,7 @@ def _load_results_from_csv(results_dir: Path) -> list[RQ2SampleResult]:
 
 
 def main() -> None:
-    results_dir = RQ2_RESULTS_DIR / RQ2_CONTEXT_MODE
+    results_dir = RQ2_RESULTS_DIR
     if not results_dir.exists():
         print(f"ERROR: results directory not found: {results_dir}")
         sys.exit(1)
@@ -115,8 +114,9 @@ def main() -> None:
 
     # Build updated summary preserving non-statistical fields from existing
     summary = {
-        "context_mode": existing.get("context_mode", RQ2_CONTEXT_MODE),
+        "context_mode": existing.get("context_mode", "substantive_full_standard"),
         "results_version": RQ2_RESULTS_VERSION,
+        "judge_version_used": get_judge_version(),
         "model": existing.get("model", "n/a"),
         "temperature": existing.get("temperature", "n/a"),
         "condition_parallelism": existing.get("condition_parallelism", "n/a"),
@@ -140,6 +140,8 @@ def main() -> None:
     print(f"\n✅ Recomputed summary written to: {summary_path}")
     print(f"   Pairs: {paired_stats['n_pairs']}")
     print(f"   Question clusters: {paired_stats['n_question_clusters']}")
+    wt = paired_stats['question_level_wilcoxon_tests']['macro_f1']
+    print(f"   Wilcoxon p (macro_f1): {wt['p_value']:.4f}")
     print(f"   Cohen's d (macro_f1): {paired_stats['cluster_bootstrap']['macro_f1'].get('cohens_d', 'n/a'):.4f}")
     print(f"   Effect magnitude: {paired_stats['cluster_bootstrap']['macro_f1'].get('effect_magnitude', 'n/a')}")
     print(f"   Achieved power: {paired_stats['power_analysis'].get('achieved_power', 'n/a')}")

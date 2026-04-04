@@ -185,10 +185,11 @@ The primary dependent variable is **evidence-grounded compliance classification 
 
 #### LLM-Judge Rationale Evaluation
 
-The compliance rationale quality is evaluated using a G-Eval-style rubric (Liu et al., 2023):
+The compliance rationale quality is evaluated using a G-Eval v2 rubric (Liu et al., 2023) with an anti-anchoring design:
 
 - **Judge model:** Claude Sonnet 4.5 (via Anthropic API), separate from the generator (GPT-5-mini) to avoid self-evaluation bias
-- **Input:** Gold fulfillment level, gold fulfillment rationale, and generated compliance rationale. Critically, the **generated compliance level is withheld** from the judge to prevent anchoring bias — the judge should evaluate rationale substance independently of whether the level prediction happened to match
+- **Judge version:** v2 (`v2_79b8809bad`) — the anti-anchoring redesign withholds the generated compliance level from the judge prompt to prevent anchoring bias. The judge evaluates rationale substance independently of whether the level prediction happened to match. All judge outputs are cached with version-stamped keys to ensure reproducibility across judge iterations
+- **Input:** Gold fulfillment level, gold fulfillment rationale, and generated compliance rationale (generated compliance level deliberately withheld)
 - **Score:** 1–5 Likert scale following G-Eval's chain-of-thought evaluation design, normalized to 0.0–1.0 for composite metrics
 - **Verdicts derived from score:** `aligned` (score 4–5), `partially_aligned` (score 3), `misaligned` (score 1–2)
 - **Error tags:** Structured error categorization (`contradiction`, `omission`, `different_level_support`, `none`)
@@ -213,7 +214,7 @@ These metrics evaluate the combined compliance level + rationale quality. The co
 - Majority-class baseline comparison to contextualise the `High`-dominant label distribution
 - Per-ESRS-standard breakdown of joint lenient match and balanced accuracy to identify which standards benefit most from explicit injection
 - Per-company consistency analysis: do the same companies systematically benefit from injection, or is the effect uniform?
-- Question-level paired sign test of joint lenient match rates between Full system and No ESRS context conditions to assess statistical significance of the ESRS context injection effect
+- **Wilcoxon signed-rank test** on question-level paired deltas (n=12 clusters) as primary confirmatory test, with cluster bootstrap confidence intervals (10,000 resamples), Cohen's d effect sizes, and post-hoc power analysis to assess statistical significance and practical significance of the ESRS context injection effect
 
 ### Expected Output
 
@@ -288,7 +289,7 @@ A comprehensive characterisation of the system's strengths and failure modes acr
 | **LLM calls** | None (embeddings only) | 408 generation + 408 judge calls | 204 generation + judge calls |
 | **Primary metric** | Recall@15 | Assessment Quality Score (AQS) | LLM judge overall score |
 | **Secondary metrics** | Precision@k, MRR@10 | Macro-F1, Balanced accuracy, Overall Assessment Rate, Mean rationale score | Citation F1, Hallucination rate, Error analysis |
-| **Statistical validation** | Bootstrap CIs, permutation tests | Question-level paired sign test | Confusion matrix, gap analysis |
+| **Statistical validation** | Bootstrap CIs, permutation tests | Wilcoxon signed-rank test, cluster bootstrap CIs, Cohen's d, power analysis | Confusion matrix, gap analysis |
 | **Configs evaluated** | 54 | 2 | 1 |
 | **Golden Standard coverage** | 12 questions × 17 companies | 12 questions × 17 companies | 12 questions × 17 companies |
 
@@ -321,3 +322,5 @@ A comprehensive characterisation of the system's strengths and failure modes acr
 5. **Sequential dependency between RQs.** RQ2 and RQ3 use the best config from RQ1. If the RQ1 winner is marginal (small score differences between configurations), the downstream conclusions inherit that uncertainty. Statistical significance testing mitigates this by quantifying whether the winner is meaningfully better than runner-up configurations.
 6. **Reranker model size.** All rerank conditions use the local `cross-encoder/ms-marco-MiniLM-L-6-v2` cross-encoder (~80 MB, 22 M params). This lightweight model was chosen for practical evaluation on Apple Silicon; a larger model such as `BAAI/bge-reranker-v2-m3` could yield different reranking outcomes but is not tested in this thesis.
 7. **Semantic similarity threshold fixed at 0.5.** The cosine similarity threshold for semantic chunking boundary detection is fixed at 0.5. Lower values would produce fewer boundaries (larger initial groups), while higher values would produce more boundaries (finer splitting). This parameter is not varied in the factorial design and is acknowledged as a controlled variable.
+8. **Evidence-support ratio and citation metrics excluded from RQ2.** The initial RQ2 metric suite included an evidence-support ratio (fraction of generated claims grounded in retrieved passages) and page-level citation metrics (cited_pages, retrieval_pages). These metrics were removed because the generation prompt does not instruct the LLM to produce page-level citations in a machine-parseable format, resulting in systematically empty or NaN values. Faithfulness and citation quality are deferred to RQ3's multi-dimensional LLM-judge rubric where they can be assessed qualitatively.
+9. **Low statistical power in RQ2 paired analysis.** With only n=12 question clusters for the Wilcoxon signed-rank test, achieved power is low (approximately 5%) and the minimum detectable effect size at 80% power is large (Cohen's d > 1.5). The study can detect large effects but not small-to-medium effects. This is an inherent constraint of the 12-question Golden Standard design.
