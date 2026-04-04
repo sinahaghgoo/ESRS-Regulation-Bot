@@ -253,12 +253,14 @@ Single condition: **best pipeline from RQ1, with ESRS context injected**, evalua
 
 | Metric | Description |
 |---|---|
-| Token F1 | Lexical overlap between generated answer and gold answer |
-| Citation F1 | Precision/recall of cited pages against gold evidence pages |
-| Faithfulness score | Fraction of generated claims supported by retrieved passages |
-| Hallucination rate | 1 − Faithfulness score |
+| Macro-F1 | Primary compliance-classification metric across Low / Medium / High with equal weight per class |
+| Balanced accuracy | Mean recall across classes, robust to the `High`-heavy label distribution |
 | Compliance accuracy | Exact match of predicted vs gold fulfillment level |
+| Weighted Cohen's kappa | Ordinal agreement between predicted and gold fulfillment levels |
 | Off-by-one compliance accuracy | Prediction within one ordinal level of gold |
+| Citation page precision / recall / F1 | Overlap of generated `cited_pages` with gold evidence pages; auxiliary citation-support signal |
+
+> **Primary deterministic metric:** `Macro-F1`
 
 **Approach B — LLM-as-judge (multi-dimensional rubric):**
 
@@ -269,8 +271,8 @@ Each generated answer is scored on five dimensions using a structured rubric (1�
 | Factual correctness | Are stated facts accurate relative to the gold answer? |
 | Completeness | Does the answer cover all key points from the gold answer? |
 | Grounding faithfulness | Is the answer grounded in retrieved passages only, or does it introduce unsupported claims? |
-| Citation quality | Are source pages cited correctly and helpfully? |
-| Compliance assessment | Is the Low/Medium/High judgment correct and well-evidenced? |
+| Citation usefulness | Are cited pages relevant and helpful for verifying the answer? |
+| Compliance assessment quality | Is the Low/Medium/High judgment correct and well-evidenced? |
 
 > **Judge model:** A different model from the generator must be used to avoid self-evaluation bias. If `gpt-5-mini` is used for generation, a separate model (e.g., Claude Sonnet 4.5 via the Anthropic API) should be used as judge. This is a methodological requirement, not optional. The use of the same model as both generator and judge is acknowledged as a limitation if a different model is unavailable.
 
