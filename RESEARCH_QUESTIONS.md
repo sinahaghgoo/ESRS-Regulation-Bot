@@ -230,7 +230,15 @@ A quantitative answer to whether the ESRS context injection step is necessary fo
 
 ### Motivation
 
-RQ1 identifies the optimal retrieval configuration and RQ2 validates the ESRS context injection mechanism. RQ3 evaluates the complete end-to-end system — using the best configuration from RQ1 with ESRS context injected — on the full range of generation quality dimensions: factual accuracy, completeness, answer faithfulness, citation correctness, and compliance assessment quality. Critically, this question goes beyond aggregate performance to identify systematic failure patterns: which ESRS standards are hardest to answer, under what conditions does the system hallucinate, and where does retrieval quality fail to translate into answer quality.
+RQ1 identifies the optimal retrieval configuration and RQ2 validates the ESRS context injection mechanism. RQ3 evaluates the complete end-to-end system — using the best configuration from RQ1 with ESRS context injected — and characterises how well it performs on the final task that matters in practice: producing a correct ESRS compliance assessment together with a factually grounded and sufficiently complete written answer.
+
+To keep the design **simple but defensible**, RQ3 does **not** attempt to operationalise every quality dimension with a separate complex automatic metric. For long-form answers, lexical-overlap metrics such as Token F1 are too brittle, while full claim-level factuality pipelines would add considerable implementation complexity for limited additional thesis value. Instead, RQ3 uses a **mixed evaluation design**:
+
+- **Deterministic metrics** for the structured parts of the output that can be measured reliably (compliance label and cited pages)
+- **LLM-judge rubric scoring** for broader answer quality dimensions (factual correctness, completeness, grounding, citation usefulness, and compliance reasoning)
+- **Targeted failure analysis** to show where the system breaks down
+
+This design follows recent RAG-evaluation literature that combines structured automatic metrics with rubric-based judging and human sanity checks.
 
 ### Experimental Design
 
@@ -254,7 +262,7 @@ Single condition: **best pipeline from RQ1, with ESRS context injected**, evalua
 
 **Approach B — LLM-as-judge (multi-dimensional rubric):**
 
-Each generated answer is scored on five dimensions using a structured rubric (1–5 scale):
+Each generated answer is scored on five dimensions using a structured rubric (1–5 scale). The mean score for each dimension is reported separately, and the simple arithmetic mean across all five dimensions is reported as an overall descriptive summary:
 
 | Dimension | What it measures |
 |---|---|
@@ -264,18 +272,49 @@ Each generated answer is scored on five dimensions using a structured rubric (1�
 | Citation quality | Are source pages cited correctly and helpfully? |
 | Compliance assessment | Is the Low/Medium/High judgment correct and well-evidenced? |
 
-> **Judge model:** A different model from the generator must be used to avoid self-evaluation bias. If `gpt-5-mini` is used for generation, a separate model (e.g., Claude claude-sonnet-4-6 via the Anthropic API) should be used as judge. This is a methodological requirement, not optional. The use of the same model as both generator and judge is acknowledged as a limitation if a different model is unavailable.
+> **Judge model:** A different model from the generator must be used to avoid self-evaluation bias. If `gpt-5-mini` is used for generation, a separate model (e.g., Claude Sonnet 4.5 via the Anthropic API) should be used as judge. This is a methodological requirement, not optional. The use of the same model as both generator and judge is acknowledged as a limitation if a different model is unavailable.
+
+**Judge calibration subset:**
+
+To keep the judge-based component defensible without turning RQ3 into a full human-evaluation study, a **stratified manual audit subset of 30 samples** is reviewed using the same 1–5 rubric. The thesis reports:
+
+- exact-or-adjacent agreement between manual and judge scores for each dimension
+- qualitative discussion of representative disagreement cases
+
+This subset is used as a **sanity check**, not as a separate replacement benchmark.
+
+**Reporting and validation:**
+
+- RQ3 is a **single-condition characterisation study**, not a paired ablation. Therefore, no pairwise null-hypothesis test is required.
+- Aggregate deterministic metrics and mean judge scores are reported with **95% bootstrap confidence intervals** (10,000 resamples).
+- The main RQ3 outputs are reported jointly: **Macro-F1 for compliance assessment**, **mean judge-dimension scores**, and **auxiliary citation page F1**.
 
 **Error analysis (qualitative + quantitative):**
 
 1. **Per-ESRS-standard compliance accuracy table** — which of the 12 standards does the system assess most and least accurately?
-2. **Retrieval-generation gap analysis** — identify samples where Recall@15 is high (≥ 0.8) but LLM judge score is low (≤ 2/5). These cases indicate that good retrieval does not guarantee good generation, and suggest the generation step itself is the bottleneck.
-3. **Hallucination by standard type** — compare hallucination rates for quantitative standards (ESRS E2–E5: numeric emissions, water, waste) vs qualitative standards (ESRS G1, ESRS 2). Hypothesis: numeric standards have higher hallucination rates because the LLM supplements missing figures from parametric knowledge.
+2. **Per-ESRS-standard judge-score table** — which standards are factually easier or harder to answer completely and faithfully?
+3. **Retrieval-generation gap analysis** — identify samples where Recall@15 is high (≥ 0.8) but grounding-faithfulness judge score is low (≤ 2/5). These cases indicate that good retrieval does not guarantee good generation, and suggest the generation step itself is the bottleneck.
 4. **Compliance level confusion matrix** — a 3×3 matrix (predicted × gold) showing whether errors are systematic (e.g., consistently overestimating as High) or random.
+5. **Failure-type table** — classify a small set of representative failures into four practical categories: unsupported claim, incomplete answer, wrong compliance level, and weak citation support.
 
 ### Expected Output
 
-A comprehensive characterisation of the system's strengths and failure modes across the full ESRS framework, providing actionable insight into which pipeline components and which ESRS standards require further development. The compliance confusion matrix and per-standard accuracy breakdown are the primary thesis contributions of RQ3.
+A comprehensive but manageable characterisation of the system's strengths and failure modes across the full ESRS framework. The main thesis contributions of RQ3 are:
+
+- a robust **compliance-assessment performance profile** 
+- a **multi-dimensional quality profile** of the generated answers (factual correctness, completeness, grounding, citation usefulness, compliance reasoning)
+- a focused analysis of **where retrieval succeeds but generation still fails**
+
+### Method References
+
+- [Liu et al. (2023), *G-Eval: NLG Evaluation using GPT-4 with Better Human Alignment*](https://aclanthology.org/2023.emnlp-main.153/)
+- [Saad-Falcon et al. (2024), *ARES: An Automated Evaluation Framework for Retrieval-Augmented Generation Systems*](https://aclanthology.org/2024.naacl-long.20/)
+- [Min et al. (2023), *FActScore: Fine-grained Atomic Evaluation of Factual Precision in Long Form Text Generation*](https://aclanthology.org/2023.emnlp-main.741/)
+- [Ru et al. (2024), *RAGChecker: A Fine-grained Framework for Diagnosing Retrieval-Augmented Generation*](https://arxiv.org/abs/2408.08067)
+- [Penzkofer and Baumann (2024), *Evaluating and Fine-Tuning Retrieval-Augmented Language Models to Generate Text with Accurate Citations*](https://aclanthology.org/2024.konvens-main.6/)
+- [Wu et al. (2025), *SusGen-GPT: A Data-Centric LLM for Financial NLP and Sustainability Report Generation*](https://aclanthology.org/2025.findings-naacl.66/)
+- [He et al. (2025), *ESGenius: Benchmarking LLMs on Environmental, Social, and Governance (ESG) and Sustainability Knowledge*](https://aclanthology.org/2025.emnlp-main.739/)
+- [Sun et al. (2026), *ESG-Bench: Benchmarking Long-Context ESG Reports for Hallucination Mitigation*](https://arxiv.org/abs/2603.13154)
 
 ---
 
@@ -283,15 +322,7 @@ A comprehensive characterisation of the system's strengths and failure modes acr
 
 | | RQ1 ✅ | RQ2 ✅ | RQ3 🔲 |
 |---|---|---|---|
-| **Stage tested** | Chunking + Retrieval | Disclosure-filtered ESRS context injection | End-to-end generation |
-| **Variable** | Chunking strategy × Chunk size × Retrieval method | ESRS context on/off | None (single best config) |
-| **Evaluation type** | Retrieval-only | Generation + LLM judge | Generation + qualitative |
-| **LLM calls** | None (embeddings only) | 408 generation (GPT-5-mini) + 408 judge calls (Claude Sonnet 4.5) | 204 generation + judge calls |
-| **Primary metric** | Recall@15 | Assessment Quality Score (AQS) | LLM judge overall score |
-| **Secondary metrics** | Precision@k, MRR@10 | Macro-F1, Balanced accuracy, Overall Assessment Rate, Mean rationale score | Citation F1, Hallucination rate, Error analysis |
-| **Statistical validation** | Bootstrap CIs, permutation tests | Wilcoxon signed-rank (exact), cluster bootstrap CIs, Cohen's d, rank-biserial r, McNemar, power analysis | Confusion matrix, gap analysis |
-| **Configs evaluated** | 54 | 2 | 1 |
-| **Golden Standard coverage** | 12 questions × 17 companies | 12 questions × 17 companies | 12 questions × 17 companies |
+To be completed, once everything is done!
 
 ---
 
@@ -309,7 +340,7 @@ A comprehensive characterisation of the system's strengths and failure modes acr
 | LLM (generator) | `gpt-5-mini` | Consistent across all generation steps |
 | Temperature | 0.1 | Near-deterministic generation for reproducibility |
 | Dataset | 17 companies, 2024 reports | European energy and chemical sector; all ESRS-aligned |
-| Statistical tests | Bootstrap 10K resamples, permutation 10K, seed=42 | Ensures reproducibility of significance testing |
+| Statistical tests | Bootstrap 10K resamples, permutation 10K where pairwise comparisons are made, seed=42 | Ensures reproducibility of statistical reporting |
 
 ---
 
@@ -322,5 +353,6 @@ A comprehensive characterisation of the system's strengths and failure modes acr
 5. **Sequential dependency between RQs.** RQ2 and RQ3 use the best config from RQ1. If the RQ1 winner is marginal (small score differences between configurations), the downstream conclusions inherit that uncertainty. Statistical significance testing mitigates this by quantifying whether the winner is meaningfully better than runner-up configurations.
 6. **Reranker model size.** All rerank conditions use the local `cross-encoder/ms-marco-MiniLM-L-6-v2` cross-encoder (~80 MB, 22 M params). This lightweight model was chosen for practical evaluation on Apple Silicon; a larger model such as `BAAI/bge-reranker-v2-m3` could yield different reranking outcomes but is not tested in this thesis.
 7. **Semantic similarity threshold fixed at 0.5.** The cosine similarity threshold for semantic chunking boundary detection is fixed at 0.5. Lower values would produce fewer boundaries (larger initial groups), while higher values would produce more boundaries (finer splitting). This parameter is not varied in the factorial design and is acknowledged as a controlled variable.
-8. **Evidence-support ratio and citation metrics excluded from RQ2.** The initial RQ2 metric suite included an evidence-support ratio (fraction of generated claims grounded in retrieved passages) and page-level citation metrics (cited_pages, retrieval_pages). These metrics were removed because the generation prompt does not instruct the LLM to produce page-level citations in a machine-parseable format, resulting in systematically empty or NaN values. Faithfulness and citation quality are deferred to RQ3's multi-dimensional LLM-judge rubric where they can be assessed qualitatively.
+8. **Faithfulness remains difficult to measure deterministically.** A full claim-level factuality pipeline in the style of FACTSCORE or RAGChecker would be stronger than surface overlap, but would add substantial implementation and annotation complexity. RQ3 therefore evaluates broad answer faithfulness mainly through the multi-dimensional judge rubric, with page-level citation overlap reported only as an auxiliary signal.
 9. **Low statistical power in RQ2 paired analysis.** With only n=12 question clusters for the Wilcoxon signed-rank test, achieved power is low (approximately 5%) and the minimum detectable effect size at 80% power is large (Cohen's d > 1.5). The study can detect large effects but not small-to-medium effects. This is an inherent constraint of the 12-question Golden Standard design.
+10. **Manual judge calibration in RQ3 is intentionally small.** The 30-sample audit subset is designed as a practical sanity check for the LLM judge, not as a full second human-annotated benchmark. It improves defensibility, but residual judge bias remains possible.
