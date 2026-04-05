@@ -1,0 +1,365 @@
+# Claude Code Prompt: Implement RQ3 — Generation Quality Evaluation
+
+Copy everything below this line into Claude Code as your prompt.
+
+---
+
+## Your Task
+
+You are implementing **Research Question 3 (RQ3) — Generation Quality** for an ESRS RAG Master's thesis. This is the final research question that characterizes the end-to-end system's performance. RQ1 (retrieval optimization) and RQ2 (ESRS context injection ablation) are already fully implemented and working. Your job is to implement RQ3: a single-condition characterization study that evaluates the best pipeline on 204 samples using deterministic metrics + a multi-dimensional LLM-judge rubric + structured error analysis.
+
+## CRITICAL INSTRUCTIONS — Read Before Doing Anything
+
+1. **START BY ANALYZING THE ENTIRE CODEBASE.** Read every file listed in the "Files to Study" section below before writing a single line of code. Understand the patterns, naming conventions, data types, caching strategies, and module boundaries used in RQ1 and RQ2. Your RQ3 implementation MUST follow the exact same patterns.
+
+2. **THE CENTRAL DELIVERABLE IS A WELL-COMMENTED NOTEBOOK.** The main output is `notebooks/05_rq3_generation_quality_evaluation.ipynb`. This notebook must have the same structure as `notebooks/04_rq2_esrs_context_ablation.ipynb`: structured markdown sections explaining each step, comprehensive inline comments in every code cell, and a logical narrative flow. Each cell should have a markdown cell above it explaining what it does and why.
+
+3. **BUDGET CONSTRAINT: I have only €10 on each API (OpenAI and Anthropic).** You MUST design the implementation so that:
+   - RQ3 reuses the SAME generated answers from RQ2's `with_esrs_context` condition (they are already cached in `data/artifacts/evaluation_results/rq2/responses/with_esrs_context/`). **NO new OpenAI generation calls are needed for the main evaluation.**
+   - The LLM judge (Claude Sonnet 4.5) is the only new API cost. With 204 samples × 5 dimensions, design the judge to evaluate ALL 5 dimensions in a SINGLE API call per sample (not 5 separate calls). This means ~204 judge calls total.
+   - ALL judge results must be cached to disk (like `rq2_judge.py` does). If a call is cached, skip the API call.
+   - The manual audit subset (30 samples) does NOT require API calls — it produces a CSV template for me to fill in manually.
+   
+4. **TEST ON A SMALL SUBSET FIRST.** Before presenting the final implementation to me, run the notebook on exactly 2 samples (1 question × 2 companies, or 2 questions × 1 company) to verify:
+   - The generation reuse from RQ2 works correctly
+   - The RQ3 judge prompt produces valid JSON with all 5 dimension scores
+   - The deterministic metrics compute correctly  
+   - The judge cache saves and loads correctly
+   - The notebook runs end-to-end without errors
+   - Estimate the cost of those 2 judge calls and extrapolate to 204
+
+5. **PHASED DELIVERY.** After the test run succeeds:
+   - Present the validated implementation to me
+   - I will run the full 204 samples myself
+   - Once complete, I will tell you and you will implement the remaining analysis cells (error analysis, visualizations, statistical reporting)
+
+## Project Location
+
+```
+/Users/sinahaghgoo/Library/CloudStorage/OneDrive-Persönlich/Master Thesis/Thesis Coding Part/ESRS-Regulation-Bot
+```
+
+## Environment
+
+- Python virtual environment: `.venv/` in the project root
+- API keys in `.env`: `OPENAI_API_KEY` and `CLAUDE_API_KEY`
+- macOS, Apple Silicon
+- Jupyter notebooks run from the `notebooks/` directory
+
+## Files to Study (Read ALL Before Coding)
+
+### 1. Research Design (MOST IMPORTANT — this defines EXACTLY what to implement)
+- `RESEARCH_QUESTIONS.md` — Read lines 225-319 (the full RQ3 section). This is the authoritative spec.
+
+### 2. Existing RQ2 Implementation (Your template for RQ3)
+- `rag/evaluation/rq2_judge.py` — The RQ2 LLM judge. Study the caching pattern, prompt design, API call structure, validation, and data classes. Your RQ3 judge should follow the same architecture.
+- `rag/evaluation/rq2_metrics.py` — The RQ2 metrics module. Study the classification metrics (macro-F1, balanced accuracy, kappa, confusion matrix). RQ3 reuses many of these.
+- `rag/pipeline/rq2_runner.py` — The RQ2 pipeline runner. Study how it loads samples, retrieves chunks, generates answers, and persists results.
+- `notebooks/04_rq2_esrs_context_ablation.ipynb` — The RQ2 notebook. Your RQ3 notebook should follow the same structure and commenting style.
+
+### 3. Shared Infrastructure
+- `rag/types.py` — All shared dataclasses. You'll need to add RQ3-specific types here.
+- `rag/config/settings.py` — Configuration, paths, API key loading. You'll add `RQ3_RESULTS_DIR` here.
+- `rag/data/loaders.py` — `load_generation_samples()` returns 204 `GenerationSample` objects with gold answers, fulfillment levels, rationales, and evidence passages.
+- `rag/generation/generator.py` — The `GeneratedAnswer` dataclass (direct_answer, compliance_level, compliance_rationale, key_findings, disclosure_gaps, cited_pages).
+- `rag/generation/esrs_context.py` — ESRS context extraction (already cached from RQ2).
+- `rag/generation/prompts.py` — How prompts are constructed.
+- `rag/evaluation/statistical_tests.py` — Bootstrap CI implementation from RQ1.
+
+### 4. Golden Standard
+- `golden_standard/golden_standard.json` — Contains per-company: `ground_truth_answer`, `fulfillment_level`, `fulfillment_rationale`, `evidence` (with `page_number` fields).
+
+### 5. Cached RQ2 Answers (REUSE THESE — do NOT regenerate)
+- `data/artifacts/evaluation_results/rq2/responses/with_esrs_context/*.json` — Each file contains the full generated answer for one (question, company) pair under the `with_esrs_context` condition. These ARE the RQ3 evaluation targets.
+
+## RQ3 Specification (from RESEARCH_QUESTIONS.md)
+
+### What RQ3 Is
+A **single-condition characterization study** of the best pipeline from RQ1 with ESRS context injected. It evaluates 12 questions × 17 companies = 204 samples. No paired comparison, no ablation. Just: how well does this system work, and where does it fail?
+
+### Approach A — Deterministic Metrics
+
+| Metric | Description |
+|---|---|
+| Macro-F1 | Primary compliance classification metric across Low/Medium/High |
+| Balanced accuracy | Mean recall across classes, robust to High-heavy distribution |
+| Compliance accuracy (exact match) | Exact match of predicted vs gold fulfillment level |
+| Weighted Cohen's kappa | Ordinal agreement between predicted and gold levels |
+| Off-by-one accuracy | Prediction within one ordinal level of gold |
+| Citation page precision/recall/F1 | Overlap of generated `cited_pages` with gold evidence pages |
+
+### Approach B — LLM-as-Judge (Multi-Dimensional Rubric)
+
+Five dimensions, each scored 1–5, evaluated in a SINGLE judge call per sample:
+
+| Dimension | What it measures |
+|---|---|
+| Factual correctness | Are stated facts accurate relative to the gold answer? |
+| Completeness | Does the answer cover all key points from the gold answer? |
+| Grounding faithfulness | Is the answer grounded in retrieved passages only? |
+| Citation usefulness | Are cited pages relevant and helpful for verification? |
+| Compliance assessment quality | Is the Low/Medium/High judgment correct and well-evidenced? |
+
+**Judge model:** Claude Sonnet 4.5 (`claude-sonnet-4-5-20250929`) — same as RQ2 judge, different from the GPT-5-mini generator.
+
+**Anti-anchoring design:** The generated compliance level SHOULD be withheld from the judge prompt (same principle as RQ2 `v2` judge). The judge evaluates answer quality independently of whether the level prediction happened to match.
+
+**Scoring anchors (MUST be in the prompt for each dimension):**
+- 5 = Excellent: fully covers all key aspects
+- 4 = Good: covers most key aspects with minor gaps
+- 3 = Adequate: covers main points but notable gaps
+- 2 = Poor: significant gaps or one material error  
+- 1 = Very poor: major errors or missing critical content
+
+### Manual Audit Calibration
+- 30-sample **stratified** subset for human calibration
+- Stratify by: ESRS standard (ensure all 12 represented), compliance level (Low/Medium/High coverage), and retrieval quality tier
+- Output: a CSV template with columns for each dimension (1–5) that I fill in manually
+- Analysis: exact-or-adjacent agreement between human and judge per dimension
+
+### Error Analysis (implement AFTER the full run)
+1. Per-ESRS-standard compliance accuracy table
+2. Per-ESRS-standard judge-score table  
+3. Retrieval-generation gap analysis (Recall@15 ≥ 0.8 but grounding faithfulness ≤ 2/5)
+4. Compliance level confusion matrix (3×3: predicted × gold)
+5. Failure-type table (unsupported claim, incomplete answer, wrong compliance level, weak citation support)
+
+### Statistical Reporting
+- 95% bootstrap CIs (10,000 resamples, seed=42) for ALL reported metrics
+- Per-dimension bootstrap CIs for judge scores
+- No paired hypothesis test (single-condition study)
+
+## Implementation Architecture
+
+### New Files to Create
+
+```
+rag/evaluation/rq3_judge.py          # Multi-dimensional LLM judge (like rq2_judge.py)
+rag/evaluation/rq3_metrics.py        # RQ3-specific metrics (citation P/R/F1, aggregation)
+rag/pipeline/rq3_runner.py           # RQ3 pipeline runner (loads RQ2 answers, runs judge)
+notebooks/05_rq3_generation_quality_evaluation.ipynb  # Main notebook
+tests/test_rq3_metrics.py            # Unit tests for RQ3 metrics
+tests/test_rq3_judge.py              # Unit tests for RQ3 judge
+```
+
+### Files to Modify
+
+```
+rag/types.py          # Add RQ3-specific dataclasses (RQ3JudgeOutput, RQ3SampleResult, RQ3Summary)
+rag/config/settings.py # Add RQ3_RESULTS_DIR, RQ3_RESULTS_VERSION
+```
+
+### Key Design Decisions
+
+1. **Reuse RQ2 answers:** The RQ3 runner loads the persisted response JSONs from `data/artifacts/evaluation_results/rq2/responses/with_esrs_context/`. No new OpenAI calls.
+
+2. **Single judge call per sample:** The RQ3 judge prompt asks Claude to score ALL 5 dimensions at once and return structured JSON. This keeps the Anthropic API cost at ~204 calls (vs 1,020 if calling per dimension).
+
+3. **Judge caching:** Same architecture as `rq2_judge.py` — content-hashed cache keys, version-stamped, one JSON file per cached result in `data/artifacts/evaluation_results/rq3/judge_cache/`.
+
+4. **RQ1 retrieval results:** For the retrieval-generation gap analysis, you need Recall@15 per sample. Load this from the existing RQ1 evaluation results in `data/artifacts/evaluation_results/rq1/`.
+
+5. **Citation page matching:** The gold evidence has `page_number` per passage. The generated answer has `cited_pages`. Compute precision/recall/F1 as set overlap of page numbers. Normalize page numbers (strip whitespace, handle "p.12" vs "12" etc.).
+
+## RQ3 Judge Prompt Design
+
+Design the judge prompt following the RQ2 judge pattern. Key elements:
+
+```
+You are an expert judge evaluating the quality of a generated answer for an ESRS 
+sustainability disclosure question. Evaluate the answer across five dimensions.
+
+## Input
+- Question, ESRS Standard, Disclosure ID, Company
+- Gold fulfillment level, Gold fulfillment rationale, Gold ground-truth answer
+- Generated answer (direct_answer, compliance_rationale, key_findings, disclosure_gaps, cited_pages)
+- NOTE: The generated compliance level is intentionally WITHHELD to prevent anchoring bias
+
+## Evaluation Steps (follow in order)
+1. Read the gold answer and identify all key factual claims and evidence points
+2. For each dimension, evaluate the generated answer against the rubric
+3. Assign a score for each dimension
+
+## Dimensions and Rubrics (each 1-5)
+
+### 1. Factual Correctness
+[5] All stated facts match the gold; no fabrications
+[4] Nearly all facts correct; at most one minor inaccuracy  
+[3] Most facts correct but one notable error or imprecision
+[2] Multiple factual errors or one major contradiction
+[1] Predominantly incorrect or fabricated claims
+
+### 2. Completeness
+[5] All key points from the gold answer are covered
+[4] Most key points covered; one minor omission
+[3] Main points present but notable gaps in coverage
+[2] Significant omissions of key information
+[1] Most critical information missing
+
+### 3. Grounding Faithfulness
+[5] Every claim is traceable to retrieved evidence; no unsupported assertions
+[4] Nearly all claims grounded; at most one minor unsupported claim
+[3] Most claims grounded but some unsupported assertions present
+[2] Multiple claims lack grounding in retrieved evidence
+[1] Answer introduces substantial information not in the evidence
+
+### 4. Citation Usefulness
+[5] Cited pages are specific, relevant, and sufficient for verification
+[4] Citations mostly useful; one less relevant or missing citation
+[3] Some citations helpful but gaps in coverage or relevance
+[2] Citations are largely unhelpful or incomplete
+[1] No useful citations or predominantly wrong page references
+
+### 5. Compliance Assessment Quality
+[5] Compliance judgment matches gold level with comprehensive, well-evidenced reasoning
+[4] Judgment is correct or reasonably justified; minor reasoning gaps
+[3] Judgment is plausible but reasoning has notable weaknesses
+[2] Judgment appears incorrect or poorly supported
+[1] Judgment clearly wrong with contradictory or absent reasoning
+
+## Output
+Return ONLY valid JSON (no markdown fences):
+{
+  "reasoning": "<your step-by-step evaluation, 3-5 sentences>",
+  "factual_correctness": <1-5>,
+  "completeness": <1-5>,
+  "grounding_faithfulness": <1-5>,
+  "citation_usefulness": <1-5>,
+  "compliance_assessment_quality": <1-5>,
+  "primary_weakness": "<one of: none, unsupported_claim, incomplete_answer, wrong_compliance_level, weak_citation_support, factual_error>",
+  "judge_explanation": "<max 50 words: concise summary>"
+}
+```
+
+## Notebook Structure (05_rq3_generation_quality_evaluation.ipynb)
+
+Follow EXACTLY this cell structure. Each code cell must be preceded by a markdown cell explaining what it does:
+
+```
+## 1. Setup and Imports
+   - import all modules, load .env, configure paths
+
+## 2. Load Data
+   - Load golden standard (204 samples)
+   - Load cached RQ2 answers (with_esrs_context condition)
+   - Verify all 204 samples have cached answers
+   - Display sample counts and ESRS standard distribution
+
+## 3. Deterministic Metrics — Compliance Classification
+   - Extract predicted vs gold compliance levels
+   - Compute Macro-F1, balanced accuracy, exact accuracy, weighted kappa, off-by-one accuracy
+   - Compute 95% bootstrap CIs for each metric
+   - Display results table with CIs
+   - Plot confusion matrix (3×3)
+
+## 4. Deterministic Metrics — Citation Page Evaluation
+   - Extract generated cited_pages vs gold evidence page numbers
+   - Normalize page numbers (handle format variations)
+   - Compute citation precision, recall, F1 per sample and aggregate
+   - Display results with bootstrap CIs
+
+## 5. LLM Judge — Multi-Dimensional Rubric Evaluation
+   - Initialize RQ3 judge
+   - Run judge on ALL 204 samples (or resume from cache)
+   - Display progress (API calls vs cached)
+   - Aggregate per-dimension scores with bootstrap CIs
+   - Display dimension-level results table
+   - Plot radar chart or bar chart of dimension means
+
+## 6. Combined Results Summary
+   - Overview table: all deterministic + judge metrics
+   - Primary metrics: Macro-F1, mean judge scores, citation F1
+   - Per-ESRS-standard breakdown table (compliance accuracy + mean judge score)
+
+## 7. Manual Audit Subset Selection
+   - Stratified sampling: 30 samples covering all 12 ESRS standards
+   - Include Low/Medium/High compliance level coverage
+   - Export CSV template for human scoring
+   - Instructions for manual evaluation
+
+## 8. Error Analysis (TO BE IMPLEMENTED AFTER FULL RUN)
+   [Placeholder cells — will be implemented after I run the full evaluation]
+   - Per-ESRS-standard compliance accuracy table
+   - Per-ESRS-standard judge-score breakdown
+   - Retrieval-generation gap analysis
+   - Compliance confusion matrix analysis
+   - Failure-type categorization
+   - Qualitative examples of representative failures
+
+## 9. Save Results
+   - Persist RQ3 summary JSON
+   - Persist sample-level CSV
+   - Persist per-standard breakdown CSV
+```
+
+## Commenting Style (MANDATORY)
+
+Every code cell must have:
+1. A markdown cell ABOVE it with a `###` heading and 1-2 sentences explaining the purpose
+2. Section comments (`# ---...---`) to separate logical blocks within cells
+3. Inline comments for non-obvious operations
+4. Variable names that are self-documenting
+
+Example of expected style (from RQ2):
+```python
+# ---------------------------------------------------------------------------
+# Compute deterministic compliance-level metrics for the full system
+# ---------------------------------------------------------------------------
+
+# Extract gold and predicted labels, filtering to successful parses only
+scored = [r for r in results if r.success and normalize_label(r.predicted)]
+gold = [normalize_label(r.gold_fulfillment_level) for r in scored]
+pred = [normalize_label(r.predicted_fulfillment_level) for r in scored]
+
+print(f"Scored samples: {len(scored)} / {len(results)}")
+print(f"Gold label distribution: {Counter(gold)}")
+```
+
+## Testing Requirements
+
+Before presenting the implementation, run these validation steps:
+
+1. **Unit tests:** Run `pytest tests/test_rq3_metrics.py tests/test_rq3_judge.py -v` and ensure all pass.
+
+2. **Notebook dry run:** Execute the notebook on exactly 2 samples:
+   - Pick question_id `q01` (or the first question) and 2 companies
+   - Verify deterministic metrics compute correctly
+   - Verify the judge API call succeeds and returns valid JSON
+   - Verify the judge cache saves and loads correctly
+   - Print the estimated cost: (input_tokens + output_tokens) for 2 calls, extrapolate to 204
+
+3. **Report the test results** to me, including:
+   - All test pass/fail status
+   - The 2 sample judge outputs (scores for all 5 dimensions)
+   - Estimated total cost for 204 samples
+   - Any issues encountered
+
+## What NOT to Do
+
+- Do NOT regenerate answers via OpenAI. Reuse the cached RQ2 `with_esrs_context` responses.
+- Do NOT implement a claim-level factuality pipeline (like FActScore). The judge dimensions capture this at a sufficient granularity.
+- Do NOT use RAGAS, DeepEval, or any external evaluation framework. Implement the metrics directly.
+- Do NOT implement paired statistical tests. RQ3 is a single-condition study — only bootstrap CIs.
+- Do NOT implement the error analysis cells (Section 8) in the first pass. These will be implemented after I run the full evaluation.
+- Do NOT create separate notebooks for walkthrough vs evaluation. RQ3 is one notebook.
+- Do NOT use 5 separate judge calls per sample. Use 1 call that scores all 5 dimensions.
+
+## Summary of Deliverables
+
+### Phase 1 (NOW — implement and test):
+1. `rag/evaluation/rq3_judge.py` — Multi-dimensional judge
+2. `rag/evaluation/rq3_metrics.py` — Citation metrics + aggregation
+3. `rag/pipeline/rq3_runner.py` — RQ3 runner (loads RQ2 answers, runs judge)
+4. `rag/types.py` — Add RQ3 dataclasses
+5. `rag/config/settings.py` — Add RQ3 paths
+6. `notebooks/05_rq3_generation_quality_evaluation.ipynb` — Main notebook (sections 1-7 + placeholders for 8-9)
+7. `tests/test_rq3_metrics.py` — Unit tests for metrics
+8. `tests/test_rq3_judge.py` — Unit tests for judge
+9. Test run results (2 samples)
+
+### Phase 2 (AFTER I run the full 204 samples):
+- Section 8: Error analysis cells in the notebook
+- Section 9: Final results persistence
+- `RESEARCH_QUESTIONS.md` and `README.md` updates
+
+Start by reading ALL the files listed above, then implement. Good luck!

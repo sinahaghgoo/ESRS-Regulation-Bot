@@ -233,3 +233,59 @@ class RQ2Summary:
     aggregate_metrics: dict[str, dict[str, Any]]
     per_standard_metrics: dict[str, dict[str, dict[str, Any]]]
     majority_baseline: dict[str, Any] = field(default_factory=dict)
+
+
+# ---------------------------------------------------------------------------
+# RQ3 — Generation Quality Evaluation types
+# ---------------------------------------------------------------------------
+
+
+@dataclass
+class RQ3JudgeScores:
+    """Multi-dimensional judge scores for one RQ3 sample (all 5 dimensions)."""
+
+    factual_correctness: int
+    completeness: int
+    grounding_faithfulness: int
+    citation_usefulness: int
+    compliance_assessment_quality: int
+    reasoning: str = ""
+    primary_weakness: str = "none"
+    judge_explanation: str = ""
+
+
+@dataclass
+class RQ3SampleResult:
+    """Per-sample evaluation record for RQ3 (single-condition characterisation)."""
+
+    question_id: str
+    question: str
+    esrs_standard: str
+    esrs_disclosure_id: str
+    company: str
+    # Gold fields
+    gold_fulfillment_level: str
+    gold_fulfillment_rationale: str
+    gold_ground_truth_answer: str
+    gold_evidence_pages: list[str] = field(default_factory=list)
+    # Predicted fields
+    predicted_compliance_level: str = ""
+    generated_direct_answer: str = ""
+    generated_compliance_rationale: str = ""
+    generated_key_findings: list[str] = field(default_factory=list)
+    generated_disclosure_gaps: list[str] = field(default_factory=list)
+    generated_cited_pages: list[str] = field(default_factory=list)
+    # Deterministic metrics
+    exact_match: bool = False
+    ordinal_error: int = 0
+    off_by_one: bool = True
+    citation_precision: float = 0.0
+    citation_recall: float = 0.0
+    citation_f1: float = 0.0
+    # Judge scores (populated after LLM judge run)
+    judge_scores: RQ3JudgeScores | None = None
+    # Retrieval quality from RQ1 (for gap analysis)
+    recall_at_15: float | None = None
+    # Status
+    success: bool = True
+    error: str | None = None

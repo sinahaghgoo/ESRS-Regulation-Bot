@@ -22,6 +22,7 @@ ESRS_JSON_DIR = DATA_DIR / "ESRS_Standards_JSON"
 ARTIFACTS_DIR = DATA_DIR / "artifacts"
 RQ1_RESULTS_DIR = ARTIFACTS_DIR / "evaluation_results" / "rq1"
 RQ2_RESULTS_DIR = ARTIFACTS_DIR / "evaluation_results" / "rq2"
+RQ3_RESULTS_DIR = ARTIFACTS_DIR / "evaluation_results" / "rq3"
 DENSE_INDEX_DIR = ARTIFACTS_DIR / "dense_index_cache"
 GOLDEN_STANDARD_PATH = PROJECT_ROOT / "golden_standard" / "golden_standard.json"
 NOTEBOOKS_DIR = PROJECT_ROOT / "notebooks"
@@ -226,6 +227,7 @@ def ensure_dirs() -> None:
         ARTIFACTS_DIR,
         RQ1_RESULTS_DIR,
         RQ2_RESULTS_DIR,
+        RQ3_RESULTS_DIR,
         DENSE_INDEX_DIR,
         NOTEBOOKS_DIR,
         QDRANT_STORAGE_PATH,
