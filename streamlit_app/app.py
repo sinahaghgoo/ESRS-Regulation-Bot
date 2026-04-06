@@ -58,7 +58,7 @@ from rag.pipeline import load_pipeline, run_query
 # Page configuration
 # ---------------------------------------------------------------------------
 st.set_page_config(
-    page_title="ESRS Sustainability Report Analyzer",
+    page_title="ESRS Reporting Assistant",
     page_icon="\U0001f4ca",
     layout="wide",
     initial_sidebar_state="expanded",
@@ -96,46 +96,81 @@ st.markdown("""
 
     /* ============ HEADER HERO ============ */
     .hero-container {
-        background: linear-gradient(135deg, #0a1628 0%, #0f3460 50%, #16213e 100%);
-        border: 1px solid rgba(255,255,255,0.08);
-        border-radius: 16px;
-        padding: 32px 36px 28px;
+        background: linear-gradient(135deg, #060e1f 0%, #0a1f45 40%, #0d3060 70%, #0a1f45 100%);
+        border: 1px solid rgba(126,184,218,0.15);
+        border-radius: 20px;
+        padding: 36px 44px 32px;
         margin-bottom: 28px;
         position: relative;
         overflow: hidden;
+        box-shadow: 0 8px 40px rgba(0,0,0,0.35), inset 0 1px 0 rgba(255,255,255,0.05);
     }
+    /* top-right large glow */
     .hero-container::before {
         content: '';
         position: absolute;
-        top: -50%; right: -20%;
-        width: 400px; height: 400px;
-        background: radial-gradient(circle, rgba(22,99,175,0.15) 0%, transparent 70%);
+        top: -40%; right: -10%;
+        width: 520px; height: 520px;
+        background: radial-gradient(circle, rgba(22,99,175,0.22) 0%, transparent 65%);
         border-radius: 50%;
+        pointer-events: none;
     }
+    /* bottom-left accent glow */
     .hero-container::after {
         content: '';
         position: absolute;
-        bottom: -30%; left: -10%;
-        width: 300px; height: 300px;
-        background: radial-gradient(circle, rgba(0,210,150,0.08) 0%, transparent 70%);
+        bottom: -35%; left: -5%;
+        width: 380px; height: 380px;
+        background: radial-gradient(circle, rgba(0,210,150,0.12) 0%, transparent 65%);
         border-radius: 50%;
+        pointer-events: none;
+    }
+    /* decorative top border line */
+    .hero-accent-line {
+        position: absolute;
+        top: 0; left: 0; right: 0;
+        height: 3px;
+        background: linear-gradient(90deg, transparent 0%, #1663af 25%, #00d296 60%, transparent 100%);
+        border-radius: 20px 20px 0 0;
+        z-index: 2;
+    }
+    .hero-badge {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: rgba(0,210,150,0.1);
+        border: 1px solid rgba(0,210,150,0.2);
+        border-radius: 20px;
+        padding: 4px 14px;
+        font-size: 0.72rem;
+        font-weight: 600;
+        color: #00d296;
+        letter-spacing: 0.8px;
+        text-transform: uppercase;
+        margin-bottom: 14px;
+        position: relative;
+        z-index: 1;
     }
     .hero-title {
-        font-size: 2rem;
+        font-size: 2.2rem;
         font-weight: 800;
-        background: linear-gradient(135deg, #e0e6ed 0%, #7eb8da 50%, #00d296 100%);
+        background: linear-gradient(135deg, #ffffff 0%, #b8d8f0 40%, #00d296 100%);
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;
-        margin: 0 0 8px 0;
+        margin: 0 0 10px 0;
+        line-height: 1.2;
+        letter-spacing: -0.5px;
         position: relative;
         z-index: 1;
     }
     .hero-subtitle {
-        font-size: 0.95rem;
-        color: #8899aa;
+        font-size: 0.97rem;
+        color: #7a90a8;
         font-weight: 400;
         margin: 0;
+        max-width: 620px;
+        line-height: 1.6;
         position: relative;
         z-index: 1;
     }
@@ -855,10 +890,11 @@ def _load_pipeline():
 # ---------------------------------------------------------------------------
 st.markdown(
     '<div class="hero-container">'
-    '<h1 class="hero-title">ESRS Sustainability Report Analyzer</h1>'
+    '<div class="hero-accent-line"></div>'
+    '<h1 class="hero-title">ESRS Reporting Assistant</h1>'
     '<p class="hero-subtitle">'
-    "Analyze corporate sustainability reports against European Sustainability "
-    "Reporting Standards using an optimized RAG pipeline."
+    "AI-powered analysis and benchmarking of sustainability reports aligned "
+    "with ESRS using an optimized Retrieval-Augmented Generation pipeline."
     "</p>"
     "</div>",
     unsafe_allow_html=True,
