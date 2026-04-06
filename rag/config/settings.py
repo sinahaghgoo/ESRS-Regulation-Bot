@@ -299,6 +299,35 @@ def get_rerank_batch_size(default: int = 8) -> int:
     return default
 
 
+def load_esrs_context_decision() -> bool:
+    """Read the RQ2 finding about whether ESRS context injection helps.
+
+    Reads from ``rq2_aggregate_results.json`` (output of notebook 04).
+    Returns True if ESRS context significantly improved compliance
+    assessment, False otherwise.  Falls back to ``rq3_summary.json``
+    and finally defaults to False.
+    """
+    rq2_agg_path = RQ2_RESULTS_DIR / "rq2_aggregate_results.json"
+    if rq2_agg_path.exists():
+        try:
+            data = json.loads(rq2_agg_path.read_text(encoding="utf-8"))
+            return bool(
+                data.get("statistical", {})
+                .get("primary_test", {})
+                .get("significant", False)
+            )
+        except Exception:
+            pass
+    rq3_summary_path = RQ3_RESULTS_DIR / "rq3_summary.json"
+    if rq3_summary_path.exists():
+        try:
+            data = json.loads(rq3_summary_path.read_text(encoding="utf-8"))
+            return bool(data.get("esrs_context_helps", False))
+        except Exception:
+            pass
+    return False
+
+
 def pipeline_config_to_dict(config: PipelineConfig) -> dict:
     """Serialize dataclass config."""
     return asdict(config)

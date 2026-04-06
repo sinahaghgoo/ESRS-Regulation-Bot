@@ -349,11 +349,33 @@ class RQ1PipelineRunner:
 # ---------------------------------------------------------------------------
 
 def load_pipeline(config: dict):
-    """Compatibility loader for the Streamlit app.
+    """Lightweight pipeline loader optimised for the Streamlit app.
 
-    Initialises the retrieval pipeline using a single configuration dict.
-    Returns (retriever, config_dict).
+    Key optimisations vs the full ``RQ1PipelineRunner``:
+
+    * **Chunk pickle cache** — Chunks are built once, then serialised to
+      a pickle file.  Subsequent launches load the pickle (~seconds)
+      instead of re-chunking 17 reports (~tens of seconds).
+    * **InMemoryDenseIndex (NPZ)** — A compact NumPy matrix (~31 MB)
+      replaces the Qdrant file-lock store.  The 7.5 GB embedding-cache
+      JSON is only touched on the very first run to produce the NPZ.
+    * **No golden-sample loading** — The evaluation dataset is not needed
+      at query time.
+    * **Query-only embedder** — The ``EmbeddingService`` is instantiated
+      *without* loading the multi-GB cache.  Only live API calls for
+      short query strings are made.
     """
+    import gc
+    import pickle
+
+    from rag.chunking.strategies import build_chunks_for_config
+    from rag.data.loaders import load_reports
+    from rag.indexing.embedder import EmbeddingService
+    from rag.indexing.in_memory_index import InMemoryDenseIndex
+    from rag.retrieval.methods import Retriever
+
+    ensure_dirs()
+
     cfg = PipelineConfig(
         chunk_strategy=config.get("chunk_strategy", "structure_aware"),
         chunk_size=int(config.get("chunk_size", 512)),
@@ -361,8 +383,68 @@ def load_pipeline(config: dict):
         top_k=int(config.get("top_k", 15)),
         rrf_k=int(config.get("rrf_k", 60)),
     )
-    runner = RQ1PipelineRunner(dry_run=True)
-    retriever = runner.prepare_for_config(cfg)
+
+    from rag.config.settings import ARTIFACTS_DIR, RQ1_INDEX_VERSION
+
+    # ------------------------------------------------------------------
+    # 1. Chunks — pickle cache keyed by (strategy, size, code version)
+    #    The RQ1_INDEX_VERSION fingerprint changes when chunking logic,
+    #    text_utils, or types change, so stale caches are automatically
+    #    invalidated when the best pipeline changes after re-running
+    #    notebooks.
+    # ------------------------------------------------------------------
+    chunk_cache_path = (
+        ARTIFACTS_DIR / f"app_chunks_{cfg.chunk_strategy}_{cfg.chunk_size}_{RQ1_INDEX_VERSION}.pkl"
+    )
+
+    if chunk_cache_path.exists():
+        _logger.info("Loading cached chunks from %s", chunk_cache_path)
+        with open(chunk_cache_path, "rb") as fh:
+            chunks = pickle.load(fh)
+    else:
+        _logger.info("Building chunks for %s_%s …", cfg.chunk_strategy, cfg.chunk_size)
+        reports = load_reports()
+        chunks, _ = build_chunks_for_config(reports, cfg)
+        chunk_cache_path.parent.mkdir(parents=True, exist_ok=True)
+        with open(chunk_cache_path, "wb") as fh:
+            pickle.dump(chunks, fh, protocol=pickle.HIGHEST_PROTOCOL)
+        del reports
+        gc.collect()
+
+    # ------------------------------------------------------------------
+    # 2. Dense index — InMemoryDenseIndex (NPZ file)
+    # ------------------------------------------------------------------
+    dense_index = InMemoryDenseIndex(dims=3072)
+    collection = dense_index.collection_name(cfg.chunk_strategy, cfg.chunk_size)
+
+    dense_methods = {"dense", "dense_rerank", "hybrid_rrf", "hybrid_rerank"}
+    if cfg.retrieval_method in dense_methods and dense_index.collection_point_count(collection) == 0:
+        _logger.info(
+            "NPZ index missing for %s — building (one-time, requires embedding cache) …",
+            collection,
+        )
+        # Load full embedding cache only for this one-time build.
+        heavy_embedder = EmbeddingService(load_cache=True, require_openai=False)
+        vectors = heavy_embedder.embed_texts([c.retrieval_text for c in chunks])
+        dense_index.upsert_chunks(collection, chunks, vectors)
+        del heavy_embedder, vectors
+        gc.collect()
+
+    # ------------------------------------------------------------------
+    # 3. Query-only embedder (no giant cache load)
+    # ------------------------------------------------------------------
+    query_embedder = EmbeddingService(load_cache=False, require_openai=False)
+
+    # ------------------------------------------------------------------
+    # 4. Build Retriever (BM25 + dense backed by NPZ)
+    # ------------------------------------------------------------------
+    retriever = Retriever(
+        chunks=chunks,
+        config=cfg,
+        embedder=query_embedder,
+        qdrant=dense_index,  # same search() interface as QdrantChunkIndex
+    )
+
     out_cfg = dict(config)
     out_cfg.setdefault("top_k", cfg.top_k)
     return retriever, out_cfg
@@ -374,47 +456,151 @@ def run_query(
     esrs_standard: str,
     retriever,
     config: dict,
+    *,
+    use_esrs_context: bool = False,
 ) -> dict:
-    """Minimal retrieval-only query output for compatibility.
+    """Full pipeline query: retrieval + optional ESRS context + LLM generation.
 
-    This repository's current focus is RQ1 retrieval, so generation
-    fields are placeholders.
+    When an OpenAI API key is available the generator produces structured
+    JSON answers.  Falls back to retrieval-only output otherwise.
     """
-    top_k = int(config.get("top_k", 15))
-    per_company_chunks = {}
-    per_company = {}
+    from concurrent.futures import ThreadPoolExecutor, as_completed
 
-    for company in companies:
+    from rag.generation.esrs_context import load_esrs_standards, extract_esrs_context
+    from rag.generation.generator import AnswerGenerator
+    from rag.types import GenerationSample, RetrievedEvidenceChunk
+
+    top_k = int(config.get("top_k", 15))
+
+    # --- ESRS context (shared across companies) ---
+    esrs_context = ""
+    if use_esrs_context and esrs_standard:
+        try:
+            standards = load_esrs_standards()
+            esrs_context = extract_esrs_context(
+                esrs_standard, standards, question=query,
+            )
+        except Exception:
+            esrs_context = ""
+
+    # --- Generator (may be None if no API key) ---
+    generator: AnswerGenerator | None = None
+    try:
+        generator = AnswerGenerator(require_openai=True)
+    except Exception:
+        generator = None
+
+    condition = "full_system" if use_esrs_context else "no_esrs_context"
+
+    # Pre-load cross-encoder before any parallel retrieval so threads
+    # don't race to initialise it (avoids loading the model N times).
+    if hasattr(retriever, "_ensure_cross_encoder"):
+        try:
+            retriever._ensure_cross_encoder()
+        except Exception:
+            pass
+
+    def _process_company(company: str) -> tuple[str, dict, list[dict]]:
         hits = retriever.retrieve(query=query, company=company, top_k=top_k)
-        chunks_payload = []
-        for hit in hits:
-            chunks_payload.append({
+        chunks_payload = [
+            {
                 "chunk_id": hit.chunk.chunk_id,
                 "text": hit.chunk.text,
                 "score": hit.score,
                 "rank": hit.rank,
                 "page_span": [hit.chunk.page_start, hit.chunk.page_end],
                 "header_hierarchy": hit.chunk.header_hierarchy,
-            })
+            }
+            for hit in hits
+        ]
+
+        if generator is not None:
+            sample = GenerationSample(
+                question_id="", question=query,
+                esrs_standard=esrs_standard or "",
+                esrs_disclosure_id="", company=company,
+                ground_truth_answer="", fulfillment_level="",
+                fulfillment_rationale="", evidences=[],
+            )
+            retrieved_chunks = [
+                RetrievedEvidenceChunk(
+                    chunk_id=hit.chunk.chunk_id,
+                    text=hit.chunk.text,
+                    score=hit.score,
+                    rank=hit.rank,
+                    page_start=hit.chunk.page_start,
+                    page_end=hit.chunk.page_end,
+                    header_hierarchy=hit.chunk.header_hierarchy,
+                )
+                for hit in hits
+            ]
+            answer = generator.generate(
+                sample=sample,
+                retrieved_chunks=retrieved_chunks,
+                esrs_context=esrs_context,
+                condition=condition,
+            )
+            answer_data = {
+                "direct_answer": answer.direct_answer,
+                "key_findings": answer.key_findings,
+                "compliance_level": answer.compliance_level,
+                "compliance_rationale": answer.compliance_rationale,
+                "disclosure_gaps": answer.disclosure_gaps,
+                "cited_pages": answer.cited_pages,
+                "page_references": [
+                    {
+                        "page_display": (
+                            str(c["page_span"][0])
+                            if c["page_span"][0] == c["page_span"][1]
+                            else f"{c['page_span'][0]}-{c['page_span'][1]}"
+                        ),
+                        "section": " > ".join(c["header_hierarchy"]),
+                        "text_preview": c["text"][:220],
+                    }
+                    for c in chunks_payload[:5]
+                ],
+            }
+        else:
+            answer_data = {
+                "direct_answer": "Generation unavailable (no OpenAI API key).",
+                "key_findings": [],
+                "compliance_level": "N/A",
+                "compliance_rationale": "Generation not available.",
+                "disclosure_gaps": [],
+                "cited_pages": [],
+                "page_references": [
+                    {
+                        "page_display": (
+                            str(c["page_span"][0])
+                            if c["page_span"][0] == c["page_span"][1]
+                            else f"{c['page_span'][0]}-{c['page_span'][1]}"
+                        ),
+                        "section": " > ".join(c["header_hierarchy"]),
+                        "text_preview": c["text"][:220],
+                    }
+                    for c in chunks_payload[:5]
+                ],
+            }
+
+        return company, answer_data, chunks_payload
+
+    # --- Run companies in parallel for speed ---
+    per_company: dict[str, dict] = {}
+    per_company_chunks: dict[str, list] = {}
+
+    if len(companies) == 1:
+        company, answer_data, chunks_payload = _process_company(companies[0])
+        per_company[company] = answer_data
         per_company_chunks[company] = chunks_payload
-        per_company[company] = {
-            "direct_answer": (
-                "RQ1 mode: retrieval-only pipeline. "
-                "Generation is not part of this run."
-            ),
-            "key_findings": [],
-            "compliance_level": "N/A",
-            "compliance_rationale": "Not computed in RQ1 retrieval-only mode.",
-            "disclosure_gaps": [],
-            "page_references": [
-                {
-                    "page_display": f"{c['page_span'][0]}-{c['page_span'][1]}",
-                    "section": " > ".join(c["header_hierarchy"]),
-                    "text_preview": c["text"][:220],
-                }
-                for c in chunks_payload[:5]
-            ],
-        }
+    else:
+        with ThreadPoolExecutor(max_workers=min(len(companies), 4)) as pool:
+            futures = {
+                pool.submit(_process_company, co): co for co in companies
+            }
+            for future in as_completed(futures):
+                company, answer_data, chunks_payload = future.result()
+                per_company[company] = answer_data
+                per_company_chunks[company] = chunks_payload
 
     return {
         "companies": companies,
@@ -422,5 +608,5 @@ def run_query(
         "query": query,
         "per_company_chunks": per_company_chunks,
         "per_company": per_company,
-        "esrs_requirements": "RQ1 mode: no ESRS context injection.",
+        "esrs_requirements": esrs_context or "",
     }

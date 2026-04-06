@@ -1,0 +1,12 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "streamlit",
+      "runtimeExecutable": "/Users/sinahaghgoo/anaconda3/envs/myenv/bin/streamlit",
+      "runtimeArgs": ["run", "/Users/sinahaghgoo/Library/CloudStorage/OneDrive-Persönlich/Master Thesis/Thesis Coding Part/ESRS-Regulation-Bot/streamlit_app/app.py", "--server.headless", "true", "--server.fileWatcherType", "none"],
+      "port": 8501,
+      "autoPort": false
+    }
+  ]
+}

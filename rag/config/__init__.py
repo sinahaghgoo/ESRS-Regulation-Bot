@@ -26,6 +26,7 @@ from .settings import (
     get_default_pipeline_config,
     get_generation_model,
     load_best_pipeline_config,
+    load_esrs_context_decision,
     save_best_pipeline_config,
 )
 
@@ -55,5 +56,6 @@ __all__ = [
     "get_default_pipeline_config",
     "get_generation_model",
     "load_best_pipeline_config",
+    "load_esrs_context_decision",
     "save_best_pipeline_config",
 ]

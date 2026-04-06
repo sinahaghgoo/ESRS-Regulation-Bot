@@ -1,0 +1,7 @@
+[server]
+# Disable Streamlit's file watcher entirely to prevent noisy
+# torchvision / transformers scanning warnings in the terminal.
+# The watcher tries to resolve __path__ on every imported module
+# which triggers ModuleNotFoundError tracebacks for torchvision
+# (not installed, not needed for this app).
+fileWatcherType = "none"
