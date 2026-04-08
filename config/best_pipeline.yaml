@@ -6,4 +6,4 @@ top_k: 15
 rrf_k: 60
 rerank_model: cross-encoder/ms-marco-MiniLM-L-6-v2
 _best_pipeline_name: fixed_1024_hybrid_rerank
-_selection_reason: Highest recall@15 (0.9620) in RQ1.
+_selection_reason: Highest recall@15 (0.9616) in RQ1.
