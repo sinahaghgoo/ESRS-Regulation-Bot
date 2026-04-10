@@ -34,7 +34,13 @@
       "ESRS S3",
       "ESRS S4",
       "ESRS G1"
-    ]
+    ],
+    "fulfillment_level_definition": {
+      "description": "Measures the degree to which the company's disclosure addresses the mandatory data points and requirements specified in the referenced ESRS disclosure requirement(s). This is a regulatory compliance measure, not a measure of corporate ambition or sustainability performance.",
+      "High": "The disclosure comprehensively addresses all or nearly all mandatory data points in the referenced ESRS paragraphs. Required quantitative metrics, qualitative descriptions, and contextual information are present.",
+      "Medium": "The disclosure partially addresses the referenced ESRS requirements. Some mandatory data points are covered but significant gaps exist (e.g., missing required metrics, incomplete coverage of sub-requirements, or key information deferred to other report sections).",
+      "Low": "The disclosure provides minimal or no coverage of the referenced ESRS requirements. The topic may be assessed as non-material with only a brief statement, or the disclosure is limited to a cross-reference without substantive content."
+    }
   },
   "questions": [
     {
@@ -804,8 +810,8 @@
               "source_section_header": "Policies and Governance (Emissions)"
             }
           ],
-          "fulfillment_level": "High",
-          "fulfillment_rationale": "The report clearly identifies sustainability as one of three STI performance areas, documents emission-related targets in compensation, shows actual 2024 outcomes, and distinguishes Management Board (variable) from Supervisory Board (no performance targets) treatment."
+          "fulfillment_level": "Medium",
+          "fulfillment_rationale": "SBM Offshore identifies sustainability as one of three STI performance areas and documents emission-related targets in compensation. However, the specific proportion of variable remuneration dependent on sustainability targets -- required by ESRS 2 GOV-3 paragraph 29(d) -- is not disclosed. While the report shows overall STI outcomes (126%/94.5% of salary), the weighting allocated to the sustainability pillar versus profitability and growth is not broken out."
         },
         {
           "company": "Shell",
@@ -942,8 +948,8 @@
               "text": "Our climate-related targets are not science-based but are in line with national and international expectations for emission reductions in our industry."
             }
           ],
-          "fulfillment_level": "High",
-          "fulfillment_rationale": "Despite the absence of an ESRS-compliant transition plan, the disclosure quality is High because Aker BP transparently and comprehensively addresses both parts of the question: (1) it explicitly states it does NOT have a transition plan per ESRS requirements due to absence of Scope 3 targets, and (2) it clearly states its existing targets are not science-based. The candid acknowledgment of limitations, combined with detailed disclosure of existing Scope 1&2 measures and a 2017 baseline, constitutes thorough disclosure."
+          "fulfillment_level": "Medium",
+          "fulfillment_rationale": "Aker BP transparently states it does NOT have a transition plan per ESRS requirements and has no timeline for adopting one, satisfying the E1-1 paragraph 17 fallback disclosure. It also provides detailed Scope 1&2 targets and measures. However, since no transition plan exists, the ten sub-requirements of E1-1 paragraph 16(a)-(j) cannot be addressed, limiting fulfillment to the fallback requirement only."
         },
         {
           "company": "BASF",
@@ -1109,7 +1115,7 @@
         },
         {
           "company": "Motoroil",
-          "ground_truth_answer": "Yes, MOTOR OIL Group has a transition plan for climate change mitigation that is explicitly stated as aligned with the 1.5°C target. The Group has committed to achieving net-zero emissions by 2050 with interim targets of 30% reduction in Scope 1 & 2 emissions and 25% reduction in Scope 3 emissions by 2030 (baseline year 2021). The Group's climate mitigation targets are grounded in scientific evidence and aligned with internationally recognized frameworks including the Paris Agreement, the European Green Deal, IPCC, and IEA. The scenario analysis explicitly evaluates pathways consistent with a 1.5°C global warming trajectory, and the resilience strategy includes 'formulating a climate transition plan aligned with the 1.5°C target' as a key pillar. The transition plan encompasses strategic investments in renewable energy, carbon capture and storage, green hydrogen, biofuels, energy efficiency improvements, and electrification initiatives.",
+          "ground_truth_answer": "Yes, MOTOR OIL Group has a transition plan for climate change mitigation that references alignment with the 1.5°C target as a strategic aspiration. The Group has committed to achieving net-zero emissions by 2050 with interim targets of 30% reduction in Scope 1 & 2 emissions and 25% reduction in Scope 3 emissions by 2030 (baseline year 2021). The Group's climate mitigation targets are described as grounded in scientific evidence and aligned with internationally recognized frameworks including the Paris Agreement, the European Green Deal, IPCC, and IEA. The scenario analysis evaluates pathways consistent with a 1.5°C global warming trajectory, and the resilience strategy includes 'formulating a climate transition plan aligned with the 1.5°C target' as a key pillar. However, the evidence uses aspirational language rather than making an unambiguous explicit compatibility statement. The transition plan encompasses strategic investments in renewable energy, carbon capture and storage, green hydrogen, biofuels, energy efficiency improvements, and electrification initiatives.",
           "evidence": [
             {
               "passage_id": "MOTOROIL_Q3_E1",
@@ -1137,7 +1143,7 @@
             }
           ],
           "fulfillment_level": "High",
-          "fulfillment_rationale": "MOTOR OIL provides comprehensive disclosure with explicit 1.5°C alignment stated as a key strategic pillar. The report includes specific targets (30% Scope 1&2, 25% Scope 3 by 2030, net-zero by 2050), scenario analysis using 1.5°C-consistent scenarios, alignment with IPCC and IEA frameworks, and detailed decarbonization strategies."
+          "fulfillment_rationale": "MOTOR OIL provides comprehensive disclosure with a transition plan referencing 1.5°C alignment as a strategic aspiration. The report includes specific targets (30% Scope 1&2, 25% Scope 3 by 2030, net-zero by 2050), scenario analysis using 1.5°C-consistent scenarios, and alignment with IPCC and IEA frameworks. However, the evidence references 1.5°C in aspirational terms ('formulating a plan aligned with', 'evaluating pathways consistent with') rather than making an unambiguous explicit compatibility statement."
         },
         {
           "company": "Neste",
@@ -1214,8 +1220,8 @@
               "text": "OMV Petrom’s GHG Scope 1-3 target reduction of - 20% in 2030 vs. 2019 is positioned between the NZE reduction trajectory (associated with 1.5℃ temperature increase) and APS (1.7℃ temperature increase)."
             }
           ],
-          "fulfillment_level": "High",
-          "fulfillment_rationale": "OMV Petrom provides comprehensive disclosure of its transition plan with explicit targets, detailed IEA scenario benchmarking, and transparent acknowledgment that 2030 targets are below 2°C-compatible but above 1.5°C trajectory. The disclosure includes specific investment commitments (RON 18 billion through 2030), detailed decarbonization levers, and honest assessment of limitations."
+          "fulfillment_level": "Medium",
+          "fulfillment_rationale": "Petrom provides a transition plan with Board approval, specific targets, IEA scenario benchmarking, and substantial investment commitments (RON 18 billion through 2030). However, the company explicitly acknowledges that its 2030 targets are above a trajectory compatible with 1.5°C, positioning between IEA NZE (1.5°C) and APS (1.7°C). This non-alignment with the 1.5°C pathway, consistent with the Medium rating applied to MOL and Helleniq in similar situations, warrants a Medium rating."
         },
         {
           "company": "Repsol",
@@ -1720,8 +1726,8 @@
               "source_section_header": "2.2 Pollution prevention"
             }
           ],
-          "fulfillment_level": "High",
-          "fulfillment_rationale": "The Repsol 2024 report comprehensively addresses E2-4 requirements by identifying priority substances for air, water, and soil pollution, providing detailed quantitative data for 2024 emissions across all three mediums, and specifying compliance with E-PRTR Regulation Annex II. However, the report does not explicitly address substances of very high concern (SVHC) under REACH legislation."
+          "fulfillment_level": "Medium",
+          "fulfillment_rationale": "Repsol provides comprehensive E-PRTR quantitative data for air and water pollutant emissions, including detailed substance-level breakdowns (CO, NH3, NMVOC, NOx, SOx, metals, PAHs, phenols, PM10). However, the report does not explicitly address substances of very high concern (SVHC) under REACH legislation, which is a key component of E2-4/E2-5. This gap, consistent with the Medium rating applied to Equinor in a similar situation, warrants a Medium rather than High rating."
         },
         {
           "company": "SBM Offshore",
@@ -1772,8 +1778,8 @@
               "source_section_header": "Pollution (E2) - Product stewardship and Soil and groundwater"
             }
           ],
-          "fulfillment_level": "High",
-          "fulfillment_rationale": "The report provides comprehensive quantified data on pollutant emissions to air and water with specific substances and amounts aligned with E-PRTR Regulation Annex II requirements. It addresses hazardous substances through product stewardship disclosures and references specific substances of concern (benzene, ether oxygenates). However, the report does not explicitly discuss SVHC under REACH."
+          "fulfillment_level": "Medium",
+          "fulfillment_rationale": "Shell provides comprehensive quantified data on pollutant emissions to air and water with specific substances and amounts aligned with E-PRTR Regulation Annex II requirements. It addresses hazardous substances through product stewardship disclosures and references specific substances of concern (benzene, ether oxygenates). However, the report does not explicitly discuss SVHC under REACH legislation or provide a formal SoC/SVHC inventory. This gap, consistent with the Medium rating applied to Equinor and Repsol in similar situations, warrants a Medium rather than High rating."
         },
         {
           "company": "Solvay",
@@ -2362,8 +2368,8 @@
               "source_section_header": "ESRS E4-3 - Actions and Resources Related to Biodiversity and Ecosystems"
             }
           ],
-          "fulfillment_level": "High",
-          "fulfillment_rationale": "Helleniq provides comprehensive disclosure identifying specific operational sites within Natura 2000, SPAs, IBAs, and wildlife sanctuaries, with concrete mitigation measures including bird avoidance systems, animal-friendly fencing, continuous monitoring, and application of the mitigation hierarchy. EU directive compliance and site-specific assessments demonstrate systematic management."
+          "fulfillment_level": "Medium",
+          "fulfillment_rationale": "Helleniq identifies specific operational sites within Natura 2000 SPAs, IBAs, and wildlife sanctuaries, and provides concrete mitigation measures (bird avoidance systems, animal-friendly fencing, EU directive compliance). However, the disclosure does not include the number and total area in hectares of sites in or near biodiversity-sensitive areas, which is a mandatory data point under E4-5 paragraph 35. The qualitative E4-3 coverage is strong but the missing quantitative E4-5 metric limits overall fulfillment."
         },
         {
           "company": "MOL",
@@ -2466,8 +2472,8 @@
               "source_section_header": "Biodiversity Site-Level Assessments"
             }
           ],
-          "fulfillment_level": "Medium",
-          "fulfillment_rationale": "OMV provides substantial data on sites in biodiversity-sensitive areas (1,141 hectares across 13 countries) and demonstrates a clear mitigation hierarchy with concrete examples. However, fulfillment is Medium because the TNFD LEAP assessment is still ongoing with only 6 pilot sites, no BAPs have been developed yet (planned for 2025), and the Environmental Management Standard does not yet include detailed biodiversity impact assessment. The company acknowledges these gaps with clear plans to close them."
+          "fulfillment_level": "High",
+          "fulfillment_rationale": "OMV provides specific quantitative data on sites in biodiversity-sensitive areas (1,141 hectares across 13 countries) with type classification (NPA, Natura 2000, KBA), directly addressing E4-5 paragraph 35. The company demonstrates a clear mitigation hierarchy with concrete examples (pipeline rerouting, seasonal scheduling) and has initiated TNFD LEAP assessments. While BAPs are still in development (planned for 2025), the quantitative site identification and active mitigation measures constitute comprehensive disclosure of both E4-3 and E4-5 requirements."
         },
         {
           "company": "Petrom",
@@ -3268,8 +3274,8 @@
               "source_section_header": "S1-6 Characteristics of the undertaking's employees"
             }
           ],
-          "fulfillment_level": "High",
-          "fulfillment_rationale": "Neste provides comprehensive S1-6 data with gender, contract type (including non-guaranteed hours), working time, and regional breakdown. Neste does not formally disclose S1-9. Board gender diversity (30.7% female) is reported under ESRS 2 GOV-1, not as an S1-9 metric."
+          "fulfillment_level": "Medium",
+          "fulfillment_rationale": "Neste provides comprehensive S1-6 data with gender, contract type (including non-guaranteed hours), working time, and regional breakdown. However, Neste does not formally disclose S1-9 diversity metrics. Board gender diversity (30.7% female) is reported under ESRS 2 GOV-1, not as an S1-9 metric, and management-level gender distribution is not separately reported. Since the question explicitly covers S1-9 requirements and these are not addressed, the fulfillment is Medium."
         },
         {
           "company": "OMV",
@@ -3348,8 +3354,8 @@
               "source_section_header": "Employees pay gap and equal remuneration by gender, age range, organizational level and function"
             }
           ],
-          "fulfillment_level": "Medium",
-          "fulfillment_rationale": "SBM Offshore provides S1-6 data with gender, contract type, and detailed country breakdown across 14 countries. Top management gender data is available in the pay gap tables. S1-9 diversity metrics are distributed across multiple report sections (3.5.1, 3.8.2, 3.9.3)."
+          "fulfillment_level": "High",
+          "fulfillment_rationale": "SBM Offshore provides comprehensive S1-6 data including total employees (6,417), gender breakdown (79%/21%), contract type by gender (permanent/temporary), and detailed country breakdown across 14 countries. S1-9 diversity metrics cover women in top management (7/35, 20%), middle management (80/584), and junior management (264/1,459). This level of detail is comparable to other High-rated companies."
         },
         {
           "company": "Shell",
@@ -4120,8 +4126,8 @@
               "source_section_header": "Processes for engaging with value chain workers about impacts"
             }
           ],
-          "fulfillment_level": "High",
-          "fulfillment_rationale": "The report comprehensively addresses both components of the question with detailed descriptions of multiple grievance mechanisms (Ethics Online, site-level complaints channels) and explicit engagement with indigenous peoples through specific case studies (Solidaridad Foundation assessment in Brazil). However, the report focuses more heavily on value chain worker grievances than on local community mechanisms near specific operational sites."
+          "fulfillment_level": "Medium",
+          "fulfillment_rationale": "Neste provides multiple grievance channels (Ethics Online, site-level complaints) and engages with indigenous peoples through supply chain due diligence (Solidaridad Foundation in Brazil). However, the disclosed mechanisms are primarily designed for value chain workers (S2) rather than affected communities near operational sites (S3). The evidence comes from S2 report sections, and community-specific grievance mechanisms for local populations near refineries or operational facilities are not separately described. This partial coverage of S3-specific requirements warrants a Medium rating."
         },
         {
           "company": "OMV",
@@ -4375,7 +4381,7 @@
           "evidence": [
             {
               "passage_id": "EQUINOR_Q11_E1",
-              "text": "Topic determined not relevant: S4 - Consumer/end-users is listed as not material in Equinor's materiality assessment. The company provides no disclosure on consumer policies.",
+              "text": "Topic determined not relevant: S4 - Consumer/end-users is listed as not material in Equinor's materiality assessment.",
               "page_number": "122",
               "source_section_header": "Materiality Assessment - Topics determined not relevant"
             }
@@ -4389,7 +4395,7 @@
           "evidence": [
             {
               "passage_id": "GALP_Q11_E1",
-              "text": "In the materiality assessment matrix, Consumer topic is classified as Non-material. Additionally, Business Conduct is also marked as Non-material, indicating that specific consumer health, safety, and data protection policies are not material to the company's sustainability strategy.",
+              "text": "In the materiality assessment matrix, Consumer topic is classified as Non-material. Additionally, Business Conduct is also marked as Non-material.",
               "page_number": "65",
               "source_section_header": "Materiality Assessment - Topics identified as Non-material"
             }
@@ -4403,7 +4409,7 @@
           "evidence": [
             {
               "passage_id": "HELLENIQ_Q11_E1",
-              "text": "All EKO's fuel storage and handling facilities, as well as self-operated KALYPSO fuel stations, are certified for safe operations. The company maintains quality standards for fuel products and operations, though detailed consumer safety and data privacy policies are not explicitly disclosed in this report.",
+              "text": "All EKO's fuel storage and handling facilities, as well as self-operated KALYPSO fuel stations, are certified for safe operations. The company maintains quality standards for fuel products and operations.",
               "page_number": "118",
               "source_section_header": "Health and Safety - Operational Safety Standards"
             }
@@ -4469,7 +4475,7 @@
           "evidence": [
             {
               "passage_id": "NESTE_Q11_E1",
-              "text": "ESRS S4-1 Policies related to consumers and end-users paragraph 16 marked as 'Not material' in the ESRS disclosure matrix. Company does not disclose specific policies related to consumer health, safety, or data privacy as material topics.",
+              "text": "ESRS S4-1 Policies related to consumers and end-users paragraph 16 marked as 'Not material' in the ESRS disclosure matrix.",
               "page_number": "Not explicitly indicated in markdown",
               "source_section_header": "ESRS Disclosure Requirements and Materiality Assessment"
             }
@@ -4483,13 +4489,13 @@
           "evidence": [
             {
               "passage_id": "OMV_Q11_E1",
-              "text": "OMV's materiality assessment is structured across environmental, social, and governance pillars. Social topics address health, safety and well-being, alongside respect for human rights including working conditions and labor rights for own workforce and workers in value chain. However, no specific disclosure for ESRS S4 (Consumers and End-Users) is included in the sustainability framework.",
+              "text": "OMV's materiality assessment is structured across environmental, social, and governance pillars. Social topics address health, safety and well-being, alongside respect for human rights including working conditions and labor rights for own workforce and workers in value chain.",
               "page_number": "125",
               "source_section_header": "Material Topics and Materiality Assessment"
             }
           ],
           "fulfillment_level": "Low",
-          "fulfillment_rationale": "OMV does not address ESRS S4-1 in its 2024 report. The report lacks specific policies or commitments regarding consumer/end-user health, safety, or data privacy. While workforce health and safety are addressed under S1, consumer-specific policies are absent from the materiality scope and disclosure."
+          "fulfillment_rationale": "OMV does not address ESRS S4-1 in its 2024 report. The materiality assessment covers environmental, social (workforce-focused), and governance topics, but consumer/end-user specific policies are absent from the materiality scope. No specific policies or commitments regarding consumer health, safety, or data privacy are disclosed."
         },
         {
           "company": "Petrom",
@@ -4497,7 +4503,7 @@
           "evidence": [
             {
               "passage_id": "PETROM_Q11_E1",
-              "text": "ESRS S4-1 Policies related to consumers and end-users paragraph 16 marked as 'Not material'. ESRS S4-1 Non-respect of UNGPs on Business and Human Rights and OECD guidelines also marked as 'Not material'. Company does not disclose specific policies for consumer health, safety, or data privacy.",
+              "text": "ESRS S4-1 Policies related to consumers and end-users paragraph 16 marked as 'Not material'. ESRS S4-1 Non-respect of UNGPs on Business and Human Rights and OECD guidelines also marked as 'Not material'.",
               "page_number": "Not explicitly indicated in markdown",
               "source_section_header": "ESRS Disclosure Requirements and Materiality Assessment"
             }
