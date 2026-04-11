@@ -19,7 +19,7 @@ class AnswerGenerator:
     def __init__(
         self,
         model: str | None = None,
-        temperature: float | None = None,
+        temperature: float | None = 0,
         max_completion_tokens: int = 4096,
         client: OpenAI | None = None,
         require_openai: bool = True,
@@ -35,12 +35,18 @@ class AnswerGenerator:
         if require_openai and self.client is None:
             raise RuntimeError("OpenAI client could not be initialised for RQ2 answer generation.")
 
+    # Reasoning models (o-series, gpt-5*) do not accept temperature.
+    _REASONING_MODEL_PREFIXES = ("o1", "o3", "o4", "gpt-5")
+
+    def _is_reasoning_model(self) -> bool:
+        m = self.model.lower()
+        return any(m.startswith(p) for p in self._REASONING_MODEL_PREFIXES)
+
     def _call_json(self, messages: list[dict[str, str]]) -> str:
         if self.client is None:
             raise RuntimeError("OpenAI client is not available.")
         request_kwargs = {
             "model": self.model,
-            "reasoning": {"effort": "medium"},
             "input": messages,
             "text": {
                 "format": {
@@ -90,8 +96,12 @@ class AnswerGenerator:
             "max_output_tokens": self.max_completion_tokens,
             "timeout": 180,
         }
-        if self.temperature is not None:
-            request_kwargs["temperature"] = self.temperature
+        if self._is_reasoning_model():
+            request_kwargs["reasoning"] = {"effort": "medium"}
+        else:
+            # Non-reasoning models: set temperature for reproducibility.
+            if self.temperature is not None:
+                request_kwargs["temperature"] = self.temperature
         response = self.client.responses.create(
             **request_kwargs,
         )

@@ -59,8 +59,11 @@ def build_answer_messages(
     mode_block = (
         "ESRS context mode: WITH_CONTEXT.\n"
         "The ESRS context block is regulatory ESRS requirement text mapped to the "
-        "question. Use it only to interpret what the question expects and to identify "
-        "missing disclosure elements.\n"
+        "question. Use it only as background to understand what the question expects.\n"
+        "CRITICAL: Do NOT use the ESRS context as a scoring checklist. Do NOT penalize the "
+        "company for failing to address every individual ESRS paragraph or sub-requirement. "
+        "The compliance level should reflect whether the company's disclosure substantively "
+        "answers the question, not whether it ticks every ESRS sub-paragraph.\n"
         "Never treat ESRS context text as proof that the company disclosed something. "
         "Company disclosure claims must be grounded only in retrieved company report evidence."
         if use_esrs_context
@@ -74,14 +77,30 @@ def build_answer_messages(
     system = "\n".join(
         [
             "You evaluate ESRS disclosure fulfillment for one company sustainability-report question.",
-            "Important: compliance level is about disclosure fulfillment, not sustainability performance quality.",
-            "Evaluate only the asked question scope, not an exhaustive ESRS checklist unless explicitly requested.",
+            "Important: compliance level measures how well the company's disclosure addresses the question, not sustainability performance quality.",
+            "Evaluate only the scope of the asked question. Do not treat ESRS context as a line-by-line checklist.",
             "Ground every factual claim about the company in retrieved report evidence.",
-            "Do not penalize solely for missing exact ESRS wording, table formatting, or data-point tagging when evidence still clearly answers the question.",
-            "If the company explicitly discloses an absence/not-applicable/negative status, that can still support High fulfillment when it directly answers the question.",
+            "Do not penalize for missing exact ESRS wording, table formatting, data-point tagging, or paragraph-level cross-references when the evidence substantively answers the question.",
+            "If the company states the topic is not material or not applicable, that alone is Low fulfillment — a non-materiality declaration with only a brief statement is not a substantive disclosure. However, if the topic IS assessed as material and the company discloses an explicit absence or negative result as a substantive finding, that can count toward fulfillment.",
             "If evidence is partial, ambiguous, or conflicting, acknowledge uncertainty and calibrate the label accordingly.",
             mode_block,
-            "Rubric: High = evidence clearly and substantially answers the question with key required details; Medium = partial answer or material ambiguity; Low = missing or only superficial answer.",
+            "",
+            "COMPLIANCE LEVEL RUBRIC (apply these definitions strictly):",
+            "High = The disclosure comprehensively addresses all or nearly all aspects of the question. "
+            "Required quantitative metrics, qualitative descriptions, and contextual information are present in the evidence. "
+            "Minor omissions of secondary details do not prevent a High rating if the core question is thoroughly answered.",
+            "Medium = The disclosure partially addresses the question. Some key aspects are covered but significant gaps exist "
+            "(e.g., missing required metrics, incomplete coverage of major sub-requirements, or key information only cross-referenced without substance). "
+            "Assign Medium only when material information needed to answer the question is clearly absent from the evidence.",
+            "Low = The disclosure provides minimal or no coverage of the question. The topic may be assessed as non-material "
+            "with only a brief statement, or the disclosure is limited to a cross-reference without substantive content.",
+            "",
+            "CALIBRATION GUIDANCE:",
+            "- When evidence covers the main substance of what the question asks (methodology, key results, governance), lean toward High even if some peripheral details are absent.",
+            "- Reserve Medium for cases where the evidence clearly leaves major parts of the question unanswered.",
+            "- Reserve Low for cases where the evidence is essentially absent or only a brief mention exists.",
+            "- If the company declares the topic non-material or not applicable (e.g., 'S4 is not material'), assign Low — a non-materiality statement alone does not constitute substantive disclosure fulfillment, regardless of whether tangentially related general policies exist.",
+            "",
             "Return one JSON object with exactly these keys: direct_answer, compliance_level, compliance_rationale, key_findings, disclosure_gaps, cited_pages.",
             "compliance_level must be one of Low, Medium, High.",
             "key_findings, disclosure_gaps, and cited_pages must be JSON arrays.",
