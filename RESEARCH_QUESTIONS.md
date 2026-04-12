@@ -1,6 +1,6 @@
 # Research Questions — ESRS RAG Master Thesis
 
-**Thesis title:** Optimizing RAG Pipelines for Analyzing Corporate Sustainability Reports under the European Sustainability Reporting Standards (ESRS)
+**Thesis title:** Optimizing a Retrieval-Augmented Generation (RAG) Pipeline for a Regulatory Compliance Chatbot: A Case Study on Corporate Adherence to the European Sustainability Reporting Standards (ESRS)
 
 **Author:** Sina Haghgoo
 
@@ -8,17 +8,17 @@
 
 ## Overview
 
-The experimental evaluation is structured around three research questions, each targeting a distinct stage and concern of the RAG pipeline. The questions are designed to be **non-overlapping** and **sequentially dependent**: the best pipeline configuration identified in RQ1 feeds directly into RQ2, and the best overall system from RQ1 (including the finding for RQ2) is evaluated for generation quality in RQ3.
+The experimental evaluation is structured around three research questions, each targeting a distinct stage and concern of the RAG pipeline. The questions are designed to be **non-overlapping** and **sequentially dependent**: the best pipeline configuration identified in RQ1 feeds directly into RQ2, and the best overall system from RQ1 — with the ESRS context injection decision informed by the RQ2 finding — is evaluated for generation quality in RQ3.
 
 ```
 RQ1 → identifies best chunking + chunk size + retrieval combination (retrieval-only evaluation)
 RQ2 → uses best config from RQ1, tests whether ESRS context injection improves compliance assessment
-RQ3 → uses best config from RQ1, evaluates full generation quality of the final system
+RQ3 → uses best config from RQ1 (with or without ESRS context based on RQ2 finding), evaluates full generation quality of the final system
 ```
 
 ---
 
-## RQ1 — Pipeline Configuration ✅ Completed
+## RQ1 — Pipeline Configuration
 
 ### Question
 
@@ -51,9 +51,9 @@ Each chunking-strategy/size combination is evaluated with all six retrieval meth
 **Retrieval methods defined:**
 
 - **Dense:** Semantic vector search over Qdrant using `text-embedding-3-large` embeddings (3072 dimensions).
-- **Dense + Rerank:** Dense retrieval of 3x candidates followed by cross-encoder reranking.
+- **Dense + Rerank:** Dense retrieval of 5x candidates followed by cross-encoder reranking.
 - **Sparse (BM25):** Keyword matching using Okapi BM25 (k1=1.5, b=0.75) with Robertson et al. (1994) IDF formulation. IDF statistics are computed globally across all companies to provide stable vocabulary weights for ESRS-specific terminology, regardless of which company is being queried.
-- **Sparse + Rerank:** Sparse retrieval of 3x candidates followed by cross-encoder reranking.
+- **Sparse + Rerank:** Sparse retrieval of 5x candidates followed by cross-encoder reranking.
 - **Hybrid (RRF):** Dense and sparse results fused via Reciprocal Rank Fusion with k=60 (Cormack et al., 2009). Each system contributes 3x candidates to the fusion pool.
 - **Hybrid + Rerank:** Hybrid RRF of 5x candidates, then reranked using the cross-encoder.
 
@@ -67,11 +67,10 @@ Each chunking-strategy/size combination is evaluated with all six retrieval meth
 
 Metrics are computed per configuration against the Golden Standard (12 questions × 17 companies = 204 samples). Because the retrieval unit is a **chunk** while the annotation unit in the Golden Standard is an **evidence passage with page metadata**, relevance is defined explicitly at the passage level using a two-tier matching approach.
 
-**Primary path (span-based):** Both the gold evidence passage and the retrieved chunk are located as character spans inside the normalised full-report text. A chunk is counted as relevant when the overlap covers at least **50% of the gold passage** by character span. This threshold balances strictness (requiring substantial coverage of the annotated evidence) with tolerance for chunking boundary effects where a passage may be split across adjacent chunks.
+**Primary path (span-based):** Both the gold evidence passage and the retrieved chunk are located as character spans inside the normalised full-report text. A chunk is counted as relevant when the overlap covers at least the gold passage by character span. This threshold balances strictness (requiring substantial coverage of the annotated evidence) with tolerance for chunking boundary effects where a passage may be split across adjacent chunks.
 
-**Fallback path (token-level):** When the gold passage cannot be found as an exact substring (e.g., due to formatting differences between the manually curated golden standard and the preprocessed report text), a token-level overlap is used. A multiplicity-aware bag-of-words comparison counts each gold token at most as many times as it appears in the chunk, preventing inflated matches from repeated common words. The same 50% threshold applies. Gold passages shorter than 20 characters are excluded from the fallback path to avoid false positives.
+**Fallback path (token-level):** When the gold passage cannot be found as an exact substring (e.g., due to formatting differences between the manually curated golden standard and the preprocessed report text), a token-level overlap is used. A multiplicity-aware bag-of-words comparison counts each gold token at most as many times as it appears in the chunk, preventing inflated matches from repeated common words. Gold passages shorter than 20 characters are excluded from the fallback path to avoid false positives.
 
-**Configurable threshold:** The 50% threshold is a parameter (`threshold` in `rag/evaluation/metrics.py`), not a hardcoded constant. The justification for this threshold choice is discussed in the thesis text.
 
 **References for the matching approach:**
 - Adlakha et al. (2023) "Evaluating Correctness and Faithfulness of Instruction-Following Models for Question Answering" — token F1 for passage-level matching.
@@ -144,7 +143,7 @@ The winning configuration from RQ1 is passed forward as the fixed pipeline for R
 
 ---
 
-## RQ2 — ESRS Domain Adaptation ✅ Completed
+## RQ2 — ESRS Domain Adaptation
 
 ### Question
 
@@ -230,19 +229,19 @@ A quantitative answer to whether the ESRS context injection step is necessary fo
 
 ### Motivation
 
-RQ1 identifies the optimal retrieval configuration and RQ2 validates the ESRS context injection mechanism. RQ3 evaluates the complete end-to-end system — using the best configuration from RQ1 with ESRS context injected — and characterises how well it performs on the final task that matters in practice: producing a correct ESRS compliance assessment together with a factually grounded and sufficiently complete written answer.
+RQ1 identifies the optimal retrieval configuration and RQ2 tests the ESRS context injection mechanism. RQ3 evaluates the complete end-to-end system — using the best configuration from RQ1 without ESRS context injection (based on the RQ2 finding that injection has no statistically detectable benefit) — and characterises how well it performs on the final task that matters in practice: producing a correct ESRS compliance assessment together with a factually grounded and sufficiently complete written answer.
 
 To keep the design **simple but defensible**, RQ3 does **not** attempt to operationalise every quality dimension with a separate complex automatic metric. For long-form answers, lexical-overlap metrics such as Token F1 are too brittle, while full claim-level factuality pipelines would add considerable implementation complexity for limited additional thesis value. Instead, RQ3 uses a **mixed evaluation design**:
 
 - **Deterministic metrics** for the structured parts of the output that can be measured reliably (compliance label and cited pages)
-- **LLM-judge rubric scoring** for broader answer quality dimensions (factual correctness, completeness, grounding, citation usefulness, and compliance reasoning)
+- **LLM-judge rubric scoring** for broader answer quality dimensions (factual correctness, completeness, grounding, citation usefulness, and coherence)
 - **Targeted failure analysis** to show where the system breaks down
 
 This design follows recent RAG-evaluation literature that combines structured automatic metrics with rubric-based judging and human sanity checks.
 
 ### Experimental Design
 
-Single condition: **best pipeline from RQ1, with ESRS context injected**, evaluated against the full Golden Standard.
+Single condition: **best pipeline from RQ1, without ESRS context injection** (based on the RQ2 finding that injection has no significant effect), evaluated against the full Golden Standard.
 
 - 12 questions × 17 companies = **204 evaluated samples**
 - All 12 ESRS standards covered (ESRS 1, 2, E1–E5, S1–S4, G1)
@@ -253,14 +252,9 @@ Single condition: **best pipeline from RQ1, with ESRS context injected**, evalua
 
 | Metric | Description |
 |---|---|
-| Macro-F1 | Primary compliance-classification metric across Low / Medium / High with equal weight per class |
-| Balanced accuracy | Mean recall across classes, robust to the `High`-heavy label distribution |
-| Compliance accuracy | Exact match of predicted vs gold fulfillment level |
-| Weighted Cohen's kappa | Ordinal agreement between predicted and gold fulfillment levels |
-| Off-by-one compliance accuracy | Prediction within one ordinal level of gold |
-| Citation page precision / recall / F1 | Overlap of generated `cited_pages` with gold evidence pages; auxiliary citation-support signal |
+| Citation page precision / recall / F1 | Overlap of generated `cited_pages` with gold evidence pages (range-based, ±1 page tolerance); primary deterministic signal for citation quality |
 
-> **Primary deterministic metric:** `Macro-F1`
+> **Primary deterministic metric:** `Citation page F1`
 
 **Approach B — LLM-as-judge (multi-dimensional rubric):**
 
@@ -272,13 +266,13 @@ Each generated answer is scored on five dimensions using a structured rubric (1�
 | Completeness | Does the answer cover all key points from the gold answer? |
 | Grounding faithfulness | Is the answer grounded in retrieved passages only, or does it introduce unsupported claims? |
 | Citation usefulness | Are cited pages relevant and helpful for verifying the answer? |
-| Compliance assessment quality | Is the Low/Medium/High judgment correct and well-evidenced? |
+| Coherence | Is the answer logically structured, internally consistent, and easy to follow? |
 
 > **Judge model:** A different model from the generator must be used to avoid self-evaluation bias. If `gpt-5-mini` is used for generation, a separate model (e.g., Claude Sonnet 4.5 via the Anthropic API) should be used as judge. This is a methodological requirement, not optional. The use of the same model as both generator and judge is acknowledged as a limitation if a different model is unavailable.
 
 **Judge calibration subset:**
 
-To keep the judge-based component defensible without turning RQ3 into a full human-evaluation study, a **stratified manual audit subset of 30 samples** is reviewed using the same 1–5 rubric. The thesis reports:
+To keep the judge-based component defensible without turning RQ3 into a full human-evaluation study, a **stratified manual audit subset of 20 samples** is reviewed using the same 1–5 rubric. The thesis reports:
 
 - exact-or-adjacent agreement between manual and judge scores for each dimension
 - qualitative discussion of representative disagreement cases
@@ -289,7 +283,7 @@ This subset is used as a **sanity check**, not as a separate replacement benchma
 
 - RQ3 is a **single-condition characterisation study**, not a paired ablation. Therefore, no pairwise null-hypothesis test is required.
 - Aggregate deterministic metrics and mean judge scores are reported with **95% bootstrap confidence intervals** (10,000 resamples).
-- The main RQ3 outputs are reported jointly: **Macro-F1 for compliance assessment**, **mean judge-dimension scores**, and **auxiliary citation page F1**.
+- The main RQ3 outputs are reported jointly: **mean judge-dimension scores** and **citation page F1**.
 
 **Error analysis (qualitative + quantitative):**
 
@@ -304,7 +298,7 @@ This subset is used as a **sanity check**, not as a separate replacement benchma
 A comprehensive but manageable characterisation of the system's strengths and failure modes across the full ESRS framework. The main thesis contributions of RQ3 are:
 
 - a robust **compliance-assessment performance profile** 
-- a **multi-dimensional quality profile** of the generated answers (factual correctness, completeness, grounding, citation usefulness, compliance reasoning)
+- a **multi-dimensional quality profile** of the generated answers (factual correctness, completeness, grounding, citation usefulness, coherence)
 - a focused analysis of **where retrieval succeeds but generation still fails**
 
 ### Method References
@@ -322,9 +316,12 @@ A comprehensive but manageable characterisation of the system's strengths and fa
 
 ## Summary Table
 
-| | RQ1 ✅ | RQ2 ✅ | RQ3 🔲 |
+| | RQ1  | RQ2  | RQ3  |
 |---|---|---|---|
-To be completed, once everything is done!
+| **Focus** | Retrieval configuration | ESRS context injection | End-to-end generation quality |
+| **Design** | 3×3×6 factorial (54 configs) | Paired ablation (2 conditions) | Single-condition characterisation |
+| **Samples** | 204 (12 Q × 17 companies) | 408 (204 × 2 conditions) | 204 (12 Q × 17 companies) |
+| **Primary metric** | Recall@15 | Assessment Quality Score (AQS) | LLM-judge mean + Citation page F1 |
 
 ---
 
@@ -340,7 +337,7 @@ To be completed, once everything is done!
 | RRF constant | k = 60 | Standard value from Cormack et al. (2009) |
 | Reranker candidate pool | 5× top-k | Provides sufficient depth for cross-encoder reranking without excessive computation |
 | LLM (generator) | `gpt-5-mini` | Consistent across all generation steps |
-| Temperature | 0.1 | Near-deterministic generation for reproducibility |
+| Reasoning effort | `medium` | `gpt-5-mini` is a reasoning model; temperature is not applicable. Reasoning effort controls response determinism. |
 | Dataset | 17 companies, 2024 reports | European energy and chemical sector; all ESRS-aligned |
 | Statistical tests | Bootstrap 10K resamples, permutation 10K where pairwise comparisons are made, seed=42 | Ensures reproducibility of statistical reporting |
 
@@ -357,4 +354,3 @@ To be completed, once everything is done!
 7. **Semantic similarity threshold fixed at 0.5.** The cosine similarity threshold for semantic chunking boundary detection is fixed at 0.5. Lower values would produce fewer boundaries (larger initial groups), while higher values would produce more boundaries (finer splitting). This parameter is not varied in the factorial design and is acknowledged as a controlled variable.
 8. **Faithfulness remains difficult to measure deterministically.** A full claim-level factuality pipeline in the style of FACTSCORE or RAGChecker would be stronger than surface overlap, but would add substantial implementation and annotation complexity. RQ3 therefore evaluates broad answer faithfulness mainly through the multi-dimensional judge rubric, with page-level citation overlap reported only as an auxiliary signal.
 9. **Low statistical power in RQ2 paired analysis.** With only n=12 question clusters for the Wilcoxon signed-rank test, achieved power is low (approximately 5%) and the minimum detectable effect size at 80% power is large (Cohen's d > 1.5). The study can detect large effects but not small-to-medium effects. This is an inherent constraint of the 12-question Golden Standard design.
-10. **Manual judge calibration in RQ3 is intentionally small.** The 30-sample audit subset is designed as a practical sanity check for the LLM judge, not as a full second human-annotated benchmark. It improves defensibility, but residual judge bias remains possible.
