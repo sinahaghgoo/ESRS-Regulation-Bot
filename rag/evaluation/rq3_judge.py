@@ -55,7 +55,7 @@ JUDGE_MODEL = "claude-sonnet-4-5-20250929"
 ANTHROPIC_API_URL = "https://api.anthropic.com/v1/messages"
 ANTHROPIC_API_VERSION = "2023-06-01"
 
-JUDGE_PROMPT_VERSION = "rq3_v1"
+JUDGE_PROMPT_VERSION = "rq3_v2"
 
 VALID_WEAKNESSES = frozenset({
     "none",
@@ -123,7 +123,7 @@ class RQ3JudgeOutput:
 _JUDGE_PROMPT_TEMPLATE = """\
 You are an expert judge evaluating the quality of a generated answer for an \
 ESRS sustainability disclosure question. Evaluate the answer across five \
-dimensions.
+dimensions using strict, calibrated scoring.
 
 ## Input
 
@@ -158,49 +158,82 @@ dimensions.
 NOTE: The generated compliance level is intentionally WITHHELD to prevent \
 anchoring bias. Evaluate answer quality independently.
 
+## Calibration Instructions
+
+Apply these scoring guidelines strictly:
+- A score of 5 is EXCEPTIONAL and should be rare. It requires demonstrably \
+superior quality, not merely the absence of errors.
+- A score of 4 indicates GOOD quality with only minor shortcomings. This \
+should be the typical score for competent answers.
+- A score of 3 indicates ADEQUATE quality with clear, identifiable weaknesses.
+- Scores of 1-2 indicate substantial deficiencies.
+- Actively look for imperfections: vagueness where specificity is needed, \
+missing nuance, over-generalisation, or unnecessary extra content.
+
 ## Evaluation Steps (follow each step in order)
 
-1. Read the gold answer and identify all key factual claims and evidence points.
-2. For each dimension below, evaluate the generated answer against the rubric.
-3. Assign a score (1-5) for each dimension.
-4. Identify the single most significant weakness category.
+1. Read the gold answer and make a numbered list of ALL key factual claims, \
+evidence points, specific metrics, and nuanced conclusions.
+2. For EACH point in your list, check whether it appears in the generated \
+answer — note hits, misses, and distortions.
+3. Check for unsupported or vague claims in the generated answer that are \
+not grounded in the gold answer or retrieved evidence.
+4. Assign a score (1-5) for each dimension using the rubrics below.
+5. Identify the single most significant weakness category.
 
 ## Dimensions and Rubrics (each scored 1-5)
 
 ### 1. Factual Correctness
-[5] All stated facts match the gold answer; no fabrications
-[4] Nearly all facts correct; at most one minor inaccuracy
-[3] Most facts correct but one notable error or imprecision
-[2] Multiple factual errors or one major contradiction
+[5] Every specific fact, metric, and named entity matches the gold answer \
+precisely — no inaccuracies, no vague paraphrases that lose critical detail
+[4] All major facts correct; at most one minor inaccuracy or imprecise \
+paraphrase that does not change the substantive meaning
+[3] Core facts mostly correct but contains one notable factual error or \
+several imprecise restatements that weaken accuracy
+[2] Multiple factual errors or one major contradiction with the gold answer
 [1] Predominantly incorrect or fabricated claims
 
 ### 2. Completeness
-[5] All key points from the gold answer are covered
-[4] Most key points covered; one minor omission
-[3] Main points present but notable gaps in coverage
-[2] Significant omissions of key information
-[1] Most critical information missing
+[5] Covers ALL key points from the gold answer with comparable depth and \
+specificity — no substantive omissions at all
+[4] Covers most key points; one or two minor details missing that do not \
+materially affect the answer's utility
+[3] Main themes present but omits at least one significant point or \
+provides notably less depth than the gold answer on important topics
+[2] Significant omissions — several key points from the gold answer are absent
+[1] Most critical information from the gold answer is missing
 
 ### 3. Grounding Faithfulness
-[5] Every claim is traceable to retrieved evidence; no unsupported assertions
-[4] Nearly all claims grounded; at most one minor unsupported claim
-[3] Most claims grounded but some unsupported assertions present
-[2] Multiple claims lack grounding in retrieved evidence
+[5] Every factual claim can be directly traced to specific retrieved \
+evidence; no generalisations beyond what the evidence explicitly states
+[4] Nearly all claims grounded; at most one claim that extrapolates \
+slightly beyond retrieved evidence without contradicting it
+[3] Most claims grounded but contains some assertions that go beyond or \
+reinterpret the evidence without direct support
+[2] Multiple claims lack grounding or are unsupported by the evidence
 [1] Answer introduces substantial information not in the evidence
 
 ### 4. Citation Usefulness
-[5] Cited pages are specific, relevant, and sufficient for verification
-[4] Citations mostly useful; one less relevant or missing citation
-[3] Some citations helpful but gaps in coverage or relevance
-[2] Citations are largely unhelpful or incomplete
+[5] Citations are precise, focused, and well-targeted — every cited page \
+is directly relevant, and there are no excessive or redundant references \
+that would dilute verifiability
+[4] Citations mostly useful and relevant; minor excess (one or two pages \
+that add little) or one missing citation for a key claim
+[3] Some citations helpful but either too many irrelevant pages cited \
+(over-citing) or important claims left uncited
+[2] Citations largely unhelpful — many irrelevant pages or major gaps
 [1] No useful citations or predominantly wrong page references
 
 ### 5. Compliance Assessment Quality
-[5] Compliance judgment matches gold level with comprehensive, well-evidenced reasoning
-[4] Judgment is correct or reasonably justified; minor reasoning gaps
-[3] Judgment is plausible but reasoning has notable weaknesses
-[2] Judgment appears incorrect or poorly supported
-[1] Judgment clearly wrong with contradictory or absent reasoning
+[5] Compliance rationale demonstrates precise reasoning that matches the \
+gold level AND identifies the same key evidence as the gold rationale \
+with comparable analytical depth
+[4] Judgment is correct or reasonably close; rationale is sound but misses \
+some nuance present in the gold rationale
+[3] Judgment is plausible but reasoning is shallow, generic, or misses \
+important factors from the gold rationale
+[2] Judgment appears incorrect or reasoning is contradicted by the evidence
+[1] Judgment clearly wrong with absent or contradictory reasoning
 
 ## Output
 

@@ -111,6 +111,82 @@ def citation_page_metrics(
 
 
 # ---------------------------------------------------------------------------
+# Range-overlap citation metrics (avoids page-range expansion bias)
+# ---------------------------------------------------------------------------
+
+def normalize_page_ranges(raw_pages: list[str]) -> list[tuple[int, int]]:
+    """Parse raw page strings into (start, end) range tuples.
+
+    Each raw string becomes one range:
+      - "42"       → (42, 42)
+      - "43-44"    → (43, 44)
+      - "125-129"  → (125, 129)
+      - "p.12"     → (12, 12)
+
+    This avoids the expansion bias of ``normalize_page_numbers`` where
+    "125-129" becomes five individual pages.
+    """
+    ranges: list[tuple[int, int]] = []
+    for raw in raw_pages:
+        raw_str = str(raw).strip()
+        # Try explicit range first (e.g. "43-44", "125–129")
+        range_match = re.findall(r"(\d+)\s*[-–]\s*(\d+)", raw_str)
+        if range_match:
+            for s, e in range_match:
+                start, end = int(s), int(e)
+                if end - start < 50:  # sanity check
+                    ranges.append((start, end))
+        else:
+            # Single page number
+            nums = _PAGE_NUM_RE.findall(raw_str)
+            for n in nums:
+                v = int(n)
+                if v >= 5:  # filter evidence indices / section numbers
+                    ranges.append((v, v))
+    return ranges
+
+
+def citation_range_overlap_metrics(
+    gold_ranges: list[tuple[int, int]],
+    pred_ranges: list[tuple[int, int]],
+    tolerance: int = 1,
+) -> dict[str, float]:
+    """Citation precision/recall/F1 using range overlap with tolerance.
+
+    Each citation unit is a page range (start, end).  A predicted range
+    counts as a true-positive if it overlaps (within ±*tolerance* pages)
+    with any gold range, and vice-versa for recall.
+
+    Parameters
+    ----------
+    tolerance : int
+        Pages of slack added to each range boundary before checking
+        overlap.  ``tolerance=1`` means "125-129" matches gold "130".
+    """
+    if not gold_ranges and not pred_ranges:
+        return {"precision": 1.0, "recall": 1.0, "f1": 1.0}
+    if not gold_ranges or not pred_ranges:
+        return {"precision": 0.0, "recall": 0.0, "f1": 0.0}
+
+    def _overlaps(r1: tuple[int, int], r2: tuple[int, int]) -> bool:
+        return (r1[0] - tolerance) <= r2[1] and (r2[0] - tolerance) <= r1[1]
+
+    tp_pred = sum(
+        1 for p in pred_ranges if any(_overlaps(p, g) for g in gold_ranges)
+    )
+    tp_gold = sum(
+        1 for g in gold_ranges if any(_overlaps(p, g) for p in pred_ranges)
+    )
+    precision = tp_pred / len(pred_ranges)
+    recall = tp_gold / len(gold_ranges)
+    if precision + recall == 0:
+        f1 = 0.0
+    else:
+        f1 = 2 * precision * recall / (precision + recall)
+    return {"precision": precision, "recall": recall, "f1": f1}
+
+
+# ---------------------------------------------------------------------------
 # Aggregate compliance classification metrics
 # ---------------------------------------------------------------------------
 
