@@ -6,6 +6,24 @@ RQ3 is a single-condition characterisation study.  This module provides:
   2. Citation page overlap (precision / recall / F1 as set overlap of page numbers)
   3. Page number normalisation to handle format variations between gold and generated
   4. Bootstrap confidence interval computation (95% CI, 10 000 resamples)
+
+Citation precision design (v2)
+------------------------------
+Three complementary citation metrics are exposed:
+
+  * ``citation_page_metrics``         — strict page-set overlap (no tolerance).
+  * ``citation_range_overlap_metrics``— legacy range-by-range overlap with a
+    page tolerance.  Each raw range counts as one unit; preserved as a
+    backward-compatible baseline.
+  * ``citation_set_metrics``          — the recommended thesis metric.  It
+    deduplicates raw page strings into a *page set* on each side, then
+    measures set overlap with an optional page tolerance.  Deduplication
+    avoids double-counting (gold ``['167', '168', '167-168']`` is treated
+    as the page set ``{167, 168}`` rather than three units), and the
+    tolerance allows pages within ±N of any gold page to count as a true
+    positive — which is consistent with how human readers and the LLM
+    judge evaluate citation usefulness (claim-grounding, not exact page
+    bookkeeping).
 """
 
 from __future__ import annotations
@@ -184,6 +202,108 @@ def citation_range_overlap_metrics(
     else:
         f1 = 2 * precision * recall / (precision + recall)
     return {"precision": precision, "recall": recall, "f1": f1}
+
+
+def _dedup_page_set(raw_pages: list[str]) -> set[int]:
+    """Convert raw page strings into a deduplicated set of integer pages.
+
+    Differs from :func:`normalize_page_numbers` in that it rejects very
+    small integers that are almost certainly evidence indices (``< 5``)
+    and also rejects implausibly large numbers (``> 1500``).  Page
+    ranges are expanded; duplicates are collapsed by virtue of the
+    set semantics.
+    """
+    pages: set[int] = set()
+    for raw in raw_pages:
+        raw_str = str(raw).strip()
+        # Explicit ranges first (e.g. "43-44", "125–129")
+        for m in re.finditer(r"(\d+)\s*[-–]\s*(\d+)", raw_str):
+            start, end = int(m.group(1)), int(m.group(2))
+            if 0 <= end - start < 50 and start >= 5 and end <= 1500:
+                pages.update(range(start, end + 1))
+        # Standalone numbers
+        for m in _PAGE_NUM_RE.finditer(raw_str):
+            v = int(m.group(1))
+            if 5 <= v <= 1500:
+                pages.add(v)
+    return pages
+
+
+def citation_set_metrics(
+    gold_pages_raw: list[str],
+    pred_pages_raw: list[str],
+    tolerance: int = 1,
+) -> dict[str, float]:
+    """Deduplicated page-set citation metrics with optional page tolerance.
+
+    This is the RQ3 thesis-grade metric.  Both gold and predicted page
+    lists are first normalised to a *set* of integer pages (so that gold
+    annotations such as ``['167', '168', '167-168']`` collapse to the
+    set ``{167, 168}`` and predicted lists with consecutive pages
+    coming from the same retrieved chunk are not double-counted).
+
+    A predicted page counts as a true positive if it lies within
+    ±``tolerance`` of *any* gold page.  Gold pages count toward recall
+    if any predicted page lies within ±``tolerance``.  This mirrors how
+    a human reader (and the LLM judge) treats nearby pages from the
+    same evidence section as equivalent for verifying a claim.
+
+    Parameters
+    ----------
+    gold_pages_raw, pred_pages_raw : list[str]
+        Raw page-label strings from the gold standard and the generator.
+    tolerance : int, default 1
+        Page slack on either side when matching predicted vs gold pages.
+        ``tolerance=0`` is strict equality.
+
+    Returns
+    -------
+    dict
+        ``{"precision", "recall", "f1", "n_gold_pages", "n_pred_pages",
+           "n_overlap_pages"}``.
+    """
+    gold_set = _dedup_page_set(gold_pages_raw)
+    pred_set = _dedup_page_set(pred_pages_raw)
+
+    if not gold_set and not pred_set:
+        return {
+            "precision": 1.0, "recall": 1.0, "f1": 1.0,
+            "n_gold_pages": 0, "n_pred_pages": 0, "n_overlap_pages": 0,
+        }
+    if not gold_set or not pred_set:
+        return {
+            "precision": 0.0, "recall": 0.0, "f1": 0.0,
+            "n_gold_pages": len(gold_set), "n_pred_pages": len(pred_set),
+            "n_overlap_pages": 0,
+        }
+
+    if tolerance > 0:
+        gold_neigh: set[int] = set()
+        for p in gold_set:
+            gold_neigh.update(range(p - tolerance, p + tolerance + 1))
+        pred_neigh: set[int] = set()
+        for p in pred_set:
+            pred_neigh.update(range(p - tolerance, p + tolerance + 1))
+        tp_pred = len(pred_set & gold_neigh)
+        tp_gold = len(gold_set & pred_neigh)
+    else:
+        overlap = pred_set & gold_set
+        tp_pred = tp_gold = len(overlap)
+
+    precision = tp_pred / len(pred_set)
+    recall = tp_gold / len(gold_set)
+    f1 = (
+        2 * precision * recall / (precision + recall)
+        if (precision + recall) > 0 else 0.0
+    )
+    return {
+        "precision": precision,
+        "recall": recall,
+        "f1": f1,
+        "n_gold_pages": len(gold_set),
+        "n_pred_pages": len(pred_set),
+        "n_overlap_pages": min(tp_pred, tp_gold),
+    }
 
 
 # ---------------------------------------------------------------------------

@@ -441,7 +441,12 @@ def _validate(raw: dict[str, Any]) -> tuple[bool, str]:
 # ---------------------------------------------------------------------------
 
 def _call_anthropic(prompt: str, api_key: str, max_tokens: int = 1024) -> str:
-    """Call Anthropic Messages API via requests and return assistant text."""
+    """Call Anthropic Messages API via requests and return assistant text.
+
+    Handles transient 429 (rate-limit) and 5xx (server) errors with
+    exponential backoff so concurrent callers cooperate with the API
+    rather than burning fallback responses.
+    """
     headers = {
         "x-api-key": api_key,
         "anthropic-version": ANTHROPIC_API_VERSION,
@@ -452,16 +457,40 @@ def _call_anthropic(prompt: str, api_key: str, max_tokens: int = 1024) -> str:
         "max_tokens": max_tokens,
         "messages": [{"role": "user", "content": prompt}],
     }
-    resp = requests.post(
-        ANTHROPIC_API_URL,
-        headers=headers,
-        json=body,
-        timeout=90,
-        verify=False,
-    )
-    resp.raise_for_status()
-    data = resp.json()
-    return data["content"][0]["text"]
+
+    last_exc: Exception | None = None
+    backoff = 5.0
+    for attempt in range(5):
+        try:
+            resp = requests.post(
+                ANTHROPIC_API_URL,
+                headers=headers,
+                json=body,
+                timeout=120,
+                verify=False,
+            )
+        except requests.RequestException as exc:
+            last_exc = exc
+            time.sleep(backoff)
+            backoff = min(backoff * 2, 60.0)
+            continue
+        if resp.status_code == 429 or resp.status_code >= 500:
+            retry_after = resp.headers.get("retry-after")
+            try:
+                wait = float(retry_after) if retry_after else backoff
+            except ValueError:
+                wait = backoff
+            wait = max(wait, 1.0)
+            time.sleep(wait)
+            backoff = min(backoff * 2, 60.0)
+            continue
+        resp.raise_for_status()
+        data = resp.json()
+        return data["content"][0]["text"]
+
+    if last_exc is not None:
+        raise last_exc
+    raise RuntimeError("Anthropic API exhausted retries")
 
 
 def _parse_json(text: str) -> dict[str, Any]:

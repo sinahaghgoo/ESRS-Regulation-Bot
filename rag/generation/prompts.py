@@ -104,7 +104,14 @@ def build_answer_messages(
             "Return one JSON object with exactly these keys: direct_answer, compliance_level, compliance_rationale, key_findings, disclosure_gaps, cited_pages.",
             "compliance_level must be one of Low, Medium, High.",
             "key_findings, disclosure_gaps, and cited_pages must be JSON arrays.",
-            "cited_pages may include only page labels present in the retrieved evidence block.",
+            "",
+            "CITED_PAGES — RULES (read carefully):",
+            "- Include EVERY retrieved page whose specific content directly supports a quantitative metric, methodology step, or substantive factual claim that you actually state in direct_answer or compliance_rationale.  Missing a supporting page leaves that claim ungrounded.",
+            "- EXCLUDE retrieved pages whose content you did not actually use to back a claim — pages whose role is only general background, navigation, or tangentially-related material MUST be omitted.",
+            "- Aim for the union of all directly-cited evidence; this is typically 4 to 7 pages.  Do not artificially cap the list — completeness for actually-used pages is more important than minimising the count.  But also do not pad: every entry must correspond to a substantive claim.",
+            "- Use the original page label format from the evidence block (a single page like \"167\" or a contiguous span like \"167-168\").  Prefer one span entry over enumerating each page within the span.",
+            "- Page labels must be drawn from the retrieved evidence block; do not invent page numbers.",
+            "- If two retrieved chunks cover the same page, cite that page (or its containing span) only once.",
         ]
     )
 
@@ -129,7 +136,7 @@ def build_answer_messages(
             "Retrieved company report evidence (only source for company-disclosure claims):",
             evidence_block,
             "",
-            "Write a faithful direct answer, assign the disclosure fulfillment level, explain the reasoning, list key findings and only question-relevant disclosure gaps, and cite only pages that appear in the retrieved evidence.",
+            "Write a faithful direct answer, assign the disclosure fulfillment level, explain the reasoning, list key findings and only question-relevant disclosure gaps.  For cited_pages, list EVERY page whose specific content backs a substantive claim you actually wrote above (typically 4-7 pages); ensure every claim is grounded, but do not include retrieved pages whose content you did not use.",
         ]
     )
     user = "\n".join(user_sections)
